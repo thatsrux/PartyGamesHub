@@ -6,6 +6,11 @@ import { Users, Settings } from 'lucide-react';
 import { useLobby } from '../hooks/useLobby';
 import HostVeroOFake from '../games/VeroOFake/HostVeroOFake';
 import HostLaCarriera from '../games/LaCarriera/HostLaCarriera';
+import HostImpostore from '../games/Impostore/HostImpostore';
+import HostFantaAsta from '../games/FantaAsta/HostFantaAsta';
+import HostFalsario from '../games/Falsario/HostFalsario';
+import HostCollegamento from '../games/Collegamento/HostCollegamento';
+import HostDisegnatore from '../games/Disegnatore/HostDisegnatore';
 import FloatingLobbyCode from '../components/shared/FloatingLobbyCode';
 import ErrorBoundary from '../components/ErrorBoundary';
 import Avatar from '../components/shared/Avatar';
@@ -131,6 +136,46 @@ function HostLobbyContent() {
       return (
         <>
           <HostLaCarriera lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'impostore') {
+      return (
+        <>
+          <HostImpostore lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'fanta_asta') {
+      return (
+        <>
+          <HostFantaAsta lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'falsario') {
+      return (
+        <>
+          <HostFalsario lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'collegamento') {
+      return (
+        <>
+          <HostCollegamento lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'disegnatore') {
+      return (
+        <>
+          <HostDisegnatore lobbyCode={lobbyCode} />
           <FloatingLobbyCode code={lobbyCode} />
         </>
       );

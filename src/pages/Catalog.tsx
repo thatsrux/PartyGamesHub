@@ -1,4 +1,4 @@
-﻿import { motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
 const catalogData = [
@@ -33,7 +33,7 @@ const catalogData = [
       { name: 'Budget Iniziale', desc: 'Crediti di partenza per ogni giocatore.' },
       { name: 'Giocatori per Rosa', desc: 'Quanti giocatori formano la squadra finale.' }
     ],
-    status: 'coming_soon'
+    status: 'available'
   },
   {
     id: 'impostore',
@@ -44,7 +44,31 @@ const catalogData = [
       { name: 'Numero Impostori', desc: 'Quanti giocatori ricevono il ruolo di impostore.' },
       { name: 'Tema Parole', desc: 'La categoria di parole segrete da utilizzare (Calcio, Film, Videogiochi).' }
     ],
-    status: 'coming_soon'
+    status: 'available'
+  },
+  {
+    id: 'disegnatore',
+    title: 'Disegnatore Bendato',
+    icon: '🎨',
+    description: 'Un giocatore disegnerà un oggetto misterioso sul suo telefono (che comparirà in tempo reale sulla TV). Gli altri dovranno indovinare il prima possibile scrivendo la risposta!',
+    settings: [],
+    status: 'available'
+  },
+  {
+    id: 'falsario',
+    title: 'Il Falsario',
+    icon: '🤥',
+    description: 'Scrivi una bugia credibile per completare la frase. Poi, vota la risposta che ritieni corretta. Attento a non farti ingannare dalle bugie degli altri!',
+    settings: [],
+    status: 'available'
+  },
+  {
+    id: 'collegamento',
+    title: 'Il Collegamento',
+    icon: '🔗',
+    description: 'Sulla TV vedrai i loghi di due squadre di club diverse. Il tuo compito sul telefono sarà trovare il nome di un giocatore che abbia giocato in entrambe queste squadre nella sua carriera.',
+    settings: [],
+    status: 'available'
   }
 ];
 

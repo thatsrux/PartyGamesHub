@@ -4,6 +4,11 @@ import { motion } from 'framer-motion';
 import { useLobby } from '../hooks/useLobby';
 import ClientVeroOFake from '../games/VeroOFake/ClientVeroOFake';
 import ClientLaCarriera from '../games/LaCarriera/ClientLaCarriera';
+import ClientImpostore from '../games/Impostore/ClientImpostore';
+import ClientFantaAsta from '../games/FantaAsta/ClientFantaAsta';
+import ClientFalsario from '../games/Falsario/ClientFalsario';
+import ClientCollegamento from '../games/Collegamento/ClientCollegamento';
+import ClientDisegnatore from '../games/Disegnatore/ClientDisegnatore';
 import ExitButton from '../components/shared/ExitButton';
 import AdminTerminateButton from '../components/shared/AdminTerminateButton';
 import FloatingLobbyCode from '../components/shared/FloatingLobbyCode';
@@ -21,7 +26,12 @@ export default function ClientJoin() {
   const [error, setError] = useState<string | null>(null);
 
   const defaultSettings: Record<string, any> = {
-    'la_carriera': { rounds: 10, duration: 30 }
+    'la_carriera': { rounds: 10, duration: 30 },
+    'impostore': { duration: 60 },
+    'fanta_asta': { players: 5, budget: 500 },
+    'falsario': {},
+    'collegamento': {},
+    'disegnatore': {}
   };
   const [settingsOpen, setSettingsOpen] = useState<string | null>(null);
   const [localSettings, setLocalSettings] = useState<any>(
@@ -84,6 +94,21 @@ export default function ClientJoin() {
         }
         if (lobby.game_selected === 'la_carriera') {
           return <ClientLaCarriera lobbyCode={code} userId={userId} />;
+        }
+        if (lobby.game_selected === 'impostore') {
+          return <ClientImpostore lobbyCode={code} userId={userId} />;
+        }
+        if (lobby.game_selected === 'fanta_asta') {
+          return <ClientFantaAsta lobbyCode={code} userId={userId} />;
+        }
+        if (lobby.game_selected === 'falsario') {
+          return <ClientFalsario lobbyCode={code} userId={userId} />;
+        }
+        if (lobby.game_selected === 'collegamento') {
+          return <ClientCollegamento lobbyCode={code} userId={userId} />;
+        }
+        if (lobby.game_selected === 'disegnatore') {
+          return <ClientDisegnatore lobbyCode={code} userId={userId} />;
         }
         return null;
       };
@@ -234,17 +259,38 @@ export default function ClientJoin() {
                 </div>
                 
                 <div style={{ display: 'flex', gap: '0.5rem' }}>
-                  <button className="btn btn-secondary" disabled style={{ flex: 1, opacity: 0.5 }}>
-                    🕵️ Impostore (Prossimamente)
+                  <button className="btn btn-primary" style={{ flex: 1, background: '#ef4444' }} onClick={() => handleStartGame('impostore')}>
+                    🕵️ Impostore
                   </button>
-                  <button className="btn btn-secondary" disabled style={{ padding: '0 1rem', opacity: 0.5 }}>⚙️</button>
+                  <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('impostore')}>⚙️</button>
                 </div>
                 
                 <div style={{ display: 'flex', gap: '0.5rem' }}>
-                  <button className="btn btn-secondary" disabled style={{ flex: 1, opacity: 0.5 }}>
-                    💰 Fanta-Asta (Prossimamente)
+                  <button className="btn btn-primary" style={{ flex: 1, background: '#f59e0b' }} onClick={() => handleStartGame('fanta_asta')}>
+                    💰 Fanta-Asta al Buio
                   </button>
-                  <button className="btn btn-secondary" disabled style={{ padding: '0 1rem', opacity: 0.5 }}>⚙️</button>
+                  <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('fanta_asta')}>⚙️</button>
+                </div>
+                
+                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                  <button className="btn btn-primary" style={{ flex: 1, background: '#8b5cf6' }} onClick={() => handleStartGame('falsario')}>
+                    🤥 Il Falsario
+                  </button>
+                  <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('falsario')}>⚙️</button>
+                </div>
+                
+                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                  <button className="btn btn-primary" style={{ flex: 1, background: '#0ea5e9' }} onClick={() => handleStartGame('collegamento')}>
+                    🔗 Il Collegamento
+                  </button>
+                  <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('collegamento')}>⚙️</button>
+                </div>
+
+                <div style={{ display: 'flex', gap: '0.5rem' }}>
+                  <button className="btn btn-primary" style={{ flex: 1, background: '#db2777' }} onClick={() => handleStartGame('disegnatore')}>
+                    🎨 Disegnatore Bendato
+                  </button>
+                  <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('disegnatore')}>⚙️</button>
                 </div>
               </div>
             </motion.div>
