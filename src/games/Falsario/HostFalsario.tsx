@@ -185,7 +185,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
                   
                   return (
                     <div key={id} style={{ fontSize: '1.2rem' }}>
-                      <span style={{ fontWeight: 'bold' }}>{p.name}</span> ha creduto alla bugia di <span style={{ color: 'var(--color-danger)', fontWeight: 'bold' }}>{liarName}</span>! <span style={{ color: 'var(--color-warning)' }}>(+100 a {liarName})</span>
+                      <span style={{ color: 'var(--color-danger)', fontWeight: 'bold' }}>{liarName}</span> ha ingannato <span style={{ fontWeight: 'bold' }}>{p.name}</span>! <span style={{ color: 'var(--color-warning)' }}>(+100)</span>
                     </div>
                   );
                 } else {
