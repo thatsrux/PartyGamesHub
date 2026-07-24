@@ -30,7 +30,7 @@ Welcome! If you are an AI model working on this project, please adhere to the fo
 6. **Deployment & Version Control:**
    EVERY single change must be pushed to GitHub. Do not leave local uncommitted changes. The repository is connected to Vercel for continuous deployment.
    - **GitHub Repository:** https://github.com/thatsrux/PartyGamesHub
-   - **Branching Strategy:** You must choose the appropriate branch (`prod` or `test`) depending on the user's explicit request, but regardless of the branch, you MUST commit and push.
+   - **Branching Strategy:** You must choose the appropriate branch (`prod` or `test`) depending on the user's explicit request, but regardless of the branch, you MUST commit and push. Note: ALL major changes and completed features can (and sometimes MUST) be pushed directly to `prod` to keep the production version updated with big milestones.
 
 7. **Documentation Updates:**
    Always remember to update the `README.md` file after every major or important change to the project to keep the documentation aligned with the current state of the codebase.
