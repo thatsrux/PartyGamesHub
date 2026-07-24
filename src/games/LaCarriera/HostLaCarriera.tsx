@@ -16,11 +16,6 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [clueIndex, setClueIndex] = useState(0);
   const [selectedCareers, setSelectedCareers] = useState<any[]>([]);
-  const [teamsDb, setTeamsDb] = useState<any[]>([]);
-
-  useEffect(() => {
-    get(dbRef(db, 'games_data/teams')).then(snap => setTeamsDb(snap.val() || []));
-  }, []);
 
   // Initialize game state if not set
   useEffect(() => {
