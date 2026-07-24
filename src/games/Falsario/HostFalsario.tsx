@@ -170,7 +170,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
         {gameState.phase === 'reveal' && (
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
             <h2 style={{ fontSize: '3rem', color: 'var(--color-success)', marginBottom: '2rem' }}>La Verità era:</h2>
-            <h1 style={{ fontSize: '4rem', textTransform: 'uppercase', background: 'rgba(16, 185, 129, 0.2)', padding: '2rem', borderRadius: '1rem', display: 'inline-block' }}>
+            <h1 style={{ fontSize: '4rem', textTransform: 'uppercase', color: 'white', background: 'rgba(16, 185, 129, 0.2)', padding: '2rem', borderRadius: '1rem', display: 'inline-block' }}>
               {gameState.question?.truth}
             </h1>
 
