@@ -65,8 +65,12 @@ export function useLobby(lobbyCode: string | null) {
     const hasAdmin = playersArray.some(([_, p]) => p.isAdmin);
     
     if (!hasAdmin) {
-      // Find the player with the oldest joinedAt
-      const sortedPlayers = playersArray.sort((a, b) => (a[1].joinedAt || 0) - (b[1].joinedAt || 0));
+      // Find the player with the oldest joinedAt (tiebreaker: userId)
+      const sortedPlayers = playersArray.sort((a, b) => {
+        const timeDiff = (a[1].joinedAt || 0) - (b[1].joinedAt || 0);
+        if (timeDiff !== 0) return timeDiff;
+        return a[0].localeCompare(b[0]);
+      });
       const nextAdminId = sortedPlayers[0]?.[0];
       
       // If I am the next admin, I promote myself

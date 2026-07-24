@@ -70,8 +70,8 @@ export default function ClientJoin() {
     }
 
     // Check if it's the first player
-    const playersInDb = lobbySnapshot.val().players || {};
-    const isAdmin = Object.keys(playersInDb).length === 0;
+    // Lasciamo che sia useLobby.ts ad auto-promuovere il primo tramite joinedAt in modo sicuro
+    const isAdmin = false;
     
     await joinLobby(code, nickname, profile?.photo, isAdmin);
     setIsJoined(true);
