@@ -176,7 +176,6 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
               {currentCareer.clues.slice(0, clueIndex + 1).map((clueData: any, idx: number) => {
                 const isObject = typeof clueData === 'object' && clueData !== null;
                 const clueName = isObject ? clueData.name : clueData;
-                const clueLogo = isObject ? clueData.logo : null;
                 const clueYears = isObject ? clueData.years : null;
                 
                 return (
@@ -280,7 +279,6 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
                 {currentCareer.clues.map((clueData: any, idx: number) => {
                   const isObject = typeof clueData === 'object' && clueData !== null;
                   const clueName = isObject ? clueData.name : clueData;
-                  const clueLogo = isObject ? clueData.logo : null;
                   const clueYears = isObject ? clueData.years : null;
                   
                   return (

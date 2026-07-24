@@ -5,6 +5,7 @@ import { db, auth } from '../firebase';
 
 export interface Player {
   name: string;
+  photo?: string;
   score: number;
   isReady?: boolean;
   isAdmin?: boolean;

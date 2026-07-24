@@ -14,7 +14,7 @@ export default function ClientJoin() {
   const [searchParams] = useSearchParams();
   const codeFromUrl = searchParams.get('code') || '';
   
-  const { profile, loading: profileLoading } = useProfile();
+  const { profile } = useProfile();
   const [code, setCode] = useState(codeFromUrl);
   const [nickname, setNickname] = useState('');
   const [isJoined, setIsJoined] = useState(false);
