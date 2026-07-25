@@ -12,6 +12,13 @@ L'esperienza visiva è curata nei minimi dettagli con animazioni fluide tramite 
 
 ---
 
+## 🆕 Ultime Novità
+
+- **La Carriera:** Database sfoltito a 604 giocatori selezionati. I club sono ora estratti direttamente dalle tabelle ufficiali di Wikipedia per evitare loghi/nomi "sporchi" di Wikidata (inclusi i ritorni nelle stesse squadre). Supporto migliorato per indovinare nomi con caratteri speciali (es. Ø, æ, ł, ecc.).
+- **Impostore:** Logica per il game over immediato ottimizzata, impedendo loop infiniti.
+
+---
+
 ## 🎮 Come Funziona
 
 1. **Host:** Qualcuno apre il sito sulla TV o sul computer, creando una nuova Lobby.

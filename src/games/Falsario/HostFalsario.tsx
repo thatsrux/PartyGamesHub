@@ -8,11 +8,7 @@ import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import RoundTracker from '../../components/shared/RoundTracker';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 
-const questions = [
-  { text: "Il soprannome d'infanzia di Pelé era...", truth: "Dico" },
-  { text: "Prima di diventare famoso, Cristiano Ronaldo veniva chiamato...", truth: "Crybaby" },
-  { text: "Il vero nome di Kakà è Ricardo Izecson dos Santos Leite. 'Kakà' deriva da...", truth: "Suo fratello" }
-];
+import falsarioQuestions from '../../data/falsario.json';
 
 export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
@@ -23,12 +19,28 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
   // Initialize
   useEffect(() => {
     if (lobby && !gameState.phase) {
-      const randomQ = questions[Math.floor(Math.random() * questions.length)];
+      const allQ = falsarioQuestions as any[];
+      // Filter by category if setting exists, else use all
+      const selectedCategory = gameState.settings?.falsarioCategory;
+      const filteredQ = selectedCategory && selectedCategory !== 'Tutte' 
+        ? allQ.filter(q => q.category === selectedCategory) 
+        : allQ;
+      
+      const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
+      const sequence: number[] = [];
+      const totalRounds = Math.min(gameState.settings?.rounds || 5, availableQ.length);
+      
+      while(sequence.length < totalRounds) {
+        const rand = Math.floor(Math.random() * availableQ.length);
+        if(!sequence.includes(rand)) sequence.push(rand);
+      }
       
       updateGameState({
         phase: 'write_lie',
         round: 1,
-        question: randomQ,
+        totalRounds: totalRounds,
+        sequence: sequence,
+        question: availableQ[sequence[0]],
         lies: {},
         votes: {},
         startTime: Date.now()
@@ -78,20 +90,28 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
     const lies = gameState.lies || {};
     const votes = gameState.votes || {};
 
+    // Calculate score additions locally first to prevent Firebase race conditions
+    const scoreAdditions: Record<string, number> = {};
+
     playerIds.forEach(voterId => {
       const votedAnswer = votes[voterId];
       
       if (votedAnswer === truth) {
         // Correct answer
-        updatePlayerScore(voterId, 100);
+        scoreAdditions[voterId] = (scoreAdditions[voterId] || 0) + 100;
       } else {
         // Find who wrote this lie
         playerIds.forEach(liarId => {
           if (lies[liarId] === votedAnswer && liarId !== voterId) {
-            updatePlayerScore(liarId, 100);
+            scoreAdditions[liarId] = (scoreAdditions[liarId] || 0) + 100;
           }
         });
       }
+    });
+
+    // Apply all score additions
+    Object.entries(scoreAdditions).forEach(([id, points]) => {
+      updatePlayerScore(id, points);
     });
 
     updateGameState({ phase: 'reveal' });
@@ -100,17 +120,26 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
   useEffect(() => {
     if (gameState.action === 'next_round' && gameState.phase === 'reveal') {
       const currentRound = gameState.round || 1;
-      const totalRounds = Math.min(gameState.settings?.rounds || 3, questions.length);
+      const totalRounds = gameState.totalRounds || 5;
       
       if (currentRound < totalRounds) {
-        // Pick the next question (or a random unplayed one). We'll just use the index for simplicity.
-        const randomQ = questions[currentRound % questions.length];
+        const sequence = gameState.sequence || [];
+        const allQ = falsarioQuestions as any[];
+        const selectedCategory = gameState.settings?.falsarioCategory;
+        const filteredQ = selectedCategory && selectedCategory !== 'Tutte' 
+          ? allQ.filter(q => q.category === selectedCategory) 
+          : allQ;
+        const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
+        
+        const nextQIndex = sequence[currentRound] !== undefined ? sequence[currentRound] : Math.floor(Math.random() * availableQ.length);
+        const nextQ = availableQ[nextQIndex];
+
         updateGameState({
           phase: 'write_lie',
           round: currentRound + 1,
-          question: randomQ,
-          lies: {},
-          votes: {},
+          question: nextQ,
+          lies: null,
+          votes: null,
           options: null,
           action: null,
           startTime: Date.now()
@@ -119,7 +148,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
         updateGameState({ phase: 'finished', action: null });
       }
     }
-  }, [gameState.action, gameState.phase]);
+  }, [gameState.action, gameState.actionId, gameState.phase]);
 
 
   if (!gameState.phase) return <div>Caricamento...</div>;
@@ -129,7 +158,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
       
       {gameState.phase !== 'finished' && (
         <>
-          <RoundTracker current={gameState.round || 1} total={Math.min(gameState.settings?.rounds || 3, questions.length)} />
+          <RoundTracker current={gameState.round || 1} total={gameState.totalRounds || 5} />
           <MiniLeaderboardTV players={players} animateUpdates={true} />
         </>
       )}
@@ -199,39 +228,96 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
         )}
 
         {gameState.phase === 'reveal' && (
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-            <h2 style={{ fontSize: '3rem', color: 'var(--color-success)', marginBottom: '2rem' }}>La Verità era:</h2>
-            <h1 style={{ fontSize: '4rem', textTransform: 'uppercase', color: 'white', background: 'rgba(16, 185, 129, 0.2)', padding: '2rem', borderRadius: '1rem', display: 'inline-block' }}>
+          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ width: '100%', maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
+            <h2 style={{ fontSize: '2.5rem', color: 'var(--color-text-muted)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '2px' }}>La Verità era:</h2>
+            <h1 style={{ fontSize: '4rem', textTransform: 'uppercase', color: 'white', background: 'var(--color-success)', padding: '2rem 4rem', borderRadius: '24px', display: 'inline-block', boxShadow: '0 10px 30px rgba(16, 185, 129, 0.3)', marginBottom: '4rem', textAlign: 'center' }}>
               {gameState.question?.truth}
             </h1>
 
-            <div style={{ marginTop: '3rem', display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center' }}>
-              <h3 style={{ color: 'var(--color-text-muted)' }}>Chi ha ingannato chi?</h3>
-              {Object.entries(players).map(([id, p]: any) => {
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', alignItems: 'stretch' }}>
+              {Object.entries(players).map(([id, p]: any, index: number) => {
                 const votedFor = gameState.votes?.[id];
-                if (votedFor !== gameState.question.truth) {
-                  // Find liar
+                const guessedTruth = votedFor === gameState.question.truth;
+                
+                let liarName = '';
+                if (!guessedTruth) {
                   const liarEntry = Object.entries(gameState.lies || {}).find(([_, lie]) => lie === votedFor);
-                  const liarName = liarEntry && liarEntry[0] !== id ? players[liarEntry[0]]?.name : 'nessuno';
-                  
-                  return (
-                    <div key={id} style={{ fontSize: '1.2rem' }}>
-                      <span style={{ color: 'var(--color-danger)', fontWeight: 'bold' }}>{liarName}</span> ha ingannato <span style={{ fontWeight: 'bold' }}>{p.name}</span>! <span style={{ color: 'var(--color-warning)' }}>(+100)</span>
-                    </div>
-                  );
-                } else {
-                   return (
-                    <div key={id} style={{ fontSize: '1.2rem', color: 'var(--color-success)' }}>
-                      <span style={{ fontWeight: 'bold' }}>{p.name}</span> ha indovinato la verità! (+100)
-                    </div>
-                  );
+                  if (liarEntry && liarEntry[0] !== id) {
+                    liarName = players[liarEntry[0]]?.name || 'nessuno';
+                  } else {
+                    liarName = 'se stesso';
+                  }
                 }
+                
+                return (
+                  <motion.div 
+                    key={id} 
+                    initial={{ opacity: 0, x: -50 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: index * 0.3, type: 'spring' }}
+                    style={{ 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      gap: '1.5rem', 
+                      background: 'rgba(255,255,255,0.05)', 
+                      padding: '1.5rem 2rem', 
+                      borderRadius: '16px',
+                      borderLeft: `6px solid ${guessedTruth ? 'var(--color-success)' : 'var(--color-danger)'}`,
+                      boxShadow: '0 8px 32px rgba(0,0,0,0.1)'
+                    }}
+                  >
+                    <Avatar photo={p.photo} name={p.name} size={64} />
+                    
+                    <div style={{ flex: 1, textAlign: 'left' }}>
+                      <h3 style={{ fontSize: '1.6rem', color: 'white', marginBottom: '0.4rem' }}>{p.name}</h3>
+                      {guessedTruth ? (
+                        <p style={{ color: 'var(--color-success)', fontSize: '1.2rem', fontWeight: '500' }}>Ha indovinato la verità!</p>
+                      ) : (
+                        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.2rem' }}>
+                          È caduto nella trappola di <span style={{ color: 'var(--color-danger)', fontWeight: 'bold' }}>{liarName}</span>!
+                        </p>
+                      )}
+                    </div>
+                    
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', background: 'rgba(0,0,0,0.2)', padding: '0.8rem 1.2rem', borderRadius: '12px', minWidth: '120px' }}>
+                       {guessedTruth ? (
+                         <span style={{ fontSize: '1.8rem', fontWeight: '900', color: 'var(--color-success)' }}>
+                           +100 pt
+                         </span>
+                       ) : (
+                         <>
+                           <span style={{ fontSize: '1.2rem', fontWeight: 'bold', color: 'rgba(255,255,255,0.3)', textDecoration: 'line-through' }}>
+                             0 pt
+                           </span>
+                           {liarName !== 'nessuno' && liarName !== 'se stesso' && (
+                             <span style={{ fontSize: '1.1rem', fontWeight: '900', color: 'var(--color-danger)', marginTop: '0.4rem' }}>
+                               +100 a {liarName}
+                             </span>
+                           )}
+                         </>
+                       )}
+                    </div>
+                  </motion.div>
+                );
               })}
             </div>
             
-            <p style={{ marginTop: '3rem', color: 'var(--color-text-muted)', fontSize: '1.2rem' }} className="animate-pulse">
-              In attesa dell'Admin...
-            </p>
+            <div style={{ marginTop: '4rem', display: 'flex', justifyContent: 'center' }}>
+              <motion.div 
+                animate={{ opacity: [0.5, 1, 0.5] }} 
+                transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                style={{ background: 'rgba(255,255,255,0.05)', padding: '1.2rem 2.5rem', borderRadius: '50px', border: '1px solid rgba(255,255,255,0.1)', display: 'flex', alignItems: 'center', gap: '1.5rem' }}
+              >
+                <motion.div 
+                  animate={{ rotate: 360 }} 
+                  transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
+                  style={{ width: '24px', height: '24px', border: '3px solid rgba(255,255,255,0.1)', borderTopColor: 'var(--color-primary)', borderRadius: '50%' }}
+                />
+                <p style={{ color: 'white', fontSize: '1.2rem', margin: 0, fontWeight: '500', letterSpacing: '1px' }}>
+                  L'Admin sta scegliendo il prossimo round...
+                </p>
+              </motion.div>
+            </div>
           </motion.div>
         )}
 

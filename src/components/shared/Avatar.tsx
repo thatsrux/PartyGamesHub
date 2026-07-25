@@ -27,10 +27,10 @@ export default function Avatar({
   // Fallback to initial
   const safeName = name || '?';
   const initial = safeName.charAt(0).toUpperCase();
-  // Generate a consistent background color based on name
+  // Generate a consistent background color based ONLY on the first uppercase letter
   let hash = 0;
-  for (let i = 0; i < safeName.length; i++) {
-    hash = safeName.charCodeAt(i) + ((hash << 5) - hash);
+  for (let i = 0; i < initial.length; i++) {
+    hash = initial.charCodeAt(i) + ((hash << 5) - hash);
   }
   const color = `hsl(${Math.abs(hash) % 360}, 70%, 50%)`;
 

@@ -37,7 +37,7 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
     
     return (
       <GameLayoutMobile themeKey="vero_o_fake" style={{ justifyContent: 'center', textAlign: 'center' }}>
-        <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.settings?.rounds || 10} isMobile />
+        <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 10} isMobile />
         <motion.div 
           className="panel" 
           initial={{ scale: 0.8 }} 
@@ -59,7 +59,7 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
               style={{ marginTop: '3rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
               onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
             >
-              Prossimo Round (Admin)
+              {(gameState.questionIndex || 0) + 1 >= (gameState.totalRounds || gameState.settings?.rounds || 10) ? 'Termina Partita (Admin)' : 'Prossimo Round (Admin)'}
             </button>
           )}
         </motion.div>
@@ -69,7 +69,7 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
 
   return (
     <GameLayoutMobile themeKey="vero_o_fake" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
-      <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.settings?.rounds || 10} isMobile />
+      <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 10} isMobile />
       <ProgressBar durationMs={(gameState.settings?.duration || 15) * 1000} startTime={gameState.startTime} />
       
       {!myAnswer ? (

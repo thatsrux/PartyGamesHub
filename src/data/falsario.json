@@ -1,0 +1,5002 @@
+[
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome dell'attore che interpreta Iron Man è...",
+    "truth": "Robert Downey Jr."
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il film con il maggior incasso della storia (senza inflazione) è...",
+    "truth": "Avatar"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Nella serie Breaking Bad, Walter White produce...",
+    "truth": "Metanfetamina"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il creatore di Star Wars è...",
+    "truth": "George Lucas"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del mago con la cicatrice a forma di saetta è...",
+    "truth": "Harry Potter"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La spada laser di Luke Skywalker ne Il ritorno dello Jedi è di colore...",
+    "truth": "Verde"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "In Ritorno al Futuro, l'auto usata per viaggiare nel tempo è una...",
+    "truth": "DeLorean"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome della madre dei draghi in Game of Thrones è...",
+    "truth": "Daenerys Targaryen"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il protagonista del film Forrest Gump è interpretato da...",
+    "truth": "Tom Hanks"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del supereroe che viene da Krypton è...",
+    "truth": "Superman"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'anello del potere nel Signore degli Anelli deve essere distrutto nel Monte...",
+    "truth": "Fato"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il cattivo principale della saga di Harry Potter è...",
+    "truth": "Voldemort"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il capitano della nave pirata Perla Nera è...",
+    "truth": "Jack Sparrow"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il vero nome di Batman è...",
+    "truth": "Bruce Wayne"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il regista di Titanic e Avatar è...",
+    "truth": "James Cameron"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Nella serie Stranger Things, la ragazza con i poteri telecinetici si chiama...",
+    "truth": "Undici"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'attore che ha interpretato il Joker ne Il Cavaliere Oscuro (2008) è...",
+    "truth": "Heath Ledger"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il leone protagonista de Il Re Leone si chiama...",
+    "truth": "Simba"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La città in cui è ambientata la serie Friends è...",
+    "truth": "New York"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del pesce chirurgo smemorato in Alla ricerca di Nemo è...",
+    "truth": "Dory"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'arma preferita di Thor è un...",
+    "truth": "Martello"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La spia inglese con licenza di uccidere 007 si chiama...",
+    "truth": "James Bond"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il mondo virtuale in cui le macchine tengono prigionieri gli umani è chiamato...",
+    "truth": "Matrix"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del famoso archeologo interpretato da Harrison Ford è...",
+    "truth": "Indiana Jones"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il mostro gigante giapponese simile a un dinosauro mutato è...",
+    "truth": "Godzilla"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La casa di produzione di Topolino e Paperino è la...",
+    "truth": "Disney"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il serial killer cannibale interpretato da Anthony Hopkins è...",
+    "truth": "Hannibal Lecter"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La famiglia protagonista de I Simpson vive nella città di...",
+    "truth": "Springfield"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'attore che interpreta Wolverine negli X-Men è...",
+    "truth": "Hugh Jackman"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "In Squid Game, il premio finale è in denaro sudcoreano chiamato...",
+    "truth": "Won"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del pianeta natale di Superman è...",
+    "truth": "Krypton"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'oggetto magico che permette a Doctor Strange di manipolare il tempo è l'Occhio di...",
+    "truth": "Agamotto"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome della moglie di Homer Simpson è...",
+    "truth": "Marge"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La bambina protagonista de Il Labirinto del Fauno si chiama...",
+    "truth": "Ofelia"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome della serie TV con i personaggi di Sheldon, Leonard e Penny è...",
+    "truth": "The Big Bang Theory"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il celebre alieno creato da Steven Spielberg nel 1982 si chiama...",
+    "truth": "E.T."
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il protagonista di Peaky Blinders si chiama...",
+    "truth": "Tommy Shelby"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del cane di John Wick ucciso nel primo film è...",
+    "truth": "Daisy"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'attore che interpreta Neo in Matrix è...",
+    "truth": "Keanu Reeves"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il supereroe cieco della Marvel che di giorno fa l'avvocato è...",
+    "truth": "Daredevil"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome della prigione magica in Harry Potter è...",
+    "truth": "Azkaban"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il regista di E.T. e Jurassic Park è...",
+    "truth": "Steven Spielberg"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il vero nome di Spider-Man è...",
+    "truth": "Peter Parker"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'amico di Woody in Toy Story, che è uno space ranger, si chiama...",
+    "truth": "Buzz Lightyear"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome dell'intelligenza artificiale di Iron Man è...",
+    "truth": "J.A.R.V.I.S."
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il protagonista di The Office (US) e capo della filiale di Scranton è...",
+    "truth": "Michael Scott"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'autore dei romanzi da cui è tratto Il Trono di Spade è...",
+    "truth": "George R.R. Martin"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'hotel per assassini nell'universo di John Wick si chiama...",
+    "truth": "Continental"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del parco con i dinosauri clonati creato da John Hammond è...",
+    "truth": "Jurassic Park"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'attore che interpreta il Capitano Jack Sparrow è...",
+    "truth": "Johnny Depp"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del robot protagonista in Wall-E è...",
+    "truth": "Wall-E"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La madre di Luke Skywalker e Principessa di Naboo si chiama...",
+    "truth": "Padmé Amidala"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del quartiere in cui vive Willy, Il principe di...",
+    "truth": "Bel-Air"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'attore che interpreta il protagonista in Joker (2019) è...",
+    "truth": "Joaquin Phoenix"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il poliziotto cyborg del film del 1987 si chiama...",
+    "truth": "RoboCop"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il compagno di avventure di Shrek è un...",
+    "truth": "Asino"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'attore che interpreta Dominic Toretto in Fast & Furious è...",
+    "truth": "Vin Diesel"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il cattivo di Avengers: Infinity War che schiocca le dita è...",
+    "truth": "Thanos"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La serie tv in cui dei criminali indossano la maschera di Dalì è...",
+    "truth": "La Casa di Carta"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del protagonista di The Truman Show è...",
+    "truth": "Truman Burbank"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il supereroe che si trasforma quando si arrabbia e diventa verde è...",
+    "truth": "Hulk"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome dell'accademia frequentata da Mercoledì Addams è...",
+    "truth": "Nevermore"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La pellicola vincitrice di 11 premi Oscar diretta da Peter Jackson è Il Ritorno del...",
+    "truth": "Re"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il serial killer protagonista della serie tv Dexter lavora come ematologo forense a...",
+    "truth": "Miami"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'astronave capitanata da James T. Kirk in Star Trek è la...",
+    "truth": "Enterprise"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'attore protagonista della saga di Mission: Impossible è...",
+    "truth": "Tom Cruise"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La bambola assassina dei film horror si chiama...",
+    "truth": "Chucky"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'orco verde protagonista dei film d'animazione DreamWorks è...",
+    "truth": "Shrek"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La serie TV con vampiri adolescenti ambientata a Mystic Falls è...",
+    "truth": "The Vampire Diaries"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del villain in Nightmare Before Christmas è...",
+    "truth": "Bau Bau (Oogie Boogie)"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il maestro Jedi verde che allena Luke Skywalker su Dagobah è...",
+    "truth": "Yoda"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'agenzia di spionaggio britannica per cui lavora Kingsman è nascosta dietro una...",
+    "truth": "Sartoria"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La serie TV in cui due fratelli cacciano demoni e creature soprannaturali è...",
+    "truth": "Supernatural"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'attore italiano premio Oscar per La vita è bella è...",
+    "truth": "Roberto Benigni"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La donna guerriera di Themyscira è nota come Wonder...",
+    "truth": "Woman"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome della fidanzata di Topolino è...",
+    "truth": "Minni"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'oggetto ricercato da Gollum nel Signore degli Anelli è chiamato il suo...",
+    "truth": "Tesssoro"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il creatore della serie tv I Simpson è...",
+    "truth": "Matt Groening"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'isola su cui sono intrappolati i passeggeri del volo Oceanic 815 si trova nella serie...",
+    "truth": "Lost"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'insegnante di chimica che produce droga in Breaking Bad si chiama...",
+    "truth": "Walter White"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del fratello di Thor è...",
+    "truth": "Loki"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'attore protagonista di Rocky e Rambo è...",
+    "truth": "Sylvester Stallone"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La spia senza memoria protagonista di una nota saga action è Jason...",
+    "truth": "Bourne"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il titolo del film in cui Leonardo DiCaprio viaggia nei sogni degli altri è...",
+    "truth": "Inception"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La famiglia nobile di Grande Inverno in Game of Thrones è la Casa...",
+    "truth": "Stark"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il supereroe velocista della DC Comics è...",
+    "truth": "Flash"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del protagonista maschile di Dirty Dancing interpretato da Patrick Swayze è...",
+    "truth": "Johnny Castle"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La protagonista femminile di Hunger Games si chiama Katniss...",
+    "truth": "Everdeen"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'orsetto di peluche volgare protagonista del film di Seth MacFarlane è...",
+    "truth": "Ted"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'hacker protagonista di Mr. Robot si chiama...",
+    "truth": "Elliot"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del leone in Le Cronache di Narnia è...",
+    "truth": "Aslan"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La creatura aliena che caccia gli Xenomorfi per sport si chiama...",
+    "truth": "Predator"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome del personaggio di Harrison Ford in Blade Runner è...",
+    "truth": "Rick Deckard"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "L'antagonista principale del re leone, nonché zio di Simba, è...",
+    "truth": "Scar"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La scuola di magia e stregoneria in Harry Potter si chiama...",
+    "truth": "Hogwarts"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il nome della gang motociclistica protagonista di una serie TV è Sons of...",
+    "truth": "Anarchy"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il cyborg inviato dal futuro per uccidere Sarah Connor è interpretato da...",
+    "truth": "Arnold Schwarzenegger"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il supereroe interpretato da Ryan Reynolds che rompe la quarta parete è...",
+    "truth": "Deadpool"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il protagonista del film d'animazione Coco viaggia nella Terra dei...",
+    "truth": "Morti"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il criminale nemico giurato di Batman, famoso per il suo sorriso inquietante, è il...",
+    "truth": "Joker"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio romano del mare è...",
+    "truth": "Nettuno"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La città di Troia fu distrutta dai Greci grazie a un enorme...",
+    "truth": "Cavallo di legno"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il primo imperatore romano fu...",
+    "truth": "Augusto"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il mitologico mostro con la testa di toro e il corpo di uomo è il...",
+    "truth": "Minotauro"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il re di Camelot era...",
+    "truth": "Re Artù"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'esploratore che scoprì l'America nel 1492 fu...",
+    "truth": "Cristoforo Colombo"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio egizio dei morti, con la testa di sciacallo, è...",
+    "truth": "Anubi"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La guerra dei cent'anni fu combattuta tra Francia e...",
+    "truth": "Inghilterra"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'eroe greco il cui unico punto debole era il tallone è...",
+    "truth": "Achille"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il filosofo greco che fu costretto a bere la cicuta fu...",
+    "truth": "Socrate"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La divinità nordica del tuono, armata di martello, è...",
+    "truth": "Thor"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'imperatore francese sconfitto a Waterloo fu...",
+    "truth": "Napoleone Bonaparte"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il leggendario fondatore dell'Impero Mongolo fu...",
+    "truth": "Gengis Khan"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio greco della guerra è...",
+    "truth": "Ares"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il re di Babilonia noto per il suo antico codice di leggi fu...",
+    "truth": "Hammurabi"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La regina d'Egitto famosa per le sue relazioni con Giulio Cesare e Marco Antonio fu...",
+    "truth": "Cleopatra"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'assassino di Giulio Cesare che si dice sia stato anche suo figlio adottivo fu...",
+    "truth": "Bruto"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La leggendaria creatura che rinasce dalle proprie ceneri è la...",
+    "truth": "Fenice"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'antico popolo centroamericano che costruì Chichén Itzá furono i...",
+    "truth": "Maya"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'eroe che rubò il fuoco agli dèi per donarlo agli uomini fu...",
+    "truth": "Prometeo"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il mitico re che trasformava in oro tutto ciò che toccava era...",
+    "truth": "Re Mida"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il condottiero cartaginese che attraversò le Alpi con gli elefanti fu...",
+    "truth": "Annibale"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La moglie di Zeus e dea del matrimonio è...",
+    "truth": "Era"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il fondatore di Roma, insieme al fratello Remo, fu...",
+    "truth": "Romolo"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'inventore italiano che progettò macchine volanti e dipinse la Gioconda fu...",
+    "truth": "Leonardo da Vinci"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La fanciulla francese che guidò l'esercito contro gli inglesi e fu arsa sul rogo fu...",
+    "truth": "Giovanna d'Arco"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il mostro mitologico con molti serpenti al posto dei capelli il cui sguardo pietrificava era...",
+    "truth": "Medusa"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La zarina di Russia nota per il suo lungo regno nel XVIII secolo fu...",
+    "truth": "Caterina la Grande"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'eroe sumero protagonista della più antica epopea della storia è...",
+    "truth": "Gilgamesh"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'antica città distrutta dall'eruzione del Vesuvio nel 79 d.C. è...",
+    "truth": "Pompei"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio supremo del pantheon norreno, padre degli dèi, è...",
+    "truth": "Odino"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il sovrano inglese famoso per aver avuto sei mogli fu...",
+    "truth": "Enrico VIII"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'autore dell'Iliade e dell'Odissea è considerato...",
+    "truth": "Omero"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio greco dell'oltretomba è...",
+    "truth": "Ade"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La leggendaria isola che sarebbe sprofondata nell'oceano è...",
+    "truth": "Atlantide"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il muro difensivo costruito dai romani in Britannia si chiama...",
+    "truth": "Vallo di Adriano"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La divinità romana della saggezza e della guerra strategica è...",
+    "truth": "Minerva"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'esploratore veneziano che viaggiò fino in Cina alla corte di Kublai Khan fu...",
+    "truth": "Marco Polo"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il mostro acquatico a nove teste sconfitto da Ercole era l'...",
+    "truth": "Idra di Lerna"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il faraone egizio la cui tomba intatta fu scoperta da Howard Carter fu...",
+    "truth": "Tutankhamon"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il re macedone che creò uno dei più grandi imperi del mondo antico fu...",
+    "truth": "Alessandro Magno"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La guerra del Peloponneso vide affrontarsi Atene e...",
+    "truth": "Sparta"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La dea dell'amore e della bellezza nata dalla schiuma del mare è...",
+    "truth": "Afrodite"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il samurai senza padrone nella storia del Giappone è chiamato...",
+    "truth": "Ronin"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'eroe del mito che affrontò il Minotauro nel Labirinto fu...",
+    "truth": "Teseo"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il famoso discorso di Martin Luther King Jr. inizia con le parole...",
+    "truth": "I have a dream"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio del Sole nell'antico Egitto era...",
+    "truth": "Ra"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La dinastia regnante dell'Impero russo fino al 1917 furono i...",
+    "truth": "Romanov"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il leggendario arciere svizzero che colpì una mela sulla testa del figlio fu...",
+    "truth": "Guglielmo Tell"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'antica via commerciale che collegava la Cina all'Europa era la...",
+    "truth": "Via della Seta"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il fondatore della religione islamica è considerato...",
+    "truth": "Maometto"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La dea romana della caccia e della luna è...",
+    "truth": "Diana"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La creatura per metà uomo e per metà cavallo è il...",
+    "truth": "Centauro"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'esploratore portoghese che per primo circumnavigò il globo (anche se morì in viaggio) fu...",
+    "truth": "Ferdinando Magellano"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il re spartano che guidò i 300 alle Termopili fu...",
+    "truth": "Leonida"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio greco del vino e dell'estasi è...",
+    "truth": "Dioniso"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'impero americano conquistato da Francisco Pizarro fu l'Impero...",
+    "truth": "Inca"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il leggendario fuorilegge inglese che rubava ai ricchi per dare ai poveri fu...",
+    "truth": "Robin Hood"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La dea egizia della magia, moglie di Osiride, è...",
+    "truth": "Iside"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il filosofo e scienziato che disse 'Eppur si muove' fu...",
+    "truth": "Galileo Galilei"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il fiume sacro in cui fu immerso Achille da bambino è lo...",
+    "truth": "Stige"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il condottiero mongolo nipote di Gengis Khan che conquistò la Cina fu...",
+    "truth": "Kublai Khan"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La struttura megalitica circolare situata in Inghilterra si chiama...",
+    "truth": "Stonehenge"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio romano dell'amore, spesso raffigurato come un bambino alato con arco e frecce, è...",
+    "truth": "Cupido"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'astronomo polacco che formulò la teoria eliocentrica fu...",
+    "truth": "Niccolò Copernico"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'eroe norreno che uccise il drago Fafnir fu...",
+    "truth": "Sigfrido"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La celebre regina francese decapitata durante la Rivoluzione Francese fu...",
+    "truth": "Maria Antonietta"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'edificio romano dove si svolgevano i combattimenti dei gladiatori è il...",
+    "truth": "Colosseo"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'uomo che guidò la rivolta degli schiavi contro Roma dal 73 al 71 a.C. fu...",
+    "truth": "Spartaco"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La figura del folclore nordeuropeo che ruba i denti da latte in cambio di monete è la...",
+    "truth": "Fatina dei denti"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il re dei Franchi che fu incoronato Sacro Romano Imperatore nell'800 d.C. fu...",
+    "truth": "Carlo Magno"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'imperatore romano che, secondo la leggenda, suonava la lira mentre Roma bruciava fu...",
+    "truth": "Nerone"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'antica civiltà della Mesopotamia che inventò la scrittura cuneiforme furono i...",
+    "truth": "Sumeri"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il famoso condottiero e politico francese nato in Corsica fu...",
+    "truth": "Napoleone Bonaparte"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La mostruosa creatura marina della mitologia norrena, simile a un calamaro gigante, è il...",
+    "truth": "Kraken"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'eroe dell'Odissea che impiegò dieci anni per tornare a Itaca fu...",
+    "truth": "Ulisse"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'antica e potente famiglia fiorentina patrona delle arti durante il Rinascimento fu la famiglia...",
+    "truth": "Medici"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il mitico uccello gigante della mitologia persiana si chiama...",
+    "truth": "Roc"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio del fuoco e dei fabbri nella mitologia romana è...",
+    "truth": "Vulcano"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'esploratore norvegese che raggiunse per primo il Polo Sud fu...",
+    "truth": "Roald Amundsen"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La principessa troiana che aveva il dono della profezia ma non veniva mai creduta era...",
+    "truth": "Cassandra"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'uomo politico romano assassinato nelle Idi di marzo del 44 a.C. fu...",
+    "truth": "Giulio Cesare"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La divinità egizia con la testa di falco è...",
+    "truth": "Horus"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'inventore della stampa a caratteri mobili in Europa fu...",
+    "truth": "Johannes Gutenberg"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'eroe e semidio greco famoso per le sue dodici fatiche è...",
+    "truth": "Ercole"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il celebre muro costruito per separare Berlino Est da Berlino Ovest cadde nell'anno...",
+    "truth": "1989"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio celtico della luce e delle arti è...",
+    "truth": "Lugh"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il navigatore che doppiò per primo il Capo di Buona Speranza fu...",
+    "truth": "Bartolomeo Diaz"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'antico monumento ateniese dedicato alla dea Atena, situato sull'Acropoli, è il...",
+    "truth": "Partenone"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La fiera guerriera della mitologia norrena che sceglie chi morirà in battaglia è la...",
+    "truth": "Valchiria"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il re d'Inghilterra costretto a firmare la Magna Carta nel 1215 fu...",
+    "truth": "Giovanni Senzaterra"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'autore de 'Il Principe', celebre trattato di dottrina politica, fu...",
+    "truth": "Niccolò Machiavelli"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il primo uomo a viaggiare nello spazio fu il cosmonauta russo...",
+    "truth": "Jurij Gagarin"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La creatura a tre teste a guardia del regno dei morti greco si chiama...",
+    "truth": "Cerbero"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il presidente americano che abolì la schiavitù durante la Guerra Civile fu...",
+    "truth": "Abraham Lincoln"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "La mitologica scatola che, se aperta, libererebbe tutti i mali del mondo apparteneva a...",
+    "truth": "Pandora"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il famoso pittore olandese che si tagliò un orecchio fu...",
+    "truth": "Vincent van Gogh"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio nordico dell'inganno e delle malefatte è...",
+    "truth": "Loki"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il monaco tedesco che avviò la Riforma Protestante affiggendo le sue 95 tesi fu...",
+    "truth": "Martin Lutero"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "L'architetto spagnolo che progettò la Sagrada Família a Barcellona è...",
+    "truth": "Antoni Gaudí"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale dell'Australia è...",
+    "truth": "Canberra"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il fiume più lungo del mondo è...",
+    "truth": "Il Rio delle Amazzoni"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il monte più alto della Terra è...",
+    "truth": "L'Everest"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il deserto più grande del mondo è...",
+    "truth": "Il Sahara"
+  },
+  {
+    "category": "Geografia",
+    "text": "Lo stato più piccolo del mondo è...",
+    "truth": "La Città del Vaticano"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Canada è...",
+    "truth": "Ottawa"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese con più abitanti al mondo è...",
+    "truth": "L'India"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'oceano più grande della Terra è...",
+    "truth": "L'Oceano Pacifico"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il lago più profondo del mondo è...",
+    "truth": "Il lago Bajkal"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese più esteso del mondo è...",
+    "truth": "La Russia"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale della Turchia è...",
+    "truth": "Ankara"
+  },
+  {
+    "category": "Geografia",
+    "text": "La catena montuosa più lunga del mondo è...",
+    "truth": "Le Ande"
+  },
+  {
+    "category": "Geografia",
+    "text": "Lo stretto che separa l'Asia dall'America del Nord si chiama...",
+    "truth": "Stretto di Bering"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'isola più grande del mondo è...",
+    "truth": "La Groenlandia"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il vulcano più alto d'Europa è...",
+    "truth": "L'Etna"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Brasile è...",
+    "truth": "Brasilia"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese sudamericano che non ha sbocco sul mare, oltre alla Bolivia, è...",
+    "truth": "Il Paraguay"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il fiume che attraversa Londra è...",
+    "truth": "Il Tamigi"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il mare su cui si affaccia la Croazia a ovest è...",
+    "truth": "Il Mare Adriatico"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese africano con la forma a 'corno' si chiama...",
+    "truth": "Somalia"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale della Nuova Zelanda è...",
+    "truth": "Wellington"
+  },
+  {
+    "category": "Geografia",
+    "text": "Lo stato USA più grande per superficie è...",
+    "truth": "L'Alaska"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il monte più alto dell'Africa è...",
+    "truth": "Il Kilimangiaro"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il fiume più lungo d'Europa è...",
+    "truth": "Il Volga"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Marocco è...",
+    "truth": "Rabat"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'arcipelago di cui fa parte Maiorca è quello delle...",
+    "truth": "Isole Baleari"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il mare tra l'Italia e la penisola balcanica si chiama...",
+    "truth": "Mare Adriatico"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese conosciuto come 'la terra del Sol Levante' è...",
+    "truth": "Il Giappone"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Sudafrica con sede del potere esecutivo è...",
+    "truth": "Pretoria"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il canale che collega il Mar Mediterraneo al Mar Rosso è...",
+    "truth": "Il Canale di Suez"
+  },
+  {
+    "category": "Geografia",
+    "text": "La cascata più alta del mondo si trova in...",
+    "truth": "Venezuela (Salto Angel)"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale dell'Islanda è...",
+    "truth": "Reykjavík"
+  },
+  {
+    "category": "Geografia",
+    "text": "Lo stato indipendente completamente circondato dal Sudafrica è...",
+    "truth": "Il Lesotho"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'isola su cui sorge Tokyo si chiama...",
+    "truth": "Honshu"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il lago navigabile più alto del mondo è...",
+    "truth": "Il lago Titicaca"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese europeo con il maggior numero di laghi è...",
+    "truth": "La Finlandia"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale della Svizzera è...",
+    "truth": "Berna"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il fiume che attraversa Parigi è...",
+    "truth": "La Senna"
+  },
+  {
+    "category": "Geografia",
+    "text": "La catena montuosa che convenzionalmente separa l'Europa dall'Asia è...",
+    "truth": "Gli Urali"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il deserto freddo che copre gran parte della Mongolia è...",
+    "truth": "Il Gobi"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il golfo che separa la Svezia dalla Finlandia è...",
+    "truth": "Il Golfo di Botnia"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Portogallo è...",
+    "truth": "Lisbona"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'isola più grande del Mar Mediterraneo è...",
+    "truth": "La Sicilia"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese centroamericano attraversato da un celebre canale navigabile è...",
+    "truth": "Il Panama"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il fiume sacro dell'India è...",
+    "truth": "Il Gange"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale dell'Argentina è...",
+    "truth": "Buenos Aires"
+  },
+  {
+    "category": "Geografia",
+    "text": "Lo stretto tra la Spagna e il Marocco si chiama...",
+    "truth": "Stretto di Gibilterra"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il continente meno popolato della Terra (escluso l'Antartide) è...",
+    "truth": "L'Oceania"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il mare interno circondato da Europa, Asia e Africa è...",
+    "truth": "Il Mar Mediterraneo"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale dell'Egitto è...",
+    "truth": "Il Cairo"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il fiume che attraversa Roma è...",
+    "truth": "Il Tevere"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'unico stato americano formato interamente da isole è...",
+    "truth": "Le Hawaii"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese in cui si trova il sito archeologico di Chichén Itzá è...",
+    "truth": "Il Messico"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Kenya è...",
+    "truth": "Nairobi"
+  },
+  {
+    "category": "Geografia",
+    "text": "La nazione divisa in due stati dal 38º parallelo è...",
+    "truth": "La Corea (Corea del Nord e del Sud)"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'isola europea famosa per i suoi geyser vulcanici è...",
+    "truth": "L'Islanda"
+  },
+  {
+    "category": "Geografia",
+    "text": "La catena montuosa che attraversa la penisola italiana da nord a sud si chiama...",
+    "truth": "Gli Appennini"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il lago più grande dell'Africa è...",
+    "truth": "Il Lago Vittoria"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Cile è...",
+    "truth": "Santiago del Cile"
+  },
+  {
+    "category": "Geografia",
+    "text": "Lo stato asiatico a forma di lacrima a sud dell'India è...",
+    "truth": "Lo Sri Lanka"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il mare che bagna le coste di Israele a ovest è...",
+    "truth": "Il Mar Mediterraneo"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese in cui si trova il celebre Taj Mahal è...",
+    "truth": "L'India"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale della Norvegia è...",
+    "truth": "Oslo"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il canale naturale che separa l'Inghilterra dalla Francia si chiama...",
+    "truth": "La Manica"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'isola che si trova 'nella punta dello stivale' italiano è...",
+    "truth": "La Sicilia"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il fiume americano che ha scavato il Grand Canyon è...",
+    "truth": "Il fiume Colorado"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese europeo dei fiordi per eccellenza è...",
+    "truth": "La Norvegia"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Perù è...",
+    "truth": "Lima"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'oceano che si estende tra l'Africa e l'Australia è...",
+    "truth": "L'Oceano Indiano"
+  },
+  {
+    "category": "Geografia",
+    "text": "La Grande Barriera Corallina si trova al largo della costa di...",
+    "truth": "Australia"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il monte più alto dell'Europa Occidentale è...",
+    "truth": "Il Monte Bianco"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale della Thailandia è...",
+    "truth": "Bangkok"
+  },
+  {
+    "category": "Geografia",
+    "text": "La penisola in cui si trovano Spagna e Portogallo si chiama...",
+    "truth": "Penisola Iberica"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese europeo la cui lingua ufficiale è il magiaro è...",
+    "truth": "L'Ungheria"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il deserto dell'America meridionale noto per essere il più arido del mondo è...",
+    "truth": "Il deserto di Atacama"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale della Svezia è...",
+    "truth": "Stoccolma"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il fiume più lungo d'Italia è...",
+    "truth": "Il Po"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'isola spagnola famosa per il grande vulcano Teide è...",
+    "truth": "Tenerife"
+  },
+  {
+    "category": "Geografia",
+    "text": "Lo stato che occupa la maggior parte dell'Asia settentrionale è...",
+    "truth": "La Russia"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale dell'India è...",
+    "truth": "Nuova Delhi"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il lago americano situato al confine tra USA e Canada, il più grande dei Grandi Laghi, è...",
+    "truth": "Il Lago Superiore"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'unico paese ad avere una foglia di acero sulla bandiera è...",
+    "truth": "Il Canada"
+  },
+  {
+    "category": "Geografia",
+    "text": "La regione dell'Asia Centrale nota come 'il tetto del mondo' è...",
+    "truth": "Il Tibet"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale della Colombia è...",
+    "truth": "Bogotà"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il mare compreso tra l'Italia meridionale, la Grecia e l'Albania è...",
+    "truth": "Il Mar Ionio"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il piccolo principato indipendente situato tra Francia e Spagna è...",
+    "truth": "Andorra"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'arcipelago africano famoso per le enormi tartarughe giganti è...",
+    "truth": "Le Seychelles"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Vietnam è...",
+    "truth": "Hanoi"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il monte greco che, secondo la mitologia, era la dimora degli dei è...",
+    "truth": "Il Monte Olimpo"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il grande fiume europeo che bagna Vienna, Bratislava e Budapest è...",
+    "truth": "Il Danubio"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese sudamericano in cui si trovano le rovine inca di Machu Picchu è...",
+    "truth": "Il Perù"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale dell'Arabia Saudita è...",
+    "truth": "Riad"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'istmo sottile che collega il Nord America al Sud America è l'istmo di...",
+    "truth": "Panama"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il vasto deserto di sabbia rossa situato nell'Africa meridionale si chiama...",
+    "truth": "Deserto del Kalahari"
+  },
+  {
+    "category": "Geografia",
+    "text": "La penisola nordeuropea su cui sorge la maggior parte della Danimarca è...",
+    "truth": "Lo Jutland"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale del Belgio è...",
+    "truth": "Bruxelles"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il paese leader mondiale per la produzione di caffè è...",
+    "truth": "Il Brasile"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il fiume più lungo che scorre interamente in un solo paese (la Cina) è...",
+    "truth": "Il Fiume Azzurro (Yangtze)"
+  },
+  {
+    "category": "Geografia",
+    "text": "L'isola italiana situata immediatamente a sud della Corsica è...",
+    "truth": "La Sardegna"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale delle Filippine è...",
+    "truth": "Manila"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il pianeta più vicino al Sole è...",
+    "truth": "Mercurio"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'osso più lungo del corpo umano è...",
+    "truth": "il femore"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La stella più vicina alla Terra è...",
+    "truth": "il Sole"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'elemento chimico più abbondante nell'universo è...",
+    "truth": "l'idrogeno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'animale terrestre più veloce è...",
+    "truth": "il ghepardo"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il processo attraverso cui le piante producono il loro cibo si chiama...",
+    "truth": "fotosintesi clorofilliana"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La forza che attrae gli oggetti verso il centro della Terra si chiama...",
+    "truth": "gravità"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'organo più esteso del corpo umano è...",
+    "truth": "la pelle"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il metallo che è liquido a temperatura ambiente è...",
+    "truth": "il mercurio"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il gas più presente nell'atmosfera terrestre è...",
+    "truth": "l'azoto"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'animale più grande del mondo è...",
+    "truth": "la balenottera azzurra"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La scienza che studia i terremoti è la...",
+    "truth": "sismologia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il satellite naturale della Terra si chiama...",
+    "truth": "Luna"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'inventore della teoria della relatività è...",
+    "truth": "Albert Einstein"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'unità di base di tutti gli organismi viventi è la...",
+    "truth": "cellula"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La galassia in cui si trova il nostro sistema solare è la...",
+    "truth": "Via Lattea"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il processo con cui il bruco diventa farfalla è la...",
+    "truth": "metamorfosi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il colore del sangue dei polpi è...",
+    "truth": "blu"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il continente più freddo del pianeta è...",
+    "truth": "l'Antartide"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'unico mammifero in grado di volare è...",
+    "truth": "il pipistrello"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La particella subatomica con carica positiva è il...",
+    "truth": "protone"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il minerale più duro presente in natura è il...",
+    "truth": "diamante"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il pianeta del sistema solare famoso per i suoi anelli è...",
+    "truth": "Saturno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'albero più alto del mondo è la...",
+    "truth": "sequoia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La branca della biologia che studia i geni e l'ereditarietà è la...",
+    "truth": "genetica"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il dispositivo che serve a misurare la pressione atmosferica è il...",
+    "truth": "barometro"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'osso più piccolo del corpo umano si trova nell'orecchio e si chiama...",
+    "truth": "staffa"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La sostanza che conferisce il colore verde alle foglie è la...",
+    "truth": "clorofilla"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'uomo che ha formulato le tre leggi della dinamica è...",
+    "truth": "Isaac Newton"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il gruppo sanguigno considerato donatore universale è lo...",
+    "truth": "zero negativo"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La montagna più alta della Terra si chiama...",
+    "truth": "Monte Everest"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Lo scienziato famoso per la teoria dell'evoluzione per selezione naturale è...",
+    "truth": "Charles Darwin"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La malattia caratterizzata dalla mancanza di vitamina C è lo...",
+    "truth": "scorbuto"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'insetto che trasmette la malaria è la...",
+    "truth": "zanzara Anopheles"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il pianeta rosso del nostro sistema solare è...",
+    "truth": "Marte"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il continente più vasto del mondo è...",
+    "truth": "l'Asia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'acqua bolle, a livello del mare, alla temperatura di...",
+    "truth": "100 gradi Celsius"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il simbolo chimico dell'oro è...",
+    "truth": "Au"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La parte della cellula che contiene il DNA è il...",
+    "truth": "nucleo"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il fenomeno per cui la luce cambia direzione passando da un mezzo all'altro è la...",
+    "truth": "rifrazione"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'unica roccia che può galleggiare sull'acqua è la...",
+    "truth": "pietra pomice"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il periodo di gestazione di un elefante africano dura circa...",
+    "truth": "22 mesi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il muscolo che pompa il sangue nel corpo umano è il...",
+    "truth": "cuore"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La stella polare fa parte della costellazione dell'...",
+    "truth": "Orsa Minore"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La scienza che studia i fossili è la...",
+    "truth": "paleontologia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'animale che dorme di più al mondo, circa 22 ore al giorno, è il...",
+    "truth": "koala"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Lo stato della materia in cui le particelle sono molto vicine e ordinate è il...",
+    "truth": "solido"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il gas che espiriamo e che le piante usano per la fotosintesi è l'...",
+    "truth": "anidride carbonica"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il dente di un narvalo è in realtà...",
+    "truth": "un canino modificato"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La stella che esplode brillantemente al termine della sua vita è chiamata...",
+    "truth": "supernova"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il fiume più lungo del mondo è il...",
+    "truth": "Rio delle Amazzoni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'uccello più grande del mondo incapace di volare è lo...",
+    "truth": "struzzo"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'inventore del telescopio per l'osservazione astronomica fu...",
+    "truth": "Galileo Galilei"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'universo è nato da una grande esplosione chiamata...",
+    "truth": "Big Bang"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La ghiandola che regola il metabolismo nel corpo umano è la...",
+    "truth": "tiroide"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il ragno con una macchia a forma di clessidra rossa sull'addome è la...",
+    "truth": "vedova nera"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La disciplina che studia il tempo atmosferico e le sue previsioni è la...",
+    "truth": "meteorologia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il mammifero marino maschio noto per il lungo corno a spirale è il...",
+    "truth": "narvalo"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'elemento essenziale per la respirazione della maggior parte degli organismi è l'...",
+    "truth": "ossigeno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il processo in cui il ghiaccio passa direttamente allo stato gassoso è la...",
+    "truth": "sublimazione"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il più grande organo interno del corpo umano è il...",
+    "truth": "fegato"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il pianeta più grande del sistema solare è...",
+    "truth": "Giove"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'albero noto per le sue foglie di cui si nutrono i koala è l'...",
+    "truth": "eucalipto"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il fenomeno ottico causato dalla rifrazione della luce solare nelle gocce d'acqua è l'...",
+    "truth": "arcobaleno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'unità di misura dell'intensità della corrente elettrica è l'...",
+    "truth": "ampere"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'osso del cranio che protegge il cervello si chiama...",
+    "truth": "cranio"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La parte dell'occhio che dà il colore è l'...",
+    "truth": "iride"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'antenato estinto dell'elefante con lunghe zanne curve è il...",
+    "truth": "mammut"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'insieme di tutti gli ecosistemi della Terra è chiamato...",
+    "truth": "biosfera"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La particella con carica negativa che orbita intorno al nucleo dell'atomo è l'...",
+    "truth": "elettrone"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La paura irrazionale dei ragni è chiamata...",
+    "truth": "aracnofobia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Lo strumento per misurare la temperatura è il...",
+    "truth": "termometro"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La scienza che classifica gli esseri viventi è la...",
+    "truth": "tassonomia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il suono non può viaggiare nel...",
+    "truth": "vuoto"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La malattia causata da un difetto nella coagulazione del sangue è l'...",
+    "truth": "emofilia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La prima scienziata a vincere due premi Nobel in due campi scientifici diversi fu...",
+    "truth": "Marie Curie"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La vitamina prodotta dal corpo quando la pelle è esposta al sole è la...",
+    "truth": "vitamina D"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'insetto laborioso noto per produrre il miele è l'...",
+    "truth": "ape"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il tipo di roccia formata dal raffreddamento del magma è detta...",
+    "truth": "ignea"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il movimento della Terra intorno al Sole si chiama...",
+    "truth": "moto di rivoluzione"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "I mammiferi che partoriscono cuccioli che completano la crescita nel marsupio sono i...",
+    "truth": "marsupiali"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'oceano più grande e profondo della Terra è l'...",
+    "truth": "Oceano Pacifico"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Lo strumento ottico che permette di vedere oggetti microscopici è il...",
+    "truth": "microscopio"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il simbolo chimico dell'ossigeno è...",
+    "truth": "O"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il processo di divisione cellulare che dimezza il numero di cromosomi per i gameti è la...",
+    "truth": "meiosi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il punto sulla superficie terrestre direttamente sopra l'ipocentro di un terremoto è l'...",
+    "truth": "epicentro"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il rapace notturno simbolo di saggezza è il...",
+    "truth": "gufo"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La sostanza appiccicosa prodotta dalle conifere è la...",
+    "truth": "resina"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il fenomeno naturale in cui il Sole viene oscurato dalla Luna è l'...",
+    "truth": "eclissi solare"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'unità di misura per l'energia contenuta nei cibi è la...",
+    "truth": "caloria"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La scienza che studia funghi e lieviti è la...",
+    "truth": "micologia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'organismo marino che forma la Grande Barriera Corallina è il...",
+    "truth": "corallo"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il processo attraverso cui i liquidi si trasformano in vapore si chiama...",
+    "truth": "evaporazione"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'astronomo polacco che propose il modello eliocentrico fu...",
+    "truth": "Niccolò Copernico"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La struttura elicoidale che trasporta l'informazione genetica è il...",
+    "truth": "DNA"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'insieme delle ossa del corpo umano è chiamato...",
+    "truth": "scheletro"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il più grande felino vivente sulla Terra è la...",
+    "truth": "tigre"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "L'energia derivata dal calore interno della Terra è l'energia...",
+    "truth": "geotermica"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "La crosta terrestre è divisa in enormi frammenti chiamati...",
+    "truth": "placche tettoniche"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il gas nobile usato per riempire i palloncini che volano è l'...",
+    "truth": "elio"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo sport nazionale del Giappone è...",
+    "truth": "il sumo"
+  },
+  {
+    "category": "Sport",
+    "text": "Il paese che ha vinto più Mondiali di calcio maschile è...",
+    "truth": "il Brasile"
+  },
+  {
+    "category": "Sport",
+    "text": "Il tennista con il record di settimane al numero 1 del ranking ATP è...",
+    "truth": "Novak Djokovic"
+  },
+  {
+    "category": "Sport",
+    "text": "Il record mondiale dei 100 metri piani maschili appartiene a...",
+    "truth": "Usain Bolt"
+  },
+  {
+    "category": "Sport",
+    "text": "La nazione che ha ospitato le prime Olimpiadi moderne nel 1896 è...",
+    "truth": "la Grecia"
+  },
+  {
+    "category": "Sport",
+    "text": "Il ciclista italiano vincitore del Giro d'Italia e Tour de France nello stesso anno, soprannominato 'Il Pirata', era...",
+    "truth": "Marco Pantani"
+  },
+  {
+    "category": "Sport",
+    "text": "La squadra di calcio italiana con più scudetti vinti è...",
+    "truth": "la Juventus"
+  },
+  {
+    "category": "Sport",
+    "text": "Il colore della maglia del leader della classifica generale al Tour de France è...",
+    "truth": "giallo"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo sport in cui si utilizza un volano al posto della palla è...",
+    "truth": "il badminton"
+  },
+  {
+    "category": "Sport",
+    "text": "Il nuotatore americano con il record assoluto di medaglie olimpiche vinte è...",
+    "truth": "Michael Phelps"
+  },
+  {
+    "category": "Sport",
+    "text": "L'inventore della pallacanestro si chiamava...",
+    "truth": "James Naismith"
+  },
+  {
+    "category": "Sport",
+    "text": "La nazionale di rugby della Nuova Zelanda è famosa con il nome di...",
+    "truth": "All Blacks"
+  },
+  {
+    "category": "Sport",
+    "text": "Il torneo di tennis del Grande Slam che si gioca sulla superficie in erba è...",
+    "truth": "Wimbledon"
+  },
+  {
+    "category": "Sport",
+    "text": "La città italiana che ha ospitato le Olimpiadi invernali nel 2006 è...",
+    "truth": "Torino"
+  },
+  {
+    "category": "Sport",
+    "text": "La durata di un tempo in una partita di calcio regolamentare è di...",
+    "truth": "45 minuti"
+  },
+  {
+    "category": "Sport",
+    "text": "Il pugile diventato celebre con la frase 'Pungi come un'ape, vola come una farfalla' era...",
+    "truth": "Muhammad Ali"
+  },
+  {
+    "category": "Sport",
+    "text": "La scuderia di Formula 1 con il maggior numero di titoli mondiali costruttori è...",
+    "truth": "la Ferrari"
+  },
+  {
+    "category": "Sport",
+    "text": "L'atleta afroamericano che ha vinto quattro medaglie d'oro alle Olimpiadi di Berlino del 1936 fu...",
+    "truth": "Jesse Owens"
+  },
+  {
+    "category": "Sport",
+    "text": "La forma del campo da rugby è...",
+    "truth": "rettangolare"
+  },
+  {
+    "category": "Sport",
+    "text": "L'arte marziale coreana diventata sport olimpico ufficiale nel 2000 è...",
+    "truth": "il taekwondo"
+  },
+  {
+    "category": "Sport",
+    "text": "Il giocatore di pallacanestro NBA che detiene il record di 100 punti segnati in una singola partita è...",
+    "truth": "Wilt Chamberlain"
+  },
+  {
+    "category": "Sport",
+    "text": "La disciplina atletica in cui si lancia un pesante attrezzo sferico di metallo è...",
+    "truth": "il getto del peso"
+  },
+  {
+    "category": "Sport",
+    "text": "Il trofeo assegnato alla squadra vincitrice dei playoff della NHL (hockey su ghiaccio) si chiama...",
+    "truth": "Stanley Cup"
+  },
+  {
+    "category": "Sport",
+    "text": "L'unico calciatore ad aver vinto la Coppa del Mondo per tre volte nella sua carriera è...",
+    "truth": "Pelé"
+  },
+  {
+    "category": "Sport",
+    "text": "Il circuito automobilistico brianzolo famoso come il 'Tempio della velocità' è...",
+    "truth": "l'Autodromo di Monza"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo sport in cui due squadre si affrontano in una piscina cercando di fare gol è...",
+    "truth": "la pallanuoto"
+  },
+  {
+    "category": "Sport",
+    "text": "La ginnasta rumena che ottenne il primo 10 perfetto alle Olimpiadi di Montreal del 1976 fu...",
+    "truth": "Nadia Comaneci"
+  },
+  {
+    "category": "Sport",
+    "text": "La nazione che ha ospitato e vinto il primo Mondiale di calcio nel 1930 è...",
+    "truth": "l'Uruguay"
+  },
+  {
+    "category": "Sport",
+    "text": "L'attrezzo ginnico maschile a forma di parallelepipedo su cui l'atleta esegue mulinelli è il...",
+    "truth": "cavallo con maniglie"
+  },
+  {
+    "category": "Sport",
+    "text": "La competizione sportiva più antica del mondo, dedicata alla vela e ancora in corso, è...",
+    "truth": "l'America's Cup"
+  },
+  {
+    "category": "Sport",
+    "text": "La distanza classica della gara di maratona, stabilita in modo definitivo nel 1921, è di...",
+    "truth": "42,195 chilometri"
+  },
+  {
+    "category": "Sport",
+    "text": "Il punteggio massimo raggiungibile con il lancio di una singola freccetta è...",
+    "truth": "60 (triplo 20)"
+  },
+  {
+    "category": "Sport",
+    "text": "Il tennista spagnolo unanimemente considerato 'il re della terra rossa' è...",
+    "truth": "Rafael Nadal"
+  },
+  {
+    "category": "Sport",
+    "text": "La pericolosa e celebre competizione motociclistica che si corre sull'Isola di Man si chiama...",
+    "truth": "Tourist Trophy (o TT)"
+  },
+  {
+    "category": "Sport",
+    "text": "Il pezzo degli scacchi che può muoversi esclusivamente lungo le diagonali del proprio colore è...",
+    "truth": "l'alfiere"
+  },
+  {
+    "category": "Sport",
+    "text": "La nazione asiatica di origine dell'arte marziale del judo è...",
+    "truth": "il Giappone"
+  },
+  {
+    "category": "Sport",
+    "text": "Il pilota britannico che ha eguagliato il record di Michael Schumacher di sette titoli mondiali di Formula 1 è...",
+    "truth": "Lewis Hamilton"
+  },
+  {
+    "category": "Sport",
+    "text": "Il termine utilizzato nel golf per indicare che una buca è stata completata con un colpo in meno del par è...",
+    "truth": "birdie"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo sport di squadra in cui si tenta di segnare colpendo una palla con bastoni ricurvi su un campo d'erba è...",
+    "truth": "l'hockey su prato"
+  },
+  {
+    "category": "Sport",
+    "text": "La lunghezza standard di una piscina olimpionica regolamentare è di...",
+    "truth": "50 metri"
+  },
+  {
+    "category": "Sport",
+    "text": "Il 'Pallone d'Oro' è il premio individuale annuo più prestigioso nello sport del...",
+    "truth": "calcio"
+  },
+  {
+    "category": "Sport",
+    "text": "Il numero di birilli presenti in fondo a una pista da bowling tradizionale a 10 pin è...",
+    "truth": "dieci"
+  },
+  {
+    "category": "Sport",
+    "text": "Il termine che nel pugilato indica una vittoria per 'knock-out tecnico' viene abbreviato in...",
+    "truth": "TKO"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo stile di nuoto più veloce, solitamente utilizzato nelle gare a stile libero, è...",
+    "truth": "il crawl"
+  },
+  {
+    "category": "Sport",
+    "text": "La massacrante competizione di triathlon che si svolge storicamente alle isole Hawaii è nota come...",
+    "truth": "Ironman"
+  },
+  {
+    "category": "Sport",
+    "text": "Il leggendario giocatore di baseball americano degli Yankees soprannominato 'Il Bambino' era...",
+    "truth": "Babe Ruth"
+  },
+  {
+    "category": "Sport",
+    "text": "La nazione europea che ha inventato e codificato il gioco del cricket è...",
+    "truth": "l'Inghilterra"
+  },
+  {
+    "category": "Sport",
+    "text": "La sciatrice alpina americana che detiene il record assoluto di vittorie in Coppa del Mondo è...",
+    "truth": "Mikaela Shiffrin"
+  },
+  {
+    "category": "Sport",
+    "text": "Il colore della cintura che nel karate indica il raggiungimento del grado di dan o maestro è...",
+    "truth": "il nero"
+  },
+  {
+    "category": "Sport",
+    "text": "Il numero di basi su un campo da baseball, escludendo la casa base, è...",
+    "truth": "tre"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo sport invernale in cui gli atleti scendono lungo una pista ghiacciata proni su uno slittino a testa in giù è...",
+    "truth": "lo skeleton"
+  },
+  {
+    "category": "Sport",
+    "text": "Il nome della principale lega professionistica di pallacanestro maschile negli Stati Uniti d'America è...",
+    "truth": "NBA"
+  },
+  {
+    "category": "Sport",
+    "text": "L'atleta paralimpico sudafricano diventato noto per aver corso i 400 metri con protesi in fibra di carbonio è...",
+    "truth": "Oscar Pistorius"
+  },
+  {
+    "category": "Sport",
+    "text": "La città francese diventata celebre in tutto il mondo per l'omonima corsa automobilistica di 24 ore è...",
+    "truth": "Le Mans"
+  },
+  {
+    "category": "Sport",
+    "text": "Il monumentale stadio di calcio in cui la squadra del Real Madrid gioca le sue partite casalinghe è il...",
+    "truth": "Santiago Bernabéu"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo sport di combattimento thailandese che permette l'uso di pugni, calci, gomitate e ginocchiate è...",
+    "truth": "la Muay Thai"
+  },
+  {
+    "category": "Sport",
+    "text": "L'unica squadra italiana di calcio ad aver mai realizzato il 'Triplete' (Scudetto, Coppa Italia, Champions League) in una sola stagione è...",
+    "truth": "l'Inter"
+  },
+  {
+    "category": "Sport",
+    "text": "La principale corsa ciclistica a tappe che si disputa annualmente in Spagna si chiama...",
+    "truth": "Vuelta a España"
+  },
+  {
+    "category": "Sport",
+    "text": "Il caratteristico cesto di vimini ricurvo usato per lanciare la palla nella variante principale della pelota basca si chiama...",
+    "truth": "chistera"
+  },
+  {
+    "category": "Sport",
+    "text": "L'acronimo della federazione sportiva internazionale che governa il gioco del calcio e del futsal è...",
+    "truth": "FIFA"
+  },
+  {
+    "category": "Sport",
+    "text": "La mossa di scacchi che permette di muovere contemporaneamente il Re e una Torre, proteggendo il sovrano, si chiama...",
+    "truth": "arrocco"
+  },
+  {
+    "category": "Sport",
+    "text": "L'estroverso sciatore alpino italiano, dominatore delle specialità tecniche a fine anni '80, era...",
+    "truth": "Alberto Tomba"
+  },
+  {
+    "category": "Sport",
+    "text": "L'imbarcazione costituita da due scafi uniti da una struttura di collegamento è detta...",
+    "truth": "catamarano"
+  },
+  {
+    "category": "Sport",
+    "text": "Il numero di anelli colorati intrecciati che compongono la celebre bandiera dei Giochi Olimpici è...",
+    "truth": "cinque"
+  },
+  {
+    "category": "Sport",
+    "text": "Il leggendario surfista statunitense vincitore di 11 campionati mondiali e considerato il più grande di sempre è...",
+    "truth": "Kelly Slater"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo sport invernale a squadre in cui si fanno scivolare blocchi di granito su una pista di ghiaccio verso un bersaglio è...",
+    "truth": "il curling"
+  },
+  {
+    "category": "Sport",
+    "text": "Il tennista svizzero famoso per la sua eleganza in campo e vincitore di 20 tornei del Grande Slam è...",
+    "truth": "Roger Federer"
+  },
+  {
+    "category": "Sport",
+    "text": "Il torneo calcistico più prestigioso in Europa per le squadre di club è noto come...",
+    "truth": "UEFA Champions League"
+  },
+  {
+    "category": "Sport",
+    "text": "L'anno in cui si tennero le controverse Olimpiadi di Monaco di Baviera, segnate dall'attacco al villaggio olimpico, fu...",
+    "truth": "il 1972"
+  },
+  {
+    "category": "Sport",
+    "text": "La nazione che ha trionfato nel campionato europeo di calcio UEFA Euro 2020 battendo l'Inghilterra in finale è...",
+    "truth": "l'Italia"
+  },
+  {
+    "category": "Sport",
+    "text": "Il campo in cui si gioca a tennis può essere in cemento, in erba naturale oppure in...",
+    "truth": "terra rossa"
+  },
+  {
+    "category": "Sport",
+    "text": "L'attrezzo di seta della ginnastica ritmica che le ginnaste fanno volteggiare in aria creando figure si chiama...",
+    "truth": "nastro"
+  },
+  {
+    "category": "Sport",
+    "text": "La rivoluzionaria tecnica di salto in alto in cui l'atleta supera l'asticella passandovi sopra di schiena prende il nome dal suo inventore americano...",
+    "truth": "Dick Fosbury"
+  },
+  {
+    "category": "Sport",
+    "text": "La maratona di nuoto di fondo che si disputa alle Olimpiadi in acque libere copre una distanza di...",
+    "truth": "10 chilometri"
+  },
+  {
+    "category": "Sport",
+    "text": "Il rettangolo rigido situato dietro al ferro del canestro da pallacanestro è detto...",
+    "truth": "tabellone"
+  },
+  {
+    "category": "Sport",
+    "text": "La disciplina equestre olimpica in cui cavallo e cavaliere eseguono figure geometriche a diverse andature è...",
+    "truth": "il dressage"
+  },
+  {
+    "category": "Sport",
+    "text": "Il celebre quarterback americano di football che detiene il record di sette vittorie al Super Bowl è...",
+    "truth": "Tom Brady"
+  },
+  {
+    "category": "Sport",
+    "text": "La palla utilizzata nel rugby e nel football americano ha una caratteristica forma...",
+    "truth": "ovale"
+  },
+  {
+    "category": "Sport",
+    "text": "L'atleta statunitense che stabilì i record del mondo sui 100 e 200 metri piani femminili nel 1988 si chiamava...",
+    "truth": "Florence Griffith-Joyner"
+  },
+  {
+    "category": "Sport",
+    "text": "Il colore della coccarda che premia il primo classificato nelle tradizionali competizioni ippiche americane è...",
+    "truth": "blu"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo sport che consiste nel raggiungere nel minor tempo possibile vari punti di controllo utilizzando solo bussola e mappa topografica è...",
+    "truth": "l'orienteering (o orientamento)"
+  },
+  {
+    "category": "Sport",
+    "text": "La disciplina ciclistica caratterizzata da gare su percorsi sterrati con salti e curve paraboliche con biciclette piccole e robuste è...",
+    "truth": "la BMX"
+  },
+  {
+    "category": "Sport",
+    "text": "Il nome della tradizionale e intimidatoria danza maori eseguita dai rugbisti neozelandesi prima delle partite è...",
+    "truth": "la Haka"
+  },
+  {
+    "category": "Sport",
+    "text": "Il tortuoso e affascinante circuito cittadino della Formula 1 che si snoda tra le strade di un principato europeo è...",
+    "truth": "il circuito di Monte Carlo"
+  },
+  {
+    "category": "Sport",
+    "text": "Il campionissimo di golf americano conosciuto da tutti con il soprannome 'Tiger' all'anagrafe si chiama in realtà...",
+    "truth": "Eldrick Tont Woods"
+  },
+  {
+    "category": "Sport",
+    "text": "L'attrezzo metallico utilizzato nel sollevamento pesi a cui vengono fissati i dischi alle estremità si chiama...",
+    "truth": "bilanciere"
+  },
+  {
+    "category": "Sport",
+    "text": "L'arrampicata sportiva prevede tre diverse specialità: boulder, lead e...",
+    "truth": "speed"
+  },
+  {
+    "category": "Sport",
+    "text": "L'iconico stadio londinese famoso per il suo arco d'acciaio e per essere la casa della nazionale inglese di calcio è...",
+    "truth": "Wembley"
+  },
+  {
+    "category": "Sport",
+    "text": "L'ex campione dei pesi massimi di pugilato squalificato per aver morso l'orecchio di Evander Holyfield nel 1997 è...",
+    "truth": "Mike Tyson"
+  },
+  {
+    "category": "Sport",
+    "text": "Il primo torneo del Grande Slam della stagione tennistica, che si gioca a Melbourne a gennaio, si chiama...",
+    "truth": "Australian Open"
+  },
+  {
+    "category": "Sport",
+    "text": "Le competizioni di scherma sportiva comprendono l'uso di tre armi distinte: il fioretto, la spada e...",
+    "truth": "la sciabola"
+  },
+  {
+    "category": "Sport",
+    "text": "Il playmaker dei Golden State Warriors diventato nel 2016 il primo MVP della NBA votato all'unanimità è...",
+    "truth": "Stephen Curry"
+  },
+  {
+    "category": "Sport",
+    "text": "La disciplina sportiva che prevede l'uso di calzature dotate di ruote disposte in linea o a coppie parallele è...",
+    "truth": "il pattinaggio a rotelle"
+  },
+  {
+    "category": "Sport",
+    "text": "Il trofeo d'oro assegnato alla nazionale vincitrice della Coppa del Mondo di rugby porta il nome di...",
+    "truth": "William Webb Ellis"
+  },
+  {
+    "category": "Sport",
+    "text": "Il leggendario numero 10 e capitano storico della Roma, affettuosamente chiamato 'Er Pupone', è...",
+    "truth": "Francesco Totti"
+  },
+  {
+    "category": "Sport",
+    "text": "Il pilota di motociclismo italiano, nove volte campione del mondo e famoso per aver sempre corso col numero 46, è...",
+    "truth": "Valentino Rossi"
+  },
+  {
+    "category": "Sport",
+    "text": "Il numero di giocatori in campo per ciascuna squadra contemporaneamente durante una partita di pallavolo è...",
+    "truth": "sei"
+  },
+  {
+    "category": "Sport",
+    "text": "Lo sport olimpico invernale che combina lo sci di fondo con il tiro a segno al bersaglio con la carabina è...",
+    "truth": "il biathlon"
+  },
+  {
+    "category": "Sport",
+    "text": "Nel calcio moderno, il sistema di telecamere usato dagli assistenti arbitrali per rivedere le azioni controverse si abbrevia in...",
+    "truth": "VAR"
+  },
+  {
+    "category": "Sport",
+    "text": "L'arte marziale di origine brasiliana che si pratica a ritmo di musica, mescolando movimenti di lotta ad acrobazie fluide, è...",
+    "truth": "la capoeira"
+  },
+  {
+    "category": "Musica",
+    "text": "Il vero nome di Lady Gaga è...",
+    "truth": "Stefani Joanne Angelina Germanotta"
+  },
+  {
+    "category": "Musica",
+    "text": "La band autrice di 'Bohemian Rhapsody' sono i...",
+    "truth": "Queen"
+  },
+  {
+    "category": "Musica",
+    "text": "Il re del pop è universalmente riconosciuto come...",
+    "truth": "Michael Jackson"
+  },
+  {
+    "category": "Musica",
+    "text": "Lo strumento principale suonato da Jimi Hendrix era la...",
+    "truth": "chitarra elettrica"
+  },
+  {
+    "category": "Musica",
+    "text": "Il famoso festival musicale del 1969 si chiamava...",
+    "truth": "Woodstock"
+  },
+  {
+    "category": "Musica",
+    "text": "La cantante soprannominata 'The Voice' era...",
+    "truth": "Whitney Houston"
+  },
+  {
+    "category": "Musica",
+    "text": "Il gruppo britannico di 'Hey Jude' sono i...",
+    "truth": "Beatles"
+  },
+  {
+    "category": "Musica",
+    "text": "Il genere musicale nato in Giamaica reso celebre da Bob Marley è il...",
+    "truth": "reggae"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante che ha portato al successo 'Purple Rain' è...",
+    "truth": "Prince"
+  },
+  {
+    "category": "Musica",
+    "text": "Il frontman dei Nirvana era...",
+    "truth": "Kurt Cobain"
+  },
+  {
+    "category": "Musica",
+    "text": "La band italiana che ha vinto l'Eurovision nel 2021 sono i...",
+    "truth": "Måneskin"
+  },
+  {
+    "category": "Musica",
+    "text": "Il ballo e genere musicale argentino per eccellenza è il...",
+    "truth": "tango"
+  },
+  {
+    "category": "Musica",
+    "text": "Il celebre compositore sordo di 'Inno alla gioia' era...",
+    "truth": "Ludwig van Beethoven"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante dei Rolling Stones si chiama...",
+    "truth": "Mick Jagger"
+  },
+  {
+    "category": "Musica",
+    "text": "La cantante pop che ha cantato 'Like a Virgin' è...",
+    "truth": "Madonna"
+  },
+  {
+    "category": "Musica",
+    "text": "Il gruppo che canta 'Stairway to Heaven' sono i...",
+    "truth": "Led Zeppelin"
+  },
+  {
+    "category": "Musica",
+    "text": "L'artista con il maggior numero di Grammy vinti nella storia è...",
+    "truth": "Beyoncé"
+  },
+  {
+    "category": "Musica",
+    "text": "Il genere musicale nato nel Bronx negli anni '70 è l'...",
+    "truth": "hip hop"
+  },
+  {
+    "category": "Musica",
+    "text": "La band di 'Hotel California' si chiama...",
+    "truth": "Eagles"
+  },
+  {
+    "category": "Musica",
+    "text": "Il vero nome di Freddie Mercury era...",
+    "truth": "Farrokh Bulsara"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantautore italiano de 'La donna cannone' è...",
+    "truth": "Francesco De Gregori"
+  },
+  {
+    "category": "Musica",
+    "text": "Il festival della canzone italiana si svolge ogni anno a...",
+    "truth": "Sanremo"
+  },
+  {
+    "category": "Musica",
+    "text": "La voce principale degli U2 è...",
+    "truth": "Bono"
+  },
+  {
+    "category": "Musica",
+    "text": "Il genere musicale tipico di New Orleans è il...",
+    "truth": "jazz"
+  },
+  {
+    "category": "Musica",
+    "text": "Il famoso rapper il cui vero nome è Marshall Mathers è...",
+    "truth": "Eminem"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante britannico di 'Shape of You' è...",
+    "truth": "Ed Sheeran"
+  },
+  {
+    "category": "Musica",
+    "text": "Il celebre brano 'Imagine' è stato scritto da...",
+    "truth": "John Lennon"
+  },
+  {
+    "category": "Musica",
+    "text": "La band che ha pubblicato l'album 'The Dark Side of the Moon' sono i...",
+    "truth": "Pink Floyd"
+  },
+  {
+    "category": "Musica",
+    "text": "Il vero nome di Jovanotti è...",
+    "truth": "Lorenzo Cherubini"
+  },
+  {
+    "category": "Musica",
+    "text": "La cantante colombiana celebre per 'Hips Don't Lie' è...",
+    "truth": "Shakira"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantautore italiano de 'Il pescatore' è...",
+    "truth": "Fabrizio De André"
+  },
+  {
+    "category": "Musica",
+    "text": "Il genere musicale che mescola rock e country si chiama...",
+    "truth": "rockabilly"
+  },
+  {
+    "category": "Musica",
+    "text": "La cantante pop autrice dell'album '1989' è...",
+    "truth": "Taylor Swift"
+  },
+  {
+    "category": "Musica",
+    "text": "La band dei fratelli Gallagher si chiamava...",
+    "truth": "Oasis"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante autore di 'Space Oddity' era...",
+    "truth": "David Bowie"
+  },
+  {
+    "category": "Musica",
+    "text": "Il vero nome di Vasco Rossi è...",
+    "truth": "Vasco Rossi"
+  },
+  {
+    "category": "Musica",
+    "text": "La nota popstar britannica di 'Rolling in the Deep' è...",
+    "truth": "Adele"
+  },
+  {
+    "category": "Musica",
+    "text": "L'inventore della chitarra elettrica solida (solid-body) più famosa è stato...",
+    "truth": "Leo Fender"
+  },
+  {
+    "category": "Musica",
+    "text": "Il gruppo punk rock di 'London Calling' sono i...",
+    "truth": "The Clash"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantautore che ha scritto 'Blowin' in the Wind' è...",
+    "truth": "Bob Dylan"
+  },
+  {
+    "category": "Musica",
+    "text": "Il famoso brano 'Thriller' è stato prodotto da...",
+    "truth": "Quincy Jones"
+  },
+  {
+    "category": "Musica",
+    "text": "Il genere musicale elettronico nato a Detroit si chiama...",
+    "truth": "techno"
+  },
+  {
+    "category": "Musica",
+    "text": "La band autrice di 'Smells Like Teen Spirit' sono i...",
+    "truth": "Nirvana"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante spagnolo de 'La Camisa Negra' è...",
+    "truth": "Juanes"
+  },
+  {
+    "category": "Musica",
+    "text": "Il compositore delle famose 'Quattro Stagioni' è...",
+    "truth": "Antonio Vivaldi"
+  },
+  {
+    "category": "Musica",
+    "text": "Il frontman dei Queen era...",
+    "truth": "Freddie Mercury"
+  },
+  {
+    "category": "Musica",
+    "text": "La popstar canadese scoperta su YouTube da Scooter Braun è...",
+    "truth": "Justin Bieber"
+  },
+  {
+    "category": "Musica",
+    "text": "La nota band metal di 'Master of Puppets' si chiama...",
+    "truth": "Metallica"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante italiano de 'L'italiano' era...",
+    "truth": "Toto Cutugno"
+  },
+  {
+    "category": "Musica",
+    "text": "Il genere musicale che deriva dal blues e dal gospel nato nel sud degli USA è il...",
+    "truth": "rhythm and blues"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante dei Doors era...",
+    "truth": "Jim Morrison"
+  },
+  {
+    "category": "Musica",
+    "text": "L'ex cantante dei The Police è...",
+    "truth": "Sting"
+  },
+  {
+    "category": "Musica",
+    "text": "La band di 'Losing My Religion' sono i...",
+    "truth": "R.E.M."
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantautore di 'Vita Spericolata' è...",
+    "truth": "Vasco Rossi"
+  },
+  {
+    "category": "Musica",
+    "text": "Il gruppo femminile pop britannico degli anni '90 di 'Wannabe' sono le...",
+    "truth": "Spice Girls"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantautore romano che porta sempre gli occhiali da sole e canta 'Notte prima degli esami' è...",
+    "truth": "Antonello Venditti"
+  },
+  {
+    "category": "Musica",
+    "text": "L'artista jamaicano re del reggae è...",
+    "truth": "Bob Marley"
+  },
+  {
+    "category": "Musica",
+    "text": "Il rapper milanese ex Articolo 31 è...",
+    "truth": "J-Ax"
+  },
+  {
+    "category": "Musica",
+    "text": "La cantante pop famosa per i suoi abiti eccentrici e 'Bad Romance' è...",
+    "truth": "Lady Gaga"
+  },
+  {
+    "category": "Musica",
+    "text": "Il compositore e pianista polacco celebre per i suoi Notturni è...",
+    "truth": "Fryderyk Chopin"
+  },
+  {
+    "category": "Musica",
+    "text": "La band australiana autrice di 'Back in Black' sono gli...",
+    "truth": "AC/DC"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantautore americano soprannominato 'The Boss' è...",
+    "truth": "Bruce Springsteen"
+  },
+  {
+    "category": "Musica",
+    "text": "La popstar di origini barbadiane autrice di 'Umbrella' è...",
+    "truth": "Rihanna"
+  },
+  {
+    "category": "Musica",
+    "text": "Il celebre brano 'Albachiara' è di...",
+    "truth": "Vasco Rossi"
+  },
+  {
+    "category": "Musica",
+    "text": "Il gruppo britannico di 'Creep' si chiama...",
+    "truth": "Radiohead"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante portoricano del tormentone 'Livin' la Vida Loca' è...",
+    "truth": "Ricky Martin"
+  },
+  {
+    "category": "Musica",
+    "text": "La band svedese autrice di 'Dancing Queen' sono gli...",
+    "truth": "ABBA"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante che ha fondato i Foo Fighters dopo la morte di Kurt Cobain è...",
+    "truth": "Dave Grohl"
+  },
+  {
+    "category": "Musica",
+    "text": "L'artista pop autore di 'As It Was' ex membro degli One Direction è...",
+    "truth": "Harry Styles"
+  },
+  {
+    "category": "Musica",
+    "text": "La celebre etichetta discografica di Detroit fondata da Berry Gordy è la...",
+    "truth": "Motown"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante napoletano autore di 'Napule è' era...",
+    "truth": "Pino Daniele"
+  },
+  {
+    "category": "Musica",
+    "text": "La band che cantava 'Sweet Child O' Mine' sono i...",
+    "truth": "Guns N' Roses"
+  },
+  {
+    "category": "Musica",
+    "text": "L'artista femminile autrice del tormentone 'Single Ladies' è...",
+    "truth": "Beyoncé"
+  },
+  {
+    "category": "Musica",
+    "text": "Il famoso violinista genovese definito 'il violinista del diavolo' era...",
+    "truth": "Niccolò Paganini"
+  },
+  {
+    "category": "Musica",
+    "text": "La rock band irlandese di 'Sunday Bloody Sunday' sono gli...",
+    "truth": "U2"
+  },
+  {
+    "category": "Musica",
+    "text": "La cantante jazz per eccellenza soprannominata 'Lady Day' era...",
+    "truth": "Billie Holiday"
+  },
+  {
+    "category": "Musica",
+    "text": "L'artista italiano de 'La cura' è...",
+    "truth": "Franco Battiato"
+  },
+  {
+    "category": "Musica",
+    "text": "Il frontman dei Red Hot Chili Peppers si chiama...",
+    "truth": "Anthony Kiedis"
+  },
+  {
+    "category": "Musica",
+    "text": "La cantante soul autrice di 'Rehab' era...",
+    "truth": "Amy Winehouse"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante canadese ex fidanzato di Selena Gomez è...",
+    "truth": "Justin Bieber"
+  },
+  {
+    "category": "Musica",
+    "text": "La famosa canzone tradizionale napoletana scritta da Eduardo Di Capua è...",
+    "truth": "'O sole mio"
+  },
+  {
+    "category": "Musica",
+    "text": "Il rapper americano assassinato nel 1996 a Las Vegas era...",
+    "truth": "Tupac Shakur"
+  },
+  {
+    "category": "Musica",
+    "text": "La popstar autrice di 'Toxic' e '...Baby One More Time' è...",
+    "truth": "Britney Spears"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantautore italiano che scrisse e cantò 'Centro di gravità permanente' è...",
+    "truth": "Franco Battiato"
+  },
+  {
+    "category": "Musica",
+    "text": "Il famoso tenore italiano famoso per il 'Nessun dorma' era...",
+    "truth": "Luciano Pavarotti"
+  },
+  {
+    "category": "Musica",
+    "text": "La band statunitense di 'Californication' sono i...",
+    "truth": "Red Hot Chili Peppers"
+  },
+  {
+    "category": "Musica",
+    "text": "L'artista britannico celebre per i successi 'Rocket Man' e 'Your Song' è...",
+    "truth": "Elton John"
+  },
+  {
+    "category": "Musica",
+    "text": "La voce storica del blues conosciuta per 'At Last' è...",
+    "truth": "Etta James"
+  },
+  {
+    "category": "Musica",
+    "text": "Il dj francese autore di 'Titanium' è...",
+    "truth": "David Guetta"
+  },
+  {
+    "category": "Musica",
+    "text": "L'artista canadese celebre per la colonna sonora di Titanic è...",
+    "truth": "Céline Dion"
+  },
+  {
+    "category": "Musica",
+    "text": "La band pop-punk di 'All the Small Things' si chiama...",
+    "truth": "Blink-182"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante romano vincitore di Sanremo con 'Due vite' è...",
+    "truth": "Marco Mengoni"
+  },
+  {
+    "category": "Musica",
+    "text": "La voce solista dei Coldplay si chiama...",
+    "truth": "Chris Martin"
+  },
+  {
+    "category": "Musica",
+    "text": "Il fondatore ed ex bassista dei Pink Floyd era...",
+    "truth": "Roger Waters"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantautore e musicista noto anche come 'Il Molleggiato' è...",
+    "truth": "Adriano Celentano"
+  },
+  {
+    "category": "Musica",
+    "text": "La cantante e attrice italo-americana di origini siciliane che recitò in 'A Star Is Born' nel 2018 è...",
+    "truth": "Lady Gaga"
+  },
+  {
+    "category": "Musica",
+    "text": "Il chitarrista dei Queen, laureato in astrofisica, si chiama...",
+    "truth": "Brian May"
+  },
+  {
+    "category": "Musica",
+    "text": "Il celebre pezzo al pianoforte 'Per Elisa' fu composto da...",
+    "truth": "Ludwig van Beethoven"
+  },
+  {
+    "category": "Musica",
+    "text": "Il gruppo disco autrice di 'Stayin' Alive' erano i...",
+    "truth": "Bee Gees"
+  },
+  {
+    "category": "Musica",
+    "text": "L'album più venduto della storia della musica è...",
+    "truth": "Thriller"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore de \"I Promessi Sposi\" è...",
+    "truth": "Alessandro Manzoni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il dipinto \"L'Urlo\" è stato realizzato da...",
+    "truth": "Edvard Munch"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La scultura del \"David\" a Firenze è opera di...",
+    "truth": "Michelangelo Buonarroti"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore di \"Pinocchio\" è...",
+    "truth": "Carlo Collodi"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il romanzo \"1984\" è stato scritto da...",
+    "truth": "George Orwell"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il quadro \"La persistenza della memoria\" con i famosi orologi molli è di...",
+    "truth": "Salvador Dalí"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore dell'Odissea è tradizionalmente considerato...",
+    "truth": "Omero"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il pittore che si tagliò parte di un orecchio fu...",
+    "truth": "Vincent van Gogh"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"Il ritratto di Dorian Gray\" è l'unico romanzo pubblicato da...",
+    "truth": "Oscar Wilde"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La \"Guernica\" è uno dei quadri più famosi di...",
+    "truth": "Pablo Picasso"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore di \"Cent'anni di solitudine\" è...",
+    "truth": "Gabriel García Márquez"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il \"Decameron\" è una raccolta di novelle scritta da...",
+    "truth": "Giovanni Boccaccio"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La \"Nascita di Venere\" è un celebre dipinto di...",
+    "truth": "Sandro Botticelli"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore della tragedia \"Amleto\" è...",
+    "truth": "William Shakespeare"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il creatore del celebre detective Sherlock Holmes è...",
+    "truth": "Arthur Conan Doyle"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La pop art ha come suo massimo esponente americano...",
+    "truth": "Andy Warhol"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"Orgoglio e pregiudizio\" è un romanzo di...",
+    "truth": "Jane Austen"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il soffitto della Cappella Sistina è stato affrescato da...",
+    "truth": "Michelangelo Buonarroti"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il romanzo \"Il fu Mattia Pascal\" è stato scritto da...",
+    "truth": "Luigi Pirandello"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il quadro \"La ragazza col turbante\" (o \"Ragazza col torciglione di perla\") è di...",
+    "truth": "Johannes Vermeer"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"La metamorfosi\" è un celebre racconto di...",
+    "truth": "Franz Kafka"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il pittore dei famosi \"Girasoli\" e della \"Notte stellata\" è...",
+    "truth": "Vincent van Gogh"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il \"Canzoniere\" è l'opera più celebre di...",
+    "truth": "Francesco Petrarca"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore del \"Don Chisciotte\" è...",
+    "truth": "Miguel de Cervantes"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La famosa \"Ultima Cena\" di Milano fu dipinta da...",
+    "truth": "Leonardo da Vinci"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"Il Piccolo Principe\" è stato scritto dall'aviatore francese...",
+    "truth": "Antoine de Saint-Exupéry"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'inventore del \"ready-made\" con la sua celebre \"Fontana\" (un orinatoio) fu...",
+    "truth": "Marcel Duchamp"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il romanzo \"Moby Dick\" ha come autore...",
+    "truth": "Herman Melville"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'opera \"I miserabili\" è stata scritta da...",
+    "truth": "Victor Hugo"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il movimento del Futurismo fu fondato dal poeta italiano...",
+    "truth": "Filippo Tommaso Marinetti"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La celebre frase \"Essere o non essere\" è pronunciata da...",
+    "truth": "Amleto"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La statua \"Il Pensatore\" è opera dello scultore...",
+    "truth": "Auguste Rodin"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore della \"Coscienza di Zeno\" è...",
+    "truth": "Italo Svevo"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"Alla ricerca del tempo perduto\" è la mastodontica opera di...",
+    "truth": "Marcel Proust"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'artista famoso per i suoi graffiti sui muri delle città d'arte contemporanea è...",
+    "truth": "Banksy"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"Guerra e pace\" è un celebre romanzo russo scritto da...",
+    "truth": "Lev Tolstoj"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il pittore leader dell'impressionismo autore di \"Impressione, levar del sole\" è...",
+    "truth": "Claude Monet"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore de \"Il Signore degli Anelli\" è...",
+    "truth": "J.R.R. Tolkien"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La \"Ronda di notte\" è un capolavoro del pittore olandese...",
+    "truth": "Rembrandt"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"I Malavoglia\" è il romanzo più celebre di...",
+    "truth": "Giovanni Verga"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il movimento del \"Surrealismo\" fu fondato dal teorico francese...",
+    "truth": "André Breton"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore della celebre poesia \"L'infinito\" è...",
+    "truth": "Giacomo Leopardi"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'artista che ha ricoperto il Pont Neuf di Parigi di tessuto fu...",
+    "truth": "Christo"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il capolavoro letterario \"Il vecchio e il mare\" è di...",
+    "truth": "Ernest Hemingway"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore di \"Delitto e castigo\" è...",
+    "truth": "Fëdor Dostoevskij"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"Il Quarto Stato\" è un celebre quadro del pittore italiano...",
+    "truth": "Giuseppe Pellizza da Volpedo"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il romanzo \"Il nome della rosa\" è stato scritto da...",
+    "truth": "Umberto Eco"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il pittore che dipingeva ballerine in stile impressionista era...",
+    "truth": "Edgar Degas"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autrice della serie di \"Harry Potter\" è...",
+    "truth": "J.K. Rowling"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La \"Pietà\" custodita nella Basilica di San Pietro è stata scolpita da...",
+    "truth": "Michelangelo Buonarroti"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore del \"Gattopardo\" è...",
+    "truth": "Giuseppe Tomasi di Lampedusa"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'artista messicana famosa per i suoi autoritratti con sopracciglia unite era...",
+    "truth": "Frida Kahlo"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il romanzo distopico \"Fahrenheit 451\" è di...",
+    "truth": "Ray Bradbury"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il pittore dei \"Tagli\" sulla tela si chiamava...",
+    "truth": "Lucio Fontana"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La Divina Commedia è divisa in Inferno, Purgatorio e...",
+    "truth": "Paradiso"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore del ciclo letterario di \"Game of Thrones\" (Cronache del ghiaccio e del fuoco) è...",
+    "truth": "George R.R. Martin"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il dipinto \"Le tre età della donna\" è opera di...",
+    "truth": "Gustav Klimt"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il famoso romanzo sul vampiro \"Dracula\" è stato scritto da...",
+    "truth": "Bram Stoker"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La cattedrale gotica di Parigi, distrutta in parte da un incendio, è...",
+    "truth": "Notre-Dame"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore del libro \"Il giovane Holden\" è...",
+    "truth": "J.D. Salinger"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il \"Cenacolo\" vinciano si trova nella città di...",
+    "truth": "Milano"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il poeta vate italiano de \"La pioggia nel pineto\" è...",
+    "truth": "Gabriele D'Annunzio"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il famoso pittore rinascimentale originario di Urbino era...",
+    "truth": "Raffaello Sanzio"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore de \"Le avventure di Alice nel Paese delle Meraviglie\" è...",
+    "truth": "Lewis Carroll"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'architetto che progettò la cupola del Duomo di Firenze fu...",
+    "truth": "Filippo Brunelleschi"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il romanzo \"Cime tempestose\" è l'unica opera di...",
+    "truth": "Emily Brontë"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il dipinto \"Il Bacio\" diventato simbolo dell'Art Nouveau è di...",
+    "truth": "Gustav Klimt"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore del \"Corvo\" e dei primi racconti gialli è...",
+    "truth": "Edgar Allan Poe"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'artista americano che faceva gocciolare la vernice sulla tela (dripping) era...",
+    "truth": "Jackson Pollock"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore de \"La noia\" e \"Gli indifferenti\" è...",
+    "truth": "Alberto Moravia"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La Venere di Milo è una famosa statua dell'arte...",
+    "truth": "greca antica"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il celebre poema epico su Enea è l'Eneide, scritto da...",
+    "truth": "Virgilio"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La \"Scuola di Atene\" è un celebre affresco situato in Vaticano e dipinto da...",
+    "truth": "Raffaello Sanzio"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il romanzo \"Il Grande Gatsby\" è stato scritto da...",
+    "truth": "F. Scott Fitzgerald"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La \"Primavera\" è un celebre dipinto rinascimentale di...",
+    "truth": "Sandro Botticelli"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore de \"Il maestro e Margherita\" è...",
+    "truth": "Michail Bulgakov"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il pittore post-impressionista che andò a vivere a Tahiti fu...",
+    "truth": "Paul Gauguin"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'opera \"Se questo è un uomo\" è un memoriale scritto da...",
+    "truth": "Primo Levi"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La corrente artistica di Georges Braque e Pablo Picasso si chiama...",
+    "truth": "Cubismo"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore della \"Fattoria degli animali\" è...",
+    "truth": "George Orwell"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il dipinto \"La Libertà che guida il popolo\" è di...",
+    "truth": "Eugène Delacroix"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autrice dei romanzi polizieschi con Hercule Poirot è...",
+    "truth": "Agatha Christie"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'artista famoso per le sue opere optical e le scale impossibili è...",
+    "truth": "M.C. Escher"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore del libro \"Lolita\" è...",
+    "truth": "Vladimir Nabokov"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"L'isola del tesoro\" è il più celebre romanzo di...",
+    "truth": "Robert Louis Stevenson"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Lo stile architettonico caratterizzato da archi a sesto acuto e grandi vetrate è il...",
+    "truth": "Gotico"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore del romanzo \"Frankenstein\" è...",
+    "truth": "Mary Shelley"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "La scultura \"Amore e Psiche\" è un capolavoro del Neoclassicismo realizzato da...",
+    "truth": "Antonio Canova"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore delle \"Operette morali\" è...",
+    "truth": "Giacomo Leopardi"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il \"Viandante sul mare di nebbia\" è un dipinto simbolo del movimento...",
+    "truth": "Romantico"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "\"Uno, nessuno e centomila\" è un romanzo di...",
+    "truth": "Luigi Pirandello"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'artista spagnolo che progettò la Sagrada Familia è...",
+    "truth": "Antoni Gaudí"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore de \"Le città invisibili\" è...",
+    "truth": "Italo Calvino"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il pittore rinascimentale noto come \"Il Tintoretto\" visse e operò principalmente a...",
+    "truth": "Venezia"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il romanzo di avventura \"Il conte di Montecristo\" è di...",
+    "truth": "Alexandre Dumas"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'opera teatrale \"Aspettando Godot\" è stata scritta da...",
+    "truth": "Samuel Beckett"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il dipinto \"Olimpia\" che diede scandalo a Parigi fu dipinto da...",
+    "truth": "Édouard Manet"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore de \"Il barone rampante\" è...",
+    "truth": "Italo Calvino"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'artista del Rinascimento famoso anche come inventore e studioso di anatomia fu...",
+    "truth": "Leonardo da Vinci"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore del libro \"Shining\", maestro dell'orrore, è...",
+    "truth": "Stephen King"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il creatore della serie di videogiochi Super Mario è...",
+    "truth": "Shigeru Miyamoto"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il primo videogioco commerciale di successo, rilasciato nel 1972 da Atari, si chiama...",
+    "truth": "Pong"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'azienda fondata da Steve Jobs, Steve Wozniak e Ronald Wayne nel 1976 è...",
+    "truth": "Apple"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La criptovaluta più famosa, inventata nel 2008 da Satoshi Nakamoto, è il...",
+    "truth": "Bitcoin"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La console per videogiochi più venduta di tutti i tempi è la...",
+    "truth": "PlayStation 2"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il primo modello di iPhone è stato presentato al pubblico nell'anno...",
+    "truth": "2007"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il social network fondato da Mark Zuckerberg nel 2004 originariamente si chiamava...",
+    "truth": "TheFacebook"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il protagonista della serie di videogiochi The Legend of Zelda si chiama...",
+    "truth": "Link"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il linguaggio di programmazione creato da Guido van Rossum nel 1991 è il...",
+    "truth": "Python"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La prima mascotte della SEGA, prima dell'arrivo di Sonic, era un ragazzino di nome...",
+    "truth": "Alex Kidd"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il termine 'bug' in informatica deriva dal ritrovamento di un vero insetto in un computer, che era una...",
+    "truth": "Falena"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'acronimo 'WWW', alla base della navigazione web, sta per...",
+    "truth": "World Wide Web"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il videogioco sandbox creato da Markus 'Notch' Persson e poi acquisito da Microsoft è...",
+    "truth": "Minecraft"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il primo sistema operativo con un'interfaccia grafica a finestre commercializzato da Microsoft fu...",
+    "truth": "Windows 1.0"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La console Nintendo nota per aver rivoluzionato il mercato con i suoi sensori di movimento è la...",
+    "truth": "Wii"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'intelligenza artificiale di Halo, che fa anche da assistente vocale per Windows, si chiama...",
+    "truth": "Cortana"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'azienda che ha sviluppato i processori Pentium è la...",
+    "truth": "Intel"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il gioco per smartphone di realtà aumentata sviluppato da Niantic nel 2016 si chiama...",
+    "truth": "Pokémon GO"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La famosa sequenza di tasti 'Su, Su, Giù, Giù, Sinistra, Destra, Sinistra, Destra, B, A' è conosciuta come...",
+    "truth": "Konami Code"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La prima piattaforma di streaming video acquisita da Google nel 2006 è...",
+    "truth": "YouTube"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il fondatore di Tesla e SpaceX è...",
+    "truth": "Elon Musk"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La famosa eroina archeologa dei videogiochi Tomb Raider si chiama...",
+    "truth": "Lara Croft"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'unità minima di informazione in un computer si chiama...",
+    "truth": "Bit"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il servizio di abbonamento per i giochi creato da Microsoft viene comunemente chiamato...",
+    "truth": "Xbox Game Pass"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il videogioco di genere battle royale uscito nel 2017 e sviluppato da Epic Games è...",
+    "truth": "Fortnite"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La sigla 'URL', utilizzata per identificare un indirizzo web, significa...",
+    "truth": "Uniform Resource Locator"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La console portatile Nintendo che presentava due schermi, di cui uno touch, si chiamava...",
+    "truth": "Nintendo DS"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il sistema operativo open source creato da Linus Torvalds nel 1991 è...",
+    "truth": "Linux"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il famosissimo gioco di puzzle con i blocchi cadenti, inventato dal russo Aleksej Pažitnov, è il...",
+    "truth": "Tetris"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'intelligenza artificiale conversazionale rilasciata da OpenAI alla fine del 2022 si chiama...",
+    "truth": "ChatGPT"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il primo visore per la realtà virtuale di successo consumer moderno, fondato da Palmer Luckey, è l'...",
+    "truth": "Oculus Rift"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il popolare gioco automobilistico che combina calcio e macchine si chiama...",
+    "truth": "Rocket League"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La memoria volatile di un computer, i cui dati vengono persi allo spegnimento, è la...",
+    "truth": "RAM"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il protagonista del videogioco God of War si chiama...",
+    "truth": "Kratos"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il servizio di messaggistica acquisito da Facebook nel 2014 per 19 miliardi di dollari è...",
+    "truth": "WhatsApp"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il personaggio giallo affamato di palline nei labirinti creato dalla Namco è...",
+    "truth": "Pac-Man"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La Piattaforma di distribuzione digitale di videogiochi per PC creata da Valve è...",
+    "truth": "Steam"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Lo standard per la connessione senza fili inventato dalla Ericsson prende il nome di un re vichingo, ovvero...",
+    "truth": "Bluetooth"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il popolare videogioco sparatutto ambientato nella Seconda Guerra Mondiale che ha lanciato la serie Infinity Ward è...",
+    "truth": "Call of Duty"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La periferica ottica per computer che ha sostituito il floppy disk ed è stata poi sostituita dalle chiavette USB è il...",
+    "truth": "CD-ROM"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il browser web sviluppato da Mozilla come successore spirituale di Netscape Navigator è...",
+    "truth": "Firefox"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La prima console prodotta dalla Sony è stata la...",
+    "truth": "PlayStation"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il motore di ricerca web fondato da Larry Page e Sergey Brin nel 1998 è...",
+    "truth": "Google"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La storica nemesi di Sonic the Hedgehog si chiama Dr....",
+    "truth": "Eggman (o Robotnik)"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il termine informatico per indicare un software malevolo che richiede un riscatto è...",
+    "truth": "Ransomware"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il gioco di ruolo fantasy di Bethesda Game Studios in cui si interpretano i Sangue di Drago è...",
+    "truth": "The Elder Scrolls V: Skyrim"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'azienda che produce le famose schede grafiche della serie GeForce RTX è la...",
+    "truth": "NVIDIA"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La piattaforma streaming principale per la trasmissione in diretta di videogiochi è...",
+    "truth": "Twitch"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il primo supercomputer ad aver sconfitto un campione del mondo di scacchi nel 1997 era l'IBM...",
+    "truth": "Deep Blue"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il gioco in cui si guidano ladri d'auto e criminali, sviluppato dalla Rockstar Games, è comunemente abbreviato in...",
+    "truth": "GTA (Grand Theft Auto)"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il sistema operativo per dispositivi mobili sviluppato da Google è...",
+    "truth": "Android"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il dispositivo ideato da Doug Engelbart negli anni '60 per muovere un puntatore sullo schermo è il...",
+    "truth": "Mouse"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il protagonista muto e armato di piede di porco nella serie Half-Life si chiama...",
+    "truth": "Gordon Freeman"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il linguaggio di marcatura standard utilizzato per creare le pagine web è l'...",
+    "truth": "HTML"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il picchiaduro Nintendo che vede combattere tra loro celebri personaggi come Mario, Kirby e Pikachu è...",
+    "truth": "Super Smash Bros."
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La memoria fisica di archiviazione a stato solido, molto più veloce degli Hard Disk tradizionali, è detta...",
+    "truth": "SSD"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'azienda sviluppatrice del motore grafico Unreal Engine è la...",
+    "truth": "Epic Games"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'idraulico baffuto Nintendo, prima di chiamarsi Mario, nel gioco Donkey Kong era noto con il nome di...",
+    "truth": "Jumpman"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La tecnologia che permette di visualizzare un'immagine digitale tridimensionale sul mondo reale tramite smartphone o visori si chiama...",
+    "truth": "Realtà Aumentata (AR)"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La protagonista robotica della serie Horizon, ambientata in un futuro post-apocalittico, si chiama...",
+    "truth": "Aloy"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'unità di misura della risoluzione di uno schermo che indica il singolo punto luminoso è il...",
+    "truth": "Pixel"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'azienda giapponese che ha prodotto le console Mega Drive e Dreamcast è la...",
+    "truth": "SEGA"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il software principale progettato per navigare sul web, come Chrome o Edge, viene chiamato...",
+    "truth": "Browser"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il gioco di simulazione di vita in cui il giocatore crea e controlla avatar e le loro case, creato da Will Wright, è...",
+    "truth": "The Sims"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il nome della moneta virtuale utilizzata nell'ecosistema dei giochi Roblox è...",
+    "truth": "Robux"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La tecnologia di crittografia usata per i Bitcoin e molti altri servizi per garantire la sicurezza del registro delle transazioni è la...",
+    "truth": "Blockchain"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il cacciatore di taglie intergalattico protagonista della serie Metroid si chiama...",
+    "truth": "Samus Aran"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il fondatore e amministratore delegato di Amazon, diventato per molti anni l'uomo più ricco del mondo, è...",
+    "truth": "Jeff Bezos"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il popolare gioco in cui i giocatori (o l'impostore) devono completare compiti su un'astronave è...",
+    "truth": "Among Us"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La rete globale di computer interconnessi che usiamo quotidianamente è chiamata...",
+    "truth": "Internet"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il personaggio di Donkey Kong prende il nome dal fatto che il suo ideatore pensava che 'donkey' in inglese significasse...",
+    "truth": "Stupido o testardo"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il sistema di controllo versioni più diffuso tra i programmatori per tracciare i cambiamenti del codice è...",
+    "truth": "Git"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La console rilasciata nel 2017 da Nintendo che può essere usata sia come console fissa che portatile è...",
+    "truth": "Nintendo Switch"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La tecnica di intelligenza artificiale alla base del riconoscimento facciale e della generazione di immagini viene chiamata Machine...",
+    "truth": "Learning"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La creatura rosa e sferica Nintendo capace di inalare i nemici per copiare i loro poteri è...",
+    "truth": "Kirby"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La grande rete di server, software e archiviazione accessibile su Internet è comunemente chiamata...",
+    "truth": "Cloud"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'FPS competitivo 5v5 di Riot Games, diventato popolare per la sua componente tattica, si chiama...",
+    "truth": "Valorant"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'applicazione per creare brevi video musicali, originariamente chiamata Musical.ly, oggi è nota come...",
+    "truth": "TikTok"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il famoso franchise di giochi di ruolo giapponese di Square Enix, la cui prima incarnazione doveva essere l'ultimo gioco dell'azienda, è...",
+    "truth": "Final Fantasy"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Lo standard per la ricarica e il trasferimento dati che sta diventando obbligatorio in Europa per gli smartphone è l'USB...",
+    "truth": "Tipo-C"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il protagonista della serie videoludica The Witcher è il cacciatore di mostri...",
+    "truth": "Geralt di Rivia"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il processo in cui si trovano e risolvono errori in un programma informatico viene chiamato...",
+    "truth": "Debugging"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il popolare sparatutto in prima persona targato Blizzard incentrato su una squadra di eroi si chiama...",
+    "truth": "Overwatch"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'azienda dietro allo sviluppo della prima CPU commerciale a microprocessore, l'Intel 4004, è guidata oggi dal CEO...",
+    "truth": "Pat Gelsinger"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'azienda che ha creato la serie di giochi Dark Souls e Elden Ring è la...",
+    "truth": "FromSoftware"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La componente di un computer incaricata dell'elaborazione della grafica viene solitamente definita con l'acronimo...",
+    "truth": "GPU"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il protagonista del videogioco action-adventure Assassin's Creed II, ambientato nel Rinascimento, è l'italiano...",
+    "truth": "Ezio Auditore"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'indirizzo univoco assegnato ad ogni dispositivo collegato a una rete, formato da numeri o lettere, si chiama indirizzo...",
+    "truth": "IP"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'assistente vocale integrato nei dispositivi Apple si chiama...",
+    "truth": "Siri"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il gioco di carte collezionabili digitali di successo sviluppato da Blizzard Entertainment, basato sull'universo di Warcraft, è...",
+    "truth": "Hearthstone"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La memoria temporanea del browser in cui vengono memorizzate risorse come immagini e script per caricare le pagine più velocemente è la...",
+    "truth": "Cache"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il fratello vestito di verde del famoso Mario si chiama...",
+    "truth": "Luigi"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il formato di file audio compresso più famoso, che ha rivoluzionato il modo di ascoltare la musica nei primi anni 2000, è l'...",
+    "truth": "MP3"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il gioco di sopravvivenza in un oceano alieno in cui si esplorano fondali marini, uscito nel 2018, è...",
+    "truth": "Subnautica"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il dispositivo utilizzato per trasformare il segnale analogico in digitale (e viceversa) per connettersi a Internet si chiama...",
+    "truth": "Modem"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il protagonista canino nella famosa serie di giochi Parappa the Rapper è...",
+    "truth": "Parappa"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'acronimo 'PDF', usato per indicare il noto formato di documenti, significa Portable Document...",
+    "truth": "Format"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il leggendario Pokémon di tipo Psico creato artificialmente dall'uomo e protagonista del primo film della serie è...",
+    "truth": "Mewtwo"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La truffa informatica che consiste nell'inviare email false per rubare password o dati bancari si chiama...",
+    "truth": "Phishing"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "La console portatile prodotta da Valve che permette di giocare ai titoli della libreria di Steam si chiama...",
+    "truth": "Steam Deck"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il guanciale è il taglio di carne usato tradizionalmente per preparare la...",
+    "truth": "carbonara"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il vero aceto balsamico tradizionale viene prodotto nelle province di Modena e...",
+    "truth": "Reggio Emilia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Nella ricetta originale della pizza Margherita, i colori degli ingredienti rappresentano la...",
+    "truth": "bandiera italiana"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il piatto tipico milanese a base di riso e zafferano si chiama...",
+    "truth": "Risotto alla milanese"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La mozzarella di bufala campana è prodotta principalmente con il latte di...",
+    "truth": "bufala"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il tartufo bianco più pregiato d'Italia si trova solitamente nella zona di...",
+    "truth": "Alba"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il dolce tipico siciliano a base di ricotta, canditi e cialda fritta è...",
+    "truth": "il cannolo"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La bottarga è un alimento costituito da uova di pesce, solitamente di muggine o di...",
+    "truth": "tonno"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il liquore giallo brillante tipico della Campania preparato con le scorze di limone è...",
+    "truth": "il limoncello"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "I pizzoccheri sono una pasta tipica della Valtellina preparata con farina di...",
+    "truth": "grano saraceno"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La farinata ligure è una torta salata molto sottile preparata con farina di...",
+    "truth": "ceci"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "L'arancino (o arancina) è una specialità tipica della regione...",
+    "truth": "Sicilia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il formaggio con i buchi per eccellenza, originario della Svizzera, è...",
+    "truth": "l'Emmentaler"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La paella è un piatto tradizionale originario della città spagnola di...",
+    "truth": "Valencia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il sushi tradizionale giapponese è a base di riso aromatizzato con...",
+    "truth": "aceto di riso"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il guacamole è una salsa di origine messicana il cui ingrediente principale è...",
+    "truth": "l'avocado"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "L'hummus è una crema tipica del Medio Oriente preparata principalmente con...",
+    "truth": "ceci"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il tzatziki è una salsa greca a base di yogurt, aglio e...",
+    "truth": "cetriolo"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il borscht è una zuppa originaria dell'Europa dell'Est il cui ingrediente principale è...",
+    "truth": "la barbabietola"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il cous cous è un alimento tipico del Nord Africa costituito da granelli di...",
+    "truth": "semola di grano duro"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il gulasch è un piatto tipico originario della...",
+    "truth": "Ungheria"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il formaggio feta, tipico della Grecia, è prodotto tradizionalmente con latte di...",
+    "truth": "pecora e capra"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La fonduta è un piatto a base di formaggio fuso tipico della...",
+    "truth": "Svizzera"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il mapo tofu è un piatto tradizionale piccante originario della...",
+    "truth": "Cina"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il chimichurri è una salsa verde usata per condire la carne grigliata in...",
+    "truth": "Argentina"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il croissant, sebbene associato alla Francia, ha origini nel paese...",
+    "truth": "Austria"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il naan è un tipo di pane lievitato cotto al forno originario dell'...",
+    "truth": "India"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La poutine è un piatto a base di patatine fritte, formaggio e salsa tipico del...",
+    "truth": "Canada"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il kimchi è un contorno tradizionale a base di verdure fermentate originario della...",
+    "truth": "Corea del Sud"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il ceviche è un piatto di pesce crudo marinato nel limone tipico del...",
+    "truth": "Perù"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La moussaka è uno sformato a base di melanzane e carne tritata tipico della...",
+    "truth": "Grecia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "I blinis sono piccole crespelle lievitate tradizionali della...",
+    "truth": "Russia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il falafel è una polpetta fritta e speziata a base di...",
+    "truth": "ceci o fave"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il pastrami è una specialità di carne affumicata molto popolare nella città di...",
+    "truth": "New York"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La raclette è sia un formaggio che un piatto tradizionale della...",
+    "truth": "Svizzera"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il pad thai è un popolare piatto di spaghetti di riso fritti tipico della...",
+    "truth": "Thailandia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "I tacos sono un piatto tradizionale della cucina...",
+    "truth": "messicana"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il garam masala è una miscela di spezie tipica della cucina...",
+    "truth": "indiana"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il ramen è un piatto a base di spaghetti in brodo originario del...",
+    "truth": "Giappone"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il baklava è un dolce ricco di zucchero o miele e frutta secca tipico della cucina...",
+    "truth": "ottomana (o turca)"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La caipirinha è il cocktail nazionale del...",
+    "truth": "Brasile"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il pho è una zuppa di noodles di riso tradizionale del...",
+    "truth": "Vietnam"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il burrito è un piatto tipico della cucina...",
+    "truth": "Tex-Mex"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il fish and chips è uno dei piatti da asporto più famosi del...",
+    "truth": "Regno Unito"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il caviale è costituito da uova salate di...",
+    "truth": "storione"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il wasabi autentico si ottiene grattugiando il rizoma della...",
+    "truth": "Wasabia japonica"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La Sacher Torte è una famosa torta al cioccolato inventata nella città di...",
+    "truth": "Vienna"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Lo sciroppo d'acero è il dolcificante simbolo del...",
+    "truth": "Canada"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il mate è una bevanda infusa molto popolare in paesi come l'...",
+    "truth": "Argentina"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "L'agave blu è la pianta usata per produrre la tequila in...",
+    "truth": "Messico"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il pesto alla trapanese è una variante siciliana che prevede l'uso di mandorle e...",
+    "truth": "pomodori"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "L'amatriciana è un sugo per la pasta che prende il nome dalla città di...",
+    "truth": "Amatrice"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La polenta è un piatto rustico tipico del Nord Italia preparato principalmente con farina di...",
+    "truth": "mais"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "I cantucci sono biscotti alle mandorle tradizionali della regione...",
+    "truth": "Toscana"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il pane carasau è un tipico pane croccante originario della...",
+    "truth": "Sardegna"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La 'nduja è un insaccato morbido e molto piccante tipico della...",
+    "truth": "Calabria"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il prosciutto di San Daniele viene prodotto in...",
+    "truth": "Friuli-Venezia Giulia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "I tortellini sono una pasta ripiena tradizionale della città di...",
+    "truth": "Bologna"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La caponata è un contorno a base di melanzane tipico della...",
+    "truth": "Sicilia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La piadina è un prodotto alimentare tipico della...",
+    "truth": "Romagna"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il radicchio rosso tardivo più famoso è quello di...",
+    "truth": "Treviso"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il cotechino è un insaccato che tradizionalmente si mangia a Capodanno con le...",
+    "truth": "lenticchie"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il pecorino sardo è un formaggio prodotto esclusivamente con latte di...",
+    "truth": "pecora"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il babà è un dolce lievitato inzuppato nel rum tipico della città di...",
+    "truth": "Napoli"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Gli arrosticini sono spiedini di carne di pecora tipici della regione...",
+    "truth": "Abruzzo"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La ribollita è una zuppa tradizionale della cucina...",
+    "truth": "toscana"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La focaccia di Recco è caratterizzata dalla presenza di un ripieno di...",
+    "truth": "formaggio fresco"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il lardo più famoso d'Italia è quello stagionato nelle conche di marmo a...",
+    "truth": "Colonnata"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il castagnaccio è un dolce autunnale preparato con farina di...",
+    "truth": "castagne"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Le orecchiette sono un formato di pasta simbolo della regione...",
+    "truth": "Puglia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il mirto è un liquore tradizionale della...",
+    "truth": "Sardegna"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La cotoletta alla milanese autentica è rigorosamente preparata con carne di...",
+    "truth": "vitello"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il baccalà alla vicentina è un piatto tradizionale a base di...",
+    "truth": "stoccafisso"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il pane di Altamura è un celebre prodotto da forno della regione...",
+    "truth": "Puglia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Lo zafferano italiano di migliore qualità si coltiva tradizionalmente nella piana di...",
+    "truth": "Navelli"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il formaggio Gorgonzola prende il nome da una cittadina in provincia di...",
+    "truth": "Milano"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "I baci di dama sono biscotti tradizionali della regione...",
+    "truth": "Piemonte"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il caciocavallo è un formaggio a pasta filata tipico del...",
+    "truth": "Sud Italia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il panforte è un dolce natalizio tradizionale della città di...",
+    "truth": "Siena"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La stracciatella romana è un brodo in cui si versano formaggio e...",
+    "truth": "uova sbattute"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il tartufo nero pregiato si trova comunemente nella zona di...",
+    "truth": "Norcia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La zeppola di San Giuseppe è un dolce fritto o al forno tipico della festa del...",
+    "truth": "papà"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "I vincisgrassi sono un primo piatto simile alle lasagne tipico della regione...",
+    "truth": "Marche"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La cassata è un dolce tradizionale decorato con glassa e frutta candita originario della...",
+    "truth": "Sicilia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il frico è un piatto a base di formaggio fuso tipico del...",
+    "truth": "Friuli-Venezia Giulia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il gianduiotto è un cioccolatino piemontese che contiene pasta di...",
+    "truth": "nocciole"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il lampredotto è un panino tipico dello street food della città di...",
+    "truth": "Firenze"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La focaccia barese è tradizionalmente condita con pomodorini e...",
+    "truth": "olive"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La bagna cauda è una salsa calda tipica del Piemonte a base di aglio, olio e...",
+    "truth": "acciughe"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il pandoro è un celebre dolce natalizio originario di...",
+    "truth": "Verona"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il marzapane è una preparazione dolce a base di zucchero e pasta di...",
+    "truth": "mandorle"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La mostarda di Cremona è composta da frutta candita immersa in sciroppo aromatizzato con...",
+    "truth": "senape"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "I taralli sono un prodotto da forno ad anello tipico della...",
+    "truth": "Puglia"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il torrone classico di Cremona richiede l'uso di albume d'uovo, miele, zucchero e...",
+    "truth": "mandorle (o nocciole)"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La bresaola è un salume di manzo tipico della...",
+    "truth": "Valtellina"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La salsa del vitello tonnato è a base di tonno, uova sode, capperi e...",
+    "truth": "acciughe"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "I krapfen sono dolci fritti ripieni originari dell'...",
+    "truth": "Austria"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Lo speck è un salume affumicato tipico della regione...",
+    "truth": "Trentino-Alto Adige"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "Il macco è una crema tradizionale siciliana a base di...",
+    "truth": "fave"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La porchetta più famosa del Centro Italia è originaria della città di...",
+    "truth": "Ariccia"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La famosa popstar che ha indossato un controverso vestito fatto di vera carne agli MTV Video Music Awards del 2010 è...",
+    "truth": "Lady Gaga"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il nome della prima figlia della coppia musicale formata da Beyoncé e Jay-Z è...",
+    "truth": "Blue Ivy"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore che ha inaspettatamente schiaffeggiato il comico Chris Rock sul palco degli Oscar 2022 è...",
+    "truth": "Will Smith"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La celebre star dei reality diventata miliardaria grazie alla sua linea di cosmetici e un tempo sposata con Kanye West è...",
+    "truth": "Kim Kardashian"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La coppia d'oro di Hollywood formata da Brad Pitt e Angelina Jolie era affettuosamente soprannominata dai media...",
+    "truth": "Brangelina"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore che ha finalmente vinto il suo primo premio Oscar come Miglior Attore grazie al film 'Revenant - Redivivo' è...",
+    "truth": "Leonardo DiCaprio"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'accanita e immensa fanbase della cantautrice Taylor Swift si autodefinisce con il nome di...",
+    "truth": "Swifties"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La principessa del pop che ha vissuto un crollo pubblico nel 2007 rasandosi a zero la testa è...",
+    "truth": "Britney Spears"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantante canadese scoperto dall'imprenditore Scooter Braun grazie alle sue cover caricate su YouTube è...",
+    "truth": "Justin Bieber"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La popstar che ha raggiunto il successo planetario interpretando la doppia vita di Miley Stewart e della popstar...",
+    "truth": "Hannah Montana"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La celebre cantante e imprenditrice delle Barbados fondatrice del brand di cosmetici e lingerie Fenty è...",
+    "truth": "Rihanna"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La cantante diventata un meme virale a causa del ballerino travestito da squalo, noto come 'Left Shark', durante il suo spettacolo al Super Bowl è...",
+    "truth": "Katy Perry"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La cantante colombiana che ha scoperto il tradimento dell'ex compagno Gerard Piqué grazie a un barattolo di marmellata è...",
+    "truth": "Shakira"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La star di Hollywood che ha saltato per la gioia sul divano del talk show di Oprah Winfrey per dichiarare il suo amore per Katie Holmes è...",
+    "truth": "Tom Cruise"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore protagonista di un seguitissimo e mediatico processo per diffamazione contro l'ex moglie Amber Heard è...",
+    "truth": "Johnny Depp"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La regina del pop che ha scioccato il mondo scambiandosi un bacio sulle labbra con Britney Spears agli MTV VMA del 2003 è...",
+    "truth": "Madonna"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantante inglese ex membro della boy band One Direction che ha indossato un abito da donna sulla copertina di Vogue è...",
+    "truth": "Harry Styles"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La popstar nota per la sua voce potente e la sua inconfondibile, lunghissima e alta coda di cavallo è...",
+    "truth": "Ariana Grande"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice protagonista della serie 'Euphoria' e compagna nella vita reale dell'attore Tom Holland è...",
+    "truth": "Zendaya"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il giovane attore britannico noto per interpretare Spider-Man e per la sua tendenza a fare clamorosi spoiler sui film Marvel è...",
+    "truth": "Tom Holland"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La fondatrice del marchio di cosmetici Rare Beauty ed ex star della Disney con una lunga storia passata con Justin Bieber è...",
+    "truth": "Selena Gomez"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore canadese che ha interpretato il ruolo del fidanzato di plastica Ken nel film campione di incassi 'Barbie' è...",
+    "truth": "Ryan Gosling"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice e produttrice australiana che ha dato il volto all'iconica bambola Barbie nel film diretto da Greta Gerwig è...",
+    "truth": "Margot Robbie"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore che ha ceduto lo scudo di Captain America, congedandosi dal Marvel Cinematic Universe dopo 'Avengers: Endgame', è...",
+    "truth": "Chris Evans"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice che ha raggiunto la fama mondiale interpretando Rachel Green nella famosissima sitcom 'Friends' è...",
+    "truth": "Jennifer Aniston"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice della sitcom 'Friends' che interpretava la nevrotica e precisina cuoca Monica Geller è...",
+    "truth": "Courteney Cox"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il compianto attore canadese-americano che ha dato il volto al sarcastico Chandler Bing in 'Friends' è...",
+    "truth": "Matthew Perry"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'ex attrice americana protagonista della serie 'Suits' che ha sposato il principe Harry diventando Duchessa del Sussex è...",
+    "truth": "Meghan Markle"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La futura regina consorte del Regno Unito, moglie dell'erede al trono il principe William, è...",
+    "truth": "Kate Middleton"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attuale monarca del Regno Unito, salito al trono dopo la morte della regina Elisabetta II, è...",
+    "truth": "Re Carlo III"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La supermodella e attrice britannica celebre per le sue iconiche, folte e scure sopracciglia è...",
+    "truth": "Cara Delevingne"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La top model di origini olandesi e palestinesi, sorella maggiore di Bella, che ha avuto una figlia con Zayn Malik è...",
+    "truth": "Gigi Hadid"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La modella che ha sfilato alla Paris Fashion Week 2022 facendosi letteralmente spruzzare addosso un abito bianco in passerella per Coperni è...",
+    "truth": "Bella Hadid"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La modella della famiglia Kardashian-Jenner che è stata al centro di un'enorme controversia per uno spot della Pepsi nel 2017 è...",
+    "truth": "Kendall Jenner"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La più giovane della famiglia Kardashian-Jenner, nota per i suoi kit per le labbra e per la sua fortuna milionaria, è...",
+    "truth": "Kylie Jenner"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La matriarca del clan Kardashian-Jenner, nota con il termine 'momager' (madre e manager), è...",
+    "truth": "Kris Jenner"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La sorella Kardashian maggiore che ha sposato in Italia il batterista dei Blink-182, Travis Barker, è...",
+    "truth": "Kourtney Kardashian"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La sorella Kardashian che ha vissuto numerosi scandali pubblici a causa dei ripetuti tradimenti del giocatore di basket Tristan Thompson è...",
+    "truth": "Khloé Kardashian"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'ereditiera e icona pop degli anni 2000 nota per il suo tormentone 'That's hot' è...",
+    "truth": "Paris Hilton"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La migliore amica di Paris Hilton nel reality show dei primi anni 2000 'The Simple Life' era...",
+    "truth": "Nicole Richie"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La star protagonista del film cult per adolescenti del 2004 'Mean Girls' nel ruolo di Cady Heron è...",
+    "truth": "Lindsay Lohan"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La ex star bambina di Nickelodeon che aveva un suo sketch show omonimo nei primi anni 2000, 'The ___ Show', è...",
+    "truth": "Amanda Bynes"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice britannica diventata famosa per aver interpretato l'intelligente strega Hermione Granger nella saga di Harry Potter è...",
+    "truth": "Emma Watson"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore britannico celebre per aver interpretato il mago con la cicatrice a forma di saetta per otto film è...",
+    "truth": "Daniel Radcliffe"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore che ha prestato il volto a Ron Weasley, il migliore amico di Harry Potter, sul grande schermo è...",
+    "truth": "Rupert Grint"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore che ha raggiunto la fama interpretando il vampiro brillante Edward Cullen per poi diventare l'Uomo Pipistrello in 'The Batman' è...",
+    "truth": "Robert Pattinson"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice protagonista della saga di Twilight nel ruolo dell'umana innamorata di un vampiro, Bella Swan, è...",
+    "truth": "Kristen Stewart"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore che si trasformava nel licantropo Jacob Black nella popolare saga di film di Twilight è...",
+    "truth": "Taylor Lautner"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore diventato idolo delle teenager grazie al ruolo del giocatore di basket e cantante Troy Bolton in 'High School Musical' è...",
+    "truth": "Zac Efron"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice e cantante che interpretava la timida ma talentuosa Gabriella Montez nel franchise Disney 'High School Musical' è...",
+    "truth": "Vanessa Hudgens"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice che ha prestato il volto all'ambiziosa ed egocentrica Sharpay Evans nei film di 'High School Musical' è...",
+    "truth": "Ashley Tisdale"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La star lanciata dal film Disney 'Camp Rock' assieme ai Jonas Brothers, con il ruolo di Mitchie Torres, è...",
+    "truth": "Demi Lovato"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il più giovane dei Jonas Brothers (tra quelli della band) che ha sposato l'attrice indiana Priyanka Chopra è...",
+    "truth": "Nick Jonas"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il membro dei Jonas Brothers che è stato sposato con l'attrice del Trono di Spade, Sophie Turner, è...",
+    "truth": "Joe Jonas"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il fratello maggiore dei Jonas Brothers, l'unico ad essersi sposato presto e apparso in un reality show con sua moglie Danielle, è...",
+    "truth": "Kevin Jonas"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantante canadese esploso grazie all'app Vine, che ha cantato la hit 'Señorita' con Camila Cabello, è...",
+    "truth": "Shawn Mendes"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La cantante cubano-americana che ha lasciato il gruppo femminile Fifth Harmony nel 2016 per intraprendere una carriera solista è...",
+    "truth": "Camila Cabello"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il primo cantante ad abbandonare clamorosamente la boy band degli One Direction nel marzo 2015 è stato...",
+    "truth": "Zayn Malik"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il membro degli One Direction che ha avuto un figlio di nome Bear con la cantante britannica Cheryl Cole è...",
+    "truth": "Liam Payne"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'unico membro della band britannica-irlandese One Direction nato effettivamente in Irlanda è...",
+    "truth": "Niall Horan"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il membro più anziano degli One Direction, noto anche per il suo rapporto stretto ma a volte teso con Harry Styles, è...",
+    "truth": "Louis Tomlinson"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantautore britannico dai capelli rossi, grande amico di Taylor Swift, e famoso per canzoni come 'Shape of You' è...",
+    "truth": "Ed Sheeran"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La cantante britannica dalla voce inconfondibile solita chiamare i suoi album con l'età che aveva quando li ha scritti, come '19', '21' e '25', è...",
+    "truth": "Adele"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La giovanissima cantautrice vincitrice di molteplici Grammy, nota inizialmente per i capelli verdi e neri e le sue magliette oversize, è...",
+    "truth": "Billie Eilish"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La popstar britannica di origini albanesi-kosovare autrice dell'album di enorme successo disco-pop 'Future Nostalgia' è...",
+    "truth": "Dua Lipa"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La giovanissima artista ex star Disney che ha dominato le classifiche nel 2021 con la sua ballata d'esordio 'Drivers License' è...",
+    "truth": "Olivia Rodrigo"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La rapper e cantante che si è presentata al Met Gala 2023 con protesi facciali e un vestito che la faceva sembrare il gatto di Karl Lagerfeld è...",
+    "truth": "Doja Cat"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il rapper e cantante diventato famoso con la hit country-trap da record 'Old Town Road' è...",
+    "truth": "Lil Nas X"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La rapper nota per il brano 'Bodak Yellow', le sue scarpe Balenciaga (quelle che sembrano calzini) e la sua ex relazione con Offset, è...",
+    "truth": "Cardi B"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La celebre rapper il cui enorme, fedele e appassionato fandom online si fa chiamare 'Barbz' è...",
+    "truth": "Nicki Minaj"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La rapper e icona del 'Hot Girl Summer' che ha vinto la causa contro Tory Lanez per esserle stata sparata a un piede è...",
+    "truth": "Megan Thee Stallion"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il famosissimo rapper canadese che ha iniziato la sua carriera recitando nella serie per ragazzi 'Degrassi: The Next Generation' è...",
+    "truth": "Drake"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantante canadese, all'anagrafe Abel Tesfaye, che si è esibito all'Halftime Show del Super Bowl 2021 con il volto bendato è...",
+    "truth": "The Weeknd"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantante pop e R&B che ha formato il duo vincitore di Grammy 'Silk Sonic' assieme ad Anderson .Paak è...",
+    "truth": "Bruno Mars"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il leggendario rapper della West Coast noto non solo per la sua musica, ma anche per la sua grande amicizia con la cuoca e presentatrice Martha Stewart, è...",
+    "truth": "Snoop Dogg"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il rapper di Detroit, il cui vero nome è Marshall Mathers, noto anche con il suo alter ego Slim Shady è...",
+    "truth": "Eminem"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il magnate dell'hip-hop e miliardario fondatore della Roc Nation, noto anche come Mr. Carter e marito di Beyoncé, è...",
+    "truth": "Jay-Z"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il controverso e innovativo rapper di Chicago, fondatore del marchio di calzature e moda Yeezy, è...",
+    "truth": "Kanye West"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il rapper di Houston associato al tragico festival musicale 'Astroworld', che ha due figli con Kylie Jenner, è...",
+    "truth": "Travis Scott"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il rapper di Harlem, celebre anche per il suo spiccato senso della moda, che è diventato il compagno di vita e padre dei figli di Rihanna è...",
+    "truth": "A$AP Rocky"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'artista portoricano di reggaeton e trap, diventato l'artista più ascoltato su Spotify per tre anni consecutivi (2020-2022), è...",
+    "truth": "Bad Bunny"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il famoso cantante colombiano di reggaeton, noto come 'El Niño de Medellín', che ha collaborato in hit come 'Mi Gente' è...",
+    "truth": "J Balvin"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantante e sex symbol colombiano, che si fa chiamare spesso 'Papi Juancho', è...",
+    "truth": "Maluma"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'innovativa cantautrice spagnola che fonde flamenco e generi urban, autrice del fortunatissimo album 'Motomami', è...",
+    "truth": "Rosalía"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantante portoricano di urban latino che ha avuto una relazione molto pubblica e mediatica con Rosalía prima della rottura è...",
+    "truth": "Rauw Alejandro"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantante di origini portoricane esploso negli anni '90 grazie all'iconica hit 'Livin' la Vida Loca' è...",
+    "truth": "Ricky Martin"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il cantante pop latino e figlio d'arte spagnolo celebre per successi mondiali come 'Hero' e 'Bailando' è...",
+    "truth": "Enrique Iglesias"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La cantante, attrice e ballerina del Bronx che ha finalmente sposato Ben Affleck vent'anni dopo la loro prima rottura è...",
+    "truth": "Jennifer Lopez"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore e regista che, oltre ad aver riacceso la fiamma con JLo nel 2021 (i Bennifer), è il migliore amico storico di Matt Damon è...",
+    "truth": "Ben Affleck"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "La star di Hollywood e migliore amico di Ben Affleck, con il quale ha scritto e vinto un Oscar per il film 'Will Hunting', è...",
+    "truth": "Matt Damon"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore hollywoodiano noto non solo per i suoi ruoli cinematografici e la Nespresso, ma anche per possedere una sfarzosa villa sul Lago di Como, è...",
+    "truth": "George Clooney"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice diventata famosa in tutto il mondo per il suo inconfondibile sorriso e il ruolo da protagonista in 'Pretty Woman' è...",
+    "truth": "Julia Roberts"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il celebre attore dai capelli brizzolati che ha interpretato il ricco uomo d'affari Edward Lewis accanto a Julia Roberts in 'Pretty Woman' è...",
+    "truth": "Richard Gere"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice che ha stabilito il record di nomination agli Oscar, ricordata anche per la sua magistrale interpretazione di Miranda Priestly ne 'Il diavolo veste Prada', è...",
+    "truth": "Meryl Streep"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice che ha interpretato la goffa ma intelligente assistente Andrea 'Andy' Sachs nel film 'Il diavolo veste Prada' è...",
+    "truth": "Anne Hathaway"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice britannica che nel film 'Il diavolo veste Prada' interpretava l'odiosa ma iconica prima assistente, Emily Charlton, è...",
+    "truth": "Emily Blunt"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore italo-americano noto per il suo ruolo di Nigel ne 'Il diavolo veste Prada', diventato poi una star di programmi culinari sull'Italia, è...",
+    "truth": "Stanley Tucci"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore canadese noto per il suo umorismo pungente, l'interpretazione irriverente di Deadpool e il matrimonio con Blake Lively è...",
+    "truth": "Ryan Reynolds"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attrice americana amata per i suoi outfit da red carpet, diventata famosa nel ruolo della ricca Serena van der Woodsen in 'Gossip Girl', è...",
+    "truth": "Blake Lively"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "L'attore diventato il volto di 'Gossip Girl' come Dan Humphrey e poi dello stalker Joe Goldberg nella serie Netflix 'You' è...",
+    "truth": "Penn Badgley"
+  }
+]

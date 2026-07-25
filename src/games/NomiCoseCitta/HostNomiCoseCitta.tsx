@@ -133,7 +133,7 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
          updateGameState({ phase: 'spin', round: (gameState.round || 1) + 1, action: null });
        }
     }
-  }, [gameState.action, gameState.phase, gameState.endTime, gameState.round, gameState.points]);
+  }, [gameState.action, gameState.actionId, gameState.phase, gameState.endTime, gameState.round, gameState.points]);
 
   if (!gameState.phase) return <div>Caricamento...</div>;
 

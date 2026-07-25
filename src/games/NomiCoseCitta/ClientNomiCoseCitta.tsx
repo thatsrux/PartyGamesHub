@@ -47,7 +47,7 @@ export default function ClientNomiCoseCitta({ lobbyCode, userId }: { lobbyCode: 
   };
 
   const confirmValidations = () => {
-    updateGameState({ action: 'calculate_points' });
+    updateGameState({ action: 'calculate_points', actionId: Date.now() });
   };
 
   if (phase === 'spin') {
@@ -200,7 +200,7 @@ export default function ClientNomiCoseCitta({ lobbyCode, userId }: { lobbyCode: 
         <h2 style={{ fontSize: '2.5rem', color: 'var(--color-success)', marginBottom: '2rem' }}>Guarda la TV!</h2>
         
         {isAdmin && (
-          <button className="btn btn-primary btn-giant" onClick={() => updateGameState({ action: 'next_round' })}>
+          <button className="btn btn-primary btn-giant" onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}>
             {(gameState.round || 1) >= (gameState.settings?.rounds || 3) ? 'Vai alla Classifica Finale' : 'Prossimo Round'}
           </button>
         )}

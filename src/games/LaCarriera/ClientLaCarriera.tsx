@@ -62,7 +62,18 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
 
   // Rimuovi accenti e caratteri speciali per la ricerca
   const normalizeStr = (str: string) => {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    return str
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/ø/g, 'o')
+      .replace(/æ/g, 'ae')
+      .replace(/œ/g, 'oe')
+      .replace(/ß/g, 'ss')
+      .replace(/ł/g, 'l')
+      .replace(/ð/g, 'd')
+      .replace(/þ/g, 'th')
+      .replace(/đ/g, 'd');
   };
 
   const suggestions = guess.trim() 

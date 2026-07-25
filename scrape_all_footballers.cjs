@@ -119,14 +119,7 @@ async function scrapeWiki(playerName) {
     
     const allClues = [...clubs, ...national];
     
-    // Remove duplicates by name
-    const uniqueMap = {};
-    for (const c of allClues) {
-       // Only keep first appearance
-       if (!uniqueMap[c.name]) uniqueMap[c.name] = c;
-    }
-    
-    return Object.values(uniqueMap);
+    return allClues;
   } catch (err) {
     console.error(`Error scraping ${playerName}:`, err.message);
     return null;
@@ -168,6 +161,9 @@ async function run() {
   
   console.log('Uploading updated database to Firebase...');
   await putFirebase(updatedFootballers);
+  const fs = require('fs');
+  fs.writeFileSync('./src/data/footballers.json', JSON.stringify(updatedFootballers, null, 2));
+  console.log('Saved to src/data/footballers.json as well.');
   console.log('DONE!');
 }
 

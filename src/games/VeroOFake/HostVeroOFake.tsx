@@ -19,18 +19,27 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
   // Initialize game state if not set
   useEffect(() => {
     if (lobby && !gameState.phase) {
-      const totalRounds = gameState.settings?.rounds || 10;
+      const allQ = allQuestions as any[];
+      const selectedCategory = gameState.settings?.veroCategory;
+      const filteredQ = selectedCategory && selectedCategory !== 'Tutte' 
+        ? allQ.filter(q => q.category === selectedCategory) 
+        : allQ;
+      
+      const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
+      const totalRounds = Math.min(gameState.settings?.rounds || 10, availableQ.length);
       const sequence: number[] = [];
+      
       while(sequence.length < totalRounds) {
-        const rand = Math.floor(Math.random() * allQuestions.length);
+        const rand = Math.floor(Math.random() * availableQ.length);
         if(!sequence.includes(rand)) sequence.push(rand);
       }
 
       updateGameState({
         phase: 'question',
         questionIndex: 0,
+        totalRounds: totalRounds,
         sequence: sequence,
-        question: allQuestions[sequence[0]],
+        question: availableQ[sequence[0]],
         answers: {},
         startTime: Date.now()
       });
@@ -58,7 +67,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
   }, [players, gameState.phase, gameState.answers]);
 
   const handleNextRound = () => {
-    const totalRounds = gameState.settings?.rounds || 10;
+    const totalRounds = gameState.totalRounds || gameState.settings?.rounds || 10;
     if (currentQuestionIndex + 1 < totalRounds) {
       // Next question
       const newIndex = currentQuestionIndex + 1;
@@ -79,7 +88,33 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
 
   useEffect(() => {
     if (gameState.action === 'next_round' && gameState.phase === 'reveal') {
-      handleNextRound();
+      const totalRounds = gameState.totalRounds || gameState.settings?.rounds || 10;
+      if (gameState.questionIndex < totalRounds - 1) {
+        const nextIndex = gameState.questionIndex + 1;
+        const sequence = gameState.sequence || [];
+        
+        const allQ = allQuestions as any[];
+        const selectedCategory = gameState.settings?.veroCategory;
+        const filteredQ = selectedCategory && selectedCategory !== 'Tutte' 
+          ? allQ.filter(q => q.category === selectedCategory) 
+          : allQ;
+        const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
+
+        const nextQIndex = sequence[nextIndex] !== undefined ? sequence[nextIndex] : Math.floor(Math.random() * availableQ.length);
+        const nextQ = availableQ[nextQIndex];
+
+        updateGameState({
+          phase: 'question',
+          questionIndex: nextIndex,
+          question: nextQ,
+          answers: null,
+          action: null,
+          startTime: Date.now()
+        });
+      } else {
+        // Game over
+        updateGameState({ phase: 'finished' });
+      }
     }
   }, [gameState.action, gameState.actionId]);
 
@@ -94,7 +129,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
         <>
           <RoundTracker 
             current={(gameState.questionIndex || 0) + 1} 
-            total={gameState.settings?.rounds || 10} 
+            total={gameState.totalRounds || gameState.settings?.rounds || 10} 
           />
           <MiniLeaderboardTV players={players} animateUpdates={true} />
         </>

@@ -7,9 +7,7 @@ import {
   Square, 
   Circle, 
   Maximize, 
-  Minimize, 
-  Sun, 
-  Moon, 
+  Minimize,
   Trash2 
 } from 'lucide-react';
 import { ref as dbRef, update } from 'firebase/database';
@@ -19,6 +17,7 @@ import PodiumMobile from '../../components/shared/PodiumMobile';
 import RoundTracker from '../../components/shared/RoundTracker';
 import ProgressBar from '../../components/shared/ProgressBar';
 import RoundLeaderboardMobile from '../../components/shared/RoundLeaderboardMobile';
+import WordRevealUI from '../../components/shared/WordRevealUI';
 
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
@@ -42,16 +41,9 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
 
   // Advanced Tools State
   const [activeTool, setActiveTool] = useState<'brush' | 'eraser' | 'line' | 'rect' | 'circle'>('brush');
-  const [activeColor, setActiveColor] = useState<string>('#ffffff');
+  const [activeColor, setActiveColor] = useState<string>('#000000');
   const [activeSize, setActiveSize] = useState<number>(6);
-  const [canvasBg, setCanvasBg] = useState<'light'|'dark'>(gameState.canvasBg || 'light');
   const [shapeStart, setShapeStart] = useState<{x: number, y: number} | null>(null);
-
-  useEffect(() => {
-    if (gameState.canvasBg && gameState.canvasBg !== canvasBg) {
-      setCanvasBg(gameState.canvasBg as 'light' | 'dark');
-    }
-  }, [gameState.canvasBg]);
   const [isPseudoFullscreen, setIsPseudoFullscreen] = useState(false);
   const [isLandscape, setIsLandscape] = useState(window.innerWidth > window.innerHeight);
 
@@ -99,7 +91,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
   };
 
   const setStrokeStyle = (ctx: CanvasRenderingContext2D, isEraser: boolean) => {
-    ctx.strokeStyle = isEraser ? (canvasBg === 'light' ? '#ffffff' : '#111111') : activeColor;
+    ctx.strokeStyle = isEraser ? '#ffffff' : activeColor;
     ctx.fillStyle = ctx.strokeStyle;
     ctx.lineWidth = activeSize;
     ctx.lineCap = 'round';
@@ -209,12 +201,6 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
     const { mainCtx } = getContexts();
     if (mainCtx) mainCtx.clearRect(0, 0, 1200, 900);
     updateGameState({ strokes: null });
-  };
-
-  const toggleBg = () => {
-    const newBg = canvasBg === 'dark' ? 'light' : 'dark';
-    setCanvasBg(newBg);
-    updateGameState({ canvasBg: newBg });
   };
 
   const toggleFullscreen = () => {
@@ -419,6 +405,9 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
                     </button>
                   ))}
                 </div>
+                <button onClick={handleClear} style={{ padding: '0.6rem', background: 'rgba(239, 68, 68, 0.2)', border: '1px solid var(--color-danger)', color: 'var(--color-danger)', cursor: 'pointer', borderRadius: '0.8rem', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 12px rgba(239, 68, 68, 0.2)' }} title="Pulisci lavagna">
+                  <Trash2 size={22} />
+                </button>
               </div>
 
               {/* Row 2: Colors, Sizes, Actions */}
@@ -474,16 +463,6 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
                     />
                   ))}
                 </div>
-
-                {/* Actions */}
-                <div style={{ display: 'flex', gap: '0.3rem', background: 'rgba(0,0,0,0.4)', padding: '0.3rem', borderRadius: '0.8rem', flexShrink: 0 }}>
-                  <button onClick={toggleBg} style={{ padding: '0.5rem', background: 'transparent', border: 'none', color: canvasBg === 'dark' ? '#fbbf24' : '#93c5fd', cursor: 'pointer', borderRadius: '0.6rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    {canvasBg === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
-                  </button>
-                  <button onClick={handleClear} style={{ padding: '0.5rem', background: 'transparent', border: 'none', color: 'var(--color-danger)', cursor: 'pointer', borderRadius: '0.6rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                    <Trash2 size={20} />
-                  </button>
-                </div>
               </div>
               </div>
             </div>
@@ -499,12 +478,15 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
                 width: isPseudoFullscreen ? 'auto' : '100%',
                 maxWidth: '100%', 
                 aspectRatio: '4/3', 
-                background: canvasBg === 'light' ? '#fff' : '#111', 
+                background: '#ffffff', 
                 borderRadius: '1rem', 
                 border: '2px solid var(--color-primary)', 
                 touchAction: 'none', 
                 overflow: 'hidden',
-                flexShrink: 0
+                flexShrink: 0,
+                userSelect: 'none',
+                WebkitUserSelect: 'none',
+                WebkitTouchCallout: 'none'
               }}>
                 <canvas 
                   ref={canvasRef}
@@ -536,8 +518,16 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
               <h2 style={{ textAlign: 'center', color: 'var(--color-success)', margin: '2rem 0' }}>✅ Hai indovinato! Attendi gli altri...</h2>
             ) : (
               <>
-                <h2 style={{ textAlign: 'center', marginBottom: '2rem', color: 'var(--color-primary)' }}>Cosa sta disegnando?</h2>
+                <h2 style={{ textAlign: 'center', marginBottom: '1rem', color: 'var(--color-primary)' }}>Cosa sta disegnando?</h2>
                 
+                <WordRevealUI 
+                  word={gameState.word} 
+                  revealSequence={gameState.revealSequence || []} 
+                  startTime={gameState.startTime || Date.now()} 
+                  durationMs={(gameState.settings?.duration || 60) * 1000} 
+                  isTV={false} 
+                />
+
                 <form onSubmit={handleGuessSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                   <input 
                     type="text" 

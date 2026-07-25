@@ -10,6 +10,7 @@ import WaitingAdminTV from '../../components/shared/WaitingAdminTV';
 import RoundLeaderboardTV from '../../components/shared/RoundLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
+import RoundTracker from '../../components/shared/RoundTracker';
 
 function PlayerHostAvatar({ id, p, gameState }: { id: string, p: any, gameState: any }) {
   const [feedback, setFeedback] = useState<'wrong' | 'correct' | null>(null);
@@ -230,18 +231,14 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
         La Carriera
       </motion.h1>
       
-      {gameState.settings?.rounds && (
-        <motion.div 
-          initial={{ opacity: 0 }} 
-          animate={{ opacity: 1 }} 
-          style={{ marginBottom: '2rem', fontSize: '1.5rem', color: 'var(--color-primary)', fontWeight: 'bold' }}
-        >
-          Round {currentQuestionIndex + 1} di {gameState.settings.rounds}
-        </motion.div>
-      )}
-
       {gameState.phase !== 'finished' && gameState.phase !== 'results' && (
-        <MiniLeaderboardTV players={players} animateUpdates={true} />
+        <>
+          <RoundTracker 
+            current={(gameState.questionIndex || 0) + 1} 
+            total={gameState.settings?.rounds || 10} 
+          />
+          <MiniLeaderboardTV players={players} animateUpdates={true} />
+        </>
       )}
 
       <div className="panel" style={{ maxWidth: '1200px', width: '90%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>

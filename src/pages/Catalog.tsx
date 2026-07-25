@@ -1,7 +1,20 @@
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
+import { gameThemes } from '../utils/theme';
+import type { GameThemeKey } from '../utils/theme';
+import Background from '../components/shared/Background';
+import { ArrowLeft, Settings, Info } from 'lucide-react';
 
-const catalogData = [
+interface GameItem {
+  id: GameThemeKey;
+  title: string;
+  icon: string;
+  description: string;
+  settings: { name: string; desc: string }[];
+  status: 'available' | 'coming_soon';
+}
+
+const catalogData: GameItem[] = [
   {
     id: 'vero_o_fake',
     title: 'Vero o Falso',
@@ -47,7 +60,7 @@ const catalogData = [
   },
   {
     id: 'disegnatore',
-    title: 'Disegnatore Bendato',
+    title: 'Disegnatore',
     icon: '🎨',
     description: 'Un giocatore disegnerà un oggetto misterioso sul suo telefono (che comparirà in tempo reale sulla TV). Gli altri dovranno indovinare il prima possibile scrivendo la risposta!',
     settings: [],
@@ -67,84 +80,170 @@ export default function Catalog() {
   const navigate = useNavigate();
 
   return (
-    <div className="container" style={{ padding: '2rem', display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '100vh', overflowY: 'auto' }}>
-      <button 
-        className="btn"
-        style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', background: 'rgba(255,255,255,0.1)' }}
-        onClick={() => navigate('/')}
-      >
-        ⬅️ Torna indietro
-      </button>
+    <Background theme="default">
+      <div className="container" style={{ padding: '2rem 4rem', display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '100vh', overflowY: 'auto' }}>
+        <button 
+          className="btn"
+          style={{ 
+            position: 'absolute', 
+            top: '2rem', 
+            left: '2rem', 
+            background: 'rgba(255,255,255,0.1)', 
+            backdropFilter: 'blur(10px)',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '0.8rem',
+            padding: '1rem 1.5rem',
+            borderRadius: '1.5rem',
+            border: '1px solid rgba(255,255,255,0.1)'
+          }}
+          onClick={() => navigate('/')}
+        >
+          <ArrowLeft size={24} />
+          Torna indietro
+        </button>
 
-      <motion.h1 
-        initial={{ y: -30, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        style={{ fontSize: '3rem', color: 'var(--color-primary)', marginBottom: '2rem', marginTop: '3rem', textAlign: 'center' }}
-      >
-        Catalogo Giochi
-      </motion.h1>
+        <motion.div
+          initial={{ y: -30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ type: "spring", bounce: 0.5 }}
+          style={{ textAlign: 'center', marginTop: '4rem', marginBottom: '4rem' }}
+        >
+          <h1 style={{ 
+            fontSize: '4rem', 
+            fontWeight: '900', 
+            margin: 0,
+            background: 'linear-gradient(to right, #60a5fa, #c084fc, #f472b6)', 
+            WebkitBackgroundClip: 'text', 
+            WebkitTextFillColor: 'transparent', 
+            textShadow: '0 10px 30px rgba(0,0,0,0.3)'
+          }}>
+            Catalogo Giochi
+          </h1>
+          <p style={{ fontSize: '1.4rem', color: 'rgba(255,255,255,0.7)', marginTop: '1rem' }}>Scegli il prossimo gioco per la tua stanza</p>
+        </motion.div>
 
-      <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem', maxWidth: '800px', width: '100%', paddingBottom: '4rem' }}>
-        {catalogData.map((game, index) => (
-          <motion.div 
-            key={game.id}
-            initial={{ x: -30, opacity: 0 }}
-            animate={{ x: 0, opacity: 1 }}
-            transition={{ delay: index * 0.1 }}
-            className="panel"
-            style={{ 
-              padding: '2rem', 
-              textAlign: 'left',
-              position: 'relative',
-              overflow: 'hidden',
-              borderLeft: game.status === 'available' ? '5px solid var(--color-primary)' : '5px solid var(--color-text-muted)',
-              opacity: game.status === 'available' ? 1 : 0.7
-            }}
-          >
-            {game.status === 'coming_soon' && (
-              <div style={{
-                position: 'absolute',
-                top: '1rem',
-                right: '-2.5rem',
-                background: 'var(--color-text-muted)',
-                color: 'white',
-                padding: '0.2rem 3rem',
-                transform: 'rotate(45deg)',
-                fontWeight: 'bold',
-                fontSize: '0.8rem',
-                boxShadow: '0 2px 4px rgba(0,0,0,0.3)'
-              }}>
-                IN ARRIVO
-              </div>
-            )}
-            
-            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
-              <span style={{ fontSize: '3rem' }}>{game.icon}</span>
-              <h2 style={{ fontSize: '2rem', margin: 0, color: game.status === 'available' ? 'var(--color-text)' : 'var(--color-text-muted)' }}>
-                {game.title}
-              </h2>
-            </div>
-            
-            <p style={{ fontSize: '1.2rem', lineHeight: '1.6', color: 'var(--color-text)', marginBottom: '1.5rem' }}>
-              {game.description}
-            </p>
-            
-            <div style={{ background: 'rgba(0,0,0,0.2)', padding: '1.5rem', borderRadius: '0.8rem' }}>
-              <h3 style={{ color: 'var(--color-secondary)', marginBottom: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                ⚙️ Impostazioni Host
-              </h3>
-              <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
-                {game.settings.map((s, i) => (
-                  <li key={i} style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem' }}>
-                    <span style={{ fontWeight: 'bold', color: 'var(--color-primary)' }}>{s.name}</span>
-                    <span style={{ color: 'var(--color-text-muted)', fontSize: '0.95rem' }}>{s.desc}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </motion.div>
-        ))}
+        <div style={{ 
+          display: 'grid', 
+          gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', 
+          gap: '2.5rem', 
+          width: '100%', 
+          maxWidth: '1400px', 
+          paddingBottom: '4rem' 
+        }}>
+          {catalogData.map((game, index) => {
+            const theme = gameThemes[game.id] || gameThemes.default;
+            return (
+              <motion.div 
+                key={game.id}
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: index * 0.1, type: "spring", bounce: 0.4 }}
+                style={{ 
+                  position: 'relative',
+                  overflow: 'hidden',
+                  borderRadius: '2.5rem',
+                  opacity: game.status === 'available' ? 1 : 0.7,
+                  background: 'rgba(255,255,255,0.03)',
+                  backdropFilter: 'blur(20px)',
+                  border: `1px solid rgba(255,255,255,0.1)`,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
+                  transform: 'translateZ(0)' // Force GPU acceleration for smooth hover
+                }}
+                whileHover={game.status === 'available' ? { scale: 1.02, translateY: -5 } : {}}
+              >
+                {/* Theme Background Gradient (Subtle) */}
+                <div style={{
+                  position: 'absolute',
+                  inset: 0,
+                  background: theme.backgroundGradient,
+                  opacity: 0.3,
+                  zIndex: -1
+                }} />
+
+                {/* Glowing top border based on theme */}
+                <div style={{
+                  position: 'absolute',
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  height: '4px',
+                  background: theme.primaryColor,
+                  boxShadow: `0 0 20px ${theme.primaryColor}`
+                }} />
+
+                {game.status === 'coming_soon' && (
+                  <div style={{
+                    position: 'absolute',
+                    top: '2rem',
+                    right: '-3rem',
+                    background: 'rgba(0,0,0,0.8)',
+                    color: 'white',
+                    padding: '0.5rem 4rem',
+                    transform: 'rotate(45deg)',
+                    fontWeight: 'bold',
+                    fontSize: '0.9rem',
+                    boxShadow: '0 5px 15px rgba(0,0,0,0.5)',
+                    border: '1px solid rgba(255,255,255,0.1)'
+                  }}>
+                    IN ARRIVO
+                  </div>
+                )}
+                
+                <div style={{ padding: '3rem 3rem 2rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '1.5rem' }}>
+                    <div style={{ 
+                      fontSize: '3.5rem', 
+                      background: 'rgba(0,0,0,0.3)', 
+                      width: '80px', 
+                      height: '80px', 
+                      display: 'flex', 
+                      alignItems: 'center', 
+                      justifyContent: 'center', 
+                      borderRadius: '2rem',
+                      boxShadow: `0 10px 25px -5px ${theme.primaryColor}40`,
+                      border: `1px solid rgba(255,255,255,0.1)`
+                    }}>
+                      {game.icon}
+                    </div>
+                    <h2 style={{ fontSize: '2.2rem', margin: 0, color: game.status === 'available' ? 'white' : 'rgba(255,255,255,0.5)', fontWeight: '800' }}>
+                      {game.title}
+                    </h2>
+                  </div>
+                  
+                  <p style={{ fontSize: '1.25rem', lineHeight: '1.6', color: 'rgba(255,255,255,0.8)', marginBottom: '2.5rem', flex: 1 }}>
+                    {game.description}
+                  </p>
+                  
+                  <div style={{ background: 'rgba(0,0,0,0.4)', padding: '2rem', borderRadius: '1.5rem', border: '1px solid rgba(255,255,255,0.05)' }}>
+                    <h3 style={{ color: theme.primaryColor, marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '1.2rem', fontWeight: 'bold' }}>
+                      <Settings size={20} />
+                      Impostazioni Host
+                    </h3>
+                    {game.settings.length > 0 ? (
+                      <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1.2rem', padding: 0, margin: 0 }}>
+                        {game.settings.map((s, i) => (
+                          <li key={i} style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                            <span style={{ fontWeight: 'bold', color: 'white', fontSize: '1.1rem' }}>{s.name}</span>
+                            <span style={{ color: 'rgba(255,255,255,0.6)', fontSize: '1rem', lineHeight: '1.4' }}>{s.desc}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', color: 'rgba(255,255,255,0.5)' }}>
+                        <Info size={18} />
+                        <span style={{ fontSize: '1rem' }}>Nessuna impostazione pre-partita.</span>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </motion.div>
+            );
+          })}
+        </div>
       </div>
-    </div>
+    </Background>
   );
 }

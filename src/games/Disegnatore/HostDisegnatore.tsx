@@ -11,6 +11,7 @@ import LiveGuessPopup, { type GuessEvent } from '../../components/shared/LiveGue
 import WaitingAdminTV from '../../components/shared/WaitingAdminTV';
 import RoundLeaderboardTV from '../../components/shared/RoundLeaderboardTV';
 import drawingWords from '../../data/disegnatore_words.json';
+import WordRevealUI from '../../components/shared/WordRevealUI';
 
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 
@@ -34,11 +35,19 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
       const drawerId = playerIds[Math.floor(Math.random() * playerIds.length)];
       const word = drawingWords[Math.floor(Math.random() * drawingWords.length)];
 
+      const visibleChars = Array.from(word).map((char, index) => char !== ' ' ? index : -1).filter(i => i !== -1);
+      for (let i = visibleChars.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [visibleChars[i], visibleChars[j]] = [visibleChars[j], visibleChars[i]];
+      }
+      const revealSequence = visibleChars.slice(0, Math.max(0, visibleChars.length - 1));
+
       updateGameState({
         phase: 'draw',
         round: 1,
         drawerId,
         word,
+        revealSequence,
         drawnInRound: [drawerId],
         strokes: {},
         guesses: {},
@@ -57,14 +66,14 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
     let isDrawing = false;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     
-    ctx.fillStyle = gameState.canvasBg === 'light' ? '#ffffff' : '#111111';
+    ctx.fillStyle = '#ffffff';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
     const batches = Object.values(gameState.strokes || {}).sort((a: any, b: any) => a.timestamp - b.timestamp);
     const allPoints = batches.flatMap((b: any) => b);
 
     allPoints.forEach((pt: any) => {
-      ctx.strokeStyle = pt.tool === 'eraser' ? (gameState.canvasBg === 'light' ? '#ffffff' : '#111111') : (pt.color || (gameState.canvasBg === 'light' ? '#000000' : '#ffffff'));
+      ctx.strokeStyle = pt.tool === 'eraser' ? '#ffffff' : (pt.color || '#000000');
       ctx.fillStyle = ctx.strokeStyle;
       ctx.lineWidth = pt.size || 6;
       ctx.lineCap = 'round';
@@ -103,7 +112,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
         }
       }
     });
-  }, [gameState.strokes, gameState.canvasBg]);
+  }, [gameState.strokes]);
 
   // Check guesses
   useEffect(() => {
@@ -229,21 +238,28 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
     
     if (gameState.nextDrawerId) {
       const word = drawingWords[Math.floor(Math.random() * drawingWords.length)];
+      
+      const visibleChars = Array.from(word).map((char, index) => char !== ' ' ? index : -1).filter(i => i !== -1);
+      for (let i = visibleChars.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [visibleChars[i], visibleChars[j]] = [visibleChars[j], visibleChars[i]];
+      }
+      const revealSequence = visibleChars.slice(0, Math.max(0, visibleChars.length - 1));
 
       updateGameState({
         phase: 'draw',
         round: gameState.nextRound,
         drawerId: gameState.nextDrawerId,
         word,
-        drawnInRound: gameState.drawnInRound,
-        strokes: {},
-        guesses: {},
+        revealSequence,
+        drawnInRound: gameState.drawnInRound || null,
+        strokes: null,
+        guesses: null,
         correctGuessers: null,
         roundPoints: null,
         startTime: Date.now(),
         action: null,
-        nextDrawerId: null,
-        canvasBg: 'light'
+        nextDrawerId: null
       });
     } else {
       updateGameState({ phase: 'finished', action: null });
@@ -258,7 +274,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
         handleNextRound();
       }
     }
-  }, [gameState.action, gameState.phase]);
+  }, [gameState.action, gameState.actionId, gameState.phase]);
 
 
   if (!gameState.phase) return <div>Caricamento...</div>;
@@ -277,20 +293,28 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
         <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '2.5rem', marginBottom: '0.5rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
-          Disegnatore Bendato 🎨
+          Disegnatore 🎨
         </motion.h1>
 
         <div className="panel" style={{ maxWidth: '1200px', width: '90%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         
         {gameState.phase === 'draw' && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1, minHeight: 0 }}>
-            <h2 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', fontSize: '1.8rem', marginBottom: '0.5rem', color: 'var(--color-primary)' }}>
+            <h2 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', fontSize: '1.8rem', marginBottom: '1.5rem', color: 'var(--color-primary)' }}>
               <Avatar photo={players[gameState.drawerId]?.photo} name={drawerName} size={40} />
               <span><span style={{ color: 'white' }}>{drawerName}</span> sta disegnando!</span>
             </h2>
             
+            <WordRevealUI 
+              word={gameState.word} 
+              revealSequence={gameState.revealSequence || []} 
+              startTime={gameState.startTime || Date.now()} 
+              durationMs={(gameState.settings?.duration || 60) * 1000} 
+              isTV={true} 
+            />
+
             <div style={{ flex: 1, minHeight: 0, width: '100%', display: 'flex', justifyContent: 'center', marginBottom: '1rem' }}>
-              <div style={{ position: 'relative', height: '100%', maxWidth: '100%', aspectRatio: '4/3', background: gameState.canvasBg === 'light' ? '#fff' : '#111', borderRadius: '1rem', border: '3px solid var(--color-primary)', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
+              <div style={{ position: 'relative', height: '100%', maxWidth: '100%', aspectRatio: '4/3', background: '#ffffff', borderRadius: '1rem', border: '3px solid var(--color-primary)', overflow: 'hidden', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
                 <canvas 
                   ref={canvasRef}
                   width={1200}
