@@ -103,16 +103,16 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
   if (!currentQ) return <div>Caricamento...</div>;
 
   return (
-    <GameLayoutTV themeKey="vero_o_fake">
+    <GameLayoutTV 
+      themeKey="vero_o_fake"
+      leaderboard={gameState.phase !== 'finished' ? <MiniLeaderboardTV players={players} animateUpdates={true} /> : undefined}
+    >
       
       {gameState.phase !== 'finished' && (
-        <>
-          <RoundTracker 
-            current={(gameState.questionIndex || 0) + 1} 
-            total={gameState.totalRounds || gameState.settings?.rounds || 10} 
-          />
-          <MiniLeaderboardTV players={players} animateUpdates={true} />
-        </>
+        <RoundTracker 
+          current={(gameState.questionIndex || 0) + 1} 
+          total={gameState.totalRounds || gameState.settings?.rounds || 10} 
+        />
       )}
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
@@ -121,7 +121,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           style={{ 
-            fontSize: '5rem', 
+            fontSize: 'clamp(3rem, 5vw, 5rem)', 
             marginBottom: '3rem',
             fontWeight: 900,
             background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
@@ -133,11 +133,11 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
           Vero o Falso?
         </motion.h1>
 
-        <div className="panel" style={{ maxWidth: '1200px', width: '90%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+        <div className="panel" style={{ maxWidth: '1200px', width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         {gameState.phase === 'question' && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
             <h2 style={{ 
-              fontSize: '3.5rem', 
+              fontSize: 'clamp(2rem, 3.5vw, 3.5rem)', 
               marginBottom: '2rem',
               background: 'rgba(255,255,255,0.05)',
               padding: '2.5rem',
@@ -182,7 +182,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
         {gameState.phase === 'reveal' && (
           <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <h3 style={{ 
-              fontSize: '2.5rem', 
+              fontSize: 'clamp(1.5rem, 2.5vw, 2.5rem)', 
               color: 'white', 
               marginBottom: '1.5rem',
               textAlign: 'center',
@@ -196,11 +196,11 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
               background: currentQ.answer === 'vero' ? 'rgba(16, 185, 129, 0.1)' : 'rgba(239, 68, 68, 0.1)',
               border: `2px solid ${currentQ.answer === 'vero' ? 'var(--color-success)' : 'var(--color-danger)'}`,
               boxShadow: `0 0 40px ${currentQ.answer === 'vero' ? 'rgba(16, 185, 129, 0.3)' : 'rgba(239, 68, 68, 0.3)'}`,
-              padding: '2rem 4rem',
+              padding: '1.5rem 3rem',
               borderRadius: '2rem',
-              marginBottom: '3rem'
+              marginBottom: '2rem'
             }}>
-              <h2 style={{ fontSize: '4rem', fontWeight: 900, color: currentQ.answer === 'vero' ? 'var(--color-success)' : 'var(--color-danger)', textTransform: 'uppercase', margin: 0 }}>
+              <h2 style={{ fontSize: 'clamp(2rem, 4vw, 4rem)', fontWeight: 900, color: currentQ.answer === 'vero' ? 'var(--color-success)' : 'var(--color-danger)', textTransform: 'uppercase', margin: 0 }}>
                 È {currentQ.answer}!
               </h2>
             </div>
@@ -212,7 +212,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
                   const correct = pAnswer === currentQ.answer;
                   return (
                     <li key={id} style={{ 
-                      fontSize: '1.8rem', 
+                      fontSize: 'clamp(1rem, 1.8vw, 1.8rem)', 
                       display: 'flex', 
                       alignItems: 'center', 
                       gap: '1rem', 

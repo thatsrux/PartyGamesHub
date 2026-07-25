@@ -138,19 +138,19 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
   if (!gameState.phase) return <div>Caricamento...</div>;
 
   return (
-    <GameLayoutTV themeKey="nomi_cose_citta">
+    <GameLayoutTV 
+      themeKey="nomi_cose_citta"
+      leaderboard={gameState.phase !== 'finished' && gameState.phase !== 'results' ? <MiniLeaderboardTV players={players} animateUpdates={true} /> : undefined}
+    >
       <div style={{ display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'center', alignItems: 'center', textAlign: 'center', padding: '2rem' }}>
       {gameState.phase !== 'finished' && gameState.phase !== 'results' && (
-        <>
-          <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 3} />
-          <MiniLeaderboardTV players={players} animateUpdates={true} />
-        </>
+        <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 3} />
       )}
 
       {gameState.phase === 'spin' && (
         <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }}>
-          <h1 style={{ fontSize: '4rem', marginBottom: '2rem' }}>Estrazione Lettera...</h1>
-          <div style={{ fontSize: '15rem', fontWeight: 'bold', color: 'var(--color-primary)', textShadow: '0 0 20px var(--color-primary)' }}>
+          <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', marginBottom: '2rem' }}>Estrazione Lettera...</h1>
+          <div style={{ fontSize: 'clamp(8rem, 15vw, 15rem)', fontWeight: 'bold', color: 'var(--color-primary)', textShadow: '0 0 20px var(--color-primary)' }}>
             {displayedLetter}
           </div>
         </motion.div>
@@ -158,13 +158,13 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
 
       {gameState.phase === 'write' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ width: '100%' }}>
-          <div style={{ fontSize: '8rem', fontWeight: 'bold', color: 'var(--color-primary)', marginBottom: '2rem' }}>
+          <div style={{ fontSize: 'clamp(4rem, 8vw, 8rem)', fontWeight: 'bold', color: 'var(--color-primary)', marginBottom: '2rem' }}>
             Lettera {gameState.letter}
           </div>
           
           <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
             {CATEGORIES.map(cat => (
-              <div key={cat} style={{ background: 'rgba(255,255,255,0.1)', padding: '1rem 2rem', borderRadius: '1rem', fontSize: '2rem' }}>
+              <div key={cat} style={{ background: 'rgba(255,255,255,0.1)', padding: '1rem 2rem', borderRadius: '1rem', fontSize: 'clamp(1.2rem, 2vw, 2rem)' }}>
                 {cat}
               </div>
             ))}
@@ -194,7 +194,7 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
 
       {gameState.phase === 'validate' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ width: '100%', maxWidth: '1400px' }}>
-          <h1 style={{ fontSize: '4rem', color: 'var(--color-primary)', marginBottom: '2rem' }}>L'Admin sta correggendo...</h1>
+          <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', color: 'var(--color-primary)', marginBottom: '2rem' }}>L'Admin sta correggendo...</h1>
           
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', maxHeight: '70vh', overflowY: 'auto', padding: '1rem' }}>
             {CATEGORIES.map(cat => {

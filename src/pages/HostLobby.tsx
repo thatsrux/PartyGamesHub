@@ -216,24 +216,25 @@ function HostLobbyContent() {
 
   return (
     <Background theme="default">
-      <div style={{ display: 'flex', flex: 1, width: '100%', height: '100%', padding: '4rem', zIndex: 1, gap: '4rem' }}>
+      <div style={{ display: 'flex', flexWrap: 'wrap', flex: 1, width: '100%', height: '100%', padding: 'clamp(2rem, 4vw, 4rem)', zIndex: 1, gap: 'clamp(2rem, 4vw, 4rem)' }}>
         
         {/* Left Side: Big QR & Code */}
         <motion.div 
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ type: 'spring', bounce: 0.5 }}
-          style={{ flex: '0 0 45%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}
+          style={{ flex: '1 1 45%', minWidth: '300px', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}
         >
-          <div style={{ background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', padding: '4rem', borderRadius: '3rem', border: '1px solid rgba(255,255,255,0.1)', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <h1 style={{ fontSize: '7rem', fontWeight: '900', letterSpacing: '1rem', background: 'linear-gradient(to right, #60a5fa, #c084fc, #f472b6)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', margin: '0 0 3rem 0', textShadow: '0 10px 30px rgba(0,0,0,0.3)', lineHeight: 1 }}>
+          <div style={{ background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', padding: 'clamp(2rem, 4vw, 4rem)', borderRadius: '3rem', border: '1px solid rgba(255,255,255,0.1)', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%', maxWidth: '500px' }}>
+            <h1 style={{ fontSize: 'clamp(4rem, 10vw, 7rem)', fontWeight: '900', letterSpacing: 'clamp(0.5rem, 1vw, 1rem)', background: 'linear-gradient(to right, #60a5fa, #c084fc, #f472b6)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', margin: '0 0 2rem 0', textShadow: '0 10px 30px rgba(0,0,0,0.3)', lineHeight: 1 }}>
               {lobbyCode || '...'}
             </h1>
-            <div style={{ background: 'white', padding: '1.5rem', borderRadius: '2rem', boxShadow: '0 10px 25px rgba(0,0,0,0.2)' }}>
+            <div style={{ background: 'white', padding: '1.5rem', borderRadius: '2rem', boxShadow: '0 10px 25px rgba(0,0,0,0.2)', maxWidth: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
               {lobbyCode && (
                 <QRCodeSVG 
                   value={joinUrl}
-                  size={320}
+                  size={240}
+                  style={{ maxWidth: '100%', height: 'auto' }}
                   bgColor={"#ffffff"}
                   fgColor={"#1e1b4b"}
                   level={"H"}
@@ -250,7 +251,7 @@ function HostLobbyContent() {
         <motion.div 
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
-          style={{ flex: 1, display: 'flex', flexDirection: 'column', height: '100%', padding: '1rem' }}
+          style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: '300px', height: '100%', padding: '1rem' }}
         >
           <h2 style={{ 
             fontSize: '3rem', 
