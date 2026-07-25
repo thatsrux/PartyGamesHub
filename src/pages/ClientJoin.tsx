@@ -106,7 +106,7 @@ export default function ClientJoin() {
     // Lasciamo che sia useLobby.ts ad auto-promuovere il primo tramite joinedAt in modo sicuro
     const isAdmin = false;
     
-    const finalPhoto = tempPhoto === '' ? null : (tempPhoto || profile?.photo);
+    const finalPhoto = tempPhoto === '' ? undefined : (tempPhoto || profile?.photo || undefined);
     await joinLobby(code, nickname, finalPhoto, isAdmin);
     setIsJoined(true);
   };
@@ -318,7 +318,6 @@ export default function ClientJoin() {
                             max={3} 
                             step={1} 
                             onChange={(v) => setTempSettings({ ...tempSettings, impostorsCount: v })} 
-                            theme={gameThemes.impostore}
                           />
                           
                           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(255,255,255,0.05)', padding: '1.5rem', borderRadius: '1.5rem', border: '1px solid rgba(255,255,255,0.1)' }}>

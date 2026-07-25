@@ -53,7 +53,7 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
     
     let hintWord = null;
     if (gameState.settings?.impostorHint) {
-      const availableHints = words.filter((_, i) => i !== secretWordIndex);
+      const availableHints = words.filter((_: string, i: number) => i !== secretWordIndex);
       if (availableHints.length > 0) {
         hintWord = availableHints[Math.floor(Math.random() * availableHints.length)];
       }
@@ -74,7 +74,6 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
       hintWord,
       speakingOrder,
       currentSpeakerIndex: 0,
-      startTime: Date.now(),
       startTime: Date.now(),
       votes: null,
       eliminatedIds: [],

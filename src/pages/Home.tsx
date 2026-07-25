@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Gamepad2, User, Play, PlusCircle } from 'lucide-react';
+import { Gamepad2, User } from 'lucide-react';
 import { useProfile } from '../hooks/useProfile';
 import Avatar from '../components/shared/Avatar';
 import Background from '../components/shared/Background';

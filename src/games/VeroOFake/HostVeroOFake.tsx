@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumTV from '../../components/shared/PodiumTV';
@@ -11,8 +11,6 @@ import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import allQuestions from '../../data/vero_falso.json';
 export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  
   const gameState = lobby?.game_state || {};
   const players = lobby?.players || {};
   
@@ -66,25 +64,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
     }
   }, [players, gameState.phase, gameState.answers]);
 
-  const handleNextRound = () => {
-    const totalRounds = gameState.totalRounds || gameState.settings?.rounds || 10;
-    if (currentQuestionIndex + 1 < totalRounds) {
-      // Next question
-      const newIndex = currentQuestionIndex + 1;
-      setCurrentQuestionIndex(newIndex);
-      
-      updateGameState({
-        phase: 'question',
-        questionIndex: newIndex,
-        question: allQuestions[gameState.sequence[newIndex]],
-        startTime: Date.now(),
-        answers: {}
-      });
-    } else {
-      // Game over
-      updateGameState({ phase: 'finished' });
-    }
-  };
+
 
   useEffect(() => {
     if (gameState.action === 'next_round' && gameState.phase === 'reveal') {
