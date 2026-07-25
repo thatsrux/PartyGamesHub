@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import Avatar from './Avatar';
 
+import { computeRanking } from '../../utils/ranking';
+
 export default function PodiumMobile({ 
   players, 
   userId, 
@@ -12,45 +14,48 @@ export default function PodiumMobile({
   isAdmin: boolean, 
   onReturnToLobby: () => void 
 }) {
+  const rankedPlayers = computeRanking(players);
+
   return (
     <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
       <h2 style={{ color: 'var(--color-primary)', fontSize: '2.5rem' }}>Classifica 🏆</h2>
       
       <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', width: '100%', maxHeight: '40vh', overflowY: 'auto' }}>
-        {Object.values(players || {})
-          .sort((a: any, b: any) => b.score - a.score)
-          .map((p: any, index: number) => {
+        {rankedPlayers.map((p: any, index: number) => {
             let medal = '';
             let color = 'var(--color-text)';
             
-            if (index === 0) { medal = '🥇'; color = '#fbbf24'; }
-            else if (index === 1) { medal = '🥈'; color = '#9ca3af'; }
-            else if (index === 2) { medal = '🥉'; color = '#d97706'; }
+            if (p.rank === 1) { medal = '🥇'; color = '#fbbf24'; }
+            else if (p.rank === 2) { medal = '🥈'; color = '#9ca3af'; }
+            else if (p.rank === 3) { medal = '🥉'; color = '#d97706'; }
+            else { medal = `${p.rank}°`; color = 'var(--color-text-muted)'; }
 
             return (
               <motion.div 
-                key={index}
+                key={p.id}
                 initial={{ opacity: 0, x: -10 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.1 }}
                 style={{ 
                   fontSize: '1.2rem', 
-                  fontWeight: index < 3 ? 'bold' : 'normal',
+                  fontWeight: p.rank <= 3 ? 'bold' : 'normal',
                   color: color,
                   display: 'flex',
                   alignItems: 'center',
-                  background: index === 0 ? 'rgba(251, 191, 36, 0.1)' : 'rgba(255,255,255,0.05)',
+                  background: p.rank === 1 ? 'rgba(251, 191, 36, 0.1)' : 'rgba(255,255,255,0.05)',
                   padding: '0.8rem 1rem',
                   borderRadius: '0.5rem',
                   justifyContent: 'space-between',
                 }}
               >
-                <span style={{ display: 'flex', gap: '0.8rem', alignItems: 'center' }}>
-                  <span style={{ width: '20px', textAlign: 'center' }}>{medal}</span>
+                <span style={{ display: 'flex', gap: '0.8rem', alignItems: 'center', flex: 1, minWidth: 0, paddingRight: '0.5rem' }}>
+                  <span style={{ width: '30px', textAlign: 'center', fontWeight: 'bold', flexShrink: 0 }}>{medal}</span>
                   <Avatar photo={p.photo} name={p.name} size={32} />
-                  <span>{p.name} {userId && p.name === players[userId]?.name ? '(Tu)' : ''}</span>
+                  <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                    {p.name} {userId && p.id === userId ? '(Tu)' : ''}
+                  </span>
                 </span>
-                <span>{p.score} pt</span>
+                <span style={{ flexShrink: 0 }}>{p.score} pt</span>
               </motion.div>
             )
           })}

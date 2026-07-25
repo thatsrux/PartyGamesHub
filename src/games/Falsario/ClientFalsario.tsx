@@ -2,6 +2,9 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumMobile from '../../components/shared/PodiumMobile';
+import RoundTracker from '../../components/shared/RoundTracker';
+import ProgressBar from '../../components/shared/ProgressBar';
+import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
 export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, setGameStatus } = useLobby(lobbyCode);
@@ -46,7 +49,8 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
     const isCorrect = myVote === gameState.question?.truth;
 
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 3} isMobile />
         <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
           <h2 style={{ fontSize: '2.5rem', color: isCorrect ? 'var(--color-success)' : 'var(--color-danger)' }}>
             {isCorrect ? 'Hai indovinato! ✅' : 'Sei stato ingannato! ❌'}
@@ -63,27 +67,30 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
             </button>
           )}
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 
   if (phase === 'vote') {
     if (myVote) {
       return (
-        <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'center', textAlign: 'center' }}>
+          <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 3} isMobile />
           <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
             <h2 style={{ color: 'var(--color-success)', fontSize: '2.5rem' }}>Voto inviato!</h2>
             <p className="animate-pulse" style={{ marginTop: '1rem', fontSize: '1.2rem' }}>
               In attesa degli altri giocatori...
             </p>
           </motion.div>
-        </div>
+        </GameLayoutMobile>
       );
     }
 
     return (
-      <div className="container-mobile" style={{ justifyContent: 'flex-start' }}>
+      <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'flex-start', paddingTop: '4rem' }}>
+        <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 3} isMobile />
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
+          <ProgressBar durationMs={30000} startTime={gameState.startTime} />
           <h2 style={{ textAlign: 'center', margin: '2rem 0 1rem', color: 'var(--color-primary)' }}>Qual è la verità?</h2>
           
           <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '1rem', paddingBottom: '2rem' }}>
@@ -110,26 +117,29 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
             })}
           </div>
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 
   if (phase === 'write_lie') {
     if (myLie) {
       return (
-        <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'center', textAlign: 'center' }}>
+          <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 3} isMobile />
           <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
             <h2 style={{ color: 'var(--color-success)', fontSize: '2.5rem' }}>Bugia inviata!</h2>
             <p style={{ marginTop: '1rem', color: 'var(--color-text-muted)' }}>Guarda la TV in attesa degli altri.</p>
           </motion.div>
-        </div>
+        </GameLayoutMobile>
       );
     }
 
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center' }}>
+      <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
+        <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 3} isMobile />
         <motion.div className="panel" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
-          <h2 style={{ textAlign: 'center', marginBottom: '2rem', color: 'var(--color-primary)' }}>Scrivi una bugia credibile!</h2>
+          <ProgressBar durationMs={(gameState.settings?.duration || 60) * 1000} startTime={gameState.startTime} />
+          <h2 style={{ textAlign: 'center', marginBottom: '2rem', marginTop: '2rem', color: 'var(--color-primary)' }}>Scrivi una bugia credibile!</h2>
           
           <form onSubmit={handleLieSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
             <input 
@@ -152,7 +162,7 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
             </button>
           </form>
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 

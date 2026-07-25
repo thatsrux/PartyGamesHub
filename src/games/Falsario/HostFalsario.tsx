@@ -4,6 +4,9 @@ import { useLobby } from '../../hooks/useLobby';
 import PodiumTV from '../../components/shared/PodiumTV';
 import Avatar from '../../components/shared/Avatar';
 import ProgressBar from '../../components/shared/ProgressBar';
+import GameLayoutTV from '../../components/shared/GameLayoutTV';
+import RoundTracker from '../../components/shared/RoundTracker';
+import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 
 const questions = [
   { text: "Il soprannome d'infanzia di Pelé era...", truth: "Dico" },
@@ -24,6 +27,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
       
       updateGameState({
         phase: 'write_lie',
+        round: 1,
         question: randomQ,
         lies: {},
         votes: {},
@@ -95,7 +99,25 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
 
   useEffect(() => {
     if (gameState.action === 'next_round' && gameState.phase === 'reveal') {
-      updateGameState({ phase: 'finished', action: null });
+      const currentRound = gameState.round || 1;
+      const totalRounds = Math.min(gameState.settings?.rounds || 3, questions.length);
+      
+      if (currentRound < totalRounds) {
+        // Pick the next question (or a random unplayed one). We'll just use the index for simplicity.
+        const randomQ = questions[currentRound % questions.length];
+        updateGameState({
+          phase: 'write_lie',
+          round: currentRound + 1,
+          question: randomQ,
+          lies: {},
+          votes: {},
+          options: null,
+          action: null,
+          startTime: Date.now()
+        });
+      } else {
+        updateGameState({ phase: 'finished', action: null });
+      }
     }
   }, [gameState.action, gameState.phase]);
 
@@ -103,19 +125,28 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
   if (!gameState.phase) return <div>Caricamento...</div>;
 
   return (
-    <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100vh', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-      <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '4rem', marginBottom: '2rem' }}>
-        Il Falsario 🤥
-      </motion.h1>
+    <GameLayoutTV themeKey="falsario">
+      
+      {gameState.phase !== 'finished' && (
+        <>
+          <RoundTracker current={gameState.round || 1} total={Math.min(gameState.settings?.rounds || 3, questions.length)} />
+          <MiniLeaderboardTV players={players} animateUpdates={true} />
+        </>
+      )}
 
-      <div className="panel" style={{ maxWidth: '1200px', width: '90%', minHeight: '400px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
+        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '4rem', marginBottom: '2rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
+          Il Falsario 🤥
+        </motion.h1>
+
+        <div className="panel" style={{ maxWidth: '1200px', width: '90%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         
         {gameState.phase === 'write_lie' && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
             <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem', color: 'var(--color-primary)' }}>Completa la frase con una bugia credibile:</h2>
             <h1 style={{ fontSize: '3rem', margin: '2rem 0' }}>"{gameState.question?.text}"</h1>
             
-            <ProgressBar durationMs={45000} onComplete={handleGoToVote} />
+            <ProgressBar durationMs={(gameState.settings?.duration || 60) * 1000} onComplete={handleGoToVote} />
 
             <div style={{ marginTop: '3rem', display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               {Object.entries(players).map(([id, p]: any) => (
@@ -205,9 +236,13 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
         )}
 
         {gameState.phase === 'finished' && (
-          <PodiumTV players={players} />
+          <PodiumTV 
+            players={players} 
+            points={Object.fromEntries(Object.entries(players).map(([id, p]: any) => [id, p.score || 0]))} 
+          />
         )}
       </div>
-    </div>
+      </div>
+    </GameLayoutTV>
   );
 }

@@ -6,6 +6,73 @@ import { useLobby } from '../../hooks/useLobby';
 import PodiumTV from '../../components/shared/PodiumTV';
 import Avatar from '../../components/shared/Avatar';
 import ProgressBar from '../../components/shared/ProgressBar';
+import WaitingAdminTV from '../../components/shared/WaitingAdminTV';
+import RoundLeaderboardTV from '../../components/shared/RoundLeaderboardTV';
+import GameLayoutTV from '../../components/shared/GameLayoutTV';
+import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
+
+function PlayerHostAvatar({ id, p, gameState }: { id: string, p: any, gameState: any }) {
+  const [feedback, setFeedback] = useState<'wrong' | 'correct' | null>(null);
+  const feedbackData = gameState.guessFeedback?.[id];
+
+  useEffect(() => {
+    // Only show feedback if it was generated during the current round's active time
+    if (feedbackData?.timestamp && gameState.startTime && feedbackData.timestamp >= gameState.startTime) {
+      setFeedback(feedbackData.status);
+      const timer = setTimeout(() => setFeedback(null), 1500);
+      return () => clearTimeout(timer);
+    } else {
+      setFeedback(null);
+    }
+  }, [feedbackData?.timestamp, gameState.startTime]);
+
+  return (
+    <div style={{ position: 'relative' }}>
+      <motion.div
+        initial={false}
+        animate={{ 
+          opacity: feedback ? 1 : 0, 
+          y: feedback ? -35 : 0, 
+          scale: feedback ? 1.2 : 0.5 
+        }}
+        transition={{ type: 'spring', stiffness: 300, damping: 20 }}
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: '50%',
+          marginLeft: '-15px',
+          zIndex: 10,
+          fontSize: '1.5rem',
+          filter: 'drop-shadow(0 2px 5px rgba(0,0,0,0.5))',
+          pointerEvents: 'none'
+        }}
+      >
+        {feedback === 'correct' ? '✅' : feedback === 'wrong' ? '❌' : ''}
+      </motion.div>
+      <motion.div 
+        animate={
+          feedback === 'wrong' ? { x: [-5, 5, -5, 5, 0], backgroundColor: 'rgba(239, 68, 68, 0.4)' } 
+          : feedback === 'correct' || gameState.answers?.[id] ? { backgroundColor: 'rgba(16, 185, 129, 0.8)' } 
+          : { backgroundColor: 'rgba(255,255,255,0.1)' }
+        }
+        transition={{ duration: 0.3 }}
+        style={{ 
+          padding: '0.5rem 1rem', 
+          borderRadius: '2rem',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '0.5rem',
+          border: '1px solid rgba(255,255,255,0.2)'
+        }}
+      >
+        <Avatar photo={p.photo} name={p.name} size={36} />
+        <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
+          {p.name} {gameState.answers?.[id] && '✓'}
+        </span>
+      </motion.div>
+    </div>
+  );
+}
 
 export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
@@ -94,15 +161,28 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
   const handleRoundEnd = () => {
     const playerIds = Object.keys(players);
     const currentCareer = selectedCareers[currentQuestionIndex];
+    const durationMs = (gameState.settings?.duration || 30) * 1000;
     
+    const roundPoints: Record<string, number> = {};
+
     playerIds.forEach(id => {
-      const answer = gameState.answers?.[id];
+      const pAnswerData = gameState.answers?.[id];
+      const answer = typeof pAnswerData === 'object' ? pAnswerData?.value : pAnswerData;
+      const timeElapsed = typeof pAnswerData === 'object' ? (pAnswerData?.timeElapsed || 0) : 0;
+      
       if (answer && answer.toLowerCase().trim() === currentCareer.name.toLowerCase()) {
-        updatePlayerScore(id, 100);
+        const timeLeft = Math.max(0, durationMs - timeElapsed);
+        const basePoints = 50;
+        const timeBonus = durationMs > 0 ? Math.floor((timeLeft / durationMs) * 150) : 0;
+        const pts = basePoints + timeBonus;
+        roundPoints[id] = pts;
+        updatePlayerScore(id, pts);
+      } else {
+        roundPoints[id] = 0;
       }
     });
     
-    updateGameState({ phase: 'reveal' });
+    updateGameState({ phase: 'reveal', roundPoints });
   };
 
   const handleNextRound = () => {
@@ -116,6 +196,7 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
         clueIndex: 0,
         startTime: Date.now(),
         answers: {},
+        guessFeedback: {},
         action: null
       });
     } else {
@@ -125,8 +206,12 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
 
   // Listen to Admin commands
   useEffect(() => {
-    if (gameState.action === 'next_round' && gameState.phase === 'reveal') {
-      handleNextRound();
+    if (gameState.action === 'next_round') {
+      if (gameState.phase === 'reveal') {
+        updateGameState({ phase: 'results', action: null });
+      } else if (gameState.phase === 'results') {
+        handleNextRound();
+      }
     }
   }, [gameState.action, gameState.actionId]);
 
@@ -135,12 +220,12 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
   if (!currentCareer) return <div>Caricamento...</div>;
 
   return (
-    <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100vh', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-      
+    <GameLayoutTV themeKey="la_carriera">
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', textAlign: 'center', minHeight: 0 }}>
       <motion.h1
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        style={{ fontSize: '4rem', marginBottom: '0.5rem' }}
+        style={{ fontSize: '4rem', marginBottom: '0.5rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}
       >
         La Carriera
       </motion.h1>
@@ -155,7 +240,11 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
         </motion.div>
       )}
 
-      <div className="panel" style={{ maxWidth: '1600px', width: '95%', minHeight: '400px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+      {gameState.phase !== 'finished' && gameState.phase !== 'results' && (
+        <MiniLeaderboardTV players={players} animateUpdates={true} />
+      )}
+
+      <div className="panel" style={{ maxWidth: '1200px', width: '90%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         {gameState.phase === 'question' && (
           <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }}>
             <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text-muted)' }}>Chi ha giocato in queste squadre?</h2>
@@ -232,19 +321,7 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
 
             <div style={{ marginTop: '3rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               {Object.entries(players).map(([id, p]: any) => (
-                <div key={id} style={{ 
-                  padding: '0.5rem 1rem', 
-                  background: gameState.answers?.[id] ? 'var(--color-success)' : 'rgba(255,255,255,0.1)', 
-                  borderRadius: '2rem',
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '0.5rem'
-                }}>
-                  <Avatar photo={p.photo} name={p.name} size={36} />
-                  <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>
-                    {p.name} {gameState.answers?.[id] && '✓'}
-                  </span>
-                </div>
+                <PlayerHostAvatar key={id} id={id} p={p} gameState={gameState} />
               ))}
             </div>
             
@@ -332,45 +409,29 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
                 })}
               </div>
 
-            <div style={{ marginTop: '2rem' }}>
-              <h3>Risultati:</h3>
-              <ul style={{ listStyle: 'none', marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', alignItems: 'center' }}>
-                {Object.entries(players).map(([id, p]: any) => {
-                  const pAnswer = gameState.answers?.[id];
-                  const correct = pAnswer && pAnswer.toLowerCase().trim() === currentCareer.name.toLowerCase();
-                  return (
-                    <li key={id} style={{ 
-                      fontSize: '1.5rem', 
-                      display: 'flex', 
-                      alignItems: 'center', 
-                      justifyContent: 'space-between',
-                      background: 'rgba(255,255,255,0.05)', 
-                      padding: '0.5rem 1.5rem', 
-                      borderRadius: '1rem', 
-                      width: '450px',
-                      maxWidth: '95%'
-                    }}>
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                        <Avatar photo={p.photo} name={p.name} size={40} />
-                        <span style={{ fontWeight: 'bold' }}>{p.name}:</span> 
-                      </div>
-                      <span style={{ textAlign: 'right' }}>{pAnswer ? (correct ? '✅ +100' : `❌ (${pAnswer})`) : '⏳ Tempo scaduto'}</span>
-                    </li>
-                  )
-                })}
-              </ul>
+            <div style={{ marginTop: '3rem' }}>
+              <WaitingAdminTV />
             </div>
-            
-            <p style={{ marginTop: '3rem', color: 'var(--color-text-muted)', fontSize: '1.2rem' }} className="animate-pulse">
-              In attesa che l'Admin passi al prossimo round...
-            </p>
           </motion.div>
         )}
 
+        {gameState.phase === 'results' && (
+          <RoundLeaderboardTV 
+            players={players} 
+            points={Object.fromEntries(Object.entries(players).map(([id, p]: any) => [id, p.score || 0]))} 
+            roundPoints={gameState.roundPoints || {}} 
+            roundName={`Round ${currentQuestionIndex + 1}`}
+          />
+        )}
+
         {gameState.phase === 'finished' && (
-          <PodiumTV players={players} />
+          <PodiumTV 
+            players={players} 
+            points={Object.fromEntries(Object.entries(players).map(([id, p]: any) => [id, p.score || 0]))}
+          />
         )}
       </div>
-    </div>
+      </div>
+    </GameLayoutTV>
   );
 }

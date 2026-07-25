@@ -5,15 +5,16 @@ import { useLobby } from '../hooks/useLobby';
 import ClientVeroOFake from '../games/VeroOFake/ClientVeroOFake';
 import ClientLaCarriera from '../games/LaCarriera/ClientLaCarriera';
 import ClientImpostore from '../games/Impostore/ClientImpostore';
-import ClientFantaAsta from '../games/FantaAsta/ClientFantaAsta';
+import ClientNomiCoseCitta from '../games/NomiCoseCitta/ClientNomiCoseCitta';
+
 import ClientFalsario from '../games/Falsario/ClientFalsario';
-import ClientCollegamento from '../games/Collegamento/ClientCollegamento';
 import ClientDisegnatore from '../games/Disegnatore/ClientDisegnatore';
 import ExitButton from '../components/shared/ExitButton';
 import AdminTerminateButton from '../components/shared/AdminTerminateButton';
 import FloatingLobbyCode from '../components/shared/FloatingLobbyCode';
 import { useProfile } from '../hooks/useProfile';
 import Avatar from '../components/shared/Avatar';
+import SettingsSlider from '../components/shared/SettingsSlider';
 
 export default function ClientJoin() {
   const [searchParams] = useSearchParams();
@@ -26,18 +27,19 @@ export default function ClientJoin() {
   const [error, setError] = useState<string | null>(null);
 
   const defaultSettings: Record<string, any> = {
+    'vero_o_fake': { rounds: 10, duration: 15 },
     'la_carriera': { rounds: 10, duration: 30 },
-    'impostore': { duration: 60 },
-    'fanta_asta': { players: 5, budget: 500 },
-    'falsario': {},
-    'collegamento': {},
-    'disegnatore': {}
+    'impostore': { rounds: 5, duration: 60, impostoreCategory: 'Animali' },
+    'nomi_cose_citta': { rounds: 3, duration: 60, categories: ['Nomi', 'Cose', 'Città', 'Animali', 'Mestieri'] },
+    'falsario': { rounds: 5, duration: 45 },
+    'disegnatore': { rounds: 2, duration: 60 }
   };
   const [settingsOpen, setSettingsOpen] = useState<string | null>(null);
+  const [tempSettings, setTempSettings] = useState<any>({});
+  const [tempCategory, setTempCategory] = useState('');
   const [localSettings, setLocalSettings] = useState<any>(
     JSON.parse(localStorage.getItem('party_hub_game_settings_v2') || '{}')
   );
-  const [tempSettings, setTempSettings] = useState<any>({});
 
   // Pre-fill nickname if profile exists
   useEffect(() => {
@@ -98,14 +100,12 @@ export default function ClientJoin() {
         if (lobby.game_selected === 'impostore') {
           return <ClientImpostore lobbyCode={code} userId={userId} />;
         }
-        if (lobby.game_selected === 'fanta_asta') {
-          return <ClientFantaAsta lobbyCode={code} userId={userId} />;
+        if (lobby.game_selected === 'nomi_cose_citta') {
+          return <ClientNomiCoseCitta lobbyCode={code} userId={userId} />;
         }
+
         if (lobby.game_selected === 'falsario') {
           return <ClientFalsario lobbyCode={code} userId={userId} />;
-        }
-        if (lobby.game_selected === 'collegamento') {
-          return <ClientCollegamento lobbyCode={code} userId={userId} />;
         }
         if (lobby.game_selected === 'disegnatore') {
           return <ClientDisegnatore lobbyCode={code} userId={userId} />;
@@ -131,12 +131,21 @@ export default function ClientJoin() {
         const def = defaultSettings[game] || {};
         
         let rounds = saved.rounds;
-        if (typeof rounds !== 'number' || rounds < 5 || rounds > 20) rounds = def.rounds;
+        if (game === 'nomi_cose_citta') {
+          if (typeof rounds !== 'number' || rounds < 1 || rounds > 10) rounds = def.rounds || 3;
+        } else if (game === 'la_carriera') {
+          if (typeof rounds !== 'number' || rounds < 5 || rounds > 20) rounds = def.rounds;
+        } else if (game === 'disegnatore') {
+          if (typeof rounds !== 'number' || rounds < 1 || rounds > 4) rounds = def.rounds || 2;
+        }
         
         let duration = saved.duration;
         if (typeof duration !== 'number' || duration < 10 || duration > 60) duration = def.duration;
         
-        setTempSettings({ ...saved, ...def, rounds, duration });
+        let categories = saved.categories && saved.categories.length > 0 ? saved.categories : def.categories || [];
+        
+        setTempSettings({ ...saved, ...def, rounds, duration, categories });
+        setTempCategory('');
         setSettingsOpen(game);
       };
 
@@ -150,8 +159,24 @@ export default function ClientJoin() {
       };
 
       const handleStartGame = (gameId: string) => {
-        const gameSet = localSettings[gameId] || defaultSettings[gameId] || {};
-        setGameStatus('playing', gameId, { settings: gameSet });
+        try {
+          let gameSet = { ...defaultSettings[gameId], ...(localSettings[gameId] || {}) };
+          
+          if (gameId === 'nomi_cose_citta') {
+            if (!gameSet.categories || gameSet.categories.length === 0) {
+              gameSet.categories = defaultSettings[gameId].categories;
+            }
+          }
+          
+          // Firebase non accetta undefined, quindi filtriamo l'oggetto
+          gameSet = JSON.parse(JSON.stringify(gameSet));
+          
+          setGameStatus('playing', gameId, { settings: gameSet }).catch((e: any) => {
+             alert('Errore in setGameStatus: ' + e.message);
+          });
+        } catch (e: any) {
+          alert('Errore in handleStartGame: ' + e.message);
+        }
       };
 
       return (
@@ -163,75 +188,88 @@ export default function ClientJoin() {
             <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="panel">
               <h2 style={{ color: 'var(--color-primary)', marginBottom: '2rem', textAlign: 'center' }}>Impostazioni</h2>
               
-              {settingsOpen === 'la_carriera' && (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginBottom: '2.5rem' }}>
-                  <div className="input-group" style={{ margin: 0 }}>
-                    <label style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', fontSize: '1.2rem' }}>
-                      <span>🎯 Numero di Round</span>
-                      <span style={{ 
-                        fontWeight: 'bold', 
-                        color: 'var(--color-bg)', 
-                        background: 'var(--color-primary)', 
-                        padding: '0.2rem 0.8rem', 
-                        borderRadius: '1rem' 
-                      }}>
-                        {Math.min(20, Math.max(5, tempSettings.rounds || 10))}
-                      </span>
-                    </label>
-                    <input 
-                      type="range" 
-                      min="5" max="20" step="1"
-                      value={Math.min(20, Math.max(5, tempSettings.rounds || 10))} 
-                      onChange={e => setTempSettings({...tempSettings, rounds: parseInt(e.target.value) || 10})} 
-                      style={{ 
-                        accentColor: 'var(--color-primary)', 
-                        width: '100%', 
-                        height: '10px', 
-                        borderRadius: '5px', 
-                        cursor: 'pointer',
-                        outline: 'none'
-                      }}
-                    />
-                    <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0.5rem', fontSize: '0.8rem', opacity: 0.5 }}>
-                      <span>5</span>
-                      <span>20</span>
-                    </div>
-                  </div>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginBottom: '2.5rem' }}>
+                <SettingsSlider 
+                  label="Numero di Round"
+                  icon="🎯"
+                  value={tempSettings.rounds || (settingsOpen === 'disegnatore' ? 2 : (settingsOpen === 'nomi_cose_citta' ? 3 : 5))}
+                  min={1} max={settingsOpen === 'disegnatore' ? 4 : (settingsOpen === 'nomi_cose_citta' ? 10 : 20)} step={1}
+                  onChange={(val) => setTempSettings({ ...tempSettings, rounds: val })}
+                />
+                
+                <SettingsSlider 
+                  label="Durata (secondi)"
+                  icon="⏱️"
+                  suffix="s"
+                  value={tempSettings.duration || 30}
+                  min={10} max={120} step={5}
+                  onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
+                />
 
+                {settingsOpen === 'nomi_cose_citta' && (
                   <div className="input-group" style={{ margin: 0 }}>
-                    <label style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', fontSize: '1.2rem' }}>
-                      <span>⏱️ Durata (secondi)</span>
-                      <span style={{ 
-                        fontWeight: 'bold', 
-                        color: 'var(--color-bg)', 
-                        background: 'var(--color-primary)', 
-                        padding: '0.2rem 0.8rem', 
-                        borderRadius: '1rem' 
-                      }}>
-                        {Math.min(60, Math.max(10, tempSettings.duration || 30))}s
-                      </span>
-                    </label>
-                    <input 
-                      type="range" 
-                      min="10" max="60" step="5"
-                      value={Math.min(60, Math.max(10, tempSettings.duration || 30))} 
-                      onChange={e => setTempSettings({...tempSettings, duration: parseInt(e.target.value) || 30})} 
-                      style={{ 
-                        accentColor: 'var(--color-primary)', 
-                        width: '100%', 
-                        height: '10px', 
-                        borderRadius: '5px', 
-                        cursor: 'pointer',
-                        outline: 'none'
-                      }}
-                    />
-                    <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0.5rem', fontSize: '0.8rem', opacity: 0.5 }}>
-                      <span>10s</span>
-                      <span>60s</span>
+                    <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block' }}>🏷️ Categorie ({tempSettings.categories?.length || 0})</label>
+                    <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1rem' }}>
+                       <input type="text" className="input" placeholder="Nuova categoria" value={tempCategory} onChange={e => setTempCategory(e.target.value)} onKeyDown={e => {
+                          if (e.key === 'Enter' && tempCategory.trim()) {
+                             if (!tempSettings.categories?.includes(tempCategory.trim())) {
+                               setTempSettings({ ...tempSettings, categories: [...(tempSettings.categories || []), tempCategory.trim()] });
+                             }
+                             setTempCategory('');
+                          }
+                       }} />
+                       <button className="btn btn-primary" onClick={() => {
+                          if (tempCategory.trim()) {
+                             if (!tempSettings.categories?.includes(tempCategory.trim())) {
+                               setTempSettings({ ...tempSettings, categories: [...(tempSettings.categories || []), tempCategory.trim()] });
+                             }
+                             setTempCategory('');
+                          }
+                       }}>Aggiungi</button>
+                    </div>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                       {(tempSettings.categories || []).map((cat: string, index: number) => (
+                          <div key={index} style={{ background: 'rgba(255,255,255,0.1)', padding: '0.5rem 1rem', borderRadius: '2rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <span>{cat}</span>
+                            <button style={{ background: 'none', border: 'none', color: 'var(--color-danger)', cursor: 'pointer', fontWeight: 'bold' }} onClick={() => {
+                              setTempSettings({ ...tempSettings, categories: tempSettings.categories.filter((_: any, i: number) => i !== index) });
+                            }}>✕</button>
+                          </div>
+                       ))}
                     </div>
                   </div>
-                </div>
-              )}
+                )}
+                {settingsOpen === 'impostore' && (
+                  <div className="input-group" style={{ margin: 0 }}>
+                    <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block' }}>🗂️ Categoria</label>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                       {['Animali', 'Calciatori', 'Film / Serie TV', 'Cibo'].map((cat) => (
+                          <button 
+                            key={cat} 
+                            style={{ 
+                              background: tempSettings.impostoreCategory === cat ? 'var(--color-primary)' : 'rgba(255,255,255,0.1)', 
+                              color: tempSettings.impostoreCategory === cat ? '#fff' : 'var(--color-text)',
+                              padding: '0.8rem 1rem', 
+                              borderRadius: '2rem', 
+                              border: tempSettings.impostoreCategory === cat ? '2px solid transparent' : '2px solid rgba(255,255,255,0.2)',
+                              cursor: 'pointer', 
+                              fontWeight: 'bold',
+                              fontSize: '1rem',
+                              flex: '1 1 calc(50% - 0.5rem)',
+                              transition: 'all 0.2s'
+                            }} 
+                            onClick={(e) => {
+                              e.preventDefault();
+                              setTempSettings({ ...tempSettings, impostoreCategory: cat });
+                            }}
+                          >
+                            {cat}
+                          </button>
+                       ))}
+                    </div>
+                  </div>
+                )}
+              </div>
               
               <div style={{ display: 'flex', gap: '1rem' }}>
                 <button className="btn btn-secondary" style={{ flex: 1 }} onClick={() => setSettingsOpen(null)}>Annulla</button>
@@ -246,7 +284,7 @@ export default function ClientJoin() {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                 <div style={{ display: 'flex', gap: '0.5rem' }}>
                   <button className="btn btn-primary" style={{ flex: 1 }} onClick={() => handleStartGame('vero_o_fake')}>
-                    ✅ Vero o Fake?
+                    ✅ Vero o Falso?
                   </button>
                   <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('vero_o_fake')}>⚙️</button>
                 </div>
@@ -266,10 +304,10 @@ export default function ClientJoin() {
                 </div>
                 
                 <div style={{ display: 'flex', gap: '0.5rem' }}>
-                  <button className="btn btn-primary" style={{ flex: 1, background: '#f59e0b' }} onClick={() => handleStartGame('fanta_asta')}>
-                    💰 Fanta-Asta al Buio
+                  <button className="btn btn-primary" style={{ flex: 1, background: '#f59e0b' }} onClick={() => handleStartGame('nomi_cose_citta')}>
+                    📝 Nomi, Cose, Città
                   </button>
-                  <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('fanta_asta')}>⚙️</button>
+                  <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('nomi_cose_citta')}>⚙️</button>
                 </div>
                 
                 <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -277,13 +315,6 @@ export default function ClientJoin() {
                     🤥 Il Falsario
                   </button>
                   <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('falsario')}>⚙️</button>
-                </div>
-                
-                <div style={{ display: 'flex', gap: '0.5rem' }}>
-                  <button className="btn btn-primary" style={{ flex: 1, background: '#0ea5e9' }} onClick={() => handleStartGame('collegamento')}>
-                    🔗 Il Collegamento
-                  </button>
-                  <button className="btn btn-secondary" style={{ padding: '0 1rem' }} onClick={() => openSettings('collegamento')}>⚙️</button>
                 </div>
 
                 <div style={{ display: 'flex', gap: '0.5rem' }}>

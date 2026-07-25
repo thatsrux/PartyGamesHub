@@ -16,6 +16,7 @@ export interface LobbyState {
   status: 'waiting' | 'playing' | 'finished';
   game_selected: string;
   host_id: string;
+  tv_present?: boolean;
   players: Record<string, Player>;
   game_state?: any;
 }
@@ -81,17 +82,57 @@ export function useLobby(lobbyCode: string | null) {
     }
   }, [lobby?.players, userId, lobbyCode]);
 
+  // Gestione della presenza della TV
+  useEffect(() => {
+    if (!lobbyCode || !userId || !lobby) return;
+    if (lobby.host_id === userId) {
+      const tvPresentRef = ref(db, `lobbies/${lobbyCode}/tv_present`);
+      update(ref(db, `lobbies/${lobbyCode}`), { tv_present: true }).catch(console.error);
+      onDisconnect(tvPresentRef).remove().catch(console.error);
+    }
+  }, [lobbyCode, userId, lobby?.host_id]);
+
   const createLobby = async (code: string) => {
     if (!userId) return;
-    const lobbyRef = ref(db, `lobbies/${code}`);
     
-    // We intentionally do NOT delete the lobby when the TV disconnects
-    // so players can remain in the lobby and the TV can reconnect.
+    // Eseguiamo una Garbage Collection per eliminare le lobby "quittate da tutti"
+    try {
+      const { get } = await import('firebase/database');
+      const snapshot = await get(ref(db, 'lobbies'));
+      if (snapshot.exists()) {
+        const now = Date.now();
+        snapshot.forEach((childSnap) => {
+          const l = childSnap.val();
+          const hasPlayers = l.players && Object.keys(l.players).length > 0;
+          const hasTV = l.tv_present === true;
+          // Se non c'è la TV, non ci sono giocatori, ed è stata creata da più di 1 ora (per sicurezza, fallback),
+          // oppure se semplicemente non c'è nessuno connesso (tv o giocatori).
+          if (!hasTV && !hasPlayers) {
+            remove(childSnap.ref).catch(() => {});
+          } else if (l.createdAt && now - l.createdAt > 24 * 60 * 60 * 1000) {
+            // Elimina comunque lobby vecchie di 24h per sicurezza
+            remove(childSnap.ref).catch(() => {});
+          }
+        });
+      }
+    } catch (e) {
+      console.warn("Garbage collection failed", e);
+    }
+
+    const lobbyRef = ref(db, `lobbies/${code}`);
+    const tvPresentRef = ref(db, `lobbies/${code}/tv_present`);
+    
+    // Quando la TV si scollega, rimuoviamo solo il flag tv_present.
+    // In questo modo i giocatori rimangono connessi e la TV può riconnettersi.
+    // Se anche i giocatori escono, la lobby diventa orfana e verrà eliminata dal Garbage Collector.
+    onDisconnect(tvPresentRef).remove().catch(console.error);
 
     await set(lobbyRef, {
       status: 'waiting',
       game_selected: 'none',
       host_id: userId,
+      tv_present: true,
+      createdAt: Date.now(),
       players: {}
     });
   };
@@ -130,6 +171,13 @@ export function useLobby(lobbyCode: string | null) {
     // Pulisce o imposta lo stato del gioco
     if (status === 'waiting') {
       updates.game_state = null;
+      
+      // Resetta i punteggi di tutti i giocatori
+      if (lobby?.players) {
+        Object.keys(lobby.players).forEach(pId => {
+          updates[`players/${pId}/score`] = 0;
+        });
+      }
     } else if (initialGameState) {
       updates.game_state = initialGameState;
     }

@@ -1,22 +1,19 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { QRCodeSVG } from 'qrcode.react';
-import { Users, Settings } from 'lucide-react';
 import { useLobby } from '../hooks/useLobby';
 import HostVeroOFake from '../games/VeroOFake/HostVeroOFake';
 import HostLaCarriera from '../games/LaCarriera/HostLaCarriera';
 import HostImpostore from '../games/Impostore/HostImpostore';
-import HostFantaAsta from '../games/FantaAsta/HostFantaAsta';
+import HostNomiCoseCitta from '../games/NomiCoseCitta/HostNomiCoseCitta';
+
 import HostFalsario from '../games/Falsario/HostFalsario';
-import HostCollegamento from '../games/Collegamento/HostCollegamento';
 import HostDisegnatore from '../games/Disegnatore/HostDisegnatore';
 import FloatingLobbyCode from '../components/shared/FloatingLobbyCode';
 import ErrorBoundary from '../components/ErrorBoundary';
 import Avatar from '../components/shared/Avatar';
 
 function HostLobbyContent() {
-  const navigate = useNavigate();
   const [lobbyCode, setLobbyCode] = useState<string | null>(null);
   const [inputCode, setInputCode] = useState('');
   const [isCreated, setIsCreated] = useState(false);
@@ -148,10 +145,10 @@ function HostLobbyContent() {
         </>
       );
     }
-    if (lobby.game_selected === 'fanta_asta') {
+    if (lobby.game_selected === 'nomi_cose_citta') {
       return (
         <>
-          <HostFantaAsta lobbyCode={lobbyCode} />
+          <HostNomiCoseCitta lobbyCode={lobbyCode} />
           <FloatingLobbyCode code={lobbyCode} />
         </>
       );
@@ -160,14 +157,6 @@ function HostLobbyContent() {
       return (
         <>
           <HostFalsario lobbyCode={lobbyCode} />
-          <FloatingLobbyCode code={lobbyCode} />
-        </>
-      );
-    }
-    if (lobby.game_selected === 'collegamento') {
-      return (
-        <>
-          <HostCollegamento lobbyCode={lobbyCode} />
           <FloatingLobbyCode code={lobbyCode} />
         </>
       );
@@ -185,134 +174,153 @@ function HostLobbyContent() {
   const joinUrl = `${window.location.origin}/join?code=${lobbyCode}`;
 
   return (
-    <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100vh', padding: '2rem' }}>
-      <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem' }}>
-        <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', margin: 0 }}>
-          <Settings color="var(--color-primary)" />
-          Host Dashboard
-        </h2>
-        <button className="btn btn-secondary" onClick={() => navigate('/')}>Esci</button>
-      </header>
+    <div style={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      height: '100vh', 
+      background: 'linear-gradient(135deg, #1e1b4b 0%, #312e81 50%, #4338ca 100%)', 
+      overflow: 'hidden',
+      position: 'relative'
+    }}>
+      {/* Background Decorative Elements */}
+      <motion.div animate={{ rotate: 360 }} transition={{ duration: 150, repeat: Infinity, ease: "linear" }} style={{ position: 'absolute', top: '-20vh', left: '-10vw', width: '50vw', height: '50vw', background: 'radial-gradient(circle, rgba(99,102,241,0.25) 0%, rgba(0,0,0,0) 70%)', borderRadius: '50%' }} />
+      <motion.div animate={{ rotate: -360 }} transition={{ duration: 200, repeat: Infinity, ease: "linear" }} style={{ position: 'absolute', bottom: '-20vh', right: '-10vw', width: '60vw', height: '60vw', background: 'radial-gradient(circle, rgba(236,72,153,0.2) 0%, rgba(0,0,0,0) 70%)', borderRadius: '50%' }} />
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', flex: 1 }}>
-        {/* Left Column: QR and Code */}
+      <div style={{ display: 'flex', width: '100%', height: '100%', padding: '4rem', zIndex: 1, gap: '4rem' }}>
+        
+        {/* Left Side: Big QR & Code */}
         <motion.div 
-          className="panel"
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '2rem' }}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ type: 'spring', bounce: 0.5 }}
+          style={{ flex: '0 0 45%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}
         >
-          <div style={{ textAlign: 'center' }}>
-            <p style={{ color: 'var(--color-text-muted)', fontSize: '1.2rem', marginBottom: '0.5rem' }}>
-              Vai su <strong>{window.location.host}/join</strong> e inserisci il codice:
-            </p>
-            <h1 style={{ fontSize: '5rem', letterSpacing: '0.5rem', color: 'var(--color-primary)' }}>
+          <div style={{ background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', padding: '4rem', borderRadius: '3rem', border: '1px solid rgba(255,255,255,0.1)', boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <h1 style={{ fontSize: '7rem', fontWeight: '900', letterSpacing: '1rem', background: 'linear-gradient(to right, #60a5fa, #c084fc, #f472b6)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', margin: '0 0 3rem 0', textShadow: '0 10px 30px rgba(0,0,0,0.3)', lineHeight: 1 }}>
               {lobbyCode || '...'}
             </h1>
-          </div>
-
-          <div style={{ background: 'white', padding: '1rem', borderRadius: '1rem' }}>
-            {lobbyCode && (
-              <QRCodeSVG 
-                value={joinUrl}
-                size={256}
-                bgColor={"#ffffff"}
-                fgColor={"#000000"}
-                level={"H"}
-              />
-            )}
+            <div style={{ background: 'white', padding: '1.5rem', borderRadius: '2rem', boxShadow: '0 10px 25px rgba(0,0,0,0.2)' }}>
+              {lobbyCode && (
+                <QRCodeSVG 
+                  value={joinUrl}
+                  size={320}
+                  bgColor={"#ffffff"}
+                  fgColor={"#1e1b4b"}
+                  level={"H"}
+                />
+              )}
+            </div>
+            <p style={{ marginTop: '2.5rem', fontSize: '1.5rem', color: 'rgba(255,255,255,0.6)', fontWeight: '500', textTransform: 'uppercase', letterSpacing: '0.3rem', margin: '2.5rem 0 0 0' }}>
+              Inquadra per giocare
+            </p>
           </div>
         </motion.div>
 
-        {/* Right Column: Players and Game Start */}
+        {/* Right Side: Players Grid */}
         <motion.div 
-          className="panel"
-          initial={{ opacity: 0, x: 20 }}
+          initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
-          style={{ display: 'flex', flexDirection: 'column' }}
+          style={{ flex: 1, display: 'flex', flexDirection: 'column', height: '100%', padding: '1rem' }}
         >
-          <h3 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '1rem', marginBottom: '1rem' }}>
-            <Users />
-            Giocatori Connessi ({playersList.length})
-          </h3>
+          <h2 style={{ fontSize: '3rem', color: 'white', marginBottom: '2rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            Giocatori ({playersList.length})
+          </h2>
           
-          <div style={{ flex: 1, overflowY: 'auto' }}>
+          <div style={{ flex: 1, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start', gap: '1.5rem', overflowY: 'auto', paddingRight: '1rem' }}>
             {playersList.length === 0 ? (
-              <div style={{ display: 'flex', height: '100%', alignItems: 'center', justifyContent: 'center', color: 'var(--color-text-muted)' }}>
-                <p className="animate-pulse">In attesa di giocatori...</p>
+              <div style={{ width: '100%', height: '50%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <p style={{ fontSize: '2.5rem', color: 'rgba(255,255,255,0.4)', fontWeight: 'bold' }} className="animate-pulse">La stanza è vuota...</p>
               </div>
             ) : (
-              <ul style={{ listStyle: 'none' }}>
-                {playersList.map((p, i) => {
-                  const colors = [
-                    'rgba(99, 102, 241, 0.15)', // Indigo
-                    'rgba(236, 72, 153, 0.15)', // Pink
-                    'rgba(14, 165, 233, 0.15)', // Sky
-                    'rgba(16, 185, 129, 0.15)', // Emerald
-                    'rgba(245, 158, 11, 0.15)', // Amber
-                    'rgba(139, 92, 246, 0.15)', // Violet
-                  ];
-                  const borderColors = [
-                    '#6366f1',
-                    '#ec4899',
-                    '#0ea5e9',
-                    '#10b981',
-                    '#f59e0b',
-                    '#8b5cf6',
-                  ];
-                  return (
-                  <motion.li 
-                    key={i}
-                    initial={{ opacity: 0, x: -20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ delay: i * 0.1 }}
-                    style={{ 
-                      padding: '1.2rem', 
-                      background: colors[i % colors.length], 
-                      marginBottom: '0.8rem', 
-                      borderRadius: '0.8rem',
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '1.5rem',
-                      borderLeft: `5px solid ${borderColors[i % borderColors.length]}`,
-                      boxShadow: '0 4px 6px rgba(0,0,0,0.2)',
-                      backdropFilter: 'blur(5px)'
-                    }}
-                  >
-                    <Avatar photo={p.photo} name={p.name} size={64} />
-                    <div style={{ flex: 1, textAlign: 'left' }}>
-                      <h4 style={{ fontSize: '1.8rem', margin: 0, textShadow: '0 2px 4px rgba(0,0,0,0.3)' }}>{p.name}</h4>
-                      {p.isAdmin && (
-                        <span style={{ 
-                          fontSize: '0.9rem', 
-                          background: 'var(--color-primary)', 
-                          padding: '0.2rem 0.6rem', 
-                          borderRadius: '1rem', 
-                          marginTop: '0.5rem', 
-                          display: 'inline-block',
-                          fontWeight: 'bold'
-                        }}>
-                          👑 ADMIN
-                        </span>
-                      )}
-                    </div>
-                  </motion.li>
-                )})}
-              </ul>
+              playersList.map((p, i) => (
+                <motion.div 
+                  key={i}
+                  initial={{ opacity: 0, scale: 0.5 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  transition={{ type: 'spring', bounce: 0.6, delay: i * 0.05 }}
+                  style={{ 
+                    background: 'rgba(255,255,255,0.1)', 
+                    backdropFilter: 'blur(10px)',
+                    border: p.isAdmin ? '2px solid var(--color-primary)' : '1px solid rgba(255,255,255,0.15)',
+                    borderRadius: '2rem',
+                    padding: '1rem 1.5rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '1rem',
+                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                    minWidth: '220px'
+                  }}
+                >
+                  <Avatar photo={p.photo} name={p.name} size={64} />
+                  <div style={{ flex: 1 }}>
+                    <h3 style={{ margin: 0, fontSize: '1.6rem', color: 'white', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{p.name}</h3>
+                    {p.isAdmin && <span style={{ color: '#60a5fa', fontSize: '0.9rem', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '0.1rem' }}>👑 Admin</span>}
+                  </div>
+                </motion.div>
+              ))
             )}
           </div>
-
-          <div style={{ marginTop: '2rem', textAlign: 'center' }}>
-            {playersList.length > 0 ? (
-              <p style={{ color: 'var(--color-primary)', fontSize: '1.2rem' }} className="animate-pulse">
-                In attesa che l'Admin ({playersList.find((p: any) => p.isAdmin)?.name || '...'}) avvii la partita dal suo telefono...
-              </p>
-            ) : (
-              <p style={{ color: 'var(--color-text-muted)' }}>
-                Il primo giocatore a connettersi sarà l'Admin della stanza.
-              </p>
-            )}
-          </div>
+          
+          <motion.div 
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            style={{ marginTop: 'auto', padding: '2rem', borderRadius: '2rem', textAlign: 'center', position: 'relative', overflow: 'hidden' }}
+          >
+            {/* Animated glowing background */}
+            <motion.div 
+              animate={{ 
+                background: [
+                  'linear-gradient(45deg, rgba(59,130,246,0.1) 0%, rgba(147,51,234,0.1) 100%)',
+                  'linear-gradient(45deg, rgba(147,51,234,0.1) 0%, rgba(236,72,153,0.1) 100%)',
+                  'linear-gradient(45deg, rgba(59,130,246,0.1) 0%, rgba(147,51,234,0.1) 100%)'
+                ] 
+              }}
+              transition={{ duration: 4, repeat: Infinity, ease: 'linear' }}
+              style={{ position: 'absolute', inset: 0, zIndex: 0, borderRadius: '2rem', border: '1px solid rgba(255,255,255,0.1)' }}
+            />
+            
+            <div style={{ position: 'relative', zIndex: 1 }}>
+              {playersList.length > 0 ? (
+                <motion.div
+                  animate={{ opacity: [0.7, 1, 0.7] }}
+                  transition={{ duration: 3, repeat: Infinity, ease: 'easeInOut' }}
+                >
+                  <p style={{ fontSize: '1.6rem', margin: 0, fontWeight: '500', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.8rem', flexWrap: 'wrap' }}>
+                    <span style={{ fontSize: '2.2rem', display: 'inline-block' }}>
+                      ✨
+                    </span>
+                    <span style={{ color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)', letterSpacing: '1px' }}>
+                      In attesa che l'Admin
+                    </span>
+                    <motion.strong 
+                      animate={{ backgroundPosition: ['0% center', '200% center'] }}
+                      transition={{ duration: 3, repeat: Infinity, ease: 'linear' }}
+                      style={{ 
+                      background: 'linear-gradient(to right, #60a5fa, #c084fc, #60a5fa)',
+                      backgroundSize: '200% auto',
+                      WebkitBackgroundClip: 'text', 
+                      WebkitTextFillColor: 'transparent',
+                      padding: '0.3rem 1rem',
+                      backgroundClip: 'text',
+                      border: '2px solid rgba(192,132,252,0.3)',
+                      borderRadius: '1rem',
+                      boxShadow: '0 0 20px rgba(192,132,252,0.2) inset, 0 0 15px rgba(96, 165, 250, 0.3)'
+                    }}>
+                      {playersList.find((p: any) => p.isAdmin)?.name}
+                    </motion.strong>
+                    <span style={{ color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)', letterSpacing: '1px' }}>
+                      scelga il gioco...
+                    </span>
+                  </p>
+                </motion.div>
+              ) : (
+                <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.5rem', margin: 0, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.8rem' }}>
+                  <motion.span animate={{ opacity: [0.3, 1] }} transition={{ duration: 1, repeat: Infinity, repeatType: 'reverse' }}>📡</motion.span>
+                  Il primo giocatore a connettersi sarà l'Admin della stanza.
+                </p>
+              )}
+            </div>
+          </motion.div>
         </motion.div>
       </div>
     </div>

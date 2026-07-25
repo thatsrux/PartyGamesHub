@@ -28,9 +28,9 @@ Welcome! If you are an AI model working on this project, please adhere to the fo
    The Firestore / Realtime Database architecture must be strictly optimized to avoid wasting space. Consider data size, efficient data structures, and storage limits for every single backend implementation.
 
 6. **Deployment & Version Control:**
-   EVERY single change must be pushed to GitHub. Do not leave local uncommitted changes. The repository is connected to Vercel for continuous deployment.
+   *CURRENT OVERRIDE:* Per evitare di raggiungere i limiti di redeploy gratuiti su Vercel, **al momento NON pushare ogni modifica**. Effettua i test in locale tramite indirizzo IP (`npm run dev` / `vite --host`).
    - **GitHub Repository:** https://github.com/thatsrux/PartyGamesHub
-   - **Branching Strategy:** You must choose the appropriate branch (`prod` or `test`) depending on the user's explicit request, but regardless of the branch, you MUST commit and push. Note: ALL major changes and completed features can (and sometimes MUST) be pushed directly to `prod` to keep the production version updated with big milestones.
+   - **Branching Strategy:** You must choose the appropriate branch (`prod` or `test`). Normally ALL major changes must be pushed to `prod`, ma ora questa regola è SOSPESA finché l'utente non lo richiede esplicitamente.
 
 7. **Documentation Updates:**
    Always remember to update the `README.md` file after every major or important change to the project to keep the documentation aligned with the current state of the codebase.

@@ -64,7 +64,9 @@ function Home() {
             {profile ? (
               <>
                 <Avatar photo={profile.photo} name={profile.name} size={40} />
-                <span>Modifica Profilo ({profile.name})</span>
+                <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', flex: 1, textAlign: 'left' }}>
+                  Modifica Profilo ({profile.name})
+                </span>
               </>
             ) : (
               <>

@@ -4,12 +4,30 @@ import { useLobby } from '../../hooks/useLobby';
 import PodiumTV from '../../components/shared/PodiumTV';
 import Avatar from '../../components/shared/Avatar';
 import ProgressBar from '../../components/shared/ProgressBar';
+import RoundTracker from '../../components/shared/RoundTracker';
+import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
+import GameLayoutTV from '../../components/shared/GameLayoutTV';
 
-const secretWords = [
+import impostoreCategoriesData from '../../data/impostore_categories.json';
+import footballersData from '../../data/footballers.json';
+
+const fallbackWords = [
   "Fuorigioco", "Calcio di Rigore", "VAR", "Mondiale", "Pallone d'Oro", 
   "Rovesciata", "Triplete", "Scudetto", "Derby", "Calciomercato",
   "Champions League", "Cartellino Rosso", "Portiere", "Cucchiaio", "Capitano"
 ];
+
+const getWordsForCategory = (category: string) => {
+  if (category === 'Calciatori') {
+    return footballersData.map((f: any) => f.name);
+  }
+  
+  if (category && (impostoreCategoriesData as any)[category]) {
+    return (impostoreCategoriesData as any)[category];
+  }
+  
+  return fallbackWords;
+};
 
 export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
@@ -24,7 +42,10 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
       if (playerIds.length === 0) return;
       
       const imposterId = playerIds[Math.floor(Math.random() * playerIds.length)];
-      const secretWord = secretWords[Math.floor(Math.random() * secretWords.length)];
+      
+      const category = gameState.settings?.impostoreCategory || 'Animali';
+      const words = getWordsForCategory(category);
+      const secretWord = words[Math.floor(Math.random() * words.length)];
       
       const roles: Record<string, string> = {};
       playerIds.forEach(id => {
@@ -33,6 +54,7 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
 
       updateGameState({
         phase: 'reveal_roles',
+        round: 1,
         roles,
         secretWord,
         startTime: Date.now(),
@@ -108,8 +130,36 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
   };
 
   const handleNextRound = () => {
-    // Single round game for now, or could loop. Let's make it finish.
-    updateGameState({ phase: 'finished', action: null });
+    const currentRound = gameState.round || 1;
+    const totalRounds = gameState.settings?.rounds || 5;
+    
+    if (currentRound < totalRounds) {
+      const playerIds = Object.keys(players);
+      const imposterId = playerIds[Math.floor(Math.random() * playerIds.length)];
+      
+      const category = gameState.settings?.impostoreCategory || 'Animali';
+      const words = getWordsForCategory(category);
+      const secretWord = words[Math.floor(Math.random() * words.length)];
+      
+      const roles: Record<string, string> = {};
+      playerIds.forEach(id => {
+        roles[id] = id === imposterId ? 'imposter' : 'innocent';
+      });
+
+      updateGameState({
+        phase: 'reveal_roles',
+        round: currentRound + 1,
+        roles,
+        secretWord,
+        startTime: Date.now(),
+        votes: {},
+        action: null,
+        imposterCaught: null,
+        mostVotedIds: null
+      });
+    } else {
+      updateGameState({ phase: 'finished', action: null });
+    }
   };
 
   useEffect(() => {
@@ -122,12 +172,21 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
   if (!gameState.phase) return <div>Caricamento...</div>;
 
   return (
-    <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100vh', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-      <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '4rem', marginBottom: '2rem' }}>
-        L'Impostore 🕵️‍♂️
-      </motion.h1>
+    <GameLayoutTV themeKey="impostore">
+      
+      {gameState.phase !== 'finished' && (
+        <>
+          <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 5} />
+          <MiniLeaderboardTV players={players} animateUpdates={true} />
+        </>
+      )}
+      
+      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
+        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '4rem', marginBottom: '2rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
+          L'Impostore 🕵️‍♂️
+        </motion.h1>
 
-      <div className="panel" style={{ maxWidth: '1200px', width: '90%', minHeight: '400px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+        <div className="panel" style={{ maxWidth: '1200px', width: '90%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         
         {gameState.phase === 'reveal_roles' && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
@@ -235,9 +294,13 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
         )}
 
         {gameState.phase === 'finished' && (
-          <PodiumTV players={players} />
+          <PodiumTV 
+            players={players} 
+            points={Object.fromEntries(Object.entries(players).map(([id, p]: any) => [id, p.score || 0]))} 
+          />
         )}
       </div>
-    </div>
+      </div>
+    </GameLayoutTV>
   );
 }

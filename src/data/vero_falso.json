@@ -1,0 +1,4002 @@
+[
+  {
+    "text": "Il film Titanic ha vinto 11 premi Oscar.",
+    "answer": "vero"
+  },
+  {
+    "text": "In Matrix, la pillola che Neo sceglie per svegliarsi è blu.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Padrino è stato diretto da Steven Spielberg.",
+    "answer": "falso"
+  },
+  {
+    "text": "Meryl Streep detiene il record per il maggior numero di candidature agli Oscar per la recitazione.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel film E.T. l'extra-terrestre, le caramelle preferite di E.T. sono le M&M's.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il primo lungometraggio animato di Walt Disney è stato Biancaneve e i sette nani.",
+    "answer": "vero"
+  },
+  {
+    "text": "Quentin Tarantino ha diretto il film Pulp Fiction.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel film Shining, la famosa frase di Jack Torrance è 'Ecco Johnny!'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il vero nome di Marilyn Monroe era Norma Jeane Mortenson.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Avatar è stato diretto da George Lucas.",
+    "answer": "falso"
+  },
+  {
+    "text": "La colonna sonora del film Il Gladiatore è stata composta da John Williams.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film 'La vita è bella' ha vinto l'Oscar come miglior film straniero.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel film Ritorno al futuro, la macchina del tempo è una DeLorean.",
+    "answer": "vero"
+  },
+  {
+    "text": "Sean Connery è stato il primo attore a interpretare James Bond al cinema.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Inception è ambientato interamente nello spazio.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Signore degli Anelli - Il ritorno del re ha vinto tutti gli 11 Oscar per cui era candidato.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il personaggio di Indiana Jones appare per la prima volta nel film I predatori dell'arca perduta.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel film Forrest Gump, Forrest dice che 'La vita è come una scatola di caramelle'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Alfred Hitchcock non ha mai fatto un cameo nei suoi film.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Jurassic Park è basato su un romanzo di Stephen King.",
+    "answer": "falso"
+  },
+  {
+    "text": "Marlon Brando ha rifiutato l'Oscar per Il Padrino.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Fight Club è stato diretto da Christopher Nolan.",
+    "answer": "falso"
+  },
+  {
+    "text": "La spada laser dei Jedi in Star Wars è tradizionalmente blu o verde.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Il Re Leone (1994) è stato il primo film d'animazione a essere nominato come miglior film agli Oscar.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film Il Mago di Oz, le scarpette di Dorothy sono d'argento nella versione cinematografica.",
+    "answer": "falso"
+  },
+  {
+    "text": "Tom Hanks ha vinto due Oscar consecutivi come miglior attore negli anni '90.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Blade Runner è ambientato nell'anno 2019.",
+    "answer": "vero"
+  },
+  {
+    "text": "Rocky Balboa è un personaggio creato e interpretato da Arnold Schwarzenegger.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Arancia Meccanica è stato diretto da Martin Scorsese.",
+    "answer": "falso"
+  },
+  {
+    "text": "In Terminator 2, la celebre frase del cyborg è 'Hasta la vista, baby'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Lo squalo è stato diretto da James Cameron.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film Il sesto senso, il bambino vede persone morte.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Parasite è stato il primo film non in lingua inglese a vincere l'Oscar come miglior film.",
+    "answer": "vero"
+  },
+  {
+    "text": "La saga di Harry Potter è composta da sette film.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Il silenzio degli innocenti ha vinto i cinque premi Oscar principali (Big Five).",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel film Psycho, il sangue nella famosa scena della doccia era in realtà sciroppo al lampone.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Interstellar ha come protagonista Leonardo DiCaprio.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film 2001: Odissea nello spazio è stato girato in collaborazione con lo scrittore Arthur C. Clarke.",
+    "answer": "vero"
+  },
+  {
+    "text": "La prima parola mai pronunciata da Topolino in un cartone animato è stata 'Hamburger'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Braveheart è basato sulla storia vera di William Wallace.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il personaggio di Darth Vader appare in tutti i nove film della saga principale di Star Wars.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film Il buono, il brutto, il cattivo, il 'buono' è interpretato da Clint Eastwood.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film La La Land ha vinto l'Oscar come miglior film nel 2017.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Seven è noto per la frase finale 'Cosa c'è nella scatola?'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Schindler's List è girato interamente a colori.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il personaggio di Joker è stato interpretato da Heath Ledger nel film Il cavaliere oscuro.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film The Truman Show ha come protagonista Tom Hanks.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film Alien, il mostro esce dalla testa di uno dei personaggi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Amadeus racconta la rivalità tra Mozart e Salieri.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Mad Max: Fury Road ha vinto l'Oscar per i migliori costumi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Scarface con Al Pacino è il primo film con questo titolo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film I Goonies, il tesoro che i ragazzi cercano appartiene a Barbanera.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Esorciccio è una parodia del film L'esorcista con Ciccio Ingrassia.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film The Blues Brothers è basato su personaggi creati per il Saturday Night Live.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Django Unchained è ambientato durante la guerra civile americana.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film La dolce vita è stato diretto da Federico Fellini.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel film I soliti sospetti, Keyser Söze si rivela essere il personaggio interpretato da Kevin Spacey.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Via col vento è stato girato interamente in bianco e nero.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film L'attimo fuggente è famoso per la frase 'Oh capitano, mio capitano'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Quei bravi ragazzi è una storia di pura finzione.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film Il grande Lebowski, la bevanda preferita del protagonista è il Martini.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Le iene è il film d'esordio alla regia di Quentin Tarantino.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Il cacciatore è ambientato durante la guerra del Vietnam.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film The Wolf of Wall Street è diretto da Steven Spielberg.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film Mamma, ho perso l'aereo, la famiglia McCallister sta andando in vacanza a Londra.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Non è un paese per vecchi è basato su un romanzo di Cormac McCarthy.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film La città incantata ha vinto l'Oscar come miglior film d'animazione.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film V per Vendetta è ambientato in una Francia distopica.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Apocalypto è parlato interamente in inglese.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film I predatori dell'arca perduta, Indiana Jones ha paura dei ragni.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Requiem for a Dream è diretto da Darren Aronofsky.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Il castello errante di Howl è un film live action.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film American Psycho, il protagonista Patrick Bateman è interpretato da Christian Bale.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film L'Esorcista è basato su un romanzo di Stephen King.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Taxi Driver ha come protagonista Robert De Niro nel ruolo di Travis Bickle.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel film Matrix, Trinity è interpretata da Angelina Jolie.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Frankenstein Junior è stato diretto da Mel Brooks.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Léon è il film d'esordio di Natalie Portman.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel film Edward mani di forbice, il creatore di Edward riesce a dargli le mani prima di morire.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Il favoloso mondo di Amélie è ambientato a Londra.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Full Metal Jacket è stato girato in Vietnam.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film The Social Network, Mark Zuckerberg è interpretato da Jesse Eisenberg.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Il sesto senso è stato diretto da M. Night Shyamalan.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Donnie Darko è ambientato negli anni '90.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Snatch - Lo strappo ha come regista Quentin Tarantino.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film Il gladiatore, l'imperatore Marco Aurelio viene ucciso da suo figlio Commodo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film The Departed è un film originale, non basato su nessun'altra opera.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film La grande bellezza ha vinto l'Oscar come miglior film straniero.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Il Signore degli Anelli - La Compagnia dell'Anello è stato girato in Islanda.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film Kill Bill, il vero nome della Sposa non viene mai rivelato nei due volumi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film The Aviator racconta la vita di Charles Lindbergh.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Inception si conclude con una trottola che cade chiaramente sul tavolo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film The Prestige parla di due maghi rivali nella Londra vittoriana.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel film Shutter Island, il protagonista Teddy Daniels indaga sulla scomparsa di una paziente.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Whiplash racconta la storia di un giovane trombettista in una prestigiosa scuola di musica.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il film Il cigno nero ha come protagonista Natalie Portman nel ruolo di una ballerina.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Gravity è stato diretto da Alfonso Cuarón.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film Mad Max: Fury Road è il primo film della saga di Mad Max.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel film Django Unchained, il dottor King Schultz è interpretato da Christoph Waltz.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il film The Hateful Eight è stato girato in 70 millimetri.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il miele è l'unico alimento che non scade mai se conservato correttamente.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il pomodoro è tecnicamente una verdura, non un frutto.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Grande Muraglia Cinese è chiaramente visibile a occhio nudo dallo spazio.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'acqua bolle a una temperatura più bassa in alta montagna rispetto al livello del mare.",
+    "answer": "vero"
+  },
+  {
+    "text": "Napoleone Bonaparte era straordinariamente basso per la sua epoca.",
+    "answer": "falso"
+  },
+  {
+    "text": "I tori odiano il colore rosso e per questo attaccano i toreri.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il tiramisù è stato inventato nel Ventesimo secolo, non è un dolce rinascimentale.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le carote in origine erano viola, bianche o gialle, non arancioni.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'inventore del telefono fu senza dubbio Alexander Graham Bell, senza altre rivendicazioni storiche.",
+    "answer": "falso"
+  },
+  {
+    "text": "Cleopatra è vissuta in un'epoca più vicina all'invenzione dell'iPhone che alla costruzione della Piramide di Cheope.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'albero di banane è classificato come un vero e proprio albero dal tronco legnoso.",
+    "answer": "falso"
+  },
+  {
+    "text": "In Giappone ci sono più distributori automatici che in qualsiasi altra nazione del mondo, in proporzione agli abitanti.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pistacchi fanno parte della stessa famiglia botanica degli anacardi.",
+    "answer": "vero"
+  },
+  {
+    "text": "I cammelli conservano enormi quantità d'acqua all'interno delle loro gobbe per sopravvivere nel deserto.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il cuore dei gamberetti si trova nella loro testa.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'Università di Oxford è più antica dell'Impero Azteco.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pipistrelli sono animali completamente ciechi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Esistono più stelle nell'universo che granelli di sabbia su tutte le spiagge della Terra.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il vino migliora inesorabilmente e sempre invecchiando, indipendentemente dal tipo.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'arachide non è una noce o un frutto a guscio, ma un legume.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il cioccolato fondente è una delle cause principali dell'acne giovanile.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'inventore del tubo delle Pringles ha chiesto di essere sepolto all'interno di un tubo di Pringles.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le uova con il guscio marrone sono nutrizionalmente superiori a quelle con il guscio bianco.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il miele è l'unico alimento prodotto da insetti che gli esseri umani consumano regolarmente in grandi quantità.",
+    "answer": "vero"
+  },
+  {
+    "text": "Bere alcolici aumenta la temperatura corporea e riscalda realmente quando fa freddo.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Nutella fu inventata in Piemonte dopo la Seconda Guerra Mondiale per sopperire alla mancanza di cacao.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli esseri umani utilizzano solo il 10% delle proprie capacità cerebrali.",
+    "answer": "falso"
+  },
+  {
+    "text": "I funghi sono geneticamente più vicini al regno animale che a quello vegetale.",
+    "answer": "vero"
+  },
+  {
+    "text": "Bere acqua gassata consuma il calcio e indebolisce gravemente le ossa.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il panettone, tipico dolce natalizio, ha origini milanesi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Sbucciare la frutta elimina sempre tutte le vitamine presenti in essa.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'unico re delle carte francesi a non avere i baffi è il re di cuori.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il famoso California Roll del sushi è stato inventato originariamente a Tokyo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il caffè decaffeinato non è completamente privo di caffeina, ma ne contiene ancora minuscole tracce.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pesci rossi hanno una memoria di soli tre secondi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel corpo umano ci sono più batteri che cellule umane.",
+    "answer": "vero"
+  },
+  {
+    "text": "Assumere altissime dosi di vitamina C previene sempre e al 100% l'insorgenza del raffreddore.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il frutto del cocomero è classificato botanicamente come una gigantesca bacca.",
+    "answer": "vero"
+  },
+  {
+    "text": "Mangiare tante carote permette di acquisire una vista perfetta al buio totale in modo permanente.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il monte Everest cresce di qualche millimetro ogni singolo anno a causa dei movimenti tettonici.",
+    "answer": "vero"
+  },
+  {
+    "text": "I temibili vichinghi indossavano elmi con lunghe corna durante le loro battaglie campali.",
+    "answer": "falso"
+  },
+  {
+    "text": "In Islanda non esistono le zanzare a causa del clima e dell'isolamento geografico.",
+    "answer": "vero"
+  },
+  {
+    "text": "Bere latte freddo prima di andare a dormire brucia i grassi e aiuta drasticamente a dimagrire.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il ketchup originariamente veniva venduto nel XIX secolo come medicinale contro i disturbi intestinali.",
+    "answer": "vero"
+  },
+  {
+    "text": "Lo zucchero di canna scuro contiene in assoluto molte meno calorie rispetto allo zucchero bianco raffinato.",
+    "answer": "falso"
+  },
+  {
+    "text": "Lo squalo balena è la specie di pesce più grande attualmente esistente al mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il burro di arachidi era una pietanza molto diffusa e inventata nell'Antica Roma.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'ananas impiega circa due anni per crescere, maturare ed essere pronto per il raccolto.",
+    "answer": "vero"
+  },
+  {
+    "text": "Per cuocere correttamente la pasta è obbligatorio aggiungere dell'olio nell'acqua di cottura per non farla attaccare.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il primo alimento consumato nello spazio da un astronauta è stato un purè di mele conservato in tubetto.",
+    "answer": "vero"
+  },
+  {
+    "text": "In Italia si producono ufficialmente meno varietà di formaggio rispetto alla Francia.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le mandorle, dal punto di vista botanico, fanno parte della famiglia delle pesche e delle prugne.",
+    "answer": "vero"
+  },
+  {
+    "text": "La pizza Margherita fu inventata per la prima volta a New York da immigrati italiani negli anni '20.",
+    "answer": "falso"
+  },
+  {
+    "text": "La sostanza che rende così piccanti i peperoncini si chiama capsaicina.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'anguria è un frutto molto asciutto e contiene solamente il 50% di acqua nella sua polpa.",
+    "answer": "falso"
+  },
+  {
+    "text": "In natura, oltre al classico colore trasparente, i diamanti possono formarsi con sfumature blu, gialle o rosa.",
+    "answer": "vero"
+  },
+  {
+    "text": "La vera mozzarella di bufala campana viene prodotta dal latte di mucche allevate specificamente nel quartiere Bufalotta di Roma.",
+    "answer": "falso"
+  },
+  {
+    "text": "I maiali non possiedono ghiandole sudoripare efficaci su tutto il corpo, quindi non possono sudare per rinfrescarsi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Albert Einstein andava malissimo a scuola e prese un pessimo voto in matematica quando era bambino.",
+    "answer": "falso"
+  },
+  {
+    "text": "La fragola è l'unico frutto esistente in natura ad avere i propri semi (acheni) all'esterno della polpa.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Sole è in realtà un'enorme palla di fuoco bruciante alimentata a ossigeno e puro carbone.",
+    "answer": "falso"
+  },
+  {
+    "text": "La parola francese 'croissant' significa letteralmente 'crescente', in riferimento alla sua classica forma a mezzaluna.",
+    "answer": "vero"
+  },
+  {
+    "text": "Sulla Luna c'è un 'lato oscuro' dove non arriva mai e in nessun momento la luce del Sole.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il termine sushi in origine indicava il riso acido e fermentato usato per conservare il pesce, che veniva poi scartato e non mangiato.",
+    "answer": "vero"
+  },
+  {
+    "text": "I ragni fanno parte della famiglia degli insetti, avendo esattamente sei zampe e le antenne.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il sale da cucina è un minerale composto principalmente da cloruro di sodio.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il corpo e il cervello umano possiedono in tutto e rigorosamente solamente cinque sensi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il sole produce la sua immensa energia tramite un processo fisico chiamato fusione nucleare.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il pane e la pasta integrali non contengono assolutamente alcun tipo di carboidrato.",
+    "answer": "falso"
+  },
+  {
+    "text": "La lingua di una balenottera azzurra adulta pesa da sola quanto un intero elefante.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le patate crude e verdastre sono un ottimo rimedio naturale e salutare contro l'indigestione.",
+    "answer": "falso"
+  },
+  {
+    "text": "La mela renetta è considerata ottima per preparare i dolci al forno perché contiene naturalmente poca acqua.",
+    "answer": "vero"
+  },
+  {
+    "text": "I canguri, per difendersi dai predatori, sono abilissimi a camminare e persino correre all'indietro.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il cioccolato bianco in realtà non contiene polvere di cacao, ma viene preparato utilizzando la parte grassa, ovvero il burro di cacao.",
+    "answer": "vero"
+  },
+  {
+    "text": "I gemelli omozigoti (identici in tutto) hanno per forza esattamente le stesse impronte digitali.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'odore tipico, fresco e terroso che si sprigiona dopo la pioggia sul suolo secco si chiama 'petricore'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il latte materno umano è completamente privo di zuccheri di qualsiasi tipo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Venere è l'unico pianeta del nostro sistema solare che ruota sul proprio asse in senso orario.",
+    "answer": "vero"
+  },
+  {
+    "text": "Una singola tazzina di caffè espresso contiene molta più caffeina rispetto a un'intera tazza grande di caffè filtro americano.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il vero Parmigiano Reggiano può essere prodotto unicamente in alcune specifiche province tra l'Emilia-Romagna e la Lombardia.",
+    "answer": "vero"
+  },
+  {
+    "text": "Lo struzzo nasconde sempre la sua testa sotto la sabbia ogni volta che è spaventato da un predatore imminente.",
+    "answer": "falso"
+  },
+  {
+    "text": "La birra è considerata da storici ed archeologi come una delle bevande fermentate più antiche della storia dell'umanità.",
+    "answer": "vero"
+  },
+  {
+    "text": "Se non si bevono esattamente ed unicamente otto bicchieri d'acqua ogni singolo giorno, si rischia la morte per disidratazione in poche ore.",
+    "answer": "falso"
+  },
+  {
+    "text": "In media, per ragioni biologiche, le donne sbattono le palpebre quasi il doppio delle volte rispetto agli uomini.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pinguini e gli orsi polari vivono pacificamente insieme nello stesso habitat e spesso si incontrano tra i ghiacci.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'osso in assoluto più lungo e pesante dell'intero corpo umano è il femore.",
+    "answer": "vero"
+  },
+  {
+    "text": "La capitale amministrativa ufficiale dell'Australia è la famosissima e popolosa città di Sydney.",
+    "answer": "falso"
+  },
+  {
+    "text": "La ricetta originale, classica e tradizionale degli spaghetti alla carbonara non prevede in alcun modo l'utilizzo della panna.",
+    "answer": "vero"
+  },
+  {
+    "text": "I diamanti grezzi si formano a partire da enormi blocchi di carbone pressati nel mantello terrestre.",
+    "answer": "falso"
+  },
+  {
+    "text": "La pianta che produce i profumatissimi baccelli di vaniglia è in realtà una bellissima liana della famiglia delle orchidee.",
+    "answer": "vero"
+  },
+  {
+    "text": "Lo zafferano, una delle spezie più costose del mondo, si estrae dai semi di una rara pianta carnivora.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il kiwi (inteso come frutto) prende il suo nome commerciale dall'uccello simbolo e senza ali tipico della Nuova Zelanda.",
+    "answer": "vero"
+  },
+  {
+    "text": "Se si ingoia accidentalmente un chewing-gum, lo stomaco di una persona impiega ben 7 anni per poterlo digerire completamente.",
+    "answer": "falso"
+  },
+  {
+    "text": "Un polpo ha la particolarità di avere ben tre cuori e il suo sangue è di colore blu a causa dell'emocianina.",
+    "answer": "vero"
+  },
+  {
+    "text": "Mettendo nel congelatore due recipienti identici, l'acqua fredda si congela sempre molto più velocemente dell'acqua bollente.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il celebre formaggio Cheddar prende il nome dall'omonimo villaggio situato nel Somerset, in Inghilterra.",
+    "answer": "vero"
+  },
+  {
+    "text": "La celebre Statua della Libertà, situata a New York, è stata un dono ufficiale della Gran Bretagna al governo degli Stati Uniti.",
+    "answer": "falso"
+  },
+  {
+    "text": "Lo zenzero è noto fin dall'antichità in ambito medico non solo come spezia, ma anche e soprattutto per le sue spiccate proprietà anti-nausea.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il sale dell'Himalaya è colorato di rosa esclusivamente grazie all'aggiunta di coloranti artificiali in fase di lavorazione industriale.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'aurora boreale è uno spettacolare fenomeno ottico causato dall'interazione tra le particelle solari cariche e il campo magnetico terrestre.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le mucche hanno delle \"migliori amiche\" e si stressano molto se vengono separate.",
+    "answer": "vero"
+  },
+  {
+    "text": "I fenicotteri nascono rosa.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Russia ha una superficie maggiore di quella dell'ex pianeta Plutone.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le fragole sono classificate scientificamente come bacche.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'occhio di uno struzzo è più grande del suo cervello.",
+    "answer": "vero"
+  },
+  {
+    "text": "Esiste una specie di medusa che è biologicamente immortale.",
+    "answer": "vero"
+  },
+  {
+    "text": "Un giorno su Venere dura più di un anno su Venere.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pipistrelli sono completamente ciechi.",
+    "answer": "falso"
+  },
+  {
+    "text": "I polpi hanno tre cuori.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il miele naturale può scadere dopo circa 100 anni.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Università di Oxford è più antica dell'Impero Azteco.",
+    "answer": "vero"
+  },
+  {
+    "text": "I gatti non possiedono i recettori gustativi per percepire il sapore dolce.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il rumore dello schiocco della frusta è causato dal superamento del muro del suono.",
+    "answer": "vero"
+  },
+  {
+    "text": "I tori si infuriano quando vedono il colore rosso.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il cuore di un gamberetto si trova nella sua testa.",
+    "answer": "vero"
+  },
+  {
+    "text": "Cleopatra visse più vicina temporalmente all'invenzione dell'iPhone che alla costruzione della Grande Piramide.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pesci rossi hanno una memoria di soli 3 secondi.",
+    "answer": "falso"
+  },
+  {
+    "text": "I delfini dormono tenendo un occhio aperto.",
+    "answer": "vero"
+  },
+  {
+    "text": "Napoleone Bonaparte era insolitamente basso per la sua epoca.",
+    "answer": "falso"
+  },
+  {
+    "text": "I maiali sono fisicamente incapaci di guardare in alto verso il cielo.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'animale nazionale della Scozia è l'unicorno.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nei cavallucci marini è il maschio a partorire i piccoli.",
+    "answer": "vero"
+  },
+  {
+    "text": "Ingoiare una gomma da masticare richiede 7 anni per essere digerita.",
+    "answer": "falso"
+  },
+  {
+    "text": "Esiste un pianeta extrasolare fatto quasi interamente di diamanti.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli squali abitano la Terra da prima che esistessero gli alberi.",
+    "answer": "vero"
+  },
+  {
+    "text": "I capelli e le unghie continuano a crescere dopo la morte.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'inventore del frisbee è stato cremato e le sue ceneri trasformate in un frisbee.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il cioccolato bianco non contiene cacao in polvere.",
+    "answer": "vero"
+  },
+  {
+    "text": "I girasoli seguono sempre il sole durante tutto il loro ciclo vitale.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le farfalle sentono i sapori usando i loro piedi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli esseri umani usano in media solo il 10% del loro cervello.",
+    "answer": "falso"
+  },
+  {
+    "text": "I pinguini possono bere acqua salata senza problemi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Grande Muro Cinese è l'unica opera umana visibile dallo spazio a occhio nudo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Un fulmine contiene abbastanza energia da tostare 100.000 fette di pane.",
+    "answer": "vero"
+  },
+  {
+    "text": "Frankenstein era il nome del mostro creato, non del dottore.",
+    "answer": "falso"
+  },
+  {
+    "text": "I lombrichi hanno cinque cuori.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'alcol uccide permanentemente le cellule cerebrali.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le mele galleggiano nell'acqua perché sono composte per circa il 25% di aria.",
+    "answer": "vero"
+  },
+  {
+    "text": "I camaleonti cambiano colore principalmente per mimetizzarsi con l'ambiente circostante.",
+    "answer": "falso"
+  },
+  {
+    "text": "In certe condizioni, l'acqua calda si congela più velocemente dell'acqua fredda.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il sangue delle aragoste è di colore blu.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'Everest è la montagna più alta della Terra se misurata partendo dalla sua base.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il corno del rinoceronte è formato principalmente da cheratina, la stessa proteina di capelli e unghie.",
+    "answer": "vero"
+  },
+  {
+    "text": "I cani sudano principalmente ansimando e attraverso la lingua.",
+    "answer": "falso"
+  },
+  {
+    "text": "In Svizzera è illegale possedere un solo porcellino d'India.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le zanzare sono attratte maggiormente dal \"sangue dolce\".",
+    "answer": "falso"
+  },
+  {
+    "text": "I cammelli hanno tre palpebre per proteggere gli occhi dalla sabbia.",
+    "answer": "vero"
+  },
+  {
+    "text": "Tagliando un lombrico a metà, entrambe le parti sopravviveranno e diventeranno due lombrichi interi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Ci sono più stelle nell'universo che granelli di sabbia su tutte le spiagge della Terra.",
+    "answer": "vero"
+  },
+  {
+    "text": "Un anno canino equivale sempre esattamente a sette anni umani.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Torre Eiffel in estate può espandersi e diventare più alta di 15 centimetri.",
+    "answer": "vero"
+  },
+  {
+    "text": "I gatti atterrano sempre sui loro piedi cadendo da qualsiasi altezza.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il DNA umano è identico al 50% a quello di una banana.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli struzzi nascondono la testa sotto la sabbia quando sono spaventati.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Terra è una sfera perfetta.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Polo Nord geografico è situato su un continente di terraferma coperto di neve.",
+    "answer": "falso"
+  },
+  {
+    "text": "I gatti possiedono 32 muscoli in ogni orecchio.",
+    "answer": "vero"
+  },
+  {
+    "text": "Albert Einstein è stato bocciato in matematica durante la scuola elementare.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il sole costituisce il 99,8% della massa di tutto il nostro sistema solare.",
+    "answer": "vero"
+  },
+  {
+    "text": "I guerrieri vichinghi indossavano tradizionalmente elmi con le corna.",
+    "answer": "falso"
+  },
+  {
+    "text": "La pelle degli orsi polari è nera.",
+    "answer": "vero"
+  },
+  {
+    "text": "La lingua umana ha zone distinte e separate per percepire ogni sapore (dolce, salato, amaro, ecc.).",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Islanda è uno dei pochi paesi al mondo senza zanzare.",
+    "answer": "vero"
+  },
+  {
+    "text": "Radersi regolarmente i peli o i capelli li fa ricrescere più spessi o più scuri.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le impronte del naso dei cani sono uniche, esattamente come le impronte digitali umane.",
+    "answer": "vero"
+  },
+  {
+    "text": "Un fulmine non colpisce mai due volte esattamente nello stesso punto.",
+    "answer": "falso"
+  },
+  {
+    "text": "Gli elefanti sono gli unici mammiferi che non riescono a saltare.",
+    "answer": "vero"
+  },
+  {
+    "text": "Una moneta lanciata dall'Empire State Building raggiungerebbe una velocità tale da poter uccidere un passante.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il formaggio è il cibo più rubato al mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "I buchi neri dell'universo sono letteralmente dei \"buchi\" vuoti nello spazio.",
+    "answer": "falso"
+  },
+  {
+    "text": "A causa dell'effetto Coriolis, l'acqua nei lavandini gira in senso contrario nell'emisfero sud.",
+    "answer": "falso"
+  },
+  {
+    "text": "Una matita media contiene abbastanza grafite da tracciare una linea lunga oltre 50 chilometri.",
+    "answer": "vero"
+  },
+  {
+    "text": "Thomas Edison è stato il primo vero inventore della lampadina a incandescenza.",
+    "answer": "falso"
+  },
+  {
+    "text": "Gli scimpanzé perdono i capelli sulla testa man mano che invecchiano, proprio come gli umani.",
+    "answer": "vero"
+  },
+  {
+    "text": "Troppo zucchero rende i bambini fisicamente iperattivi.",
+    "answer": "falso"
+  },
+  {
+    "text": "I cammelli conservano scorte d'acqua all'interno delle loro gobbe per sopravvivere nel deserto.",
+    "answer": "falso"
+  },
+  {
+    "text": "I ragni con le gambe lunghe (Opilionidi) sono i più velenosi al mondo ma non riescono a mordere l'uomo.",
+    "answer": "falso"
+  },
+  {
+    "text": "È fisicamente impossibile canticchiare mentre ci si tappa il naso.",
+    "answer": "vero"
+  },
+  {
+    "text": "Leggere in condizioni di scarsa illuminazione rovina permanentemente la vista.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le arachidi non sono noci, ma appartengono alla famiglia dei legumi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Scrocchiare le giunture delle dita causa l'artrite.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il coccodrillo non può tirare fuori la lingua dalla bocca.",
+    "answer": "vero"
+  },
+  {
+    "text": "I topi amano il formaggio più di qualsiasi altro cibo in natura.",
+    "answer": "falso"
+  },
+  {
+    "text": "Esiste un uccello velenoso che assorbe tossine mangiando insetti.",
+    "answer": "vero"
+  },
+  {
+    "text": "Uscire di casa al freddo con i capelli bagnati fa prendere il raffreddore o l'influenza.",
+    "answer": "falso"
+  },
+  {
+    "text": "La mantide religiosa è l'unico insetto in grado di girare la testa di 180 gradi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le vene umane appaiono blu perché il sangue al loro interno, essendo deossigenato, è blu.",
+    "answer": "falso"
+  },
+  {
+    "text": "La medusa \"Vespa di mare\" (Chironex fleckeri) possiede uno dei veleni più letali del pianeta.",
+    "answer": "vero"
+  },
+  {
+    "text": "I koala appartengono alla famiglia degli orsi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le impronte digitali dei koala sono così simili a quelle umane che hanno inquinato le scene del crimine.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il corpo umano esploderebbe se esposto al vuoto dello spazio senza tuta spaziale.",
+    "answer": "falso"
+  },
+  {
+    "text": "In Nuova Zelanda ci sono più pecore che esseri umani.",
+    "answer": "vero"
+  },
+  {
+    "text": "Giulio Cesare è chiamato così perché è nato tramite parto cesareo.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Tour Eiffel originariamente doveva essere smantellata 20 anni dopo la sua costruzione.",
+    "answer": "vero"
+  },
+  {
+    "text": "Mangiare tante carote fa migliorare la vista a tal punto da poter vedere chiaramente al buio.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le lontre marine si tengono per zampa mentre dormono per non allontanarsi l'una dall'altra con la corrente.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli esseri umani possiedono esattamente e solamente 5 sensi fisici.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'accendino è stato inventato prima del fiammifero.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pipistrelli si attaccano ai capelli delle persone quando volano al buio.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le fusa dei gatti hanno una frequenza che può favorire la guarigione di ossa e tessuti.",
+    "answer": "vero"
+  },
+  {
+    "text": "Madonna è la cantante femminile con più dischi venduti nella storia della musica.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il vero nome di Lady Gaga è Stefani Joanne Angelina Germanotta.",
+    "answer": "vero"
+  },
+  {
+    "text": "Justin Bieber è stato scoperto su YouTube.",
+    "answer": "vero"
+  },
+  {
+    "text": "I Beatles hanno tenuto il loro ultimo concerto dal vivo sul tetto della Apple Corps a Londra.",
+    "answer": "vero"
+  },
+  {
+    "text": "Michael Jackson ha inventato il passo di danza chiamato 'Moonwalk'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Taylor Swift ha iniziato la sua carriera musicale cantando musica rap.",
+    "answer": "falso"
+  },
+  {
+    "text": "Beyoncé era un membro del gruppo musicale TLC.",
+    "answer": "falso"
+  },
+  {
+    "text": "Elvis Presley ha vinto 15 premi Oscar durante la sua carriera di attore.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il chitarrista dei Queen, Brian May, è anche un astrofisico.",
+    "answer": "vero"
+  },
+  {
+    "text": "Rihanna è nata e cresciuta in Giamaica.",
+    "answer": "falso"
+  },
+  {
+    "text": "Kurt Cobain era il frontman dei Pearl Jam.",
+    "answer": "falso"
+  },
+  {
+    "text": "Katy Perry ha un gatto chiamato 'Kitty Purry'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Adele ha vinto il premio Oscar per la miglior canzone originale con 'Skyfall'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Ed Sheeran ha un tatuaggio di una bottiglia di maionese Calvé.",
+    "answer": "falso"
+  },
+  {
+    "text": "Britney Spears ha cantato in un coro gospel prima di diventare famosa.",
+    "answer": "falso"
+  },
+  {
+    "text": "Snoop Dogg è un lontano cugino della cantante Brandy.",
+    "answer": "vero"
+  },
+  {
+    "text": "Eminem non ha mai vinto un premio Oscar.",
+    "answer": "falso"
+  },
+  {
+    "text": "Shakira parla fluentemente cinque lingue: spagnolo, inglese, portoghese, italiano e francese.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il vero nome di Bruno Mars è Peter Gene Hernandez.",
+    "answer": "vero"
+  },
+  {
+    "text": "Miley Cyrus è la figlia del cantante rock Bruce Springsteen.",
+    "answer": "falso"
+  },
+  {
+    "text": "Prince sapeva suonare ben 27 strumenti musicali diversi fin da giovanissimo.",
+    "answer": "vero"
+  },
+  {
+    "text": "David Bowie aveva un occhio di vetro.",
+    "answer": "falso"
+  },
+  {
+    "text": "I Coldplay si chiamavano originariamente 'Starfish'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Celine Dion ha cantato per Papa Giovanni Paolo II in uno stadio a Montreal nel 1984.",
+    "answer": "vero"
+  },
+  {
+    "text": "Elton John è sempre stato il suo vero nome fin dalla nascita.",
+    "answer": "falso"
+  },
+  {
+    "text": "Ariana Grande ha iniziato la sua carriera recitando nella serie TV 'Hannah Montana'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Bob Marley è stato sepolto con una chitarra, una Bibbia e un po' di marijuana.",
+    "answer": "vero"
+  },
+  {
+    "text": "Mariah Carey è l'unica artista ad aver raggiunto note altissime usando un fischietto.",
+    "answer": "falso"
+  },
+  {
+    "text": "Kanye West ha tentato di candidarsi come Presidente degli Stati Uniti.",
+    "answer": "vero"
+  },
+  {
+    "text": "I Rolling Stones hanno vinto un Grammy Award per ogni loro album.",
+    "answer": "falso"
+  },
+  {
+    "text": "Jennifer Lopez è stata la prima attrice latina a guadagnare oltre 1 milione di dollari per un film.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il nome Dua Lipa significa 'stella' in albanese.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il singolo più venduto di tutti i tempi è 'White Christmas' di Bing Crosby.",
+    "answer": "vero"
+  },
+  {
+    "text": "Justin Timberlake faceva parte del gruppo musicale Backstreet Boys.",
+    "answer": "falso"
+  },
+  {
+    "text": "Amy Winehouse ha vinto 5 Grammy Awards in una sola serata.",
+    "answer": "vero"
+  },
+  {
+    "text": "Whitney Houston era la cugina della cantante Mariah Carey.",
+    "answer": "falso"
+  },
+  {
+    "text": "Paul McCartney dei Beatles ha scritto la canzone 'Yesterday' dopo averla sognata.",
+    "answer": "vero"
+  },
+  {
+    "text": "I Pink Floyd hanno preso il loro nome dai nomi di due gatti del cantante Syd Barrett.",
+    "answer": "falso"
+  },
+  {
+    "text": "Lady Diana è stata la madrina di battesimo del principe William e del principe Harry.",
+    "answer": "falso"
+  },
+  {
+    "text": "Johnny Cash suonava regolarmente per i detenuti nelle prigioni.",
+    "answer": "vero"
+  },
+  {
+    "text": "Billie Eilish ha registrato il suo primo album interamente in un lussuoso studio di Hollywood.",
+    "answer": "falso"
+  },
+  {
+    "text": "La band U2 proviene dall'Irlanda.",
+    "answer": "vero"
+  },
+  {
+    "text": "La canzone 'I Will Always Love You' cantata da Whitney Houston è stata scritta da Dolly Parton.",
+    "answer": "vero"
+  },
+  {
+    "text": "Mick Jagger è stato nominato Cavaliere dalla Regina Elisabetta II.",
+    "answer": "vero"
+  },
+  {
+    "text": "Freddie Mercury è nato a Londra.",
+    "answer": "falso"
+  },
+  {
+    "text": "Frank Sinatra aveva il soprannome di 'The Boss'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Harry Styles ha esordito come attore nel film 'Dunkirk' di Christopher Nolan.",
+    "answer": "vero"
+  },
+  {
+    "text": "Elton John ha fondato la rock band The Rolling Stones.",
+    "answer": "falso"
+  },
+  {
+    "text": "Angelina Jolie ha recitato nel film 'Lara Croft: Tomb Raider' insieme a suo padre Jon Voight.",
+    "answer": "vero"
+  },
+  {
+    "text": "Kim Kardashian ha iniziato la sua carriera come cantante country.",
+    "answer": "falso"
+  },
+  {
+    "text": "Tom Cruise si rifiuta categoricamente di usare controfigure per le sue scene d'azione.",
+    "answer": "vero"
+  },
+  {
+    "text": "Leonardo DiCaprio ha vinto il suo primo premio Oscar per il film 'Titanic'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Brad Pitt ha studiato giornalismo all'università prima di diventare attore.",
+    "answer": "vero"
+  },
+  {
+    "text": "Marilyn Monroe aveva i capelli naturalmente biondi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Johnny Depp ha basato il suo personaggio di Jack Sparrow sul chitarrista dei Rolling Stones, Keith Richards.",
+    "answer": "vero"
+  },
+  {
+    "text": "Will Smith ha rifiutato il ruolo di Neo in 'Matrix'.",
+    "answer": "vero"
+  },
+  {
+    "text": "La cantante Cher ha vinto sia un Premio Oscar che un Grammy Award.",
+    "answer": "vero"
+  },
+  {
+    "text": "George Clooney ha tenuto in casa per 18 anni un maialino domestico di nome Max.",
+    "answer": "vero"
+  },
+  {
+    "text": "Keanu Reeves ha donato gran parte del suo stipendio per i film di Matrix a se stesso per comprare un'isola.",
+    "answer": "falso"
+  },
+  {
+    "text": "Meryl Streep detiene il record per il maggior numero di candidature ai premi Oscar.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nicolas Cage ha interpretato Superman in un film diretto da Tim Burton uscito nel 1998.",
+    "answer": "falso"
+  },
+  {
+    "text": "Ryan Gosling faceva parte del cast del 'Mickey Mouse Club' insieme a Justin Timberlake.",
+    "answer": "vero"
+  },
+  {
+    "text": "Julia Roberts era la prima scelta per interpretare il ruolo principale nel film 'Basic Instinct'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Tom Hanks è un avido collezionista di macchine da cucire.",
+    "answer": "falso"
+  },
+  {
+    "text": "Samuel L. Jackson compare in più di 150 film.",
+    "answer": "vero"
+  },
+  {
+    "text": "Sean Connery ha indossato un parrucchino in tutti i film in cui ha interpretato James Bond.",
+    "answer": "vero"
+  },
+  {
+    "text": "Hugh Jackman è stato scelto per il ruolo di Wolverine in 'X-Men' il primo giorno di casting, due anni prima.",
+    "answer": "falso"
+  },
+  {
+    "text": "Charlize Theron ha vinto l'Oscar per il film 'Mad Max: Fury Road'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Emma Watson ha quasi rifiutato il ruolo di Hermione Granger perché non aveva mai letto i libri.",
+    "answer": "falso"
+  },
+  {
+    "text": "Daniel Radcliffe ha rotto oltre 80 bacchette magiche durante le riprese di Harry Potter usandole come bacchette da batteria.",
+    "answer": "vero"
+  },
+  {
+    "text": "Harrison Ford lavorava come idraulico prima di essere scelto per 'Guerre Stellari'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Cameron Diaz e Snoop Dogg sono andati alla stessa scuola superiore.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nicole Kidman è in realtà nata in Nuova Zelanda.",
+    "answer": "falso"
+  },
+  {
+    "text": "Jim Carrey ha inviato un assegno da 10 milioni di dollari a se stesso datato 10 anni nel futuro.",
+    "answer": "vero"
+  },
+  {
+    "text": "Arnold Schwarzenegger è stato Governatore del Texas.",
+    "answer": "falso"
+  },
+  {
+    "text": "Morgan Freeman non è apparso in nessun film fino all'età di 34 anni.",
+    "answer": "vero"
+  },
+  {
+    "text": "Natalie Portman ha saltato la prima del film 'Star Wars: Episodio I' per studiare per gli esami finali del liceo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Christian Bale ha perso 28 chili mangiando solo cibo spazzatura per 'L'uomo senza sonno'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Sylvester Stallone ha dovuto vendere il suo cane quando era povero, ma lo ha ricomprato.",
+    "answer": "vero"
+  },
+  {
+    "text": "Robert Downey Jr. attribuisce a Burger King il merito di averlo aiutato a cambiare vita.",
+    "answer": "vero"
+  },
+  {
+    "text": "Chris Evans ha accettato subito con entusiasmo il ruolo di Captain America senza pensarci.",
+    "answer": "falso"
+  },
+  {
+    "text": "Scarlett Johansson ha una sorella gemella identica a lei.",
+    "answer": "falso"
+  },
+  {
+    "text": "Steve Buscemi è tornato a fare il pompiere per aiutare durante gli attacchi dell'11 settembre.",
+    "answer": "vero"
+  },
+  {
+    "text": "Matthew McConaughey è stato arrestato mentre suonava il violino nudo a casa sua.",
+    "answer": "falso"
+  },
+  {
+    "text": "Bill Murray non ha un agente o un manager, ma solo un numero di telefono verde.",
+    "answer": "vero"
+  },
+  {
+    "text": "Jack Nicholson ha scoperto da adulto che la donna che credeva sua sorella era in realtà sua madre.",
+    "answer": "vero"
+  },
+  {
+    "text": "Clint Eastwood era un bagnino prima di diventare attore.",
+    "answer": "vero"
+  },
+  {
+    "text": "Ben Affleck e Matt Damon sono nati nello stesso ospedale a distanza di un'ora.",
+    "answer": "falso"
+  },
+  {
+    "text": "Gwyneth Paltrow parla correntemente lo spagnolo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Joaquin Phoenix ha interpretato il cantante Johnny Cash nel film 'Quando l'amore brucia l'anima'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Ryan Reynolds ha la fobia di volare da quando un paracadute non si è aperto al primo colpo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Mark Wahlberg ha iniziato la sua carriera come leader del gruppo rap 'Marky Mark and the Funky Bunch'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Ashton Kutcher ha un fratello gemello.",
+    "answer": "vero"
+  },
+  {
+    "text": "Channing Tatum ha lavorato come contabile prima di diventare attore.",
+    "answer": "falso"
+  },
+  {
+    "text": "Ed O'Neill (Jay Pritchett in 'Modern Family') ha una cintura nera di Jiu-Jitsu brasiliano.",
+    "answer": "vero"
+  },
+  {
+    "text": "Megan Fox ha recitato come protagonista nella serie televisiva 'Grey's Anatomy'.",
+    "answer": "falso"
+  },
+  {
+    "text": "Christopher Walken ha lavorato come domatore di leoni in un circo da giovane.",
+    "answer": "vero"
+  },
+  {
+    "text": "Halle Berry è stata la prima donna afroamericana a vincere l'Oscar come miglior attrice protagonista.",
+    "answer": "vero"
+  },
+  {
+    "text": "Lucy Liu ha doppiato la Vipera nel film d'animazione 'Kung Fu Panda'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Dwayne 'The Rock' Johnson ha vinto la medaglia d'oro nel sollevamento pesi alle Olimpiadi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il ghepardo è l'animale terrestre più veloce del mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "I delfini dormono con un occhio aperto.",
+    "answer": "vero"
+  },
+  {
+    "text": "I panda giganti mangiano quasi esclusivamente bambù.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'ornitorinco è uno dei pochi mammiferi che depone le uova.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il cuore di un colibrì può battere fino a 1.200 volte al minuto.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli orsi polari hanno la pelle nera sotto la loro pelliccia bianca.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le api comunicano tra loro attraverso una sorta di danza.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il bambù può crescere fino a un metro in un solo giorno.",
+    "answer": "vero"
+  },
+  {
+    "text": "I koala hanno le impronte digitali molto simili a quelle umane.",
+    "answer": "vero"
+  },
+  {
+    "text": "La balenottera azzurra è il più grande animale mai esistito sulla Terra.",
+    "answer": "vero"
+  },
+  {
+    "text": "I cavallucci marini maschi partoriscono i piccoli.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pipistrelli sono gli unici mammiferi in grado di volare.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le formiche possono sollevare pesi molto superiori al loro stesso corpo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Un polpo ha tre cuori.",
+    "answer": "vero"
+  },
+  {
+    "text": "I fenicotteri nascono di colore grigio.",
+    "answer": "vero"
+  },
+  {
+    "text": "La tigre è il più grande felino vivente.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pinguini vivono solo nell'emisfero australe.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il camaleonte può muovere i suoi occhi in modo indipendente.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il veleno della rana freccia dorata è uno dei più potenti in natura.",
+    "answer": "vero"
+  },
+  {
+    "text": "I coccodrilli non possono tirare fuori la lingua.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'albero più alto del mondo è una sequoia sempreverde chiamata Hyperion.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli squali non hanno ossa, il loro scheletro è fatto di cartilagine.",
+    "answer": "vero"
+  },
+  {
+    "text": "I bradipi scendono dagli alberi solo una volta alla settimana per fare i bisogni.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il corno del rinoceronte è fatto di cheratina, la stessa sostanza di capelli e unghie.",
+    "answer": "vero"
+  },
+  {
+    "text": "La giraffa ha lo stesso numero di vertebre cervicali degli esseri umani.",
+    "answer": "vero"
+  },
+  {
+    "text": "I lombrichi hanno cinque cuori (o meglio, archi aortici).",
+    "answer": "vero"
+  },
+  {
+    "text": "Le zebre hanno il mantello a strisce per confondere i predatori e allontanare gli insetti.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il dodo era un uccello incapace di volare originario delle isole Mauritius.",
+    "answer": "vero"
+  },
+  {
+    "text": "I gatti non possono percepire il sapore dolce.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le farfalle assaporano il cibo con i piedi.",
+    "answer": "vero"
+  },
+  {
+    "text": "I maiali non possono sudare.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli elefanti sono gli unici mammiferi che non possono saltare.",
+    "answer": "vero"
+  },
+  {
+    "text": "La mantide religiosa femmina a volte divora il maschio dopo l'accoppiamento.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le meduse sono composte per il 95% di acqua.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il kiwi è un uccello che non vola originario della Nuova Zelanda.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il canto delle balene può viaggiare per migliaia di chilometri nell'oceano.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il miele non scade mai.",
+    "answer": "vero"
+  },
+  {
+    "text": "I canguri non possono camminare all'indietro.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli scoiattoli piantano migliaia di nuovi alberi ogni anno semplicemente dimenticando dove hanno sepolto le noci.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il basilisco è una lucertola capace di correre sull'acqua.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'anaconda verde è il serpente più pesante del mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "La foresta amazzonica produce oltre il 20% dell'ossigeno terrestre.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il corallo è un animale, non una pianta.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le mucche hanno quattro scompartimenti nello stomaco.",
+    "answer": "vero"
+  },
+  {
+    "text": "I gufi non possono muovere gli occhi all'interno delle loro orbite.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'età di un albero può essere calcolata contando i suoi anelli.",
+    "answer": "vero"
+  },
+  {
+    "text": "I cammelli immagazzinano grasso, non acqua, nelle loro gobbe.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il mamba nero è uno dei serpenti più veloci e velenosi al mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il dente di leone è un fiore interamente commestibile, dalle radici ai petali.",
+    "answer": "vero"
+  },
+  {
+    "text": "La lucciola produce luce fredda, senza disperdere energia in calore.",
+    "answer": "vero"
+  },
+  {
+    "text": "I tori si arrabbiano quando vedono il colore rosso.",
+    "answer": "falso"
+  },
+  {
+    "text": "I pipistrelli sono completamente ciechi.",
+    "answer": "falso"
+  },
+  {
+    "text": "I pesci rossi hanno una memoria di soli tre secondi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Gli struzzi nascondono la testa sotto la sabbia quando sono spaventati.",
+    "answer": "falso"
+  },
+  {
+    "text": "I rospi possono trasmettere le verruche agli esseri umani.",
+    "answer": "falso"
+  },
+  {
+    "text": "I cani sudano ansimando dalla bocca.",
+    "answer": "falso"
+  },
+  {
+    "text": "I topi amano mangiare il formaggio più di ogni altra cosa.",
+    "answer": "falso"
+  },
+  {
+    "text": "I ragni sono biologicamente classificati come insetti.",
+    "answer": "falso"
+  },
+  {
+    "text": "I lemming si suicidano gettandosi in massa dai dirupi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Tagliare un lombrico a metà crea due lombrichi viventi indipendenti.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il koala appartiene alla famiglia degli orsi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le formiche non dormono mai durante tutta la loro vita.",
+    "answer": "falso"
+  },
+  {
+    "text": "Un anno di vita di un cane equivale esattamente a sette anni umani in ogni fase della crescita.",
+    "answer": "falso"
+  },
+  {
+    "text": "I rinoceronti sono stretti parenti degli elefanti.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'orca è una specie di balena.",
+    "answer": "falso"
+  },
+  {
+    "text": "I camaleonti cambiano colore esclusivamente per mimetizzarsi con l'ambiente.",
+    "answer": "falso"
+  },
+  {
+    "text": "I gatti atterrano sempre e infallibilmente in piedi.",
+    "answer": "falso"
+  },
+  {
+    "text": "I porcospini possono lanciare i loro aculei contro i nemici.",
+    "answer": "falso"
+  },
+  {
+    "text": "I bradipi sono lenti a causa della loro pigrizia.",
+    "answer": "falso"
+  },
+  {
+    "text": "Gli squali devono nuotare costantemente altrimenti muoiono per asfissia.",
+    "answer": "falso"
+  },
+  {
+    "text": "Un fulmine non cade mai due volte nello stesso punto.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il bambù è biologicamente classificato come un tipo di albero.",
+    "answer": "falso"
+  },
+  {
+    "text": "I pinguini e gli orsi polari condividono lo stesso habitat naturale.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il veleno dei serpenti a sonagli è un potente acido capace di sciogliere le rocce.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le lumache perdono il guscio per diventare limacce.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le zanzare preferiscono pungere chi ha il sangue con un alto tasso di zuccheri.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il cane è l'animale più intelligente in assoluto del regno animale.",
+    "answer": "falso"
+  },
+  {
+    "text": "I ghepardi ruggiscono esattamente come fanno i leoni.",
+    "answer": "falso"
+  },
+  {
+    "text": "Un millepiedi ha sempre ed esattamente 1000 zampe.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'ippopotamo è un animale prevalentemente carnivoro.",
+    "answer": "falso"
+  },
+  {
+    "text": "I tucani usano il loro grande becco principalmente per combattere i nemici.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le giraffe non possiedono corde vocali per emettere suoni.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le banane crescono sui rami di grossi alberi da fusto.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le stelle marine sono un tipo particolare di pesce piatto.",
+    "answer": "falso"
+  },
+  {
+    "text": "I panda giganti hanno bisogno di mangiare carne tutti i giorni per sopravvivere.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il suono del mare che si sente in una conchiglia è causato dall'oceano intrappolato all'interno.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il pomodoro è tecnicamente un vegetale da radice.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le mosche vivono per un periodo massimo di 24 ore.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le nuvole sono fatte di vapore acqueo gassoso invisibile.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il ghiottone è una specie di lupo artico.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le arachidi sono noci che crescono su alberi molto alti.",
+    "answer": "falso"
+  },
+  {
+    "text": "Tutti i serpenti conosciuti al mondo depongono le uova per riprodursi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il T-Rex era l'animale più grande mai esistito nella storia della Terra.",
+    "answer": "falso"
+  },
+  {
+    "text": "Gli uccelli sono i discendenti diretti dei mammiferi marini.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il lungo dente del narvalo viene usato come fiocina per cacciare i pesci.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le meduse hanno un cervello primitivo altamente sviluppato al centro del corpo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le iene appartengono alla famiglia dei cani selvatici.",
+    "answer": "falso"
+  },
+  {
+    "text": "I funghi sono un tipo di pianta che semplicemente non ha bisogno di luce solare.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'acqua bollente congela sempre più lentamente rispetto all'acqua a temperatura ambiente.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il miele viene prodotto dalle vespe per nutrire la loro regina.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il DNA umano condivide circa il 50% del suo codice con quello delle banane.",
+    "answer": "vero"
+  },
+  {
+    "text": "La Terra è l'unico pianeta del nostro sistema solare con oceani di acqua liquida in superficie.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Sole è così grande che potrebbe contenere un milione di Terre al suo interno.",
+    "answer": "vero"
+  },
+  {
+    "text": "I fulmini non colpiscono mai lo stesso posto due volte.",
+    "answer": "falso"
+  },
+  {
+    "text": "La luce del Sole impiega circa 8 minuti per raggiungere la Terra.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli antibiotici sono efficaci sia contro i batteri che contro i virus.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'acciaio è più elastico della gomma.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il primo computer elettronico della storia, l'ENIAC, pesava circa 30 tonnellate.",
+    "answer": "vero"
+  },
+  {
+    "text": "I buchi neri sono così densi che nemmeno la luce può sfuggire alla loro gravità.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il suono viaggia più velocemente nell'aria che nell'acqua.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'inventore del World Wide Web è stato l'americano Bill Gates.",
+    "answer": "falso"
+  },
+  {
+    "text": "Un anno luce misura il tempo, non la distanza.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il cuore umano batte in media oltre 100.000 volte al giorno.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'elemento chimico più abbondante nell'universo è l'ossigeno.",
+    "answer": "falso"
+  },
+  {
+    "text": "I diamanti sono fatti interamente di carbonio.",
+    "answer": "vero"
+  },
+  {
+    "text": "Un byte è composto da 8 bit.",
+    "answer": "vero"
+  },
+  {
+    "text": "I gatti non riescono a percepire il sapore dolce.",
+    "answer": "vero"
+  },
+  {
+    "text": "La penicillina è stata scoperta per caso studiando la muffa su una piastra di Petri.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il sistema binario, usato dai computer, utilizza solo i numeri 0, 1 e 2.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il ragno è classificato come un insetto.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'acqua bolle sempre a 100 gradi Celsius, indipendentemente dall'altitudine.",
+    "answer": "falso"
+  },
+  {
+    "text": "Marie Curie è stata la prima persona a vincere due premi Nobel in due campi scientifici diversi.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pinguini vivono allo stato brado sia al Polo Nord che al Polo Sud.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'oro è un eccellente conduttore di elettricità ed è spesso usato nei circuiti dei computer.",
+    "answer": "vero"
+  },
+  {
+    "text": "La molecola d'acqua è composta da due atomi di ossigeno e un atomo di idrogeno.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Bluetooth prende il nome da un re vichingo del decimo secolo.",
+    "answer": "vero"
+  },
+  {
+    "text": "La forza di gravità sulla Luna è circa un sesto di quella terrestre.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il pipistrello è l'unico mammifero in grado di volare attivamente.",
+    "answer": "vero"
+  },
+  {
+    "text": "Se srotolassimo tutto il DNA contenuto in una singola cellula umana, misurerebbe circa 2 metri.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il fondatore di Apple, Steve Jobs, ha inventato il primo mouse della storia.",
+    "answer": "falso"
+  },
+  {
+    "text": "Gli astronauti diventano più alti quando vivono a lungo nello spazio a causa dell'assenza di gravità.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il metallo più costoso al mondo è l'oro.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Grande Muraglia Cinese è facilmente visibile a occhio nudo dalla Luna.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'azoto è il gas più abbondante nell'atmosfera terrestre.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'occhio umano può distinguere circa 10 milioni di colori diversi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Albert Einstein ha vinto il Premio Nobel per la sua famosa teoria della relatività.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'intelligenza artificiale 'Deep Blue' ha sconfitto il campione mondiale di scacchi Garry Kasparov nel 1997.",
+    "answer": "vero"
+  },
+  {
+    "text": "I pesci non chiudono mai gli occhi per dormire perché non hanno le palpebre.",
+    "answer": "vero"
+  },
+  {
+    "text": "La prima email della storia è stata inviata nel 1991 con l'invenzione del web.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il fegato umano ha la straordinaria capacità di rigenerarsi anche se ne viene rimossa una grossa parte.",
+    "answer": "vero"
+  },
+  {
+    "text": "La luna non ruota mai su se stessa, per questo vediamo sempre la stessa faccia.",
+    "answer": "falso"
+  },
+  {
+    "text": "La password '123456' rimane ancora oggi una delle più utilizzate al mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il sudore umano appena secreto è completamente inodore.",
+    "answer": "vero"
+  },
+  {
+    "text": "Plutone è stato ufficialmente declassato a 'pianeta nano' nel 2006.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le impronte nasali dei cani sono uniche, proprio come le impronte digitali umane.",
+    "answer": "vero"
+  },
+  {
+    "text": "Charles Darwin ha inventato il microscopio per osservare le cellule.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il primo animale ad orbitare attorno alla Terra è stata una scimmia.",
+    "answer": "falso"
+  },
+  {
+    "text": "In condizioni di vuoto perfetto, una piuma e un martello lanciati insieme cadranno alla stessa identica velocità.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il linguaggio di programmazione 'Python' prende il nome dall'omonimo serpente.",
+    "answer": "falso"
+  },
+  {
+    "text": "Tutti gli esseri umani hanno un gruppo sanguigno che rientra nel sistema AB0.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il termine Wi-Fi sta per 'Wireless Fidelity'.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'osso più piccolo del corpo umano si trova nell'orecchio.",
+    "answer": "vero"
+  },
+  {
+    "text": "Lo stomaco umano deve produrre un nuovo strato di muco ogni due settimane per non digerire se stesso.",
+    "answer": "vero"
+  },
+  {
+    "text": "La 'Scatola Nera' degli aerei in realtà è verniciata di colore arancione brillante.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il primo SMS della storia conteneva il testo 'Buon Compleanno'.",
+    "answer": "falso"
+  },
+  {
+    "text": "I delfini dormono con un occhio aperto e metà del cervello sveglio.",
+    "answer": "vero"
+  },
+  {
+    "text": "La temperatura più bassa possibile, lo zero assoluto, corrisponde a -273,15 gradi Celsius.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il deserto del Sahara è considerato il deserto più grande del mondo.",
+    "answer": "falso"
+  },
+  {
+    "text": "I pomodori, dal punto di vista botanico, sono classificati come frutti e non come verdure.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'azienda Nokia produceva computer e telefoni fin dalla sua fondazione nel 1865.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il cervello umano consuma circa il 20% dell'ossigeno e delle calorie totali del corpo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Un fulmine è in media cinque volte più caldo della superficie del Sole.",
+    "answer": "vero"
+  },
+  {
+    "text": "Quando si viaggia avvicinandosi alla velocità della luce, il tempo rallenta rispetto a chi è fermo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il primo uomo a camminare sulla Luna è stato il cosmonauta Yuri Gagarin.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'asteroide che ha causato l'estinzione dei dinosauri aveva un diametro stimato di circa 10 chilometri.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il primo virus informatico della storia è stato creato dalla Apple.",
+    "answer": "falso"
+  },
+  {
+    "text": "I fulmini possono fondere la sabbia e trasformarla in tubi di vetro chiamati folgoriti.",
+    "answer": "vero"
+  },
+  {
+    "text": "Thomas Edison ha inventato la lampadina elettrica da zero senza basarsi su nessun'altra invenzione.",
+    "answer": "falso"
+  },
+  {
+    "text": "Tutti i fiocchi di neve sono assolutamente identici tra loro se osservati al microscopio.",
+    "answer": "falso"
+  },
+  {
+    "text": "I panda giganti passano fino a 14 ore al giorno esclusivamente a mangiare bambù.",
+    "answer": "vero"
+  },
+  {
+    "text": "La Via Lattea, la nostra galassia, ha la forma di una grande sfera perfetta.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il mercurio è l'unico metallo che si presenta allo stato liquido a temperatura ambiente.",
+    "answer": "vero"
+  },
+  {
+    "text": "I buchi neri aspirano compulsivamente tutta la materia circostante come dei giganteschi aspirapolvere spaziali.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il formato audio MP3 è stato inventato in gran parte da un istituto di ricerca tedesco.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le vene umane appaiono blu attraverso la pelle perché il sangue al loro interno è privo di ossigeno.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'universo è in continua espansione e questa espansione sta addirittura accelerando.",
+    "answer": "vero"
+  },
+  {
+    "text": "Un gigabyte (GB) corrisponde esattamente a 1000 megabyte (MB) nei sistemi informatici tradizionali basati su potenze di 2.",
+    "answer": "falso"
+  },
+  {
+    "text": "I cammelli immagazzinano scorte di acqua pura direttamente all'interno delle loro gobbe.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il primo video mai caricato sulla piattaforma YouTube si intitola 'Me at the zoo'.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'acqua calda può gelare più velocemente dell'acqua fredda in determinate circostanze.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il sole tramonta sempre esattamente ad Ovest tutti i giorni dell'anno.",
+    "answer": "falso"
+  },
+  {
+    "text": "I ragni possiedono sangue di colore blu.",
+    "answer": "vero"
+  },
+  {
+    "text": "Le tastiere QWERTY sono state progettate originariamente per rallentare la digitazione ed evitare l'inceppamento delle macchine da scrivere.",
+    "answer": "vero"
+  },
+  {
+    "text": "Lo squalo bianco ha uno scheletro interno fatto di osso solido, come i mammiferi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il primo dominio internet '.com' registrato al mondo è stato symbolics.com nel 1985.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il polo nord magnetico della Terra coincide esattamente con il Polo Nord geografico.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nikola Tesla è noto per aver sviluppato e promosso il sistema a corrente alternata (AC).",
+    "answer": "vero"
+  },
+  {
+    "text": "Lo struzzo è l'uccello che vola più velocemente al mondo.",
+    "answer": "falso"
+  },
+  {
+    "text": "I lettori ottici leggono i dati dai dischi CD e DVD utilizzando la luce ultravioletta.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il muscolo più forte del corpo umano, in proporzione alle sue dimensioni, si trova nella mascella.",
+    "answer": "vero"
+  },
+  {
+    "text": "Se ingoi accidentalmente una gomma da masticare, il tuo stomaco impiegherà 7 anni per digerirla.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il rover spaziale 'Curiosity' su Marte è stato programmato per cantarsi 'Tanti auguri a te' nel suo anniversario.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli orsi polari hanno la pelle di colore nero nascosta sotto la loro folta pelliccia bianca.",
+    "answer": "vero"
+  },
+  {
+    "text": "La memoria RAM del computer è progettata per conservare tutti i dati anche quando il computer viene staccato dalla corrente.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le zanzare sembrano preferire pungere le persone con il gruppo sanguigno 0.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'uranio radioattivo emette spontaneamente un forte bagliore verde fluorescente nell'aria.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il sistema operativo Android è stato originariamente sviluppato dalla Samsung prima di essere acquistato da Google.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'unghia del dito medio della mano cresce generalmente più velocemente rispetto alle altre unghie.",
+    "answer": "vero"
+  },
+  {
+    "text": "Gli elefanti sono gli unici mammiferi al mondo che non sono in grado di saltare.",
+    "answer": "falso"
+  },
+  {
+    "text": "La crittografia end-to-end fa in modo che nemmeno i creatori dell'app di messaggistica possano leggere i tuoi messaggi.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"Game of Thrones\" è basato sui romanzi di J.R.R. Tolkien.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il bar frequentato dai protagonisti di \"Friends\" si chiama Central Park.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"Breaking Bad\", Walter White insegna chimica in un liceo.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"Stranger Things\" è ambientata negli anni '90.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il creatore di \"Black Mirror\" è Charlie Brooker.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"The Office\" (US) è ambientata nella città di New York.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"Grey's Anatomy\", l'ospedale originale si chiamava Seattle Hope.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il vero nome del Dottore in \"Doctor Who\" è John Smith.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Peaky Blinders\" segue le vicende di una famiglia criminale a Birmingham.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Trono di Spade in \"Game of Thrones\" è forgiato interamente in oro zecchino.",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie \"Lost\" inizia con lo schianto di un elicottero su un'isola misteriosa.",
+    "answer": "falso"
+  },
+  {
+    "text": "Sheldon Cooper di \"The Big Bang Theory\" indossa sempre completi giacca e cravatta.",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie \"I Soprano\" è incentrata su una famiglia mafiosa di Chicago.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'attore Bryan Cranston non ha mai vinto un Emmy per il ruolo in \"Breaking Bad\".",
+    "answer": "falso"
+  },
+  {
+    "text": "La sigla di \"Friends\" è la canzone \"Wonderwall\" degli Oasis.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"The Crown\", la regina Elisabetta II è interpretata da quattro attrici diverse nel corso delle stagioni.",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie \"Squid Game\" è stata prodotta in Giappone.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il personaggio di Homer Simpson lavora come ispettore di sicurezza alla centrale nucleare.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"Dexter\" è una serie tv che ha come protagonista un medico che di notte fa il supereroe.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"Gossip Girl\", la misteriosa blogger si rivela essere Dan Humphrey.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"Twin Peaks\" è stata creata e diretta da Steven Spielberg.",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie \"Mad Men\" è ambientata principalmente negli anni '80.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"The Walking Dead\", gli zombie vengono chiamati comunemente \"zombies\" dai personaggi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il protagonista di \"How I Met Your Mother\", Ted Mosby, di professione fa l'architetto.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Glee\" si svolge al liceo di Beverly Hills.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il cane di famiglia ne \"I Simpson\" si chiama Palla di Neve.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nella serie \"Sherlock\", il dottor Watson è un veterano della guerra in Afghanistan.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"La casa di carta\" è una produzione originale svedese.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"Buffy l'ammazzavampiri\", la città fittizia dove avvengono gli eventi si chiama Riverdale.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il motto della Casa Stark in \"Game of Thrones\" è \"Il sangue e il fuoco\".",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie \"Prison Break\" segue un uomo che si fa incarcerare di proposito per far evadere il fratello.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Suits\", Mike Ross è un brillante avvocato regolarmente laureato ad Harvard.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Dark\", la famosa serie sui viaggi nel tempo, è una produzione tedesca.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie animata \"Futurama\" inizia il 31 dicembre 2000.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il demone che possiede la bambina in \"L'esorcista - La serie\" è Pazuzu.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Scrubs\", il migliore amico del protagonista J.D. è il chirurgo Christopher Turk.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Vikings\" racconta principalmente la storia dell'esploratore Leif Erikson.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"The Mandalorian\" è una serie live-action basata sull'universo di Star Trek.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"Sex and the City\", le protagoniste sono cinque amiche inseparabili.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il protagonista di \"Mr. Robot\", Elliot Alderson, lavora come ingegnere della sicurezza informatica.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"Fargo\" è una serie antologica, dove ogni stagione racconta una storia diversa con nuovi personaggi.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"True Detective\" ha mantenuto lo stesso cast principale di attori per tutte le stagioni.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"Westworld\", il futuristico parco a tema è popolato da androidi chiamati \"Residenti\" (Hosts).",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Sons of Anarchy\" segue le vicende e i conflitti di un club di motociclisti.",
+    "answer": "vero"
+  },
+  {
+    "text": "Eleven (Undici) in \"Stranger Things\" ha una passione sfrenata per i waffle della marca Eggo.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"Succession\" racconta la storia della famiglia Roy, proprietaria di una catena mondiale di fast food.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nella serie \"The Boys\", i supereroi sono gestiti come celebrità da una multinazionale chiamata Vought.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"The Witcher\", il protagonista Geralt di Rivia è interpretato da Chris Hemsworth.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il celebre divano su cui si siedono \"I Simpson\" nella sigla è verde nelle prime stagioni.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Rick and Morty\" è nata originariamente come una parodia animata del film \"Ritorno al futuro\".",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Desperate Housewives\", la voce narrante di ogni episodio è sempre quella di Bree Van de Kamp.",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie \"X-Files\" segue le indagini paranormali di due agenti della CIA.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Better Call Saul\" è l'acclamato spin-off prequel della serie \"Breaking Bad\".",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Dawson's Creek\", i giovani protagonisti vivono e crescono nella cittadina di Capeside.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Bridgerton\" è basata su una serie di romanzi storici scritti da J.K. Rowling.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il \"Sottosopra\" (Upside Down) è una dimensione alternativa esplorata nella serie \"Dark\".",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie \"Narcos\" nelle sue primissime stagioni narra l'ascesa e la caduta del boss Pablo Escobar.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Lucifer\", il signore degli inferi si trasferisce sulla Terra a Miami e lavora come bagnino.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"The Handmaid's Tale\" è ambientata in una rigida società distopica chiamata Repubblica di Gilead.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Outlander\" segue le vicende di un'infermiera militare che viaggia misteriosamente nel tempo.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'attore che interpreta Jon Snow per tutta la durata di \"Game of Thrones\" è Richard Madden.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"Orange is the New Black\", le vicende si svolgono nel carcere femminile di Litchfield.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"BoJack Horseman\" è ambientata in un mondo dove esseri umani e animali antropomorfi convivono normalmente.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"Mindhunter\" si concentra sulle avventure quotidiane della squadra scientifica (CSI) di Miami.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nella serie \"Fleabag\", la protagonista rompe spesso la quarta parete parlando direttamente col pubblico.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"The Wire\" è una serie acclamata che analizza le varie sfaccettature e problematiche della città di Baltimora.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"The Vampire Diaries\", i due fratelli vampiri protagonisti della storia si chiamano Sam e Dean.",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie \"Supernatural\" si è conclusa in modo definitivo dopo esattamente 5 stagioni, come previsto dall'autore.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Gomorra - La serie\" è basata sull'omonimo romanzo best-seller scritto da Stephen King.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il cinico e spietato protagonista della serie \"House of Cards\" si chiama Frank Underwood.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Downton Abbey\" segue le vite di una facoltosa famiglia aristocratica americana e della loro servitù.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"The Last of Us\", il pericoloso fungo che causa la pandemia globale si chiama Amanita.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Bates Motel\" è il prequel televisivo del famosissimo film horror \"Shining\".",
+    "answer": "falso"
+  },
+  {
+    "text": "\"The Marvelous Mrs. Maisel\" segue una casalinga newyorkese che decide di diventare una wrestler professionista.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"Euphoria\", la complessa voce narrante della storia è quella di Rue Bennett, interpretata da Zendaya.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Shameless\" (versione USA) esplora le folli vicende della disfunzionale famiglia Gallagher.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Friends\", l'eccentrico personaggio di Phoebe Buffay suona regolarmente il violino al Central Perk.",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie \"The Good Place\" esplora le esilaranti vicende di un gruppo di medici in un pronto soccorso.",
+    "answer": "falso"
+  },
+  {
+    "text": "In \"Gossip Girl\", il personaggio di Blair Waldorf è spesso soprannominata la \"Regina B\" (Queen B).",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie sci-fi \"Sense8\" è stata interamente ideata e creata dai fratelli Duffer.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il creatore e regista di \"The Bear\" ha lavorato realmente per dieci anni come chef in ristoranti stellati.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Ted Lasso\" segue le avventure di un simpatico allenatore di football americano assunto per allenare una squadra di calcio.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"The Umbrella Academy\", i protagonisti sono un gruppo di fratelli adottivi dotati di poteri straordinari.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Chernobyl\" della HBO è una lunghissima soap opera familiare composta da 15 stagioni.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Mare of Easttown\" (Omicidio a Easttown) vede Kate Winslet nel ruolo di una detective di una piccola cittadina.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Peacemaker\", il ruolo dell'irriverente e violento protagonista omonimo è affidato all'attore e wrestler John Cena.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie antologica \"The White Lotus\" è interamente ambientata in una problematica catena di supermercati.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Only Murders in the Building\" vanta un cast principale composto da Steve Martin, Martin Short e Selena Gomez.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Loki\", la misteriosa organizzazione burocratica che controlla il corretto scorrere del tempo si chiama TVA.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Scissione\" (Severance) esplora un'azienda in cui i dipendenti si fanno separare i ricordi lavorativi da quelli personali.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"The Morning Show\" affronta dinamiche di potere e scandali con protagoniste Jennifer Aniston e Reese Witherspoon.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nella serie \"Yellowstone\", il capofamiglia John Dutton possiede e difende il ranch contiguo più grande degli Stati Uniti.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie \"Ozark\" inizia con l'improvviso trasferimento della famiglia Byrde in un ridente e soleggiato villaggio turistico in Florida.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"Andor\" è una serie prequel che si impegna a esplorare le origini e le prime fasi della ribellione nell'universo di Star Wars.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Mercoledì\" (Wednesday), l'ombrosa protagonista viene iscritta dai genitori alla particolare scuola Nevermore Academy.",
+    "answer": "vero"
+  },
+  {
+    "text": "\"The Sandman\", acclamata serie fantasy, è l'adattamento televisivo di un celebre fumetto edito originariamente dalla Marvel Comics.",
+    "answer": "falso"
+  },
+  {
+    "text": "La miniserie \"WandaVision\" rende palesemente omaggio a diverse e storiche sitcom americane cambiando stile visivo in ogni episodio.",
+    "answer": "vero"
+  },
+  {
+    "text": "In \"Squid Game\", il famosissimo e letale gioco \"Un, due, tre, stella!\" è presente fin dal primissimo episodio della serie.",
+    "answer": "vero"
+  },
+  {
+    "text": "La serie fantasy \"True Blood\" basa il suo universo narrativo sulla rivelazione e coesistenza pacifica tra esseri umani e licantropi.",
+    "answer": "falso"
+  },
+  {
+    "text": "\"The Leftovers\" è un intenso dramma che si concentra sulle conseguenze psicologiche e sociali della misteriosa sparizione del 2% della popolazione mondiale.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il basket è stato inventato da un insegnante di educazione fisica canadese.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel calcio, un portiere può prendere la palla con le mani fuori dalla propria area di rigore.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il record mondiale dei 100 metri piani maschili è detenuto da Usain Bolt.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel tennis, il punteggio 'love' significa zero.",
+    "answer": "vero"
+  },
+  {
+    "text": "Una maratona è lunga esattamente 40 chilometri.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il nuotatore Michael Phelps ha vinto più medaglie d'oro olimpiche di qualsiasi altro atleta.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel baseball, ci sono 10 inning in una partita regolamentare.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il rugby prende il nome dalla città inglese in cui è stato inventato.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel ping pong, la pallina può rimbalzare due volte sul proprio campo prima di essere respinta.",
+    "answer": "falso"
+  },
+  {
+    "text": "La prima Coppa del Mondo di calcio si è tenuta in Brasile.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel football americano, un touchdown vale 6 punti.",
+    "answer": "vero"
+  },
+  {
+    "text": "Serena Williams ha vinto più tornei del Grande Slam in singolare di Margaret Court.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il badminton è uno sport olimpico.",
+    "answer": "vero"
+  },
+  {
+    "text": "In Formula 1, la bandiera gialla indica la fine della gara.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel volley, una squadra può toccare la palla al massimo tre volte prima di mandarla nell'altra metà campo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il judo è un'arte marziale di origine coreana.",
+    "answer": "falso"
+  },
+  {
+    "text": "La pallanuoto prevede 7 giocatori in acqua per squadra (compreso il portiere).",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Tour de France è la più antica corsa ciclistica a tappe del mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel golf, il termine 'birdie' indica che la buca è stata completata con un colpo sotto il par.",
+    "answer": "vero"
+  },
+  {
+    "text": "Lionel Messi ha vinto il suo primo Mondiale con l'Argentina nel 2018.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel pugilato, un round standard dura 3 minuti per gli uomini.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Super Bowl è la finale del campionato di hockey su ghiaccio.",
+    "answer": "falso"
+  },
+  {
+    "text": "In una partita di scacchi, è possibile fare scacco matto in due sole mosse.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il tiro con l'arco è stato escluso dalle Olimpiadi per oltre 50 anni prima di essere reintrodotto.",
+    "answer": "vero"
+  },
+  {
+    "text": "La ginnasta Nadia Comăneci è stata la prima a ricevere un 10 perfetto alle Olimpiadi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel cricket, la squadra in difesa ha sempre 11 giocatori sul campo.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'Italia ha vinto quattro Coppe del Mondo di calcio maschile.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il triathlon olimpico comprende nuoto, ciclismo e pattinaggio.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le Olimpiadi invernali e quelle estive si tengono sempre nello stesso anno solare.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il torneo di Wimbledon si gioca su campi in terra rossa.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel curling, la 'casa' è il bersaglio disegnato sul ghiaccio.",
+    "answer": "vero"
+  },
+  {
+    "text": "Ayrton Senna ha vinto tre campionati del mondo di Formula 1.",
+    "answer": "vero"
+  },
+  {
+    "text": "La pallamano si gioca in squadre da 5 giocatori in campo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel salto con gli sci, il punteggio dipende solo ed esclusivamente dalla distanza del salto.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il surf ha fatto il suo debutto olimpico ai Giochi di Tokyo 2020.",
+    "answer": "vero"
+  },
+  {
+    "text": "Diego Maradona ha segnato il famoso gol della 'Mano de Dios' contro il Brasile.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il fioretto è una delle tre armi della scherma.",
+    "answer": "vero"
+  },
+  {
+    "text": "Una partita di hockey su ghiaccio è divisa in due tempi da 30 minuti.",
+    "answer": "falso"
+  },
+  {
+    "text": "LeBron James è il miglior marcatore nella storia della stagione regolare NBA.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il tatami è il tappeto su cui si svolgono gli incontri di ginnastica ritmica.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il colore della maglia del leader della classifica generale al Giro d'Italia è rosa.",
+    "answer": "vero"
+  },
+  {
+    "text": "La squadra dei New York Yankees gioca nella lega di baseball MLB.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel biathlon si combinano il salto con gli sci e lo sci di fondo.",
+    "answer": "falso"
+  },
+  {
+    "text": "La schiacciata nel basket è stata vietata nel campionato universitario NCAA per circa un decennio.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il sollevamento pesi maschile fa parte dei Giochi Olimpici moderni fin dalla primissima edizione del 1896.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel biliardo sportivo (snooker), la palla nera vale 7 punti.",
+    "answer": "vero"
+  },
+  {
+    "text": "Valentina Vezzali ha vinto medaglie olimpiche in cinque edizioni consecutive dei Giochi.",
+    "answer": "vero"
+  },
+  {
+    "text": "In una gara di atletica, il decathlon prevede 12 diverse discipline.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il salto con l'asta fa parte del programma olimpico femminile dal 1896.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Ryder Cup è una prestigiosa competizione di golf a squadre tra Europa e Stati Uniti.",
+    "answer": "vero"
+  },
+  {
+    "text": "Cristiano Ronaldo ha giocato nella squadra del Bayern Monaco.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel taekwondo, un calcio alla testa vale più punti di un calcio al tronco.",
+    "answer": "vero"
+  },
+  {
+    "text": "La celebre squadra di basket 'Dream Team' partecipò alle Olimpiadi di Barcellona nel 1992.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il karting non è ufficialmente riconosciuto come disciplina sportiva automobilistica.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Parigi-Dakar si è sempre svolta esclusivamente tra la Francia e il Senegal.",
+    "answer": "falso"
+  },
+  {
+    "text": "La palla utilizzata nel rugby è di forma sferica perfetta.",
+    "answer": "falso"
+  },
+  {
+    "text": "La squadra nazionale di rugby della Nuova Zelanda è universalmente nota come 'All Blacks'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel canottaggio, il timoniere usa un remo speciale per aiutare l'equipaggio.",
+    "answer": "falso"
+  },
+  {
+    "text": "Valentino Rossi ha vinto 9 titoli mondiali in totale nel motomondiale.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nelle freccette (darts), il punteggio massimo ottenibile con un singolo tiro di tre freccette è 180.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il primo club a vincere la Coppa dei Campioni (ora UEFA Champions League) fu il Real Madrid.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nello sci alpino, lo slalom speciale è la disciplina in cui si raggiungono le velocità più elevate.",
+    "answer": "falso"
+  },
+  {
+    "text": "Muhammad Ali, il famoso pugile, si chiamava originariamente Cassius Clay.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel football americano, ogni azione offensiva inizia con un passaggio all'indietro chiamato 'snap'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Un 'ace' nel tennis è un servizio vincente in cui l'avversario non riesce nemmeno a toccare la palla.",
+    "answer": "vero"
+  },
+  {
+    "text": "I Giochi Paralimpici si svolgono sempre l'anno precedente alle Olimpiadi regolari.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il basket 3x3 è diventato per la prima volta disciplina olimpica ufficiale a Tokyo 2020.",
+    "answer": "vero"
+  },
+  {
+    "text": "Roger Federer non è mai riuscito a vincere l'Open di Francia (Roland Garros).",
+    "answer": "falso"
+  },
+  {
+    "text": "La coppa del mondo di rugby è intitolata a William Webb Ellis, presunto inventore dello sport.",
+    "answer": "vero"
+  },
+  {
+    "text": "In atletica leggera, il salto del fosso pieno d'acqua fa parte della gara dei 3000 metri siepi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel pattinaggio artistico su ghiaccio, il 'salchow' è un tipo specifico di salto.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il campo da polo è considerato il campo da gioco più grande negli sport di squadra giocati su prato.",
+    "answer": "vero"
+  },
+  {
+    "text": "Tiger Woods è considerato uno dei più grandi campioni della storia del cricket.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Sumo è considerato lo sport nazionale in Cina.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel baseball, il battitore viene automaticamente eliminato dopo aver ricevuto due strike.",
+    "answer": "falso"
+  },
+  {
+    "text": "La pallavolo, quando fu inventata, fu inizialmente chiamata 'Mintonette'.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nell'Ironman Triathlon, l'ultima prova da completare per finire la gara è sempre il nuoto.",
+    "answer": "falso"
+  },
+  {
+    "text": "La nazionale italiana ha vinto il torneo Sei Nazioni di rugby per la prima volta nel 2013.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel judo, un incontro ufficiale dura sempre e necessariamente un minimo di 10 minuti, indipendentemente dai punti.",
+    "answer": "falso"
+  },
+  {
+    "text": "Pelé è l'unico calciatore nella storia ad aver vinto tre edizioni della Coppa del Mondo FIFA.",
+    "answer": "vero"
+  },
+  {
+    "text": "La durata di un incontro di scherma alla spada è illimitata finché un atleta non arriva a 15 stoccate.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel football australiano il campo di gioco ha una forma a quadrato perfetto.",
+    "answer": "falso"
+  },
+  {
+    "text": "La pallanuoto femminile è stata presente nel programma olimpico fin dall'anno 1900.",
+    "answer": "falso"
+  },
+  {
+    "text": "Michael Jordan ha lasciato temporaneamente il basket negli anni '90 per provare a giocare a baseball.",
+    "answer": "vero"
+  },
+  {
+    "text": "In Formula 1 non esiste alcun limite di velocità nella corsia dei box (pit lane) durante le prove libere.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel tennistavolo (ping pong), oggi un set si vince raggiungendo sempre i 21 punti.",
+    "answer": "falso"
+  },
+  {
+    "text": "Usain Bolt ha vinto medaglie d'oro olimpiche nella gara dei 400 metri piani.",
+    "answer": "falso"
+  },
+  {
+    "text": "La pallina utilizzata nello squash è più grande di quella standard usata nel tennis.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il pentathlon moderno è composto da cinque discipline ma non include in alcun modo una gara di nuoto.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel calcio, un giocatore può segnare un gol valido tirando direttamente dalla rimessa laterale con le mani.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel bowling, un 'perfect game' (una partita in cui si fanno solo strike) totalizza 500 punti.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel volley, il giocatore con la maglia diversa chiamato 'libero' può schiacciare tranquillamente dalla seconda linea.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel futsal (calcio a 5), al contrario del calcio a 11, non è prevista la regola del fuorigioco.",
+    "answer": "vero"
+  },
+  {
+    "text": "La scherma su sedia a rotelle (scherma paralimpica) non prevede i movimenti di pedana avanti e indietro.",
+    "answer": "vero"
+  },
+  {
+    "text": "Kobe Bryant ha trascorso l'intera sua carriera NBA giocando per la franchigia dei Los Angeles Lakers.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel cricket, è perfettamente regolare che la palla rimbalzi sul terreno prima di arrivare al battitore.",
+    "answer": "vero"
+  },
+  {
+    "text": "Lance Armstrong ha mantenuto ufficialmente fino a oggi tutti i suoi sette titoli vinti al Tour de France.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nei tornei maschili del Grande Slam di tennis, le partite si giocano sempre al meglio dei tre set (chi ne vince 2).",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel pugilato professionistico odierno, l'uso del paradenti da parte dei pugili è facoltativo.",
+    "answer": "falso"
+  },
+  {
+    "text": "La 'Haka' è una celebre e tradizionale danza pre-partita eseguita dalla nazionale tedesca di calcio.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Monte Bianco è la montagna più alta delle Alpi.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'Egitto si trova in Asia.",
+    "answer": "falso"
+  },
+  {
+    "text": "La rivoluzione francese è iniziata nel 1789.",
+    "answer": "vero"
+  },
+  {
+    "text": "Cristoforo Colombo ha scoperto l'America nel 1402.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il deserto del Sahara è il più grande deserto caldo del mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "La capitale dell'Australia è Sydney.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Impero Romano d'Occidente è caduto nel 476 d.C.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il fiume Mississippi si trova in Sud America.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'India è una penisola.",
+    "answer": "vero"
+  },
+  {
+    "text": "La prima guerra mondiale è terminata nel 1919.",
+    "answer": "falso"
+  },
+  {
+    "text": "La capitale della Turchia è Ankara.",
+    "answer": "vero"
+  },
+  {
+    "text": "La Grande Muraglia Cinese è visibile dallo spazio a occhio nudo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Giappone è un arcipelago composto da oltre 6000 isole.",
+    "answer": "vero"
+  },
+  {
+    "text": "Napoleone Bonaparte è morto sull'isola d'Elba.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Groenlandia è l'isola più grande del mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Muro di Berlino è caduto nel 1991.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Madagascar è uno stato africano.",
+    "answer": "vero"
+  },
+  {
+    "text": "La Statua della Libertà è stata donata agli USA dalla Gran Bretagna.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Città del Vaticano è lo stato più piccolo del mondo per superficie.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Canada è diviso in 50 stati.",
+    "answer": "falso"
+  },
+  {
+    "text": "La civiltà Maya si sviluppò prevalentemente in Mesoamerica.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'Oceano Atlantico è l'oceano più grande della Terra.",
+    "answer": "falso"
+  },
+  {
+    "text": "Machu Picchu è un sito archeologico Inca situato in Perù.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Rinascimento ha avuto origine in Francia.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Sudafrica ha tre capitali.",
+    "answer": "vero"
+  },
+  {
+    "text": "La guerra del Vietnam si è conclusa con la vittoria degli Stati Uniti.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Islanda si trova sulla dorsale medio-atlantica.",
+    "answer": "vero"
+  },
+  {
+    "text": "Giulio Cesare è stato il primo imperatore romano.",
+    "answer": "falso"
+  },
+  {
+    "text": "La capitale dell'Islanda è Reykjavík.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'URSS è stata sciolta ufficialmente nel 1989.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Nilo scorre da sud verso nord.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Brasile è l'unico paese sudamericano in cui si parla spagnolo.",
+    "answer": "falso"
+  },
+  {
+    "text": "La battaglia di Waterloo segnò la sconfitta definitiva di Napoleone.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Colosseo è stato costruito durante l'Impero di Nerone.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Nuova Zelanda è composta principalmente da due isole maggiori.",
+    "answer": "vero"
+  },
+  {
+    "text": "La capitale del Brasile è Rio de Janeiro.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Etna è il vulcano attivo più alto d'Europa.",
+    "answer": "vero"
+  },
+  {
+    "text": "La Magna Carta è stata firmata in Francia.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Ecuador prende il nome dall'equatore terrestre che lo attraversa.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Titanic affondò nel 1920.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Everest si trova al confine tra Cina e Nepal.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'Impero Ottomano si è dissolto dopo la Seconda Guerra Mondiale.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Spagna e il Portogallo formano la Penisola Iberica.",
+    "answer": "vero"
+  },
+  {
+    "text": "La capitale del Canada è Toronto.",
+    "answer": "falso"
+  },
+  {
+    "text": "La rivoluzione industriale è iniziata in Gran Bretagna.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nelson Mandela è stato il primo presidente nero del Kenya.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il lago Baikal in Russia è il lago d'acqua dolce più profondo del mondo.",
+    "answer": "vero"
+  },
+  {
+    "text": "La guerra dei cent'anni è durata esattamente 100 anni.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Australia è l'unico paese che occupa un intero continente.",
+    "answer": "vero"
+  },
+  {
+    "text": "Cristoforo Colombo era di nazionalità spagnola.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il deserto di Atacama si trova in Cile.",
+    "answer": "vero"
+  },
+  {
+    "text": "La capitale dell'Argentina è Montevideo.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Impero Bizantino è anche conosciuto come Impero Romano d'Oriente.",
+    "answer": "vero"
+  },
+  {
+    "text": "La luna è stata calpestata per la prima volta nel 1971.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Scozia fa parte del Regno Unito.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il fiume Tamigi attraversa la città di Parigi.",
+    "answer": "falso"
+  },
+  {
+    "text": "Alessandro Magno divenne re di Macedonia a soli 20 anni.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'Alaska fu acquistata dagli Stati Uniti dalla Francia.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il mare di Aral si è quasi completamente prosciugato a causa dell'intervento umano.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Canale di Suez collega l'Oceano Atlantico con l'Oceano Pacifico.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Guerra Fredda non è mai sfociata in un conflitto armato diretto tra USA e URSS.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'Antartide è di proprietà esclusiva degli Stati Uniti.",
+    "answer": "falso"
+  },
+  {
+    "text": "La città di Petra si trova nell'attuale Giordania.",
+    "answer": "vero"
+  },
+  {
+    "text": "La Torre di Pisa è stata costruita già pendente per un errore architettonico.",
+    "answer": "falso"
+  },
+  {
+    "text": "La capitale della Corea del Sud è Seul.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il Mar Caspio è il più grande oceano del mondo.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Olanda è spesso chiamata Paesi Bassi.",
+    "answer": "vero"
+  },
+  {
+    "text": "Marco Polo ha portato gli spaghetti dalla Cina all'Italia.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Tanzania si trova in Africa.",
+    "answer": "vero"
+  },
+  {
+    "text": "La prima repubblica italiana è nata nel 1948.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Monte Fuji è la montagna più alta del Giappone.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il fiume Po sfocia nel Mar Tirreno.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Homo Sapiens è originario del continente africano.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'isola di Cuba fa parte del continente sudamericano.",
+    "answer": "falso"
+  },
+  {
+    "text": "La capitale dello stato di New York è Albany.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'impero Azteco si trovava in Sud America.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Via della Seta era una rete di rotte commerciali tra Asia ed Europa.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il deserto del Gobi si trova in Africa.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'India ottenne l'indipendenza dal Regno Unito nel 1947.",
+    "answer": "vero"
+  },
+  {
+    "text": "La città di Istanbul è stata capitale dell'Italia.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Scandinavia comprende Svezia, Norvegia e Danimarca.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'Organizzazione delle Nazioni Unite è stata fondata nel 1918.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Liechtenstein è uno stato senza sbocco sul mare incastonato tra Svizzera e Austria.",
+    "answer": "vero"
+  },
+  {
+    "text": "La peste nera ha colpito l'Europa nel XVIII secolo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Le cascate del Niagara si trovano al confine tra USA e Canada.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'invenzione della stampa a caratteri mobili è attribuita a Leonardo da Vinci.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Cile ha la forma di una lunga e stretta striscia di terra.",
+    "answer": "vero"
+  },
+  {
+    "text": "La città di Costantinopoli oggi si chiama Atene.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il meridiano di Greenwich è la linea di longitudine zero.",
+    "answer": "vero"
+  },
+  {
+    "text": "La Florida è uno stato situato sulla costa occidentale degli USA.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Oceano Indiano bagna le coste orientali dell'Africa.",
+    "answer": "vero"
+  },
+  {
+    "text": "Abraham Lincoln è stato il primo presidente degli Stati Uniti.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il Perù confina con l'Oceano Pacifico.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'eroina Giovanna d'Arco era di origini britanniche.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'Australia è divisa in sei stati e due territori principali.",
+    "answer": "vero"
+  },
+  {
+    "text": "La capitale dell'Egitto è Alessandria.",
+    "answer": "falso"
+  },
+  {
+    "text": "La defenestrazione di Praga fu l'evento scatenante della Guerra dei Trent'anni.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'isola di Pasqua appartiene all'Argentina.",
+    "answer": "falso"
+  },
+  {
+    "text": "La rivoluzione russa ebbe luogo nel 1917.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel 1492, la Spagna completò la Reconquista con la caduta dell'Impero Ottomano.",
+    "answer": "falso"
+  },
+  {
+    "text": "Super Mario Bros è stato originariamente rilasciato nel 1990.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il protagonista della serie The Legend of Zelda si chiama Zelda.",
+    "answer": "falso"
+  },
+  {
+    "text": "Pac-Man originariamente si chiamava Puck-Man in Giappone.",
+    "answer": "vero"
+  },
+  {
+    "text": "Minecraft è il videogioco più venduto di tutti i tempi.",
+    "answer": "vero"
+  },
+  {
+    "text": "In Tetris, il pezzo a forma di quadrato si chiama Z-Tetromino.",
+    "answer": "falso"
+  },
+  {
+    "text": "Sonic the Hedgehog è la mascotte ufficiale di Nintendo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Fortnite è stato inizialmente rilasciato come gioco battle royale gratuito.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il celebre creatore della serie Metal Gear Solid è Hideo Kojima.",
+    "answer": "vero"
+  },
+  {
+    "text": "Grand Theft Auto V è ambientato nella città fittizia di Vice City.",
+    "answer": "falso"
+  },
+  {
+    "text": "La parola Pokémon deriva dall'abbreviazione di Pocket Monsters.",
+    "answer": "vero"
+  },
+  {
+    "text": "La PlayStation 2 è la console per videogiochi più venduta della storia.",
+    "answer": "vero"
+  },
+  {
+    "text": "In Mortal Kombat, la mossa finale mortale è conosciuta come Brutality.",
+    "answer": "falso"
+  },
+  {
+    "text": "Lara Croft è la protagonista principale della serie Uncharted.",
+    "answer": "falso"
+  },
+  {
+    "text": "Halo: Combat Evolved è stato un titolo di lancio esclusivo per la PlayStation 2.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'iconico personaggio di Mario ha fatto la sua primissima apparizione nel gioco arcade Donkey Kong.",
+    "answer": "vero"
+  },
+  {
+    "text": "World of Warcraft è un famosissimo MMORPG sviluppato dall'azienda Valve.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il famigerato Konami Code inizia con i tasti: Su, Su, Giù, Giù, Sinistra, Destra.",
+    "answer": "vero"
+  },
+  {
+    "text": "Street Fighter II è stato il gioco che ha introdotto per la prima volta il personaggio di Ryu.",
+    "answer": "falso"
+  },
+  {
+    "text": "In The Elder Scrolls V: Skyrim, il protagonista è conosciuto come The Witcher.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il franchise di Call of Duty è iniziato come sparatutto ambientato durante la Prima Guerra Mondiale.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il celebre gioco The Sims era stato originariamente concepito come un simulatore di architettura.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il personaggio Master Chief si toglie l'elmo rivelando il suo vero volto all'inizio del primissimo Halo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Red Dead Redemption 2 è il sequel cronologico diretto degli eventi raccontati nel primo Red Dead Redemption.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'RPG d'azione Cyberpunk 2077 è ambientato in una gigantesca metropoli chiamata Night City.",
+    "answer": "vero"
+  },
+  {
+    "text": "La console Nintendo 64 utilizzava i CD-ROM invece delle classiche cartucce di gioco.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il gioco Dark Souls è diventato celebre soprattutto per il suo livello di difficoltà estremamente basso.",
+    "answer": "falso"
+  },
+  {
+    "text": "Pikachu occupa la posizione numero 1 nel Pokédex Nazionale Ufficiale.",
+    "answer": "falso"
+  },
+  {
+    "text": "In BioShock, gli imponenti nemici armati che indossano uno scafandro da palombaro si chiamano Big Daddy.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il battle royale Apex Legends è ambientato nello stesso universo narrativo di Mass Effect.",
+    "answer": "falso"
+  },
+  {
+    "text": "Super Smash Bros. Melee detiene il record di gioco più venduto per la console Nintendo GameCube.",
+    "answer": "vero"
+  },
+  {
+    "text": "La pistola sparachiodi (Needler) è un'iconica e temibile arma aliena della serie Gears of War.",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie Fallout è ambientata in un lontano futuro utopico e pacifico in cui non ci sono mai state guerre mondiali.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il seminale videogioco DOOM del 1993 è un celebre titolo di genere platform 3D.",
+    "answer": "falso"
+  },
+  {
+    "text": "All'inizio di Genshin Impact, il Viaggiatore protagonista può essere scelto esclusivamente di sesso maschile.",
+    "answer": "falso"
+  },
+  {
+    "text": "Pong, rilasciato da Atari nel 1972, è storicamente considerato il primissimo videogioco mai creato in assoluto.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il creatore di Mario, Shigeru Miyamoto, si ispirò a Batman e Robin per concepire il gioco arcade Donkey Kong.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nella serie The Witcher, il nome che Geralt di Rivia dà a ogni sua cavalcatura è sempre Rutilia (Roach).",
+    "answer": "vero"
+  },
+  {
+    "text": "Il hero shooter Overwatch di Blizzard era stato originariamente sviluppato con il nome in codice Titan.",
+    "answer": "vero"
+  },
+  {
+    "text": "La console Xbox 360 divenne tristemente nota tra i giocatori per il catastrofico errore hardware Red Ring of Death.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel franchise Animal Crossing, il giocatore si ritrova quasi sempre a pagare un mutuo a un procione d'affari di nome Tom Nook.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il frenetico videogioco Rocket League combina le meccaniche del gioco del calcio con automobili a razzo.",
+    "answer": "vero"
+  },
+  {
+    "text": "La famosissima serie horror Resident Evil è conosciuta nel mercato giapponese con il titolo di Silent Hill.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il celebre MOBA League of Legends è nato originariamente come una popolare mod per il gioco StarCraft.",
+    "answer": "falso"
+  },
+  {
+    "text": "Super Mario 64, lanciato su Nintendo 64, è stato uno dei primissimi platform 3D a presentare una visuale a telecamera libera.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il carismatico personaggio di Crash Bandicoot è stato creato in origine dalla casa di sviluppo Naughty Dog.",
+    "answer": "vero"
+  },
+  {
+    "text": "God of War, uscito nel 2018, sposta coraggiosamente l'ambientazione storica dalla mitologia greca a quella egizia.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il vero nome del protagonista di Persona 5 è canonicamente Joker in tutte le produzioni ufficiali.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nella trilogia originale di Mass Effect, il giocatore veste i panni del carismatico Comandante Shepard.",
+    "answer": "vero"
+  },
+  {
+    "text": "Among Us ha raggiunto il picco mondiale di popolarità nello stesso esatto anno della sua uscita sul mercato.",
+    "answer": "falso"
+  },
+  {
+    "text": "La Portal Gun utilizzata nel rompicapo Portal spara tipicamente due portali: uno arancione e uno rosso brillante.",
+    "answer": "falso"
+  },
+  {
+    "text": "La storica azienda di videogiochi Atari fu fondata originariamente dal geniale game designer Shigeru Miyamoto.",
+    "answer": "falso"
+  },
+  {
+    "text": "In Minecraft, l'iconico mostro Creeper è nato per caso a causa di un banale errore di calcolo nel codice di modellazione del maiale.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il primissimo capitolo di Final Fantasy venne intitolato così perché il creatore e l'azienda credevano potesse essere il loro ultimo gioco prima del fallimento.",
+    "answer": "vero"
+  },
+  {
+    "text": "La lunga saga videoludica di Assassin's Creed ruota storicamente attorno all'infinita guerra segreta tra l'Ordine dei Templari e una letale setta di Ninja.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel franchise sparatutto Half-Life, il protagonista Gordon Freeman pronuncia le sue prime battute dialogate solo nel secondo capitolo.",
+    "answer": "falso"
+  },
+  {
+    "text": "Durante le sue prime fasi di sviluppo, la popolarissima console Nintendo Wii era conosciuta con il promettente nome in codice Revolution.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'acronimo PUBG del celebre titolo battle royale sta ufficialmente per PlayerUnknown's Battlegrounds.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'intero franchise gotico di Castlevania ruota storicamente attorno all'eterna lotta di diverse generazioni contro il mostro di Frankenstein.",
+    "answer": "falso"
+  },
+  {
+    "text": "La piattaforma online di creazione giochi Roblox è stata rilasciata ufficialmente sul mercato alcuni anni prima dell'uscita del primo Minecraft.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il noto sparatutto fantascientifico in prima persona Destiny è stato interamente sviluppato dallo studio Epic Games.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'angosciato protagonista del capolavoro horror psicologico Silent Hill 2 si chiama James Sunderland.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel rilassante indie Stardew Valley, l'avventura inizia quando il giocatore eredita una vecchia fattoria in rovina dal proprio nonno defunto.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'esclusiva PlayStation Bloodborne è ambientata in uno spietato mondo cyberpunk futuristico dominato da corporazioni senza scrupoli.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il famosissimo Tamagotchi nacque originariamente come videogioco esclusivo per la console portatile Nintendo Game Boy.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il tanto atteso sequel Half-Life 3 è stato pubblicato segretamente in formato digitale durante l'anno 2020.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il rivoluzionario The Legend of Zelda: Ocarina of Time ha segnato il primissimo storico passaggio della serie alle tre dimensioni.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il SEGA Dreamcast è stata l'ultima e sfortunata console per videogiochi casalinga prodotta dalla storica azienda SEGA.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel difficilissimo run 'n' gun Cuphead, i due bizzarri protagonisti si chiamano rispettivamente Cuphead e Mugman.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'acclamato titolo di sopravvivenza ed esplorazione Terraria è un videogioco realizzato interamente con grafica tridimensionale.",
+    "answer": "falso"
+  },
+  {
+    "text": "La serie di Horizon Zero Dawn presenta un affascinante mondo post-apocalittico in cui enormi creature robotiche dall'aspetto animale dominano la Terra.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nell'enigmatico gioco Control, l'arma da fuoco principale muta forma e non finisce mai le munizioni, bensì si ricarica gradualmente nel tempo.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il leggendario creatore, nonché storico direttore della serie picchiaduro Super Smash Bros., si chiama Masahiro Sakurai.",
+    "answer": "vero"
+  },
+  {
+    "text": "La prima e iconica versione del Game Boy originale possedeva uno schermo retroilluminato e interamente a colori fin dal giorno del lancio.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'amato personaggio italiano Ezio Auditore da Firenze ha fatto la sua prima, trionfale apparizione in Assassin's Creed II.",
+    "answer": "vero"
+  },
+  {
+    "text": "Lo sparatutto cooperativo Left 4 Dead mette quattro giocatori nei panni di sopravvissuti in fuga da letali dinosauri mutanti.",
+    "answer": "falso"
+  },
+  {
+    "text": "In Mario Kart 8, il temuto Guscio Blu è progettato in modo da non poter mai essere schivato o distrutto in alcun modo dal giocatore in prima posizione.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'evocativo capolavoro Shadow of the Colossus per PS2 presenta esattamente 16 enormi e maestosi colossi da scovare e sconfiggere.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'RPG indie Undertale è celebre tra le altre cose per l'innovativa possibilità di poter completare l'intero gioco senza uccidere mai nessun nemico.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nella folle serie Borderlands, il logorroico robottino monoruota che fa da guida al giocatore fin dalle prime battute si chiama Claptrap.",
+    "answer": "vero"
+  },
+  {
+    "text": "Dietro la massiccia armatura del cacciatore di taglie spaziale protagonista della serie Metroid, si nasconde in realtà un uomo robusto.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'immenso action RPG Elden Ring è stato creato da FromSoftware in collaborazione creativa con lo scrittore fantasy George R.R. Martin.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nell'acclamato roguelike Hades, il sarcastico e inarrestabile protagonista in fuga dagli inferi si chiama Zagreus.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'intera trama dello strategico in tempo reale StarCraft si svolge esclusivamente in varie nazioni disastrate del pianeta Terra.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nella drammatica storia di The Last of Us, il fungo parassita che causa la letale pandemia zombie è ispirato al fungo realmente esistente chiamato Cordyceps.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'inconfondibile console a forma di cubo di Nintendo, il GameCube, includeva curiosamente una maniglia sul retro per facilitarne il trasporto a mano.",
+    "answer": "vero"
+  },
+  {
+    "text": "La coloratissima serie Splatoon è uno sparatutto multiplayer incentrato sull'eliminare i nemici utilizzando riproduzioni estremamente realistiche di vere armi da fuoco.",
+    "answer": "falso"
+  },
+  {
+    "text": "Il geniale creatore russo di Tetris, Alexey Pajitnov, divenne un milionario quasi istantaneamente non appena il suo gioco sfondò sul mercato globale.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel frenetico titolo d'azione Devil May Cry, l'irriverente protagonista armato di spada e pistole di nome Dante è di professione un cacciatore di demoni.",
+    "answer": "vero"
+  },
+  {
+    "text": "La sofisticata console portatile PlayStation Vita è riuscita nell'impresa di ottenere vendite globali complessive nettamente superiori a quelle della precedente PSP.",
+    "answer": "falso"
+  },
+  {
+    "text": "L'ambizioso gioco Spore, ideato dal designer Will Wright, permette ai giocatori di simulare l'evoluzione della vita a partire da una singola e semplice cellula.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il disturbante e acclamato The Binding of Isaac si ispira molto fortemente e apertamente alla struttura labirintica dei dungeon del primo The Legend of Zelda.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nelle primissime cartucce originali di Pokémon Versione Rossa e Blu, il mitico Pokémon Mew era catturabile da tutti i giocatori senza sfruttare alcun glitch, trucco o evento speciale.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel fantastico platform 3D Super Mario Odyssey per Nintendo Switch, il fedele cappello senziente che accompagna Mario nella sua avventura si chiama Cappy.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il brutale ed elegante gioco d'azione Sekiro: Shadows Die Twice è stato sviluppato dallo stesso acclamato studio giapponese dietro alla trilogia di Dark Souls.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nel caotico party game Overcooked, il principale obiettivo dei giocatori è quello di sconfiggere spaventosi mostri di strada utilizzando pentole, padelle e altri utensili da cucina come armi.",
+    "answer": "falso"
+  },
+  {
+    "text": "La primissima epica avventura originale della serie Tomb Raider fece il suo pionieristico debutto sul mercato dei videogiochi nell'anno 1996.",
+    "answer": "vero"
+  },
+  {
+    "text": "Il capostipite della serie automobilistica Gran Turismo, uscito sulla prima PlayStation, includeva nel garage virtuale già oltre 1000 veicoli su licenza tutti differenti tra loro.",
+    "answer": "falso"
+  },
+  {
+    "text": "Nel brutale sparatutto Xbox Gears of War, l'arma iconica e inconfondibile chiamata Lancer consiste in un pesante fucile d'assalto con una letale motosega incorporata nel calcio.",
+    "answer": "vero"
+  },
+  {
+    "text": "L'enigmatico e singolare titolo Death Stranding è stato ufficialmente il primo videogioco sviluppato dallo studio indipendente di Hideo Kojima dopo il suo turbolento addio all'azienda Konami.",
+    "answer": "vero"
+  },
+  {
+    "text": "Nello spettrale spin-off Luigi's Mansion, l'ingegnoso e bizzarro aspirapolvere acchiappafantasmi che usa Luigi per la sua esplorazione è stato battezzato Poltergust 3000.",
+    "answer": "vero"
+  }
+]

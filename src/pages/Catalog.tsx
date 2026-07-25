@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const catalogData = [
   {
     id: 'vero_o_fake',
-    title: 'Vero o Fake',
+    title: 'Vero o Falso',
     icon: '🃏',
     description: 'Metti alla prova le tue conoscenze! La TV mostrerà una carta di un calciatore con delle statistiche. Il tuo compito è indovinare se quella carta è VERA o se è stata falsificata.',
     settings: [
@@ -25,13 +25,12 @@ const catalogData = [
     status: 'available'
   },
   {
-    id: 'fanta_asta',
-    title: 'Fanta-Asta al Buio',
-    icon: '💰',
-    description: 'Un\'asta spietata in cui tutti hanno un budget segreto. Cerca di aggiudicarti i giocatori migliori senza far capire ai tuoi avversari quanti crediti ti restano!',
+    id: 'nomi_cose_citta',
+    title: 'Nomi, Cose, Città',
+    icon: '📝',
+    description: 'Il grande classico. Scrivi una parola per ogni categoria che inizia con la lettera estratta. Chi fa prima blocca il tempo!',
     settings: [
-      { name: 'Budget Iniziale', desc: 'Crediti di partenza per ogni giocatore.' },
-      { name: 'Giocatori per Rosa', desc: 'Quanti giocatori formano la squadra finale.' }
+      { name: 'Rounds', desc: 'Numero di lettere estratte prima di terminare.' }
     ],
     status: 'available'
   },
@@ -59,14 +58,6 @@ const catalogData = [
     title: 'Il Falsario',
     icon: '🤥',
     description: 'Scrivi una bugia credibile per completare la frase. Poi, vota la risposta che ritieni corretta. Attento a non farti ingannare dalle bugie degli altri!',
-    settings: [],
-    status: 'available'
-  },
-  {
-    id: 'collegamento',
-    title: 'Il Collegamento',
-    icon: '🔗',
-    description: 'Sulla TV vedrai i loghi di due squadre di club diverse. Il tuo compito sul telefono sarà trovare il nome di un giocatore che abbia giocato in entrambe queste squadre nella sua carriera.',
     settings: [],
     status: 'available'
   }

@@ -29,10 +29,8 @@ La piattaforma ospita attualmente un variegato ecosistema di giochi interattivi:
 - **La Carriera:** La TV svela gradualmente i loghi dei club in cui ha giocato un calciatore. Usa il telefono per indovinare il nome prima degli altri!
 - **Vero o Fake:** Vengono mostrate carte con statistiche assurde (es. *Cristiano Ronaldo ha iniziato la sua carriera giocando come portiere*). Hai pochi secondi per decidere se è vero o falso.
 - **Impostore:** Deduzione sociale in stile *Spyfall*. Tutti ricevono una parola segreta calcistica sul telefono, tranne l'Impostore. Discutete e scovatelo!
-- **Il Collegamento:** La TV mostra due club. Chi è il calciatore che ha giocato per entrambi? Scrivilo per primo.
-- **Fanta-Asta al buio:** Hai un budget. La TV mostra un campione all'asta. Usa il telefono per piazzare offerte segrete e costruirti la rosa perfetta.
-
 ### 🎲 Extra
+- **Nomi Cose Città:** Il classico gioco riadattato per la TV. Una lettera estratta, varie categorie, chi scrive le parole più originali e valide vince!
 - **Il Falsario:** Completa una curiosità inventando una bugia credibile per ingannare i tuoi amici (stile *Fibbage*). Più persone votano la tua bugia, più punti fai!
 - **Disegnatore Bendato:** Un giocatore deve disegnare una parola sul touch del proprio telefono. La TV riceve e disegna in tempo reale per far indovinare gli altri (stile *Skribbl.io*).
 

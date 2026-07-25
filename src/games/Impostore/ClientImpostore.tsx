@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumMobile from '../../components/shared/PodiumMobile';
+import RoundTracker from '../../components/shared/RoundTracker';
+import ProgressBar from '../../components/shared/ProgressBar';
+import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
 export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, setGameStatus } = useLobby(lobbyCode);
@@ -32,7 +35,8 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
 
   if (phase === 'results') {
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="impostore" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 5} isMobile />
         <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
           <h2 style={{ fontSize: '2.5rem', color: 'var(--color-primary)' }}>Guarda la TV!</h2>
           <p style={{ marginTop: '1rem', color: 'var(--color-text-muted)' }}>I risultati sono stati svelati.</p>
@@ -47,26 +51,29 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
             </button>
           )}
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 
   if (phase === 'voting') {
     if (myVote) {
       return (
-        <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <GameLayoutMobile themeKey="impostore" style={{ justifyContent: 'center', textAlign: 'center' }}>
+          <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 5} isMobile />
           <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
             <h2 style={{ color: 'var(--color-success)', fontSize: '2.5rem' }}>Voto inviato!</h2>
             <p className="animate-pulse" style={{ marginTop: '1rem', fontSize: '1.2rem' }}>
               In attesa degli altri giocatori...
             </p>
           </motion.div>
-        </div>
+        </GameLayoutMobile>
       );
     }
 
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center' }}>
+      <GameLayoutMobile themeKey="impostore" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
+        <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 5} isMobile />
+        <ProgressBar durationMs={30000} startTime={gameState.startTime} />
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
           <h2 style={{ textAlign: 'center', marginBottom: '1rem', color: 'var(--color-danger)' }}>Chi è l'impostore?</h2>
           <p style={{ textAlign: 'center', marginBottom: '2rem', color: 'var(--color-text-muted)' }}>Tocca il nome del giocatore che sospetti.</p>
@@ -85,23 +92,29 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
                     border: '1px solid rgba(255,255,255,0.2)',
                     display: 'flex',
                     alignItems: 'center',
-                    justifyContent: 'center'
+                    justifyContent: 'center',
+                    width: '100%',
+                    minWidth: 0
                   }}
                   onClick={() => handleVote(id)}
                 >
-                  {p.name}
+                  <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', width: '100%' }}>
+                    {p.name}
+                  </span>
                 </button>
               );
             })}
           </div>
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 
   if (phase === 'discussion') {
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="impostore" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 5} isMobile />
+        <ProgressBar durationMs={(gameState.settings?.duration || 60) * 1000} startTime={gameState.startTime} />
         <motion.div className="panel" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           <h2 style={{ fontSize: '2.5rem', color: 'var(--color-warning)' }}>Discussione in corso</h2>
           <p style={{ margin: '2rem 0', fontSize: '1.2rem' }}>
@@ -117,7 +130,7 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
             </button>
           )}
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 
@@ -126,7 +139,8 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
     const isImposter = myRole === 'imposter';
     
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center' }}>
+      <GameLayoutMobile themeKey="impostore" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
+        <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 5} isMobile />
         <motion.div 
           className="panel"
           initial={{ scale: 0.5, rotateY: 90 }}
@@ -166,7 +180,7 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
             </button>
           )}
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 

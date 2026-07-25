@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumMobile from '../../components/shared/PodiumMobile';
+import RoundTracker from '../../components/shared/RoundTracker';
+import ProgressBar from '../../components/shared/ProgressBar';
+import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
 export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, setGameStatus } = useLobby(lobbyCode);
@@ -10,7 +13,7 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
   const phase = gameState.phase || 'question';
   const isAdmin = Boolean(lobby?.players?.[userId]?.isAdmin);
 
-  const handleAnswer = (answer: 'vero' | 'fake') => {
+  const handleAnswer = (answer: 'vero' | 'falso') => {
     if (myAnswer || phase !== 'question') return; // Già risposto o non è il momento
     
     updateGameState({
@@ -30,16 +33,25 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
   }
 
   if (phase === 'reveal') {
+    const isCorrect = myAnswer === gameState.question?.answer;
+    
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
-        <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
-          <h2 style={{ fontSize: '3rem', color: myAnswer ? 'white' : 'var(--color-text-muted)' }}>
-            Hai risposto: <br/> 
-            <span style={{ color: myAnswer === 'vero' ? 'var(--color-success)' : myAnswer === 'fake' ? 'var(--color-danger)' : 'gray' }}>
-              {myAnswer ? myAnswer.toUpperCase() : 'NIENTE'}
-            </span>
+      <GameLayoutMobile themeKey="vero_o_fake" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.settings?.rounds || 10} isMobile />
+        <motion.div 
+          className="panel" 
+          initial={{ scale: 0.8 }} 
+          animate={{ scale: 1 }}
+          style={{ 
+            padding: '3rem 1.5rem', 
+            borderRadius: '2rem', 
+            boxShadow: isCorrect ? '0 0 40px rgba(16, 185, 129, 0.4)' : myAnswer ? '0 0 40px rgba(239, 68, 68, 0.4)' : 'none',
+            border: isCorrect ? '2px solid var(--color-success)' : myAnswer ? '2px solid var(--color-danger)' : '2px solid var(--color-warning)'
+          }}
+        >
+          <h2 style={{ fontSize: '3rem', fontWeight: 900, color: isCorrect ? 'var(--color-success)' : myAnswer ? 'var(--color-danger)' : 'var(--color-warning)' }}>
+            {isCorrect ? '✅ ESATTA!' : myAnswer ? '❌ SBAGLIATA!' : '⏳ TEMPO SCADUTO'}
           </h2>
-          <p style={{ marginTop: '2rem', fontSize: '1.2rem' }}>Guarda la TV per scoprire se è corretto!</p>
           
           {isAdmin && (
             <button 
@@ -51,12 +63,14 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
             </button>
           )}
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 
   return (
-    <div className="container-mobile" style={{ justifyContent: 'center' }}>
+    <GameLayoutMobile themeKey="vero_o_fake" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
+      <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.settings?.rounds || 10} isMobile />
+      <ProgressBar durationMs={(gameState.settings?.duration || 15) * 1000} startTime={gameState.startTime} />
       
       {!myAnswer ? (
         <motion.div 
@@ -64,20 +78,50 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
           animate={{ opacity: 1 }}
           style={{ display: 'flex', flexDirection: 'column', gap: '2rem', height: '100%', padding: '2rem 0' }}
         >
+          {gameState.question && (
+            <div style={{
+              background: 'rgba(255,255,255,0.1)',
+              padding: '1.5rem',
+              borderRadius: '1rem',
+              backdropFilter: 'blur(10px)',
+              border: '1px solid rgba(255,255,255,0.2)',
+              boxShadow: '0 4px 15px rgba(0,0,0,0.3)'
+            }}>
+              <h3 style={{ textAlign: 'center', color: 'white', fontSize: '1.5rem', fontStyle: 'italic', fontWeight: 600 }}>
+                "{gameState.question.text}"
+              </h3>
+            </div>
+          )}
           <button 
             className="btn btn-giant" 
-            style={{ flex: 1, backgroundColor: 'var(--color-success)', color: 'white', fontSize: '4rem', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}
+            style={{ 
+              flex: 1, 
+              backgroundColor: 'var(--color-success)', 
+              color: 'white', 
+              fontSize: '3.5rem', 
+              fontWeight: 900,
+              borderRadius: '2rem',
+              boxShadow: '0 10px 25px rgba(16, 185, 129, 0.5)'
+            }}
             onClick={() => handleAnswer('vero')}
           >
-            VERO
+            ✅ VERO
           </button>
           
           <button 
             className="btn btn-giant" 
-            style={{ flex: 1, backgroundColor: 'var(--color-danger)', color: 'white', fontSize: '4rem', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}
-            onClick={() => handleAnswer('fake')}
+            style={{ 
+              flex: 1, 
+              backgroundColor: 'var(--color-danger)', 
+              color: 'white', 
+              fontSize: '3.5rem', 
+              fontWeight: 900,
+              borderRadius: '2rem',
+              boxShadow: '0 10px 25px rgba(239, 68, 68, 0.5)'
+            }}
+            onClick={() => handleAnswer('falso')}
           >
-            FAKE
+            ❌ FALSO
           </button>
         </motion.div>
       ) : (
@@ -94,6 +138,6 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
         </motion.div>
       )}
       
-    </div>
+    </GameLayoutMobile>
   );
 }

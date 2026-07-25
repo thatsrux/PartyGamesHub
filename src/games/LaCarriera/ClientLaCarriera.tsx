@@ -5,6 +5,9 @@ import { db } from '../../firebase';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumMobile from '../../components/shared/PodiumMobile';
 import ProgressBar from '../../components/shared/ProgressBar';
+import RoundTracker from '../../components/shared/RoundTracker';
+import RoundLeaderboardMobile from '../../components/shared/RoundLeaderboardMobile';
+import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
 export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, setGameStatus } = useLobby(lobbyCode);
@@ -13,9 +16,11 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
   const [showSuggestions, setShowSuggestions] = useState(false);
   const [allPlayers, setAllPlayers] = useState<string[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   
   const gameState = lobby?.game_state || {};
-  const myAnswer = gameState.answers?.[userId];
+  const myAnswerData = gameState.answers?.[userId];
+  const myAnswer = typeof myAnswerData === 'object' ? myAnswerData?.value : myAnswerData;
   const phase = gameState.phase || 'question';
   const isAdmin = Boolean(lobby?.players?.[userId]?.isAdmin);
 
@@ -30,12 +35,30 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
     fetchDB();
   }, []);
 
-  // Pulisci l'input all'inizio di un nuovo round
+  // Pulisci l'input all'inizio di un nuovo round o quando la risposta viene rifiutata
   useEffect(() => {
     if (!myAnswer) {
       setGuess('');
     }
   }, [myAnswer, gameState.questionIndex]);
+
+  // Gestione feedback errore se l'Host rifiuta la risposta
+  useEffect(() => {
+    if (isSubmitting && !myAnswer && phase === 'question') {
+      // Host ha cancellato la risposta -> era errata
+      setIsSubmitting(false);
+      setError("❌ Sbagliato, riprova!");
+      setTimeout(() => setError(null), 3000);
+      if (navigator.vibrate) {
+        navigator.vibrate([200, 100, 200]);
+      }
+    } else if (isSubmitting && myAnswer && phase !== 'question') {
+      // Round finito, reset submit
+      setIsSubmitting(false);
+    }
+  }, [myAnswer, isSubmitting, phase]);
+
+  const [guessFeedback, setGuessFeedback] = useState<'correct' | 'wrong' | null>(null);
 
   // Rimuovi accenti e caratteri speciali per la ricerca
   const normalizeStr = (str: string) => {
@@ -46,22 +69,42 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
     ? allPlayers.filter(p => normalizeStr(p).includes(normalizeStr(guess)) && p !== guess)
     : [];
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (myAnswer || phase !== 'question' || !guess.trim()) return;
-    
-    const formattedGuess = guess.trim();
+  const currentCareer = gameState.selectedCareers?.[gameState.questionIndex];
+
+  const handleSubmit = (e?: React.FormEvent, directGuess?: string) => {
+    if (e) e.preventDefault();
+    const guessToSubmit = (directGuess || guess).trim();
+    if (myAnswer || phase !== 'question' || !guessToSubmit) return;
     
     // Validazione stringente: il nome DEVE essere nella lista
-    if (!allPlayers.includes(formattedGuess)) {
+    if (!allPlayers.includes(guessToSubmit)) {
       setError("⚠️ Seleziona un giocatore dalla tendina dei suggerimenti!");
       setTimeout(() => setError(null), 3000);
       return;
     }
 
-    updateGameState({
-      [`answers/${userId}`]: formattedGuess
-    });
+    const isCorrect = Boolean(currentCareer && guessToSubmit.toLowerCase() === currentCareer.name.toLowerCase());
+
+    if (isCorrect) {
+      setGuessFeedback('correct');
+      if (navigator.vibrate) navigator.vibrate([100, 50, 100]);
+      updateGameState({
+        [`answers/${userId}`]: {
+          value: guessToSubmit,
+          timeElapsed: Date.now() - (gameState.startTime || Date.now())
+        },
+        [`guessFeedback/${userId}`]: { status: 'correct', timestamp: Date.now() }
+      });
+    } else {
+      setGuessFeedback('wrong');
+      if (navigator.vibrate) navigator.vibrate([300]);
+      setGuess('');
+      setTimeout(() => setGuessFeedback(null), 800);
+      
+      updateGameState({
+        [`guessFeedback/${userId}`]: { status: 'wrong', timestamp: Date.now() }
+      });
+    }
   };
 
   if (phase === 'finished') {
@@ -76,25 +119,37 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
   }
 
   if (phase === 'reveal') {
-    const currentCareer = gameState.selectedCareers?.[gameState.questionIndex];
     const isCorrect = Boolean(myAnswer && currentCareer && myAnswer.toLowerCase().trim() === currentCareer.name.toLowerCase());
 
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="la_carriera" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.settings?.rounds || 10} isMobile />
         <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
-          <h2 style={{ fontSize: '2.5rem', color: isCorrect ? 'var(--color-success)' : '#ef4444' }}>
-            {isCorrect ? '✅ Esatto!' : '❌ Sbagliato!'}
-          </h2>
-          <p style={{ marginTop: '1rem', color: 'var(--color-text-muted)' }}>Hai risposto:</p>
-          <h3 style={{ fontSize: '2rem', margin: '0.5rem 0', color: 'var(--color-primary)' }}>
-            {myAnswer || 'Nessuna risposta'}
-          </h3>
-          
-          {!isCorrect && currentCareer && (
-            <div style={{ marginTop: '2rem' }}>
-              <p style={{ color: 'var(--color-text-muted)' }}>La risposta corretta era:</p>
-              <p style={{ color: 'var(--color-success)', fontSize: '1.8rem', fontWeight: 'bold' }}>{currentCareer.name}</p>
-            </div>
+          {!myAnswer ? (
+            <>
+              <h2 style={{ fontSize: '2.5rem', color: '#ef4444' }}>Tempo scaduto!</h2>
+              <div style={{ marginTop: '2rem' }}>
+                <p style={{ color: 'var(--color-text-muted)' }}>La risposta corretta era:</p>
+                <p style={{ color: 'var(--color-success)', fontSize: '1.8rem', fontWeight: 'bold' }}>{currentCareer?.name}</p>
+              </div>
+            </>
+          ) : (
+            <>
+              <h2 style={{ fontSize: '2.5rem', color: isCorrect ? 'var(--color-success)' : '#ef4444' }}>
+                {isCorrect ? '✅ Esatto!' : '❌ Sbagliato!'}
+              </h2>
+              <p style={{ marginTop: '1rem', color: 'var(--color-text-muted)' }}>Hai risposto:</p>
+              <h3 style={{ fontSize: '2rem', margin: '0.5rem 0', color: 'var(--color-primary)' }}>
+                {myAnswer}
+              </h3>
+              
+              {!isCorrect && currentCareer && (
+                <div style={{ marginTop: '2rem' }}>
+                  <p style={{ color: 'var(--color-text-muted)' }}>La risposta corretta era:</p>
+                  <p style={{ color: 'var(--color-success)', fontSize: '1.8rem', fontWeight: 'bold' }}>{currentCareer.name}</p>
+                </div>
+              )}
+            </>
           )}
           
           {isAdmin && (
@@ -103,20 +158,50 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
               style={{ marginTop: '3rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
               onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
             >
-              Prossimo Round (Admin)
+              Vedi Classifica (Admin)
             </button>
           )}
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 
-  if (myAnswer) {
+  if (phase === 'results') {
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="la_carriera" style={{ justifyContent: 'center' }}>
+        <RoundLeaderboardMobile 
+          players={lobby?.players} 
+          points={Object.fromEntries(Object.entries(lobby?.players || {}).map(([id, p]: any) => [id, p.score || 0]))} 
+          roundPoints={gameState.roundPoints || {}} 
+          roundName={`Round ${(gameState.questionIndex || 0) + 1}`}
+        />
+        
+        {isAdmin && (
+          <button 
+            className="btn btn-primary" 
+            style={{ marginTop: '2rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
+            onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
+          >
+            Prossimo Round (Admin)
+          </button>
+        )}
+      </GameLayoutMobile>
+    );
+  }
+
+  const isMyAnswerCorrect = Boolean(myAnswer && currentCareer && myAnswer.toLowerCase().trim() === currentCareer.name.toLowerCase());
+
+  if (myAnswer && isMyAnswerCorrect) {
+    return (
+      <GameLayoutMobile themeKey="la_carriera" style={{ justifyContent: 'center', textAlign: 'center', padding: '1rem' }}>
         <motion.div className="panel" initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }}>
-          <h2 style={{ color: 'var(--color-success)', fontSize: '2.5rem' }}>Risposta inviata!</h2>
-          <p style={{ marginTop: '1rem', color: 'var(--color-text-muted)' }}>Hai scritto: <strong>{myAnswer}</strong></p>
+          <h2 style={{ color: 'var(--color-success)', fontSize: '2.5rem' }}>
+            ✅ Esatto!
+          </h2>
+          <p style={{ marginTop: '1rem', color: 'var(--color-text-muted)' }}>Hai risposto:</p>
+          <h3 style={{ fontSize: '2rem', margin: '0.5rem 0', color: 'var(--color-primary)' }}>
+            {myAnswer}
+          </h3>
           <div className="animate-pulse" style={{ marginTop: '3rem', fontSize: '1.2rem', marginBottom: '2rem' }}>
             In attesa degli altri giocatori...
           </div>
@@ -127,12 +212,14 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
             startTime={gameState.startTime} 
           />
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 
   return (
-    <div className="container-mobile" style={{ justifyContent: 'center' }}>
+    <GameLayoutMobile themeKey="la_carriera" style={{ padding: '4rem 1rem 1rem 1rem' }}>
+      <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.settings?.rounds || 10} isMobile />
+      
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
         <h2 style={{ textAlign: 'center', marginBottom: '0.5rem', color: 'var(--color-primary)' }}>Chi è il giocatore?</h2>
         {gameState.settings?.rounds && (
@@ -141,13 +228,24 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
           </div>
         )}
         
-        <form onSubmit={handleSubmit} className="panel">
+        <motion.form 
+          onSubmit={handleSubmit} 
+          className="panel"
+          animate={
+            guessFeedback === 'wrong' 
+              ? { x: [-10, 10, -10, 10, 0], backgroundColor: 'rgba(239, 68, 68, 0.2)', borderColor: 'rgba(239, 68, 68, 0.5)' } 
+              : guessFeedback === 'correct' 
+              ? { backgroundColor: 'rgba(16, 185, 129, 0.2)', borderColor: 'rgba(16, 185, 129, 0.5)' } 
+              : { backgroundColor: 'rgba(255,255,255,0.05)', borderColor: 'rgba(255,255,255,0.1)' }
+          }
+          transition={{ duration: 0.4 }}
+        >
           <p style={{ textAlign: 'center', marginBottom: '1.5rem', color: 'var(--color-text-muted)' }}>
             Guarda i loghi sulla TV e digita il nome esatto.
           </p>
           
           {error && (
-            <motion.div initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} style={{ color: 'var(--color-danger)', marginBottom: '1rem', fontWeight: 'bold', textAlign: 'center' }}>
+            <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} style={{ color: 'var(--color-danger)', marginBottom: '1rem', fontWeight: 'bold', textAlign: 'center', fontSize: '1.5rem', background: 'rgba(239, 68, 68, 0.1)', padding: '0.5rem', borderRadius: '1rem' }}>
               {error}
             </motion.div>
           )}
@@ -223,10 +321,7 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
                     onClick={() => {
                       setGuess(s);
                       setShowSuggestions(false);
-                      // Auto-submit the answer for maximum speed!
-                      updateGameState({
-                        [`answers/${userId}`]: s
-                      });
+                      handleSubmit(undefined, s);
                     }}
                   >
                     <span>{s}</span>
@@ -242,8 +337,8 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
             durationMs={(gameState.settings?.duration || 30) * 1000} 
             startTime={gameState.startTime} 
           />
-        </form>
+        </motion.form>
       </motion.div>
-    </div>
+    </GameLayoutMobile>
   );
 }
