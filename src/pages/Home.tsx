@@ -1,13 +1,40 @@
 import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Gamepad2, User } from 'lucide-react';
 import { useProfile } from '../hooks/useProfile';
 import Avatar from '../components/shared/Avatar';
 import Background from '../components/shared/Background';
+import { db } from '../firebase';
+import { ref, remove } from 'firebase/database';
 
 export default function Home() {
   const navigate = useNavigate();
   const { profile } = useProfile();
+
+  useEffect(() => {
+    // Se atterriamo in Home, vuol dire che siamo usciti da qualsiasi lobby
+    const code = sessionStorage.getItem('lobbyCode');
+    const userId = sessionStorage.getItem('userId');
+    const hostCode = sessionStorage.getItem('hostLobbyCode');
+    
+    if (code && userId) {
+      // Rimuoviamo il giocatore dalla lobby
+      const playerRef = ref(db, `lobbies/${code}/players/${userId}`);
+      remove(playerRef).catch(() => {});
+    }
+
+    if (hostCode) {
+      // Se era l'admin, spegniamo la TV
+      const tvRef = ref(db, `lobbies/${hostCode}/tv_present`);
+      remove(tvRef).catch(() => {});
+    }
+
+    // Puliamo lo storage
+    sessionStorage.removeItem('lobbyCode');
+    sessionStorage.removeItem('hostLobbyCode');
+    sessionStorage.setItem('isJoined', 'false');
+  }, []);
 
   return (
     <Background theme="default">

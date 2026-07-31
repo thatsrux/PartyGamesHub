@@ -157,7 +157,13 @@ export default function Profile() {
               } else if (view === 'catalog') {
                 setView('profile');
               } else {
-                navigate('/');
+                if (sessionStorage.getItem('isJoined') === 'true') {
+                  navigate('/join');
+                } else if (sessionStorage.getItem('hostLobbyCode')) {
+                  navigate('/host');
+                } else {
+                  navigate('/');
+                }
               }
             }}
           >
