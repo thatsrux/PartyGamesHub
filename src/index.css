@@ -160,6 +160,8 @@ h1 {
   margin: 0 auto;
   padding: max(2rem, env(safe-area-inset-top, 2rem)) max(2rem, env(safe-area-inset-right, 2rem)) max(2rem, env(safe-area-inset-bottom, 2rem)) max(2rem, env(safe-area-inset-left, 2rem));
   width: 100%;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
 }
 
 .container-mobile {
@@ -171,6 +173,8 @@ h1 {
   flex-direction: column;
   flex: 1;
   min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
 }
 
 /* Glassmorphism Panels */

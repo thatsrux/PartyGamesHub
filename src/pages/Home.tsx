@@ -38,7 +38,8 @@ export default function Home() {
 
   return (
     <Background theme="default">
-      <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1 }}>
+      <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1 }}>
+        <div style={{ margin: 'auto 0', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
         <motion.div 
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -144,6 +145,7 @@ export default function Home() {
             </button>
           </div>
         </motion.div>
+        </div>
       </div>
     </Background>
   );

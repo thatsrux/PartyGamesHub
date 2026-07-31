@@ -135,7 +135,7 @@ export default function Profile() {
           onCancel={() => setImageToCrop(null)} 
         />
       )}
-      <div style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '2rem 1rem', overflowY: 'auto' }}>
+      <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100%', flex: 1 }}>
         <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem', marginTop: '2rem', maxWidth: view === 'profile' ? '600px' : '1200px', margin: '2rem auto 3rem auto', width: '100%' }}>
           <h2 style={{ 
             fontSize: '2.5rem', 
