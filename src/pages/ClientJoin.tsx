@@ -12,6 +12,7 @@ import ClientDisegnatore from '../games/Disegnatore/ClientDisegnatore';
 import ClientMultigame from '../games/Multigame/ClientMultigame';
 import ExitButton from '../components/shared/ExitButton';
 import AdminTerminateButton from '../components/shared/AdminTerminateButton';
+import PhotoCropper from '../components/shared/PhotoCropper';
 import FloatingLobbyCode from '../components/shared/FloatingLobbyCode';
 import { useProfile } from '../hooks/useProfile';
 import Avatar from '../components/shared/Avatar';
@@ -50,29 +51,18 @@ export default function ClientJoin() {
   
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [tempPhoto, setTempPhoto] = useState<string | null>(null);
+  const [imageToCrop, setImageToCrop] = useState<string | null>(null);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
 
+    // Reset input value so same file can be selected again
+    e.target.value = '';
+
     const reader = new FileReader();
     reader.onload = (event) => {
-      const img = new Image();
-      img.onload = () => {
-        const canvas = document.createElement('canvas');
-        const MAX_SIZE = 150;
-        const size = Math.min(img.width, img.height);
-        const offsetX = (img.width - size) / 2;
-        const offsetY = (img.height - size) / 2;
-        canvas.width = MAX_SIZE;
-        canvas.height = MAX_SIZE;
-        const ctx = canvas.getContext('2d');
-        if (ctx) {
-          ctx.drawImage(img, offsetX, offsetY, size, size, 0, 0, MAX_SIZE, MAX_SIZE);
-          setTempPhoto(canvas.toDataURL('image/jpeg', 0.8));
-        }
-      };
-      img.src = event.target?.result as string;
+      setImageToCrop(event.target?.result as string);
     };
     reader.readAsDataURL(file);
   };
@@ -711,6 +701,16 @@ export default function ClientJoin() {
 
   return (
     <Background theme="default">
+      {imageToCrop && (
+        <PhotoCropper 
+          imageSrc={imageToCrop} 
+          onCropComplete={(croppedImage) => {
+            setTempPhoto(croppedImage);
+            setImageToCrop(null);
+          }} 
+          onCancel={() => setImageToCrop(null)} 
+        />
+      )}
       <div className="container-mobile" style={{ height: '100%', justifyContent: 'center' }}>
         <motion.div 
           initial={{ opacity: 0, y: 20 }}

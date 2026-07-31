@@ -26,8 +26,13 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
     e.preventDefault();
     if (phase !== 'write_lie' || myLie || !lieInput.trim()) return;
     
+    let submittedLie = lieInput.trim();
+    if (gameState.question?.truth && submittedLie.toLowerCase() === String(gameState.question.truth).toLowerCase()) {
+      submittedLie = gameState.question.truth;
+    }
+    
     updateGameState({
-      [`lies/${userId}`]: lieInput.trim()
+      [`lies/${userId}`]: submittedLie
     });
   };
 
@@ -125,7 +130,7 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
           
           <div style={{ flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '1rem', paddingBottom: '2rem' }}>
             {gameState.options?.map((opt: string, i: number) => {
-              const isMyLie = opt === myLie;
+              const isMyLie = opt === myLie && opt !== gameState.question?.truth;
               return (
                 <button 
                   key={i}

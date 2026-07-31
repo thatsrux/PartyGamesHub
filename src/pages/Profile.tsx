@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useProfile } from '../hooks/useProfile';
+import PhotoCropper from '../components/shared/PhotoCropper';
 import Avatar from '../components/shared/Avatar';
 import Background from '../components/shared/Background';
 import { gameThemes } from '../utils/theme';
@@ -31,6 +32,7 @@ export default function Profile() {
   
   const [name, setName] = useState('');
   const [photo, setPhoto] = useState<string | null>(null);
+  const [imageToCrop, setImageToCrop] = useState<string | null>(null);
   const [isSaving, setIsSaving] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -45,31 +47,12 @@ export default function Profile() {
     const file = e.target.files?.[0];
     if (!file) return;
 
+    // Reset input value so same file can be selected again
+    e.target.value = '';
+
     const reader = new FileReader();
     reader.onload = (event) => {
-      const img = new Image();
-      img.onload = () => {
-        // Ridimensiona immagine (150x150)
-        const canvas = document.createElement('canvas');
-        const MAX_SIZE = 150;
-        let width = img.width;
-        let height = img.height;
-
-        // Crop al centro (quadrato)
-        const size = Math.min(width, height);
-        const offsetX = (width - size) / 2;
-        const offsetY = (height - size) / 2;
-
-        canvas.width = MAX_SIZE;
-        canvas.height = MAX_SIZE;
-        const ctx = canvas.getContext('2d');
-        if (ctx) {
-          ctx.drawImage(img, offsetX, offsetY, size, size, 0, 0, MAX_SIZE, MAX_SIZE);
-          const base64 = canvas.toDataURL('image/jpeg', 0.8); // Qualità 80%
-          setPhoto(base64);
-        }
-      };
-      img.src = event.target?.result as string;
+      setImageToCrop(event.target?.result as string);
     };
     reader.readAsDataURL(file);
   };
@@ -112,6 +95,16 @@ export default function Profile() {
 
   return (
     <Background theme="default">
+      {imageToCrop && (
+        <PhotoCropper 
+          imageSrc={imageToCrop} 
+          onCropComplete={(croppedImage) => {
+            setPhoto(croppedImage);
+            setImageToCrop(null);
+          }} 
+          onCancel={() => setImageToCrop(null)} 
+        />
+      )}
       <div style={{ display: 'flex', flexDirection: 'column', height: '100%', padding: '2rem 1rem', overflowY: 'auto' }}>
         <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem', marginTop: '2rem', maxWidth: view === 'profile' ? '600px' : '1200px', margin: '2rem auto 3rem auto', width: '100%' }}>
           <h2 style={{ 

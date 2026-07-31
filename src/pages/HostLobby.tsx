@@ -20,6 +20,7 @@ function HostLobbyContent() {
   const [lobbyCode, setLobbyCode] = useState<string | null>(() => sessionStorage.getItem('hostLobbyCode'));
   const [inputCode, setInputCode] = useState('');
   const [isCreated, setIsCreated] = useState(() => !!sessionStorage.getItem('hostLobbyCode'));
+  const [hasBeenPopulated, setHasBeenPopulated] = useState(false);
   const [error, setError] = useState<string | null>(null);
   
   const { lobby, createLobby, setGameStatus, returnToLobbyOrNextGame, userId } = useLobby(lobbyCode);
@@ -64,6 +65,22 @@ function HostLobbyContent() {
       }
     }
   }, [lobby?.status, lobby?.players, setGameStatus, returnToLobbyOrNextGame]);
+
+  // Se la stanza è stata popolata e poi si svuota, crea automaticamente una nuova stanza
+  useEffect(() => {
+    if (lobby) {
+      const playerCount = lobby.players ? Object.keys(lobby.players).length : 0;
+      if (playerCount > 0 && !hasBeenPopulated) {
+        setHasBeenPopulated(true);
+      } else if (playerCount === 0 && hasBeenPopulated) {
+        setHasBeenPopulated(false);
+        const code = Math.random().toString(36).substring(2, 6).toUpperCase();
+        sessionStorage.setItem('hostLobbyCode', code);
+        setIsCreated(false);
+        setLobbyCode(code);
+      }
+    }
+  }, [lobby?.players, hasBeenPopulated, lobby]);
 
   if (!lobbyCode) {
     return (
