@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
+import { floodFill } from '../../utils/drawing';
 import { motion } from 'framer-motion';
 import { 
   Brush, 
@@ -9,7 +10,8 @@ import {
   Maximize, 
   Minimize,
   Trash2,
-  Palette
+  Palette,
+  PaintBucket
 } from 'lucide-react';
 import { ref as dbRef, update } from 'firebase/database';
 import { db } from '../../firebase';
@@ -42,7 +44,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
   const batchQueueRef = useRef<any[]>([]);
 
   // Advanced Tools State
-  const [activeTool, setActiveTool] = useState<'brush' | 'eraser' | 'line' | 'rect' | 'circle'>('brush');
+  const [activeTool, setActiveTool] = useState<'brush' | 'eraser' | 'line' | 'rect' | 'circle' | 'bucket'>('brush');
   const [activeColor, setActiveColor] = useState<string>('#000000');
   const [activeSize, setActiveSize] = useState<number>(6);
   const [shapeStart, setShapeStart] = useState<{x: number, y: number} | null>(null);
@@ -79,7 +81,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
         updates[`lobbies/${lobbyCode}/game_state/strokes/${Date.now()}`] = batch;
         update(dbRef(db), updates);
       }
-    }, 500); // Send every 500ms
+    }, 150); // Send every 150ms
 
     return () => clearInterval(interval);
   }, [isDrawer, phase, lobbyCode]);
@@ -105,6 +107,24 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
     const rect = canvas.getBoundingClientRect();
     const x = (e.clientX - rect.left) / rect.width;
     const y = (e.clientY - rect.top) / rect.height;
+
+    if (activeTool === 'bucket') {
+      const { mainCtx } = getContexts();
+      if (!mainCtx) return;
+      
+      const px = Math.floor(x * 1200);
+      const py = Math.floor(y * 900);
+      floodFill(mainCtx, px, py, activeColor);
+      
+      batchQueueRef.current.push({
+        tool: 'bucket',
+        color: activeColor,
+        x,
+        y,
+        timestamp: Date.now()
+      });
+      return;
+    }
 
     if (activeTool === 'brush' || activeTool === 'eraser') {
       batchQueueRef.current.push({ x, y, type: 'start', tool: activeTool, color: activeColor, size: activeSize });
@@ -378,6 +398,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
                 <div style={{ display: 'flex', gap: '0.3rem', background: 'rgba(0,0,0,0.4)', padding: '0.3rem', borderRadius: '0.8rem', flex: 1, justifyContent: 'space-between' }}>
                   {[
                     { id: 'brush', icon: <Brush size={20} /> },
+                    { id: 'bucket', icon: <PaintBucket size={20} /> },
                     { id: 'eraser', icon: <Eraser size={20} /> },
                     { id: 'line', icon: <Minus size={20} /> },
                     { id: 'rect', icon: <Square size={20} /> },

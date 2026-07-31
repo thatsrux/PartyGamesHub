@@ -7,15 +7,16 @@ interface GameLayoutMobileProps {
   themeKey?: GameThemeKey;
   className?: string;
   style?: React.CSSProperties;
+  customBackground?: string;
 }
 
-export default function GameLayoutMobile({ children, themeKey = 'default', className = '', style = {} }: GameLayoutMobileProps) {
+export default function GameLayoutMobile({ children, themeKey = 'default', className = '', style = {}, customBackground }: GameLayoutMobileProps) {
   const theme = gameThemes[themeKey];
 
   return (
     <div 
       style={{ 
-        background: theme.backgroundGradient, 
+        background: customBackground || theme.backgroundGradient, 
         minHeight: '100dvh',
         width: '100%',
         display: 'flex',

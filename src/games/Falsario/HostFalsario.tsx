@@ -8,6 +8,7 @@ import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import RoundTracker from '../../components/shared/RoundTracker';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 
+import { getCategoryColor } from '../../utils/categories';
 import falsarioQuestions from '../../data/falsario.json';
 import LoadingScreen from '../../components/shared/LoadingScreen';
 
@@ -22,10 +23,8 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
     if (lobby && !gameState.phase) {
       const allQ = falsarioQuestions as any[];
       // Filter by category if setting exists, else use all
-      const selectedCategory = gameState.settings?.falsarioCategory;
-      const filteredQ = selectedCategory && selectedCategory !== 'Tutte' 
-        ? allQ.filter(q => q.category === selectedCategory) 
-        : allQ;
+      const excludedCategories = gameState.settings?.excludedCategories || [];
+      const filteredQ = allQ.filter(q => !excludedCategories.includes(q.category));
       
       const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
       const sequence: number[] = [];
@@ -126,10 +125,8 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
       if (currentRound < totalRounds) {
         const sequence = gameState.sequence || [];
         const allQ = falsarioQuestions as any[];
-        const selectedCategory = gameState.settings?.falsarioCategory;
-        const filteredQ = selectedCategory && selectedCategory !== 'Tutte' 
-          ? allQ.filter(q => q.category === selectedCategory) 
-          : allQ;
+        const excludedCategories = gameState.settings?.excludedCategories || [];
+        const filteredQ = allQ.filter(q => !excludedCategories.includes(q.category));
         const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
         
         const nextQIndex = sequence[currentRound] !== undefined ? sequence[currentRound] : Math.floor(Math.random() * availableQ.length);
@@ -157,6 +154,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
   return (
     <GameLayoutTV 
       themeKey="falsario"
+      customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined}
       leaderboard={gameState.phase !== 'finished' ? <MiniLeaderboardTV players={players} animateUpdates={true} /> : undefined}
     >
       

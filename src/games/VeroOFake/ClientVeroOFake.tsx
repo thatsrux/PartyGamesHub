@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { getCategoryColor } from '../../utils/categories';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumMobile from '../../components/shared/PodiumMobile';
 import RoundTracker from '../../components/shared/RoundTracker';
@@ -36,7 +37,7 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
     const isCorrect = myAnswer === gameState.question?.answer;
     
     return (
-      <GameLayoutMobile themeKey="vero_o_fake" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="vero_o_fake" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', textAlign: 'center' }}>
         <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 10} isMobile />
         <motion.div 
           className="panel" 

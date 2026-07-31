@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { getCategoryColor } from '../../utils/categories';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumMobile from '../../components/shared/PodiumMobile';
 import RoundTracker from '../../components/shared/RoundTracker';
@@ -59,7 +60,7 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
     const isCorrect = myVote === gameState.question?.truth;
 
     return (
-      <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="falsario" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', textAlign: 'center' }}>
         <RoundTracker current={gameState.round || 1} total={gameState.totalRounds || gameState.settings?.rounds || 3} isMobile />
         <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
           <h2 style={{ fontSize: '2.5rem', color: isCorrect ? 'var(--color-success)' : 'var(--color-danger)' }}>
@@ -84,7 +85,7 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
   if (phase === 'vote') {
     if (myVote) {
       return (
-        <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <GameLayoutMobile themeKey="falsario" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', textAlign: 'center' }}>
           <RoundTracker current={gameState.round || 1} total={gameState.totalRounds || gameState.settings?.rounds || 3} isMobile />
           <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
             <h2 style={{ color: 'var(--color-success)', fontSize: '2.5rem' }}>Voto inviato!</h2>
@@ -160,7 +161,7 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
   if (phase === 'write_lie') {
     if (myLie) {
       return (
-        <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <GameLayoutMobile themeKey="falsario" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', textAlign: 'center' }}>
           <RoundTracker current={gameState.round || 1} total={gameState.totalRounds || gameState.settings?.rounds || 3} isMobile />
           <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
             <h2 style={{ color: 'var(--color-success)', fontSize: '2.5rem' }}>Bugia inviata!</h2>

@@ -4998,5 +4998,55 @@
     "category": "Cultura Pop e Gossip",
     "text": "Rihanna ha fondato l'acclamato marchio di cosmetici Fenty Beauty.",
     "answer": "vero"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "La prima pellicola a colori è stata girata negli anni 50.",
+    "answer": "falso"
+  },
+  {
+    "category": "Musica",
+    "text": "I Beatles si sono formati a Londra.",
+    "answer": "falso"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Cleopatra era di origini macedoni.",
+    "answer": "vero"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il suono viaggia più velocemente nell'acqua che nell'aria.",
+    "answer": "vero"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "Il primo videogioco della storia è stato Pong.",
+    "answer": "falso"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "Il ritratto di Monna Lisa è conservato al Louvre.",
+    "answer": "vero"
+  },
+  {
+    "category": "Geografia",
+    "text": "Il monte più alto del sistema solare si trova su Marte.",
+    "answer": "vero"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "La pizza margherita è stata inventata a Roma.",
+    "answer": "falso"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Kim Kardashian ha partecipato alle Olimpiadi.",
+    "answer": "falso"
+  },
+  {
+    "category": "Sport",
+    "text": "Nel calcio, una partita dura normalmente 90 minuti.",
+    "answer": "vero"
   }
 ]

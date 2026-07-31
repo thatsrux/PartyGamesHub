@@ -8,6 +8,7 @@ import RoundTracker from '../../components/shared/RoundTracker';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 
+import { getCategoryColor } from '../../utils/categories';
 import allQuestions from '../../data/vero_falso.json';
 import LoadingScreen from '../../components/shared/LoadingScreen';
 export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
@@ -19,10 +20,8 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
   useEffect(() => {
     if (lobby && !gameState.phase) {
       const allQ = allQuestions as any[];
-      const selectedCategory = gameState.settings?.veroCategory;
-      const filteredQ = selectedCategory && selectedCategory !== 'Tutte' 
-        ? allQ.filter(q => q.category === selectedCategory) 
-        : allQ;
+      const excludedCategories = gameState.settings?.excludedCategories || [];
+      const filteredQ = allQ.filter(q => !excludedCategories.includes(q.category));
       
       const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
       const totalRounds = Math.min(gameState.settings?.rounds || 10, availableQ.length);
@@ -75,10 +74,8 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
         const sequence = gameState.sequence || [];
         
         const allQ = allQuestions as any[];
-        const selectedCategory = gameState.settings?.veroCategory;
-        const filteredQ = selectedCategory && selectedCategory !== 'Tutte' 
-          ? allQ.filter(q => q.category === selectedCategory) 
-          : allQ;
+        const excludedCategories = gameState.settings?.excludedCategories || [];
+        const filteredQ = allQ.filter(q => !excludedCategories.includes(q.category));
         const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
 
         const nextQIndex = sequence[nextIndex] !== undefined ? sequence[nextIndex] : Math.floor(Math.random() * availableQ.length);
@@ -106,6 +103,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
   return (
     <GameLayoutTV 
       themeKey="vero_o_fake"
+      customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined}
       leaderboard={gameState.phase !== 'finished' ? <MiniLeaderboardTV players={players} animateUpdates={true} /> : undefined}
     >
       

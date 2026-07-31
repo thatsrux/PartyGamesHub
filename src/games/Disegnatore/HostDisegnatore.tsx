@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { floodFill } from '../../utils/drawing';
 import { motion } from 'framer-motion';
 
 import { useLobby } from '../../hooks/useLobby';
@@ -92,6 +93,8 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
           isDrawing = false;
           ctx.closePath();
         }
+      } else if (pt.tool === 'bucket') {
+        floodFill(ctx, Math.floor(pt.x * canvas.width), Math.floor(pt.y * canvas.height), pt.color);
       } else if (pt.type === 'shape') {
         const sx = pt.startX * canvas.width;
         const sy = pt.startY * canvas.height;

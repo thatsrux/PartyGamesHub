@@ -4998,5 +4998,55 @@
     "category": "Cultura Pop e Gossip",
     "text": "L'attore diventato il volto di 'Gossip Girl' come Dan Humphrey e poi dello stalker Joe Goldberg nella serie Netflix 'You' è...",
     "truth": "Penn Badgley"
+  },
+  {
+    "category": "Cinema e Serie TV",
+    "text": "Il regista della saga de 'Il Padrino' è...",
+    "truth": "Francis Ford Coppola"
+  },
+  {
+    "category": "Musica",
+    "text": "Il cantante che ha venduto più dischi nella storia è...",
+    "truth": "Michael Jackson (o i Beatles)"
+  },
+  {
+    "category": "Storia e Mitologia",
+    "text": "Il dio romano del mare si chiama...",
+    "truth": "Nettuno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "text": "Il gas più abbondante nell'atmosfera terrestre è...",
+    "truth": "Azoto"
+  },
+  {
+    "category": "Tecnologia e Videogiochi",
+    "text": "L'azienda che ha creato la console PlayStation è...",
+    "truth": "Sony"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "text": "L'autore dell'Odissea è...",
+    "truth": "Omero"
+  },
+  {
+    "category": "Geografia",
+    "text": "La capitale dell'Australia è...",
+    "truth": "Canberra"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "text": "L'ingrediente principale del guacamole è...",
+    "truth": "Avocado"
+  },
+  {
+    "category": "Cultura Pop e Gossip",
+    "text": "Il fondatore di Facebook si chiama...",
+    "truth": "Mark Zuckerberg"
+  },
+  {
+    "category": "Sport",
+    "text": "L'atleta che ha vinto più medaglie olimpiche è...",
+    "truth": "Michael Phelps"
   }
 ]

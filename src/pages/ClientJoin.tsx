@@ -22,6 +22,7 @@ import { gameThemes } from '../utils/theme';
 import type { GameThemeKey } from '../utils/theme';
 import Background from '../components/shared/Background';
 
+import { ALL_CATEGORIES, getCategoryColor, CATEGORY_COUNTS } from '../utils/categories';
 export default function ClientJoin() {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
@@ -535,6 +536,48 @@ export default function ClientJoin() {
                         </div>
                       )}
 
+                      
+                      {(settingsOpen === 'vero_o_fake' || settingsOpen === 'falsario') && (
+                        <div className="input-group" style={{ margin: 0 }}>
+                          <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>🗂️ Categorie (Seleziona per includere)</label>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                            {ALL_CATEGORIES.map((cat) => {
+                              const isSelected = tempSettings.excludedCategories ? !tempSettings.excludedCategories.includes(cat) : true;
+                              return (
+                                <button 
+                                  type="button"
+                                  key={cat} 
+                                  style={{ 
+                                    background: isSelected ? getCategoryColor(cat) : 'rgba(255,255,255,0.1)', 
+                                    color: isSelected ? '#fff' : 'rgba(255,255,255,0.5)',
+                                    padding: '0.8rem 1rem', 
+                                    borderRadius: '1.5rem', 
+                                    border: isSelected ? '2px solid white' : '1px solid rgba(255,255,255,0.1)',
+                                    cursor: 'pointer', 
+                                    fontWeight: 'bold',
+                                    fontSize: '0.9rem',
+                                    flex: '1 1 calc(50% - 0.5rem)',
+                                    transition: 'all 0.2s',
+                                    opacity: isSelected ? 1 : 0.6
+                                  }} 
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    let excluded = tempSettings.excludedCategories || [];
+                                    if (isSelected) {
+                                      excluded = [...excluded, cat];
+                                    } else {
+                                      excluded = excluded.filter((c: string) => c !== cat);
+                                    }
+                                    setTempSettings({ ...tempSettings, excludedCategories: excluded });
+                                  }}
+                                >
+                                  {cat} <span style={{ opacity: 0.7, fontSize: '0.8rem' }}>({CATEGORY_COUNTS[settingsOpen as 'vero_o_fake' | 'falsario']?.[cat] || 0})</span>
+                                </button>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      )}
                       {settingsOpen === 'impostore' && (
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                           <SettingsSlider 

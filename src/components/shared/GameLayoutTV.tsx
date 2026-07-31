@@ -8,9 +8,12 @@ interface GameLayoutTVProps {
   children: ReactNode;
   themeKey?: GameThemeKey;
   leaderboard?: ReactNode;
+  className?: string;
+  style?: React.CSSProperties;
+  customBackground?: string;
 }
 
-export default function GameLayoutTV({ children, themeKey = 'default', leaderboard }: GameLayoutTVProps) {
+export default function GameLayoutTV({ children, themeKey = 'default', leaderboard, className = '', style = {}, customBackground }: GameLayoutTVProps) {
   const theme = gameThemes[themeKey];
 
   return (
@@ -20,10 +23,11 @@ export default function GameLayoutTV({ children, themeKey = 'default', leaderboa
         flexDirection: 'column', 
         height: '100%', 
         width: '100%',
-        background: theme.backgroundGradient, 
+        background: customBackground || theme.backgroundGradient, 
         overflow: 'hidden',
-        position: 'relative'
-      }}>
+        position: 'relative',
+        ...style
+      }} className={className}>
         {/* Background Decorative Elements */}
         <motion.div 
           animate={{ rotate: 360 }} 
