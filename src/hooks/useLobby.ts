@@ -32,6 +32,7 @@ export function useLobby(lobbyCode: string | null) {
     signInAnonymously(auth)
       .then((userCredential) => {
         setUserId(userCredential.user.uid);
+        sessionStorage.setItem('userId', userCredential.user.uid);
       })
       .catch((err) => {
         console.error("Auth error:", err);
