@@ -255,15 +255,29 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
     const isWinner = gameState.correctGuessers?.[userId];
 
     return (
-      <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="disegnatore" style={{ justifyContent: 'center', textAlign: 'center' }}>
         <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 5} isMobile />
         <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
-          <h2 style={{ fontSize: '2.5rem', color: isWinner ? 'var(--color-success)' : 'white', marginBottom: '0.5rem' }}>
+          <h2 style={{ fontSize: '1.5rem', color: isWinner ? 'var(--color-success)' : 'var(--color-text-muted)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '2px' }}>
             {isWinner ? '✅ Hai indovinato!' : 'La parola era:'}
           </h2>
-          <p style={{ margin: '1rem 0', color: 'var(--color-primary)', fontSize: '2.5rem', fontWeight: 'bold', textTransform: 'uppercase' }}>
+          <div style={{ 
+            fontSize: '2.5rem', 
+            fontWeight: '900',
+            color: 'white', 
+            textTransform: 'uppercase',
+            background: 'linear-gradient(135deg, var(--color-primary), var(--color-secondary))',
+            padding: '1rem 2rem',
+            borderRadius: '1.5rem',
+            display: 'inline-block',
+            boxShadow: '0 10px 30px rgba(0,0,0,0.5), inset 0 2px 10px rgba(255,255,255,0.3)',
+            border: '2px solid rgba(255,255,255,0.2)',
+            letterSpacing: '2px',
+            marginTop: '1rem',
+            marginBottom: '1rem'
+          }}>
             {gameState.word}
-          </p>
+          </div>
           
           {isAdmin && (
             <button 
@@ -275,13 +289,13 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
             </button>
           )}
         </motion.div>
-      </div>
+      </GameLayoutMobile>
     );
   }
 
   if (phase === 'results') {
     return (
-      <div className="container-mobile" style={{ justifyContent: 'flex-start' }}>
+      <GameLayoutMobile themeKey="disegnatore" style={{ justifyContent: 'flex-start' }}>
         <RoundLeaderboardMobile 
           players={lobby?.players} 
           points={Object.fromEntries(Object.entries(lobby?.players || {}).map(([id, p]: any) => [id, p.score || 0]))} 
@@ -298,7 +312,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
             Prossimo Turno (Admin)
           </button>
         )}
-      </div>
+      </GameLayoutMobile>
     );
   }
 
