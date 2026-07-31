@@ -79,11 +79,11 @@ export default function ClientJoin() {
   }, [profile, isJoined]);
 
   // Subscribe to lobby to check if we are already in it (for auto-rejoin)
-  const { lobby, joinLobby, leaveLobby, updateGameState, userId, setGameStatus } = useLobby(code || null);
+  const { lobby, joinLobby, leaveLobby, updateGameState, userId, setGameStatus, isLoading: lobbyLoading } = useLobby(code || null);
 
   // Auto-rejoin / Kick logic if page is refreshed
   useEffect(() => {
-    if (userId) {
+    if (userId && !lobbyLoading) {
       if (lobby === null && isJoined) {
         // La lobby non esiste più
         setIsJoined(false);
@@ -766,7 +766,7 @@ export default function ClientJoin() {
       );
     }
 
-    if (!lobby) {
+    if (!lobby || lobbyLoading) {
       return <LoadingScreen message="Riconnessione alla stanza..." />;
     }
 

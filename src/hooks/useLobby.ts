@@ -26,6 +26,7 @@ export function useLobby(lobbyCode: string | null) {
   const [lobby, setLobby] = useState<LobbyState | null>(null);
   const [userId, setUserId] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
 
   // Authenticate anonymously
   useEffect(() => {
@@ -53,6 +54,7 @@ export function useLobby(lobbyCode: string | null) {
       } else {
         setLobby(null);
       }
+      setIsLoading(false);
     });
 
     return () => unsubscribe();
