@@ -214,6 +214,22 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
         {gameState.phase === 'vote' && (
           <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+              {gameState.question?.category && (
+                <div style={{
+                  display: 'inline-block',
+                  background: 'rgba(255,255,255,0.2)',
+                  padding: '0.5rem 1.5rem',
+                  borderRadius: '2rem',
+                  fontSize: '1.5rem',
+                  fontWeight: 'bold',
+                  textTransform: 'uppercase',
+                  letterSpacing: '2px',
+                  marginBottom: '1.5rem',
+                  boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
+                }}>
+                  {gameState.question.category}
+                </div>
+              )}
               <h2 style={{ fontSize: '2rem', color: 'var(--color-warning)', marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '3px' }}>
                 Qual è la verità?
               </h2>

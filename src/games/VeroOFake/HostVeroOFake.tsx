@@ -135,6 +135,22 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
         <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         {gameState.phase === 'question' && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+            {currentQ.category && (
+              <div style={{
+                display: 'inline-block',
+                background: 'rgba(255,255,255,0.2)',
+                padding: '0.5rem 1.5rem',
+                borderRadius: '2rem',
+                fontSize: '1.5rem',
+                fontWeight: 'bold',
+                textTransform: 'uppercase',
+                letterSpacing: '2px',
+                marginBottom: '1rem',
+                boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
+              }}>
+                {currentQ.category}
+              </div>
+            )}
             <h2 style={{ 
               fontSize: '3.5rem', 
               marginBottom: '2rem',
