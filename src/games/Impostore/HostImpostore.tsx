@@ -232,16 +232,16 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
       )}
       
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
-        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: 'clamp(3rem, 5vw, 4rem)', marginBottom: '2rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
+        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '4rem', marginBottom: '2rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
           L'Impostore 🕵️‍♂️
         </motion.h1>
 
-        <div className="panel" style={{ maxWidth: '1200px', width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '3rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '2rem' }}>
+        <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '3rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '2rem' }}>
         
         {gameState.phase === 'reveal_roles' && (
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ textAlign: 'center' }}>
-            <h2 style={{ fontSize: 'clamp(2rem, 3.5vw, 3rem)', marginBottom: '2rem', color: 'var(--color-primary)' }}>Guarda il tuo telefono!</h2>
-            <p style={{ color: 'var(--color-text-muted)', fontSize: 'clamp(1.2rem, 2vw, 1.8rem)', marginBottom: '3rem' }}>
+            <h2 style={{ fontSize: '3rem', marginBottom: '2rem', color: 'var(--color-primary)' }}>Guarda il tuo telefono!</h2>
+            <p style={{ color: 'var(--color-text-muted)', fontSize: '1.8rem', marginBottom: '3rem' }}>
               Tutti hanno ricevuto una parola segreta... tranne qualcuno.
             </p>
             <div style={{ marginTop: '2rem' }}>

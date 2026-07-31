@@ -9,6 +9,7 @@ import ClientNomiCoseCitta from '../games/NomiCoseCitta/ClientNomiCoseCitta';
 
 import ClientFalsario from '../games/Falsario/ClientFalsario';
 import ClientDisegnatore from '../games/Disegnatore/ClientDisegnatore';
+import ClientMultigame from '../games/Multigame/ClientMultigame';
 import ExitButton from '../components/shared/ExitButton';
 import AdminTerminateButton from '../components/shared/AdminTerminateButton';
 import FloatingLobbyCode from '../components/shared/FloatingLobbyCode';
@@ -30,6 +31,7 @@ export default function ClientJoin() {
   const [error, setError] = useState<string | null>(null);
 
   const defaultSettings: Record<string, any> = {
+    'multigame': { rounds: 5, duration: 30, selectedGames: ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'] },
     'vero_o_fake': { rounds: 10, duration: 15 },
     'la_carriera': { rounds: 10, duration: 30 },
     'impostore': { rounds: 5, duration: 60, impostoreCategory: 'Animali', impostorsCount: 1, impostorHint: false },
@@ -38,6 +40,7 @@ export default function ClientJoin() {
     'disegnatore': { rounds: 2, duration: 60 }
   };
   const [settingsOpen, setSettingsOpen] = useState<string | null>(null);
+  const [multigameSubgameMode, setMultigameSubgameMode] = useState<boolean>(false);
   const [tempSettings, setTempSettings] = useState<any>({});
   const [tempCategory, setTempCategory] = useState('');
   const [localSettings, setLocalSettings] = useState<any>({});
@@ -123,6 +126,9 @@ export default function ClientJoin() {
     if (lobby?.status === 'playing' && userId) {
       
       const renderGame = () => {
+        if (lobby.game_selected === 'multigame') {
+          return <ClientMultigame lobbyCode={code} userId={userId} />;
+        }
         if (lobby.game_selected === 'vero_o_fake') {
           return <ClientVeroOFake lobbyCode={code} userId={userId} />;
         }
@@ -148,8 +154,8 @@ export default function ClientJoin() {
       return (
         <>
           <ExitButton onExit={handleExit} />
-          <FloatingLobbyCode code={code} />
-          {myPlayer?.isAdmin && lobby.game_state?.phase !== 'finished' && (
+          <FloatingLobbyCode code={code} isClient />
+          {myPlayer?.isAdmin && lobby.game_state?.phase !== 'finished' && lobby.game_selected !== 'multigame' && (
             <AdminTerminateButton onTerminate={() => updateGameState({ phase: 'finished', action: 'terminate' })} />
           )}
           {renderGame()}
@@ -158,28 +164,48 @@ export default function ClientJoin() {
     }
 
     if (myPlayer?.isAdmin && lobby?.status === 'waiting') {
-      const openSettings = (game: string) => {
+      const openSettings = (game: string, isSubgame = false) => {
         const profSaved = profile?.gameSettings?.[game] || {};
-        const saved = localSettings[game] || {};
+        let saved;
+        
+        if (isSubgame) {
+          saved = localSettings.multigame?.subgames?.[game] || {};
+        } else {
+          saved = localSettings[game] || {};
+        }
+        
         const def = defaultSettings[game] || {};
         
         const rounds = saved.rounds || profSaved.rounds || def.rounds;
         const duration = saved.duration || profSaved.duration || def.duration;
         const categories = saved.categories || profSaved.categories || def.categories;
+        const selectedGames = saved.selectedGames || profSaved.selectedGames || def.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'];
         const impostoreCategory = saved.impostoreCategory || profSaved.impostoreCategory || def.impostoreCategory;
         const impostorsCount = saved.impostorsCount ?? profSaved.impostorsCount ?? def.impostorsCount;
         const impostorHint = saved.impostorHint ?? profSaved.impostorHint ?? def.impostorHint;
         
-        setTempSettings({ ...def, ...profSaved, ...saved, rounds, duration, categories, impostoreCategory, impostorsCount, impostorHint });
+        setTempSettings({ ...def, ...profSaved, ...saved, rounds, duration, categories, selectedGames, impostoreCategory, impostorsCount, impostorHint });
         setTempCategory('');
         setSettingsOpen(game);
+        setMultigameSubgameMode(isSubgame);
       };
 
       const saveSettings = () => {
         if (settingsOpen) {
-          const newSettings = { ...localSettings, [settingsOpen]: tempSettings };
-          setLocalSettings(newSettings);
-          setSettingsOpen(null);
+          if (multigameSubgameMode) {
+             const currentMultigame = localSettings.multigame || { subgames: {} };
+             const newMultigame = { 
+               ...currentMultigame, 
+               subgames: { ...(currentMultigame.subgames || {}), [settingsOpen]: tempSettings } 
+             };
+             setLocalSettings({ ...localSettings, multigame: newMultigame });
+             // After saving a subgame, go back to multigame settings
+             openSettings('multigame', false);
+          } else {
+             const newSettings = { ...localSettings, [settingsOpen]: tempSettings };
+             setLocalSettings(newSettings);
+             setSettingsOpen(null);
+          }
         }
       };
 
@@ -196,6 +222,30 @@ export default function ClientJoin() {
           // Firebase non accetta undefined, quindi filtriamo l'oggetto
           gameSet = JSON.parse(JSON.stringify(gameSet));
           
+          if (gameId === 'multigame') {
+            const subgamesOverrides = localSettings.multigame?.subgames || {};
+            const multigameSettings = (gameSet.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore']).reduce((acc: any, subGameId: string) => {
+               acc[subGameId] = {
+                  ...defaultSettings[subGameId],
+                  ...(profile?.gameSettings?.[subGameId] || {}),
+                  ...(subgamesOverrides[subGameId] || {})
+               };
+               return acc;
+            }, {});
+
+            setGameStatus('playing', 'multigame', {
+              multigame_session: {
+                playlist: gameSet.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'],
+                currentIndex: -1,
+                settings: JSON.parse(JSON.stringify(multigameSettings))
+              },
+              phase: 'transition'
+            }).catch((e: any) => {
+              alert('Errore in setGameStatus (multigame): ' + e.message);
+            });
+            return;
+          }
+          
           setGameStatus('playing', gameId, { settings: gameSet }).catch((e: any) => {
              alert('Errore in setGameStatus: ' + e.message);
           });
@@ -206,10 +256,10 @@ export default function ClientJoin() {
       return (
         <Background theme="default">
           <div style={{ flex: 1, overflowY: 'auto', width: '100%', display: 'flex', flexDirection: 'column' }}>
-            <div style={{ width: '100%', maxWidth: '1200px', margin: '0 auto', padding: '1rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
+            <div style={{ width: '100%', margin: '0 auto', padding: '1rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', marginTop: '4rem', zIndex: 10 }}>
                 <ExitButton onExit={handleExit} />
-                <FloatingLobbyCode code={code} />
+                <FloatingLobbyCode code={code} isClient />
               </div>
               
               {settingsOpen ? (
@@ -248,6 +298,7 @@ export default function ClientJoin() {
                       textShadow: `0 0 20px ${gameThemes[settingsOpen as GameThemeKey]?.primaryColor || '#fff'}80`
                     }}>
                       {[
+                        { id: 'multigame', title: 'Multigame 🔀' },
                         { id: 'vero_o_fake', title: 'Vero o Falso' },
                         { id: 'la_carriera', title: 'La Carriera' },
                         { id: 'impostore', title: 'Impostore' },
@@ -274,6 +325,111 @@ export default function ClientJoin() {
                         min={10} max={120} step={5}
                         onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
                       />
+
+                      {settingsOpen === 'multigame' && (
+                        <div className="input-group" style={{ margin: 0 }}>
+                          <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>
+                            🔀 Seleziona Giochi
+                          </label>
+                          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(145px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
+                            {[
+                              { id: 'vero_o_fake', title: 'Vero o Falso', icon: '🃏' },
+                              { id: 'la_carriera', title: 'La Carriera', icon: '⚽' },
+                              { id: 'impostore', title: 'Impostore', icon: '🕵️‍♂️' },
+                              { id: 'nomi_cose_citta', title: 'Nomi, Cose, Città', icon: '📝' },
+                              { id: 'falsario', title: 'Falsario', icon: '🤥' },
+                              { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' }
+                            ].map((g) => {
+                              const isSel = (tempSettings.selectedGames || []).includes(g.id);
+                              const theme = gameThemes[g.id as GameThemeKey] || gameThemes.default;
+                              return (
+                                <motion.div 
+                                  key={g.id} 
+                                  style={{ 
+                                    position: 'relative',
+                                    display: 'flex', 
+                                    flexDirection: 'column',
+                                    background: 'rgba(255,255,255,0.03)',
+                                    backdropFilter: 'blur(10px)',
+                                    border: isSel ? `2px solid ${theme.primaryColor}` : `1px solid rgba(255,255,255,0.1)`,
+                                    borderRadius: '1.2rem',
+                                    overflow: 'hidden',
+                                    boxShadow: isSel ? `0 10px 25px -5px ${theme.primaryColor}80` : '0 15px 30px -10px rgba(0,0,0,0.4)',
+                                    cursor: 'pointer'
+                                  }}
+                                  whileHover={{ scale: 1.02 }}
+                                  whileTap={{ scale: 0.98 }}
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    const current = tempSettings.selectedGames || [];
+                                    if (current.includes(g.id)) {
+                                      if (current.length > 1) {
+                                        setTempSettings({ ...tempSettings, selectedGames: current.filter((x: string) => x !== g.id) });
+                                      }
+                                    } else {
+                                      setTempSettings({ ...tempSettings, selectedGames: [...current, g.id] });
+                                    }
+                                  }}
+                                >
+                                  <div style={{
+                                    position: 'absolute',
+                                    inset: 0,
+                                    background: theme.backgroundGradient,
+                                    opacity: isSel ? 0.3 : 0.1,
+                                    zIndex: 0
+                                  }} />
+                                  
+                                  {isSel && (
+                                    <div style={{
+                                      position: 'absolute',
+                                      top: 0,
+                                      left: 0,
+                                      right: 0,
+                                      height: '4px',
+                                      background: theme.primaryColor,
+                                      boxShadow: `0 0 15px ${theme.primaryColor}`
+                                    }} />
+                                  )}
+
+                                  <div style={{ position: 'relative', zIndex: 1, padding: '1.2rem', display: 'flex', flexDirection: 'column', gap: '0.8rem', flex: 1, alignItems: 'center', textAlign: 'center' }}>
+                                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0.5rem', width: '100%' }}>
+                                      <span style={{ fontSize: '2.5rem', textShadow: '0 5px 15px rgba(0,0,0,0.3)', opacity: isSel ? 1 : 0.5, transition: 'opacity 0.2s ease' }}>
+                                        {g.icon}
+                                      </span>
+                                      <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                        <h3 style={{ margin: 0, fontSize: '1.1rem', fontWeight: 'bold', lineHeight: '1.2', color: isSel ? 'white' : 'rgba(255,255,255,0.6)', transition: 'color 0.2s ease' }}>{g.title}</h3>
+                                      </div>
+                                    </div>
+                                    
+                                    <div style={{ display: 'flex', gap: '0.4rem', width: '100%', marginTop: 'auto', opacity: isSel ? 1 : 0, transition: 'opacity 0.2s ease', pointerEvents: isSel ? 'auto' : 'none' }}>
+                                      <button 
+                                        className="btn btn-secondary" 
+                                        style={{ 
+                                          flex: 1,
+                                          padding: '0.6rem 0.8rem', 
+                                          borderRadius: '0.8rem',
+                                          background: 'rgba(255,255,255,0.1)',
+                                          border: '1px solid rgba(255,255,255,0.1)',
+                                          fontSize: '1rem',
+                                          display: 'flex',
+                                          alignItems: 'center',
+                                          justifyContent: 'center',
+                                          gap: '0.5rem'
+                                        }} 
+                                        onClick={(e) => { e.stopPropagation(); openSettings(g.id, true); }}
+                                      >
+                                        Impostazioni ⚙️
+                                      </button>
+                                    </div>
+                                  </div>
+                                </motion.div>
+                              );
+                            })}
+                          </div>
+                          
+
+                        </div>
+                      )}
 
                       {settingsOpen === 'nomi_cose_citta' && (
                         <div className="input-group" style={{ margin: 0 }}>
@@ -398,6 +554,7 @@ export default function ClientJoin() {
                   
                   <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(145px, 1fr))', gap: '1rem', width: '100%', margin: '0 auto' }}>
                     {[
+                      { id: 'multigame', title: 'Multigame', icon: '🔀' },
                       { id: 'vero_o_fake', title: 'Vero o Falso', icon: '🃏' },
                       { id: 'la_carriera', title: 'La Carriera', icon: '⚽' },
                       { id: 'impostore', title: 'Impostore', icon: '🕵️‍♂️' },
@@ -500,7 +657,7 @@ export default function ClientJoin() {
       <Background theme="default">
         <div className="container-mobile" style={{ height: '100%', justifyContent: 'center', textAlign: 'center' }}>
           <ExitButton onExit={handleExit} />
-          <FloatingLobbyCode code={code} />
+          <FloatingLobbyCode code={code} isClient />
           <motion.div 
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}

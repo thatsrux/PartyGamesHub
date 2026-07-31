@@ -7,7 +7,7 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
 export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
-  const { lobby, updateGameState, setGameStatus } = useLobby(lobbyCode);
+  const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
   const [showSecretWord, setShowSecretWord] = useState(false);
   
   const gameState = lobby?.game_state || {};
@@ -30,7 +30,7 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
         players={lobby?.players} 
         userId={userId} 
         isAdmin={isAdmin} 
-        onReturnToLobby={() => setGameStatus('waiting')} 
+        onReturnToLobby={() => returnToLobbyOrNextGame()} 
       />
     );
   }

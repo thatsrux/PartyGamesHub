@@ -16,7 +16,7 @@ export default function GameLayoutMobile({ children, themeKey = 'default', class
     <div 
       style={{ 
         background: theme.backgroundGradient, 
-        minHeight: '100vh',
+        minHeight: '100dvh',
         width: '100%',
         display: 'flex',
         flexDirection: 'column'

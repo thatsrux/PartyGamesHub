@@ -14,6 +14,7 @@ L'esperienza visiva è curata nei minimi dettagli con animazioni fluide tramite 
 
 ## 🆕 Ultime Novità
 
+- **Multigame:** Aggiunta la nuova modalità Multi-Game con tema cromatico dinamico multi-colore! Permette di selezionare ed includere in una singola sessione i diversi minigiochi del catalogo per una sfida variegata sia dall'Admin che nelle impostazioni profilo.
 - **La Carriera:** Database sfoltito a 604 giocatori selezionati. I club sono ora estratti direttamente dalle tabelle ufficiali di Wikipedia per evitare loghi/nomi "sporchi" di Wikidata (inclusi i ritorni nelle stesse squadre). Supporto migliorato per indovinare nomi con caratteri speciali (es. Ø, æ, ł, ecc.).
 - **Impostore:** Logica per il game over immediato ottimizzata, impedendo loop infiniti.
 
@@ -31,6 +32,9 @@ L'esperienza visiva è curata nei minimi dettagli con animazioni fluide tramite 
 ## 🕹️ Minigiochi Inclusi
 
 La piattaforma ospita attualmente un variegato ecosistema di giochi interattivi:
+
+### 🔀 Modalità Speciale
+- **Multigame:** Modalità multi-gioco personalizzabile per concatenare e ruotare più giochi del catalogo in un'unica partita.
 
 ### ⚽ Calcio
 - **La Carriera:** La TV svela gradualmente i loghi dei club in cui ha giocato un calciatore. Usa il telefono per indovinare il nome prima degli altri!

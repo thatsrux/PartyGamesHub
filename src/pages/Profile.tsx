@@ -20,6 +20,7 @@ export default function Profile() {
   const [tempCategory, setTempCategory] = useState('');
 
   const defaultGameSettings: Record<string, any> = {
+    'multigame': { rounds: 5, duration: 30, selectedGames: ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'] },
     'vero_o_fake': { rounds: 10, duration: 15 },
     'la_carriera': { rounds: 10, duration: 30 },
     'impostore': { rounds: 5, duration: 60, impostoreCategory: 'Animali', impostorsCount: 1, impostorHint: false },
@@ -93,8 +94,9 @@ export default function Profile() {
     const rounds = saved.rounds || def.rounds;
     const duration = saved.duration || def.duration;
     const categories = saved.categories || def.categories;
+    const selectedGames = saved.selectedGames || def.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'];
     
-    setTempSettings({ ...saved, ...def, rounds, duration, categories });
+    setTempSettings({ ...saved, ...def, rounds, duration, categories, selectedGames });
     setTempCategory('');
     setSettingsOpen(gameId);
     setView('settings');
@@ -321,7 +323,7 @@ export default function Profile() {
         )}
 
         {view === 'catalog' && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ flex: 1, paddingBottom: '2rem', display: 'flex', flexDirection: 'column', width: '100%', maxWidth: '1200px', margin: '0 auto' }}>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ flex: 1, paddingBottom: '2rem', display: 'flex', flexDirection: 'column', width: '100%', margin: '0 auto' }}>
             <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
               <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.1rem', marginBottom: '1rem' }}>Personalizza le impostazioni predefinite dei giochi per quando sarai tu l'Admin.</p>
               
@@ -349,6 +351,7 @@ export default function Profile() {
             
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(145px, 1fr))', gap: '1rem', width: '100%', margin: '0 auto' }}>
               {[
+                { id: 'multigame', title: 'Multigame', icon: '🔀' },
                 { id: 'vero_o_fake', title: 'Vero o Falso', icon: '🃏' },
                 { id: 'la_carriera', title: 'La Carriera', icon: '⚽' },
                 { id: 'impostore', title: 'Impostore', icon: '🕵️‍♂️' },
@@ -447,6 +450,7 @@ export default function Profile() {
                 textShadow: `0 0 20px ${gameThemes[settingsOpen as GameThemeKey]?.primaryColor || '#fff'}80`
               }}>
                 {[
+                  { id: 'multigame', title: 'Multigame 🔀' },
                   { id: 'vero_o_fake', title: 'Vero o Falso' },
                   { id: 'la_carriera', title: 'La Carriera' },
                   { id: 'impostore', title: 'Impostore' },
@@ -473,6 +477,61 @@ export default function Profile() {
                   min={10} max={120} step={5}
                   onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
                 />
+
+                {settingsOpen === 'multigame' && (
+                  <div className="input-group" style={{ margin: 0 }}>
+                    <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>
+                      🎮 Giochi del Multi-Game ({tempSettings.selectedGames?.length || 0})
+                    </label>
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '0.8rem' }}>
+                      {[
+                        { id: 'vero_o_fake', title: 'Vero o Falso', icon: '🃏' },
+                        { id: 'la_carriera', title: 'La Carriera', icon: '⚽' },
+                        { id: 'impostore', title: 'Impostore', icon: '🕵️‍♂️' },
+                        { id: 'nomi_cose_citta', title: 'Nomi, Cose', icon: '📝' },
+                        { id: 'falsario', title: 'Falsario', icon: '🤥' },
+                        { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' }
+                      ].map((g) => {
+                        const isSel = (tempSettings.selectedGames || []).includes(g.id);
+                        return (
+                          <button
+                            type="button"
+                            key={g.id}
+                            style={{
+                              background: isSel ? 'var(--color-primary)' : 'rgba(255,255,255,0.1)',
+                              color: 'white',
+                              padding: '0.8rem 0.5rem',
+                              borderRadius: '1.2rem',
+                              border: isSel ? '2px solid white' : '1px solid rgba(255,255,255,0.1)',
+                              cursor: 'pointer',
+                              fontWeight: 'bold',
+                              display: 'flex',
+                              alignItems: 'center',
+                              gap: '0.4rem',
+                              justifyContent: 'center',
+                              fontSize: '0.9rem',
+                              transition: 'all 0.2s ease'
+                            }}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              const current = tempSettings.selectedGames || [];
+                              if (current.includes(g.id)) {
+                                if (current.length > 1) {
+                                  setTempSettings({ ...tempSettings, selectedGames: current.filter((x: string) => x !== g.id) });
+                                }
+                              } else {
+                                setTempSettings({ ...tempSettings, selectedGames: [...current, g.id] });
+                              }
+                            }}
+                          >
+                            <span>{g.icon}</span>
+                            <span>{g.title}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
 
                 {settingsOpen === 'nomi_cose_citta' && (
                   <div className="input-group" style={{ margin: 0 }}>

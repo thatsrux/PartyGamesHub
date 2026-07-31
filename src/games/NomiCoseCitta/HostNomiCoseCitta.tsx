@@ -149,8 +149,8 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
 
       {gameState.phase === 'spin' && (
         <motion.div initial={{ scale: 0 }} animate={{ scale: 1 }}>
-          <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', marginBottom: '2rem' }}>Estrazione Lettera...</h1>
-          <div style={{ fontSize: 'clamp(8rem, 15vw, 15rem)', fontWeight: 'bold', color: 'var(--color-primary)', textShadow: '0 0 20px var(--color-primary)' }}>
+          <h1 style={{ fontSize: '4rem', marginBottom: '2rem' }}>Estrazione Lettera...</h1>
+          <div style={{ fontSize: '15rem', fontWeight: 'bold', color: 'var(--color-primary)', textShadow: '0 0 20px var(--color-primary)' }}>
             {displayedLetter}
           </div>
         </motion.div>
@@ -158,13 +158,13 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
 
       {gameState.phase === 'write' && (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ width: '100%' }}>
-          <div style={{ fontSize: 'clamp(4rem, 8vw, 8rem)', fontWeight: 'bold', color: 'var(--color-primary)', marginBottom: '2rem' }}>
+          <div style={{ fontSize: '8rem', fontWeight: 'bold', color: 'var(--color-primary)', marginBottom: '2rem' }}>
             Lettera {gameState.letter}
           </div>
           
           <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
             {CATEGORIES.map(cat => (
-              <div key={cat} style={{ background: 'rgba(255,255,255,0.1)', padding: '1rem 2rem', borderRadius: '1rem', fontSize: 'clamp(1.2rem, 2vw, 2rem)' }}>
+              <div key={cat} style={{ background: 'rgba(255,255,255,0.1)', padding: '1rem 2rem', borderRadius: '1rem', fontSize: '2rem' }}>
                 {cat}
               </div>
             ))}
@@ -193,10 +193,10 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
       )}
 
       {gameState.phase === 'validate' && (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ width: '100%', maxWidth: '1400px' }}>
-          <h1 style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', color: 'var(--color-primary)', marginBottom: '2rem' }}>L'Admin sta correggendo...</h1>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ width: '100%', }}>
+          <h1 style={{ fontSize: '4rem', color: 'var(--color-primary)', marginBottom: '2rem' }}>L'Admin sta correggendo...</h1>
           
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', maxHeight: '70vh', overflowY: 'auto', padding: '1rem' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem', maxHeight: '47.3rem', overflowY: 'auto', padding: '1rem' }}>
             {CATEGORIES.map(cat => {
                const submissions = Object.keys(players).map(pId => {
                  const rawWord = gameState.answers?.[pId]?.[cat];
@@ -226,15 +226,23 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
                                   border: `1px solid ${isValid ? 'var(--color-success)' : 'var(--color-danger)'}`,
                                 }}
                               >
-                                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', opacity: isValid ? 1 : 0.6 }}>
-                                   <Avatar photo={player?.photo} name={player?.name || 'Sconosciuto'} size={40} />
-                                   <span style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>{player?.name}</span>
+                                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', opacity: isValid ? 1 : 0.6, flex: 1, minWidth: 0, paddingRight: '1rem' }}>
+                                   <div style={{ flexShrink: 0 }}>
+                                     <Avatar photo={player?.photo} name={player?.name || 'Sconosciuto'} size={40} />
+                                   </div>
+                                   <span style={{ fontSize: '1.5rem', fontWeight: 'bold', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{player?.name}</span>
                                  </div>
                                  <span style={{ 
                                    fontSize: '1.8rem', 
                                    fontWeight: 'bold',
                                    color: isValid ? 'var(--color-success)' : 'var(--color-danger)',
-                                   textDecoration: isValid ? 'none' : 'line-through'
+                                   textDecoration: isValid ? 'none' : 'line-through',
+                                   flexShrink: 0,
+                                   maxWidth: '50%',
+                                   whiteSpace: 'nowrap',
+                                   overflow: 'hidden',
+                                   textOverflow: 'ellipsis',
+                                   textAlign: 'right'
                                  }}>
                                    {sub.word.toUpperCase()}
                                  </span>

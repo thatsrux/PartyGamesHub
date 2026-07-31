@@ -10,7 +10,7 @@ import RoundLeaderboardMobile from '../../components/shared/RoundLeaderboardMobi
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
 export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
-  const { lobby, updateGameState, setGameStatus } = useLobby(lobbyCode);
+  const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
   
   const [guess, setGuess] = useState('');
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -124,7 +124,7 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
         players={lobby?.players} 
         userId={userId} 
         isAdmin={isAdmin} 
-        onReturnToLobby={() => setGameStatus('waiting')} 
+        onReturnToLobby={() => returnToLobbyOrNextGame()} 
       />
     );
   }

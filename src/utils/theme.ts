@@ -5,7 +5,8 @@ export type GameThemeKey =
   | 'falsario' 
   | 'impostore' 
   | 'nomi_cose_citta' 
-  | 'vero_o_fake';
+  | 'vero_o_fake'
+  | 'multigame';
 
 export interface GameTheme {
   backgroundGradient: string;
@@ -56,5 +57,11 @@ export const gameThemes: Record<GameThemeKey, GameTheme> = {
     orb1Color: 'radial-gradient(circle, rgba(217,70,239,0.25) 0%, rgba(0,0,0,0) 70%)', 
     orb2Color: 'radial-gradient(circle, rgba(139,92,246,0.2) 0%, rgba(0,0,0,0) 70%)',  
     primaryColor: '#d946ef'
+  },
+  multigame: {
+    backgroundGradient: 'linear-gradient(135deg, #1e1b4b 0%, #4c1d95 25%, #831843 50%, #064e3b 75%, #0f172a 100%)',
+    orb1Color: 'radial-gradient(circle, rgba(236,72,153,0.3) 0%, rgba(59,130,246,0.25) 50%, rgba(0,0,0,0) 70%)', 
+    orb2Color: 'radial-gradient(circle, rgba(234,179,8,0.3) 0%, rgba(168,85,247,0.25) 50%, rgba(0,0,0,0) 70%)',  
+    primaryColor: '#f43f5e'
   }
 };

@@ -1,6 +1,14 @@
 import { motion } from 'framer-motion';
+import { createPortal } from 'react-dom';
+import { useEffect, useState } from 'react';
 
 export default function RoundTracker({ current, total, isMobile = false }: { current: number, total: number, isMobile?: boolean }) {
+  const [slot, setSlot] = useState<HTMLElement | null>(null);
+
+  useEffect(() => {
+    setSlot(document.getElementById('round-tracker-slot'));
+  }, []);
+
   if (isMobile) {
     return (
       <motion.div 
@@ -27,26 +35,36 @@ export default function RoundTracker({ current, total, isMobile = false }: { cur
   }
 
   // TV (Host) Layout
-  return (
+  const content = (
     <motion.div 
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       style={{ 
-        position: 'absolute', 
-        top: '2rem', 
-        right: '2rem', 
         fontSize: '1.5rem', 
         fontWeight: 'bold', 
         background: 'rgba(255,255,255,0.1)', 
-        padding: '0.8rem 1.5rem', 
-        borderRadius: '2rem', 
+        padding: '1.2rem 1.5rem', 
+        borderRadius: '1rem', 
         border: '1px solid rgba(255,255,255,0.2)',
-        zIndex: 100,
         backdropFilter: 'blur(5px)',
-        boxShadow: '0 4px 10px rgba(0,0,0,0.3)'
+        boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
+        textAlign: 'center',
+        width: '100%',
+        flexShrink: 0
       }}
     >
       Round {current} di {total}
     </motion.div>
+  );
+
+  if (slot) {
+    return createPortal(content, slot);
+  }
+
+  // Fallback while waiting for slot or if no sidebar is present
+  return (
+    <div style={{ position: 'absolute', top: '2rem', right: '2rem', zIndex: 100 }}>
+      {content}
+    </div>
   );
 }

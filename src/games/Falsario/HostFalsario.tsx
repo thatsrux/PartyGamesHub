@@ -164,16 +164,32 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
       )}
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
-        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: 'clamp(3rem, 5vw, 4rem)', marginBottom: '2rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
+        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '4rem', marginBottom: '2rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
           Il Falsario 🤥
         </motion.h1>
 
-        <div className="panel" style={{ maxWidth: '1200px', width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+        <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         
         {gameState.phase === 'write_lie' && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-            <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2.5rem)', marginBottom: '1rem', color: 'var(--color-primary)' }}>Completa la frase con una bugia credibile:</h2>
-            <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', margin: '2rem 0' }}>"{gameState.question?.text}"</h1>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '2rem', color: 'var(--color-text-muted)', marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '3px' }}>
+                Completa la frase con una bugia credibile
+              </h2>
+              <h1 style={{ 
+                fontSize: '3.5rem', 
+                fontWeight: '900',
+                color: 'white', 
+                background: 'rgba(255,255,255,0.1)',
+                padding: '2rem 4rem',
+                borderRadius: '1.5rem',
+                boxShadow: '0 10px 30px rgba(0,0,0,0.3)',
+                border: '2px solid rgba(255,255,255,0.15)',
+                margin: 0
+              }}>
+                "{gameState.question?.text}"
+              </h1>
+            </div>
             
             <ProgressBar durationMs={(gameState.settings?.duration || 60) * 1000} onComplete={handleGoToVote} />
 
@@ -197,9 +213,25 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
         )}
 
         {gameState.phase === 'vote' && (
-          <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}>
-            <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2.5rem)', marginBottom: '1rem', color: 'var(--color-warning)' }}>Qual è la verità?</h2>
-            <h1 style={{ fontSize: 'clamp(2rem, 4vw, 3rem)', margin: '1rem 0 3rem' }}>"{gameState.question?.text}"</h1>
+          <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+              <h2 style={{ fontSize: '2rem', color: 'var(--color-warning)', marginBottom: '1.5rem', textTransform: 'uppercase', letterSpacing: '3px' }}>
+                Qual è la verità?
+              </h2>
+              <h1 style={{ 
+                fontSize: '3.5rem', 
+                fontWeight: '900',
+                color: 'white', 
+                background: 'rgba(255,255,255,0.1)',
+                padding: '2rem 4rem',
+                borderRadius: '1.5rem',
+                boxShadow: '0 10px 30px rgba(0,0,0,0.3)',
+                border: '2px solid rgba(255,255,255,0.15)',
+                margin: 0
+              }}>
+                "{gameState.question?.text}"
+              </h1>
+            </div>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', justifyContent: 'center', marginBottom: '3rem' }}>
               {gameState.options?.map((opt: string, i: number) => (
@@ -207,7 +239,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
                   background: 'rgba(255,255,255,0.1)', 
                   padding: '1.5rem 3rem', 
                   borderRadius: '1rem',
-                  fontSize: 'clamp(1.2rem, 2vw, 2rem)',
+                  fontSize: '2rem',
                   border: '2px solid rgba(255,255,255,0.2)'
                 }}>
                   {opt}
@@ -229,8 +261,8 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
 
         {gameState.phase === 'reveal' && (
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ width: '100%', maxWidth: '900px', margin: '0 auto', textAlign: 'center' }}>
-            <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2.5rem)', color: 'var(--color-text-muted)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '2px' }}>La Verità era:</h2>
-            <h1 style={{ fontSize: 'clamp(2rem, 5vw, 4rem)', textTransform: 'uppercase', color: 'white', background: 'var(--color-success)', padding: '1.5rem 3rem', borderRadius: '24px', display: 'inline-block', boxShadow: '0 10px 30px rgba(16, 185, 129, 0.3)', marginBottom: '4rem', textAlign: 'center' }}>
+            <h2 style={{ fontSize: '2.5rem', color: 'var(--color-text-muted)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '2px' }}>La Verità era:</h2>
+            <h1 style={{ fontSize: '4rem', textTransform: 'uppercase', color: 'white', background: 'var(--color-success)', padding: '1.5rem 3rem', borderRadius: '24px', display: 'inline-block', boxShadow: '0 10px 30px rgba(16, 185, 129, 0.3)', marginBottom: '4rem', textAlign: 'center' }}>
               {gameState.question?.truth}
             </h1>
 

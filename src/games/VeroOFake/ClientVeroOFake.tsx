@@ -6,7 +6,7 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
 export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
-  const { lobby, updateGameState, setGameStatus } = useLobby(lobbyCode);
+  const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
   
   const gameState = lobby?.game_state || {};
   const myAnswer = gameState.answers?.[userId];
@@ -27,7 +27,7 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
         players={lobby?.players} 
         userId={userId} 
         isAdmin={isAdmin} 
-        onReturnToLobby={() => setGameStatus('waiting')} 
+        onReturnToLobby={() => returnToLobbyOrNextGame()} 
       />
     );
   }

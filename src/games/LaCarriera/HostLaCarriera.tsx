@@ -229,7 +229,7 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
       <motion.h1
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
-        style={{ fontSize: 'clamp(3rem, 5vw, 4rem)', marginBottom: '0.5rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}
+        style={{ fontSize: '4rem', marginBottom: '0.5rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}
       >
         La Carriera
       </motion.h1>
@@ -241,10 +241,10 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
         />
       )}
 
-        <div className="panel" style={{ maxWidth: '1200px', width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+        <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         {gameState.phase === 'question' && (
           <motion.div initial={{ opacity: 0, x: -50 }} animate={{ opacity: 1, x: 0 }}>
-            <h2 style={{ fontSize: 'clamp(1.5rem, 3vw, 2rem)', marginBottom: '1rem', color: 'var(--color-text-muted)' }}>Chi ha giocato in queste squadre?</h2>
+            <h2 style={{ fontSize: '2rem', marginBottom: '1rem', color: 'var(--color-text-muted)' }}>Chi ha giocato in queste squadre?</h2>
             
             <div style={{ 
               display: 'flex', 

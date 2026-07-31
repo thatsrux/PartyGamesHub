@@ -7,7 +7,7 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
 export default function ClientNomiCoseCitta({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
-  const { lobby, updateGameState, setGameStatus } = useLobby(lobbyCode);
+  const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
   
   const gameState = lobby?.game_state || {};
   const phase = gameState.phase;
@@ -218,7 +218,7 @@ export default function ClientNomiCoseCitta({ lobbyCode, userId }: { lobbyCode: 
           <button 
             className="btn btn-secondary" 
             style={{ marginTop: '3rem', padding: '1.5rem', width: '100%' }}
-            onClick={() => setGameStatus('waiting')}
+            onClick={() => returnToLobbyOrNextGame()}
           >
             Torna alla Lobby (Admin)
           </button>

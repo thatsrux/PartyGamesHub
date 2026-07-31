@@ -292,11 +292,11 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
       )}
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
-        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: 'clamp(2rem, 3.5vw, 2.5rem)', marginBottom: '0.5rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
+        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '2.5rem', marginBottom: '0.5rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
           Disegnatore 🎨
         </motion.h1>
 
-        <div className="panel" style={{ maxWidth: '1200px', width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+        <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         
         {gameState.phase === 'draw' && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1, minHeight: 0 }}>
@@ -361,16 +361,37 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
         )}
 
         {gameState.phase === 'reveal' && (
-          <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}>
-            <h2 style={{ fontSize: '3rem', marginBottom: '2rem', color: 'var(--color-warning)' }}>
-              La parola era: <span style={{ color: 'white', textTransform: 'uppercase' }}>{gameState.word}</span>
-            </h2>
+          <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <div style={{ textAlign: 'center', marginBottom: '4rem' }}>
+              <h2 style={{ fontSize: '2rem', color: 'var(--color-text-muted)', marginBottom: '1rem', textTransform: 'uppercase', letterSpacing: '3px' }}>
+                La parola era
+              </h2>
+              <div style={{ 
+                fontSize: '5rem', 
+                fontWeight: '900',
+                color: 'white', 
+                textTransform: 'uppercase',
+                background: 'linear-gradient(135deg, var(--color-primary), var(--color-secondary))',
+                padding: '1.5rem 5rem',
+                borderRadius: '2rem',
+                display: 'inline-block',
+                boxShadow: '0 10px 40px rgba(0,0,0,0.5), inset 0 2px 10px rgba(255,255,255,0.3)',
+                border: '2px solid rgba(255,255,255,0.2)',
+                letterSpacing: '2px'
+              }}>
+                {gameState.word}
+              </div>
+            </div>
 
             {Object.keys(gameState.correctGuessers || {}).length > 0 ? (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', margin: '2rem 0', flex: 1, minHeight: 0, overflowY: 'auto' }}>
-                <h3 style={{ color: 'var(--color-success)', fontSize: '2rem', marginBottom: '0.5rem' }}>
-                  Hanno indovinato 🎉
-                </h3>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', alignItems: 'center', margin: '2rem 0', flex: 1, minHeight: 0, overflowY: 'auto', width: '100%' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '1.5rem', width: '500px', maxWidth: '90%' }}>
+                  <div style={{ flex: 1, height: '2px', background: 'linear-gradient(90deg, transparent, rgba(16,185,129,0.5))' }} />
+                  <h3 style={{ color: 'var(--color-success)', fontSize: '2.5rem', fontWeight: 'bold', textShadow: '0 2px 10px rgba(16,185,129,0.3)', margin: 0 }}>
+                    Hanno indovinato 🎉
+                  </h3>
+                  <div style={{ flex: 1, height: '2px', background: 'linear-gradient(-90deg, transparent, rgba(16,185,129,0.5))' }} />
+                </div>
                 
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', width: '500px', maxWidth: '90%', paddingBottom: '1rem' }}>
                   {Object.keys(gameState.correctGuessers).map((guesserId, i) => (

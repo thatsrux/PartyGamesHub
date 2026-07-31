@@ -39,6 +39,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-text);
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -50,6 +51,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-height: 100dvh;
   width: 100%;
   padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
 }
@@ -169,6 +171,7 @@ h1 {
   display: flex;
   flex-direction: column;
   flex: 1;
+  min-height: 0;
 }
 
 /* Glassmorphism Panels */
@@ -190,4 +193,13 @@ h1 {
 
 .animate-pulse {
   animation: pulse 2s infinite;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }

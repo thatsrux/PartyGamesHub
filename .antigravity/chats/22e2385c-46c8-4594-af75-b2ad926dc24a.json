@@ -1,0 +1,33 @@
+{
+  "sessionId": "22e2385c-46c8-4594-af75-b2ad926dc24a",
+  "name": "PartyHub",
+  "createdAt": "2026-07-26T15:00:08.959Z",
+  "filename": "22e2385c-46c8-4594-af75-b2ad926dc24a.json",
+  "geminiStarted": true,
+  "messages": [
+    {
+      "id": "c39d6b8d-ef9c-4bd3-be2b-735462bedb3f",
+      "role": "user",
+      "content": "Metti un placeholder come gioco nella categoria dei giochi (anche nella sezione del profilo per modificarne le impostazioni). Il placeholder deve essere per una Modalitá chiamata \"Multigame\" che deve avere un suo tema (simile agli altri ma con colori diversi, magari più colori proprio perchè è MULTI). Aggiungilo per ora come se fosse un altro gioco in tutte le sezioni. Per ora cliccandoci ti fa scegliere quale dei giochi (presenti nella sezione del catalogo) vuoi utilizzare nella sessione Del Multi-Game",
+      "status": "pending",
+      "model": "gemini-2.5-flash",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-07-26T15:02:28.542+00:00",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "b7f182e0-0594-4f61-8b1f-d1497628e257",
+      "role": "agent",
+      "content": "(empty response)",
+      "status": "completed",
+      "model": "gemini-2.5-flash",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "c39d6b8d-ef9c-4bd3-be2b-735462bedb3f",
+      "created_at": "2026-07-26T15:04:25.737Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    }
+  ]
+}

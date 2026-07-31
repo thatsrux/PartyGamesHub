@@ -43,7 +43,7 @@ export default function RoundLeaderboardTV({
   const rankedPlayers = computeRanking(playersWithScore);
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ width: '100%', maxWidth: '1200px', display: 'flex', flexDirection: 'column', height: '100%' }}>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ width: '100%', display: 'flex', flexDirection: 'column', height: '100%' }}>
       <h1 style={{ fontSize: '4rem', color: 'white', marginBottom: '2rem', textAlign: 'left' }}>
         Risultati {roundName || 'Round'}
       </h1>

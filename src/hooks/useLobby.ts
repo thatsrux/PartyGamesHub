@@ -19,6 +19,7 @@ export interface LobbyState {
   tv_present?: boolean;
   players: Record<string, Player>;
   game_state?: any;
+  multigame_session?: any;
 }
 
 export function useLobby(lobbyCode: string | null) {
@@ -171,6 +172,7 @@ export function useLobby(lobbyCode: string | null) {
     // Pulisce o imposta lo stato del gioco
     if (status === 'waiting') {
       updates.game_state = null;
+      updates.multigame_session = null;
       
       // Resetta i punteggi di tutti i giocatori
       if (lobby?.players) {
@@ -179,6 +181,10 @@ export function useLobby(lobbyCode: string | null) {
         });
       }
     } else if (initialGameState) {
+      if (initialGameState.multigame_session) {
+        updates.multigame_session = initialGameState.multigame_session;
+        delete initialGameState.multigame_session;
+      }
       updates.game_state = initialGameState;
     }
     
@@ -190,6 +196,19 @@ export function useLobby(lobbyCode: string | null) {
     const playerRef = ref(db, `lobbies/${lobbyCode}/players/${playerId}`);
     const currentScore = lobby?.players?.[playerId]?.score || 0;
     await update(playerRef, { score: currentScore + scoreToAdd });
+  };
+
+  const returnToLobbyOrNextGame = async () => {
+    if (!lobbyCode || !lobby) return;
+    if (lobby.multigame_session || lobby.game_selected === 'multigame') {
+      const lobbyRef = ref(db, `lobbies/${lobbyCode}`);
+      await update(lobbyRef, {
+        game_selected: 'multigame',
+        game_state: { phase: 'transition', action: null }
+      });
+    } else {
+      await setGameStatus('waiting');
+    }
   };
 
   const leaveLobby = async () => {
@@ -208,6 +227,7 @@ export function useLobby(lobbyCode: string | null) {
     leaveLobby,
     updateGameState,
     setGameStatus,
-    updatePlayerScore
+    updatePlayerScore,
+    returnToLobbyOrNextGame
   };
 }

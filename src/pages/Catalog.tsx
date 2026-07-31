@@ -1,9 +1,10 @@
-import { motion } from 'framer-motion';
+import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { gameThemes } from '../utils/theme';
 import type { GameThemeKey } from '../utils/theme';
 import Background from '../components/shared/Background';
-import { ArrowLeft, Settings, Info } from 'lucide-react';
+import { ArrowLeft, Settings, Info, Check, Sparkles } from 'lucide-react';
 
 interface GameItem {
   id: GameThemeKey;
@@ -15,6 +16,16 @@ interface GameItem {
 }
 
 const catalogData: GameItem[] = [
+  {
+    id: 'multigame',
+    title: 'Multigame',
+    icon: '🔀',
+    description: 'Modalità di gioco multipla! Combina più minigiochi in una singola sessione. Scegli quali giochi della raccolta attivare per la sfidante playlist del Multi-Game.',
+    settings: [
+      { name: 'Playlist Giochi', desc: 'Seleziona quali giochi del catalogo far ruotare durante la Multi-Game.' }
+    ],
+    status: 'available'
+  },
   {
     id: 'vero_o_fake',
     title: 'Vero o Falso',
@@ -78,6 +89,22 @@ const catalogData: GameItem[] = [
 
 export default function Catalog() {
   const navigate = useNavigate();
+  const [selectedGames, setSelectedGames] = useState<string[]>([
+    'vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'
+  ]);
+  const [showMultiModal, setShowMultiModal] = useState(false);
+
+  const toggleGameSelection = (gameId: string) => {
+    if (selectedGames.includes(gameId)) {
+      if (selectedGames.length > 1) {
+        setSelectedGames(selectedGames.filter(id => id !== gameId));
+      }
+    } else {
+      setSelectedGames([...selectedGames, gameId]);
+    }
+  };
+
+  const playableGames = catalogData.filter(g => g.id !== 'multigame');
 
   return (
     <Background theme="default">
@@ -128,11 +155,12 @@ export default function Catalog() {
           gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))', 
           gap: '2.5rem', 
           width: '100%', 
-          maxWidth: '1400px', 
           paddingBottom: '4rem' 
         }}>
           {catalogData.map((game, index) => {
             const theme = gameThemes[game.id] || gameThemes.default;
+            const isMulti = game.id === 'multigame';
+
             return (
               <motion.div 
                 key={game.id}
@@ -144,22 +172,32 @@ export default function Catalog() {
                   overflow: 'hidden',
                   borderRadius: '2.5rem',
                   opacity: game.status === 'available' ? 1 : 0.7,
-                  background: 'rgba(255,255,255,0.03)',
+                  background: isMulti 
+                    ? 'linear-gradient(135deg, rgba(244,63,94,0.15) 0%, rgba(168,85,247,0.15) 50%, rgba(59,130,246,0.15) 100%)' 
+                    : 'rgba(255,255,255,0.03)',
                   backdropFilter: 'blur(20px)',
-                  border: `1px solid rgba(255,255,255,0.1)`,
+                  border: isMulti 
+                    ? '2px solid rgba(244,63,94,0.4)' 
+                    : `1px solid rgba(255,255,255,0.1)`,
                   display: 'flex',
                   flexDirection: 'column',
-                  boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
-                  transform: 'translateZ(0)' // Force GPU acceleration for smooth hover
+                  boxShadow: isMulti 
+                    ? '0 25px 50px -12px rgba(244, 63, 94, 0.3)' 
+                    : '0 25px 50px -12px rgba(0, 0, 0, 0.5)',
+                  transform: 'translateZ(0)',
+                  cursor: isMulti ? 'pointer' : 'default'
                 }}
                 whileHover={game.status === 'available' ? { scale: 1.02, translateY: -5 } : {}}
+                onClick={() => {
+                  if (isMulti) setShowMultiModal(true);
+                }}
               >
                 {/* Theme Background Gradient (Subtle) */}
                 <div style={{
                   position: 'absolute',
                   inset: 0,
                   background: theme.backgroundGradient,
-                  opacity: 0.3,
+                  opacity: isMulti ? 0.4 : 0.3,
                   zIndex: -1
                 }} />
 
@@ -170,25 +208,29 @@ export default function Catalog() {
                   left: 0,
                   right: 0,
                   height: '4px',
-                  background: theme.primaryColor,
+                  background: isMulti 
+                    ? 'linear-gradient(90deg, #f43f5e, #a855f7, #3b82f6, #10b981)' 
+                    : theme.primaryColor,
                   boxShadow: `0 0 20px ${theme.primaryColor}`
                 }} />
 
-                {game.status === 'coming_soon' && (
+                {isMulti && (
                   <div style={{
                     position: 'absolute',
-                    top: '2rem',
-                    right: '-3rem',
-                    background: 'rgba(0,0,0,0.8)',
+                    top: '1.5rem',
+                    right: '1.5rem',
+                    background: 'linear-gradient(135deg, #f43f5e, #a855f7)',
                     color: 'white',
-                    padding: '0.5rem 4rem',
-                    transform: 'rotate(45deg)',
+                    padding: '0.4rem 1rem',
+                    borderRadius: '1rem',
                     fontWeight: 'bold',
-                    fontSize: '0.9rem',
-                    boxShadow: '0 5px 15px rgba(0,0,0,0.5)',
-                    border: '1px solid rgba(255,255,255,0.1)'
+                    fontSize: '0.85rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '0.4rem',
+                    boxShadow: '0 4px 15px rgba(244,63,94,0.4)'
                   }}>
-                    IN ARRIVO
+                    <Sparkles size={14} /> MULTI-MODE
                   </div>
                 )}
                 
@@ -220,7 +262,7 @@ export default function Catalog() {
                   <div style={{ background: 'rgba(0,0,0,0.4)', padding: '2rem', borderRadius: '1.5rem', border: '1px solid rgba(255,255,255,0.05)' }}>
                     <h3 style={{ color: theme.primaryColor, marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.8rem', fontSize: '1.2rem', fontWeight: 'bold' }}>
                       <Settings size={20} />
-                      Impostazioni Host
+                      {isMulti ? 'Clicca per scegliere i giochi della Multi-Game' : 'Impostazioni Host'}
                     </h3>
                     {game.settings.length > 0 ? (
                       <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '1.2rem', padding: 0, margin: 0 }}>
@@ -244,6 +286,147 @@ export default function Catalog() {
           })}
         </div>
       </div>
+
+      {/* Multigame Selection Modal */}
+      <AnimatePresence>
+        {showMultiModal && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            style={{
+              position: 'fixed',
+              inset: 0,
+              background: 'rgba(0,0,0,0.8)',
+              backdropFilter: 'blur(15px)',
+              zIndex: 1000,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              padding: '1.5rem'
+            }}
+            onClick={() => setShowMultiModal(false)}
+          >
+            <motion.div
+              initial={{ scale: 0.9, y: 20 }}
+              animate={{ scale: 1, y: 0 }}
+              exit={{ scale: 0.9, y: 20 }}
+              style={{
+                width: '100%',
+                maxWidth: '650px',
+                background: 'linear-gradient(135deg, #1e1b4b 0%, #31103f 50%, #0f172a 100%)',
+                border: '2px solid rgba(244, 63, 94, 0.4)',
+                borderRadius: '2.5rem',
+                padding: '2.5rem',
+                boxShadow: '0 25px 50px -12px rgba(244, 63, 94, 0.4)',
+                position: 'relative',
+                maxHeight: '90vh',
+                overflowY: 'auto'
+              }}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+                <div style={{ fontSize: '3.5rem', marginBottom: '0.5rem' }}>🔀</div>
+                <h2 style={{
+                  fontSize: '2.2rem',
+                  fontWeight: '900',
+                  margin: '0 0 0.5rem 0',
+                  background: 'linear-gradient(to right, #f43f5e, #a855f7, #3b82f6)',
+                  WebkitBackgroundClip: 'text',
+                  WebkitTextFillColor: 'transparent'
+                }}>
+                  Multi-Game
+                </h2>
+                <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.1rem', margin: 0 }}>
+                  Seleziona i giochi del catalogo che desideri includere nel Multi-Game:
+                </p>
+              </div>
+
+              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '1rem', marginBottom: '2rem' }}>
+                {playableGames.map((game) => {
+                  const isSelected = selectedGames.includes(game.id);
+                  const theme = gameThemes[game.id] || gameThemes.default;
+
+                  return (
+                    <motion.div
+                      key={game.id}
+                      whileHover={{ scale: 1.03 }}
+                      whileTap={{ scale: 0.97 }}
+                      style={{
+                        padding: '1.2rem 1.5rem',
+                        borderRadius: '1.5rem',
+                        background: isSelected 
+                          ? 'rgba(255,255,255,0.1)' 
+                          : 'rgba(0,0,0,0.3)',
+                        border: `2px solid ${isSelected ? theme.primaryColor : 'rgba(255,255,255,0.1)'}`,
+                        boxShadow: isSelected ? `0 0 20px ${theme.primaryColor}40` : 'none',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'space-between',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s ease'
+                      }}
+                      onClick={() => toggleGameSelection(game.id)}
+                    >
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                        <span style={{ fontSize: '2rem' }}>{game.icon}</span>
+                        <span style={{ color: 'white', fontWeight: 'bold', fontSize: '1.1rem' }}>{game.title}</span>
+                      </div>
+                      <div style={{
+                        width: '28px',
+                        height: '28px',
+                        borderRadius: '50%',
+                        background: isSelected ? theme.primaryColor : 'rgba(255,255,255,0.1)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        color: 'white',
+                        fontWeight: 'bold',
+                        transition: 'all 0.2s ease'
+                      }}>
+                        {isSelected && <Check size={18} />}
+                      </div>
+                    </motion.div>
+                  );
+                })}
+              </div>
+
+              <div style={{ display: 'flex', gap: '1rem', justifyContent: 'space-between' }}>
+                <button
+                  type="button"
+                  className="btn btn-secondary"
+                  style={{ flex: 1, padding: '1rem', borderRadius: '1.5rem', background: 'rgba(255,255,255,0.1)' }}
+                  onClick={() => {
+                    if (selectedGames.length === playableGames.length) {
+                      setSelectedGames([playableGames[0].id]);
+                    } else {
+                      setSelectedGames(playableGames.map(g => g.id));
+                    }
+                  }}
+                >
+                  {selectedGames.length === playableGames.length ? 'Deseleziona Tutti' : 'Seleziona Tutti'}
+                </button>
+                <button
+                  type="button"
+                  className="btn btn-primary"
+                  style={{
+                    flex: 1,
+                    padding: '1rem',
+                    borderRadius: '1.5rem',
+                    background: 'linear-gradient(135deg, #f43f5e, #a855f7)',
+                    fontWeight: 'bold',
+                    fontSize: '1.1rem'
+                  }}
+                  onClick={() => setShowMultiModal(false)}
+                >
+                  Conferma ({selectedGames.length} Giochi)
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </Background>
   );
 }
+

@@ -113,7 +113,8 @@ export default function MiniLeaderboardTV({ players, animateUpdates }: { players
       boxShadow: '0 10px 30px rgba(0,0,0,0.5)',
       display: 'flex',
       flexDirection: 'column',
-      height: '100%',
+      maxHeight: '100%',
+      flexShrink: 1,
       width: '100%'
     }}>
       <h3 style={{ margin: '0 0 1.5rem 0', fontSize: '1.8rem', color: 'var(--color-primary)', textAlign: 'center', textTransform: 'uppercase', letterSpacing: '2px' }}>Classifica</h3>

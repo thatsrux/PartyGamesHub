@@ -7,7 +7,7 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 
 export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
-  const { lobby, updateGameState, setGameStatus } = useLobby(lobbyCode);
+  const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
   
   const gameState = lobby?.game_state || {};
   const phase = gameState.phase;
@@ -44,7 +44,7 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
         players={lobby?.players} 
         userId={userId} 
         isAdmin={isAdmin} 
-        onReturnToLobby={() => setGameStatus('waiting')} 
+        onReturnToLobby={() => returnToLobbyOrNextGame()} 
       />
     );
   }
