@@ -144,8 +144,9 @@ export function useLobby(lobbyCode: string | null) {
     // Add player to lobby
     const playerRef = ref(db, `lobbies/${code}/players/${userId}`);
     
-    // If player disconnects, remove them from the room
-    onDisconnect(playerRef).remove().catch(console.error);
+    // Se il giocatore ricarica la pagina, NON lo rimuoviamo per permettere il reconnect pulito.
+    // Verrà rimosso solo se chiama esplicitamente leaveLobby o se il Garbage Collector elimina l'intera lobby.
+    // onDisconnect(playerRef).remove().catch(console.error);
 
     await set(playerRef, {
       name: playerName,
@@ -218,6 +219,7 @@ export function useLobby(lobbyCode: string | null) {
     onDisconnect(playerRef).cancel();
     sessionStorage.removeItem('lobbyCode');
     sessionStorage.removeItem('hostLobbyCode');
+    sessionStorage.setItem('isJoined', 'false');
   };
 
   return {

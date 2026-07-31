@@ -143,7 +143,7 @@ export default function ClientMultigame({ lobbyCode, userId }: { lobbyCode: stri
 
   return (
     <Background theme="multigame">
-      <motion.div layoutScroll className="container-mobile no-scrollbar" style={{ padding: '2rem 1.5rem', overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
+      <motion.div layoutScroll className="container-mobile no-scrollbar" style={{ overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

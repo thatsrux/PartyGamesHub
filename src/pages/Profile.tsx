@@ -2,6 +2,7 @@ import { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useProfile } from '../hooks/useProfile';
+import { useLobby } from '../hooks/useLobby';
 import PhotoCropper from '../components/shared/PhotoCropper';
 import Avatar from '../components/shared/Avatar';
 import Background from '../components/shared/Background';
@@ -11,7 +12,9 @@ import SettingsSlider from '../components/shared/SettingsSlider';
 
 export default function Profile() {
   const navigate = useNavigate();
-  const { profile, saveProfile, saveGameSettings, resetAllGameSettings, loading } = useProfile();
+  const { userId, profile, saveProfile, saveGameSettings, resetAllGameSettings, loading } = useProfile();
+  const activeLobbyCode = sessionStorage.getItem('lobbyCode') || sessionStorage.getItem('hostLobbyCode');
+  const { lobby } = useLobby(activeLobbyCode);
   
   const [view, setView] = useState<'profile' | 'catalog' | 'settings'>('profile');
   const [settingsOpen, setSettingsOpen] = useState<string | null>(null);
@@ -36,12 +39,38 @@ export default function Profile() {
   const [isSaving, setIsSaving] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
+  const initialized = useRef(false);
+
   useEffect(() => {
-    if (profile) {
-      if (profile.name) setName(profile.name);
-      if (profile.photo) setPhoto(profile.photo);
+    if (!initialized.current && !loading && userId) {
+      if (activeLobbyCode && lobby?.players && lobby.players[userId]) {
+        const lobbyPlayer = lobby.players[userId];
+        setName(lobbyPlayer.name || profile?.name || '');
+        setPhoto(lobbyPlayer.photo || profile?.photo || null);
+        initialized.current = true;
+      } else if (profile) {
+        if (profile.name) setName(profile.name);
+        if (profile.photo) setPhoto(profile.photo);
+        initialized.current = true;
+      }
     }
-  }, [profile]);
+  }, [profile, activeLobbyCode, lobby, userId, loading]);
+
+  useEffect(() => {
+    if (activeLobbyCode && lobby?.status === 'playing') {
+      const redirectUrl = sessionStorage.getItem('hostLobbyCode') ? '/host' : `/join?code=${activeLobbyCode}`;
+      
+      const doRedirect = () => {
+        window.location.href = redirectUrl;
+      };
+
+      if (name.trim()) {
+        saveProfile(name, photo || undefined).then(doRedirect).catch(doRedirect);
+      } else {
+        doRedirect();
+      }
+    }
+  }, [lobby?.status, activeLobbyCode, name, photo, saveProfile]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];

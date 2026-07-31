@@ -261,7 +261,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
 
   if (phase === 'results') {
     return (
-      <div className="container-mobile" style={{ justifyContent: 'flex-start', paddingTop: '2rem' }}>
+      <div className="container-mobile" style={{ justifyContent: 'flex-start' }}>
         <RoundLeaderboardMobile 
           players={lobby?.players} 
           points={Object.fromEntries(Object.entries(lobby?.players || {}).map(([id, p]: any) => [id, p.score || 0]))} 

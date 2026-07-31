@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <Background theme="default">
-      <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1, padding: '2rem' }}>
+      <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', flex: 1 }}>
         <motion.div 
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -75,7 +75,7 @@ export default function Home() {
           <button 
             className="btn btn-secondary btn-giant" 
             style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', fontSize: '1.4rem', padding: '1.5rem', background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.1)' }}
-            onClick={() => navigate('/join')}
+            onClick={() => navigate('/join', { state: { fromHome: true } })}
           >
             <span style={{ fontSize: '1.8rem' }}>📱</span>
             Partecipa

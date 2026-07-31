@@ -170,7 +170,7 @@ function HostLobbyContent() {
 
   if (!lobby) {
     return (
-      <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100vh', padding: '2rem', justifyContent: 'center', alignItems: 'center' }}>
+      <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
         <h2 className="animate-pulse" style={{ color: 'var(--color-primary)' }}>Caricamento Stanza...</h2>
       </div>
     );

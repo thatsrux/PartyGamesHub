@@ -108,7 +108,7 @@ export default function Catalog() {
 
   return (
     <Background theme="default">
-      <div className="container" style={{ padding: '2rem 4rem', display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '100vh', overflowY: 'auto' }}>
+      <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', minHeight: '100vh', overflowY: 'auto' }}>
         <button 
           className="btn"
           style={{ 

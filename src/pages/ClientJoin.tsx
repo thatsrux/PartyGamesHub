@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useSearchParams, useNavigate, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLobby } from '../hooks/useLobby';
 import ClientVeroOFake from '../games/VeroOFake/ClientVeroOFake';
@@ -23,13 +23,15 @@ import Background from '../components/shared/Background';
 
 export default function ClientJoin() {
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
+  const location = useLocation();
   const codeFromUrl = searchParams.get('code') || '';
   const storedCode = sessionStorage.getItem('lobbyCode') || '';
-  
   const { profile } = useProfile();
-  const [code, setCode] = useState(codeFromUrl || storedCode);
+  const initialIsJoined = sessionStorage.getItem('isJoined') === 'true';
+  const [code, setCode] = useState(codeFromUrl || (initialIsJoined ? storedCode : ''));
   const [nickname, setNickname] = useState('');
-  const [isJoined, setIsJoined] = useState(false);
+  const [isJoined, setIsJoined] = useState(initialIsJoined);
   const [error, setError] = useState<string | null>(null);
 
   const defaultSettings: Record<string, any> = {
@@ -77,15 +79,60 @@ export default function ClientJoin() {
   // Subscribe to lobby to check if we are already in it (for auto-rejoin)
   const { lobby, joinLobby, leaveLobby, updateGameState, userId, setGameStatus } = useLobby(code || null);
 
-  // Auto-rejoin logic if page is refreshed
+  // Auto-rejoin / Kick logic if page is refreshed
   useEffect(() => {
-    if (!isJoined && userId && lobby?.players && lobby.players[userId]) {
-      setIsJoined(true);
-      if (lobby.players[userId].name) {
-        setNickname(lobby.players[userId].name);
+    if (userId) {
+      if (lobby === null && isJoined) {
+        // La lobby non esiste più
+        setIsJoined(false);
+        sessionStorage.setItem('isJoined', 'false');
+        setError("La stanza è stata chiusa dall'host.");
+      } else if (lobby) {
+        if (lobby.players && lobby.players[userId]) {
+          // Player is successfully in the lobby
+          if (!isJoined) {
+            setIsJoined(true);
+            sessionStorage.setItem('isJoined', 'true');
+          }
+          if (lobby.players[userId].name) {
+            setNickname(lobby.players[userId].name);
+          }
+        } else if (isJoined) {
+          // Player thinks they are joined, but Firebase says they are NOT in the players list (e.g. kicked)
+          setIsJoined(false);
+          sessionStorage.setItem('isJoined', 'false');
+          setError("Sei stato disconnesso o espulso dalla stanza.");
+        }
       }
     }
   }, [isJoined, userId, lobby]);
+
+  // Controlla se la stanza in memoria è stata eliminata (e pulisce l'input per non far perdere tempo)
+  useEffect(() => {
+    const initialCode = codeFromUrl || storedCode;
+    if (initialCode && !isJoined) {
+      import('firebase/database').then(({ get, ref }) => {
+        import('../firebase').then(({ db }) => {
+          get(ref(db, `lobbies/${initialCode}`)).then(snapshot => {
+            if (!snapshot.exists()) {
+              setCode('');
+              if (storedCode === initialCode) {
+                sessionStorage.removeItem('lobbyCode');
+              }
+            }
+          }).catch(console.error);
+        });
+      });
+    }
+  }, [codeFromUrl, storedCode, isJoined]);
+
+  // Se l'utente ricarica la pagina /join (non dalla home) e NON è in una lobby e NON ha scansionato un QR, torna alla home
+  useEffect(() => {
+    const isFromHome = location.state?.fromHome;
+    if (!isFromHome && !codeFromUrl && sessionStorage.getItem('isJoined') !== 'true') {
+      navigate('/');
+    }
+  }, [codeFromUrl, navigate, location]);
 
   const handleJoin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -114,6 +161,7 @@ export default function ClientJoin() {
     const finalPhoto = tempPhoto === '' ? undefined : (tempPhoto || profile?.photo || undefined);
     await joinLobby(code, nickname, finalPhoto, isAdmin);
     sessionStorage.setItem('lobbyCode', code);
+    sessionStorage.setItem('isJoined', 'true');
     setIsJoined(true);
   };
 
@@ -260,10 +308,28 @@ export default function ClientJoin() {
         <Background theme="default">
           <div style={{ flex: 1, overflowY: 'auto', width: '100%', display: 'flex', flexDirection: 'column' }}>
             <div style={{ width: '100%', margin: '0 auto', padding: '1rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', marginTop: '4rem', zIndex: 10 }}>
-                <ExitButton onExit={handleExit} />
-                <FloatingLobbyCode code={code} isClient />
-              </div>
+              <ExitButton onExit={handleExit} />
+              <button 
+                className="btn btn-secondary" 
+                style={{ 
+                  position: 'fixed', 
+                  bottom: 'max(env(safe-area-inset-bottom, 20px), 3vh)', 
+                  left: 'max(env(safe-area-inset-left, 20px), 3vw)', 
+                  background: 'rgba(0, 0, 0, 0.6)', 
+                  border: '1px solid rgba(255,255,255,0.1)', 
+                  borderRadius: '12px', 
+                  padding: '8px 20px', 
+                  fontWeight: 'bold',
+                  zIndex: 1000,
+                  backdropFilter: 'blur(10px)',
+                  boxShadow: '0 4px 15px rgba(0,0,0,0.5)',
+                  fontSize: '1rem'
+                }} 
+                onClick={() => navigate('/profile')}
+              >
+                Profilo 👤
+              </button>
+              <FloatingLobbyCode code={code} isClient />
               
               {settingsOpen ? (
                 <div style={{ display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -660,6 +726,26 @@ export default function ClientJoin() {
       <Background theme="default">
         <div className="container-mobile" style={{ height: '100%', justifyContent: 'center', textAlign: 'center' }}>
           <ExitButton onExit={handleExit} />
+          <button 
+            className="btn btn-secondary" 
+            style={{ 
+              position: 'fixed', 
+              bottom: 'max(env(safe-area-inset-bottom, 20px), 3vh)', 
+              left: 'max(env(safe-area-inset-left, 20px), 3vw)', 
+              background: 'rgba(0, 0, 0, 0.6)', 
+              border: '1px solid rgba(255,255,255,0.1)', 
+              borderRadius: '12px', 
+              padding: '8px 20px', 
+              fontWeight: 'bold',
+              zIndex: 1000,
+              backdropFilter: 'blur(10px)',
+              boxShadow: '0 4px 15px rgba(0,0,0,0.5)',
+              fontSize: '1rem'
+            }} 
+            onClick={() => navigate('/profile')}
+          >
+            Profilo 👤
+          </button>
           <FloatingLobbyCode code={code} isClient />
           <motion.div 
             initial={{ opacity: 0, scale: 0.8 }}
@@ -711,12 +797,22 @@ export default function ClientJoin() {
           onCancel={() => setImageToCrop(null)} 
         />
       )}
-      <div className="container-mobile" style={{ height: '100%', justifyContent: 'center' }}>
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          style={{ width: '100%', maxWidth: '450px', margin: '0 auto' }}
-        >
+      <div className="container-mobile" style={{ height: '100%', overflowY: 'auto' }}>
+        <header style={{ display: 'flex', justifyContent: 'flex-start', paddingBottom: '1rem', width: '100%' }}>
+          <button 
+            className="btn btn-secondary" 
+            style={{ background: 'rgba(255,255,255,0.1)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '1.2rem', padding: '0.8rem 1.5rem', fontWeight: 'bold', fontSize: '1rem' }} 
+            onClick={() => navigate('/')}
+          >
+            Indietro
+          </button>
+        </header>
+        <div style={{ display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'center' }}>
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            style={{ width: '100%', maxWidth: '450px', margin: '0 auto', paddingBottom: '2rem' }}
+          >
           <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
             <h1 style={{ 
               fontSize: '3.5rem', 
@@ -880,6 +976,7 @@ export default function ClientJoin() {
             </button>
           </form>
         </motion.div>
+        </div>
       </div>
     </Background>
   );
