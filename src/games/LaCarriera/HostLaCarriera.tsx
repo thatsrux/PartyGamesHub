@@ -11,6 +11,7 @@ import RoundLeaderboardTV from '../../components/shared/RoundLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import RoundTracker from '../../components/shared/RoundTracker';
+import LoadingScreen from '../../components/shared/LoadingScreen';
 
 function PlayerHostAvatar({ id, p, gameState }: { id: string, p: any, gameState: any }) {
   const [feedback, setFeedback] = useState<'wrong' | 'correct' | null>(null);
@@ -218,7 +219,7 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
 
   const currentCareer = selectedCareers[currentQuestionIndex];
 
-  if (!currentCareer) return <div>Caricamento...</div>;
+  if (!currentCareer) return <LoadingScreen message="Caricamento in corso..." />;
 
   return (
     <GameLayoutTV 

@@ -15,6 +15,7 @@ import ErrorBoundary from '../components/ErrorBoundary';
 import Avatar from '../components/shared/Avatar';
 import Background from '../components/shared/Background';
 import ScreenFitter from '../components/shared/ScreenFitter';
+import LoadingScreen from '../components/shared/LoadingScreen';
 
 function HostLobbyContent() {
   const [lobbyCode, setLobbyCode] = useState<string | null>(() => sessionStorage.getItem('hostLobbyCode'));
@@ -169,11 +170,7 @@ function HostLobbyContent() {
   }
 
   if (!lobby) {
-    return (
-      <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>
-        <h2 className="animate-pulse" style={{ color: 'var(--color-primary)' }}>Caricamento Stanza...</h2>
-      </div>
-    );
+    return <LoadingScreen message="Caricamento Stanza..." />;
   }
 
   const playersList = lobby?.players 

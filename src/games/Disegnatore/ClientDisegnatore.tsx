@@ -20,6 +20,7 @@ import RoundLeaderboardMobile from '../../components/shared/RoundLeaderboardMobi
 import WordRevealUI from '../../components/shared/WordRevealUI';
 
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
+import LoadingScreen from '../../components/shared/LoadingScreen';
 
 export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -555,5 +556,5 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
     }
   }
 
-  return <div>Caricamento...</div>;
+  return <LoadingScreen message="Caricamento in corso..." />;
 }

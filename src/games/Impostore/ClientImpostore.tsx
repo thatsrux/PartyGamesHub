@@ -5,6 +5,7 @@ import PodiumMobile from '../../components/shared/PodiumMobile';
 import RoundTracker from '../../components/shared/RoundTracker';
 import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
+import LoadingScreen from '../../components/shared/LoadingScreen';
 
 export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -344,5 +345,5 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
     );
   }
 
-  return <div>Caricamento...</div>;
+  return <LoadingScreen message="Caricamento in corso..." />;
 }

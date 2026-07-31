@@ -14,6 +14,7 @@ import drawingWords from '../../data/disegnatore_words.json';
 import WordRevealUI from '../../components/shared/WordRevealUI';
 
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
+import LoadingScreen from '../../components/shared/LoadingScreen';
 
 export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
@@ -277,7 +278,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
   }, [gameState.action, gameState.actionId, gameState.phase]);
 
 
-  if (!gameState.phase) return <div>Caricamento...</div>;
+  if (!gameState.phase) return <LoadingScreen message="Caricamento in corso..." />;
 
   const drawerName = players[gameState.drawerId]?.name;
 

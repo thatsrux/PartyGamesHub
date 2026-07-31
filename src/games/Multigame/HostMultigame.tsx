@@ -6,6 +6,7 @@ import type { GameThemeKey } from '../../utils/theme';
 import { Sparkles, Layers, Trophy } from 'lucide-react';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import PodiumTV from '../../components/shared/PodiumTV';
+import LoadingScreen from '../../components/shared/LoadingScreen';
 
 const catalogGameDetails: Record<string, { title: string; icon: string; themeKey: GameThemeKey }> = {
   vero_o_fake: { title: 'Vero o Falso', icon: '🃏', themeKey: 'vero_o_fake' },
@@ -23,7 +24,7 @@ export default function HostMultigame({ lobbyCode }: { lobbyCode: string }) {
   const multigameSession = lobby?.multigame_session;
   const players = lobby?.players || {};
 
-  if (!multigameSession) return <div style={{ color: 'white', padding: '2rem', textAlign: 'center' }}>Caricamento Multi-Game...</div>;
+  if (!multigameSession) return <LoadingScreen message="Caricamento in corso..." />;
 
   const playlist: string[] = multigameSession.playlist || [];
   const currentIndex: number = multigameSession.currentIndex ?? -1;

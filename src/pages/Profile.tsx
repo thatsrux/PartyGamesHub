@@ -6,6 +6,7 @@ import { useLobby } from '../hooks/useLobby';
 import PhotoCropper from '../components/shared/PhotoCropper';
 import Avatar from '../components/shared/Avatar';
 import Background from '../components/shared/Background';
+import LoadingScreen from '../components/shared/LoadingScreen';
 import { gameThemes } from '../utils/theme';
 import type { GameThemeKey } from '../utils/theme';
 import SettingsSlider from '../components/shared/SettingsSlider';
@@ -97,7 +98,7 @@ export default function Profile() {
   };
 
   if (loading) {
-    return <div className="container" style={{ display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}>Caricamento...</div>;
+    return <LoadingScreen message="Caricamento profilo..." />;
   }
 
   const handleOpenSettings = (gameId: string) => {

@@ -9,6 +9,7 @@ import RoundTracker from '../../components/shared/RoundTracker';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 
 import falsarioQuestions from '../../data/falsario.json';
+import LoadingScreen from '../../components/shared/LoadingScreen';
 
 export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
@@ -151,7 +152,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
   }, [gameState.action, gameState.actionId, gameState.phase]);
 
 
-  if (!gameState.phase) return <div>Caricamento...</div>;
+  if (!gameState.phase) return <LoadingScreen message="Caricamento in corso..." />;
 
   return (
     <GameLayoutTV 

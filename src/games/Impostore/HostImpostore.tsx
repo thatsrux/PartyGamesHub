@@ -10,6 +10,7 @@ import GameLayoutTV from '../../components/shared/GameLayoutTV';
 
 import impostoreCategoriesData from '../../data/impostore_categories.json';
 import footballersData from '../../data/footballers.json';
+import LoadingScreen from '../../components/shared/LoadingScreen';
 
 const fallbackWords = [
   "Fuorigioco", "Calcio di Rigore", "VAR", "Mondiale", "Pallone d'Oro", 
@@ -219,7 +220,7 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
   }, [gameState.action, gameState.actionId, gameState.phase]);
 
 
-  if (!gameState.phase) return <div>Caricamento...</div>;
+  if (!gameState.phase) return <LoadingScreen message="Caricamento in corso..." />;
 
   return (
     <GameLayoutTV 

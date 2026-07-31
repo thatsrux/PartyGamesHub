@@ -9,6 +9,7 @@ import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 
 import allQuestions from '../../data/vero_falso.json';
+import LoadingScreen from '../../components/shared/LoadingScreen';
 export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
   const gameState = lobby?.game_state || {};
@@ -100,7 +101,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
 
   const currentQ = gameState.question || { text: 'Caricamento...', answer: 'vero' };
 
-  if (!currentQ) return <div>Caricamento...</div>;
+  if (!currentQ) return <LoadingScreen message="Caricamento in corso..." />;
 
   return (
     <GameLayoutTV 

@@ -16,6 +16,7 @@ import PhotoCropper from '../components/shared/PhotoCropper';
 import FloatingLobbyCode from '../components/shared/FloatingLobbyCode';
 import { useProfile } from '../hooks/useProfile';
 import Avatar from '../components/shared/Avatar';
+import LoadingScreen from '../components/shared/LoadingScreen';
 import SettingsSlider from '../components/shared/SettingsSlider';
 import { gameThemes } from '../utils/theme';
 import type { GameThemeKey } from '../utils/theme';
@@ -720,6 +721,10 @@ export default function ClientJoin() {
           </div>
         </Background>
       );
+    }
+
+    if (!lobby) {
+      return <LoadingScreen message="Riconnessione alla stanza..." />;
     }
 
     return (

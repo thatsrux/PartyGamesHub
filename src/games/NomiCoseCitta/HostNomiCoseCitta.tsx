@@ -8,6 +8,7 @@ import RoundTracker from '../../components/shared/RoundTracker';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import ProgressBar from '../../components/shared/ProgressBar';
+import LoadingScreen from '../../components/shared/LoadingScreen';
 
 const ALPHABET = 'ABCDEFGHILMNOPQRSTUVZ'.split('');
 
@@ -135,7 +136,7 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
     }
   }, [gameState.action, gameState.actionId, gameState.phase, gameState.endTime, gameState.round, gameState.points]);
 
-  if (!gameState.phase) return <div>Caricamento...</div>;
+  if (!gameState.phase) return <LoadingScreen message="Caricamento in corso..." />;
 
   return (
     <GameLayoutTV 
