@@ -8,7 +8,8 @@ import {
   Circle, 
   Maximize, 
   Minimize,
-  Trash2 
+  Trash2,
+  Palette
 } from 'lucide-react';
 import { ref as dbRef, update } from 'firebase/database';
 import { db } from '../../firebase';
@@ -53,8 +54,6 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
     window.addEventListener('resize', handleResize);
     return () => window.removeEventListener('resize', handleResize);
   }, []);
-
-  const colors = ['#ffffff', '#ef4444', '#3b82f6', '#10b981', '#f59e0b', '#000000'];
 
   useEffect(() => {
     // Set internal resolution once (4:3 aspect ratio)
@@ -444,25 +443,38 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
                 </div>
                 
                 {/* Colors */}
-                <div style={{ display: 'flex', gap: '0.4rem', flex: 1, padding: '0.3rem', background: 'rgba(0,0,0,0.4)', borderRadius: '0.8rem', flexShrink: 0 }}>
-                  {colors.map(c => (
-                    <div 
-                      key={c} 
-                      onClick={() => setActiveColor(c)} 
+                <div style={{ display: 'flex', gap: '0.4rem', flex: 1, padding: '0.3rem', background: 'rgba(0,0,0,0.4)', borderRadius: '0.8rem', flexShrink: 0, alignItems: 'center', justifyContent: 'center' }}>
+                  <div style={{ 
+                    position: 'relative',
+                    width: '40px', 
+                    height: '40px', 
+                    borderRadius: '50%', 
+                    background: activeColor, 
+                    border: '3px solid white', 
+                    flexShrink: 0,
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease',
+                    boxShadow: `0 0 12px ${activeColor}`,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center'
+                  }}>
+                    <Palette size={20} color={activeColor === '#ffffff' ? '#000' : '#fff'} style={{ filter: activeColor === '#ffffff' ? 'none' : 'drop-shadow(0px 1px 2px rgba(0,0,0,0.8))', zIndex: 1, pointerEvents: 'none' }} />
+                    <input 
+                      type="color" 
+                      value={activeColor}
+                      onChange={(e) => setActiveColor(e.target.value)}
                       style={{ 
-                        width: '32px', 
-                        height: '32px', 
-                        borderRadius: '50%', 
-                        background: c, 
-                        border: activeColor === c ? '3px solid white' : '2px solid rgba(255,255,255,0.1)', 
-                        flexShrink: 0,
+                        opacity: 0, 
+                        position: 'absolute', 
+                        inset: 0, 
+                        width: '100%', 
+                        height: '100%', 
                         cursor: 'pointer',
-                        transition: 'all 0.2s ease',
-                        boxShadow: activeColor === c ? `0 0 12px ${c}` : 'none',
-                        transform: activeColor === c ? 'scale(1.1)' : 'scale(1)'
+                        zIndex: 2
                       }} 
                     />
-                  ))}
+                  </div>
                 </div>
               </div>
               </div>
