@@ -23,9 +23,10 @@ import Background from '../components/shared/Background';
 export default function ClientJoin() {
   const [searchParams] = useSearchParams();
   const codeFromUrl = searchParams.get('code') || '';
+  const storedCode = sessionStorage.getItem('lobbyCode') || '';
   
   const { profile } = useProfile();
-  const [code, setCode] = useState(codeFromUrl);
+  const [code, setCode] = useState(codeFromUrl || storedCode);
   const [nickname, setNickname] = useState('');
   const [isJoined, setIsJoined] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -83,7 +84,18 @@ export default function ClientJoin() {
     }
   }, [profile, isJoined]);
 
-  const { lobby, joinLobby, leaveLobby, updateGameState, userId, setGameStatus } = useLobby(isJoined ? code : null);
+  // Subscribe to lobby to check if we are already in it (for auto-rejoin)
+  const { lobby, joinLobby, leaveLobby, updateGameState, userId, setGameStatus } = useLobby(code || null);
+
+  // Auto-rejoin logic if page is refreshed
+  useEffect(() => {
+    if (!isJoined && userId && lobby?.players && lobby.players[userId]) {
+      setIsJoined(true);
+      if (lobby.players[userId].name) {
+        setNickname(lobby.players[userId].name);
+      }
+    }
+  }, [isJoined, userId, lobby]);
 
   const handleJoin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -111,6 +123,7 @@ export default function ClientJoin() {
     
     const finalPhoto = tempPhoto === '' ? undefined : (tempPhoto || profile?.photo || undefined);
     await joinLobby(code, nickname, finalPhoto, isAdmin);
+    sessionStorage.setItem('lobbyCode', code);
     setIsJoined(true);
   };
 

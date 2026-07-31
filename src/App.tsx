@@ -19,6 +19,7 @@ function App() {
           <Route path="/host" element={<HostLobby />} />
           <Route path="/join" element={<ClientJoin />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </ErrorBoundary>

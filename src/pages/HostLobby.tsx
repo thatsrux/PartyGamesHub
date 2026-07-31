@@ -17,15 +17,16 @@ import Background from '../components/shared/Background';
 import ScreenFitter from '../components/shared/ScreenFitter';
 
 function HostLobbyContent() {
-  const [lobbyCode, setLobbyCode] = useState<string | null>(null);
+  const [lobbyCode, setLobbyCode] = useState<string | null>(() => sessionStorage.getItem('hostLobbyCode'));
   const [inputCode, setInputCode] = useState('');
-  const [isCreated, setIsCreated] = useState(false);
+  const [isCreated, setIsCreated] = useState(() => !!sessionStorage.getItem('hostLobbyCode'));
   const [error, setError] = useState<string | null>(null);
   
   const { lobby, createLobby, setGameStatus, returnToLobbyOrNextGame, userId } = useLobby(lobbyCode);
 
   const handleCreateNew = () => {
     const code = Math.random().toString(36).substring(2, 6).toUpperCase();
+    sessionStorage.setItem('hostLobbyCode', code);
     setLobbyCode(code);
   };
 
@@ -38,6 +39,7 @@ function HostLobbyContent() {
     
     if (snapshot.exists()) {
       setError(null);
+      sessionStorage.setItem('hostLobbyCode', inputCode);
       setLobbyCode(inputCode);
       setIsCreated(true); // Evita che l'useEffect sovrascriva la stanza
     } else {

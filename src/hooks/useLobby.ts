@@ -216,6 +216,8 @@ export function useLobby(lobbyCode: string | null) {
     const playerRef = ref(db, `lobbies/${lobbyCode}/players/${userId}`);
     await remove(playerRef);
     onDisconnect(playerRef).cancel();
+    sessionStorage.removeItem('lobbyCode');
+    sessionStorage.removeItem('hostLobbyCode');
   };
 
   return {
