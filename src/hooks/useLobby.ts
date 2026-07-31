@@ -229,6 +229,7 @@ export function useLobby(lobbyCode: string | null) {
     lobby,
     userId,
     error,
+    isLoading,
     createLobby,
     joinLobby,
     leaveLobby,
