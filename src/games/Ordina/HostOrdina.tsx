@@ -158,10 +158,10 @@ export default function HostOrdina({ lobbyCode }: { lobbyCode: string }) {
             fontSize: '5rem', 
             marginBottom: '2rem',
             fontWeight: 900,
-            background: 'linear-gradient(135deg, #fbcfe8 0%, #e11d48 100%)',
+            background: 'linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
-            textShadow: '0px 10px 20px rgba(0,0,0,0.3)'
+            filter: 'drop-shadow(0px 8px 16px rgba(0,0,0,0.8))'
           }}
         >
           Ordina
