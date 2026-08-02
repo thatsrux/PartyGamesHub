@@ -36,25 +36,26 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
       if (playerIds.length === 0) return;
 
       const drawerId = playerIds[Math.floor(Math.random() * playerIds.length)];
-      const word = drawingWords[Math.floor(Math.random() * drawingWords.length)];
-
-      const visibleChars = Array.from(word).map((char, index) => char !== ' ' ? index : -1).filter(i => i !== -1);
-      for (let i = visibleChars.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [visibleChars[i], visibleChars[j]] = [visibleChars[j], visibleChars[i]];
+      
+      const wordChoices: string[] = [];
+      const tempWords = [...drawingWords];
+      for (let i = 0; i < 4; i++) {
+        const rand = Math.floor(Math.random() * tempWords.length);
+        wordChoices.push(tempWords[rand]);
+        tempWords.splice(rand, 1);
       }
-      const revealSequence = visibleChars.slice(0, Math.max(0, visibleChars.length - 1));
 
       updateGameState({
-        phase: 'draw',
+        phase: 'choose_word',
         round: 1,
         drawerId,
-        word,
-        revealSequence,
+        wordChoices,
+        word: null,
+        revealSequence: null,
         drawnInRound: [drawerId],
         strokes: {},
         guesses: {},
-        startTime: getServerTime()
+        startTime: null
       });
     }
   }, [lobby]);
@@ -242,27 +243,27 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
     processedAnswersRef.current = {};
     
     if (gameState.nextDrawerId) {
-      const word = drawingWords[Math.floor(Math.random() * drawingWords.length)];
-      
-      const visibleChars = Array.from(word).map((char, index) => char !== ' ' ? index : -1).filter(i => i !== -1);
-      for (let i = visibleChars.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [visibleChars[i], visibleChars[j]] = [visibleChars[j], visibleChars[i]];
+      const wordChoices: string[] = [];
+      const tempWords = [...drawingWords];
+      for (let i = 0; i < 4; i++) {
+        const rand = Math.floor(Math.random() * tempWords.length);
+        wordChoices.push(tempWords[rand]);
+        tempWords.splice(rand, 1);
       }
-      const revealSequence = visibleChars.slice(0, Math.max(0, visibleChars.length - 1));
 
       updateGameState({
-        phase: 'draw',
+        phase: 'choose_word',
         round: gameState.nextRound,
         drawerId: gameState.nextDrawerId,
-        word,
-        revealSequence,
+        wordChoices,
+        word: null,
+        revealSequence: null,
         drawnInRound: gameState.drawnInRound || null,
         strokes: null,
         guesses: null,
         correctGuessers: null,
         roundPoints: null,
-        startTime: getServerTime(),
+        startTime: null,
         action: null,
         nextDrawerId: null
       });
@@ -303,6 +304,31 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
 
         <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         
+        {gameState.phase === 'choose_word' && (
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9 }} 
+            animate={{ opacity: 1, scale: 1 }} 
+            style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', gap: '2rem' }}
+          >
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem', background: 'rgba(255,255,255,0.1)', padding: '3rem', borderRadius: '2rem', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.2)' }}>
+              <div style={{ width: '120px', height: '120px', position: 'relative' }}>
+                <Avatar photo={players[gameState.drawerId]?.photo} name={players[gameState.drawerId]?.name || 'Player'} size={120} />
+                <motion.div
+                  animate={{ scale: [1, 1.1, 1], opacity: [0.5, 0.8, 0.5] }}
+                  transition={{ duration: 1.5, repeat: Infinity }}
+                  style={{ position: 'absolute', inset: -15, border: '4px dashed var(--color-primary)', borderRadius: '50%' }}
+                />
+              </div>
+              <h2 style={{ color: 'white', fontSize: '2.5rem', fontWeight: 800, margin: 0, textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
+                {players[gameState.drawerId]?.name} sta scegliendo...
+              </h2>
+              <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '1.5rem', margin: 0, fontStyle: 'italic' }}>
+                In attesa che scelga cosa disegnare
+              </p>
+            </div>
+          </motion.div>
+        )}
+
         {gameState.phase === 'draw' && (
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1, minHeight: 0 }}>
             <h2 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', fontSize: '1.8rem', marginBottom: '1.5rem', color: 'var(--color-primary)' }}>

@@ -321,6 +321,60 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
     );
   }
 
+  if (phase === 'choose_word') {
+    const isDrawer = userId === gameState.drawerId;
+    return (
+      <GameLayoutMobile themeKey="disegnatore" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <RoundTracker current={gameState.round || 1} total={gameState.settings?.rounds || 5} isMobile />
+        <motion.div className="panel" initial={{ scale: 0.8 }} animate={{ scale: 1 }}>
+          {isDrawer ? (
+            <>
+              <h2 style={{ fontSize: '1.5rem', color: 'white', marginBottom: '1.5rem' }}>
+                Scegli cosa disegnare:
+              </h2>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+                {gameState.wordChoices?.map((choice: string, idx: number) => (
+                  <button
+                    key={idx}
+                    className="btn btn-primary"
+                    style={{ padding: '1.5rem', fontSize: '1.2rem', background: 'rgba(255,255,255,0.1)', border: '2px solid rgba(255,255,255,0.2)' }}
+                    onClick={() => {
+                      const visibleChars = Array.from(choice).map((char, index) => char !== ' ' ? index : -1).filter(i => i !== -1);
+                      for (let i = visibleChars.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [visibleChars[i], visibleChars[j]] = [visibleChars[j], visibleChars[i]];
+                      }
+                      const revealSequence = visibleChars.slice(0, Math.max(0, visibleChars.length - 1));
+
+                      updateGameState({ 
+                        phase: 'draw', 
+                        word: choice, 
+                        wordChoices: null, 
+                        revealSequence, 
+                        startTime: getServerTime() 
+                      });
+                    }}
+                  >
+                    {choice}
+                  </button>
+                ))}
+              </div>
+            </>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem' }}>
+              <h2 style={{ color: 'white', fontSize: '1.5rem' }}>
+                {lobby?.players?.[gameState.drawerId]?.name || 'Il disegnatore'} sta scegliendo...
+              </h2>
+              <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.1rem' }}>
+                In attesa che scelga la parola da disegnare
+              </p>
+            </div>
+          )}
+        </motion.div>
+      </GameLayoutMobile>
+    );
+  }
+
   const isFullscreenLayout = isPseudoFullscreen || isLandscape;
 
   if (phase === 'draw' || phase === 'finished' || phase === 'results') {
