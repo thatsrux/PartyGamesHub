@@ -33,6 +33,11 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
       const shift = Math.round((Math.random() * 0.6 - 0.3) * span);
       let newMin = baseQ.min + shift;
       let newMax = baseQ.max + shift;
+      if (baseQ.min >= 0 && newMin < 0) {
+          const over = 0 - newMin;
+          newMin = 0;
+          newMax += over;
+      }
       if (newMin >= baseQ.answer) newMin = baseQ.answer - Math.max(1, Math.round(span * 0.1));
       if (newMax <= baseQ.answer) newMax = baseQ.answer + Math.max(1, Math.round(span * 0.1));
 
@@ -59,7 +64,7 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
         const diff = Math.abs(pAnswer - q.answer);
         const normalizedDiff = diff / maxDiff;
         let points = Math.floor(100 * Math.exp(-25 * Math.pow(normalizedDiff, 2)));
-        if (diff === 0) points += 50;
+        if (diff === 0) points += 500;
         updatePlayerScore(id, points);
       }
     });
@@ -90,6 +95,11 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
         const shift = Math.round((Math.random() * 0.6 - 0.3) * span);
         let newMin = baseQ.min + shift;
         let newMax = baseQ.max + shift;
+        if (baseQ.min >= 0 && newMin < 0) {
+            const over = 0 - newMin;
+            newMin = 0;
+            newMax += over; // Shift the max up by the amount we truncated
+        }
         if (newMin >= baseQ.answer) newMin = baseQ.answer - Math.max(1, Math.round(span * 0.1));
         if (newMax <= baseQ.answer) newMax = baseQ.answer + Math.max(1, Math.round(span * 0.1));
         const nextQ = { ...baseQ, min: newMin, max: newMax };
