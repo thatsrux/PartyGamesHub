@@ -272,6 +272,12 @@ export default function ClientJoin() {
 
       const saveSettings = () => {
         if (settingsOpen) {
+          if (settingsOpen === 'jeopardy' && tempSettings.categorySelectionMode === 'admin') {
+            if (!tempSettings.adminCategories || tempSettings.adminCategories.length !== 5) {
+              alert('Devi selezionare esattamente 5 categorie per Jeopardy.');
+              return;
+            }
+          }
           if (multigameSubgameMode) {
              const currentMultigame = localSettings.multigame || { subgames: {} };
              const newMultigame = { 
@@ -576,7 +582,7 @@ export default function ClientJoin() {
                       )}
 
                       
-                      {(settingsOpen === 'vero_o_fake' || settingsOpen === 'falsario') && (
+                      {(settingsOpen === 'vero_o_fake' || settingsOpen === 'falsario' || settingsOpen === 'quiz4') && (
                         <div className="input-group" style={{ margin: 0 }}>
                           <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>🗂️ Categorie (Seleziona per includere)</label>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
@@ -610,7 +616,7 @@ export default function ClientJoin() {
                                     setTempSettings({ ...tempSettings, excludedCategories: excluded });
                                   }}
                                 >
-                                  {cat} <span style={{ opacity: 0.7, fontSize: '0.8rem' }}>({CATEGORY_COUNTS[settingsOpen as 'vero_o_fake' | 'falsario']?.[cat] || 0})</span>
+                                  {cat} <span style={{ opacity: 0.7, fontSize: '0.8rem' }}>({CATEGORY_COUNTS[settingsOpen as 'vero_o_fake' | 'falsario' | 'quiz4']?.[cat] || 0})</span>
                                 </button>
                               );
                             })}

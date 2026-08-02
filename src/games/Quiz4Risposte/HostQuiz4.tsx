@@ -9,7 +9,8 @@ import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import LoadingScreen from '../../components/shared/LoadingScreen';
 
-import { quizQuestions } from './data';
+import { getCategoryColor } from '../../utils/categories';
+import allQuestions from '../../data/quiz4.json';
 import { getServerTime } from '../../utils/serverTime';
 
 export default function HostQuiz4({ lobbyCode }: { lobbyCode: string }) {
@@ -19,7 +20,10 @@ export default function HostQuiz4({ lobbyCode }: { lobbyCode: string }) {
   
   useEffect(() => {
     if (lobby && !gameState.phase) {
-      const availableQ = [...quizQuestions];
+      const allQ = allQuestions as any[];
+      const excludedCategories = gameState.settings?.excludedCategories || [];
+      const filteredQ = allQ.filter(q => !excludedCategories.includes(q.category));
+      const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
       const totalRounds = Math.min(gameState.settings?.rounds || 5, availableQ.length);
       const sequence: number[] = [];
       
@@ -77,7 +81,11 @@ export default function HostQuiz4({ lobbyCode }: { lobbyCode: string }) {
       if (gameState.questionIndex < totalRounds - 1) {
         const nextIndex = gameState.questionIndex + 1;
         const sequence = gameState.sequence || [];
-        const availableQ = [...quizQuestions];
+        
+        const allQ = allQuestions as any[];
+        const excludedCategories = gameState.settings?.excludedCategories || [];
+        const filteredQ = allQ.filter(q => !excludedCategories.includes(q.category));
+        const availableQ = filteredQ.length > 0 ? filteredQ : allQ;
 
         const nextQIndex = sequence[nextIndex] !== undefined ? sequence[nextIndex] : Math.floor(Math.random() * availableQ.length);
         const nextQ = availableQ[nextQIndex];
@@ -105,6 +113,7 @@ export default function HostQuiz4({ lobbyCode }: { lobbyCode: string }) {
   return (
     <GameLayoutTV 
       themeKey="quiz4"
+      customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined}
       leaderboard={gameState.phase !== 'finished' ? <MiniLeaderboardTV players={players} animateUpdates={true} /> : undefined}
     >
       {gameState.phase !== 'finished' && (
@@ -138,6 +147,22 @@ export default function HostQuiz4({ lobbyCode }: { lobbyCode: string }) {
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
             
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                {currentQ.category && (
+                  <div style={{
+                    display: 'inline-block',
+                    background: 'rgba(255,255,255,0.2)',
+                    padding: '0.5rem 1.5rem',
+                    borderRadius: '2rem',
+                    fontSize: '1.5rem',
+                    fontWeight: 'bold',
+                    textTransform: 'uppercase',
+                    letterSpacing: '2px',
+                    marginBottom: '1rem',
+                    boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
+                  }}>
+                    {currentQ.category}
+                  </div>
+                )}
                 <h2 style={{ 
                 fontSize: '3.5rem', 
                 marginBottom: '3rem',
