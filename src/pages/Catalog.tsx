@@ -84,13 +84,53 @@ const catalogData: GameItem[] = [
     description: 'Scrivi una bugia credibile per completare la frase. Poi, vota la risposta che ritieni corretta. Attento a non farti ingannare dalle bugie degli altri!',
     settings: [],
     status: 'available'
+  },
+  {
+    id: 'quiz4',
+    title: 'Quiz 4 Risposte',
+    icon: '⭐',
+    description: 'Il classico gioco a quiz con 4 opzioni. Rispondi velocemente per ottenere il punteggio massimo!',
+    settings: [],
+    status: 'available'
+  },
+  {
+    id: 'piu_vicino',
+    title: 'Più Vicino Vince',
+    icon: '🎯',
+    description: 'Indovina la risposta numerica segreta. Usa lo slider per avvicinarti il più possibile al numero corretto!',
+    settings: [],
+    status: 'available'
+  },
+  {
+    id: 'ordina',
+    title: 'Ordina',
+    icon: '📋',
+    description: 'Metti gli elementi nell\'ordine corretto. Più posizioni indovini, più punti guadagni!',
+    settings: [],
+    status: 'available'
+  },
+  {
+    id: 'indovina_immagine',
+    title: 'Indovina l\'Immagine',
+    icon: '🖼️',
+    description: 'Un\'immagine si svelerà pian piano oppure sarà offuscata. Sii il primo a indovinare di cosa si tratta!',
+    settings: [],
+    status: 'available'
+  },
+  {
+    id: 'jeopardy',
+    title: 'Jeopardy',
+    icon: '🧠',
+    description: 'Scegli la categoria e la difficoltà per guadagnare punti. Attenzione: se sbagli perdi i punti scommessi!',
+    settings: [],
+    status: 'available'
   }
 ];
 
 export default function Catalog() {
   const navigate = useNavigate();
   const [selectedGames, setSelectedGames] = useState<string[]>([
-    'vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'
+    'vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy'
   ]);
   const [showMultiModal, setShowMultiModal] = useState(false);
 

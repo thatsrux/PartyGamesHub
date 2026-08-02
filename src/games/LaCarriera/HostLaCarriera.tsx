@@ -12,6 +12,7 @@ import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import RoundTracker from '../../components/shared/RoundTracker';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 
 function PlayerHostAvatar({ id, p, gameState }: { id: string, p: any, gameState: any }) {
   const [feedback, setFeedback] = useState<'wrong' | 'correct' | null>(null);
@@ -103,7 +104,7 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
           phase: 'question',
           questionIndex: 0,
           clueIndex: 0,
-          startTime: Date.now(),
+          startTime: getServerTime(),
           selectedCareers: selected
         });
       }
@@ -196,7 +197,7 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
         phase: 'question',
         questionIndex: newIndex,
         clueIndex: 0,
-        startTime: Date.now(),
+        startTime: getServerTime(),
         answers: {},
         guessFeedback: {},
         action: null
@@ -323,7 +324,7 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
               ))}
             </div>
             
-            <ProgressBar 
+            <ProgressBar startTime={gameState.startTime} 
               key={`progress-${gameState.questionIndex}`} 
               durationMs={(gameState.settings?.duration || 30) * 1000} 
               onComplete={handleRoundEnd}

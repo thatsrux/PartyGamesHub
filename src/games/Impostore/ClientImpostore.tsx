@@ -6,6 +6,7 @@ import RoundTracker from '../../components/shared/RoundTracker';
 import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 
 export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -31,7 +32,8 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
         players={lobby?.players} 
         userId={userId} 
         isAdmin={isAdmin} 
-        onReturnToLobby={() => returnToLobbyOrNextGame()} 
+        onReturnToLobby={() => returnToLobbyOrNextGame()}
+        themeKey="impostore"
       />
     );
   }
@@ -48,7 +50,7 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
             <button 
               className="btn btn-primary" 
               style={{ marginTop: '3rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
-              onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
+              onClick={() => updateGameState({ action: 'next_round', actionId: getServerTime() })}
             >
               Prossimo Round (Admin)
             </button>
@@ -72,7 +74,7 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
             <button 
               className="btn btn-primary" 
               style={{ marginTop: '3rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
-              onClick={() => updateGameState({ phase: isGameOver ? 'results' : 'discussion', action: null, actionId: Date.now() })}
+              onClick={() => updateGameState({ phase: isGameOver ? 'results' : 'discussion', action: null, actionId: getServerTime() })}
             >
               {isGameOver ? 'Vedi Risultati (Admin)' : 'Continua Discussione (Admin)'}
             </button>
@@ -220,7 +222,7 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
               <button 
                 className="btn btn-primary btn-giant" 
                 style={{ width: '100%', padding: '2rem 1rem', fontSize: '1.5rem', borderRadius: '1.5rem', background: isImposter ? '#ef4444' : '#10b981', color: 'white', border: 'none' }}
-                onClick={() => updateGameState({ action: 'next_speaker', actionId: Date.now() })}
+                onClick={() => updateGameState({ action: 'next_speaker', actionId: getServerTime() })}
               >
                 Ho dato l'indizio!
               </button>
@@ -238,7 +240,7 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
                 <button 
                   className="btn" 
                   style={{ marginTop: '2rem', width: '100%', padding: '1rem', background: 'transparent', border: '1px solid rgba(255,255,255,0.2)' }}
-                  onClick={() => updateGameState({ action: 'next_speaker', actionId: Date.now() })}
+                  onClick={() => updateGameState({ action: 'next_speaker', actionId: getServerTime() })}
                 >
                   Salta Turno (Admin)
                 </button>
@@ -255,7 +257,7 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
             <button 
               className="btn btn-danger" 
               style={{ marginTop: '3rem', width: '100%', padding: '1rem' }}
-              onClick={() => updateGameState({ action: 'start_voting', actionId: Date.now() })}
+              onClick={() => updateGameState({ action: 'start_voting', actionId: getServerTime() })}
             >
               Vota Subito (Admin)
             </button>
@@ -335,7 +337,7 @@ export default function ClientImpostore({ lobbyCode, userId }: { lobbyCode: stri
             <button 
               className="btn btn-primary" 
               style={{ marginTop: '3rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem', background: 'white', color: 'black' }}
-              onClick={() => updateGameState({ action: 'start_discussion', actionId: Date.now() })}
+              onClick={() => updateGameState({ action: 'start_discussion', actionId: getServerTime() })}
             >
               Inizia Turni (Admin)
             </button>

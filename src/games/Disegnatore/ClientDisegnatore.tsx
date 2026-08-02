@@ -24,6 +24,7 @@ import WordRevealUI from '../../components/shared/WordRevealUI';
 
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 
 export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -78,7 +79,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
         
         // Push batch to firebase without overwriting
         const updates: any = {};
-        updates[`lobbies/${lobbyCode}/game_state/strokes/${Date.now()}`] = batch;
+        updates[`lobbies/${lobbyCode}/game_state/strokes/${getServerTime()}`] = batch;
         update(dbRef(db), updates);
       }
     }, 150); // Send every 150ms
@@ -121,7 +122,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
         color: activeColor,
         x,
         y,
-        timestamp: Date.now()
+        timestamp: getServerTime()
       });
       return;
     }
@@ -231,7 +232,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
     e.preventDefault();
     if (phase !== 'draw' || isDrawer || !guess.trim()) return;
     
-    const timeElapsed = Date.now() - (gameState.startTime || Date.now());
+    const timeElapsed = getServerTime() - (gameState.startTime || getServerTime());
 
     updateGameState({
       [`guesses/${userId}`]: { value: guess.trim(), timeElapsed }
@@ -246,7 +247,8 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
         players={lobby?.players} 
         userId={userId} 
         isAdmin={isAdmin} 
-        onReturnToLobby={() => returnToLobbyOrNextGame()} 
+        onReturnToLobby={() => returnToLobbyOrNextGame()}
+        themeKey="disegnatore"
       />
     );
   }
@@ -286,7 +288,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
             <button 
               className="btn btn-primary" 
               style={{ marginTop: '3rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
-              onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
+              onClick={() => updateGameState({ action: 'next_round', actionId: getServerTime() })}
             >
               Vedi Classifica (Admin)
             </button>
@@ -310,7 +312,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
           <button 
             className="btn btn-primary" 
             style={{ marginTop: '2rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
-            onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
+            onClick={() => updateGameState({ action: 'next_round', actionId: getServerTime() })}
           >
             Prossimo Turno (Admin)
           </button>
@@ -574,7 +576,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
                 <WordRevealUI 
                   word={gameState.word} 
                   revealSequence={gameState.revealSequence || []} 
-                  startTime={gameState.startTime || Date.now()} 
+                  startTime={gameState.startTime || getServerTime()} 
                   durationMs={(gameState.settings?.duration || 60) * 1000} 
                   isTV={false} 
                 />

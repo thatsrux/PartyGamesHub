@@ -14,7 +14,12 @@ const catalogGameDetails: Record<string, { title: string; icon: string; themeKey
   impostore: { title: 'Impostore', icon: '🕵️‍♂️', themeKey: 'impostore' },
   nomi_cose_citta: { title: 'Nomi, Cose, Città', icon: '📝', themeKey: 'nomi_cose_citta' },
   falsario: { title: 'Il Falsario', icon: '🤥', themeKey: 'falsario' },
-  disegnatore: { title: 'Disegnatore', icon: '🎨', themeKey: 'disegnatore' }
+  disegnatore: { title: 'Disegnatore', icon: '🎨', themeKey: 'disegnatore' },
+  quiz4: { title: 'Quiz a 4', icon: '❓', themeKey: 'quiz4' },
+  piu_vicino: { title: 'Più Vicino Vince', icon: '📏', themeKey: 'piu_vicino' },
+  ordina: { title: 'Ordina', icon: '↕️', themeKey: 'ordina' },
+  indovina_immagine: { title: "Indovina l'immagine", icon: '🖼️', themeKey: 'indovina_immagine' },
+  jeopardy: { title: 'Jeopardy', icon: '💰', themeKey: 'jeopardy' }
 };
 
 export default function HostMultigame({ lobbyCode }: { lobbyCode: string }) {

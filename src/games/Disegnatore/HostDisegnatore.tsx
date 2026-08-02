@@ -16,6 +16,7 @@ import WordRevealUI from '../../components/shared/WordRevealUI';
 
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 
 export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
@@ -53,7 +54,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
         drawnInRound: [drawerId],
         strokes: {},
         guesses: {},
-        startTime: Date.now()
+        startTime: getServerTime()
       });
     }
   }, [lobby]);
@@ -156,7 +157,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
             updates = { ...updates, correctGuessers: newCorrectGuessers, roundPoints: newRoundPoints };
             
             setLiveGuess({
-              id: Date.now().toString() + Math.random(),
+              id: getServerTime().toString() + Math.random(),
               playerId: id,
               playerName: players[id]?.name || 'Sconosciuto',
               playerPhoto: players[id]?.photo,
@@ -176,7 +177,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
             setTimeout(() => setWrongPlayers(prev => prev.filter(p => p !== id)), 1500);
             
             setLiveGuess({
-              id: Date.now().toString() + Math.random(),
+              id: getServerTime().toString() + Math.random(),
               playerId: id,
               playerName: players[id]?.name || 'Sconosciuto',
               playerPhoto: players[id]?.photo,
@@ -261,7 +262,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
         guesses: null,
         correctGuessers: null,
         roundPoints: null,
-        startTime: Date.now(),
+        startTime: getServerTime(),
         action: null,
         nextDrawerId: null
       });
@@ -312,7 +313,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
             <WordRevealUI 
               word={gameState.word} 
               revealSequence={gameState.revealSequence || []} 
-              startTime={gameState.startTime || Date.now()} 
+              startTime={gameState.startTime || getServerTime()} 
               durationMs={(gameState.settings?.duration || 60) * 1000} 
               isTV={true} 
             />
@@ -329,7 +330,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
             </div>
             
             <div style={{ width: '100%' }}>
-              <ProgressBar durationMs={(gameState.settings?.duration || 60) * 1000} onComplete={handleTimeUp} />
+              <ProgressBar durationMs={(gameState.settings?.duration || 60) * 1000} startTime={gameState.startTime} onComplete={handleTimeUp} />
             </div>
 
             <div style={{ marginTop: '1rem', display: 'flex', gap: '1.5rem', justifyContent: 'center', flexWrap: 'wrap' }}>

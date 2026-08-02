@@ -10,6 +10,12 @@ import ClientNomiCoseCitta from '../games/NomiCoseCitta/ClientNomiCoseCitta';
 import ClientFalsario from '../games/Falsario/ClientFalsario';
 import ClientDisegnatore from '../games/Disegnatore/ClientDisegnatore';
 import ClientMultigame from '../games/Multigame/ClientMultigame';
+import ClientQuiz4 from '../games/Quiz4Risposte/ClientQuiz4';
+import ClientPiuVicino from '../games/PiuVicinoVince/ClientPiuVicino';
+import ClientOrdina from '../games/Ordina/ClientOrdina';
+import ClientIndovinaImmagine from '../games/IndovinaImmagine/ClientIndovinaImmagine';
+import ClientJeopardy from '../games/Jeopardy/ClientJeopardy';
+
 import ExitButton from '../components/shared/ExitButton';
 import AdminTerminateButton from '../components/shared/AdminTerminateButton';
 import PhotoCropper from '../components/shared/PhotoCropper';
@@ -37,13 +43,14 @@ export default function ClientJoin() {
   const [error, setError] = useState<string | null>(null);
 
   const defaultSettings: Record<string, any> = {
-    'multigame': { rounds: 5, duration: 30, selectedGames: ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'] },
+    'multigame': { rounds: 1, duration: 30, selectedGames: ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy'] },
     'vero_o_fake': { rounds: 10, duration: 15 },
     'la_carriera': { rounds: 10, duration: 30 },
     'impostore': { rounds: 5, duration: 60, impostoreCategory: 'Animali', impostorsCount: 1, impostorHint: false },
     'nomi_cose_citta': { rounds: 3, duration: 60, categories: ['Nomi', 'Cose', 'Città', 'Animali', 'Mestieri'] },
     'falsario': { rounds: 5, duration: 45 },
-    'disegnatore': { rounds: 2, duration: 60 }
+    'disegnatore': { rounds: 2, duration: 60 },
+    'jeopardy': { categorySelectionMode: 'admin', adminCategories: ['Cinema e Serie TV', 'Storia e Mitologia', 'Musica', 'Scienza e Natura', 'Sport'] }
   };
   const [settingsOpen, setSettingsOpen] = useState<string | null>(null);
   const [multigameSubgameMode, setMultigameSubgameMode] = useState<boolean>(false);
@@ -201,6 +208,21 @@ export default function ClientJoin() {
         if (lobby.game_selected === 'disegnatore') {
           return <ClientDisegnatore lobbyCode={code} userId={userId} />;
         }
+        if (lobby.game_selected === 'quiz4') {
+          return <ClientQuiz4 lobbyCode={code} userId={userId} />;
+        }
+        if (lobby.game_selected === 'piu_vicino') {
+          return <ClientPiuVicino lobbyCode={code} userId={userId} />;
+        }
+        if (lobby.game_selected === 'ordina') {
+          return <ClientOrdina lobbyCode={code} userId={userId} />;
+        }
+        if (lobby.game_selected === 'indovina_immagine') {
+          return <ClientIndovinaImmagine lobbyCode={code} userId={userId} />;
+        }
+        if (lobby.game_selected === 'jeopardy') {
+          return <ClientJeopardy lobbyCode={code} userId={userId} />;
+        }
         return null;
       };
 
@@ -229,15 +251,20 @@ export default function ClientJoin() {
         
         const def = defaultSettings[game] || {};
         
-        const rounds = saved.rounds || profSaved.rounds || def.rounds;
+        let rounds = saved.rounds || profSaved.rounds || def.rounds;
+        if (game === 'multigame' && rounds === 5) {
+          rounds = 1;
+        }
         const duration = saved.duration || profSaved.duration || def.duration;
         const categories = saved.categories || profSaved.categories || def.categories;
-        const selectedGames = saved.selectedGames || profSaved.selectedGames || def.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'];
+        const selectedGames = saved.selectedGames || profSaved.selectedGames || def.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy'];
         const impostoreCategory = saved.impostoreCategory || profSaved.impostoreCategory || def.impostoreCategory;
         const impostorsCount = saved.impostorsCount ?? profSaved.impostorsCount ?? def.impostorsCount;
         const impostorHint = saved.impostorHint ?? profSaved.impostorHint ?? def.impostorHint;
+        const categorySelectionMode = saved.categorySelectionMode || profSaved.categorySelectionMode || def.categorySelectionMode;
+        const adminCategories = saved.adminCategories || profSaved.adminCategories || def.adminCategories;
         
-        setTempSettings({ ...def, ...profSaved, ...saved, rounds, duration, categories, selectedGames, impostoreCategory, impostorsCount, impostorHint });
+        setTempSettings({ ...def, ...profSaved, ...saved, rounds, duration, categories, selectedGames, impostoreCategory, impostorsCount, impostorHint, categorySelectionMode, adminCategories });
         setTempCategory('');
         setSettingsOpen(game);
         setMultigameSubgameMode(isSubgame);
@@ -277,7 +304,7 @@ export default function ClientJoin() {
           
           if (gameId === 'multigame') {
             const subgamesOverrides = localSettings.multigame?.subgames || {};
-            const multigameSettings = (gameSet.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore']).reduce((acc: any, subGameId: string) => {
+            const multigameSettings = (gameSet.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy']).reduce((acc: any, subGameId: string) => {
                acc[subGameId] = {
                   ...defaultSettings[subGameId],
                   ...(profile?.gameSettings?.[subGameId] || {}),
@@ -288,7 +315,7 @@ export default function ClientJoin() {
 
             setGameStatus('playing', 'multigame', {
               multigame_session: {
-                playlist: gameSet.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'],
+                playlist: Array.from({ length: gameSet.rounds || 1 }).flatMap(() => (gameSet.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy'])),
                 currentIndex: -1,
                 settings: JSON.parse(JSON.stringify(multigameSettings))
               },
@@ -308,7 +335,7 @@ export default function ClientJoin() {
       };
       return (
         <Background theme="default">
-          <div style={{ flex: 1, overflowY: 'auto', width: '100%', display: 'flex', flexDirection: 'column' }}>
+          <div style={{ flex: 1, overflowY: 'visible', width: '100%', display: 'flex', flexDirection: 'column' }}>
             <div style={{ width: '100%', margin: '0 auto', padding: '1rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
               <ExitButton onExit={handleExit} />
               <button 
@@ -375,7 +402,12 @@ export default function ClientJoin() {
                         { id: 'impostore', title: 'Impostore' },
                         { id: 'nomi_cose_citta', title: 'Nomi, Cose, Città' },
                         { id: 'falsario', title: 'Il Falsario' },
-                        { id: 'disegnatore', title: 'Disegnatore' }
+                        { id: 'disegnatore', title: 'Disegnatore' },
+                        { id: 'quiz4', title: 'Quiz 4 Risposte' },
+                        { id: 'piu_vicino', title: 'Più Vicino Vince' },
+                        { id: 'ordina', title: 'Ordina' },
+                        { id: 'indovina_immagine', title: 'Indovina l\'Immagine' },
+                        { id: 'jeopardy', title: 'Jeopardy' }
                       ].find(g => g.id === settingsOpen)?.title || 'Impostazioni'}
                     </h2>
                     
@@ -383,19 +415,21 @@ export default function ClientJoin() {
                       <SettingsSlider 
                         label="Numero di Round"
                         icon="🎯"
-                        value={tempSettings.rounds || (settingsOpen === 'disegnatore' ? 2 : (settingsOpen === 'nomi_cose_citta' ? 3 : 5))}
+                        value={tempSettings.rounds || (settingsOpen === 'disegnatore' ? 2 : (settingsOpen === 'nomi_cose_citta' ? 3 : (settingsOpen === 'multigame' ? 1 : 5)))}
                         min={1} max={settingsOpen === 'disegnatore' ? 4 : (settingsOpen === 'nomi_cose_citta' ? 10 : 20)} step={1}
                         onChange={(val) => setTempSettings({ ...tempSettings, rounds: val })}
                       />
                       
-                      <SettingsSlider 
-                        label="Durata (secondi)"
-                        icon="⏱️"
-                        suffix="s"
-                        value={tempSettings.duration || 30}
-                        min={10} max={120} step={5}
-                        onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
-                      />
+                      {settingsOpen !== 'multigame' && (
+                        <SettingsSlider 
+                          label="Durata (secondi)"
+                          icon="⏱️"
+                          suffix="s"
+                          value={tempSettings.duration || 30}
+                          min={10} max={120} step={5}
+                          onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
+                        />
+                      )}
 
                       {settingsOpen === 'multigame' && (
                         <div className="input-group" style={{ margin: 0 }}>
@@ -409,7 +443,12 @@ export default function ClientJoin() {
                               { id: 'impostore', title: 'Impostore', icon: '🕵️‍♂️' },
                               { id: 'nomi_cose_citta', title: 'Nomi, Cose, Città', icon: '📝' },
                               { id: 'falsario', title: 'Falsario', icon: '🤥' },
-                              { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' }
+                              { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' },
+                              { id: 'quiz4', title: 'Quiz 4 Risposte', icon: '⭐' },
+                              { id: 'piu_vicino', title: 'Più Vicino Vince', icon: '🎯' },
+                              { id: 'ordina', title: 'Ordina', icon: '📋' },
+                              { id: 'indovina_immagine', title: 'Indovina l\'Immagine', icon: '🖼️' },
+                              { id: 'jeopardy', title: 'Jeopardy', icon: '🧠' }
                             ].map((g) => {
                               const isSel = (tempSettings.selectedGames || []).includes(g.id);
                               const theme = gameThemes[g.id as GameThemeKey] || gameThemes.default;
@@ -642,6 +681,72 @@ export default function ClientJoin() {
                         </div>
                       </div>
                       )}
+                      
+                      {settingsOpen === 'jeopardy' && (
+                        <div className="input-group" style={{ margin: 0 }}>
+                          <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>
+                            📊 Selezione Categorie (Scegli 5)
+                          </label>
+                          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', background: 'rgba(0,0,0,0.2)', padding: '0.5rem', borderRadius: '1.5rem' }}>
+                            <button
+                              type="button"
+                              style={{ flex: 1, padding: '0.8rem', borderRadius: '1rem', border: 'none', background: tempSettings.categorySelectionMode === 'admin' ? 'var(--color-primary)' : 'transparent', color: 'white', fontWeight: 'bold', cursor: 'pointer', transition: 'all 0.2s' }}
+                              onClick={() => setTempSettings({ ...tempSettings, categorySelectionMode: 'admin' })}
+                            >
+                              Scelta Admin
+                            </button>
+                            <button
+                              type="button"
+                              style={{ flex: 1, padding: '0.8rem', borderRadius: '1rem', border: 'none', background: tempSettings.categorySelectionMode === 'vote' ? 'var(--color-primary)' : 'transparent', color: 'white', fontWeight: 'bold', cursor: 'pointer', transition: 'all 0.2s' }}
+                              onClick={() => setTempSettings({ ...tempSettings, categorySelectionMode: 'vote' })}
+                            >
+                              Voto Giocatori
+                            </button>
+                          </div>
+                          
+                          {tempSettings.categorySelectionMode === 'admin' && (
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                              {[
+                                'Cinema e Serie TV', 'Storia e Mitologia', 'Musica', 'Scienza e Natura',
+                                'Tecnologia e Videogiochi', 'Letteratura e Arte', 'Geografia',
+                                'Cucina e Tradizioni', 'Cultura Pop e Gossip', 'Sport'
+                              ].map(cat => {
+                                const isSelected = (tempSettings.adminCategories || []).includes(cat);
+                                return (
+                                  <button
+                                    type="button"
+                                    key={cat}
+                                    style={{
+                                      background: isSelected ? 'var(--color-primary)' : 'rgba(255,255,255,0.1)',
+                                      color: isSelected ? '#fff' : 'rgba(255,255,255,0.5)',
+                                      padding: '0.8rem 1rem',
+                                      borderRadius: '1.5rem',
+                                      border: isSelected ? '2px solid white' : '1px solid rgba(255,255,255,0.1)',
+                                      cursor: 'pointer',
+                                      fontWeight: 'bold',
+                                      fontSize: '0.9rem',
+                                      flex: '1 1 calc(50% - 0.5rem)',
+                                      transition: 'all 0.2s',
+                                      opacity: isSelected ? 1 : 0.6
+                                    }}
+                                    onClick={(e) => {
+                                      e.preventDefault();
+                                      let current = tempSettings.adminCategories || [];
+                                      if (isSelected) {
+                                        setTempSettings({ ...tempSettings, adminCategories: current.filter((c: string) => c !== cat) });
+                                      } else if (current.length < 5) {
+                                        setTempSettings({ ...tempSettings, adminCategories: [...current, cat] });
+                                      }
+                                    }}
+                                  >
+                                    {cat}
+                                  </button>
+                                );
+                              })}
+                            </div>
+                          )}
+                        </div>
+                      )}
                     </div>
               
               <div style={{ display: 'flex', gap: '1rem', position: 'relative', zIndex: 1 }}>
@@ -673,7 +778,12 @@ export default function ClientJoin() {
                       { id: 'impostore', title: 'Impostore', icon: '🕵️‍♂️' },
                       { id: 'nomi_cose_citta', title: 'Nomi, Cose, Città', icon: '📝' },
                       { id: 'falsario', title: 'Il Falsario', icon: '🤥' },
-                      { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' }
+                      { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' },
+                      { id: 'quiz4', title: 'Quiz 4 Risposte', icon: '⭐' },
+                      { id: 'piu_vicino', title: 'Più Vicino Vince', icon: '🎯' },
+                      { id: 'ordina', title: 'Ordina', icon: '📋' },
+                      { id: 'indovina_immagine', title: 'Indovina l\'Immagine', icon: '🖼️' },
+                      { id: 'jeopardy', title: 'Jeopardy', icon: '🧠' }
                     ].map((game) => {
                       const theme = gameThemes[game.id as GameThemeKey] || gameThemes.default;
                       return (
@@ -845,7 +955,7 @@ export default function ClientJoin() {
           onCancel={() => setImageToCrop(null)} 
         />
       )}
-      <div className="container-mobile" style={{ height: '100%', overflowY: 'auto' }}>
+      <div className="container-mobile" style={{ flex: 1, overflowY: 'visible' }}>
         <header style={{ display: 'flex', justifyContent: 'flex-start', paddingBottom: '1rem', width: '100%' }}>
           <button 
             className="btn btn-secondary" 

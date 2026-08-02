@@ -8,6 +8,7 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import RoundTracker from '../../components/shared/RoundTracker';
 import RoundLeaderboardMobile from '../../components/shared/RoundLeaderboardMobile';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
+import { getServerTime } from '../../utils/serverTime';
 
 export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -102,9 +103,9 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
       updateGameState({
         [`answers/${userId}`]: {
           value: guessToSubmit,
-          timeElapsed: Date.now() - (gameState.startTime || Date.now())
+          timeElapsed: getServerTime() - (gameState.startTime || getServerTime())
         },
-        [`guessFeedback/${userId}`]: { status: 'correct', timestamp: Date.now() }
+        [`guessFeedback/${userId}`]: { status: 'correct', timestamp: getServerTime() }
       });
     } else {
       setGuessFeedback('wrong');
@@ -113,7 +114,7 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
       setTimeout(() => setGuessFeedback(null), 800);
       
       updateGameState({
-        [`guessFeedback/${userId}`]: { status: 'wrong', timestamp: Date.now() }
+        [`guessFeedback/${userId}`]: { status: 'wrong', timestamp: getServerTime() }
       });
     }
   };
@@ -124,7 +125,8 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
         players={lobby?.players} 
         userId={userId} 
         isAdmin={isAdmin} 
-        onReturnToLobby={() => returnToLobbyOrNextGame()} 
+        onReturnToLobby={() => returnToLobbyOrNextGame()}
+        themeKey="la_carriera"
       />
     );
   }
@@ -167,7 +169,7 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
             <button 
               className="btn btn-primary" 
               style={{ marginTop: '3rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
-              onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
+              onClick={() => updateGameState({ action: 'next_round', actionId: getServerTime() })}
             >
               Vedi Classifica (Admin)
             </button>
@@ -191,7 +193,7 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
           <button 
             className="btn btn-primary" 
             style={{ marginTop: '2rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
-            onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
+            onClick={() => updateGameState({ action: 'next_round', actionId: getServerTime() })}
           >
             Prossimo Round (Admin)
           </button>

@@ -47,7 +47,7 @@ export default function RoundLeaderboardMobile({
         Risultati {roundName || 'Round'}
       </h1>
       
-      <motion.div layout style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', width: '100%', maxHeight: '55vh', overflowY: 'auto', padding: '0.5rem' }}>
+      <motion.div layout style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem', width: '100%', overflowY: 'visible', padding: '0.5rem', flex: 1 }}>
         {rankedPlayers.map((p: any) => {
           const id = p.id;
           const targetScore = p.score;

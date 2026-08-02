@@ -11,6 +11,19 @@ export const CATEGORY_COLORS: Record<string, string> = {
   'Sport': 'linear-gradient(135deg, #14b8a6, #0f766e)'
 };
 
+export const CATEGORY_EMOJIS: Record<string, string> = {
+  'Cinema e Serie TV': '🎬',
+  'Musica': '🎵',
+  'Storia e Mitologia': '🏛️',
+  'Scienza e Natura': '🧬',
+  'Tecnologia e Videogiochi': '🎮',
+  'Letteratura e Arte': '📚',
+  'Geografia': '🌍',
+  'Cucina e Tradizioni': '🍕',
+  'Cultura Pop e Gossip': '✨',
+  'Sport': '⚽'
+};
+
 export const ALL_CATEGORIES = Object.keys(CATEGORY_COLORS);
 
 export const getCategoryColor = (category: string | undefined): string => {

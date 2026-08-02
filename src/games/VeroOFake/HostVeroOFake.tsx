@@ -11,6 +11,7 @@ import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import { getCategoryColor } from '../../utils/categories';
 import allQuestions from '../../data/vero_falso.json';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
   const gameState = lobby?.game_state || {};
@@ -39,7 +40,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
         sequence: sequence,
         question: availableQ[sequence[0]],
         answers: {},
-        startTime: Date.now()
+        startTime: getServerTime()
       });
     }
   }, [lobby]);
@@ -87,7 +88,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
           question: nextQ,
           answers: null,
           action: null,
-          startTime: Date.now()
+          startTime: getServerTime()
         });
       } else {
         // Game over
@@ -186,7 +187,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
               })}
             </div>
             
-            <ProgressBar 
+            <ProgressBar startTime={gameState.startTime} 
               key={`progress-${gameState.questionIndex}`} 
               durationMs={(gameState.settings?.duration || 15) * 1000} 
               onComplete={handleRoundEnd} 

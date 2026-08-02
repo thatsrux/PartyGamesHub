@@ -11,6 +11,7 @@ import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import impostoreCategoriesData from '../../data/impostore_categories.json';
 import footballersData from '../../data/footballers.json';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 
 const fallbackWords = [
   "Fuorigioco", "Calcio di Rigore", "VAR", "Mondiale", "Pallone d'Oro", 
@@ -75,7 +76,7 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
       hintWord,
       speakingOrder,
       currentSpeakerIndex: 0,
-      startTime: Date.now(),
+      startTime: getServerTime(),
       votes: null,
       eliminatedIds: [],
       eliminatedThisRound: null,
@@ -97,7 +98,7 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
     if (gameState.action === 'start_discussion' && gameState.phase === 'reveal_roles') {
       updateGameState({
         phase: 'speaking',
-        startTime: Date.now(),
+        startTime: getServerTime(),
         action: null
       });
     } else if (gameState.action === 'next_speaker' && gameState.phase === 'speaking') {
@@ -106,20 +107,20 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
         // Everyone spoke, go to voting
         updateGameState({
           phase: 'voting',
-          startTime: Date.now(),
+          startTime: getServerTime(),
           action: null
         });
       } else {
         updateGameState({
           currentSpeakerIndex: nextIndex,
-          startTime: Date.now(), // Reset timer for next speaker if we add one, or just update state
+          startTime: getServerTime(), // Reset timer for next speaker if we add one, or just update state
           action: null
         });
       }
     } else if (gameState.action === 'start_voting' && (gameState.phase === 'speaking' || gameState.phase === 'discussion')) {
       updateGameState({
         phase: 'voting',
-        startTime: Date.now(),
+        startTime: getServerTime(),
         action: null
       });
     }
@@ -371,7 +372,7 @@ export default function HostImpostore({ lobbyCode }: { lobbyCode: string }) {
               })}
             </div>
             <div style={{ marginTop: '4rem', maxWidth: '600px', margin: '4rem auto 0' }}>
-              <ProgressBar durationMs={30000} onComplete={handleVotingEnd} />
+              <ProgressBar durationMs={30000} startTime={gameState.startTime} onComplete={handleVotingEnd} />
             </div>
           </motion.div>
         )}

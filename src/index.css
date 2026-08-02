@@ -160,8 +160,6 @@ h1 {
   margin: 0 auto;
   padding: max(2rem, env(safe-area-inset-top, 2rem)) max(2rem, env(safe-area-inset-right, 2rem)) max(2rem, env(safe-area-inset-bottom, 2rem)) max(2rem, env(safe-area-inset-left, 2rem));
   width: 100%;
-  overflow-y: auto;
-  overscroll-behavior-y: contain;
 }
 
 .container-mobile {
@@ -173,8 +171,6 @@ h1 {
   flex-direction: column;
   flex: 1;
   min-height: 0;
-  overflow-y: auto;
-  overscroll-behavior-y: contain;
 }
 
 /* Glassmorphism Panels */
@@ -198,11 +194,42 @@ h1 {
   animation: pulse 2s infinite;
 }
 
-/* Hide scrollbar utility */
-.no-scrollbar::-webkit-scrollbar {
+/* Hide scrollbar globally */
+::-webkit-scrollbar {
   display: none;
 }
-.no-scrollbar {
+* {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
+}
+
+/* Giant Slider */
+.giant-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2rem;
+  background: rgba(255,255,255,0.2);
+  border-radius: 1rem;
+  outline: none;
+  margin: 2rem 0;
+}
+.giant-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  border: 4px solid white;
+}
+.giant-slider::-moz-range-thumb {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  border: 4px solid white;
 }

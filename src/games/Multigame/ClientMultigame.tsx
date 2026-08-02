@@ -18,7 +18,12 @@ const catalogGameDetails: Record<string, { title: string; icon: string; themeKey
   impostore: { title: 'Impostore', icon: '🕵️‍♂️', themeKey: 'impostore' },
   nomi_cose_citta: { title: 'Nomi, Cose, Città', icon: '📝', themeKey: 'nomi_cose_citta' },
   falsario: { title: 'Il Falsario', icon: '🤥', themeKey: 'falsario' },
-  disegnatore: { title: 'Disegnatore', icon: '🎨', themeKey: 'disegnatore' }
+  disegnatore: { title: 'Disegnatore', icon: '🎨', themeKey: 'disegnatore' },
+  quiz4: { title: 'Quiz 4 Risposte', icon: '⭐', themeKey: 'quiz4' },
+  piu_vicino: { title: 'Più Vicino Vince', icon: '🎯', themeKey: 'piu_vicino' },
+  ordina: { title: 'Ordina', icon: '📋', themeKey: 'ordina' },
+  indovina_immagine: { title: 'Indovina l\'Immagine', icon: '🖼️', themeKey: 'indovina_immagine' },
+  jeopardy: { title: 'Jeopardy', icon: '🧠', themeKey: 'jeopardy' }
 };
 
 
@@ -143,7 +148,7 @@ export default function ClientMultigame({ lobbyCode, userId }: { lobbyCode: stri
 
   return (
     <Background theme="multigame">
-      <motion.div layoutScroll className="container-mobile no-scrollbar" style={{ overflowY: 'auto', display: 'flex', flexDirection: 'column' }}>
+      <motion.div layoutScroll className="container-mobile no-scrollbar" style={{ overflowY: 'visible', display: 'flex', flexDirection: 'column' }}>
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
