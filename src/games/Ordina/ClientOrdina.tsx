@@ -9,6 +9,7 @@ import RoundTracker from '../../components/shared/RoundTracker';
 import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import { getServerTime } from '../../utils/serverTime';
+import { getCategoryColor } from '../../utils/categories';
 
 function SortableOrdinaItem({ id, item, index }: { id: string, item: string, index: number }) {
   const {
@@ -108,6 +109,7 @@ export default function ClientOrdina({ lobbyCode, userId }: { lobbyCode: string,
         isAdmin={isAdmin} 
         onReturnToLobby={() => returnToLobbyOrNextGame()}
         themeKey="ordina"
+        customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined}
       />
     );
   }
@@ -129,7 +131,7 @@ export default function ClientOrdina({ lobbyCode, userId }: { lobbyCode: string,
     }
     
     return (
-      <GameLayoutMobile themeKey="ordina" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="ordina" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', textAlign: 'center' }}>
         <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 5} isMobile />
         <motion.div 
           className="panel" 
@@ -185,7 +187,7 @@ export default function ClientOrdina({ lobbyCode, userId }: { lobbyCode: string,
   }
 
   return (
-    <GameLayoutMobile themeKey="ordina" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
+    <GameLayoutMobile themeKey="ordina" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', paddingTop: '4rem' }}>
       <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 5} isMobile />
       <ProgressBar durationMs={(gameState.settings?.duration || 25) * 1000} startTime={gameState.startTime} />
       
