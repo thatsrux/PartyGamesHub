@@ -131,7 +131,11 @@ export default function Profile() {
     const categorySelectionMode = saved.categorySelectionMode || def.categorySelectionMode;
     const adminCategories = saved.adminCategories || def.adminCategories;
     
-    setTempSettings({ ...saved, ...def, rounds, duration, categories, selectedGames, categorySelectionMode, adminCategories });
+    const impostoreCategory = saved.impostoreCategory || def.impostoreCategory;
+    const impostorsCount = saved.impostorsCount ?? def.impostorsCount;
+    const impostorHint = saved.impostorHint ?? def.impostorHint;
+    
+    setTempSettings({ ...def, ...saved, rounds, duration, categories, selectedGames, categorySelectionMode, adminCategories, impostoreCategory, impostorsCount, impostorHint });
     setTempCategory('');
     setSettingsOpen(gameId);
     setView('settings');
