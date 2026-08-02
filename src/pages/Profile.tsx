@@ -12,6 +12,8 @@ import type { GameThemeKey } from '../utils/theme';
 import SettingsSlider from '../components/shared/SettingsSlider';
 
 import { ALL_CATEGORIES, getCategoryColor, CATEGORY_COUNTS } from '../utils/categories';
+import { GAMES_CONFIG } from '../config/gamesConfig';
+
 export default function Profile() {
   const navigate = useNavigate();
   const { userId, profile, saveProfile, saveGameSettings, resetAllGameSettings, loading } = useProfile();
@@ -25,20 +27,10 @@ export default function Profile() {
   const [tempSettings, setTempSettings] = useState<any>({});
   const [tempCategory, setTempCategory] = useState('');
 
-  const defaultGameSettings: Record<string, any> = {
-    'multigame': { rounds: 1, duration: 30, selectedGames: ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy'] },
-    'vero_o_fake': { rounds: 10, duration: 15, excludedCategories: [] },
-    'quiz4': { rounds: 10, duration: 15, excludedCategories: [] },
-    'la_carriera': { rounds: 10, duration: 30 },
-    'impostore': { rounds: 5, duration: 60, impostoreCategory: 'Animali', impostorsCount: 1, impostorHint: false },
-    'nomi_cose_citta': { rounds: 3, duration: 60, categories: ['Nomi', 'Cose', 'Città', 'Animali', 'Mestieri'] },
-    'falsario': { rounds: 5, duration: 45 },
-    'disegnatore': { rounds: 2, duration: 60 },
-    'piu_vicino': { rounds: 5, duration: 30 },
-    'ordina': { rounds: 5, duration: 45 },
-    'indovina_immagine': { rounds: 5, duration: 30 },
-    'jeopardy': { categorySelectionMode: 'admin', adminCategories: ['Cinema e Serie TV', 'Storia e Mitologia', 'Musica', 'Scienza e Natura', 'Sport'] }
-  };
+  const defaultGameSettings: Record<string, any> = Object.keys(GAMES_CONFIG).reduce((acc, key) => {
+    acc[key] = GAMES_CONFIG[key].defaultSettings;
+    return acc;
+  }, {} as Record<string, any>);
   
   const [name, setName] = useState('');
   const [photo, setPhoto] = useState<string | null>(null);
@@ -530,21 +522,27 @@ export default function Profile() {
               </h2>
               
               <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginBottom: '2.5rem' }}>
-                <SettingsSlider 
-                  label="Numero di Round"
-                  icon="🎯"
-                  value={tempSettings.rounds || (settingsOpen === 'disegnatore' ? 2 : (settingsOpen === 'nomi_cose_citta' ? 3 : (settingsOpen === 'multigame' ? 1 : 5)))}
-                  min={1} max={settingsOpen === 'disegnatore' ? 4 : (settingsOpen === 'nomi_cose_citta' ? 10 : 20)} step={1}
-                  onChange={(val) => setTempSettings({ ...tempSettings, rounds: val })}
-                />
+                {GAMES_CONFIG[settingsOpen]?.hasRounds && (
+                  <SettingsSlider 
+                    label="Rounds"
+                    icon="🔄"
+                    value={tempSettings.rounds || GAMES_CONFIG[settingsOpen]?.defaultSettings?.rounds || 5}
+                    min={GAMES_CONFIG[settingsOpen]?.minRounds || 1} 
+                    max={GAMES_CONFIG[settingsOpen]?.maxRounds || 20} 
+                    step={1}
+                    onChange={(val) => setTempSettings({ ...tempSettings, rounds: val })}
+                  />
+                )}
                 
-                {settingsOpen !== 'multigame' && (
+                {GAMES_CONFIG[settingsOpen]?.hasDuration && (
                   <SettingsSlider 
                     label="Durata (secondi)"
                     icon="⏱️"
                     suffix="s"
-                    value={tempSettings.duration || 30}
-                    min={10} max={120} step={5}
+                    value={tempSettings.duration || GAMES_CONFIG[settingsOpen]?.defaultSettings?.duration || 30}
+                    min={GAMES_CONFIG[settingsOpen]?.minDuration || 10} 
+                    max={GAMES_CONFIG[settingsOpen]?.maxDuration || 120} 
+                    step={5}
                     onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
                   />
                 )}
@@ -643,7 +641,7 @@ export default function Profile() {
                   </div>
                 )}
                 
-                {(settingsOpen === 'vero_o_fake' || settingsOpen === 'falsario' || settingsOpen === 'quiz4') && (
+                {GAMES_CONFIG[settingsOpen]?.hasCategories && (
                   <div className="input-group" style={{ margin: 0 }}>
                     <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>🗂️ Categorie (Seleziona per includere)</label>
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
