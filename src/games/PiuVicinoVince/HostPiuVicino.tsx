@@ -11,6 +11,7 @@ import LoadingScreen from '../../components/shared/LoadingScreen';
 
 import { piuVicinoQuestions } from './data';
 import { getServerTime } from '../../utils/serverTime';
+import { getCategoryColor } from '../../utils/categories';
 
 export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
@@ -19,7 +20,13 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
   
   useEffect(() => {
     if (lobby && !gameState.phase) {
-      const availableQ = [...piuVicinoQuestions];
+      let availableQ = [...piuVicinoQuestions];
+      const excludedCategories = gameState.settings?.excludedCategories || [];
+      if (excludedCategories.length > 0) {
+        availableQ = availableQ.filter(q => !excludedCategories.includes(q.category || ''));
+      }
+      if (availableQ.length === 0) availableQ = [...piuVicinoQuestions];
+
       const totalRounds = Math.min(gameState.settings?.rounds || 5, availableQ.length);
       const sequence: number[] = [];
       
@@ -87,7 +94,12 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
       if (gameState.questionIndex < totalRounds - 1) {
         const nextIndex = gameState.questionIndex + 1;
         const sequence = gameState.sequence || [];
-        const availableQ = [...piuVicinoQuestions];
+        let availableQ = [...piuVicinoQuestions];
+        const excludedCategories = gameState.settings?.excludedCategories || [];
+        if (excludedCategories.length > 0) {
+          availableQ = availableQ.filter(q => !excludedCategories.includes(q.category || ''));
+        }
+        if (availableQ.length === 0) availableQ = [...piuVicinoQuestions];
 
         const nextQIndex = sequence[nextIndex] !== undefined ? sequence[nextIndex] : Math.floor(Math.random() * availableQ.length);
         const baseQ = availableQ[nextQIndex];
@@ -135,6 +147,7 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
   return (
     <GameLayoutTV 
       themeKey="piu_vicino"
+      customBackground={gameState.question && gameState.phase !== 'finished' ? getCategoryColor(gameState.question.category) : undefined}
       leaderboard={gameState.phase !== 'finished' ? <MiniLeaderboardTV players={players} animateUpdates={true} /> : undefined}
     >
       {gameState.phase !== 'finished' && (
@@ -153,10 +166,10 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
             fontSize: '5rem', 
             marginBottom: '2rem',
             fontWeight: 900,
-            background: 'linear-gradient(135deg, #fcd34d 0%, #f59e0b 100%)',
+            background: 'linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%)',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',
-            textShadow: '0px 10px 20px rgba(0,0,0,0.3)'
+            filter: 'drop-shadow(0px 8px 16px rgba(0,0,0,0.8))'
           }}
         >
           Più Vicino Vince
@@ -168,6 +181,22 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
             
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                {currentQ.category && (
+                  <div style={{
+                    display: 'inline-block',
+                    background: 'rgba(255,255,255,0.2)',
+                    padding: '0.5rem 1.5rem',
+                    borderRadius: '2rem',
+                    fontSize: '1.5rem',
+                    fontWeight: 'bold',
+                    textTransform: 'uppercase',
+                    letterSpacing: '2px',
+                    marginBottom: '1rem',
+                    boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
+                  }}>
+                    {currentQ.category}
+                  </div>
+                )}
                 <h2 style={{ 
                 fontSize: '3.5rem', 
                 marginBottom: '1rem',
@@ -219,6 +248,22 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
 
         {gameState.phase === 'reveal' && (
           <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            {currentQ.category && (
+              <div style={{
+                display: 'inline-block',
+                background: 'rgba(255,255,255,0.2)',
+                padding: '0.25rem 1rem',
+                borderRadius: '1rem',
+                fontSize: '1rem',
+                fontWeight: 'bold',
+                textTransform: 'uppercase',
+                letterSpacing: '1px',
+                marginBottom: '1rem',
+                boxShadow: '0 4px 15px rgba(0,0,0,0.2)'
+              }}>
+                {currentQ.category}
+              </div>
+            )}
             <h3 style={{ 
               fontSize: '2.5rem', 
               color: 'white', 

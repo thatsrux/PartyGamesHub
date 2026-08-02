@@ -6,6 +6,7 @@ import RoundTracker from '../../components/shared/RoundTracker';
 import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import { getServerTime } from '../../utils/serverTime';
+import { getCategoryColor } from '../../utils/categories';
 
 export default function ClientPiuVicino({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -42,6 +43,7 @@ export default function ClientPiuVicino({ lobbyCode, userId }: { lobbyCode: stri
         isAdmin={isAdmin} 
         onReturnToLobby={() => returnToLobbyOrNextGame()}
         themeKey="piu_vicino"
+        customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined}
       />
     );
   }
@@ -57,7 +59,7 @@ export default function ClientPiuVicino({ lobbyCode, userId }: { lobbyCode: stri
     }
     
     return (
-      <GameLayoutMobile themeKey="piu_vicino" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="piu_vicino" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', textAlign: 'center' }}>
         <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 5} isMobile />
         <motion.div 
           className="panel" 
@@ -101,7 +103,7 @@ export default function ClientPiuVicino({ lobbyCode, userId }: { lobbyCode: stri
   }
 
   return (
-    <GameLayoutMobile themeKey="piu_vicino" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
+    <GameLayoutMobile themeKey="piu_vicino" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', paddingTop: '4rem' }}>
       <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 5} isMobile />
       <ProgressBar durationMs={(gameState.settings?.duration || 20) * 1000} startTime={gameState.startTime} />
       

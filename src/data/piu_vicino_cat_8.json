@@ -1,0 +1,750 @@
+[
+  {
+    "question": "Quanti grammi di pasta si considerano solitamente per una porzione standard in Italia?",
+    "min": 50,
+    "max": 150,
+    "answer": 80,
+    "unit": "g",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stata commercializzata per la prima volta la Nutella?",
+    "min": 1940,
+    "max": 1980,
+    "answer": 1964,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la temperatura ideale del forno a legna per cuocere la vera pizza napoletana?",
+    "min": 300,
+    "max": 600,
+    "answer": 485,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stata fondata l'azienda alimentare Barilla?",
+    "min": 1800,
+    "max": 1920,
+    "answer": 1877,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti litri di latte servono circa per produrre una singola forma di Parmigiano Reggiano?",
+    "min": 200,
+    "max": 800,
+    "answer": 550,
+    "unit": "l",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti mesi è la stagionatura minima prevista per il Parmigiano Reggiano DOP?",
+    "min": 6,
+    "max": 24,
+    "answer": 12,
+    "unit": "mesi",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la gradazione alcolica minima legale (in percentuale) per il vino Chianti Classico?",
+    "min": 8,
+    "max": 15,
+    "answer": 12,
+    "unit": "%",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante punte ha tradizionalmente la base a forma di stella del Pandoro?",
+    "min": 5,
+    "max": 12,
+    "answer": 8,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti grammi di zucchero ci sono circa in una lattina classica di Coca-Cola da 33cl venduta in Italia?",
+    "min": 15,
+    "max": 60,
+    "answer": 35,
+    "unit": "g",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stato aperto il primo ristorante McDonald's a San Bernardino?",
+    "min": 1920,
+    "max": 1960,
+    "answer": 1940,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti chicchi di caffè servono approssimativamente per preparare una tazzina di espresso?",
+    "min": 20,
+    "max": 100,
+    "answer": 50,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stata fondata la celebre birreria Guinness a Dublino?",
+    "min": 1600,
+    "max": 1850,
+    "answer": 1759,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "A quale temperatura (in gradi Celsius) dovrebbe essere l'acqua per estrarre un perfetto caffè espresso?",
+    "min": 75,
+    "max": 100,
+    "answer": 90,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti millilitri contiene una bottiglia di vino in formato standard?",
+    "min": 500,
+    "max": 1000,
+    "answer": 750,
+    "unit": "ml",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti millilitri di liquido contiene un classico bicchierino (shot) standard in Italia?",
+    "min": 20,
+    "max": 80,
+    "answer": 40,
+    "unit": "ml",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stata inventata la ricetta della Coca-Cola?",
+    "min": 1850,
+    "max": 1920,
+    "answer": 1886,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stata pubblicata per la prima volta la Guida Michelin in Francia?",
+    "min": 1850,
+    "max": 1930,
+    "answer": 1900,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è il numero massimo di stelle Michelin che un singolo ristorante può ricevere?",
+    "min": 1,
+    "max": 5,
+    "answer": 3,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "A quanti gradi Celsius bolle l'acqua pura a livello del mare?",
+    "min": 80,
+    "max": 120,
+    "answer": 100,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti millilitri di vino contiene una bottiglia in formato Magnum?",
+    "min": 1000,
+    "max": 3000,
+    "answer": 1500,
+    "unit": "ml",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti mesi dura la stagionatura minima del Prosciutto di Parma DOP secondo il disciplinare attuale?",
+    "min": 9,
+    "max": 24,
+    "answer": 14,
+    "unit": "mesi",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è il peso minimo in chilogrammi di un Prosciutto di Parma con osso a fine stagionatura?",
+    "min": 4,
+    "max": 12,
+    "answer": 7,
+    "unit": "kg",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante chilocalorie ci sono in un singolo grammo di grassi alimentari?",
+    "min": 4,
+    "max": 12,
+    "answer": 9,
+    "unit": "kcal",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti ingredienti di base sono ammessi nella birra secondo il tradizionale 'Editto della purezza' (Reinheitsgebot)?",
+    "min": 2,
+    "max": 6,
+    "answer": 3,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stato promulgato l'Editto della purezza per la birra in Baviera?",
+    "min": 1400,
+    "max": 1700,
+    "answer": 1516,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "A quanti gradi Celsius viene riscaldato il latte durante la comune pastorizzazione rapida (HTST)?",
+    "min": 50,
+    "max": 100,
+    "answer": 72,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante chilocalorie sono contenute in 100 grammi di olio extravergine d'oliva?",
+    "min": 600,
+    "max": 1000,
+    "answer": 884,
+    "unit": "kcal",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante chilocalorie fornisce un grammo di proteine?",
+    "min": 1,
+    "max": 9,
+    "answer": 4,
+    "unit": "kcal",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante chilocalorie fornisce un grammo di carboidrati?",
+    "min": 1,
+    "max": 9,
+    "answer": 4,
+    "unit": "kcal",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno si è tenuta la prima edizione dell'Oktoberfest a Monaco di Baviera?",
+    "min": 1750,
+    "max": 1900,
+    "answer": 1810,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno Angelo Moriondo ha brevettato la prima macchina per il caffè espresso?",
+    "min": 1830,
+    "max": 1920,
+    "answer": 1884,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stato aperto il primo supermercato Esselunga a Milano?",
+    "min": 1930,
+    "max": 1980,
+    "answer": 1957,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante pieghe ha tradizionalmente il tipico cappello alto da chef (toque blanche)?",
+    "min": 20,
+    "max": 200,
+    "answer": 100,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti litri di birra contiene un tradizionale boccale bavarese (Maß)?",
+    "min": 0,
+    "max": 2,
+    "answer": 1,
+    "unit": "l",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la percentuale di acqua contenuta in un cetriolo crudo?",
+    "min": 70,
+    "max": 99,
+    "answer": 96,
+    "unit": "%",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la percentuale di acqua contenuta in un'anguria?",
+    "min": 70,
+    "max": 99,
+    "answer": 92,
+    "unit": "%",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti gradi sulla scala Scoville misura in media un peperoncino Jalapeño?",
+    "min": 1000,
+    "max": 15000,
+    "answer": 5000,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti gusti base è in grado di percepire la lingua umana?",
+    "min": 3,
+    "max": 10,
+    "answer": 5,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno sono stati inventati i noodles istantanei in Giappone?",
+    "min": 1930,
+    "max": 1980,
+    "answer": 1958,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante pieghe ha tradizionalmente un raviolo cinese Xiaolongbao fatto a regola d'arte?",
+    "min": 5,
+    "max": 30,
+    "answer": 18,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti grammi di riso crudo si usano generalmente per una porzione standard di risotto in Italia?",
+    "min": 50,
+    "max": 150,
+    "answer": 80,
+    "unit": "g",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la gradazione alcolica media in percentuale del tipico Sake giapponese?",
+    "min": 5,
+    "max": 30,
+    "answer": 15,
+    "unit": "%",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stata creata la famosa salsa piccante Sriracha della Huy Fong Foods?",
+    "min": 1960,
+    "max": 2000,
+    "answer": 1980,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante spezie compongono la famosa 'polvere alle spezie' (five-spice) della cucina cinese?",
+    "min": 3,
+    "max": 10,
+    "answer": 5,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "A quale temperatura (in gradi Celsius) dovrebbe essere l'olio per una frittura in tempura perfetta?",
+    "min": 130,
+    "max": 220,
+    "answer": 170,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti pezzi di sushi contiene solitamente una porzione tradizionale di Nigiri?",
+    "min": 1,
+    "max": 6,
+    "answer": 2,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la temperatura ideale in gradi Celsius per cuocere i macaron in forno?",
+    "min": 100,
+    "max": 200,
+    "answer": 150,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la percentuale minima di cacao affinché un cioccolato possa essere definito fondente extra di alta qualità?",
+    "min": 40,
+    "max": 90,
+    "answer": 70,
+    "unit": "%",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti grammi di zucchero ci sono mediamente in 100 grammi di miele?",
+    "min": 40,
+    "max": 100,
+    "answer": 82,
+    "unit": "g",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stato inventato il cookie con le gocce di cioccolato (chocolate chip cookie)?",
+    "min": 1900,
+    "max": 1960,
+    "answer": 1938,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti strati di pasta sfoglia ci sono tradizionalmente nel dolce Millefoglie?",
+    "min": 2,
+    "max": 6,
+    "answer": 3,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "A quale temperatura in gradi Celsius viene solitamente temperato il cioccolato fondente per la lavorazione finale?",
+    "min": 20,
+    "max": 50,
+    "answer": 32,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Intorno a quale anno è stato inventato il Tiramisù moderno a Treviso?",
+    "min": 1940,
+    "max": 1990,
+    "answer": 1970,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la percentuale minima di nocciole richiesta dal disciplinare per il Gianduiotto di Torino IGP?",
+    "min": 10,
+    "max": 50,
+    "answer": 20,
+    "unit": "%",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti ingredienti base ci sono nella classica ricetta della torta Quattro Quarti (Pound Cake)?",
+    "min": 2,
+    "max": 8,
+    "answer": 4,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti semi (acheni) ci sono in media sulla superficie esterna di una fragola?",
+    "min": 50,
+    "max": 500,
+    "answer": 200,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti chicchi ci sono mediamente su una singola pannocchia di mais?",
+    "min": 200,
+    "max": 1500,
+    "answer": 800,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la percentuale di acqua contenuta in una banana fresca?",
+    "min": 50,
+    "max": 90,
+    "answer": 75,
+    "unit": "%",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti fiori di crocus sativus servono circa per produrre un chilogrammo di zafferano?",
+    "min": 50000,
+    "max": 300000,
+    "answer": 150000,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno la patata è stata introdotta in Europa dall'America?",
+    "min": 1400,
+    "max": 1700,
+    "answer": 1570,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti spicchi ha in media un'arancia?",
+    "min": 5,
+    "max": 15,
+    "answer": 10,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti grammi di proteine ci sono mediamente in un uovo di gallina di grandi dimensioni?",
+    "min": 2,
+    "max": 12,
+    "answer": 6,
+    "unit": "g",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti giorni di incubazione servono affinché un uovo di gallina fecondato si schiuda?",
+    "min": 10,
+    "max": 40,
+    "answer": 21,
+    "unit": "giorni",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti litri d'acqua sono necessari in media per coltivare una singola mandorla in California?",
+    "min": 1,
+    "max": 30,
+    "answer": 12,
+    "unit": "l",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è l'angolo di affilatura tipico in gradi di un tradizionale coltello giapponese (es. Santoku)?",
+    "min": 5,
+    "max": 30,
+    "answer": 15,
+    "unit": "°",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è l'angolo di affilatura tipico in gradi di un coltello da chef occidentale?",
+    "min": 10,
+    "max": 35,
+    "answer": 20,
+    "unit": "°",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la temperatura minima al cuore in gradi Celsius per cuocere il pollame in sicurezza?",
+    "min": 50,
+    "max": 90,
+    "answer": 74,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la temperatura minima in gradi Celsius per cuocere in sicurezza la carne macinata di manzo?",
+    "min": 50,
+    "max": 90,
+    "answer": 71,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stato inventato il forno a microonde da Percy Spencer?",
+    "min": 1920,
+    "max": 1970,
+    "answer": 1945,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stato introdotto il primo robot da cucina domestico (Magimix)?",
+    "min": 1950,
+    "max": 1990,
+    "answer": 1971,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti giorni dura tradizionalmente la festa dell'Oktoberfest a Monaco di Baviera?",
+    "min": 7,
+    "max": 30,
+    "answer": 16,
+    "unit": "giorni",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che giorno del mese di gennaio si festeggia l'Epifania (la Befana) in Italia?",
+    "min": 1,
+    "max": 15,
+    "answer": 6,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti giorni dura il periodo della Quaresima, che storicamente imponeva restrizioni alimentari?",
+    "min": 20,
+    "max": 60,
+    "answer": 40,
+    "unit": "giorni",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti piatti di pesce si preparano tradizionalmente nella 'Festa dei sette pesci' italo-americana alla Vigilia di Natale?",
+    "min": 3,
+    "max": 12,
+    "answer": 7,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno si è celebrata la prima Giornata Mondiale della Pasta (World Pasta Day)?",
+    "min": 1980,
+    "max": 2010,
+    "answer": 1995,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti formati di pasta tradizionali esistono approssimativamente in Italia?",
+    "min": 50,
+    "max": 600,
+    "answer": 300,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti giorni dura la festa ebraica di Hanukkah, durante la quale si mangiano cibi fritti come i latkes?",
+    "min": 3,
+    "max": 15,
+    "answer": 8,
+    "unit": "giorni",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti chicchi d'uva si mangiano tradizionalmente in Spagna allo scoccare della mezzanotte a Capodanno?",
+    "min": 5,
+    "max": 20,
+    "answer": 12,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno avvenne il famoso 'Boston Tea Party', evento storico legato al tè?",
+    "min": 1700,
+    "max": 1850,
+    "answer": 1773,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno fu celebrato il primo Giorno del Ringraziamento (Thanksgiving) nel Nord America?",
+    "min": 1500,
+    "max": 1750,
+    "answer": 1621,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti colori diversi di confetti M&M's ci sono in un sacchetto classico standard?",
+    "min": 3,
+    "max": 10,
+    "answer": 6,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti lati ha la caratteristica base triangolare della barra di cioccolato Toblerone?",
+    "min": 3,
+    "max": 6,
+    "answer": 3,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stata venduta la prima birra in lattina a livello commerciale?",
+    "min": 1900,
+    "max": 1960,
+    "answer": 1935,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti milligrammi di caffeina ci sono mediamente in una tazzina di caffè espresso italiano?",
+    "min": 30,
+    "max": 150,
+    "answer": 60,
+    "unit": "mg",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante chilocalorie ci sono in un singolo confetto di Tic Tac classico?",
+    "min": 0,
+    "max": 10,
+    "answer": 2,
+    "unit": "kcal",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno fu reso popolare il cono gelato durante l'Esposizione Universale di St. Louis?",
+    "min": 1850,
+    "max": 1930,
+    "answer": 1904,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti gusti di gelato offre tradizionalmente la famosa catena americana Baskin-Robbins?",
+    "min": 10,
+    "max": 50,
+    "answer": 31,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Qual è la percentuale di aglio prodotto a livello mondiale che proviene attualmente dalla Cina?",
+    "min": 40,
+    "max": 95,
+    "answer": 80,
+    "unit": "%",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti mesi di crescita impiega in media un ananas prima di poter essere raccolto?",
+    "min": 6,
+    "max": 36,
+    "answer": 20,
+    "unit": "mesi",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante arachidi servono approssimativamente per produrre un barattolo standard (12 once) di burro di arachidi?",
+    "min": 200,
+    "max": 1000,
+    "answer": 540,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti chilogrammi di latte di pecora servono circa per produrre un chilogrammo di formaggio Pecorino Romano?",
+    "min": 3,
+    "max": 12,
+    "answer": 6,
+    "unit": "kg",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stato aperto il primo ristorante della catena Burger King?",
+    "min": 1930,
+    "max": 1980,
+    "answer": 1954,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "A quale temperatura (in gradi Celsius) dovrebbe essere servito un vino rosso corposo come il Barolo?",
+    "min": 10,
+    "max": 25,
+    "answer": 18,
+    "unit": "°C",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante chilocalorie contiene mediamente un panino Big Mac del McDonald's venduto in Europa?",
+    "min": 300,
+    "max": 800,
+    "answer": 508,
+    "unit": "kcal",
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stato inventato il famoso cocktail Negroni dal conte Camillo Negroni a Firenze?",
+    "min": 1890,
+    "max": 1950,
+    "answer": 1919,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti ingredienti alcolici principali compongono in parti uguali il cocktail Negroni?",
+    "min": 2,
+    "max": 6,
+    "answer": 3,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante denominazioni vinicole DOCG (Denominazione di Origine Controllata e Garantita) esistono in Italia? (dato aggiornato agli anni 2020)",
+    "min": 30,
+    "max": 150,
+    "answer": 77,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quante stelle Michelin deteneva lo chef francese Alain Ducasse al culmine della sua carriera?",
+    "min": 10,
+    "max": 30,
+    "answer": 21,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "In che anno è stato lanciato per la prima volta sul mercato il panino Big Mac?",
+    "min": 1950,
+    "max": 1990,
+    "answer": 1967,
+    "category": "Cucina e Tradizioni"
+  },
+  {
+    "question": "Quanti litri d'acqua dolce sono necessari complessivamente per produrre 1 kg di carne di manzo (impronta idrica globale)?",
+    "min": 5000,
+    "max": 30000,
+    "answer": 15000,
+    "unit": "l",
+    "category": "Cucina e Tradizioni"
+  }
+]

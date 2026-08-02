@@ -1,0 +1,802 @@
+[
+    {
+        "question": "Qual è l'altezza del Monte Everest?",
+        "min": 7000,
+        "max": 10000,
+        "answer": 8848,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il fiume Nilo?",
+        "min": 4000,
+        "max": 8000,
+        "answer": 6650,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati compongono gli Stati Uniti d'America?",
+        "min": 40,
+        "max": 60,
+        "answer": 50,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti fusi orari ci sono in Russia?",
+        "min": 5,
+        "max": 15,
+        "answer": 11,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti continenti ci sono nel modello più insegnato nei paesi di lingua inglese (7 continenti)?",
+        "min": 4,
+        "max": 9,
+        "answer": 7,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza del Monte Bianco?",
+        "min": 3500,
+        "max": 6000,
+        "answer": 4809,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il fiume Po?",
+        "min": 300,
+        "max": 1000,
+        "answer": 652,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati sono membri delle Nazioni Unite?",
+        "min": 150,
+        "max": 250,
+        "answer": 193,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è la circonferenza della Terra all'equatore (in km)?",
+        "min": 30000,
+        "max": 50000,
+        "answer": 40075,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante regioni ci sono in Italia?",
+        "min": 15,
+        "max": 25,
+        "answer": 20,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "A quanti metri di profondità si trova il punto più profondo della Fossa delle Marianne (Abisso Challenger)?",
+        "min": 8000,
+        "max": 15000,
+        "answer": 10928,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il Rio delle Amazzoni (secondo gran parte degli studiosi)?",
+        "min": 5000,
+        "max": 8000,
+        "answer": 6992,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati indipendenti ci sono nel Sudamerica?",
+        "min": 8,
+        "max": 20,
+        "answer": 12,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti cantoni ha la Svizzera?",
+        "min": 15,
+        "max": 35,
+        "answer": 26,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza dell'Etna?",
+        "min": 2500,
+        "max": 4500,
+        "answer": 3357,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati europei (microstati inclusi) sono senza sbocco sul mare?",
+        "min": 5,
+        "max": 20,
+        "answer": 14,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante nazioni sono pienamente riconosciute e situate in Africa?",
+        "min": 40,
+        "max": 70,
+        "answer": 54,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti oceani ci sono sulla Terra (secondo il modello dell'Organizzazione Idrografica Internazionale)?",
+        "min": 3,
+        "max": 7,
+        "answer": 5,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il Canale di Suez?",
+        "min": 100,
+        "max": 300,
+        "answer": 193,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il Canale di Panama?",
+        "min": 40,
+        "max": 150,
+        "answer": 82,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è la lunghezza stimata di tutte le sezioni della Grande Muraglia Cinese (in km)?",
+        "min": 10000,
+        "max": 30000,
+        "answer": 21196,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante province e città metropolitane ci sono in Italia?",
+        "min": 80,
+        "max": 130,
+        "answer": 107,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altitudine della città di La Paz, capitale governativa della Bolivia?",
+        "min": 2500,
+        "max": 5000,
+        "answer": 3640,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "A quanti metri sotto il livello del mare si trova la superficie del Mar Morto?",
+        "min": 200,
+        "max": 600,
+        "answer": 430,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati confinano via terra con l'Italia?",
+        "min": 3,
+        "max": 8,
+        "answer": 6,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati confinano via terra con la Germania?",
+        "min": 5,
+        "max": 12,
+        "answer": 9,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti laghi ci sono in Finlandia (arrotondato alle migliaia)?",
+        "min": 50000,
+        "max": 250000,
+        "answer": 188000,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza del K2?",
+        "min": 7500,
+        "max": 9500,
+        "answer": 8611,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti ponti attraversano i canali nel centro storico di Venezia (circa)?",
+        "min": 200,
+        "max": 600,
+        "answer": 435,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "A quanti metri di profondità massima arriva il Lago di Como?",
+        "min": 200,
+        "max": 600,
+        "answer": 410,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è la superficie del Lago di Garda in chilometri quadrati?",
+        "min": 200,
+        "max": 500,
+        "answer": 370,
+        "unit": "km²",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti comuni ci sono in Italia (al 2024)?",
+        "min": 6000,
+        "max": 10000,
+        "answer": 7896,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è alta la cascata del Salto Angel (la più alta del mondo)?",
+        "min": 500,
+        "max": 1500,
+        "answer": 979,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante isole principali compongono le Canarie?",
+        "min": 5,
+        "max": 15,
+        "answer": 8,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti fusi orari attraversano gli USA (inclusi tutti i territori d'oltremare)?",
+        "min": 4,
+        "max": 15,
+        "answer": 11,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante isole ci sono nell'arcipelago delle Filippine (circa)?",
+        "min": 3000,
+        "max": 10000,
+        "answer": 7641,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati federati compongono l'Australia?",
+        "min": 4,
+        "max": 10,
+        "answer": 6,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il fiume Danubio?",
+        "min": 1500,
+        "max": 4000,
+        "answer": 2850,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza del Vesuvio?",
+        "min": 800,
+        "max": 2000,
+        "answer": 1281,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati fanno parte dell'Unione Europea (nel 2024)?",
+        "min": 20,
+        "max": 35,
+        "answer": 27,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante nazioni fanno parte del bacino idrografico del Nilo?",
+        "min": 5,
+        "max": 15,
+        "answer": 11,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altitudine media della città di Bogotà?",
+        "min": 1500,
+        "max": 4000,
+        "answer": 2640,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è alto il monte Kilimangiaro?",
+        "min": 4000,
+        "max": 7000,
+        "answer": 5895,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti sono gli Emirati che compongono gli Emirati Arabi Uniti?",
+        "min": 5,
+        "max": 10,
+        "answer": 7,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti ettari misura la Città del Vaticano?",
+        "min": 20,
+        "max": 80,
+        "answer": 44,
+        "unit": "ettari",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante isole possiede la Svezia (circa, in migliaia)?",
+        "min": 100,
+        "max": 400,
+        "answer": 267,
+        "unit": "k",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto distano in linea d'aria Roma e Milano (circa, in km)?",
+        "min": 300,
+        "max": 700,
+        "answer": 477,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti sistemi vulcanici attivi ci sono in Islanda?",
+        "min": 10,
+        "max": 50,
+        "answer": 33,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti gradi sotto zero misura il record assoluto di temperatura più bassa mai registrata in Antartide?",
+        "min": 60,
+        "max": 110,
+        "answer": 89,
+        "unit": "°C",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante nazioni condividono una frontiera terrestre con la Cina?",
+        "min": 10,
+        "max": 20,
+        "answer": 14,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il fiume Tevere?",
+        "min": 200,
+        "max": 600,
+        "answer": 405,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è la superficie totale della Terra (in milioni di km²)?",
+        "min": 300,
+        "max": 700,
+        "answer": 510,
+        "unit": "M km²",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza del Cervino?",
+        "min": 3500,
+        "max": 5500,
+        "answer": 4478,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante nazioni sovrane sono attraversate dall'equatore terrestre?",
+        "min": 8,
+        "max": 20,
+        "answer": 13,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il fiume Mississippi?",
+        "min": 2500,
+        "max": 5000,
+        "answer": 3770,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati compongono il Brasile?",
+        "min": 20,
+        "max": 35,
+        "answer": 26,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "A che latitudine Nord si trova all'incirca il Circolo Polare Artico (in gradi)?",
+        "min": 55,
+        "max": 75,
+        "answer": 66,
+        "unit": "°",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti metri di dislivello ha la Cascata delle Marmore (tra le più alte in Europa)?",
+        "min": 100,
+        "max": 300,
+        "answer": 165,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è profondo l'Oceano Pacifico in media (in metri)?",
+        "min": 2000,
+        "max": 6000,
+        "answer": 4280,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti fusi orari copre la Cina ufficialmente?",
+        "min": 1,
+        "max": 5,
+        "answer": 1,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti chilometri quadrati misura la superficie della Sardegna (circa)?",
+        "min": 15000,
+        "max": 30000,
+        "answer": 24090,
+        "unit": "km²",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza del Monte Rosa (Punta Dufour)?",
+        "min": 4000,
+        "max": 5000,
+        "answer": 4634,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati membri ha la NATO (al 2024)?",
+        "min": 25,
+        "max": 40,
+        "answer": 32,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante stazioni ha attualmente la metropolitana di Londra?",
+        "min": 200,
+        "max": 350,
+        "answer": 272,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il fiume Tamigi?",
+        "min": 200,
+        "max": 500,
+        "answer": 346,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza del Gran Sasso (Corno Grande)?",
+        "min": 2000,
+        "max": 3500,
+        "answer": 2912,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante isole e isolotti si stima ci siano in Grecia?",
+        "min": 3000,
+        "max": 9000,
+        "answer": 6000,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è profondo il Lago Baikal (il lago più profondo al mondo)?",
+        "min": 1000,
+        "max": 2500,
+        "answer": 1642,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è la distanza media tra la Terra e la Luna (in migliaia di km)?",
+        "min": 200,
+        "max": 500,
+        "answer": 384,
+        "unit": "k km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante nazioni sono attraversate dal Tropico del Cancro?",
+        "min": 10,
+        "max": 25,
+        "answer": 16,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza del vulcano Stromboli sul livello del mare?",
+        "min": 500,
+        "max": 1500,
+        "answer": 924,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto dista New York da Roma (in linea d'aria, in km, circa)?",
+        "min": 5000,
+        "max": 9000,
+        "answer": 6890,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati compongono la repubblica federale dell'India?",
+        "min": 20,
+        "max": 40,
+        "answer": 28,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti fusi orari attraversa l'Australia?",
+        "min": 2,
+        "max": 5,
+        "answer": 3,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza del vulcano Teide sull'isola di Tenerife?",
+        "min": 2500,
+        "max": 4500,
+        "answer": 3718,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti stati sovrani confinano via terra con la Russia?",
+        "min": 8,
+        "max": 20,
+        "answer": 14,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti chilometri è lunga la linea di costa dell'Italia (circa)?",
+        "min": 5000,
+        "max": 10000,
+        "answer": 7914,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altitudine media di Città del Messico?",
+        "min": 1500,
+        "max": 3500,
+        "answer": 2240,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti parchi nazionali ci sono negli Stati Uniti (al 2024)?",
+        "min": 40,
+        "max": 80,
+        "answer": 63,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza dell'Aconcagua, la montagna più alta delle Americhe?",
+        "min": 6000,
+        "max": 8000,
+        "answer": 6960,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il fiume Arno?",
+        "min": 150,
+        "max": 400,
+        "answer": 241,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è la temperatura più alta mai registrata in modo affidabile sulla Terra (nella Valle della Morte, in °C)?",
+        "min": 45,
+        "max": 65,
+        "answer": 54,
+        "unit": "°C",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante isole principali compongono l'arcipelago delle Azzorre?",
+        "min": 5,
+        "max": 15,
+        "answer": 9,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza del Monte Elbrus, la montagna più alta d'Europa?",
+        "min": 4500,
+        "max": 6500,
+        "answer": 5642,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti cantoni svizzeri sono esclusivamente o a maggioranza di lingua italiana?",
+        "min": 1,
+        "max": 5,
+        "answer": 1,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "A quale altitudine si trova la sorgente del fiume Po (Pian del Re)?",
+        "min": 1000,
+        "max": 3000,
+        "answer": 2022,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante regioni italiane non hanno sbocco sul mare?",
+        "min": 2,
+        "max": 8,
+        "answer": 5,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante stelle a cinque punte ci sono sulla bandiera dell'Unione Europea?",
+        "min": 10,
+        "max": 20,
+        "answer": 12,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altitudine media stimata dell'Antartide (in metri)?",
+        "min": 1500,
+        "max": 3500,
+        "answer": 2500,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il fiume Gange?",
+        "min": 2000,
+        "max": 3500,
+        "answer": 2525,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante province e territori compongono complessivamente il Canada?",
+        "min": 8,
+        "max": 18,
+        "answer": 13,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è l'altezza della Marmolada (Punta Penia), la vetta più alta delle Dolomiti?",
+        "min": 2500,
+        "max": 4000,
+        "answer": 3343,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti laghi ci sono in Italia con una superficie superiore a 100 km²?",
+        "min": 2,
+        "max": 10,
+        "answer": 5,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanto è lungo il fiume Volga, il più lungo d'Europa?",
+        "min": 2500,
+        "max": 4500,
+        "answer": 3531,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti dipartimenti o regioni d'oltremare ha la Francia (escluse le collettività)?",
+        "min": 2,
+        "max": 10,
+        "answer": 5,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti chilometri quadrati misura la Valle d'Aosta (la regione più piccola d'Italia)?",
+        "min": 2000,
+        "max": 5000,
+        "answer": 3261,
+        "unit": "km²",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è la larghezza dello Stretto di Gibilterra nel suo punto più stretto (in km)?",
+        "min": 5,
+        "max": 25,
+        "answer": 14,
+        "unit": "km",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quante enclavi di stati indipendenti ci sono all'interno del territorio italiano?",
+        "min": 0,
+        "max": 4,
+        "answer": 2,
+        "unit": "",
+        "category": "Geografia"
+    },
+    {
+        "question": "Qual è la profondità media stimata del Mar Mediterraneo (in metri)?",
+        "min": 1000,
+        "max": 2500,
+        "answer": 1500,
+        "unit": "m",
+        "category": "Geografia"
+    },
+    {
+        "question": "Quanti metri è alto il campanile di Giotto a Firenze?",
+        "min": 60,
+        "max": 110,
+        "answer": 85,
+        "unit": "m",
+        "category": "Geografia"
+    }
+]
