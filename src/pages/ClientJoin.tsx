@@ -29,6 +29,8 @@ import type { GameThemeKey } from '../utils/theme';
 import Background from '../components/shared/Background';
 
 import { ALL_CATEGORIES, getCategoryColor, CATEGORY_COUNTS } from '../utils/categories';
+import { GAMES_CONFIG } from '../config/gamesConfig';
+
 export default function ClientJoin() {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
@@ -42,17 +44,10 @@ export default function ClientJoin() {
   const [isJoined, setIsJoined] = useState(initialIsJoined);
   const [error, setError] = useState<string | null>(null);
 
-  const defaultSettings: Record<string, any> = {
-    'multigame': { rounds: 1, duration: 30, selectedGames: ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy'] },
-    'vero_o_fake': { rounds: 10, duration: 15 },
-    'la_carriera': { rounds: 10, duration: 30 },
-    'impostore': { rounds: 5, duration: 60, impostoreCategory: 'Animali', impostorsCount: 1, impostorHint: false },
-    'nomi_cose_citta': { rounds: 3, duration: 60, categories: ['Nomi', 'Cose', 'Città', 'Animali', 'Mestieri'] },
-    'falsario': { rounds: 5, duration: 45 },
-    'disegnatore': { rounds: 2, duration: 60 },
-    'jeopardy': { categorySelectionMode: 'admin', adminCategories: ['Cinema e Serie TV', 'Storia e Mitologia', 'Musica', 'Scienza e Natura', 'Sport'] },
-    'quiz4': { rounds: 5, duration: 15 }
-  };
+  const defaultSettings: Record<string, any> = Object.keys(GAMES_CONFIG).reduce((acc, key) => {
+    acc[key] = GAMES_CONFIG[key].defaultSettings;
+    return acc;
+  }, {} as Record<string, any>);
   const [settingsOpen, setSettingsOpen] = useState<string | null>(null);
   const [multigameSubgameMode, setMultigameSubgameMode] = useState<boolean>(false);
   const [tempSettings, setTempSettings] = useState<any>({});
@@ -419,15 +414,19 @@ export default function ClientJoin() {
                     </h2>
                     
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', marginBottom: '2.5rem' }}>
-                      <SettingsSlider 
-                        label="Numero di Round"
-                        icon="🎯"
-                        value={tempSettings.rounds || (settingsOpen === 'disegnatore' ? 2 : (settingsOpen === 'nomi_cose_citta' ? 3 : (settingsOpen === 'multigame' ? 1 : 5)))}
-                        min={1} max={settingsOpen === 'disegnatore' ? 4 : (settingsOpen === 'nomi_cose_citta' ? 10 : 20)} step={1}
-                        onChange={(val) => setTempSettings({ ...tempSettings, rounds: val })}
-                      />
+                      {GAMES_CONFIG[settingsOpen]?.hasRounds && (
+                        <SettingsSlider 
+                          label="Rounds"
+                          icon="🔄"
+                          value={tempSettings.rounds || GAMES_CONFIG[settingsOpen]?.defaultSettings?.rounds || 5}
+                          min={GAMES_CONFIG[settingsOpen]?.minRounds || 1} 
+                          max={GAMES_CONFIG[settingsOpen]?.maxRounds || 20} 
+                          step={1}
+                          onChange={(val) => setTempSettings({ ...tempSettings, rounds: val })}
+                        />
+                      )}
                       
-                      {settingsOpen !== 'multigame' && (
+                      {GAMES_CONFIG[settingsOpen]?.hasDuration && (
                         <SettingsSlider 
                           label="Durata (secondi)"
                           icon="⏱️"
@@ -583,7 +582,7 @@ export default function ClientJoin() {
                       )}
 
                       
-                      {(settingsOpen === 'vero_o_fake' || settingsOpen === 'falsario' || settingsOpen === 'quiz4') && (
+                      {GAMES_CONFIG[settingsOpen]?.hasCategories && (
                         <div className="input-group" style={{ margin: 0 }}>
                           <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>🗂️ Categorie (Seleziona per includere)</label>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
