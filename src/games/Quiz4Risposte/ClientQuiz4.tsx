@@ -5,6 +5,7 @@ import RoundTracker from '../../components/shared/RoundTracker';
 import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import { getServerTime } from '../../utils/serverTime';
+import { getCategoryColor } from '../../utils/categories';
 
 export default function ClientQuiz4({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -42,7 +43,7 @@ export default function ClientQuiz4({ lobbyCode, userId }: { lobbyCode: string, 
     const isCorrect = myAnswer === currentQ?.correctIndex;
     
     return (
-      <GameLayoutMobile themeKey="quiz4" style={{ justifyContent: 'center', textAlign: 'center' }}>
+      <GameLayoutMobile themeKey="quiz4" style={{ justifyContent: 'center', textAlign: 'center' }} customBackground={currentQ ? getCategoryColor(currentQ.category) : undefined}>
         <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 5} isMobile />
         <motion.div 
           className="panel" 
@@ -81,7 +82,7 @@ export default function ClientQuiz4({ lobbyCode, userId }: { lobbyCode: string, 
   }
 
   return (
-    <GameLayoutMobile themeKey="quiz4" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
+    <GameLayoutMobile themeKey="quiz4" style={{ justifyContent: 'center', paddingTop: '4rem' }} customBackground={currentQ ? getCategoryColor(currentQ.category) : undefined}>
       <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 5} isMobile />
       <ProgressBar durationMs={(gameState.settings?.duration || 15) * 1000} startTime={gameState.startTime} />
       
