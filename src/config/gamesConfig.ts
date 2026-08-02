@@ -71,10 +71,10 @@ export const GAMES_CONFIG: Record<string, GameConfig> = {
   },
   'piu_vicino': { 
     id: 'piu_vicino', title: 'Più Vicino Vince', icon: '🎯', 
-    defaultSettings: { rounds: 5, duration: 30 },
+    defaultSettings: { rounds: 5, duration: 30, excludedCategories: [] },
     hasRounds: true,
     hasDuration: true,
-    hasCategories: false
+    hasCategories: true
   },
   'ordina': { 
     id: 'ordina', title: 'Ordina', icon: '📋', 

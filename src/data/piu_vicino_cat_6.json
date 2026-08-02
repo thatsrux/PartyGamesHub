@@ -1,0 +1,802 @@
+[
+  {
+    "question": "In che anno è nato Dante Alighieri?",
+    "min": 1150,
+    "max": 1350,
+    "answer": 1265,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è morto Leonardo da Vinci?",
+    "min": 1450,
+    "max": 1600,
+    "answer": 1519,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti canti compongono la Divina Commedia?",
+    "min": 50,
+    "max": 150,
+    "answer": 100,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è stata pubblicata la prima edizione de 'I Promessi Sposi' (la Ventisettana)?",
+    "min": 1750,
+    "max": 1900,
+    "answer": 1827,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti sono i romanzi principali della saga di Harry Potter?",
+    "min": 3,
+    "max": 12,
+    "answer": 7,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "A quanti anni è morto Vincent van Gogh?",
+    "min": 20,
+    "max": 70,
+    "answer": 37,
+    "unit": "anni",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato William Shakespeare?",
+    "min": 1450,
+    "max": 1650,
+    "answer": 1564,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti dipinti ha venduto Vincent van Gogh durante la sua vita (secondo la leggenda più diffusa)?",
+    "min": 0,
+    "max": 20,
+    "answer": 1,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno Pablo Picasso ha dipinto 'Guernica'?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1937,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante sono le Muse nella mitologia greca?",
+    "min": 3,
+    "max": 20,
+    "answer": 9,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è stato pubblicato 'Il Signore degli Anelli - La Compagnia dell'Anello'?",
+    "min": 1920,
+    "max": 1990,
+    "answer": 1954,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti sonetti ha scritto William Shakespeare?",
+    "min": 50,
+    "max": 300,
+    "answer": 154,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno Edvard Munch ha dipinto la prima versione de 'L'urlo'?",
+    "min": 1850,
+    "max": 1950,
+    "answer": 1893,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti capitoli ha il romanzo 'I Promessi Sposi'?",
+    "min": 15,
+    "max": 60,
+    "answer": 38,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti anni ha impiegato Michelangelo per dipingere la volta della Cappella Sistina?",
+    "min": 1,
+    "max": 15,
+    "answer": 4,
+    "unit": "anni",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Michelangelo Buonarroti?",
+    "min": 1350,
+    "max": 1550,
+    "answer": 1475,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "A che età è morto Raffaello Sanzio?",
+    "min": 20,
+    "max": 60,
+    "answer": 37,
+    "unit": "anni",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti romanzi ha completato e pubblicato Jane Austen?",
+    "min": 2,
+    "max": 15,
+    "answer": 6,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato il romanzo '1984' di George Orwell?",
+    "min": 1900,
+    "max": 1984,
+    "answer": 1949,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno si stima sia stata completata o lasciata incompiuta la Gioconda?",
+    "min": 1450,
+    "max": 1600,
+    "answer": 1519,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti metri (arrotondati per difetto) è alta la statua del David di Michelangelo?",
+    "min": 2,
+    "max": 10,
+    "answer": 5,
+    "unit": "m",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Vincent van Gogh?",
+    "min": 1800,
+    "max": 1920,
+    "answer": 1853,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti canti compongono l'Inferno di Dante Alighieri?",
+    "min": 15,
+    "max": 60,
+    "answer": 34,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti canti compongono il Purgatorio di Dante Alighieri?",
+    "min": 15,
+    "max": 60,
+    "answer": 33,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti canti compongono il Paradiso di Dante Alighieri?",
+    "min": 15,
+    "max": 60,
+    "answer": 33,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato per la prima volta 'Moby Dick'?",
+    "min": 1800,
+    "max": 1920,
+    "answer": 1851,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è morta la pittrice Frida Kahlo?",
+    "min": 1920,
+    "max": 2000,
+    "answer": 1954,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante sillabe poetiche formano tipicamente un endecasillabo?",
+    "min": 6,
+    "max": 16,
+    "answer": 11,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è stato assegnato il primo Premio Nobel per la letteratura?",
+    "min": 1850,
+    "max": 1950,
+    "answer": 1901,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti libri compongono la serie 'Le cronache di Narnia'?",
+    "min": 3,
+    "max": 15,
+    "answer": 7,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Giacomo Leopardi?",
+    "min": 1700,
+    "max": 1850,
+    "answer": 1798,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "A che età è morto Giacomo Leopardi?",
+    "min": 20,
+    "max": 70,
+    "answer": 38,
+    "unit": "anni",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è stata rubata dal Louvre l'opera 'La Gioconda'?",
+    "min": 1850,
+    "max": 1960,
+    "answer": 1911,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è stato pubblicato 'Il Piccolo Principe'?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1943,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante novelle vengono raccontate in totale nel Decameron?",
+    "min": 20,
+    "max": 200,
+    "answer": 100,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In quanti giorni i giovani si raccontano le novelle nel Decameron?",
+    "min": 3,
+    "max": 30,
+    "answer": 10,
+    "unit": "giorni",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti sono i giovani (donne e uomini) che si rifugiano fuori Firenze nel Decameron?",
+    "min": 3,
+    "max": 25,
+    "answer": 10,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Da quanti libri (o canti) è composta l'Odissea?",
+    "min": 10,
+    "max": 50,
+    "answer": 24,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Da quanti libri (o canti) è composta l'Iliade?",
+    "min": 10,
+    "max": 50,
+    "answer": 24,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Da quanti libri è composta l'Eneide di Virgilio?",
+    "min": 5,
+    "max": 30,
+    "answer": 12,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Alessandro Manzoni?",
+    "min": 1700,
+    "max": 1850,
+    "answer": 1785,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno Salvador Dalí ha dipinto 'La persistenza della memoria'?",
+    "min": 1880,
+    "max": 1980,
+    "answer": 1931,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è morto William Shakespeare?",
+    "min": 1550,
+    "max": 1700,
+    "answer": 1616,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante versioni su tela della serie de 'I Girasoli' ha realizzato Van Gogh ad Arles?",
+    "min": 2,
+    "max": 20,
+    "answer": 7,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato il pittore Claude Monet?",
+    "min": 1800,
+    "max": 1920,
+    "answer": 1840,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante terzine compongono un sonetto tradizionale?",
+    "min": 1,
+    "max": 6,
+    "answer": 2,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante quartine compongono un sonetto tradizionale?",
+    "min": 1,
+    "max": 6,
+    "answer": 2,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è stata pubblicata la prima parte del 'Don Chisciotte della Mancia'?",
+    "min": 1500,
+    "max": 1750,
+    "answer": 1605,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti volumi compongono l'opera 'Alla ricerca del tempo perduto' di Marcel Proust?",
+    "min": 3,
+    "max": 15,
+    "answer": 7,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato 'Orgoglio e Pregiudizio'?",
+    "min": 1750,
+    "max": 1900,
+    "answer": 1813,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu fondato e aperto al pubblico il museo del Louvre?",
+    "min": 1650,
+    "max": 1900,
+    "answer": 1793,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante opere teatrali scrisse William Shakespeare (secondo il canone tradizionale)?",
+    "min": 10,
+    "max": 80,
+    "answer": 37,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato il primo libro della saga 'Cronache del ghiaccio e del fuoco' (Il Trono di Spade)?",
+    "min": 1970,
+    "max": 2015,
+    "answer": 1996,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nata Agatha Christie?",
+    "min": 1830,
+    "max": 1940,
+    "answer": 1890,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In quanti romanzi compare il celebre detective Hercule Poirot?",
+    "min": 10,
+    "max": 80,
+    "answer": 33,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Gabriel García Márquez?",
+    "min": 1890,
+    "max": 1970,
+    "answer": 1927,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato 'Cent'anni di solitudine'?",
+    "min": 1920,
+    "max": 2000,
+    "answer": 1967,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato 'Frankenstein' di Mary Shelley?",
+    "min": 1750,
+    "max": 1900,
+    "answer": 1818,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti anni aveva Mary Shelley alla pubblicazione anonima di 'Frankenstein'?",
+    "min": 12,
+    "max": 40,
+    "answer": 20,
+    "unit": "anni",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti anni è vissuto il pittore Sandro Botticelli?",
+    "min": 40,
+    "max": 90,
+    "answer": 65,
+    "unit": "anni",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno Leonardo da Vinci portò a termine 'L'Ultima Cena'?",
+    "min": 1400,
+    "max": 1600,
+    "answer": 1498,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "A che età è morto Michelangelo Buonarroti?",
+    "min": 50,
+    "max": 100,
+    "answer": 88,
+    "unit": "anni",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti gradini formano la scalinata di Piazza di Spagna (Trinità dei Monti) a Roma?",
+    "min": 50,
+    "max": 300,
+    "answer": 135,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno nacque il pittore Caravaggio (Michelangelo Merisi)?",
+    "min": 1500,
+    "max": 1650,
+    "answer": 1571,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno morì Caravaggio?",
+    "min": 1550,
+    "max": 1700,
+    "answer": 1610,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Ludovico Ariosto?",
+    "min": 1350,
+    "max": 1600,
+    "answer": 1474,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Da quanti capitoli è composto 'Il ritratto di Dorian Gray' (nella versione definitiva)?",
+    "min": 10,
+    "max": 50,
+    "answer": 20,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato in volume 'Il ritratto di Dorian Gray'?",
+    "min": 1820,
+    "max": 1950,
+    "answer": 1891,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti versi compongono una poesia haiku?",
+    "min": 2,
+    "max": 10,
+    "answer": 3,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante sillabe (morae) ha il primo verso di un haiku tradizionale giapponese?",
+    "min": 2,
+    "max": 10,
+    "answer": 5,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante commedie di Aristofane ci sono pervenute integre?",
+    "min": 3,
+    "max": 30,
+    "answer": 11,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Victor Hugo?",
+    "min": 1750,
+    "max": 1900,
+    "answer": 1802,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato il romanzo 'I Miserabili'?",
+    "min": 1800,
+    "max": 1930,
+    "answer": 1862,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante cantiche compongono la Divina Commedia?",
+    "min": 2,
+    "max": 10,
+    "answer": 3,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti sono i cerchi dell'Inferno descritti da Dante?",
+    "min": 3,
+    "max": 20,
+    "answer": 9,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Luigi Pirandello?",
+    "min": 1800,
+    "max": 1930,
+    "answer": 1867,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti sono i personaggi 'in cerca d'autore' nell'omonima opera di Pirandello?",
+    "min": 2,
+    "max": 15,
+    "answer": 6,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno Luigi Pirandello ha vinto il Premio Nobel per la Letteratura?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1934,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è morta Grazia Deledda?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1936,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno Grazia Deledda fu insignita del Premio Nobel per la Letteratura?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1926,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti Premi Nobel per la letteratura ha vinto l'Italia fino ad oggi?",
+    "min": 1,
+    "max": 15,
+    "answer": 6,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno Eugenio Montale ha ricevuto il Premio Nobel per la Letteratura?",
+    "min": 1940,
+    "max": 2010,
+    "answer": 1975,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Charles Dickens?",
+    "min": 1750,
+    "max": 1900,
+    "answer": 1812,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato 'Canto di Natale' (A Christmas Carol)?",
+    "min": 1800,
+    "max": 1900,
+    "answer": 1843,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato J.R.R. Tolkien?",
+    "min": 1830,
+    "max": 1950,
+    "answer": 1892,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Stephen King?",
+    "min": 1910,
+    "max": 1990,
+    "answer": 1947,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è stato pubblicato 'Carrie', il primo romanzo di Stephen King?",
+    "min": 1940,
+    "max": 2000,
+    "answer": 1974,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato 'Dracula' di Bram Stoker?",
+    "min": 1820,
+    "max": 1950,
+    "answer": 1897,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Franz Kafka?",
+    "min": 1820,
+    "max": 1940,
+    "answer": 1883,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno nacque Oscar Wilde?",
+    "min": 1800,
+    "max": 1920,
+    "answer": 1854,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "A che età è morto Oscar Wilde?",
+    "min": 25,
+    "max": 75,
+    "answer": 46,
+    "unit": "anni",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quante notti durano i racconti di Shahrazād (simbolicamente) per salvarsi la vita?",
+    "min": 500,
+    "max": 2000,
+    "answer": 1001,
+    "unit": "notti",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è stato pubblicato 'Il grande Gatsby'?",
+    "min": 1890,
+    "max": 1970,
+    "answer": 1925,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Fëdor Dostoevskij?",
+    "min": 1750,
+    "max": 1900,
+    "answer": 1821,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato in rivista 'Delitto e castigo'?",
+    "min": 1800,
+    "max": 1930,
+    "answer": 1866,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti sono i fratelli legittimi Karamazov nell'omonimo romanzo di Dostoevskij?",
+    "min": 2,
+    "max": 10,
+    "answer": 3,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "Quanti romanzi ha scritto e pubblicato Italo Svevo in tutta la sua vita?",
+    "min": 1,
+    "max": 15,
+    "answer": 3,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu pubblicato 'La coscienza di Zeno'?",
+    "min": 1880,
+    "max": 1970,
+    "answer": 1923,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno fu fondata l'Accademia della Crusca?",
+    "min": 1400,
+    "max": 1750,
+    "answer": 1583,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  },
+  {
+    "question": "In che anno è nato Umberto Eco?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1932,
+    "unit": "",
+    "category": "Letteratura e Arte"
+  }
+]

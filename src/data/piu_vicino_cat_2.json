@@ -1,0 +1,802 @@
+[
+  {
+    "question": "Quanti tasti ci sono in un pianoforte acustico standard?",
+    "min": 60,
+    "max": 110,
+    "answer": 88,
+    "unit": "tasti",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante corde ha una chitarra classica?",
+    "min": 4,
+    "max": 8,
+    "answer": 6,
+    "unit": "corde",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante corde ha un basso elettrico standard?",
+    "min": 2,
+    "max": 6,
+    "answer": 4,
+    "unit": "corde",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti pedali ha tipicamente un pianoforte a coda moderno?",
+    "min": 1,
+    "max": 5,
+    "answer": 3,
+    "unit": "pedali",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante linee orizzontali compongono il pentagramma musicale?",
+    "min": 3,
+    "max": 7,
+    "answer": 5,
+    "unit": "linee",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti spazi ci sono tra le linee del pentagramma musicale?",
+    "min": 2,
+    "max": 6,
+    "answer": 4,
+    "unit": "spazi",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante note da un ottavo servono per comporre un intero (semibreve)?",
+    "min": 4,
+    "max": 16,
+    "answer": 8,
+    "unit": "note",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante corde ha un violino?",
+    "min": 3,
+    "max": 6,
+    "answer": 4,
+    "unit": "corde",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante corde ha un violoncello?",
+    "min": 3,
+    "max": 6,
+    "answer": 4,
+    "unit": "corde",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante valvole a pistone ha una tromba standard?",
+    "min": 1,
+    "max": 5,
+    "answer": 3,
+    "unit": "valvole",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante note compongono una scala cromatica entro un'ottava?",
+    "min": 7,
+    "max": 15,
+    "answer": 12,
+    "unit": "note",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante note diverse compongono una scala diatonica maggiore?",
+    "min": 5,
+    "max": 10,
+    "answer": 7,
+    "unit": "note",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti tasti neri ci sono in una singola ottava del pianoforte?",
+    "min": 3,
+    "max": 7,
+    "answer": 5,
+    "unit": "tasti",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti tasti bianchi ci sono in una singola ottava del pianoforte?",
+    "min": 5,
+    "max": 10,
+    "answer": 7,
+    "unit": "tasti",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante corde ha un'arpa da concerto moderna?",
+    "min": 30,
+    "max": 60,
+    "answer": 47,
+    "unit": "corde",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti pedali ha tipicamente un'arpa da concerto?",
+    "min": 3,
+    "max": 10,
+    "answer": 7,
+    "unit": "pedali",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante sinfonie ha composto Ludwig van Beethoven?",
+    "min": 5,
+    "max": 15,
+    "answer": 9,
+    "unit": "sinfonie",
+    "category": "Musica"
+  },
+  {
+    "question": "A che età è morto Wolfgang Amadeus Mozart?",
+    "min": 25,
+    "max": 50,
+    "answer": 35,
+    "unit": "anni",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è nato Johann Sebastian Bach?",
+    "min": 1600,
+    "max": 1750,
+    "answer": 1685,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante sono 'Le Quattro Stagioni' composte da Vivaldi?",
+    "min": 2,
+    "max": 8,
+    "answer": 4,
+    "unit": "stagioni",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno è stata eseguita per la prima volta la Nona Sinfonia di Beethoven?",
+    "min": 1800,
+    "max": 1850,
+    "answer": 1824,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti movimenti compongono generalmente una sinfonia classica?",
+    "min": 2,
+    "max": 6,
+    "answer": 4,
+    "unit": "movimenti",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti atti compongono l'opera 'La Traviata' di Giuseppe Verdi?",
+    "min": 2,
+    "max": 5,
+    "answer": 3,
+    "unit": "atti",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno c'è stata la prima rappresentazione dell'opera 'Il barbiere di Siviglia'?",
+    "min": 1780,
+    "max": 1850,
+    "answer": 1816,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è nato il compositore Giuseppe Verdi?",
+    "min": 1790,
+    "max": 1840,
+    "answer": 1813,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscito l'album 'Thriller' di Michael Jackson?",
+    "min": 1970,
+    "max": 1995,
+    "answer": 1982,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti membri formavano i Beatles?",
+    "min": 2,
+    "max": 6,
+    "answer": 4,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno sono stati fondati i Rolling Stones?",
+    "min": 1950,
+    "max": 1975,
+    "answer": 1962,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno è morto Elvis Presley?",
+    "min": 1965,
+    "max": 1985,
+    "answer": 1977,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti Grammy Awards ha vinto Beyoncé (record assoluto al 2023)?",
+    "min": 15,
+    "max": 45,
+    "answer": 32,
+    "unit": "Grammy",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti erano i membri originari della band Queen?",
+    "min": 2,
+    "max": 6,
+    "answer": 4,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "A che età è morto Kurt Cobain?",
+    "min": 21,
+    "max": 33,
+    "answer": 27,
+    "unit": "anni",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno si è tenuto il primo festival di Woodstock?",
+    "min": 1960,
+    "max": 1980,
+    "answer": 1969,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanto dura in secondi la canzone 'Bohemian Rhapsody' dei Queen (versione studio originale)?",
+    "min": 300,
+    "max": 400,
+    "answer": 355,
+    "unit": "secondi",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscito l'album 'The Dark Side of the Moon' dei Pink Floyd?",
+    "min": 1965,
+    "max": 1985,
+    "answer": 1973,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è nata la cantante pop Madonna?",
+    "min": 1945,
+    "max": 1970,
+    "answer": 1958,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscito l'album 'Nevermind' dei Nirvana?",
+    "min": 1980,
+    "max": 2000,
+    "answer": 1991,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno è stato assassinato John Lennon?",
+    "min": 1970,
+    "max": 1990,
+    "answer": 1980,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno è morto Freddie Mercury?",
+    "min": 1985,
+    "max": 1995,
+    "answer": 1991,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno si è formata la band rock degli U2?",
+    "min": 1965,
+    "max": 1985,
+    "answer": 1976,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscito il singolo 'Smells Like Teen Spirit' dei Nirvana?",
+    "min": 1985,
+    "max": 1995,
+    "answer": 1991,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "A che età è morto Jimi Hendrix?",
+    "min": 21,
+    "max": 33,
+    "answer": 27,
+    "unit": "anni",
+    "category": "Musica"
+  },
+  {
+    "question": "A che età è morta Amy Winehouse?",
+    "min": 21,
+    "max": 33,
+    "answer": 27,
+    "unit": "anni",
+    "category": "Musica"
+  },
+  {
+    "question": "A che età è morta Janis Joplin?",
+    "min": 21,
+    "max": 33,
+    "answer": 27,
+    "unit": "anni",
+    "category": "Musica"
+  },
+  {
+    "question": "A che età è morto Jim Morrison?",
+    "min": 21,
+    "max": 33,
+    "answer": 27,
+    "unit": "anni",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno sono stati fondati i Pink Floyd?",
+    "min": 1955,
+    "max": 1975,
+    "answer": 1965,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscito l'album 'Back in Black' degli AC/DC?",
+    "min": 1970,
+    "max": 1990,
+    "answer": 1980,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti sono i membri della band metal Slipknot (formazione classica a nove)?",
+    "min": 4,
+    "max": 12,
+    "answer": 9,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti album in studio canonici (catalogo principale britannico) hanno pubblicato i Beatles?",
+    "min": 8,
+    "max": 20,
+    "answer": 13,
+    "unit": "album",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti membri formano il gruppo K-pop BTS?",
+    "min": 4,
+    "max": 10,
+    "answer": 7,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno si sono ufficialmente sciolti i Beatles?",
+    "min": 1965,
+    "max": 1975,
+    "answer": 1970,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno Elvis Presley ha inciso il suo primo disco ('That's All Right') per la Sun Records?",
+    "min": 1945,
+    "max": 1965,
+    "answer": 1954,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno Michael Jackson ha eseguito per la prima volta il Moonwalk in TV?",
+    "min": 1975,
+    "max": 1990,
+    "answer": 1983,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti Grammy Awards ha vinto Michael Jackson in una singola cerimonia nel 1984?",
+    "min": 3,
+    "max": 12,
+    "answer": 8,
+    "unit": "Grammy",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti anni aveva Justin Bieber quando è uscito il suo singolo 'Baby' (inizio 2010)?",
+    "min": 12,
+    "max": 20,
+    "answer": 15,
+    "unit": "anni",
+    "category": "Musica"
+  },
+  {
+    "question": "Da quanti membri erano composti originariamente gli One Direction?",
+    "min": 3,
+    "max": 7,
+    "answer": 5,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti sono i componenti della band Metallica (dall'ingresso di Trujillo in poi)?",
+    "min": 3,
+    "max": 6,
+    "answer": 4,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno si sono formati i Led Zeppelin?",
+    "min": 1960,
+    "max": 1980,
+    "answer": 1968,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è morto il cantautore britannico David Bowie?",
+    "min": 2010,
+    "max": 2020,
+    "answer": 2016,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è morto il cantante Prince?",
+    "min": 2010,
+    "max": 2020,
+    "answer": 2016,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è morto George Michael?",
+    "min": 2010,
+    "max": 2020,
+    "answer": 2016,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è nato Bruce Springsteen?",
+    "min": 1935,
+    "max": 1960,
+    "answer": 1949,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "A che età è morto il rapper Tupac Shakur?",
+    "min": 20,
+    "max": 35,
+    "answer": 25,
+    "unit": "anni",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno è stato assassinato Tupac Shakur?",
+    "min": 1990,
+    "max": 2005,
+    "answer": 1996,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno è stato assassinato The Notorious B.I.G.?",
+    "min": 1990,
+    "max": 2005,
+    "answer": 1997,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscita la versione originale di 'Hallelujah' cantata da Leonard Cohen?",
+    "min": 1970,
+    "max": 1995,
+    "answer": 1984,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno Bob Dylan ha vinto il Premio Nobel per la letteratura?",
+    "min": 2005,
+    "max": 2020,
+    "answer": 2016,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti membri ci sono nel gruppo Red Hot Chili Peppers?",
+    "min": 3,
+    "max": 6,
+    "answer": 4,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno il duo elettronico Daft Punk ha annunciato il suo scioglimento?",
+    "min": 2015,
+    "max": 2023,
+    "answer": 2021,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti erano i componenti del gruppo svedese ABBA?",
+    "min": 2,
+    "max": 6,
+    "answer": 4,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti erano i membri originari del gruppo Jackson 5?",
+    "min": 3,
+    "max": 7,
+    "answer": 5,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno il brano 'Wannabe' delle Spice Girls è diventato una hit mondiale?",
+    "min": 1990,
+    "max": 2005,
+    "answer": 1996,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscito l'album 'Sgt. Pepper's Lonely Hearts Club Band' dei Beatles?",
+    "min": 1960,
+    "max": 1975,
+    "answer": 1967,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti Premi Oscar ha vinto Ennio Morricone in totale (incluso quello alla carriera)?",
+    "min": 0,
+    "max": 5,
+    "answer": 2,
+    "unit": "Oscar",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante volte l'Italia ha vinto l'Eurovision Song Contest (fino al 2023)?",
+    "min": 1,
+    "max": 6,
+    "answer": 3,
+    "unit": "volte",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno si è tenuta la prima edizione del Festival di Sanremo?",
+    "min": 1940,
+    "max": 1965,
+    "answer": 1951,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti Festival di Sanremo ha condotto Pippo Baudo (record assoluto)?",
+    "min": 5,
+    "max": 20,
+    "answer": 13,
+    "unit": "edizioni",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante vittorie al Festival di Sanremo ha ottenuto Domenico Modugno?",
+    "min": 1,
+    "max": 7,
+    "answer": 4,
+    "unit": "vittorie",
+    "category": "Musica"
+  },
+  {
+    "question": "Quante vittorie al Festival di Sanremo ha ottenuto Claudio Villa?",
+    "min": 1,
+    "max": 7,
+    "answer": 4,
+    "unit": "vittorie",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è nato Vasco Rossi?",
+    "min": 1940,
+    "max": 1965,
+    "answer": 1952,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscita la canzone 'Albachiara' di Vasco Rossi?",
+    "min": 1970,
+    "max": 1990,
+    "answer": 1979,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscito l'album 'La voce del padrone' di Franco Battiato?",
+    "min": 1970,
+    "max": 1990,
+    "answer": 1981,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Quanti erano i membri dei Pooh nella loro formazione più duratura (Facchinetti, Battaglia, D'Orazio, Canzian)?",
+    "min": 3,
+    "max": 6,
+    "answer": 4,
+    "unit": "membri",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è nato Luciano Ligabue?",
+    "min": 1950,
+    "max": 1975,
+    "answer": 1960,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è nato il cantante italiano Tiziano Ferro?",
+    "min": 1970,
+    "max": 1990,
+    "answer": 1980,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno i Måneskin hanno vinto l'Eurovision Song Contest?",
+    "min": 2015,
+    "max": 2024,
+    "answer": 2021,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno è morto il cantautore Fabrizio De André?",
+    "min": 1990,
+    "max": 2010,
+    "answer": 1999,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è nato il cantautore Pino Daniele?",
+    "min": 1945,
+    "max": 1965,
+    "answer": 1955,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno Andrea Bocelli ha partecipato al Festival di Sanremo vincendo nelle Nuove Proposte con 'Il mare calmo della sera'?",
+    "min": 1985,
+    "max": 2000,
+    "answer": 1994,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "A che età è morto il cantautore Rino Gaetano?",
+    "min": 25,
+    "max": 45,
+    "answer": 30,
+    "unit": "anni",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno Mina si è ritirata definitivamente dalle scene pubbliche (ultimo concerto a Bussoladomani)?",
+    "min": 1970,
+    "max": 1985,
+    "answer": 1978,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno Adriano Celentano ha cantato '24 mila baci' a Sanremo?",
+    "min": 1955,
+    "max": 1970,
+    "answer": 1961,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è stato lanciato sul mercato il primo Compact Disc (CD) audio?",
+    "min": 1970,
+    "max": 1995,
+    "answer": 1982,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è stata fondata la piattaforma di streaming Spotify?",
+    "min": 2000,
+    "max": 2015,
+    "answer": 2006,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In quale anno è stata lanciata l'emittente televisiva MTV?",
+    "min": 1970,
+    "max": 1995,
+    "answer": 1981,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "Qual era la capacità in minuti della prima versione standard di un CD audio?",
+    "min": 45,
+    "max": 90,
+    "answer": 74,
+    "unit": "minuti",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno la Apple ha lanciato il primo modello di iPod?",
+    "min": 1995,
+    "max": 2005,
+    "answer": 2001,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è uscito il film musicale 'La febbre del sabato sera'?",
+    "min": 1970,
+    "max": 1985,
+    "answer": 1977,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno è stata fondata l'etichetta discografica Motown Records?",
+    "min": 1945,
+    "max": 1970,
+    "answer": 1959,
+    "unit": "",
+    "category": "Musica"
+  },
+  {
+    "question": "In che anno il formato di compressione audio MP3 è diventato ufficialmente uno standard?",
+    "min": 1985,
+    "max": 2000,
+    "answer": 1993,
+    "unit": "",
+    "category": "Musica"
+  }
+]
