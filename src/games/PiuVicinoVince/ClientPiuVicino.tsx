@@ -53,7 +53,7 @@ export default function ClientPiuVicino({ lobbyCode, userId }: { lobbyCode: stri
     if (diff !== null) {
       const normalizedDiff = diff / maxDiff;
       points = Math.floor(100 * Math.exp(-25 * Math.pow(normalizedDiff, 2)));
-      if (diff === 0) points += 50; // Exact match bonus
+      if (diff === 0) points += 500; // Exact match bonus
     }
     
     return (
