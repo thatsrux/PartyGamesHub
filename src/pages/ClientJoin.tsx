@@ -50,7 +50,8 @@ export default function ClientJoin() {
     'nomi_cose_citta': { rounds: 3, duration: 60, categories: ['Nomi', 'Cose', 'Città', 'Animali', 'Mestieri'] },
     'falsario': { rounds: 5, duration: 45 },
     'disegnatore': { rounds: 2, duration: 60 },
-    'jeopardy': { categorySelectionMode: 'admin', adminCategories: ['Cinema e Serie TV', 'Storia e Mitologia', 'Musica', 'Scienza e Natura', 'Sport'] }
+    'jeopardy': { categorySelectionMode: 'admin', adminCategories: ['Cinema e Serie TV', 'Storia e Mitologia', 'Musica', 'Scienza e Natura', 'Sport'] },
+    'quiz4': { rounds: 5, duration: 15 }
   };
   const [settingsOpen, setSettingsOpen] = useState<string | null>(null);
   const [multigameSubgameMode, setMultigameSubgameMode] = useState<boolean>(false);

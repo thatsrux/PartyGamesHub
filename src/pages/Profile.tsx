@@ -28,6 +28,7 @@ export default function Profile() {
   const defaultGameSettings: Record<string, any> = {
     'multigame': { rounds: 1, duration: 30, selectedGames: ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy'] },
     'vero_o_fake': { rounds: 10, duration: 15, excludedCategories: [] },
+    'quiz4': { rounds: 10, duration: 15, excludedCategories: [] },
     'la_carriera': { rounds: 10, duration: 30 },
     'impostore': { rounds: 5, duration: 60, impostoreCategory: 'Animali', impostorsCount: 1, impostorHint: false },
     'nomi_cose_citta': { rounds: 3, duration: 60, categories: ['Nomi', 'Cose', 'Città', 'Animali', 'Mestieri'] },
@@ -643,7 +644,7 @@ export default function Profile() {
                   </div>
                 )}
                 
-                {(settingsOpen === 'vero_o_fake' || settingsOpen === 'falsario') && (
+                {(settingsOpen === 'vero_o_fake' || settingsOpen === 'falsario' || settingsOpen === 'quiz4') && (
                   <div className="input-group" style={{ margin: 0 }}>
                     <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>🗂️ Categorie (Seleziona per includere)</label>
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
@@ -677,7 +678,7 @@ export default function Profile() {
                               setTempSettings({ ...tempSettings, excludedCategories: excluded });
                             }}
                           >
-                            {cat} <span style={{ opacity: 0.7, fontSize: '0.8rem' }}>({CATEGORY_COUNTS[settingsOpen as 'vero_o_fake' | 'falsario']?.[cat] || 0})</span>
+                            {cat} <span style={{ opacity: 0.7, fontSize: '0.8rem' }}>({CATEGORY_COUNTS[settingsOpen as 'vero_o_fake' | 'falsario' | 'quiz4']?.[cat] || 0})</span>
                           </button>
                         );
                       })}
