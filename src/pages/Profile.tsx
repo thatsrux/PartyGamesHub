@@ -34,7 +34,6 @@ export default function Profile() {
     'nomi_cose_citta': { rounds: 3, duration: 60, categories: ['Nomi', 'Cose', 'Città', 'Animali', 'Mestieri'] },
     'falsario': { rounds: 5, duration: 45 },
     'disegnatore': { rounds: 2, duration: 60 },
-    'quiz4': { rounds: 10, duration: 20 },
     'piu_vicino': { rounds: 5, duration: 30 },
     'ordina': { rounds: 5, duration: 45 },
     'indovina_immagine': { rounds: 5, duration: 30 },
