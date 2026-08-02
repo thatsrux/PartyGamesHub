@@ -50,7 +50,7 @@ export default function Background({ theme = 'default', children }: BackgroundPr
       />
       
       {/* Content wrapper */}
-      <div style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', flex: 1, width: '100%', height: '100%', minHeight: 0 }}>
+      <div style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', flex: 1, width: '100%', height: '100%', overflowY: 'auto', overflowX: 'hidden' }}>
         {children}
       </div>
     </div>

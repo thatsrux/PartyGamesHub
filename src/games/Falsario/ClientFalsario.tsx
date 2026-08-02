@@ -7,6 +7,7 @@ import RoundTracker from '../../components/shared/RoundTracker';
 import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 
 export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -51,7 +52,9 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
         players={lobby?.players} 
         userId={userId} 
         isAdmin={isAdmin} 
-        onReturnToLobby={() => returnToLobbyOrNextGame()} 
+        onReturnToLobby={() => returnToLobbyOrNextGame()}
+        themeKey="falsario"
+        customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined}
       />
     );
   }
@@ -72,7 +75,7 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
             <button 
               className="btn btn-primary" 
               style={{ marginTop: '3rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
-              onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
+              onClick={() => updateGameState({ action: 'next_round', actionId: getServerTime() })}
             >
               {(gameState.round || 1) >=(gameState.totalRounds || gameState.settings?.rounds || 3) ? 'Termina Partita (Admin)' : 'Prossimo Round (Admin)'}
             </button>
@@ -111,7 +114,7 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
     }
 
     return (
-      <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'flex-start', paddingTop: '4rem' }}>
+      <GameLayoutMobile themeKey="falsario" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'flex-start', paddingTop: '4rem' }}>
         <RoundTracker current={gameState.round || 1} total={gameState.totalRounds || gameState.settings?.rounds || 3} isMobile />
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} style={{ height: '100%', display: 'flex', flexDirection: 'column' }}>
           <ProgressBar durationMs={30000} startTime={gameState.startTime} />
@@ -172,7 +175,7 @@ export default function ClientFalsario({ lobbyCode, userId }: { lobbyCode: strin
     }
 
     return (
-      <GameLayoutMobile themeKey="falsario" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
+      <GameLayoutMobile themeKey="falsario" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', paddingTop: '4rem' }}>
         <RoundTracker current={gameState.round || 1} total={gameState.totalRounds || gameState.settings?.rounds || 3} isMobile />
         <motion.div className="panel" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}>
           <ProgressBar durationMs={(gameState.settings?.duration || 60) * 1000} startTime={gameState.startTime} />

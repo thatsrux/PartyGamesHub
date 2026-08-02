@@ -1,13 +1,42 @@
 export default function Avatar({ 
   photo, 
   name, 
-  size = 40 
+  size = 40,
+  zoomFactor
 }: { 
   photo?: string | null, 
   name: string, 
-  size?: number 
+  size?: number,
+  zoomFactor?: number
 }) {
   if (photo) {
+    if (zoomFactor) {
+      return (
+        <div style={{
+          width: size,
+          height: size,
+          borderRadius: '50%',
+          border: '2px solid rgba(255,255,255,0.1)',
+          background: 'var(--color-panel)',
+          overflow: 'hidden',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center'
+        }}>
+          <img 
+            src={photo} 
+            alt={name} 
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              transform: `scale(${zoomFactor})`
+            }} 
+          />
+        </div>
+      );
+    }
+
     return (
       <img 
         src={photo} 

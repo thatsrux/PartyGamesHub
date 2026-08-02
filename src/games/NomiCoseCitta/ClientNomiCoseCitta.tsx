@@ -6,6 +6,7 @@ import RoundTracker from '../../components/shared/RoundTracker';
 import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 
 export default function ClientNomiCoseCitta({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -48,7 +49,7 @@ export default function ClientNomiCoseCitta({ lobbyCode, userId }: { lobbyCode: 
   };
 
   const confirmValidations = () => {
-    updateGameState({ action: 'calculate_points', actionId: Date.now() });
+    updateGameState({ action: 'calculate_points', actionId: getServerTime() });
   };
 
   if (phase === 'spin') {
@@ -64,7 +65,7 @@ export default function ClientNomiCoseCitta({ lobbyCode, userId }: { lobbyCode: 
   if (phase === 'write') {
     const isReady = gameState.readyPlayers?.[userId];
     const duration = (gameState.settings?.duration || 60) * 1000;
-    const startTime = gameState.endTime ? gameState.endTime - duration : Date.now();
+    const startTime = gameState.endTime ? gameState.endTime - duration : getServerTime();
 
     if (isReady) {
       return (
@@ -201,7 +202,7 @@ export default function ClientNomiCoseCitta({ lobbyCode, userId }: { lobbyCode: 
         <h2 style={{ fontSize: '2.5rem', color: 'var(--color-success)', marginBottom: '2rem' }}>Guarda la TV!</h2>
         
         {isAdmin && (
-          <button className="btn btn-primary btn-giant" onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}>
+          <button className="btn btn-primary btn-giant" onClick={() => updateGameState({ action: 'next_round', actionId: getServerTime() })}>
             {(gameState.round || 1) >= (gameState.settings?.rounds || 3) ? 'Vai alla Classifica Finale' : 'Prossimo Round'}
           </button>
         )}

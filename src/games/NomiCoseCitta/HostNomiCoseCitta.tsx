@@ -9,6 +9,7 @@ import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import ProgressBar from '../../components/shared/ProgressBar';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 
 const ALPHABET = 'ABCDEFGHILMNOPQRSTUVZ'.split('');
 
@@ -58,7 +59,7 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
             phase: 'write',
             letter: finalLetter,
             usedLetters: [...(gameState.usedLetters || []), finalLetter],
-            endTime: Date.now() + (gameState.settings?.duration || 60) * 1000,
+            endTime: getServerTime() + (gameState.settings?.duration || 60) * 1000,
             answers: null,
             validations: null,
             readyPlayers: null
@@ -78,7 +79,7 @@ export default function HostNomiCoseCitta({ lobbyCode }: { lobbyCode: string }) 
   useEffect(() => {
     if (gameState.phase === 'write' && gameState.endTime) {
       const interval = setInterval(() => {
-        const remaining = Math.max(0, Math.ceil((gameState.endTime - Date.now()) / 1000));
+        const remaining = Math.max(0, Math.ceil((gameState.endTime - getServerTime()) / 1000));
         
         const allReady = Object.keys(players).length > 0 && Object.keys(players).every(pId => gameState.readyPlayers?.[pId]);
 

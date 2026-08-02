@@ -5,6 +5,7 @@ import PodiumMobile from '../../components/shared/PodiumMobile';
 import RoundTracker from '../../components/shared/RoundTracker';
 import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
+import { getServerTime } from '../../utils/serverTime';
 
 export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -28,7 +29,9 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
         players={lobby?.players} 
         userId={userId} 
         isAdmin={isAdmin} 
-        onReturnToLobby={() => returnToLobbyOrNextGame()} 
+        onReturnToLobby={() => returnToLobbyOrNextGame()}
+        themeKey="vero_o_fake"
+        customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined}
       />
     );
   }
@@ -58,7 +61,7 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
             <button 
               className="btn btn-primary" 
               style={{ marginTop: '3rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }}
-              onClick={() => updateGameState({ action: 'next_round', actionId: Date.now() })}
+              onClick={() => updateGameState({ action: 'next_round', actionId: getServerTime() })}
             >
               {(gameState.questionIndex || 0) + 1 >= (gameState.totalRounds || gameState.settings?.rounds || 10) ? 'Termina Partita (Admin)' : 'Prossimo Round (Admin)'}
             </button>
@@ -69,7 +72,7 @@ export default function ClientVeroOFake({ lobbyCode, userId }: { lobbyCode: stri
   }
 
   return (
-    <GameLayoutMobile themeKey="vero_o_fake" style={{ justifyContent: 'center', paddingTop: '4rem' }}>
+    <GameLayoutMobile themeKey="vero_o_fake" customBackground={gameState.question ? getCategoryColor(gameState.question.category) : undefined} style={{ justifyContent: 'center', paddingTop: '4rem' }}>
       <RoundTracker current={(gameState.questionIndex || 0) + 1} total={gameState.totalRounds || gameState.settings?.rounds || 10} isMobile />
       <ProgressBar durationMs={(gameState.settings?.duration || 15) * 1000} startTime={gameState.startTime} />
       

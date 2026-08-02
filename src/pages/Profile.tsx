@@ -26,13 +26,18 @@ export default function Profile() {
   const [tempCategory, setTempCategory] = useState('');
 
   const defaultGameSettings: Record<string, any> = {
-    'multigame': { rounds: 5, duration: 30, selectedGames: ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'] },
+    'multigame': { rounds: 1, duration: 30, selectedGames: ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy'] },
     'vero_o_fake': { rounds: 10, duration: 15, excludedCategories: [] },
     'la_carriera': { rounds: 10, duration: 30 },
     'impostore': { rounds: 5, duration: 60, impostoreCategory: 'Animali', impostorsCount: 1, impostorHint: false },
     'nomi_cose_citta': { rounds: 3, duration: 60, categories: ['Nomi', 'Cose', 'Città', 'Animali', 'Mestieri'] },
     'falsario': { rounds: 5, duration: 45 },
-    'disegnatore': { rounds: 2, duration: 60 }
+    'disegnatore': { rounds: 2, duration: 60 },
+    'quiz4': { rounds: 10, duration: 20 },
+    'piu_vicino': { rounds: 5, duration: 30 },
+    'ordina': { rounds: 5, duration: 45 },
+    'indovina_immagine': { rounds: 5, duration: 30 },
+    'jeopardy': { categorySelectionMode: 'admin', adminCategories: ['Cinema e Serie TV', 'Storia e Mitologia', 'Musica', 'Scienza e Natura', 'Sport'] }
   };
   
   const [name, setName] = useState('');
@@ -124,12 +129,17 @@ export default function Profile() {
   const handleOpenSettings = (gameId: string) => {
     const saved = profile?.gameSettings?.[gameId] || {};
     const def = defaultGameSettings[gameId] || {};
-    const rounds = saved.rounds || def.rounds;
+    let rounds = saved.rounds || def.rounds;
+    if (gameId === 'multigame' && rounds === 5) {
+      rounds = 1;
+    }
     const duration = saved.duration || def.duration;
     const categories = saved.categories || def.categories;
-    const selectedGames = saved.selectedGames || def.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore'];
+    const selectedGames = saved.selectedGames || def.selectedGames || ['vero_o_fake', 'la_carriera', 'impostore', 'nomi_cose_citta', 'falsario', 'disegnatore', 'quiz4', 'piu_vicino', 'ordina', 'indovina_immagine', 'jeopardy'];
+    const categorySelectionMode = saved.categorySelectionMode || def.categorySelectionMode;
+    const adminCategories = saved.adminCategories || def.adminCategories;
     
-    setTempSettings({ ...saved, ...def, rounds, duration, categories, selectedGames });
+    setTempSettings({ ...saved, ...def, rounds, duration, categories, selectedGames, categorySelectionMode, adminCategories });
     setTempCategory('');
     setSettingsOpen(gameId);
     setView('settings');
@@ -406,7 +416,12 @@ export default function Profile() {
                 { id: 'impostore', title: 'Impostore', icon: '🕵️‍♂️' },
                 { id: 'nomi_cose_citta', title: 'Nomi, Cose, Città', icon: '📝' },
                 { id: 'falsario', title: 'Il Falsario', icon: '🤥' },
-                { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' }
+                { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' },
+                { id: 'quiz4', title: 'Quiz 4 Risposte', icon: '⭐' },
+                { id: 'piu_vicino', title: 'Più Vicino Vince', icon: '🎯' },
+                { id: 'ordina', title: 'Ordina', icon: '📋' },
+                { id: 'indovina_immagine', title: "Indovina l'immagine", icon: '🖼️' },
+                { id: 'jeopardy', title: 'Jeopardy', icon: '🧠' }
               ].map((game) => {
                 const theme = gameThemes[game.id as GameThemeKey] || gameThemes.default;
                 return (
@@ -505,7 +520,12 @@ export default function Profile() {
                   { id: 'impostore', title: 'Impostore' },
                   { id: 'nomi_cose_citta', title: 'Nomi, Cose, Città' },
                   { id: 'falsario', title: 'Il Falsario' },
-                  { id: 'disegnatore', title: 'Disegnatore' }
+                  { id: 'disegnatore', title: 'Disegnatore' },
+                  { id: 'quiz4', title: 'Quiz 4 Risposte' },
+                  { id: 'piu_vicino', title: 'Più Vicino Vince' },
+                  { id: 'ordina', title: 'Ordina' },
+                  { id: 'indovina_immagine', title: "Indovina l'immagine" },
+                  { id: 'jeopardy', title: 'Jeopardy' }
                 ].find(g => g.id === settingsOpen)?.title || 'Impostazioni'}
               </h2>
               
@@ -513,19 +533,21 @@ export default function Profile() {
                 <SettingsSlider 
                   label="Numero di Round"
                   icon="🎯"
-                  value={tempSettings.rounds || (settingsOpen === 'disegnatore' ? 2 : (settingsOpen === 'nomi_cose_citta' ? 3 : 5))}
+                  value={tempSettings.rounds || (settingsOpen === 'disegnatore' ? 2 : (settingsOpen === 'nomi_cose_citta' ? 3 : (settingsOpen === 'multigame' ? 1 : 5)))}
                   min={1} max={settingsOpen === 'disegnatore' ? 4 : (settingsOpen === 'nomi_cose_citta' ? 10 : 20)} step={1}
                   onChange={(val) => setTempSettings({ ...tempSettings, rounds: val })}
                 />
                 
-                <SettingsSlider 
-                  label="Durata (secondi)"
-                  icon="⏱️"
-                  suffix="s"
-                  value={tempSettings.duration || 30}
-                  min={10} max={120} step={5}
-                  onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
-                />
+                {settingsOpen !== 'multigame' && (
+                  <SettingsSlider 
+                    label="Durata (secondi)"
+                    icon="⏱️"
+                    suffix="s"
+                    value={tempSettings.duration || 30}
+                    min={10} max={120} step={5}
+                    onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
+                  />
+                )}
 
                 {settingsOpen === 'multigame' && (
                   <div className="input-group" style={{ margin: 0 }}>
@@ -539,7 +561,12 @@ export default function Profile() {
                         { id: 'impostore', title: 'Impostore', icon: '🕵️‍♂️' },
                         { id: 'nomi_cose_citta', title: 'Nomi, Cose', icon: '📝' },
                         { id: 'falsario', title: 'Falsario', icon: '🤥' },
-                        { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' }
+                        { id: 'disegnatore', title: 'Disegnatore', icon: '🎨' },
+                        { id: 'quiz4', title: 'Quiz 4 Risp', icon: '⭐' },
+                        { id: 'piu_vicino', title: 'Più Vicino', icon: '🎯' },
+                        { id: 'ordina', title: 'Ordina', icon: '📋' },
+                        { id: 'indovina_immagine', title: "L'immagine", icon: '🖼️' },
+                        { id: 'jeopardy', title: 'Jeopardy', icon: '🧠' }
                       ].map((g) => {
                         const isSel = (tempSettings.selectedGames || []).includes(g.id);
                         return (
@@ -657,6 +684,73 @@ export default function Profile() {
                     </div>
                   </div>
                 )}
+
+                {settingsOpen === 'jeopardy' && (
+                  <div className="input-group" style={{ margin: 0 }}>
+                    <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>
+                      📊 Selezione Categorie (Scegli 5)
+                    </label>
+                    <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', background: 'rgba(0,0,0,0.2)', padding: '0.5rem', borderRadius: '1.5rem' }}>
+                      <button
+                        type="button"
+                        style={{ flex: 1, padding: '0.8rem', borderRadius: '1rem', border: 'none', background: tempSettings.categorySelectionMode === 'admin' ? 'var(--color-primary)' : 'transparent', color: 'white', fontWeight: 'bold', cursor: 'pointer', transition: 'all 0.2s' }}
+                        onClick={() => setTempSettings({ ...tempSettings, categorySelectionMode: 'admin' })}
+                      >
+                        Scelta Admin
+                      </button>
+                      <button
+                        type="button"
+                        style={{ flex: 1, padding: '0.8rem', borderRadius: '1rem', border: 'none', background: tempSettings.categorySelectionMode === 'vote' ? 'var(--color-primary)' : 'transparent', color: 'white', fontWeight: 'bold', cursor: 'pointer', transition: 'all 0.2s' }}
+                        onClick={() => setTempSettings({ ...tempSettings, categorySelectionMode: 'vote' })}
+                      >
+                        Voto Giocatori
+                      </button>
+                    </div>
+                    
+                    {tempSettings.categorySelectionMode === 'admin' && (
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                        {[
+                          'Cinema e Serie TV', 'Storia e Mitologia', 'Musica', 'Scienza e Natura',
+                          'Tecnologia e Videogiochi', 'Letteratura e Arte', 'Geografia',
+                          'Cucina e Tradizioni', 'Cultura Pop e Gossip', 'Sport'
+                        ].map(cat => {
+                          const isSelected = (tempSettings.adminCategories || []).includes(cat);
+                          return (
+                            <button
+                              type="button"
+                              key={cat}
+                              style={{
+                                background: isSelected ? 'var(--color-primary)' : 'rgba(255,255,255,0.1)',
+                                color: isSelected ? '#fff' : 'rgba(255,255,255,0.5)',
+                                padding: '0.8rem 1rem',
+                                borderRadius: '1.5rem',
+                                border: isSelected ? '2px solid white' : '1px solid rgba(255,255,255,0.1)',
+                                cursor: 'pointer',
+                                fontWeight: 'bold',
+                                fontSize: '0.9rem',
+                                flex: '1 1 calc(50% - 0.5rem)',
+                                transition: 'all 0.2s',
+                                opacity: isSelected ? 1 : 0.6
+                              }}
+                              onClick={(e) => {
+                                e.preventDefault();
+                                let current = tempSettings.adminCategories || [];
+                                if (isSelected) {
+                                  setTempSettings({ ...tempSettings, adminCategories: current.filter((c: string) => c !== cat) });
+                                } else if (current.length < 5) {
+                                  setTempSettings({ ...tempSettings, adminCategories: [...current, cat] });
+                                }
+                              }}
+                            >
+                              {cat}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                )}
+
                 {settingsOpen === 'impostore' && (
                   <div className="input-group" style={{ margin: 0 }}>
                     <label style={{ marginBottom: '1rem', fontSize: '1.2rem', display: 'block', color: 'rgba(255,255,255,0.8)' }}>🗂️ Categoria</label>

@@ -10,6 +10,11 @@ import HostNomiCoseCitta from '../games/NomiCoseCitta/HostNomiCoseCitta';
 import HostFalsario from '../games/Falsario/HostFalsario';
 import HostDisegnatore from '../games/Disegnatore/HostDisegnatore';
 import HostMultigame from '../games/Multigame/HostMultigame';
+import HostQuiz4 from '../games/Quiz4Risposte/HostQuiz4';
+import HostPiuVicino from '../games/PiuVicinoVince/HostPiuVicino';
+import HostOrdina from '../games/Ordina/HostOrdina';
+import HostIndovinaImmagine from '../games/IndovinaImmagine/HostIndovinaImmagine';
+import HostJeopardy from '../games/Jeopardy/HostJeopardy';
 import FloatingLobbyCode from '../components/shared/FloatingLobbyCode';
 import ErrorBoundary from '../components/ErrorBoundary';
 import Avatar from '../components/shared/Avatar';
@@ -234,6 +239,46 @@ function HostLobbyContent() {
       return (
         <>
           <HostDisegnatore lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'quiz4') {
+      return (
+        <>
+          <HostQuiz4 lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'piu_vicino') {
+      return (
+        <>
+          <HostPiuVicino lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'ordina') {
+      return (
+        <>
+          <HostOrdina lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'indovina_immagine') {
+      return (
+        <>
+          <HostIndovinaImmagine lobbyCode={lobbyCode} />
+          <FloatingLobbyCode code={lobbyCode} />
+        </>
+      );
+    }
+    if (lobby.game_selected === 'jeopardy') {
+      return (
+        <>
+          <HostJeopardy lobbyCode={lobbyCode} />
           <FloatingLobbyCode code={lobbyCode} />
         </>
       );

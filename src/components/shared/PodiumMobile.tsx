@@ -1,26 +1,33 @@
 import { motion } from 'framer-motion';
 import Avatar from './Avatar';
 
+import type { GameThemeKey } from '../../utils/theme';
+import GameLayoutMobile from './GameLayoutMobile';
 import { computeRanking } from '../../utils/ranking';
 
 export default function PodiumMobile({ 
   players, 
   userId, 
   isAdmin, 
-  onReturnToLobby 
+  onReturnToLobby,
+  themeKey = 'default',
+  customBackground
 }: { 
   players: any, 
   userId: string | null, 
   isAdmin: boolean, 
-  onReturnToLobby: () => void 
+  onReturnToLobby: () => void,
+  themeKey?: GameThemeKey,
+  customBackground?: string
 }) {
   const rankedPlayers = computeRanking(players);
 
   return (
-    <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
-      <h2 style={{ color: 'var(--color-primary)', fontSize: '2.5rem' }}>Classifica 🏆</h2>
+    <GameLayoutMobile themeKey={themeKey} customBackground={customBackground}>
+      <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
+        <h2 style={{ color: 'var(--color-primary)', fontSize: '2.5rem' }}>Classifica 🏆</h2>
       
-      <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', width: '100%', maxHeight: '40vh', overflowY: 'auto' }}>
+      <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', width: '100%', overflowY: 'visible', flex: 1, paddingBottom: '2rem' }}>
         {rankedPlayers.map((p: any, index: number) => {
             let medal = '';
             let color = 'var(--color-text)';
@@ -74,6 +81,7 @@ export default function PodiumMobile({
           In attesa dell'Admin...
         </p>
       )}
-    </div>
+      </div>
+    </GameLayoutMobile>
   );
 }

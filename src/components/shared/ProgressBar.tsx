@@ -1,4 +1,5 @@
-import { motion } from 'framer-motion';
+import { useEffect, useRef } from 'react';
+import { getServerTime } from '../../utils/serverTime';
 
 interface ProgressBarProps {
   durationMs: number;
@@ -7,14 +8,53 @@ interface ProgressBarProps {
 }
 
 export default function ProgressBar({ durationMs, startTime, onComplete }: ProgressBarProps) {
-  const elapsed = startTime ? Math.max(0, Date.now() - startTime) : 0;
-  const remainingMs = Math.max(0, durationMs - elapsed);
-  const initialPercent = (remainingMs / durationMs) * 100;
-  
-  if (remainingMs === 0 && onComplete) {
-    // If already finished when mounting, we could trigger onComplete immediately
-    // but usually we just let the parent handle it or we just return an empty bar
-  }
+  const barRef = useRef<HTMLDivElement>(null);
+  const completedRef = useRef(false);
+
+  useEffect(() => {
+    // Se non c'è startTime (es. gioco legacy), usiamo il getServerTime() iniziale
+    const actualStartTime = startTime || getServerTime();
+    completedRef.current = false;
+
+    let animationFrameId: number;
+
+    const update = () => {
+      const now = getServerTime();
+      const elapsed = Math.max(0, now - actualStartTime);
+      const remainingMs = Math.max(0, durationMs - elapsed);
+      const percent = (remainingMs / durationMs) * 100;
+
+      if (barRef.current) {
+        barRef.current.style.width = `${percent}%`;
+        
+        // Color transition logic (green -> yellow -> red)
+        if (percent > 50) {
+           barRef.current.style.backgroundColor = '#22c55e'; // Green
+        } else if (percent > 20) {
+           barRef.current.style.backgroundColor = '#eab308'; // Yellow
+        } else {
+           barRef.current.style.backgroundColor = '#ef4444'; // Red
+        }
+      }
+
+      if (remainingMs <= 0) {
+        if (!completedRef.current) {
+          completedRef.current = true;
+          if (onComplete) {
+              onComplete();
+          }
+        }
+      } else {
+        animationFrameId = requestAnimationFrame(update);
+      }
+    };
+
+    animationFrameId = requestAnimationFrame(update);
+
+    return () => {
+      cancelAnimationFrame(animationFrameId);
+    };
+  }, [durationMs, startTime, onComplete]);
 
   return (
     <div style={{ 
@@ -26,18 +66,17 @@ export default function ProgressBar({ durationMs, startTime, onComplete }: Progr
       marginTop: '2rem',
       boxShadow: 'inset 0 2px 4px rgba(0,0,0,0.5)'
     }}>
-      <motion.div
-        initial={{ width: `${initialPercent}%`, backgroundColor: '#22c55e' }}
-        animate={{ 
-          width: '0%', 
-          backgroundColor: ['#22c55e', '#eab308', '#ef4444'] 
+      <div
+        ref={barRef}
+        style={{ 
+          height: '100%', 
+          borderRadius: '10px',
+          width: '100%',
+          backgroundColor: '#22c55e',
+          // Nessuna transizione CSS: aggiorniamo a 60fps direttamente
+          // Questo risolve il problema delle animazioni messe in pausa su mobile quando si backgrounda l'app
+          transition: 'none' 
         }}
-        transition={{ 
-          width: { duration: remainingMs / 1000, ease: 'linear' },
-          backgroundColor: { duration: remainingMs / 1000, ease: 'linear', times: [0, 0.5, 1] }
-        }}
-        onAnimationComplete={onComplete}
-        style={{ height: '100%', borderRadius: '10px' }}
       />
     </div>
   );

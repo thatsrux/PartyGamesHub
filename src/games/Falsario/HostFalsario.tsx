@@ -11,6 +11,7 @@ import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import { getCategoryColor } from '../../utils/categories';
 import falsarioQuestions from '../../data/falsario.json';
 import LoadingScreen from '../../components/shared/LoadingScreen';
+import { getServerTime } from '../../utils/serverTime';
 
 export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
@@ -43,7 +44,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
         question: availableQ[sequence[0]],
         lies: {},
         votes: {},
-        startTime: Date.now()
+        startTime: getServerTime()
       });
     }
   }, [lobby]);
@@ -69,7 +70,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
     updateGameState({
       phase: 'vote',
       options: finalOptions,
-      startTime: Date.now()
+      startTime: getServerTime()
     });
   };
 
@@ -140,7 +141,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
           votes: null,
           options: null,
           action: null,
-          startTime: Date.now()
+          startTime: getServerTime()
         });
       } else {
         updateGameState({ phase: 'finished', action: null });
@@ -190,7 +191,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
               </h1>
             </div>
             
-            <ProgressBar durationMs={(gameState.settings?.duration || 60) * 1000} onComplete={handleGoToVote} />
+            <ProgressBar durationMs={(gameState.settings?.duration || 60) * 1000} startTime={gameState.startTime} onComplete={handleGoToVote} />
 
             <div style={{ marginTop: '3rem', display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
               {Object.entries(players).map(([id, p]: any) => (
@@ -262,7 +263,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
               ))}
             </div>
 
-            <ProgressBar durationMs={30000} onComplete={handleGoToReveal} />
+            <ProgressBar durationMs={30000} startTime={gameState.startTime} onComplete={handleGoToReveal} />
 
             <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', justifyContent: 'center' }}>
               {Object.entries(players).map(([id, p]: any) => (
