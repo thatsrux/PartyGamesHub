@@ -78,10 +78,10 @@ export const GAMES_CONFIG: Record<string, GameConfig> = {
   },
   'ordina': { 
     id: 'ordina', title: 'Ordina', icon: '📋', 
-    defaultSettings: { rounds: 5, duration: 45 },
+    defaultSettings: { rounds: 5, duration: 45, excludedCategories: [] },
     hasRounds: true,
     hasDuration: true,
-    hasCategories: false
+    hasCategories: true
   },
   'indovina_immagine': { 
     id: 'indovina_immagine', title: 'Indovina l\'Immagine', icon: '🖼️', 

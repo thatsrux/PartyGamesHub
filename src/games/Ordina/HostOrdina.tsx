@@ -11,6 +11,7 @@ import LoadingScreen from '../../components/shared/LoadingScreen';
 
 import { ordinaQuestions } from './data';
 import { getServerTime } from '../../utils/serverTime';
+import { getCategoryColor } from '../../utils/categories';
 
 // Funzione di shuffle (Fisher-Yates)
 function shuffleArray(array: any[]) {
@@ -29,7 +30,13 @@ export default function HostOrdina({ lobbyCode }: { lobbyCode: string }) {
   
   useEffect(() => {
     if (lobby && !gameState.phase) {
-      const availableQ = [...ordinaQuestions];
+      let availableQ = [...ordinaQuestions];
+      const excludedCategories = gameState.settings?.excludedCategories || [];
+      if (excludedCategories.length > 0) {
+        availableQ = availableQ.filter(q => !excludedCategories.includes(q.category || ''));
+      }
+      if (availableQ.length === 0) availableQ = [...ordinaQuestions]; // Fallback
+
       const totalRounds = Math.min(gameState.settings?.rounds || 5, availableQ.length);
       const sequence: number[] = [];
       
@@ -100,7 +107,12 @@ export default function HostOrdina({ lobbyCode }: { lobbyCode: string }) {
       if (gameState.questionIndex < totalRounds - 1) {
         const nextIndex = gameState.questionIndex + 1;
         const sequence = gameState.sequence || [];
-        const availableQ = [...ordinaQuestions];
+        let availableQ = [...ordinaQuestions];
+        const excludedCategories = gameState.settings?.excludedCategories || [];
+        if (excludedCategories.length > 0) {
+          availableQ = availableQ.filter(q => !excludedCategories.includes(q.category || ''));
+        }
+        if (availableQ.length === 0) availableQ = [...ordinaQuestions]; // Fallback
 
         const nextQIndex = sequence[nextIndex] !== undefined ? sequence[nextIndex] : Math.floor(Math.random() * availableQ.length);
         const nextQ = availableQ[nextQIndex];
@@ -127,6 +139,7 @@ export default function HostOrdina({ lobbyCode }: { lobbyCode: string }) {
   return (
     <GameLayoutTV 
       themeKey="ordina"
+      customBackground={gameState.question && gameState.phase !== 'finished' ? getCategoryColor(gameState.question.category) : undefined}
       leaderboard={gameState.phase !== 'finished' ? <MiniLeaderboardTV players={players} animateUpdates={true} /> : undefined}
     >
       {gameState.phase !== 'finished' && (
