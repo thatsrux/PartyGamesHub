@@ -35,6 +35,7 @@ export const getCategoryColor = (category: string | undefined): string => {
 import veroFalsoDb from '../data/vero_falso.json';
 import falsarioDb from '../data/falsario.json';
 import quiz4Db from '../data/quiz4.json';
+import { ordinaQuestions } from '../games/Ordina/data';
 
 export const CATEGORY_COUNTS: Record<string, Record<string, number>> = {
   'vero_o_fake': ALL_CATEGORIES.reduce((acc, cat) => {
@@ -47,6 +48,10 @@ export const CATEGORY_COUNTS: Record<string, Record<string, number>> = {
   }, {} as Record<string, number>),
   'quiz4': ALL_CATEGORIES.reduce((acc, cat) => {
     acc[cat] = (quiz4Db as any[]).filter(q => q.category === cat).length;
+    return acc;
+  }, {} as Record<string, number>),
+  'ordina': ALL_CATEGORIES.reduce((acc, cat) => {
+    acc[cat] = ordinaQuestions.filter(q => q.category === cat).length;
     return acc;
   }, {} as Record<string, number>)
 };
