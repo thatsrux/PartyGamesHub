@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ref, onValue, set } from 'firebase/database';
+import { ref, onValue, set, update, remove } from 'firebase/database';
 import { signInAnonymously } from 'firebase/auth';
 import { db, auth } from '../firebase';
 
@@ -47,43 +47,28 @@ export function useProfile() {
     if (!userId) return;
     const userRef = ref(db, `users/${userId}`);
     
-    // Preserve existing settings if they exist
-    const dataToSave: UserProfile = { name };
-    if (photoBase64) {
-      dataToSave.photo = photoBase64;
-    }
-    if (profile?.gameSettings) {
-      dataToSave.gameSettings = profile.gameSettings;
+    const updates: any = { name };
+    if (photoBase64 !== undefined) {
+      updates.photo = photoBase64;
     }
 
-    await set(userRef, dataToSave);
+    await update(userRef, updates);
   };
 
   const saveGameSettings = async (gameId: string, settings: any) => {
     if (!userId) return;
-    const userRef = ref(db, `users/${userId}`);
-    
-    const newSettings = {
-      ...(profile?.gameSettings || {}),
-      [gameId]: settings
-    };
-
-    const dataToSave: UserProfile = { ...(profile || { name: 'Player' }), gameSettings: newSettings };
+    const gameSettingsRef = ref(db, `users/${userId}/gameSettings/${gameId}`);
     
     // Firebase Realtime DB throws an error if any property is explicitly 'undefined'.
     // JSON parse/stringify safely strips all undefined keys.
-    const cleanData = JSON.parse(JSON.stringify(dataToSave));
-    await set(userRef, cleanData);
+    const cleanSettings = JSON.parse(JSON.stringify(settings));
+    await set(gameSettingsRef, cleanSettings);
   };
 
   const resetAllGameSettings = async () => {
     if (!userId) return;
-    const userRef = ref(db, `users/${userId}`);
-    
-    const { gameSettings, ...rest } = profile || { name: 'Player' } as any;
-    const dataToSave: UserProfile = rest;
-    
-    await set(userRef, dataToSave);
+    const gameSettingsRef = ref(db, `users/${userId}/gameSettings`);
+    await remove(gameSettingsRef);
   };
 
   return { userId, profile, saveProfile, saveGameSettings, resetAllGameSettings, loading };
