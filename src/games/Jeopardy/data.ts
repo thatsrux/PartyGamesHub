@@ -198,6 +198,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il film d'animazione Disney Pixar in cui un pesciolino pagliaccio viene catturato e suo padre parte per salvarlo.",
           "answer": "Alla ricerca di Nemo"
+        },
+        {
+          "question": "È l'attore protagonista di 'Titanic' nel ruolo di Jack Dawson.",
+          "answer": "Leonardo DiCaprio"
+        },
+        {
+          "question": "La galassia lontana lontana è l'ambientazione di questa celebre saga fantascientifica.",
+          "answer": "Star Wars"
+        },
+        {
+          "question": "Questa serie TV Netflix è ambientata ad Hawkins e ha come protagonista la giovane Undici.",
+          "answer": "Stranger Things"
+        },
+        {
+          "question": "Questo attore interpreta Iron Man nel Marvel Cinematic Universe.",
+          "answer": "Robert Downey Jr."
+        },
+        {
+          "question": "È il regista di 'E.T. l'extra-terrestre' e 'Jurassic Park'.",
+          "answer": "Steven Spielberg"
+        },
+        {
+          "question": "Questa serie animata di Matt Groening ha per protagonisti Homer, Marge, Bart, Lisa e Maggie.",
+          "answer": "I Simpson"
+        },
+        {
+          "question": "Il mago con la cicatrice a forma di saetta sulla fronte.",
+          "answer": "Harry Potter"
+        },
+        {
+          "question": "Questo film d'animazione Disney Pixar ha come protagonisti i giocattoli Woody e Buzz Lightyear.",
+          "answer": "Toy Story"
+        },
+        {
+          "question": "È la madre dei draghi nella serie 'Il Trono di Spade'.",
+          "answer": "Daenerys Targaryen"
+        },
+        {
+          "question": "Questo attore ha interpretato il Joker nel film 'Il cavaliere oscuro'.",
+          "answer": "Heath Ledger"
+        },
+        {
+          "question": "La saga cinematografica in cui Vin Diesel interpreta Dominic Toretto.",
+          "answer": "Fast & Furious"
+        },
+        {
+          "question": "Questo premio è considerato il più prestigioso dell'industria cinematografica di Hollywood.",
+          "answer": "Premio Oscar"
+        },
+        {
+          "question": "Il supereroe miliardario di Gotham City interpretato, tra gli altri, da Christian Bale e Robert Pattinson.",
+          "answer": "Batman"
+        },
+        {
+          "question": "Serie TV con professore di chimica che diventa produttore di metanfetamina.",
+          "answer": "Breaking Bad"
+        },
+        {
+          "question": "Il film con la celebre frase 'Francamente me ne infischio'.",
+          "answer": "Via col vento"
+        },
+        {
+          "question": "L'orco verde protagonista dell'omonimo film d'animazione DreamWorks.",
+          "answer": "Shrek"
+        },
+        {
+          "question": "L'attore che veste i panni del pirata Jack Sparrow.",
+          "answer": "Johnny Depp"
+        },
+        {
+          "question": "Questo film di James Cameron detiene il record per il maggior incasso nella storia del cinema (prima dell'inflazione).",
+          "answer": "Avatar"
+        },
+        {
+          "question": "La serie spagnola in cui un gruppo di ladri con maschere di Dalí rapina la Zecca di Stato.",
+          "answer": "La casa di carta"
+        },
+        {
+          "question": "Tom Cruise interpreta il ruolo dell'agente Ethan Hunt in questa saga di spionaggio.",
+          "answer": "Mission: Impossible"
         }
       ],
       "200": [
@@ -380,6 +460,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Film del 1982 di Steven Spielberg in cui un simpatico extraterrestre vuole a tutti i costi 'telefonare casa'.",
           "answer": "E.T. l'extra-terrestre"
+        },
+        {
+          "question": "Questo regista visionario ha diretto 'Pulp Fiction' e 'Kill Bill'.",
+          "answer": "Quentin Tarantino"
+        },
+        {
+          "question": "Il nome della principessa guerriera interpretata da Lucy Lawless in una nota serie TV anni '90.",
+          "answer": "Xena"
+        },
+        {
+          "question": "La sitcom in cui un gruppo di sei amici vive e lavora a New York, spesso riunendosi al Central Perk.",
+          "answer": "Friends"
+        },
+        {
+          "question": "Il film italiano che ha vinto l'Oscar come miglior film straniero nel 1999, diretto e interpretato da Roberto Benigni.",
+          "answer": "La vita è bella"
+        },
+        {
+          "question": "L'attore che ha interpretato Forrest Gump nell'omonimo film del 1994.",
+          "answer": "Tom Hanks"
+        },
+        {
+          "question": "La serie TV incentrata su un geniale ma asociale medico diagnosta interpretato da Hugh Laurie.",
+          "answer": "Dr. House"
+        },
+        {
+          "question": "Il nome del pianeta natale di Superman.",
+          "answer": "Krypton"
+        },
+        {
+          "question": "L'attrice che ha interpretato Katniss Everdeen nella saga di 'Hunger Games'.",
+          "answer": "Jennifer Lawrence"
+        },
+        {
+          "question": "Questo film del 1999 vede Keanu Reeves nel ruolo di un hacker che scopre che la realtà è una simulazione.",
+          "answer": "Matrix"
+        },
+        {
+          "question": "La famiglia protagonista de 'I Soprano' è legata a questo tipo di organizzazione criminale.",
+          "answer": "Cosa Nostra (Mafia)"
+        },
+        {
+          "question": "Il regista britannico famoso per i suoi film sul Cavaliere Oscuro, Inception e Interstellar.",
+          "answer": "Christopher Nolan"
+        },
+        {
+          "question": "Questo attore, ex wrestler, è anche noto con il soprannome 'The Rock'.",
+          "answer": "Dwayne Johnson"
+        },
+        {
+          "question": "La serie medical drama creata da Shonda Rhimes con protagonista Meredith Grey.",
+          "answer": "Grey's Anatomy"
+        },
+        {
+          "question": "Nel film 'Il Gladiatore', questo attore neozelandese interpreta Massimo Decimo Meridio.",
+          "answer": "Russell Crowe"
+        },
+        {
+          "question": "In questa serie TV, i protagonisti si trovano su un'isola misteriosa dopo lo schianto del volo Oceanic 815.",
+          "answer": "Lost"
+        },
+        {
+          "question": "L'attrice protagonista del film 'Il diavolo veste Prada' nel ruolo della tirannica Miranda Priestly.",
+          "answer": "Meryl Streep"
+        },
+        {
+          "question": "La serie TV britannica che narra le avventure di un Signore del Tempo alieno che viaggia nel TARDIS.",
+          "answer": "Doctor Who"
+        },
+        {
+          "question": "Il film in cui un giovane leone di nome Simba deve reclamare il suo trono.",
+          "answer": "Il re leone"
+        },
+        {
+          "question": "Questo attore comico ha interpretato The Mask e Ace Ventura.",
+          "answer": "Jim Carrey"
+        },
+        {
+          "question": "Il nome dell'albergo infestato nel film 'Shining' di Stanley Kubrick.",
+          "answer": "Overlook Hotel"
         }
       ],
       "300": [
@@ -562,6 +722,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "L'attore spagnolo che interpreta l'inquietante killer Anton Chigurh nel thriller 'Non è un paese per vecchi'.",
           "answer": "Javier Bardem"
+        },
+        {
+          "question": "Il nome del creatore della serie 'Black Mirror'.",
+          "answer": "Charlie Brooker"
+        },
+        {
+          "question": "Questo regista sudcoreano ha fatto la storia vincendo l'Oscar al miglior film con 'Parasite'.",
+          "answer": "Bong Joon-ho"
+        },
+        {
+          "question": "L'attrice che interpreta Mercoledì Addams nella serie TV Netflix 'Mercoledì'.",
+          "answer": "Jenna Ortega"
+        },
+        {
+          "question": "In 'Ritorno al futuro', la macchina del tempo è costruita modificando questo modello di automobile.",
+          "answer": "DeLorean"
+        },
+        {
+          "question": "La serie TV distopica basata sul romanzo di Margaret Atwood in cui le donne fertili sono ridotte in schiavitù.",
+          "answer": "The Handmaid's Tale"
+        },
+        {
+          "question": "Questo film di Ridley Scott del 1982 è incentrato su un cacciatore di replicanti interpretato da Harrison Ford.",
+          "answer": "Blade Runner"
+        },
+        {
+          "question": "Il nome dell'attore che ha interpretato il perfido Hannibal Lecter in 'Il silenzio degli innocenti'.",
+          "answer": "Anthony Hopkins"
+        },
+        {
+          "question": "La serie TV incentrata sulla famiglia reale britannica a partire dal regno della regina Elisabetta II.",
+          "answer": "The Crown"
+        },
+        {
+          "question": "Questo regista ha diretto capolavori come 'Arancia meccanica' e '2001: Odissea nello spazio'.",
+          "answer": "Stanley Kubrick"
+        },
+        {
+          "question": "Il nome della cittadina immaginaria in cui è ambientata la serie 'I segreti di Twin Peaks'.",
+          "answer": "Twin Peaks"
+        },
+        {
+          "question": "Questo film di Francis Ford Coppola del 1979 è ispirato al romanzo 'Cuore di tenebra' e ambientato durante la guerra del Vietnam.",
+          "answer": "Apocalypse Now"
+        },
+        {
+          "question": "L'attrice vincitrice di un Oscar per la sua interpretazione in 'Black Swan - Il cigno nero'.",
+          "answer": "Natalie Portman"
+        },
+        {
+          "question": "La serie TV HBO che ha come protagonisti due detective interpretati nella prima stagione da Matthew McConaughey e Woody Harrelson.",
+          "answer": "True Detective"
+        },
+        {
+          "question": "Questo film d'animazione giapponese dello Studio Ghibli ha vinto l'Oscar nel 2003.",
+          "answer": "La città incantata"
+        },
+        {
+          "question": "Il nome del personaggio principale interpretato da Bryan Cranston in 'Breaking Bad'.",
+          "answer": "Walter White"
+        },
+        {
+          "question": "Il regista messicano premiato con l'Oscar per 'La forma dell'acqua' e 'Il labirinto del fauno'.",
+          "answer": "Guillermo del Toro"
+        },
+        {
+          "question": "L'attore britannico che ha interpretato James Bond nel film 'Skyfall'.",
+          "answer": "Daniel Craig"
+        },
+        {
+          "question": "La serie comica che documenta in stile mockumentary la vita dei dipendenti della Dunder Mifflin.",
+          "answer": "The Office"
+        },
+        {
+          "question": "Questo film di Martin Scorsese racconta la vita del broker Jordan Belfort.",
+          "answer": "The Wolf of Wall Street"
+        },
+        {
+          "question": "In questa serie TV, un insegnante di ginnastica diventa l'allenatore di una squadra di calcio inglese della Premier League.",
+          "answer": "Ted Lasso"
         }
       ],
       "400": [
@@ -744,6 +984,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "L'attore che interpreta l'insegnante di batteria perfezionista, abusivo e tirannico Terence Fletcher nel film 'Whiplash'.",
           "answer": "J.K. Simmons"
+        },
+        {
+          "question": "Il nome del compositore italiano, vincitore di due premi Oscar, famoso per le sue colonne sonore dei western all'italiana.",
+          "answer": "Ennio Morricone"
+        },
+        {
+          "question": "Il film noir degli anni '40 interpretato da Humphrey Bogart e Ingrid Bergman ambientato nell'omonima città marocchina.",
+          "answer": "Casablanca"
+        },
+        {
+          "question": "La serie TV tedesca di fantascienza targata Netflix incentrata sui viaggi nel tempo nella cittadina di Winden.",
+          "answer": "Dark"
+        },
+        {
+          "question": "Questo regista svedese è celebre per capolavori introspettivi come 'Il settimo sigillo' e 'Il posto delle fragole'.",
+          "answer": "Ingmar Bergman"
+        },
+        {
+          "question": "L'attore che ha interpretato il colonnello Hans Landa nel film 'Bastardi senza gloria'.",
+          "answer": "Christoph Waltz"
+        },
+        {
+          "question": "La serie TV prequel di Breaking Bad incentrata su un avvocato dalla dubbia moralità.",
+          "answer": "Better Call Saul"
+        },
+        {
+          "question": "Il nome del motel dove si svolgono i macabri eventi del film 'Psyco' di Alfred Hitchcock.",
+          "answer": "Bates Motel"
+        },
+        {
+          "question": "Questo film indipendente, scritto da Matt Damon e Ben Affleck, ha valso loro l'Oscar alla migliore sceneggiatura originale.",
+          "answer": "Will Hunting - Genio ribelle"
+        },
+        {
+          "question": "L'attore che recita al fianco di Brad Pitt nel ruolo del detective Somerset nel film 'Seven' di David Fincher.",
+          "answer": "Morgan Freeman"
+        },
+        {
+          "question": "La serie HBO in cui un'agenzia funebre è al centro delle vicende familiari dei Fisher.",
+          "answer": "Six Feet Under"
+        },
+        {
+          "question": "Questo regista giapponese è celebre per film storici come 'I sette samurai' e 'Rashomon'.",
+          "answer": "Akira Kurosawa"
+        },
+        {
+          "question": "Il film di Sergio Leone con Robert De Niro che narra le vicende di un gruppo di gangster ebrei a New York nel corso dei decenni.",
+          "answer": "C'era una volta in America"
+        },
+        {
+          "question": "L'attore vincitore di tre premi Oscar come miglior attore protagonista, noto per film come 'Il petroliere' e 'Lincoln'.",
+          "answer": "Daniel Day-Lewis"
+        },
+        {
+          "question": "La serie creata da David Simon, spesso citata come una delle migliori di sempre, ambientata per le strade di Baltimora.",
+          "answer": "The Wire"
+        },
+        {
+          "question": "Il titolo del primo lungometraggio animato mai prodotto dalla Walt Disney, uscito nel 1937.",
+          "answer": "Biancaneve e i sette nani"
+        },
+        {
+          "question": "Questo regista canadese è celebre per i film 'Dune', 'Blade Runner 2049' e 'Arrival'.",
+          "answer": "Denis Villeneuve"
+        },
+        {
+          "question": "L'attrice francese protagonista del film 'Il favoloso mondo di Amélie'.",
+          "answer": "Audrey Tautou"
+        },
+        {
+          "question": "La serie TV antologica creata da Noah Hawley ispirata all'omonimo film dei fratelli Coen del 1996.",
+          "answer": "Fargo"
+        },
+        {
+          "question": "Il film del 1976 vincitore dell'Oscar in cui Peter Finch pronuncia la frase: 'Sono incazzato nero, e tutto questo non lo accetterò più!'.",
+          "answer": "Quinto potere"
+        },
+        {
+          "question": "L'attore che ha recitato nel ruolo principale in 'Taxi Driver' e 'Toro Scatenato'.",
+          "answer": "Robert De Niro"
         }
       ],
       "500": [
@@ -926,6 +1246,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "L'enigmatico e onirico capolavoro del 2001 diretto da David Lynch, il cui titolo originale prende il nome da una strada collinare di Los Angeles.",
           "answer": "Mulholland Drive"
+        },
+        {
+          "question": "Il nome del direttore della fotografia, tre volte vincitore dell'Oscar di fila, che ha lavorato a 'Revenant' e 'Birdman'.",
+          "answer": "Emmanuel Lubezki"
+        },
+        {
+          "question": "Questo celebre film muto di fantascienza diretto da Fritz Lang nel 1927 rappresenta una società divisa in classi in una città futuristica.",
+          "answer": "Metropolis"
+        },
+        {
+          "question": "La serie di David Lynch che, dopo essere stata cancellata negli anni '90, è tornata con una terza stagione intitolata 'The Return' nel 2017.",
+          "answer": "Twin Peaks"
+        },
+        {
+          "question": "Il regista russo autore di pellicole fondamentali per la storia del cinema come 'Stalker' e 'Solaris'.",
+          "answer": "Andrej Tarkovskij"
+        },
+        {
+          "question": "L'attore che nel 1973 rifiutò l'Oscar per il film 'Il Padrino', inviando al suo posto un'attivista nativa americana di nome Sacheen Littlefeather.",
+          "answer": "Marlon Brando"
+        },
+        {
+          "question": "La sitcom britannica creata da Edgar Wright, Simon Pegg e Jessica Hynes, considerata un cult e precursore del film 'L'alba dei morti dementi'.",
+          "answer": "Spaced"
+        },
+        {
+          "question": "Il titolo del film del 1968, diretto da Jean-Luc Godard, in cui i Rolling Stones compongono in studio la canzone 'Sympathy for the Devil'.",
+          "answer": "One Plus One"
+        },
+        {
+          "question": "La serie creata da Damon Lindelof per HBO ambientata in un mondo in cui il 2% della popolazione mondiale è svanito nel nulla.",
+          "answer": "The Leftovers"
+        },
+        {
+          "question": "L'attrice che detiene il record per il maggior numero di candidature ai premi Oscar, con ben 21 nomination.",
+          "answer": "Meryl Streep"
+        },
+        {
+          "question": "Il movimento cinematografico nato in Danimarca nel 1995 fondato da Lars von Trier e Thomas Vinterberg.",
+          "answer": "Dogma 95"
+        },
+        {
+          "question": "Il nome dello sceneggiatore premio Oscar per film come 'Essere John Malkovich' e 'Se mi lasci ti cancello'.",
+          "answer": "Charlie Kaufman"
+        },
+        {
+          "question": "Il film del 1950 di Billy Wilder narrato dalla prospettiva del cadavere del protagonista, un aspirante sceneggiatore, che galleggia in una piscina.",
+          "answer": "Viale del tramonto"
+        },
+        {
+          "question": "La serie dramedy degli anni '80-'90 che ha lanciato Bruce Willis e aveva come coprotagonista Cybill Shepherd.",
+          "answer": "Moonlighting"
+        },
+        {
+          "question": "Il regista iraniano celebre per il film 'Sapore di ciliegia', vincitore della Palma d'oro al Festival di Cannes nel 1997.",
+          "answer": "Abbas Kiarostami"
+        },
+        {
+          "question": "Questo film italiano del 1948 diretto da Vittorio De Sica è tra le massime espressioni del Neorealismo, in cui un uomo e suo figlio cercano una bicicletta rubata.",
+          "answer": "Ladri di biciclette"
+        },
+        {
+          "question": "La serie televisiva in cui Patrick McGoohan interpreta 'Numero 6', intrappolato in un villaggio misterioso senza poter fuggire.",
+          "answer": "Il prigioniero"
+        },
+        {
+          "question": "Il titolo originale inglese del film di Hitchcock noto in Italia come 'La donna che visse due volte'.",
+          "answer": "Vertigo"
+        },
+        {
+          "question": "L'attore che interpreta l'inquietante antagonista Anton Chigurh nel film 'Non è un paese per vecchi' dei fratelli Coen.",
+          "answer": "Javier Bardem"
+        },
+        {
+          "question": "Il nome del creatore della controversa serie HBO 'Euphoria', noto anche per aver creato 'The Idol'.",
+          "answer": "Sam Levinson"
+        },
+        {
+          "question": "Il capolavoro del 1941 diretto e interpretato da Orson Welles, considerato per decenni il miglior film di tutti i tempi dalla rivista Sight & Sound.",
+          "answer": "Quarto potere"
         }
       ]
     }
@@ -1113,6 +1513,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il re dei Franchi che venne solennemente incoronato imperatore del Sacro Romano Impero la notte di Natale dell'800.",
           "answer": "Carlo Magno"
+        },
+        {
+          "question": "Secondo la leggenda, fondò Roma insieme al fratello Remo.",
+          "answer": "Romolo"
+        },
+        {
+          "question": "Attraversò il Rubicone pronunciando la celebre frase 'Il dado è tratto'.",
+          "answer": "Giulio Cesare"
+        },
+        {
+          "question": "È il padre degli dei e il sovrano dell'Olimpo nella mitologia greca.",
+          "answer": "Zeus"
+        },
+        {
+          "question": "Dio greco del mare e dei terremoti, solitamente raffigurato con un tridente.",
+          "answer": "Poseidone"
+        },
+        {
+          "question": "Queste imponenti e monumentali tombe venivano costruite nell'Antico Egitto per i faraoni.",
+          "answer": "Piramidi"
+        },
+        {
+          "question": "Nel 1492 guidò la spedizione navale spagnola che scoprì inavvertitamente il continente americano.",
+          "answer": "Cristoforo Colombo"
+        },
+        {
+          "question": "Secondo la Bibbia, è il frutto dell'Albero della conoscenza che Eva fu tentata a mangiare, anche se il testo non specifica quale fosse.",
+          "answer": "Mela"
+        },
+        {
+          "question": "Questo gigantesco animale di legno fu lo stratagemma usato dai Greci per espugnare una celebre città.",
+          "answer": "Cavallo di Troia"
+        },
+        {
+          "question": "Eroe dell'epica greca che impiegò dieci lunghi anni di peripezie per tornare in patria a Itaca.",
+          "answer": "Ulisse (o Odisseo)"
+        },
+        {
+          "question": "Fu l'ultima regina dell'Antico Egitto prima della definitiva conquista e annessione da parte dei romani.",
+          "answer": "Cleopatra"
+        },
+        {
+          "question": "Mostro mitologico con corpo di uomo e testa di toro, tenuto prigioniero all'interno del labirinto di Cnosso.",
+          "answer": "Minotauro"
+        },
+        {
+          "question": "Eroe forzuto della mitologia greco-romana, famoso per essere stato costretto ad affrontare dodici fatiche.",
+          "answer": "Ercole (o Eracle)"
+        },
+        {
+          "question": "Imperatore francese esiliato prima all'Isola d'Elba e successivamente, in modo definitivo, a Sant'Elena.",
+          "answer": "Napoleone Bonaparte"
+        },
+        {
+          "question": "Genio assoluto del Rinascimento italiano, pittore de 'La Gioconda' e de 'L'Ultima Cena'.",
+          "answer": "Leonardo da Vinci"
+        },
+        {
+          "question": "Dea greca della sapienza, delle arti e della guerra giusta, nata già adulta e armata dalla testa di Zeus.",
+          "answer": "Atena"
+        },
+        {
+          "question": "Questo antico impero, tra le altre cose, costruì il Colosseo per ospitare gli spettacoli dei gladiatori.",
+          "answer": "Impero Romano"
+        },
+        {
+          "question": "Il più forte guerriero greco nella guerra di Troia, la cui unica vulnerabilità risiedeva in un tallone.",
+          "answer": "Achille"
+        },
+        {
+          "question": "Mitico re della Frigia a cui fu concesso il dono, poi rivelatosi una maledizione, di trasformare in oro tutto ciò che toccava.",
+          "answer": "Re Mida"
+        },
+        {
+          "question": "Eroina francese bruciata sul rogo a Rouen nel 1431, storicamente nota anche come la 'Pulzella d'Orléans'.",
+          "answer": "Giovanna d'Arco"
+        },
+        {
+          "question": "Celebre esploratore e mercante veneziano che documentò i suoi lunghi viaggi in Asia nel libro 'Il Milione'.",
+          "answer": "Marco Polo"
         }
       ],
       "200": [
@@ -1295,6 +1775,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il faraone egizio la cui tomba, scoperta quasi intatta nel 1922 dall'archeologo Howard Carter, lo ha reso celebre in tutto il mondo.",
           "answer": "Tutankhamon"
+        },
+        {
+          "question": "Ignorando il consiglio del padre Dedalo, volò troppo vicino al sole facendo sciogliere le sue ali di cera per poi precipitare in mare.",
+          "answer": "Icaro"
+        },
+        {
+          "question": "Queste due potenti città-stato greche si affrontarono duramente nella lunga Guerra del Peloponneso.",
+          "answer": "Sparta e Atene"
+        },
+        {
+          "question": "L'unica mortale delle tre Gorgoni, il cui terrificante sguardo trasformava le persone in pietra.",
+          "answer": "Medusa"
+        },
+        {
+          "question": "Regina consorte di Francia, originaria dell'Austria, che fu ghigliottinata nel 1793 durante la Rivoluzione Francese.",
+          "answer": "Maria Antonietta"
+        },
+        {
+          "question": "Fu incoronato imperatore dei Romani (Sacro Romano Impero) da Papa Leone III la notte di Natale dell'anno 800.",
+          "answer": "Carlo Magno"
+        },
+        {
+          "question": "Nella mitologia norrena, è il maestoso e dorato salone ad Asgard dove finiscono i gloriosi guerrieri morti in battaglia.",
+          "answer": "Valhalla"
+        },
+        {
+          "question": "Antico e leggendario poeta greco a cui è tradizionalmente attribuita la stesura dei grandi poemi Iliade e Odissea.",
+          "answer": "Omero"
+        },
+        {
+          "question": "La leggendaria spada magica di Re Artù, spesso associata alla figura misteriosa della Dama del Lago.",
+          "answer": "Excalibur"
+        },
+        {
+          "question": "Questa imponente barriera fisica che divideva una capitale europea durante la Guerra Fredda fu abbattuta nel 1989.",
+          "answer": "Muro di Berlino"
+        },
+        {
+          "question": "Eroe e re ateniese che riuscì a sconfiggere il Minotauro nel labirinto aiutato dal prezioso filo di Arianna.",
+          "answer": "Teseo"
+        },
+        {
+          "question": "Lungo e logorante conflitto medievale che oppose il Regno d'Inghilterra e il Regno di Francia tra il 1337 e il 1453.",
+          "answer": "Guerra dei Cent'Anni"
+        },
+        {
+          "question": "Re macedone che creò uno degli imperi più vasti del mondo antico prima di morire misteriosamente a soli 32 anni a Babilonia.",
+          "answer": "Alessandro Magno"
+        },
+        {
+          "question": "Fratello di Zeus e Poseidone, è il dio greco dell'oltretomba e sovrano incontrastato del regno dei morti.",
+          "answer": "Ade"
+        },
+        {
+          "question": "Il mostruoso e feroce cane a tre teste che faceva la guardia all'ingresso dell'oltretomba greco per impedire la fuga dei morti.",
+          "answer": "Cerbero"
+        },
+        {
+          "question": "Carismatico e spietato condottiero che fondò l'Impero Mongolo unificando le varie tribù nomadi dell'Asia centrale.",
+          "answer": "Gengis Khan"
+        },
+        {
+          "question": "Titano della mitologia greca che rubò il fuoco dal monte Olimpo per donarlo di nascosto all'umanità.",
+          "answer": "Prometeo"
+        },
+        {
+          "question": "Grande periodo di transizione verso nuovi processi manifatturieri e industriali iniziato in Gran Bretagna nel XVIII secolo.",
+          "answer": "Rivoluzione Industriale"
+        },
+        {
+          "question": "Dea greca dell'amore, della bellezza e del desiderio, nata secondo il mito dalle spume del mare aperto.",
+          "answer": "Afrodite (o Venere)"
+        },
+        {
+          "question": "La guerra civile inglese del XV secolo combattuta tra Lancaster e York è nota come la Guerra delle Due...",
+          "answer": "Rose"
+        },
+        {
+          "question": "Divinità del tuono nella mitologia norrena, coraggioso protettore di Midgard, che brandisce il potente martello Mjölnir.",
+          "answer": "Thor"
         }
       ],
       "300": [
@@ -1477,6 +2037,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "La ninfa greca delle montagne che si innamorò follemente di Narciso e che, respinta, si consumò di dolore fino a lasciare di sé solo la propria voce.",
           "answer": "Eco"
+        },
+        {
+          "question": "Duca normanno che nel 1066 vinse la Battaglia di Hastings diventando re d'Inghilterra.",
+          "answer": "Guglielmo il Conquistatore"
+        },
+        {
+          "question": "Dio egizio dell'agricoltura e dell'oltretomba, fu ucciso e smembrato dal fratello Seth per poi essere resuscitato dalla moglie Iside.",
+          "answer": "Osiride"
+        },
+        {
+          "question": "Antichissimo dio romano degli inizi, dei passaggi e delle porte, solitamente raffigurato con due volti speculari.",
+          "answer": "Giano"
+        },
+        {
+          "question": "Attivista per i diritti civili che nel 1955 rifiutò di cedere il suo posto su un autobus a Montgomery, innescando un boicottaggio.",
+          "answer": "Rosa Parks"
+        },
+        {
+          "question": "In questa decisiva battaglia combattuta in Belgio nel 1815 si concluse definitivamente l'epopea militare di Napoleone.",
+          "answer": "Battaglia di Waterloo"
+        },
+        {
+          "question": "Divinità greca legata alla linfa vitale, al vino, all'estasi e che ha ispirato le origini del teatro.",
+          "answer": "Dioniso (o Bacco)"
+        },
+        {
+          "question": "Il celebre cavallo alato della mitologia greca, nato miracolosamente dal sangue della testa decapitata di Medusa.",
+          "answer": "Pegaso"
+        },
+        {
+          "question": "Conflitto ottocentesco (1853-1856) in cui l'Impero Russo affrontò un'alleanza composta da Impero Ottomano, Francia, Regno Unito e Sardegna.",
+          "answer": "Guerra di Crimea"
+        },
+        {
+          "question": "Rilevante divinità mesoamericana venerata da Aztechi e Toltechi, il cui nome si traduce letteralmente come 'Serpente piumato'.",
+          "answer": "Quetzalcoatl"
+        },
+        {
+          "question": "Re mitologico di Tebe che, tentando di sfuggire a una profezia, finì per uccidere inconsapevolmente suo padre e sposare sua madre.",
+          "answer": "Edipo"
+        },
+        {
+          "question": "Grosso supercontinente che, secondo i geologi, includeva tutte le terre emerse del pianeta durante il Paleozoico e il Mesozoico.",
+          "answer": "Pangea"
+        },
+        {
+          "question": "Regina di Castiglia, figlia dei re cattolici Isabella e Ferdinando, passata alla storia con un soprannome poco lusinghiero legato alla sua salute mentale.",
+          "answer": "Giovanna la Pazza"
+        },
+        {
+          "question": "Eroe greco di origini divine che riuscì a decapitare Medusa usando il suo scudo lucido come uno specchio per non guardarla.",
+          "answer": "Perseo"
+        },
+        {
+          "question": "Mitico e semidivino re sumero di Uruk, protagonista assoluto della più antica epopea della storia umana a noi pervenuta.",
+          "answer": "Gilgamesh"
+        },
+        {
+          "question": "Fu l'ultimo zar dell'Impero russo, giustiziato insieme a tutta la sua famiglia dai bolscevichi nel 1918.",
+          "answer": "Nicola II Romanov"
+        },
+        {
+          "question": "Storico documento concesso da re Giovanni Senzaterra nel 1215 per limitare i poteri assoluti del sovrano inglese.",
+          "answer": "Magna Charta (o Magna Carta)"
+        },
+        {
+          "question": "Nella mitologia norrena, è un dio ambiguo legato all'inganno, alle malefatte e al caos, sebbene spesso aiuti gli dei di Asgard.",
+          "answer": "Loki"
+        },
+        {
+          "question": "Premio Nobel per la pace, trascorse ben 27 anni in prigione prima di diventare il primo presidente nero del Sudafrica.",
+          "answer": "Nelson Mandela"
+        },
+        {
+          "question": "Straordinario musico e cantore greco che discese negli inferi nel vano tentativo di riportare in vita la defunta moglie Euridice.",
+          "answer": "Orfeo"
+        },
+        {
+          "question": "La presa di questa prigione-fortezza parigina il 14 luglio 1789 segnò il momento di svolta e l'inizio della Rivoluzione Francese.",
+          "answer": "La Bastiglia"
         }
       ],
       "400": [
@@ -1659,6 +2299,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "La suprema divinità azteca il cui affascinante nome si traduce letteralmente come 'Serpente Piumato', venerato come dio della creazione, del vento e della sapienza.",
           "answer": "Quetzalcoatl"
+        },
+        {
+          "question": "Faraone egizio della XIX dinastia celebre per i grandiosi monumenti e per la firma del primo trattato di pace noto con gli Ittiti, dopo la battaglia di Qadesh.",
+          "answer": "Ramses II"
+        },
+        {
+          "question": "Nella cosmologia norrena, è il colossale frassino cosmico, o albero della vita, che sostiene e collega i nove mondi dell'universo.",
+          "answer": "Yggdrasil"
+        },
+        {
+          "question": "Re dell'antico impero babilonese, ricordato universalmente per aver promulgato uno dei più antichi e completi insiemi di leggi scritte.",
+          "answer": "Hammurabi"
+        },
+        {
+          "question": "Divinità egizia dalla testa di canide o sciacallo, strettamente associata all'imbalsamazione, alla mummificazione e alla vita ultraterrena.",
+          "answer": "Anubi"
+        },
+        {
+          "question": "Nel 1571, la Lega Santa inflisse una pesante sconfitta alla flotta dell'Impero Ottomano in questa sanguinosa e celebre battaglia navale.",
+          "answer": "Battaglia di Lepanto"
+        },
+        {
+          "question": "Eroina della mitologia greca abbandonata alla nascita e allevata da un'orsa, famosa per la sua incredibile abilità nella corsa e nella caccia.",
+          "answer": "Atalanta"
+        },
+        {
+          "question": "Erano le due prestigiose casate nobiliari inglesi che si scontrarono aspramente nella Guerra delle Due Rose nel XV secolo.",
+          "answer": "York e Lancaster"
+        },
+        {
+          "question": "Nello shintoismo giapponese, è la somma dea del sole, dalla quale, secondo la tradizione, discenderebbe la stirpe imperiale nipponica.",
+          "answer": "Amaterasu"
+        },
+        {
+          "question": "Insieme di trattati firmati nel 1648 che posero fine alla disastrosa Guerra dei Trent'Anni e alla Guerra degli Ottant'Anni in Europa.",
+          "answer": "Pace di Vestfalia"
+        },
+        {
+          "question": "Eroe greco che, a bordo della nave Argo, guidò gli avventurosi Argonauti nella pericolosa missione alla ricerca del Vello d'Oro.",
+          "answer": "Giasone"
+        },
+        {
+          "question": "Sovrano inglese che, scontrandosi con il papato per poter annullare il suo matrimonio con Caterina d'Aragona, provocò il celebre scisma anglicano.",
+          "answer": "Enrico VIII"
+        },
+        {
+          "question": "Enorme e mostruoso lupo della mitologia norrena, figlio di Loki e della gigantessa Angrboda, destinato a uccidere Odino durante il Ragnarök.",
+          "answer": "Fenrir"
+        },
+        {
+          "question": "Generale e politico venezuelano soprannominato 'El Libertador' per aver guidato le campagne di indipendenza di numerosi paesi sudamericani.",
+          "answer": "Simón Bolívar"
+        },
+        {
+          "question": "Gemelli della mitologia greca, figli della regina Leda (uno mortale, l'altro immortale), divenuti protettori dei naviganti e la costellazione dei Gemelli.",
+          "answer": "Castore e Polluce (I Dioscuri)"
+        },
+        {
+          "question": "Nel 1453, questa millenaria capitale cadde sotto l'assalto dei Turchi Ottomani, segnando la fine definitiva dell'Impero Romano d'Oriente.",
+          "answer": "Costantinopoli (o Bisanzio)"
+        },
+        {
+          "question": "Nel poema di Gilgamesh, è l'uomo primordiale e selvaggio creato dagli dèi che, dopo una lotta, diviene il compagno inseparabile del sovrano di Uruk.",
+          "answer": "Enkidu"
+        },
+        {
+          "question": "Severo frate domenicano e confessore reale che divenne il primo e più famigerato Grande Inquisitore dell'Inquisizione Spagnola nel XV secolo.",
+          "answer": "Tomás de Torquemada"
+        },
+        {
+          "question": "Principe troiano, figlio di Anchise e della dea Venere, fuggito dalla città in fiamme e celebrato dal poeta Virgilio come antico progenitore dei Romani.",
+          "answer": "Enea"
+        },
+        {
+          "question": "Nel 216 a.C. il genio tattico del cartaginese Annibale portò a una manovra a tenaglia che annientò l'esercito romano in questa disastrosa battaglia.",
+          "answer": "Battaglia di Canne"
+        },
+        {
+          "question": "Misteriosa e spietata divinità della mitologia celtica irlandese associata alla guerra, al destino e alla morte, in grado di mutare forma in corvo.",
+          "answer": "Morrigan"
         }
       ],
       "500": [
@@ -1841,6 +2561,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Lo spaventoso ma ambivalente demone della religione mesopotamica, raffigurato con quattro ali, artigli e testa deforme, considerato il re dei demoni malvagi del vento ma spesso invocato ed esorcizzato come amuleto per proteggere le donne incinte e i neonati.",
           "answer": "Pazuzu"
+        },
+        {
+          "question": "Trattato del 1494 mediato dal Papa, che tracciò una linea immaginaria per dividere il mondo extra-europeo in un duopolio tra Impero spagnolo e portoghese.",
+          "answer": "Trattato di Tordesillas"
+        },
+        {
+          "question": "Nella mitologia giapponese shintoista, sono la coppia primordiale di divinità creatrici maschile e femminile che diedero origine all'arcipelago nipponico e ad altri kami.",
+          "answer": "Izanagi e Izanami"
+        },
+        {
+          "question": "In questa disastrosa imboscata nell'anno 9 d.C., tre legioni romane comandate da Quintilio Varo furono completamente annientate da tribù germaniche guidate da Arminio.",
+          "answer": "Battaglia della foresta di Teutoburgo"
+        },
+        {
+          "question": "Fu il dio poliade (protettore) dell'antica Babilonia; nel poema epico Enuma Elish è lui a sconfiggere il mostro del caos primordiale Tiamat.",
+          "answer": "Marduk"
+        },
+        {
+          "question": "Breve ma decisiva guerra civile giapponese del 1868-1869 combattuta tra le forze dei Tokugawa e i lealisti imperiali, culminata nella Restaurazione Meiji.",
+          "answer": "Guerra Boshin"
+        },
+        {
+          "question": "Importante stirpe divina della mitologia irlandese, descritta come il 'popolo della dea Danu', che portò in Irlanda quattro potenti tesori magici prima dell'arrivo dei mortali.",
+          "answer": "Tuatha Dé Danann"
+        },
+        {
+          "question": "Particolare istituzione giuridica dell'antica Atene democratica tramite la quale l'assemblea decideva di mandare in esilio per dieci anni i cittadini considerati una potenziale minaccia tirannica.",
+          "answer": "Ostracismo"
+        },
+        {
+          "question": "Nel mazdeismo (o zoroastrismo), antica religione persiana, è l'unica divinità suprema, saggia, increata e benevola, in lotta contro il principio del male Ahriman.",
+          "answer": "Ahura Mazda"
+        },
+        {
+          "question": "Così furono definiti storicamente i generali militari macedoni che, alla prematura morte di Alessandro Magno, combatterono per decenni per spartirsi i frammenti del suo immenso impero.",
+          "answer": "Diadochi"
+        },
+        {
+          "question": "Regina mitologica di Tebe che commise il peccato di superbia (hybris) vantandosi della propria prole rispetto alla dea Leto, la quale fece uccidere tutti i suoi figli da Apollo e Artemide.",
+          "answer": "Niobe"
+        },
+        {
+          "question": "Il controverso e violento episodio noto come la Defenestrazione di Praga del 1618 fu l'evento scatenante che innescò questo lungo e devastante conflitto europeo.",
+          "answer": "Guerra dei Trent'Anni"
+        },
+        {
+          "question": "Dio azteco onnipotente del cielo notturno, delle tentazioni e del fato, il cui nome significa 'Specchio fumante', eterno e formidabile rivale del dio serpente piumato Quetzalcoatl.",
+          "answer": "Tezcatlipoca"
+        },
+        {
+          "question": "Grande re e fondatore dell'Impero persiano achemenide nel VI secolo a.C., ricordato anche per aver conquistato Babilonia e aver permesso agli Ebrei di tornare in patria dall'esilio.",
+          "answer": "Ciro il Grande"
+        },
+        {
+          "question": "Principale dea dell'amore, della sessualità, della fertilità ma anche della guerra nella mitologia babilonese e assira, chiara omologa della divinità sumera Inanna.",
+          "answer": "Ishtar"
+        },
+        {
+          "question": "Violenta sollevazione xenofoba e anti-cristiana esplosa in Cina sul finire del XIX secolo, promossa da una società segreta di arti marziali e sedata da un'alleanza internazionale di otto nazioni.",
+          "answer": "Ribellione dei Boxer"
+        },
+        {
+          "question": "Bellissimo e amatissimo dio norreno della luce e della purezza; secondo il mito fu ucciso da un dardo di vischio scagliato dal fratello cieco Höðr per colpa di un inganno del dio Loki.",
+          "answer": "Baldur (o Balder)"
+        },
+        {
+          "question": "Abile re e generale dell'Epiro che sconfisse i Romani nelle battaglie di Eraclea e Ascoli Satriano, subendo però perdite talmente gravi da aver dato origine al modo di dire 'vittoria...'",
+          "answer": "Pirro"
+        },
+        {
+          "question": "Nella mitologia dei popoli slavi antichi, è l'importante dio cornuto associato alla terra, alle acque, alla magia e all'oltretomba, tradizionalmente in eterno conflitto cosmico col dio del tuono Perun.",
+          "answer": "Veles (o Volos)"
+        },
+        {
+          "question": "Cruciale trattato di pace del 1555 che cercò di pacificare il Sacro Romano Impero introducendo il principio giuridico del 'Cuius regio, eius religio' (di chi è il territorio, di lui sia la religione).",
+          "answer": "Pace di Augusta"
+        },
+        {
+          "question": "Eroe greco di origini corinzie che, in groppa al cavallo alato Pegaso, affrontò e riuscì a uccidere la Chimera, un temibile mostro sputafuoco con parti di leone, capra e serpente.",
+          "answer": "Bellerofonte"
         }
       ]
     }
@@ -2028,6 +2828,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il genere musicale afroamericano caratterizzato da improvvisazione e swing.",
           "answer": "Jazz"
+        },
+        {
+          "question": "Il 'Re del Pop' famoso per l'album Thriller.",
+          "answer": "Michael Jackson"
+        },
+        {
+          "question": "Il festival della canzone italiana che si tiene in Liguria.",
+          "answer": "Sanremo"
+        },
+        {
+          "question": "Strumento a corde suonato pizzicando o con un plettro, molto usato nel rock.",
+          "answer": "Chitarra"
+        },
+        {
+          "question": "Cantante pop americana famosa per 'Shake It Off'.",
+          "answer": "Taylor Swift"
+        },
+        {
+          "question": "Il carismatico frontman dei Queen.",
+          "answer": "Freddie Mercury"
+        },
+        {
+          "question": "Strumento a tastiera classico con tasti bianchi e neri.",
+          "answer": "Pianoforte"
+        },
+        {
+          "question": "La band inglese formata da John, Paul, George e Ringo.",
+          "answer": "The Beatles"
+        },
+        {
+          "question": "La popstar che canta 'Material Girl' e 'Like a Virgin'.",
+          "answer": "Madonna"
+        },
+        {
+          "question": "L'inno nazionale italiano e' conosciuto come Inno di...",
+          "answer": "Mameli"
+        },
+        {
+          "question": "Il noto tenore italiano che canta 'Con te partiro'.",
+          "answer": "Andrea Bocelli"
+        },
+        {
+          "question": "La band di Damiano David che ha vinto l'Eurovision nel 2021.",
+          "answer": "Maneskin"
+        },
+        {
+          "question": "Il rapper milanese ex marito di Chiara Ferragni.",
+          "answer": "Fedez"
+        },
+        {
+          "question": "Il cantautore rock di 'Albachiara' e 'Vita spericolata'.",
+          "answer": "Vasco Rossi"
+        },
+        {
+          "question": "Il genere musicale nato nel Bronx negli anni '70 che include il rap.",
+          "answer": "Hip Hop"
+        },
+        {
+          "question": "Famoso compositore austriaco bambino prodigio, autore de 'Il Flauto Magico'.",
+          "answer": "Mozart"
+        },
+        {
+          "question": "Cantante pop canadese scoperto su YouTube, interprete di 'Baby'.",
+          "answer": "Justin Bieber"
+        },
+        {
+          "question": "Il piccolo strumento hawaiano simile a una chitarra a quattro corde.",
+          "answer": "Ukulele"
+        },
+        {
+          "question": "Artista britannica interprete di 'Hello' e 'Someone Like You'.",
+          "answer": "Adele"
+        },
+        {
+          "question": "Genere musicale giamaicano il cui re indiscusso e' Bob Marley.",
+          "answer": "Reggae"
+        },
+        {
+          "question": "Strumento a percussione fondamentale in una rock band classica.",
+          "answer": "Batteria"
         }
       ],
       "200": [
@@ -2210,6 +3090,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il cantautore italiano famoso per i suoi iconici occhiali, autore di \"Caruso\".",
           "answer": "Lucio Dalla"
+        },
+        {
+          "question": "Il cantautore italiano noto come 'Il Molleggiato'.",
+          "answer": "Adriano Celentano"
+        },
+        {
+          "question": "Sordo sin dalla giovane eta, e' il compositore della Nona Sinfonia.",
+          "answer": "Beethoven"
+        },
+        {
+          "question": "La cantante barbadiana di 'Umbrella' e fondatrice di Fenty Beauty.",
+          "answer": "Rihanna"
+        },
+        {
+          "question": "Il gruppo rock britannico famoso per l'album 'The Dark Side of the Moon'.",
+          "answer": "Pink Floyd"
+        },
+        {
+          "question": "Icona del reggae che ha cantato 'No Woman, No Cry'.",
+          "answer": "Bob Marley"
+        },
+        {
+          "question": "La cantautrice italiana di 'La solitudine', vincitrice a Sanremo 1993.",
+          "answer": "Laura Pausini"
+        },
+        {
+          "question": "Il vero cognome di Lady Gaga (Stefani Joanne Angelina...).",
+          "answer": "Germanotta"
+        },
+        {
+          "question": "Strumento a fiato di ottone spesso usato nel jazz da Louis Armstrong.",
+          "answer": "Tromba"
+        },
+        {
+          "question": "La band pop svedese autrice di 'Mamma Mia' e 'Dancing Queen'.",
+          "answer": "ABBA"
+        },
+        {
+          "question": "L'artista britannico noto come 'The Starman' e per l'alter ego Ziggy Stardust.",
+          "answer": "David Bowie"
+        },
+        {
+          "question": "Il cantante pop britannico famoso per 'Shape of You'.",
+          "answer": "Ed Sheeran"
+        },
+        {
+          "question": "Cantautore romano che canta 'Notte prima degli esami'.",
+          "answer": "Antonello Venditti"
+        },
+        {
+          "question": "Il ballo e genere musicale argentino per eccellenza.",
+          "answer": "Tango"
+        },
+        {
+          "question": "La cantante pop colombiana famosa per 'Hips Don't Lie'.",
+          "answer": "Shakira"
+        },
+        {
+          "question": "Il piu' grande network musicale in TV nato negli anni '80.",
+          "answer": "MTV"
+        },
+        {
+          "question": "Gruppo rock irlandese capitanato da Bono Vox.",
+          "answer": "U2"
+        },
+        {
+          "question": "Il rocker americano noto universalmente come 'The Boss'.",
+          "answer": "Bruce Springsteen"
+        },
+        {
+          "question": "Il cantautore italiano di 'Centro di gravita' permanente'.",
+          "answer": "Franco Battiato"
+        },
+        {
+          "question": "Cantante statunitense ex Destiny's Child famosa per 'Single Ladies'.",
+          "answer": "Beyonce"
+        },
+        {
+          "question": "Festival musicale del 1969 diventato simbolo della cultura hippie.",
+          "answer": "Woodstock"
         }
       ],
       "300": [
@@ -2392,6 +3352,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il movimento punk londinese della fine degli anni '70 capeggiato da Johnny Rotten e Sid Vicious.",
           "answer": "Sex Pistols"
+        },
+        {
+          "question": "Il compositore italiano delle celebri 'Quattro Stagioni'.",
+          "answer": "Antonio Vivaldi"
+        },
+        {
+          "question": "Band grunge di Seattle guidata dal compianto Kurt Cobain.",
+          "answer": "Nirvana"
+        },
+        {
+          "question": "La voce principale della rock band Rolling Stones.",
+          "answer": "Mick Jagger"
+        },
+        {
+          "question": "Cantautore genovese autore di 'La canzone di Marinella'.",
+          "answer": "Fabrizio De Andre"
+        },
+        {
+          "question": "Popstar canadese di 'Blinding Lights' e 'Starboy'.",
+          "answer": "The Weeknd"
+        },
+        {
+          "question": "Grande strumento a corde pizzicate usato nelle orchestre sinfoniche classiche.",
+          "answer": "Arpa"
+        },
+        {
+          "question": "L'autore italiano di opere celebri come 'La Traviata' e 'Aida'.",
+          "answer": "Giuseppe Verdi"
+        },
+        {
+          "question": "Cantante britannica celebre per il brano 'Rehab'.",
+          "answer": "Amy Winehouse"
+        },
+        {
+          "question": "Il gruppo britpop dei fratelli Gallagher formatosi a Manchester.",
+          "answer": "Oasis"
+        },
+        {
+          "question": "L'anno esatto in cui e' morto il re del Rock and Roll Elvis Presley.",
+          "answer": "1977"
+        },
+        {
+          "question": "Il vero nome all'anagrafe del rapper Eminem.",
+          "answer": "Marshall Mathers"
+        },
+        {
+          "question": "La citta' della Louisiana considerata storicamente la culla del Jazz.",
+          "answer": "New Orleans"
+        },
+        {
+          "question": "Cantautrice e icona italiana interprete di 'Almeno tu nell'universo'.",
+          "answer": "Mia Martini"
+        },
+        {
+          "question": "Il geniale chitarrista che ha suonato l'inno americano a Woodstock.",
+          "answer": "Jimi Hendrix"
+        },
+        {
+          "question": "Il piu' celebre liutaio della storia, originario della citta' di Cremona.",
+          "answer": "Stradivari"
+        },
+        {
+          "question": "Band americana rock celebre per il famosissimo brano 'Hotel California'.",
+          "answer": "Eagles"
+        },
+        {
+          "question": "Cantautore napoletano di 'Napule e'' e 'Je so' pazzo'.",
+          "answer": "Pino Daniele"
+        },
+        {
+          "question": "Il premio musicale annuale piu' prestigioso assegnato negli Stati Uniti.",
+          "answer": "Grammy Award"
+        },
+        {
+          "question": "La band heavy metal con il cantante chitarrista James Hetfield.",
+          "answer": "Metallica"
+        },
+        {
+          "question": "Artista italiano noto anche come Liga, autore dell'inno 'Certe Notti'.",
+          "answer": "Luciano Ligabue"
         }
       ],
       "400": [
@@ -2574,6 +3614,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "La famiglia austriaca protagonista del musical e film \"Tutti insieme appassionatamente\".",
           "answer": "Famiglia von Trapp"
+        },
+        {
+          "question": "Compositore russo del celebre balletto classico 'Il lago dei cigni'.",
+          "answer": "Tchaikovsky"
+        },
+        {
+          "question": "Il chitarrista della band Queen, che e' anche laureato in astrofisica.",
+          "answer": "Brian May"
+        },
+        {
+          "question": "Cantautore bolognese autore di 'Caruso' e 'L'anno che verra'.",
+          "answer": "Lucio Dalla"
+        },
+        {
+          "question": "Il primo disco d'oro della storia ando' a Glenn Miller per questo brano.",
+          "answer": "Chattanooga Choo Choo"
+        },
+        {
+          "question": "Il nome del primo batterista dei Beatles prima di essere sostituito da Ringo Starr.",
+          "answer": "Pete Best"
+        },
+        {
+          "question": "Artista islandese famosa per lo stile avanguardista e l'album 'Homogenic'.",
+          "answer": "Bjork"
+        },
+        {
+          "question": "La tonalita' di un'armonica a bocca standard, ideale per cominciare a suonare.",
+          "answer": "Do (C)"
+        },
+        {
+          "question": "Il cantautore folk americano insignito del premio Nobel per la Letteratura nel 2016.",
+          "answer": "Bob Dylan"
+        },
+        {
+          "question": "Opera di Giacomo Puccini ambientata a Pechino, contenente la romanza 'Nessun dorma'.",
+          "answer": "Turandot"
+        },
+        {
+          "question": "Il duo rock elettronico francese formato da Guy-Manuel de Homem-Christo e Thomas Bangalter.",
+          "answer": "Daft Punk"
+        },
+        {
+          "question": "Pseudonimo del cantautore Riccardo Fabbriconi, vincitore a Sanremo con 'Brividi'.",
+          "answer": "Blanco"
+        },
+        {
+          "question": "Famoso virtuoso del violino genovese, si diceva avesse fatto un patto col diavolo.",
+          "answer": "Niccolo Paganini"
+        },
+        {
+          "question": "Il movimento punk inglese vide in prima linea questa band autrice di 'God Save the Queen'.",
+          "answer": "Sex Pistols"
+        },
+        {
+          "question": "La cantautrice e pianista afroamericana universalmente nota come la 'Regina del Soul'.",
+          "answer": "Aretha Franklin"
+        },
+        {
+          "question": "La cantante italiana definita 'La Tigre di Cremona', ritiratasi dalle scene pubbliche.",
+          "answer": "Mina"
+        },
+        {
+          "question": "L'iconica band britannica autrice dei brani 'Creep' e 'Karma Police'.",
+          "answer": "Radiohead"
+        },
+        {
+          "question": "Genere nato in Andalusia che unisce il cante, il toque (chitarra) e il baile (danza).",
+          "answer": "Flamenco"
+        },
+        {
+          "question": "Il vero nome per esteso (nome e cognome) originale di Elton John.",
+          "answer": "Reginald Kenneth Dwight"
+        },
+        {
+          "question": "Pioniere del rock and roll, famoso per la mossa del 'duck walk'.",
+          "answer": "Chuck Berry"
+        },
+        {
+          "question": "Cantautore di Crotone autore di 'Gianna' e 'Il cielo e' sempre piu' blu'.",
+          "answer": "Rino Gaetano"
         }
       ],
       "500": [
@@ -2756,6 +3876,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "L'antica scala musicale composta da cinque note per ottava, diffusissima in molte tradizioni popolari globali e nel blues.",
           "answer": "Scala pentatonica"
+        },
+        {
+          "question": "Il termine musicale classico per indicare un tempo molto veloce (168-200 bpm).",
+          "answer": "Presto"
+        },
+        {
+          "question": "Album dei Pink Floyd del 1979, concepito anche come opera rock su un musicista alienato.",
+          "answer": "The Wall"
+        },
+        {
+          "question": "La leggendaria cantante e solista jazz che era nota anche col soprannome di 'Lady Day'.",
+          "answer": "Billie Holiday"
+        },
+        {
+          "question": "Compositore tedesco ottocentesco celebre per il ciclo 'L'anello del Nibelungo'.",
+          "answer": "Richard Wagner"
+        },
+        {
+          "question": "Il grande sassofonista jazz compositore del capolavoro del 1965 'A Love Supreme'.",
+          "answer": "John Coltrane"
+        },
+        {
+          "question": "Strumento tradizionale scozzese ad ancia dotato di una sacca per la riserva d'aria.",
+          "answer": "Cornamusa"
+        },
+        {
+          "question": "Il talentuoso tastierista e fondatore, insieme a Jim Morrison, dei Doors.",
+          "answer": "Ray Manzarek"
+        },
+        {
+          "question": "Il DJ considerato il 'Padrino dell'House Music' che suonava al club Warehouse di Chicago.",
+          "answer": "Frankie Knuckles"
+        },
+        {
+          "question": "La band heavy metal britannica la cui celebre mascotte scheletrica si chiama Eddie the Head.",
+          "answer": "Iron Maiden"
+        },
+        {
+          "question": "Il compositore e direttore d'orchestra francese autore della 'Sinfonia Fantastica' del 1830.",
+          "answer": "Hector Berlioz"
+        },
+        {
+          "question": "Il genere di musica popolare brasiliana di cui il chitarrista Joao Gilberto fu un pioniere.",
+          "answer": "Bossa Nova"
+        },
+        {
+          "question": "Compositore minimalista americano contemporaneo noto per opere come 'Glassworks' e 'Einstein on the Beach'.",
+          "answer": "Philip Glass"
+        },
+        {
+          "question": "La cantautrice folk canadese autrice di brani iconici come 'Big Yellow Taxi' e 'Woodstock'.",
+          "answer": "Joni Mitchell"
+        },
+        {
+          "question": "Cantante rock degli anni '60 con un alter ego chiamato Pearl, purtroppo morta a soli 27 anni.",
+          "answer": "Janis Joplin"
+        },
+        {
+          "question": "Strumento a fiato classico a doppia ancia in legno, considerato il cugino piu' grave dell'oboe.",
+          "answer": "Fagotto"
+        },
+        {
+          "question": "Il celebre e innovativo trombettista jazz che ha pubblicato il capolavoro 'Kind of Blue' nel 1959.",
+          "answer": "Miles Davis"
+        },
+        {
+          "question": "Lo pseudonimo con cui e' mondialmente famoso il cantante rock Paul David Hewson.",
+          "answer": "Bono (Vox)"
+        },
+        {
+          "question": "Il maestro compositore della colonna sonora del film 'Il buono, il brutto, il cattivo'.",
+          "answer": "Ennio Morricone"
+        },
+        {
+          "question": "Lo strumento a tre corde di origine russa caratterizzato dal particolare corpo a forma triangolare.",
+          "answer": "Balalaika"
+        },
+        {
+          "question": "L'album musicale che detiene il record di piu' venduto di tutti i tempi a livello mondiale.",
+          "answer": "Thriller"
         }
       ]
     }
@@ -2943,6 +4143,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "L'albero il cui frutto è una ghianda.",
           "answer": "Quercia"
+        },
+        {
+          "question": "È il pianeta più vicino al Sole.",
+          "answer": "Mercurio"
+        },
+        {
+          "question": "Il processo attraverso cui le piante producono il loro nutrimento.",
+          "answer": "Fotosintesi"
+        },
+        {
+          "question": "H2O è la formula chimica di questa sostanza essenziale per la vita.",
+          "answer": "Acqua"
+        },
+        {
+          "question": "L'unico mammifero in grado di volare.",
+          "answer": "Pipistrello"
+        },
+        {
+          "question": "È il satellite naturale della Terra.",
+          "answer": "Luna"
+        },
+        {
+          "question": "Lo strumento usato per osservare le stelle e i pianeti.",
+          "answer": "Telescopio"
+        },
+        {
+          "question": "È l'organo che pompa il sangue nel corpo umano.",
+          "answer": "Cuore"
+        },
+        {
+          "question": "Il metallo liquido a temperatura ambiente usato nei vecchi termometri.",
+          "answer": "Mercurio"
+        },
+        {
+          "question": "Questo animale dal collo lungo è il mammifero terrestre più alto.",
+          "answer": "Giraffa"
+        },
+        {
+          "question": "La forza che ci tiene ancorati a terra e fa cadere gli oggetti.",
+          "answer": "Gravità"
+        },
+        {
+          "question": "I tre stati della materia sono solido, liquido e...",
+          "answer": "Gassoso"
+        },
+        {
+          "question": "La più grande stella del nostro sistema solare, che ci dà luce e calore.",
+          "answer": "Sole"
+        },
+        {
+          "question": "Questo gas ci serve per respirare ed è vitale per noi.",
+          "answer": "Ossigeno"
+        },
+        {
+          "question": "È la scienza che studia gli animali e i loro comportamenti.",
+          "answer": "Zoologia"
+        },
+        {
+          "question": "L'intensità di un terremoto si misura con questa famosa scala.",
+          "answer": "Scala Richter"
+        },
+        {
+          "question": "È il più grande oceano della Terra.",
+          "answer": "Oceano Pacifico"
+        },
+        {
+          "question": "I panda giganti si nutrono principalmente di questa pianta.",
+          "answer": "Bambù"
+        },
+        {
+          "question": "Questo continente è coperto di ghiaccio e non ha nazioni al suo interno.",
+          "answer": "Antartide"
+        },
+        {
+          "question": "Il senso legato al naso.",
+          "answer": "Olfatto"
+        },
+        {
+          "question": "È il grande fiore giallo che 'segue' il percorso del sole nel cielo.",
+          "answer": "Girasole"
         }
       ],
       "200": [
@@ -3125,6 +4405,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "L'anfibio che può rigenerare parti del suo corpo, incluso il cuore e il cervello.",
           "answer": "Axolotl (o Salamandra)"
+        },
+        {
+          "question": "La proteina che dà il colore rosso al sangue umano e trasporta l'ossigeno.",
+          "answer": "Emoglobina"
+        },
+        {
+          "question": "È il gas più abbondante nell'atmosfera terrestre.",
+          "answer": "Azoto"
+        },
+        {
+          "question": "Il più grande pianeta del sistema solare, noto per la sua Grande Macchia Rossa.",
+          "answer": "Giove"
+        },
+        {
+          "question": "La parte della pianta sotterranea che assorbe acqua e nutrienti dal terreno.",
+          "answer": "Radice"
+        },
+        {
+          "question": "La roccia fusa quando si trova ancora sotto la superficie terrestre, prima di diventare lava.",
+          "answer": "Magma"
+        },
+        {
+          "question": "Questo osso della gamba è il più lungo e resistente del corpo umano.",
+          "answer": "Femore"
+        },
+        {
+          "question": "Inventò e brevettò per primo il telefono pratico nel 1876.",
+          "answer": "Alexander Graham Bell"
+        },
+        {
+          "question": "La galassia a spirale in cui si trova il nostro sistema solare.",
+          "answer": "Via Lattea"
+        },
+        {
+          "question": "Questo insetto è famoso per produrre il miele e impollinare i fiori.",
+          "answer": "Ape"
+        },
+        {
+          "question": "La sigla DNA sta per Acido...",
+          "answer": "Desossiribonucleico"
+        },
+        {
+          "question": "La branca della biologia e geologia che studia i fossili per ricostruire la storia della vita.",
+          "answer": "Paleontologia"
+        },
+        {
+          "question": "L'animale terrestre più veloce, capace di scatti fulminei.",
+          "answer": "Ghepardo"
+        },
+        {
+          "question": "Questo elemento chimico ha il simbolo C ed è la base della vita organica.",
+          "answer": "Carbonio"
+        },
+        {
+          "question": "È il termine biologico per la trasformazione di un bruco in farfalla.",
+          "answer": "Metamorfosi"
+        },
+        {
+          "question": "La scienza che studia la composizione, la struttura e la storia della Terra.",
+          "answer": "Geologia"
+        },
+        {
+          "question": "Un gruppo di lupi che vive e caccia insieme viene chiamato così.",
+          "answer": "Branco"
+        },
+        {
+          "question": "Il centro di un atomo, che contiene protoni e neutroni.",
+          "answer": "Nucleo"
+        },
+        {
+          "question": "L'orso polare vive in questo habitat estremo situato al polo nord.",
+          "answer": "Artide"
+        },
+        {
+          "question": "Il fenomeno astronomico in cui la Luna copre la vista del Sole dalla Terra.",
+          "answer": "Eclissi solare"
+        },
+        {
+          "question": "È l'energia rinnovabile che si ricava sfruttando il calore interno della Terra.",
+          "answer": "Geotermica"
         }
       ],
       "300": [
@@ -3307,6 +4667,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il processo di separazione dei componenti di una miscela liquida basato sui loro diversi punti di ebollizione.",
           "answer": "Distillazione"
+        },
+        {
+          "question": "Il fisico che ha formulato la teoria della relatività e l'equazione E=mc^2.",
+          "answer": "Albert Einstein"
+        },
+        {
+          "question": "La particella subatomica con carica elettrica negativa.",
+          "answer": "Elettrone"
+        },
+        {
+          "question": "La malattia caratterizzata dall'aumento di glucosio nel sangue a causa della carenza di insulina.",
+          "answer": "Diabete"
+        },
+        {
+          "question": "È il quarto pianeta del sistema solare, spesso noto come il 'Pianeta Rosso'.",
+          "answer": "Marte"
+        },
+        {
+          "question": "Lo strato dell'atmosfera che ci protegge dalle radiazioni ultraviolette del sole.",
+          "answer": "Ozono (o Ozonosfera)"
+        },
+        {
+          "question": "Il corno di questo grande mammifero africano è fatto di cheratina, come i nostri capelli.",
+          "answer": "Rinoceronte"
+        },
+        {
+          "question": "Quanti denti ha solitamente un essere umano adulto completo di denti del giudizio?",
+          "answer": "32"
+        },
+        {
+          "question": "Il metallo prezioso che ha come simbolo chimico Au.",
+          "answer": "Oro"
+        },
+        {
+          "question": "La grande corrente oceanica calda che dal Golfo del Messico mitiga il clima europeo.",
+          "answer": "Corrente del Golfo"
+        },
+        {
+          "question": "Il più grande animale conosciuto mai esistito sul nostro pianeta.",
+          "answer": "Balenottera azzurra"
+        },
+        {
+          "question": "Lo strumento inventato da Torricelli usato per misurare la pressione atmosferica.",
+          "answer": "Barometro"
+        },
+        {
+          "question": "Il botanico svedese che ideò la nomenclatura binomiale per classificare gli esseri viventi.",
+          "answer": "Carlo Linneo"
+        },
+        {
+          "question": "L'unità di misura della resistenza elettrica, che prende il nome da un fisico tedesco.",
+          "answer": "Ohm"
+        },
+        {
+          "question": "Le rocce formate dal raffreddamento e dalla solidificazione della lava sono chiamate così.",
+          "answer": "Magmatiche (o Ignee)"
+        },
+        {
+          "question": "Quanti lobi ha il polmone destro di un essere umano?",
+          "answer": "Tre"
+        },
+        {
+          "question": "La ghiandola a forma di farfalla situata nella parte anteriore del collo.",
+          "answer": "Tiroide"
+        },
+        {
+          "question": "Un organismo unicellulare privo di nucleo ben definito (come un batterio).",
+          "answer": "Procariote"
+        },
+        {
+          "question": "Il colore con la lunghezza d'onda più lunga nello spettro visibile della luce.",
+          "answer": "Rosso"
+        },
+        {
+          "question": "Il metallo alcalino più leggero, ampiamente usato nelle moderne batterie ricaricabili.",
+          "answer": "Litio"
+        },
+        {
+          "question": "Animale marino noto per la sua notevole intelligenza e per l'uso dell'ecolocalizzazione.",
+          "answer": "Delfino"
         }
       ],
       "400": [
@@ -3489,6 +4929,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "La forza fondamentale responsabile del decadimento radioattivo beta.",
           "answer": "Interazione debole (o Forza nucleare debole)"
+        },
+        {
+          "question": "Il principio secondo cui a ogni azione corrisponde una reazione uguale e contraria.",
+          "answer": "Terzo principio della dinamica (Terza legge di Newton)"
+        },
+        {
+          "question": "La ghiandola del cervello nota come la 'ghiandola maestra' che controlla il sistema endocrino.",
+          "answer": "Ipofisi (o Ghiandola pituitaria)"
+        },
+        {
+          "question": "La reazione nucleare in cui due nuclei leggeri si uniscono per formarne uno più pesante, che alimenta il Sole.",
+          "answer": "Fusione nucleare"
+        },
+        {
+          "question": "La parte colorata dell'occhio umano che regola la quantità di luce che vi entra.",
+          "answer": "Iride"
+        },
+        {
+          "question": "In genetica, indica ciascuna delle forme alternative che un gene può assumere.",
+          "answer": "Allele"
+        },
+        {
+          "question": "L'elemento chimico più semplice e più abbondante di tutto l'universo.",
+          "answer": "Idrogeno"
+        },
+        {
+          "question": "I frammenti di roccia spaziale che bruciano entrando nell'atmosfera, spesso chiamati 'stelle cadenti'.",
+          "answer": "Meteore"
+        },
+        {
+          "question": "L'osso del braccio umano situato nella parte superiore, tra la spalla e il gomito.",
+          "answer": "Omero"
+        },
+        {
+          "question": "L'era geologica conosciuta come l'era dei rettili, in cui vissero i dinosauri.",
+          "answer": "Mesozoico"
+        },
+        {
+          "question": "Questo gas nobile, che dà una tipica luce rossa-arancione nelle insegne luminose, ha simbolo Ne.",
+          "answer": "Neon"
+        },
+        {
+          "question": "La scala di misura logaritmica utilizzata per indicare l'acidità o la basicità di una soluzione acquosa.",
+          "answer": "pH"
+        },
+        {
+          "question": "Il nome della famosa pecora, il primo mammifero clonato con successo da una cellula adulta nel 1996.",
+          "answer": "Dolly"
+        },
+        {
+          "question": "Il tipo di legame chimico in cui due atomi condividono una o più coppie di elettroni.",
+          "answer": "Legame covalente"
+        },
+        {
+          "question": "Lo scienziato britannico che scoprì per caso le proprietà antibatteriche della penicillina.",
+          "answer": "Alexander Fleming"
+        },
+        {
+          "question": "È il più grande satellite del pianeta Giove e dell'intero sistema solare.",
+          "answer": "Ganimede"
+        },
+        {
+          "question": "Il passaggio di stato diretto dalla fase solida alla fase gassosa, senza passare per il liquido.",
+          "answer": "Sublimazione"
+        },
+        {
+          "question": "L'antico albero cinese noto per le sue foglie a forma di ventaglio, considerato un vero fossile vivente.",
+          "answer": "Ginkgo biloba"
+        },
+        {
+          "question": "La molecola energetica fondamentale per lo scambio di energia nelle cellule, nota con l'acronimo ATP.",
+          "answer": "Adenosina trifosfato"
+        },
+        {
+          "question": "Quanti sono i cromosomi totali all'interno di una normale cellula somatica umana?",
+          "answer": "46"
+        },
+        {
+          "question": "Il grande organo del corpo umano incaricato, tra le molte cose, di produrre la bile per la digestione.",
+          "answer": "Fegato"
         }
       ],
       "500": [
@@ -3671,6 +5191,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "La particella elementare scoperta nel 2012 al CERN, che conferisce massa ad altre particelle.",
           "answer": "Bosone di Higgs"
+        },
+        {
+          "question": "La particella elementare scoperta nel 2012 al CERN, che conferisce la massa alle altre particelle.",
+          "answer": "Bosone di Higgs"
+        },
+        {
+          "question": "Il processo fisiologico e strettamente regolato di morte cellulare programmata.",
+          "answer": "Apoptosi"
+        },
+        {
+          "question": "La temperatura teorica più bassa possibile, corrispondente a -273,15 °C.",
+          "answer": "Zero assoluto"
+        },
+        {
+          "question": "L'elemento chimico naturale con il numero atomico più alto (92) presente in natura sulla Terra in quantità significative.",
+          "answer": "Uranio"
+        },
+        {
+          "question": "Il fenomeno della meccanica quantistica per cui lo stato di due particelle risulta interconnesso a prescindere dalla distanza.",
+          "answer": "Entanglement quantistico"
+        },
+        {
+          "question": "La scala empirica che misura la durezza dei minerali, dal tenero talco al durissimo diamante.",
+          "answer": "Scala di Mohs"
+        },
+        {
+          "question": "L'astronomo tedesco del Seicento che formulò le tre leggi fondamentali sul movimento dei pianeti attorno al Sole.",
+          "answer": "Johannes Keplero"
+        },
+        {
+          "question": "Il neurotrasmettitore chiamato anche 'l'ormone della felicità', spesso carente in caso di depressione clinica.",
+          "answer": "Serotonina"
+        },
+        {
+          "question": "La regione posteriore del cervello responsabile della coordinazione motoria e del mantenimento dell'equilibrio.",
+          "answer": "Cervelletto"
+        },
+        {
+          "question": "Lo strato più esterno, rarefatto e caldo dell'atmosfera del Sole, ben visibile come un alone durante le eclissi totali.",
+          "answer": "Corona solare"
+        },
+        {
+          "question": "L'eone geologico attuale, iniziato 541 milioni di anni fa, caratterizzato dall'abbondanza di vita visibile complessa.",
+          "answer": "Fanerozoico"
+        },
+        {
+          "question": "Il secondo elemento chimico per abbondanza nella crosta terrestre, dopo l'ossigeno, fondamentale per l'elettronica.",
+          "answer": "Silicio"
+        },
+        {
+          "question": "Il difetto visivo per cui l'occhio non riesce a mettere a fuoco bene gli oggetti vicini (diverso dalla presbiopia).",
+          "answer": "Ipermetropia"
+        },
+        {
+          "question": "L'enzima presente nella saliva umana che avvia la digestione e scomposizione degli amidi.",
+          "answer": "Amilasi (o Ptialina)"
+        },
+        {
+          "question": "La fossa oceanica più profonda del mondo, nota soprattutto per l'abisso Challenger.",
+          "answer": "Fossa delle Marianne"
+        },
+        {
+          "question": "L'isola vulcanica comparsa improvvisamente a sud dell'Islanda nel 1963, divenuta un laboratorio per studiare la vita primaria.",
+          "answer": "Surtsey"
+        },
+        {
+          "question": "Il fisico teorico e cosmologo britannico noto per le sue equazioni sui buchi neri e sull'emissione di radiazioni da parte loro.",
+          "answer": "Stephen Hawking"
+        },
+        {
+          "question": "Le nubi d'alta quota, dall'aspetto sfilacciato e piumoso, costituite unicamente da minuscoli cristalli di ghiaccio.",
+          "answer": "Cirri"
+        },
+        {
+          "question": "L'equazione fondamentale della meccanica quantistica che descrive come evolve nel tempo lo stato quantico di un sistema.",
+          "answer": "Equazione di Schrödinger"
+        },
+        {
+          "question": "L'ormone secreto dalle ghiandole surrenali che prepara il corpo alla risposta di attacco o fuga in caso di stress acuto.",
+          "answer": "Adrenalina"
         }
       ]
     }
@@ -3858,6 +5458,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Famoso riccio blu velocissimo in grado di raccogliere anelli d'oro, mascotte della SEGA.",
           "answer": "Sonic"
+        },
+        {
+          "question": "Ha fondato Microsoft insieme a Paul Allen.",
+          "answer": "Bill Gates"
+        },
+        {
+          "question": "Il sistema operativo mobile sviluppato da Google.",
+          "answer": "Android"
+        },
+        {
+          "question": "Il videogioco più venduto della storia, con un mondo a blocchi.",
+          "answer": "Minecraft"
+        },
+        {
+          "question": "L'azienda che produce l'iPhone.",
+          "answer": "Apple"
+        },
+        {
+          "question": "Il famoso idraulico baffuto simbolo della Nintendo.",
+          "answer": "Super Mario"
+        },
+        {
+          "question": "Il social network di Mark Zuckerberg originariamente nato ad Harvard.",
+          "answer": "Facebook"
+        },
+        {
+          "question": "Lo smartphone concorrente dell'iPhone prodotto dalla Samsung.",
+          "answer": "Galaxy"
+        },
+        {
+          "question": "Il linguaggio di formattazione utilizzato per creare pagine web.",
+          "answer": "HTML"
+        },
+        {
+          "question": "La console di casa Sony arrivata alla sua quinta generazione.",
+          "answer": "PlayStation"
+        },
+        {
+          "question": "Il browser web predefinito di Windows prima di Edge.",
+          "answer": "Internet Explorer"
+        },
+        {
+          "question": "La periferica utilizzata per muovere il puntatore sullo schermo del computer.",
+          "answer": "Mouse"
+        },
+        {
+          "question": "La piattaforma di streaming video di proprietà di Google.",
+          "answer": "YouTube"
+        },
+        {
+          "question": "Il visore di realtà virtuale prodotto da Meta.",
+          "answer": "Meta Quest / Oculus"
+        },
+        {
+          "question": "Lo storico gioco in cui si incastrano mattoncini che cadono dall'alto.",
+          "answer": "Tetris"
+        },
+        {
+          "question": "Il componente del computer che funge da memoria a breve termine e si perde allo spegnimento.",
+          "answer": "RAM"
+        },
+        {
+          "question": "La piattaforma digitale per l'acquisto di giochi per PC creata da Valve.",
+          "answer": "Steam"
+        },
+        {
+          "question": "Il piccolo dispositivo portatile di archiviazione che si collega tramite porta USB.",
+          "answer": "Chiavetta USB (Pendrive)"
+        },
+        {
+          "question": "Il videogioco sparatutto battle royale sviluppato da Epic Games.",
+          "answer": "Fortnite"
+        },
+        {
+          "question": "Il motore di ricerca web più utilizzato al mondo.",
+          "answer": "Google"
+        },
+        {
+          "question": "Il popolare gioco per smartphone in cui si catturano creature nel mondo reale.",
+          "answer": "Pokémon GO"
         }
       ],
       "200": [
@@ -4040,6 +5720,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il primo videogioco arcade di grandissimo successo in cui si controlla un cannone laser contro alieni cadenti.",
           "answer": "Space Invaders"
+        },
+        {
+          "question": "Il fondatore di Tesla e SpaceX, proprietario di X (ex Twitter).",
+          "answer": "Elon Musk"
+        },
+        {
+          "question": "La moneta virtuale introdotta dallo pseudonimo Satoshi Nakamoto nel 2009.",
+          "answer": "Bitcoin"
+        },
+        {
+          "question": "Il protocollo di rete senza fili utilizzato per collegare dispositivi a breve distanza.",
+          "answer": "Bluetooth"
+        },
+        {
+          "question": "Il termine che indica la tecnologia di archiviazione dei dati su server remoti accessibili via internet.",
+          "answer": "Cloud"
+        },
+        {
+          "question": "L'intelligenza artificiale conversazionale sviluppata da OpenAI.",
+          "answer": "ChatGPT"
+        },
+        {
+          "question": "La storica console portatile della Nintendo lanciata nel 1989.",
+          "answer": "Game Boy"
+        },
+        {
+          "question": "Il servizio di abbonamento Microsoft che offre un ampio catalogo di videogiochi.",
+          "answer": "Xbox Game Pass"
+        },
+        {
+          "question": "Il sistema operativo open source basato sul kernel creato da Linus Torvalds.",
+          "answer": "Linux"
+        },
+        {
+          "question": "Il termine informatico per un errore o difetto nel codice di un programma.",
+          "answer": "Bug"
+        },
+        {
+          "question": "L'unità di misura della capacità di memoria, equivalente a 1024 Megabyte.",
+          "answer": "Gigabyte"
+        },
+        {
+          "question": "Il videogioco di calcio sviluppato da EA Sports, precedentemente noto come FIFA.",
+          "answer": "EA Sports FC"
+        },
+        {
+          "question": "L'applicazione di messaggistica istantanea acquistata da Facebook nel 2014.",
+          "answer": "WhatsApp"
+        },
+        {
+          "question": "La serie di videogiochi action-adventure con protagonista l'archeologa Lara Croft.",
+          "answer": "Tomb Raider"
+        },
+        {
+          "question": "La piattaforma per le dirette streaming molto popolare tra i videogiocatori, acquisita da Amazon.",
+          "answer": "Twitch"
+        },
+        {
+          "question": "La sigla 'CPU' sta per 'Central Processing...'.",
+          "answer": "Unit"
+        },
+        {
+          "question": "L'azienda sviluppatrice di giochi popolari come World of Warcraft e Overwatch.",
+          "answer": "Blizzard Entertainment"
+        },
+        {
+          "question": "La storica casa produttrice di videogiochi creatrice del porcospino blu Sonic.",
+          "answer": "SEGA"
+        },
+        {
+          "question": "Il formato di file musicale compresso che ha rivoluzionato l'ascolto di musica digitale.",
+          "answer": "MP3"
+        },
+        {
+          "question": "La serie di videogiochi open-world in cui si esplorano città e si commettono crimini (sigla in 3 lettere).",
+          "answer": "GTA (Grand Theft Auto)"
+        },
+        {
+          "question": "Il sensore di uno smartphone o dispositivo che cattura le immagini.",
+          "answer": "Fotocamera"
         }
       ],
       "300": [
@@ -4222,6 +5982,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Immenso gioco di ruolo del 2015 di CD Projekt Red che ha come protagonista lo strigo Geralt di Rivia.",
           "answer": "The Witcher 3: Wild Hunt"
+        },
+        {
+          "question": "L'azienda taiwanese nota come la più grande produttrice indipendente di semiconduttori al mondo.",
+          "answer": "TSMC"
+        },
+        {
+          "question": "Il linguaggio di programmazione molto usato per l'intelligenza artificiale che porta il nome di un serpente.",
+          "answer": "Python"
+        },
+        {
+          "question": "La console di Nintendo che ha introdotto il controller a forma di telecomando basato sul movimento.",
+          "answer": "Wii"
+        },
+        {
+          "question": "L'anno di lancio del primo iPhone, presentato da Steve Jobs.",
+          "answer": "2007"
+        },
+        {
+          "question": "L'informatico britannico considerato il creatore del World Wide Web.",
+          "answer": "Tim Berners-Lee"
+        },
+        {
+          "question": "L'assistente virtuale di Apple introdotto per la prima volta con l'iPhone 4S.",
+          "answer": "Siri"
+        },
+        {
+          "question": "L'azienda che produce i famosi processori della serie Snapdragon.",
+          "answer": "Qualcomm"
+        },
+        {
+          "question": "Il nome in codice del primissimo computer prodotto e commercializzato da Apple.",
+          "answer": "Apple I"
+        },
+        {
+          "question": "Il gioco di ruolo del 2011 sviluppato da Bethesda, quinto capitolo della serie The Elder Scrolls.",
+          "answer": "Skyrim"
+        },
+        {
+          "question": "L'azienda che sviluppa e fornisce in licenza il motore grafico Unreal Engine.",
+          "answer": "Epic Games"
+        },
+        {
+          "question": "Il primo videogioco commerciale di successo, una simulazione di ping-pong del 1972.",
+          "answer": "Pong"
+        },
+        {
+          "question": "La famosa serie di sparatutto in prima persona esclusiva Microsoft con protagonista Master Chief.",
+          "answer": "Halo"
+        },
+        {
+          "question": "Lo standard di connessione internet ultra-veloce su reti mobili che segue il 4G.",
+          "answer": "5G"
+        },
+        {
+          "question": "L'azienda finlandese produttrice di storici telefoni cellulari famosi per la loro resistenza.",
+          "answer": "Nokia"
+        },
+        {
+          "question": "Il videogioco ideato da Hideo Kojima in cui si effettuano consegne in un mondo post-apocalittico.",
+          "answer": "Death Stranding"
+        },
+        {
+          "question": "Il videogioco capostipite del genere 'soulslike', sviluppato da FromSoftware nel 2009 per PS3.",
+          "answer": "Demon's Souls"
+        },
+        {
+          "question": "L'acronimo 'URL', che indica l'indirizzo di una pagina web, sta per 'Uniform Resource...'.",
+          "answer": "Locator"
+        },
+        {
+          "question": "Il formato di supporto video che ha sostituito il VHS prima dell'arrivo del Blu-ray.",
+          "answer": "DVD"
+        },
+        {
+          "question": "Il social network incentrato sui brevi video precedentemente noto come Musical.ly.",
+          "answer": "TikTok"
+        },
+        {
+          "question": "L'ingegnere inventore del mouse, che ne fece la prima dimostrazione pubblica nel 1968.",
+          "answer": "Douglas Engelbart"
         }
       ],
       "400": [
@@ -4404,6 +6244,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Videogioco per Atari 2600 del 1982 basato su un film di Spielberg, noto per essere stato sepolto nel deserto per le scarse vendite.",
           "answer": "E.T. the Extra-Terrestrial"
+        },
+        {
+          "question": "Il videogioco di esplorazione spaziale generato proceduralmente sviluppato da Hello Games.",
+          "answer": "No Man's Sky"
+        },
+        {
+          "question": "Il CEO di Apple che ha preso la guida dell'azienda succedendo a Steve Jobs.",
+          "answer": "Tim Cook"
+        },
+        {
+          "question": "L'architetto di sistemi e progettista hardware principale della PlayStation 4 e 5.",
+          "answer": "Mark Cerny"
+        },
+        {
+          "question": "Nel mondo dell'informatica, l'acronimo GPU sta per 'Graphics Processing...'.",
+          "answer": "Unit"
+        },
+        {
+          "question": "Il primo supercomputer a sconfiggere il campione del mondo di scacchi Garry Kasparov nel 1997.",
+          "answer": "Deep Blue"
+        },
+        {
+          "question": "Il linguaggio di programmazione di Sun Microsystems del 1995, noto per il motto 'Write once, run anywhere'.",
+          "answer": "Java"
+        },
+        {
+          "question": "Il leggendario creatore di videogiochi Nintendo padre delle serie Mario e Zelda.",
+          "answer": "Shigeru Miyamoto"
+        },
+        {
+          "question": "La criptovaluta creata da Vitalik Buterin, che ha introdotto i contratti intelligenti (smart contracts).",
+          "answer": "Ethereum"
+        },
+        {
+          "question": "La società di videogiochi e distribuzione digitale fondata da Gabe Newell.",
+          "answer": "Valve"
+        },
+        {
+          "question": "La celebre frase 'It's dangerous to go alone! Take this.' proviene da questo storico videogioco.",
+          "answer": "The Legend of Zelda"
+        },
+        {
+          "question": "Il termine specifico per un software malevolo che blocca l'accesso ai dati chiedendo un riscatto.",
+          "answer": "Ransomware"
+        },
+        {
+          "question": "La prima console domestica a utilizzare i CD-ROM invece delle cartucce con enorme successo mondiale.",
+          "answer": "PlayStation (PS1)"
+        },
+        {
+          "question": "Il componente di una CPU che si occupa di eseguire materialmente i calcoli aritmetici e logici (acronimo di tre lettere).",
+          "answer": "ALU"
+        },
+        {
+          "question": "L'ingegnere che ha co-fondato la Apple e ha progettato da solo i computer Apple I e II.",
+          "answer": "Steve Wozniak"
+        },
+        {
+          "question": "Il famigerato bug informatico legato al formato delle date che avrebbe dovuto causare il caos informatico globale nel 2000.",
+          "answer": "Millennium Bug (Y2K)"
+        },
+        {
+          "question": "Il capolavoro del 2015 della CD Projekt RED che ha per protagonista lo strigo Geralt di Rivia.",
+          "answer": "The Witcher 3: Wild Hunt"
+        },
+        {
+          "question": "L'acronimo della celebre azienda informatica IBM sta per 'International Business...'.",
+          "answer": "Machines"
+        },
+        {
+          "question": "Il chip o hardware specifico progettato per accelerare l'elaborazione dell'intelligenza artificiale (acronimo NPU che sta per 'Neural Processing...').",
+          "answer": "Unit"
+        },
+        {
+          "question": "La serie di videogiochi stealth creata da Hideo Kojima in cui il protagonista è il soldato Solid Snake.",
+          "answer": "Metal Gear Solid"
+        },
+        {
+          "question": "Il sistema operativo per PC sviluppato congiuntamente da IBM e Microsoft prima della loro rottura.",
+          "answer": "OS/2"
         }
       ],
       "500": [
@@ -4586,6 +6506,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Nell'ambito dei database NoSQL, questo tipo di architettura utilizza nodi e relazioni (edge), rivelandosi estremamente efficiente per mappare i social network.",
           "answer": "Database a grafo (Graph database)"
+        },
+        {
+          "question": "Il primo videogioco della storia ad includere un Easter Egg nascosto dal programmatore, rilasciato per Atari 2600.",
+          "answer": "Adventure"
+        },
+        {
+          "question": "La matematica inglese dell'Ottocento considerata la prima programmatrice della storia dell'informatica.",
+          "answer": "Ada Lovelace"
+        },
+        {
+          "question": "La complessa macchina elettro-meccanica crittografica usata dai tedeschi e decifrata da Alan Turing.",
+          "answer": "Enigma"
+        },
+        {
+          "question": "Il fondatore della Atari nel 1972, considerato uno dei pionieri assoluti dell'industria videoludica.",
+          "answer": "Nolan Bushnell"
+        },
+        {
+          "question": "La sfortunata console a 64 bit rilasciata nel 1993 da Atari che si rivelò un colossale flop commerciale.",
+          "answer": "Atari Jaguar"
+        },
+        {
+          "question": "Il linguaggio di programmazione per il web creato da Brendan Eich in soli 10 giorni per Netscape Navigator.",
+          "answer": "JavaScript"
+        },
+        {
+          "question": "La tecnologia per monitor e schermi che utilizza composti organici capaci di emettere luce propria (acronimo).",
+          "answer": "OLED"
+        },
+        {
+          "question": "Il protocollo di base di internet responsabile dell'instradamento dei pacchetti, solitamente associato al TCP.",
+          "answer": "IP (Internet Protocol)"
+        },
+        {
+          "question": "Il celebre nome in codice del sistema operativo Windows 95 durante i suoi lunghi mesi di sviluppo.",
+          "answer": "Chicago"
+        },
+        {
+          "question": "Il celebre videogioco arcade del 1980, diventato noto per un irrisolvibile 'kill screen' al livello 256.",
+          "answer": "Pac-Man"
+        },
+        {
+          "question": "Il termine giapponese che significa letteralmente 'Lascia la fortuna al cielo', nome di una multinazionale.",
+          "answer": "Nintendo"
+        },
+        {
+          "question": "Il primo e storico malware di tipo 'worm' che si diffuse causando gravi danni in internet nel 1988.",
+          "answer": "Morris Worm"
+        },
+        {
+          "question": "Il popolarissimo microprocessore a 8 bit prodotto dalla MOS Technology nel 1975, il cuore del Commodore 64.",
+          "answer": "MOS 6502"
+        },
+        {
+          "question": "L'architettura di set di istruzioni (ISA) open source e libera originata all'Università di Berkeley.",
+          "answer": "RISC-V"
+        },
+        {
+          "question": "Il complesso MMO spaziale del 2003 noto per la sua economia guidata dai giocatori e le immense battaglie.",
+          "answer": "EVE Online"
+        },
+        {
+          "question": "Il pioniere dell'informatica del Novecento che ha concettualizzato l'architettura dei moderni calcolatori.",
+          "answer": "John von Neumann"
+        },
+        {
+          "question": "Il motore di ricerca nato nel 1995 che fu il più popolare del web prima dell'ascesa di Google.",
+          "answer": "AltaVista"
+        },
+        {
+          "question": "Il giovanissimo fondatore dell'azienda Oculus VR, ideatore del primo prototipo del visore Rift.",
+          "answer": "Palmer Luckey"
+        },
+        {
+          "question": "La crittografia a chiave asimmetrica più famosa prende il nome (RSA) da Rivest, Shamir e quest'altro inventore.",
+          "answer": "Adleman"
+        },
+        {
+          "question": "L'iconica e malvagia intelligenza artificiale antagonista nel videogioco cyberpunk System Shock.",
+          "answer": "SHODAN"
         }
       ]
     }
@@ -4773,6 +6773,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "L'autrice di famosi gialli con protagonisti Hercule Poirot e Miss Marple",
           "answer": "Agatha Christie"
+        },
+        {
+          "question": "L'autore della 'Divina Commedia'",
+          "answer": "Dante Alighieri"
+        },
+        {
+          "question": "Il pittore olandese della 'Ronda di Notte'",
+          "answer": "Rembrandt"
+        },
+        {
+          "question": "Il poeta de 'L'Infinito'",
+          "answer": "Giacomo Leopardi"
+        },
+        {
+          "question": "Lo scultore del 'David' a Firenze",
+          "answer": "Michelangelo Buonarroti"
+        },
+        {
+          "question": "L'autore dei 'Promessi Sposi'",
+          "answer": "Alessandro Manzoni"
+        },
+        {
+          "question": "L'artista che ha dipinto il soffitto della Cappella Sistina",
+          "answer": "Michelangelo Buonarroti"
+        },
+        {
+          "question": "Il celebre romanzo di Carlo Collodi su un burattino di legno",
+          "answer": "Pinocchio"
+        },
+        {
+          "question": "Il pittore olandese noto per i 'Girasoli' e la 'Notte Stellata'",
+          "answer": "Vincent van Gogh"
+        },
+        {
+          "question": "L'autore della tragedia 'Romeo e Giulietta'",
+          "answer": "William Shakespeare"
+        },
+        {
+          "question": "Il movimento artistico di Monet, Renoir e Degas",
+          "answer": "Impressionismo"
+        },
+        {
+          "question": "L'epos greco antico che narra la guerra di Troia",
+          "answer": "Iliade"
+        },
+        {
+          "question": "Il pittore spagnolo fondatore del Cubismo e autore di 'Guernica'",
+          "answer": "Pablo Picasso"
+        },
+        {
+          "question": "La creatrice della saga del giovane mago Harry Potter",
+          "answer": "J.K. Rowling"
+        },
+        {
+          "question": "Lo stile architettonico del Duomo di Milano, caratterizzato da guglie e archi a sesto acuto",
+          "answer": "Gotico"
+        },
+        {
+          "question": "L'autore francese de 'Il Piccolo Principe'",
+          "answer": "Antoine de Saint-Exupéry"
+        },
+        {
+          "question": "Il celebre dipinto di Sandro Botticelli che mostra la dea che sorge dal mare",
+          "answer": "La Nascita di Venere"
+        },
+        {
+          "question": "Il poeta latino autore dell'Eneide",
+          "answer": "Virgilio"
+        },
+        {
+          "question": "Il celebre pittore surrealista spagnolo noto per gli orologi molli ne 'La persistenza della memoria'",
+          "answer": "Salvador Dalì"
+        },
+        {
+          "question": "Il romanzo di Cervantes con protagonista il cavaliere errante e lo scudiero Sancho Panza",
+          "answer": "Don Chisciotte"
+        },
+        {
+          "question": "L'artista e genio del Rinascimento, autore de 'L'Ultima Cena' e 'La Gioconda'",
+          "answer": "Leonardo da Vinci"
         }
       ],
       "200": [
@@ -4955,6 +7035,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Lo scrittore statunitense autore de 'Il vecchio e il mare'",
           "answer": "Ernest Hemingway"
+        },
+        {
+          "question": "L'autore del 'Decameron'",
+          "answer": "Giovanni Boccaccio"
+        },
+        {
+          "question": "Il pittore austriaco celebre per 'Il Bacio'",
+          "answer": "Gustav Klimt"
+        },
+        {
+          "question": "La celebre poetessa greca antica originaria dell'isola di Lesbo",
+          "answer": "Saffo"
+        },
+        {
+          "question": "L'artista norvegese autore del dipinto 'L'Urlo'",
+          "answer": "Edvard Munch"
+        },
+        {
+          "question": "L'autore del celebre romanzo distopico '1984'",
+          "answer": "George Orwell"
+        },
+        {
+          "question": "Il celebre dipinto di Jan Vermeer che ritrae una fanciulla con un gioiello all'orecchio",
+          "answer": "La ragazza con l'orecchino di perla"
+        },
+        {
+          "question": "L'autore del romanzo 'Il fu Mattia Pascal'",
+          "answer": "Luigi Pirandello"
+        },
+        {
+          "question": "Il movimento artistico e letterario italiano di inizio Novecento fondato da Filippo Tommaso Marinetti",
+          "answer": "Futurismo"
+        },
+        {
+          "question": "Il famoso romanzo di Umberto Eco ambientato in un'abbazia medievale",
+          "answer": "Il nome della rosa"
+        },
+        {
+          "question": "Il celebre scultore francese autore de 'Il Pensatore'",
+          "answer": "Auguste Rodin"
+        },
+        {
+          "question": "La scrittrice britannica autrice di 'Orgoglio e Pregiudizio'",
+          "answer": "Jane Austen"
+        },
+        {
+          "question": "L'artista americano pioniere della Pop Art, famoso per le lattine di zuppa Campbell",
+          "answer": "Andy Warhol"
+        },
+        {
+          "question": "Lo scrittore siciliano autore de 'I Malavoglia'",
+          "answer": "Giovanni Verga"
+        },
+        {
+          "question": "Il celebre quadro di Eugène Delacroix che rappresenta una donna simbolo della repubblica francese",
+          "answer": "La Libertà che guida il popolo"
+        },
+        {
+          "question": "Il grande autore russo di 'Guerra e Pace' e 'Anna Karenina'",
+          "answer": "Lev Tolstoj"
+        },
+        {
+          "question": "L'artista italiano famoso per aver praticato dei veri e propri tagli sulle sue tele",
+          "answer": "Lucio Fontana"
+        },
+        {
+          "question": "L'autore della poesia 'San Martino', che inizia con 'La nebbia a gl'irti colli...'",
+          "answer": "Giosuè Carducci"
+        },
+        {
+          "question": "Il famoso museo madrileno che ospita 'Las Meninas' di Diego Velázquez",
+          "answer": "Museo del Prado"
+        },
+        {
+          "question": "L'autrice del famoso romanzo gotico su Victor Frankenstein e la sua creatura",
+          "answer": "Mary Shelley"
+        },
+        {
+          "question": "Il celebre architetto spagnolo che progettò la Sagrada Familia a Barcellona",
+          "answer": "Antoni Gaudí"
         }
       ],
       "300": [
@@ -5137,6 +7297,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Lo scultore napoletano autore della straordinaria statua marmorea del 'Cristo velato'",
           "answer": "Giuseppe Sanmartino"
+        },
+        {
+          "question": "L'autore della celebre raccolta di poesie 'Canzoniere', dedicata a Laura",
+          "answer": "Francesco Petrarca"
+        },
+        {
+          "question": "Il pittore russo pioniere dell'astrattismo, autore dello scritto 'Lo spirituale nell'arte'",
+          "answer": "Vasilij Kandinskij"
+        },
+        {
+          "question": "La tragedia shakespeariana in cui il protagonista pronuncia la frase 'Essere, o non essere'",
+          "answer": "Amleto"
+        },
+        {
+          "question": "Il celebre pittore italiano del Seicento famoso per l'uso drammatico del chiaroscuro e autore della 'Vocazione di San Matteo'",
+          "answer": "Caravaggio"
+        },
+        {
+          "question": "Lo scrittore colombiano vincitore del Premio Nobel, autore di 'Cent'anni di solitudine'",
+          "answer": "Gabriel García Márquez"
+        },
+        {
+          "question": "L'artista grafico olandese noto per le sue prospettive impossibili e illusioni ottiche",
+          "answer": "M.C. Escher"
+        },
+        {
+          "question": "Lo scrittore boemo di lingua tedesca autore del romanzo 'La metamorfosi'",
+          "answer": "Franz Kafka"
+        },
+        {
+          "question": "Il pittore divisionista italiano autore de 'Il Quarto Stato'",
+          "answer": "Giuseppe Pellizza da Volpedo"
+        },
+        {
+          "question": "Il poema epico cavalleresco scritto da Ludovico Ariosto",
+          "answer": "Orlando Furioso"
+        },
+        {
+          "question": "La celebre scultura greca priva di braccia rinvenuta nel 1820 e conservata al Louvre",
+          "answer": "Venere di Milo"
+        },
+        {
+          "question": "Il poeta francese autore della raccolta 'I fiori del male'",
+          "answer": "Charles Baudelaire"
+        },
+        {
+          "question": "L'architetto fiorentino che progettò l'immensa cupola del Duomo di Santa Maria del Fiore",
+          "answer": "Filippo Brunelleschi"
+        },
+        {
+          "question": "Lo scrittore statunitense autore del romanzo 'Il grande Gatsby'",
+          "answer": "F. Scott Fitzgerald"
+        },
+        {
+          "question": "Il pittore neoclassico francese autore de 'Il giuramento degli Orazi' e de 'La morte di Marat'",
+          "answer": "Jacques-Louis David"
+        },
+        {
+          "question": "Il romanzo psicologico di Italo Svevo pubblicato nel 1923, il cui protagonista si sottopone a psicoanalisi",
+          "answer": "La coscienza di Zeno"
+        },
+        {
+          "question": "Il celebre pittore rinascimentale autore dell'affresco 'La Scuola di Atene' nelle Stanze Vaticane",
+          "answer": "Raffaello Sanzio"
+        },
+        {
+          "question": "Il grande romanziere francese autore de 'I miserabili' e 'Notre-Dame de Paris'",
+          "answer": "Victor Hugo"
+        },
+        {
+          "question": "L'autrice italiana dei famosi romanzi 'L'isola di Arturo' e 'La Storia'",
+          "answer": "Elsa Morante"
+        },
+        {
+          "question": "Il movimento artistico nato in Svizzera nel 1916 come reazione alla follia della prima guerra mondiale",
+          "answer": "Dadaismo"
+        },
+        {
+          "question": "Il pittore post-impressionista francese, padre del puntinismo, autore di 'Una domenica pomeriggio sull'isola della Grande-Jatte'",
+          "answer": "Georges Seurat"
         }
       ],
       "400": [
@@ -5319,6 +7559,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il pittore surrealista belga celebre per i dipinti con bombette e per la tela 'Il tradimento delle immagini'",
           "answer": "René Magritte"
+        },
+        {
+          "question": "L'autore dell'epopea 'Gerusalemme liberata'",
+          "answer": "Torquato Tasso"
+        },
+        {
+          "question": "La celebre pittrice messicana famosa per i suoi intensi autoritratti e legata a Diego Rivera",
+          "answer": "Frida Kahlo"
+        },
+        {
+          "question": "L'autore irlandese del capolavoro della letteratura modernista 'Ulisse'",
+          "answer": "James Joyce"
+        },
+        {
+          "question": "Il movimento letterario e artistico di avanguardia fondato da André Breton nel 1924",
+          "answer": "Surrealismo"
+        },
+        {
+          "question": "L'autore britannico del romanzo 'Il ritratto di Dorian Gray'",
+          "answer": "Oscar Wilde"
+        },
+        {
+          "question": "L'artista russo fondatore del Suprematismo, noto per il suo dipinto 'Quadrato nero'",
+          "answer": "Kazimir Malevič"
+        },
+        {
+          "question": "Il poeta 'maledetto' francese autore di 'Una stagione all'inferno'",
+          "answer": "Arthur Rimbaud"
+        },
+        {
+          "question": "L'architetto statunitense che ha progettato 'La casa sulla cascata' (Fallingwater)",
+          "answer": "Frank Lloyd Wright"
+        },
+        {
+          "question": "Lo scrittore russo autore del capolavoro letterario 'Delitto e castigo'",
+          "answer": "Fëdor Dostoevskij"
+        },
+        {
+          "question": "Il grande pittore veneziano del Rinascimento autore della 'Venere di Urbino'",
+          "answer": "Tiziano Vecellio"
+        },
+        {
+          "question": "L'autore statunitense del celebre romanzo 'Moby Dick'",
+          "answer": "Herman Melville"
+        },
+        {
+          "question": "Il celebre e misterioso street artist britannico le cui opere a stencil compaiono sui muri di tutto il mondo",
+          "answer": "Banksy"
+        },
+        {
+          "question": "L'autore della celebre raccolta poetica 'Canti di Castelvecchio' e della poetica del 'fanciullino'",
+          "answer": "Giovanni Pascoli"
+        },
+        {
+          "question": "Il pittore fiammingo autore del visionario 'Trittico del Giardino delle delizie'",
+          "answer": "Hieronymus Bosch"
+        },
+        {
+          "question": "La scrittrice inglese autrice del romanzo 'Cime tempestose'",
+          "answer": "Emily Brontë"
+        },
+        {
+          "question": "Il massimo esponente della scultura neoclassica in Italia, autore di 'Amore e Psiche'",
+          "answer": "Antonio Canova"
+        },
+        {
+          "question": "Il celebre poeta e drammaturgo spagnolo autore di 'Nozze di sangue', ucciso durante la guerra civile",
+          "answer": "Federico García Lorca"
+        },
+        {
+          "question": "L'artista esponente del De Stijl noto per le sue composizioni geometriche astratte con colori primari",
+          "answer": "Piet Mondrian"
+        },
+        {
+          "question": "Lo scrittore francese autore della monumentale opera in sette volumi 'Alla ricerca del tempo perduto'",
+          "answer": "Marcel Proust"
+        },
+        {
+          "question": "Il movimento pittorico italiano dell'Ottocento sviluppatosi in Toscana, con esponenti come Giovanni Fattori e Silvestro Lega",
+          "answer": "Macchiaioli"
         }
       ],
       "500": [
@@ -5501,6 +7821,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il pittore russo fondatore del suprematismo, divenuto celebre per l'opera astratta 'Quadrato nero su fondo bianco'",
           "answer": "Kazimir Malevič"
+        },
+        {
+          "question": "L'autore del poema epico-cavalleresco 'L'Orlando Innamorato', precursore dell'opera dell'Ariosto",
+          "answer": "Matteo Maria Boiardo"
+        },
+        {
+          "question": "Il pittore fiammingo Jan van Eyck è famoso per il dipinto che ritrae i coniugi di questo cognome",
+          "answer": "Arnolfini"
+        },
+        {
+          "question": "Lo scrittore e poeta argentino, maestro del fantastico labirintico, autore della raccolta 'Finzioni'",
+          "answer": "Jorge Luis Borges"
+        },
+        {
+          "question": "Il massimo pittore del Romanticismo tedesco, autore de 'Il viandante sul mare di nebbia'",
+          "answer": "Caspar David Friedrich"
+        },
+        {
+          "question": "Il celebre poeta greco moderno di Alessandria d'Egitto, autore della poesia 'Itaca'",
+          "answer": "Konstantinos Kavafis"
+        },
+        {
+          "question": "L'architetto e designer tedesco che fondò nel 1919 la scuola d'arte e architettura Bauhaus a Weimar",
+          "answer": "Walter Gropius"
+        },
+        {
+          "question": "La scrittrice sarda vincitrice del Premio Nobel per la letteratura nel 1926, autrice di 'Canne al vento'",
+          "answer": "Grazia Deledda"
+        },
+        {
+          "question": "L'artista britannico, tra i capofila dei Young British Artists, noto per aver conservato animali in formaldeide",
+          "answer": "Damien Hirst"
+        },
+        {
+          "question": "Il grande drammaturgo francese autore di celebri commedie come 'Il misantropo' e 'Il malato immaginario'",
+          "answer": "Molière"
+        },
+        {
+          "question": "Il pittore manierista del Cinquecento, nato a Creta e attivo a Toledo in Spagna, famoso per le sue figure allungate",
+          "answer": "El Greco"
+        },
+        {
+          "question": "L'autore giapponese contemporaneo dei romanzi 'Norwegian Wood' e 'Kafka sulla spiaggia'",
+          "answer": "Haruki Murakami"
+        },
+        {
+          "question": "La corrente artistica del tardo Rinascimento, sviluppatasi dopo il Sacco di Roma del 1527, caratterizzata da virtuosismo e rottura delle proporzioni classiche",
+          "answer": "Manierismo"
+        },
+        {
+          "question": "Il più grande poeta portoghese del Novecento, famoso per aver scritto sotto diversi 'eteronimi' come Fernando Pessoa e Álvaro de Campos",
+          "answer": "Fernando Pessoa"
+        },
+        {
+          "question": "L'artista statunitense esponente dell'Espressionismo astratto, pioniere della tecnica del dripping",
+          "answer": "Jackson Pollock"
+        },
+        {
+          "question": "Lo scrittore italiano membro dell'Oulipo, autore de 'Le città invisibili' e 'Se una notte d'inverno un viaggiatore'",
+          "answer": "Italo Calvino"
+        },
+        {
+          "question": "L'artista dadaista che nel 1917 espose un orinatoio capovolto intitolandolo 'Fontana', firmato R. Mutt",
+          "answer": "Marcel Duchamp"
+        },
+        {
+          "question": "Il poeta e scrittore russo autore de 'Il dottor Zivago', costretto dalle autorità sovietiche a rifiutare il Premio Nobel",
+          "answer": "Boris Pasternak"
+        },
+        {
+          "question": "L'architetto di origine siriana a cui è attribuita la ricostruzione del Pantheon e del Foro di Traiano, noto come Apollodoro di...",
+          "answer": "Damasco"
+        },
+        {
+          "question": "La celebre scrittrice nigeriana autrice dei romanzi 'Metà di un sole giallo' e 'Americanah'",
+          "answer": "Chimamanda Ngozi Adichie"
+        },
+        {
+          "question": "Il grande pittore fiammingo del Seicento, allievo di Rubens, diventato il principale ritrattista alla corte inglese di Carlo I",
+          "answer": "Antoon van Dyck"
         }
       ]
     }
@@ -5688,6 +8088,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Qual è la capitale della Spagna?",
           "answer": "Madrid"
+        },
+        {
+          "question": "È la capitale della Francia.",
+          "answer": "Parigi"
+        },
+        {
+          "question": "È la capitale dell'Italia.",
+          "answer": "Roma"
+        },
+        {
+          "question": "Il fiume più lungo del Sud America.",
+          "answer": "Rio delle Amazzoni"
+        },
+        {
+          "question": "L'oceano più vasto della Terra.",
+          "answer": "Oceano Pacifico"
+        },
+        {
+          "question": "È la capitale del Regno Unito.",
+          "answer": "Londra"
+        },
+        {
+          "question": "È la capitale del Giappone.",
+          "answer": "Tokyo"
+        },
+        {
+          "question": "Il continente in cui si trova l'Egitto.",
+          "answer": "Africa"
+        },
+        {
+          "question": "La nazione europea a forma di stivale.",
+          "answer": "Italia"
+        },
+        {
+          "question": "Il continente in cui si trova il Monte Everest.",
+          "answer": "Asia"
+        },
+        {
+          "question": "Il più grande deserto caldo del mondo.",
+          "answer": "Sahara"
+        },
+        {
+          "question": "È la capitale della Spagna.",
+          "answer": "Madrid"
+        },
+        {
+          "question": "La città nota come la Grande Mela.",
+          "answer": "New York"
+        },
+        {
+          "question": "Nazione nordamericana composta da 50 stati.",
+          "answer": "Stati Uniti d'America"
+        },
+        {
+          "question": "Il fiume più lungo d'Italia.",
+          "answer": "Po"
+        },
+        {
+          "question": "Lo stato insulare dove vivono i canguri in natura.",
+          "answer": "Australia"
+        },
+        {
+          "question": "È la capitale della Germania.",
+          "answer": "Berlino"
+        },
+        {
+          "question": "La montagna più alta del mondo.",
+          "answer": "Monte Everest"
+        },
+        {
+          "question": "Il famoso canale artificiale che collega l'Atlantico al Pacifico.",
+          "answer": "Canale di Panama"
+        },
+        {
+          "question": "La città simbolo del Brasile famosa per la statua del Cristo Redentore.",
+          "answer": "Rio de Janeiro"
+        },
+        {
+          "question": "La città italiana famosa per i canali e le gondole.",
+          "answer": "Venezia"
         }
       ],
       "200": [
@@ -5870,6 +8350,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "In quale stato degli USA si trova la gola profonda del Grand Canyon?",
           "answer": "Arizona"
+        },
+        {
+          "question": "È la capitale del Canada.",
+          "answer": "Ottawa"
+        },
+        {
+          "question": "Il lunghissimo fiume che attraversa l'Egitto.",
+          "answer": "Nilo"
+        },
+        {
+          "question": "Lo Stato indipendente più piccolo del mondo per superficie.",
+          "answer": "Città del Vaticano"
+        },
+        {
+          "question": "La catena montuosa più lunga del Sud America.",
+          "answer": "Ande"
+        },
+        {
+          "question": "La nazione scandinava celebre per i suoi fiordi.",
+          "answer": "Norvegia"
+        },
+        {
+          "question": "È la capitale della Russia.",
+          "answer": "Mosca"
+        },
+        {
+          "question": "Il mare che separa l'Europa dall'Africa.",
+          "answer": "Mar Mediterraneo"
+        },
+        {
+          "question": "Il fiume che bagna Parigi.",
+          "answer": "Senna"
+        },
+        {
+          "question": "L'arcipelago vulcanico nel Pacifico che è uno stato degli USA.",
+          "answer": "Hawaii"
+        },
+        {
+          "question": "La capitale dell'Argentina.",
+          "answer": "Buenos Aires"
+        },
+        {
+          "question": "La città sede delle istituzioni dell'Unione Europea situata in Belgio.",
+          "answer": "Bruxelles"
+        },
+        {
+          "question": "La colossale muraglia difensiva si trova in questa nazione.",
+          "answer": "Cina"
+        },
+        {
+          "question": "La catena montuosa che segna il confine tradizionale tra Europa e Asia.",
+          "answer": "Urali"
+        },
+        {
+          "question": "L'oceano situato tra l'Europa e l'America.",
+          "answer": "Oceano Atlantico"
+        },
+        {
+          "question": "È la capitale dell'Australia.",
+          "answer": "Canberra"
+        },
+        {
+          "question": "La nazione che confina a sud con gli Stati Uniti.",
+          "answer": "Messico"
+        },
+        {
+          "question": "Le famose rovine Inca di Machu Picchu si trovano in questo Stato.",
+          "answer": "Perù"
+        },
+        {
+          "question": "L'isola più grande del Mar Mediterraneo.",
+          "answer": "Sicilia"
+        },
+        {
+          "question": "È la capitale del Brasile.",
+          "answer": "Brasilia"
+        },
+        {
+          "question": "La penisola condivisa principalmente da Spagna e Portogallo.",
+          "answer": "Penisola Iberica"
         }
       ],
       "300": [
@@ -6052,6 +8612,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Con quale altra nazione asiatica la Cina condivide l'esteso e freddo deserto del Gobi?",
           "answer": "Mongolia"
+        },
+        {
+          "question": "Lo stretto che separa l'Asia dal Nord America.",
+          "answer": "Stretto di Bering"
+        },
+        {
+          "question": "Il lago più profondo del mondo, situato in Siberia.",
+          "answer": "Lago Bajkal"
+        },
+        {
+          "question": "Il Monte Kilimangiaro si trova in questa nazione africana.",
+          "answer": "Tanzania"
+        },
+        {
+          "question": "È la capitale della Corea del Sud.",
+          "answer": "Seul"
+        },
+        {
+          "question": "Il fiume più lungo d'Europa.",
+          "answer": "Volga"
+        },
+        {
+          "question": "La nazione europea che vanta il maggior numero di isole al mondo.",
+          "answer": "Svezia"
+        },
+        {
+          "question": "Il mare estremamente salato situato tra Giordania e Israele.",
+          "answer": "Mar Morto"
+        },
+        {
+          "question": "È la capitale della Turchia.",
+          "answer": "Ankara"
+        },
+        {
+          "question": "Il deserto del Gobi si estende in parte in Cina e in parte in questa nazione.",
+          "answer": "Mongolia"
+        },
+        {
+          "question": "Il fiume che ha scavato il Grand Canyon negli Stati Uniti.",
+          "answer": "Colorado"
+        },
+        {
+          "question": "Il piccolo Stato africano completamente circondato dal Sudafrica.",
+          "answer": "Lesotho"
+        },
+        {
+          "question": "È la capitale della Nuova Zelanda.",
+          "answer": "Wellington"
+        },
+        {
+          "question": "L'oceano situato a est dell'Africa e a sud dell'Asia.",
+          "answer": "Oceano Indiano"
+        },
+        {
+          "question": "È la capitale dell'Egitto.",
+          "answer": "Il Cairo"
+        },
+        {
+          "question": "L'arcipelago indonesiano famoso per i suoi enormi varani, detti 'draghi'.",
+          "answer": "Komodo"
+        },
+        {
+          "question": "La catena montuosa che attraversa Svizzera, Italia, Francia e Austria.",
+          "answer": "Alpi"
+        },
+        {
+          "question": "Il fiume che forma gran parte del confine naturale tra Texas e Messico.",
+          "answer": "Rio Grande"
+        },
+        {
+          "question": "È la capitale della Svizzera.",
+          "answer": "Berna"
+        },
+        {
+          "question": "La cascata con il salto ininterrotto più alto del mondo (Salto Angel) si trova in questa nazione.",
+          "answer": "Venezuela"
+        },
+        {
+          "question": "Lo stretto che collega il Mar Mediterraneo all'Oceano Atlantico.",
+          "answer": "Stretto di Gibilterra"
         }
       ],
       "400": [
@@ -6234,6 +8874,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Le affollate e soleggiate isole turistiche di Maiorca, Minorca, Ibiza e Formentera, conosciute come Isole Baleari, si trovano nel mezzo di quale mare?",
           "answer": "Mar Mediterraneo"
+        },
+        {
+          "question": "È la capitale della Colombia.",
+          "answer": "Bogotà"
+        },
+        {
+          "question": "La nazione africana con la popolazione più numerosa.",
+          "answer": "Nigeria"
+        },
+        {
+          "question": "L'unica nazione con cui il Regno Unito condivide un confine terrestre.",
+          "answer": "Irlanda"
+        },
+        {
+          "question": "L'arcipelago al largo dell'Ecuador celebre per le scoperte di Charles Darwin.",
+          "answer": "Isole Galapagos"
+        },
+        {
+          "question": "È la capitale del Kenya.",
+          "answer": "Nairobi"
+        },
+        {
+          "question": "Il fiume che attraversa ben quattro capitali europee: Vienna, Bratislava, Budapest e Belgrado.",
+          "answer": "Danubio"
+        },
+        {
+          "question": "La montagna più alta della catena caucasica e d'Europa.",
+          "answer": "Monte Elbrus"
+        },
+        {
+          "question": "È la capitale del Vietnam.",
+          "answer": "Hanoi"
+        },
+        {
+          "question": "Il mare situato tra il Regno Unito e la Penisola Scandinava.",
+          "answer": "Mar del Nord"
+        },
+        {
+          "question": "Il deserto di Atacama, il più arido del mondo, si trova principalmente in questa nazione.",
+          "answer": "Cile"
+        },
+        {
+          "question": "L'isola più grande del mondo, escludendo i continenti.",
+          "answer": "Groenlandia"
+        },
+        {
+          "question": "È la capitale del Perù.",
+          "answer": "Lima"
+        },
+        {
+          "question": "La capitale europea che sorge su un arcipelago di 14 isole collegate da ponti.",
+          "answer": "Stoccolma"
+        },
+        {
+          "question": "La regione autonoma spagnola in cui si trova la città di Barcellona.",
+          "answer": "Catalogna"
+        },
+        {
+          "question": "L'antica città di Petra, scavata nella roccia, si trova in questo Stato.",
+          "answer": "Giordania"
+        },
+        {
+          "question": "L'unica nazione del Centro America a non avere sbocchi sul Mar dei Caraibi.",
+          "answer": "El Salvador"
+        },
+        {
+          "question": "È la capitale del Kazakistan.",
+          "answer": "Astana"
+        },
+        {
+          "question": "La repubblica indipendente più piccola del mondo (un'isola dell'Oceania).",
+          "answer": "Nauru"
+        },
+        {
+          "question": "Le Cascate Vittoria si trovano sul confine tra lo Zambia e questo Stato.",
+          "answer": "Zimbabwe"
+        },
+        {
+          "question": "Il golfo che separa l'Arabia Saudita dall'Iran.",
+          "answer": "Golfo Persico"
         }
       ],
       "500": [
@@ -6416,6 +9136,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Quale prospero, idilliaco e minuscolo principato alpino mitteleuropeo, guidato ancora oggi attivamente dal suo Principe, siede silenziosamente incastonato in una lussureggiante valle posizionata esattamente lungo il confine montuoso tra l'Austria e la Svizzera?",
           "answer": "Liechtenstein"
+        },
+        {
+          "question": "È la capitale della Mongolia.",
+          "answer": "Ulan Bator"
+        },
+        {
+          "question": "La città più popolosa della Nuova Zelanda, nota come la 'Città delle Vele'.",
+          "answer": "Auckland"
+        },
+        {
+          "question": "Nazione sudamericana che ha sia La Paz che Sucre come capitali.",
+          "answer": "Bolivia"
+        },
+        {
+          "question": "È la capitale del Senegal.",
+          "answer": "Dakar"
+        },
+        {
+          "question": "La nazione bagnata dal Rio de la Plata che ha come capitale Montevideo.",
+          "answer": "Uruguay"
+        },
+        {
+          "question": "Lo stretto che separa l'Isola del Nord e l'Isola del Sud della Nuova Zelanda.",
+          "answer": "Stretto di Cook"
+        },
+        {
+          "question": "È la capitale dell'Islanda.",
+          "answer": "Reykjavik"
+        },
+        {
+          "question": "L'imponente fiume africano che attraversa l'equatore due volte.",
+          "answer": "Fiume Congo"
+        },
+        {
+          "question": "La montagna più alta del Nord America (conosciuta in passato come Monte McKinley).",
+          "answer": "Monte Denali"
+        },
+        {
+          "question": "Il gruppo di isole spagnole che comprende Maiorca, Minorca e Ibiza.",
+          "answer": "Isole Baleari"
+        },
+        {
+          "question": "È la capitale del Madagascar.",
+          "answer": "Antananarivo"
+        },
+        {
+          "question": "Lo Stato asiatico himalayano racchiuso tra India e Cina noto per la misurazione della Felicità Interna Lorda.",
+          "answer": "Bhutan"
+        },
+        {
+          "question": "Il mare chiuso confinante con Ucraina, Russia, Turchia, Romania, Bulgaria e Georgia.",
+          "answer": "Mar Nero"
+        },
+        {
+          "question": "È la capitale delle Filippine.",
+          "answer": "Manila"
+        },
+        {
+          "question": "Il fiume più lungo del sud-est asiatico, che sfocia nel Mar Cinese Meridionale.",
+          "answer": "Mekong"
+        },
+        {
+          "question": "Il minuscolo principato europeo situato tra Spagna e Francia, sui Pirenei.",
+          "answer": "Andorra"
+        },
+        {
+          "question": "L'arcipelago africano al largo della costa del Senegal che forma una repubblica insulare.",
+          "answer": "Capo Verde"
+        },
+        {
+          "question": "È la capitale dell'Ecuador.",
+          "answer": "Quito"
+        },
+        {
+          "question": "Il deserto situato nell'Africa meridionale, condiviso principalmente da Botswana, Namibia e Sudafrica.",
+          "answer": "Kalahari"
+        },
+        {
+          "question": "L'isola indonesiana più popolata, su cui sorge la capitale Giacarta.",
+          "answer": "Giava"
         }
       ]
     }
@@ -6603,6 +9403,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Quale città italiana è famosa per l'omonima 'Bistecca' tagliata spessa e con l'osso a T?",
           "answer": "Firenze"
+        },
+        {
+          "question": "Pizza napoletana condita con pomodoro, mozzarella e basilico",
+          "answer": "Margherita"
+        },
+        {
+          "question": "Pasta tipica romana preparata con guanciale, uovo, pepe e pecorino",
+          "answer": "Carbonara"
+        },
+        {
+          "question": "Bevanda scura e stimolante ottenuta dall'infusione dei chicchi tostati dell'omonima pianta",
+          "answer": "Caffè"
+        },
+        {
+          "question": "Celebre dolce al cucchiaio a base di savoiardi inzuppati nel caffè e crema al mascarpone",
+          "answer": "Tiramisù"
+        },
+        {
+          "question": "Insalata estiva campana composta da fette di pomodoro e mozzarella alternate",
+          "answer": "Caprese"
+        },
+        {
+          "question": "Il classico dolce natalizio lombardo a forma di cupola, arricchito con canditi e uvetta",
+          "answer": "Panettone"
+        },
+        {
+          "question": "Antipasto composto da verdure cotte a cubetti e legate da un'abbondante maionese",
+          "answer": "Insalata russa"
+        },
+        {
+          "question": "Preparazione piemontese di carne bovina cruda tritata o battuta al coltello",
+          "answer": "Tartare (o carne all'albese)"
+        },
+        {
+          "question": "Sottile pane piatto romagnolo solitamente farcito con squacquerone e prosciutto",
+          "answer": "Piadina"
+        },
+        {
+          "question": "Il celebre sugo di carne bolognese tradizionalmente servito con le tagliatelle",
+          "answer": "Ragù"
+        },
+        {
+          "question": "Piccola pasta ripiena dell'Emilia-Romagna a forma di anello, tipicamente servita in brodo",
+          "answer": "Tortellini"
+        },
+        {
+          "question": "Piatto svizzero a base di formaggio fuso in cui si intingono pezzi di pane con apposite forchettine",
+          "answer": "Fonduta"
+        },
+        {
+          "question": "Sottilissima cialda morbida di origine francese, farcita in modo dolce o salato e piegata",
+          "answer": "Crepe"
+        },
+        {
+          "question": "Dolce natalizio veronese a forma di stella a otto punte e spolverato di zucchero a velo",
+          "answer": "Pandoro"
+        },
+        {
+          "question": "Focaccia sottile ligure, croccante e saporita, preparata con farina di ceci, acqua e olio",
+          "answer": "Farinata"
+        },
+        {
+          "question": "Fetta di pane rustico tostata, strofinata con aglio e condita con olio extravergine d'oliva",
+          "answer": "Bruschetta"
+        },
+        {
+          "question": "Pasta corta e ritorta tipica ligure, tradizionalmente condita con il pesto alla genovese",
+          "answer": "Trofie"
+        },
+        {
+          "question": "Specialità siciliana fritta a base di riso a forma di palla o cono, con cuore di ragù o burro",
+          "answer": "Arancino"
+        },
+        {
+          "question": "Famoso panino da fast food composto da un disco di carne macinata racchiuso tra due fette di pane",
+          "answer": "Hamburger"
+        },
+        {
+          "question": "Celebre condimento ligure a base di basilico, pinoli, aglio, parmigiano, pecorino e olio",
+          "answer": "Pesto"
         }
       ],
       "200": [
@@ -6785,6 +9665,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Da quale pianta si ricava la farina usata per fare il dolce autunnale chiamato Castagnaccio?",
           "answer": "Castagno"
+        },
+        {
+          "question": "Piatto tradizionale spagnolo a base di riso, zafferano, verdure, carne o pesce",
+          "answer": "Paella"
+        },
+        {
+          "question": "Formaggio erborinato lombardo DOP, disponibile nelle versioni dolce e piccante",
+          "answer": "Gorgonzola"
+        },
+        {
+          "question": "Tipico liquore campano giallo, dolce e profumato, ottenuto dall'infusione di scorze di agrumi",
+          "answer": "Limoncello"
+        },
+        {
+          "question": "Dolce italiano consumato a Pasqua, caratterizzato da un impasto lievitato e una copertura di glassa",
+          "answer": "Colomba"
+        },
+        {
+          "question": "Zuppa fredda andalusa a base di pomodori crudi, peperoni, cetrioli, cipolla e aglio frullati",
+          "answer": "Gazpacho"
+        },
+        {
+          "question": "Formato di pasta lunga romana bucata al centro, ideale per catturare il sugo all'Amatriciana",
+          "answer": "Bucatini"
+        },
+        {
+          "question": "Noto formaggio sardo conosciuto per la presenza di larve vive di una mosca casearia",
+          "answer": "Casu Marzu"
+        },
+        {
+          "question": "Insaccato calabrese a consistenza morbida, molto piccante e spalmabile",
+          "answer": "'Nduja"
+        },
+        {
+          "question": "Pesce conservato sotto sale e poi essiccato, ingrediente base di famose ricette venete",
+          "answer": "Baccalà"
+        },
+        {
+          "question": "Pregiato fungo ipogeo sotterraneo molto profumato, celebre quello bianco di Alba",
+          "answer": "Tartufo"
+        },
+        {
+          "question": "Tradizionale zuppa di pesce toscana originaria di Livorno, servita con fette di pane tostato",
+          "answer": "Cacciucco"
+        },
+        {
+          "question": "Biscotti secchi alle mandorle originari di Prato, da inzuppare tradizionalmente nel Vin Santo",
+          "answer": "Cantucci"
+        },
+        {
+          "question": "Antipasto tipico dei ristoranti cinesi occidentali, un involtino di sfoglia fritto ripieno di verdure",
+          "answer": "Involtino primavera"
+        },
+        {
+          "question": "Famoso formaggio francese a pasta molle e crosta fiorita bianca, simile al Camembert",
+          "answer": "Brie"
+        },
+        {
+          "question": "Robusto stufato di carne ungherese aromatizzato con abbondante paprica",
+          "answer": "Gulasch"
+        },
+        {
+          "question": "Dessert al cucchiaio di origine catalana, caratterizzato da una crosta di zucchero caramellato",
+          "answer": "Crema catalana"
+        },
+        {
+          "question": "Il vino rosso toscano più famoso, prodotto in una specifica zona collinare tra Firenze e Siena",
+          "answer": "Chianti"
+        },
+        {
+          "question": "Sfogliatella campana caratterizzata dalla forma a conchiglia e dal ripieno di ricotta e semolino",
+          "answer": "Riccia"
+        },
+        {
+          "question": "Formaggio fresco greco a pasta semidura ottenuto da latte di pecora e capra, usato nell'insalata",
+          "answer": "Feta"
+        },
+        {
+          "question": "Spuntino tipico veneziano consumato nei bacari, accompagnato da un'ombra de vin",
+          "answer": "Cicchetto"
         }
       ],
       "300": [
@@ -6967,6 +9927,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Qual è l'ingrediente base del marzapane assieme allo zucchero e spesso all'albume?",
           "answer": "Mandorle"
+        },
+        {
+          "question": "Piatto tradizionale greco simile a uno sformato di melanzane, carne trita e besciamella",
+          "answer": "Moussaka"
+        },
+        {
+          "question": "Formato di pasta campano a forma di grosso maccherone, perfetto per trattenere sughi corposi",
+          "answer": "Paccheri"
+        },
+        {
+          "question": "Tipico pane sardo piatto e sottilissimo, noto anche come 'carta da musica'",
+          "answer": "Pane Carasau"
+        },
+        {
+          "question": "Celebre vino liquoroso siciliano, amato in passato dai mercanti e dagli ammiragli inglesi",
+          "answer": "Marsala"
+        },
+        {
+          "question": "Tradizionale carne di maiale americana cotta al barbecue a bassa temperatura finché non si sfilaccia",
+          "answer": "Pulled Pork"
+        },
+        {
+          "question": "Zuppa originaria dell'Europa dell'Est dal colore rosso intenso dato dalle barbabietole",
+          "answer": "Borscht"
+        },
+        {
+          "question": "Insalata mediorientale a base di prezzemolo, menta, pomodoro a dadini e bulgur",
+          "answer": "Tabbouleh"
+        },
+        {
+          "question": "Famosa torta viennese al cioccolato, inventata nel 1832 e farcita con confettura di albicocche",
+          "answer": "Sacher"
+        },
+        {
+          "question": "Pregiato prosciutto spagnolo ottenuto dai maiali iberici, noto come 'zampa nera'",
+          "answer": "Pata Negra"
+        },
+        {
+          "question": "Piccoli ravioli piemontesi chiusi 'pizzicando' la pasta, tradizionalmente serviti nel tovagliolo",
+          "answer": "Agnolotti del plin"
+        },
+        {
+          "question": "Pregiato lardo valdostano aromatizzato con erbe e spezie, tutelato come DOP",
+          "answer": "Lardo di Arnad"
+        },
+        {
+          "question": "Liquore tipico greco all'anice, che diventa bianco lattiginoso se mescolato con acqua",
+          "answer": "Ouzo"
+        },
+        {
+          "question": "Sontuoso dolce siciliano di pandispagna, ricotta, canditi e ricoperto di pasta reale verde",
+          "answer": "Cassata"
+        },
+        {
+          "question": "Focaccia tonda tipica di una città pugliese, condita con pomodorini, olive e origano",
+          "answer": "Focaccia barese"
+        },
+        {
+          "question": "Metodo francese di conservazione e cottura della carne d'anatra immersa nel proprio grasso",
+          "answer": "Confit"
+        },
+        {
+          "question": "Preziosa spezia derivata dagli stimmi di un fiore crocus, essenziale per il risotto alla milanese",
+          "answer": "Zafferano"
+        },
+        {
+          "question": "Piatto sudamericano a base di pesce crudo marinato e cotto nel succo di lime",
+          "answer": "Ceviche"
+        },
+        {
+          "question": "Colorato dolcetto francese formato da due gusci a base di farina di mandorle e ripieno di ganache",
+          "answer": "Macaron"
+        },
+        {
+          "question": "Piatto tradizionale coreano formato da verdure fermentate e speziate, principalmente cavolo napa",
+          "answer": "Kimchi"
+        },
+        {
+          "question": "Taglio di carne suina stagionato che produce questo diffuso salume emiliano simile al capocollo",
+          "answer": "Coppa"
         }
       ],
       "400": [
@@ -7149,6 +10189,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Di quale pianta asiatica la curcuma, spezia dal colore giallo intenso, è in realtà la radice sotterranea?",
           "answer": "Curcuma longa (o Rizoma)"
+        },
+        {
+          "question": "Ricco stufato delle Fiandre a base di carne di manzo cotta a lungo nella birra scura",
+          "answer": "Carbonade fiamminga"
+        },
+        {
+          "question": "Tipico pane lievitato indiano, cotto attaccato alle pareti del forno tandoor di argilla",
+          "answer": "Naan"
+        },
+        {
+          "question": "Piatto nordafricano che prende il nome dal caratteristico recipiente di terracotta a forma di cono",
+          "answer": "Tajine"
+        },
+        {
+          "question": "Grosso raviolo ligure di pasta fresca ripieno di erbe selvatiche (preboggion) e prescinsêua",
+          "answer": "Pansoti"
+        },
+        {
+          "question": "La zona collinare della Lombardia divenuta famosa nel mondo per il suo spumante metodo classico",
+          "answer": "Franciacorta"
+        },
+        {
+          "question": "Famiglia di formaggi in cui la cagliata viene lavorata in acqua bollente (es. mozzarella, provolone)",
+          "answer": "A pasta filata"
+        },
+        {
+          "question": "Formaggio fresco DOP lombardo a pasta cruda, un tempo chiamato 'stracchino quadro'",
+          "answer": "Taleggio"
+        },
+        {
+          "question": "Antico liquore digestivo francese a base di 130 erbe, prodotto dai monaci certosini",
+          "answer": "Chartreuse"
+        },
+        {
+          "question": "Piatto nazionale svizzero composto da patate grattugiate grossolanamente e arrostite in padella",
+          "answer": "Rösti"
+        },
+        {
+          "question": "Razza bovina giapponese famosa per l'altissimo grado di marezzatura e il sapore inconfondibile",
+          "answer": "Kobe (o Wagyu)"
+        },
+        {
+          "question": "Storico formaggio erborinato inglese DOP, spesso abbinato al Porto",
+          "answer": "Stilton"
+        },
+        {
+          "question": "Cereale senza glutine dalla farina scura, utilizzato in Valtellina per preparare i pizzoccheri",
+          "answer": "Grano saraceno"
+        },
+        {
+          "question": "Soffice torta a base di meringa e panna montata dedicata a una celebre ballerina russa",
+          "answer": "Pavlova"
+        },
+        {
+          "question": "Popolare zuppa thailandese a base di gamberi, citronella, peperoncino e latte di cocco",
+          "answer": "Tom Yum"
+        },
+        {
+          "question": "Radice tuberosa ricca di amido usata in Sudamerica, da cui si ricava la tapioca",
+          "answer": "Manioca"
+        },
+        {
+          "question": "Il quinto sapore fondamentale, descritto dai giapponesi come 'saporito' o 'delizioso'",
+          "answer": "Umami"
+        },
+        {
+          "question": "Salsa verde argentina a base di prezzemolo, aglio e aceto, per accompagnare carni alla brace",
+          "answer": "Chimichurri"
+        },
+        {
+          "question": "Tipico formato di pasta pugliese a forma di cupoletta, celebrato nel piatto con le cime di rapa",
+          "answer": "Orecchiette"
+        },
+        {
+          "question": "Condimento giapponese in pasta dal sapore intensamente pungente e colore verde, ricavato da un rizoma",
+          "answer": "Wasabi"
+        },
+        {
+          "question": "Crema del Medio Oriente preparata frullando ceci lessati con tahina, limone, aglio e olio",
+          "answer": "Hummus"
         }
       ],
       "500": [
@@ -7331,6 +10451,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "In etologia e agronomia, quale insospettabile animale femmina è tradizionalmente impiegato in Francia, specialmente nel Périgord, per la ricerca dei tartufi grazie al suo fiuto e all'attrazione per i feromoni del fungo?",
           "answer": "Maiale (o Scrofa)"
+        },
+        {
+          "question": "Street food di Palermo: un panino soffice ripieno di milza e polmone di vitello cotti nello strutto",
+          "answer": "Pani ca meusa"
+        },
+        {
+          "question": "Complessa salsa francese a base di burro chiarificato, tuorli d'uovo, dragoncello e scalogno",
+          "answer": "Salsa bernese"
+        },
+        {
+          "question": "Il vitigno a bacca rossa piemontese da cui si ricavano vini da invecchiamento come il Barolo",
+          "answer": "Nebbiolo"
+        },
+        {
+          "question": "Iconico insaccato scozzese: lo stomaco di una pecora riempito con le sue interiora macinate",
+          "answer": "Haggis"
+        },
+        {
+          "question": "Tubero disidratato attraverso un antico metodo andino di esposizione al gelo notturno e al sole diurno",
+          "answer": "Chuño"
+        },
+        {
+          "question": "Varietà di peperoncino creata in Sud Carolina, famosa per l'estrema piccantezza",
+          "answer": "Carolina Reaper"
+        },
+        {
+          "question": "Profumata zuppa del Vietnam con brodo di manzo speziato, noodles di riso e carne",
+          "answer": "Pho"
+        },
+        {
+          "question": "Taglio di carne bovina comprensivo di osso a T, indispensabile per l'autentica Bistecca alla Fiorentina",
+          "answer": "Lombata"
+        },
+        {
+          "question": "Pseudocereale andino coltivato dagli Inca, rinomato per l'alto contenuto proteico e l'assenza di glutine",
+          "answer": "Quinoa"
+        },
+        {
+          "question": "Parassita fungino che infetta le pannocchie di mais in Messico, considerato una prelibatezza",
+          "answer": "Huitlacoche"
+        },
+        {
+          "question": "Pregiato prosciutto crudo dolce italiano prodotto esclusivamente in un comune del Friuli",
+          "answer": "San Daniele"
+        },
+        {
+          "question": "Vino liquoroso dell'Andalusia, invecchiato con il complesso metodo in botti chiamato 'solera'",
+          "answer": "Sherry (o Jerez)"
+        },
+        {
+          "question": "Pesce palla giapponese che risulta mortale a causa del veleno se non preparato alla perfezione",
+          "answer": "Fugu"
+        },
+        {
+          "question": "Ricco dessert turco costituito da strati di sottilissima pasta fillo, noci triturate e miele",
+          "answer": "Baklava"
+        },
+        {
+          "question": "Termine culinario francese per indicare il taglio di verdure a cubetti piccolissimi e regolari",
+          "answer": "Brunoise"
+        },
+        {
+          "question": "Formaggio svizzero del Canton Vallese che viene fuso e raschiato su patate lesse e cetriolini",
+          "answer": "Raclette"
+        },
+        {
+          "question": "Popolare dolce indiano: palline fritte a base di latte in polvere immerse in sciroppo di zucchero",
+          "answer": "Gulab Jamun"
+        },
+        {
+          "question": "Calorico dolce bretone a strati, croccante fuori e morbido dentro, il cui nome significa 'torta di burro'",
+          "answer": "Kouign-amann"
+        },
+        {
+          "question": "Grosso frutto del Sud-est asiatico famoso per l'odore molto sgradevole ma dal sapore cremoso",
+          "answer": "Durian"
+        },
+        {
+          "question": "Snack delle Filippine: uovo d'anatra fecondato, bollito poco prima della schiusa e mangiato dal guscio",
+          "answer": "Balut"
         }
       ]
     }
@@ -7518,6 +10718,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "La famiglia televisiva animata dalla pelle gialla creata dal fumettista Matt Groening nel 1989.",
           "answer": "I Simpson"
+        },
+        {
+          "question": "Ha vinto la causa per diffamazione contro l'ex moglie Amber Heard, molto seguita dai media.",
+          "answer": "Johnny Depp"
+        },
+        {
+          "question": "È il celebre nome d'arte della popstar Stefani Joanne Angelina Germanotta.",
+          "answer": "Lady Gaga"
+        },
+        {
+          "question": "La ricchissima famiglia americana al centro del famoso reality show \"Al passo con i...\"",
+          "answer": "Kardashian"
+        },
+        {
+          "question": "L'attore che ha clamorosamente schiaffeggiato il comico Chris Rock durante la notte degli Oscar 2022.",
+          "answer": "Will Smith"
+        },
+        {
+          "question": "Il celebre attore protagonista di capolavori campioni d'incassi come \"Titanic\" e \"Inception\".",
+          "answer": "Leonardo DiCaprio"
+        },
+        {
+          "question": "La popstar miliardaria che ha battuto ogni record con il suo trionfale \"Eras Tour\".",
+          "answer": "Taylor Swift"
+        },
+        {
+          "question": "Considerata la regina indiscussa del pop, ha cantato storici brani come \"Like a Virgin\".",
+          "answer": "Madonna"
+        },
+        {
+          "question": "L'ex calciatore britannico, vera icona di stile, sposato con l'ex Spice Girl nota come \"Posh\".",
+          "answer": "David Beckham"
+        },
+        {
+          "question": "L'attrice australiana che ha interpretato Barbie nell'omonimo film campione d'incassi del 2023.",
+          "answer": "Margot Robbie"
+        },
+        {
+          "question": "L'ex attrice americana della serie \"Suits\" che è diventata la moglie del principe Harry.",
+          "answer": "Meghan Markle"
+        },
+        {
+          "question": "L'icona pop che ha cantato \"Baby One More Time\" e ha vissuto sotto la tutela legale del padre per ben 13 anni.",
+          "answer": "Britney Spears"
+        },
+        {
+          "question": "La popstar originaria delle Barbados divenuta anche un'imprenditrice miliardaria con il brand Fenty Beauty.",
+          "answer": "Rihanna"
+        },
+        {
+          "question": "L'attore divenuto un'icona mondiale per aver interpretato a lungo \"Iron Man\" nel Marvel Cinematic Universe.",
+          "answer": "Robert Downey Jr."
+        },
+        {
+          "question": "L'attore britannico diventato famoso sin da bambino per aver interpretato il mago Harry Potter al cinema.",
+          "answer": "Daniel Radcliffe"
+        },
+        {
+          "question": "Il presentatore e direttore artistico che ha condotto e rivoluzionato il Festival di Sanremo dal 2020 al 2024.",
+          "answer": "Amadeus"
+        },
+        {
+          "question": "L'ex cantante che era soprannominata \"Posh Spice\" ed è oggi un'apprezzata e nota stilista.",
+          "answer": "Victoria Beckham"
+        },
+        {
+          "question": "La popstar canadese che fu scoperta su YouTube grazie al brano \"Baby\", in passato fidanzato con Selena Gomez.",
+          "answer": "Justin Bieber"
+        },
+        {
+          "question": "La talentuosa cantante moglie del rapper Jay-Z e interprete dell'iconica hit \"Single Ladies\".",
+          "answer": "Beyoncé"
+        },
+        {
+          "question": "L'ex membro della boyband \"One Direction\" che ha deciso di lasciare il gruppo per primo nel 2015.",
+          "answer": "Zayn Malik"
+        },
+        {
+          "question": "La celebre imprenditrice digitale e influencer italiana che ha fondato in origine il blog \"The Blonde Salad\".",
+          "answer": "Chiara Ferragni"
         }
       ],
       "200": [
@@ -7700,6 +10980,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "La celebre top model americana, sorella di Bella Hadid, che ha avuto un figlio con il cantante Zayn Malik.",
           "answer": "Gigi Hadid"
+        },
+        {
+          "question": "L'attore di origine australiana che ha interpretato storicamente il mutante Wolverine nella saga degli X-Men.",
+          "answer": "Hugh Jackman"
+        },
+        {
+          "question": "Il famoso e controverso rapper americano, ex marito di Kim Kardashian, che ha cambiato legalmente il proprio nome in \"Ye\".",
+          "answer": "Kanye West"
+        },
+        {
+          "question": "La celebre attrice star della sitcom \"Friends\" che ha interpretato per anni il personaggio di Rachel Green.",
+          "answer": "Jennifer Aniston"
+        },
+        {
+          "question": "Il giovane programmatore e imprenditore che ha fondato Facebook ed è l'attuale CEO e fondatore di Meta.",
+          "answer": "Mark Zuckerberg"
+        },
+        {
+          "question": "La pluripremiata cantante britannica interprete di grandi ed emozionanti successi mondiali come \"Rolling in the Deep\" e \"Hello\".",
+          "answer": "Adele"
+        },
+        {
+          "question": "L'attrice emergente che ha interpretato il ruolo di Mercoledì Addams nell'acclamata e popolarissima serie Netflix diretta da Tim Burton.",
+          "answer": "Jenna Ortega"
+        },
+        {
+          "question": "Il riservato e amatissimo attore protagonista dell'adrenalinica saga cinematografica d'azione \"John Wick\".",
+          "answer": "Keanu Reeves"
+        },
+        {
+          "question": "L'affascinante star di Hollywood che è stato l'ex marito sia di Angelina Jolie che di Jennifer Aniston.",
+          "answer": "Brad Pitt"
+        },
+        {
+          "question": "Il bizzarro nome con cui è stato chiamato il primo figlio nato dal magnate Elon Musk e dalla cantante Grimes, spesso abbreviato per semplicità.",
+          "answer": "X (o X Æ A-12)"
+        },
+        {
+          "question": "La celebre cantante colombiana interprete di \"Waka Waka\" ed ex compagna storica del calciatore spagnolo Piqué.",
+          "answer": "Shakira"
+        },
+        {
+          "question": "L'attore che ha conquistato l'Oscar recitando e interpretando l'iconico villain di Gotham nel film \"Joker\" del 2019.",
+          "answer": "Joaquin Phoenix"
+        },
+        {
+          "question": "La famosissima supermodella statunitense che è la sorella maggiore dell'imprenditrice beauty Kylie Jenner.",
+          "answer": "Kendall Jenner"
+        },
+        {
+          "question": "Il carismatico frontman e cantante della rock band italiana Maneskin, trionfatrice all'Eurovision Song Contest.",
+          "answer": "Damiano David"
+        },
+        {
+          "question": "Il forzuto attore ed ex wrestler professionista conosciuto e amato in tutto il mondo con il leggendario soprannome di \"The Rock\".",
+          "answer": "Dwayne Johnson"
+        },
+        {
+          "question": "L'autore della vasta saga letteraria \"Cronache del ghiaccio e del fuoco\", da cui è stata tratta la celebre serie \"Il Trono di Spade\".",
+          "answer": "George R. R. Martin"
+        },
+        {
+          "question": "La famosissima e imponente residenza ufficiale londinese in cui vive tradizionalmente la famiglia reale britannica.",
+          "answer": "Buckingham Palace"
+        },
+        {
+          "question": "La diffusissima piattaforma social cinese basata sulla condivisione di video brevi che era originariamente conosciuta con il nome di Musical.ly.",
+          "answer": "TikTok"
+        },
+        {
+          "question": "Il giovane attore di origini britanniche che veste i panni del supereroe Spider-Man all'interno del Marvel Cinematic Universe.",
+          "answer": "Tom Holland"
+        },
+        {
+          "question": "Il visionario e ambizioso regista che ha diretto i due storici film campioni di incassi \"Avatar\" e \"Titanic\".",
+          "answer": "James Cameron"
+        },
+        {
+          "question": "L'eccentrico protagonista del documentario Netflix sulle vicende di un allevatore di tigri, diventato un incredibile fenomeno mediatico nel 2020.",
+          "answer": "Joe Exotic"
         }
       ],
       "300": [
@@ -7882,6 +11242,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il talentuoso attore che ha ottenuto la fama mondiale interpretando Elvis Presley nel biopic di Baz Luhrmann del 2022.",
           "answer": "Austin Butler"
+        },
+        {
+          "question": "Lo storico pseudonimo artistico utilizzato dal celebre rapper bianco Marshall Bruce Mathers III.",
+          "answer": "Eminem"
+        },
+        {
+          "question": "L'attore che ha cantato il brano virale \"I'm Just Ken\" recitando nel fortunato film \"Barbie\" uscito nel 2023.",
+          "answer": "Ryan Gosling"
+        },
+        {
+          "question": "Il nome dell'ormai famoso brand di intimo modellante e loungewear fondato con enorme successo dall'influencer Kim Kardashian.",
+          "answer": "SKIMS"
+        },
+        {
+          "question": "La popstar americana, in passato nota attrice bambina di Disney Channel, celebre per il duplice ruolo in \"Hannah Montana\".",
+          "answer": "Miley Cyrus"
+        },
+        {
+          "question": "Il prolifico cantautore britannico che ha sfornato hit mondiali come \"Shape of You\" ed è noto per i suoi distintivi capelli rossi.",
+          "answer": "Ed Sheeran"
+        },
+        {
+          "question": "La giovanissima attrice star della serie \"Stranger Things\", recentemente diventata moglie del figlio del rocker Jon Bon Jovi (Jake).",
+          "answer": "Millie Bobby Brown"
+        },
+        {
+          "question": "Il nome del figlio primogenito nato dal matrimonio tra il principe William del Regno Unito e sua moglie Kate Middleton.",
+          "answer": "George"
+        },
+        {
+          "question": "L'attore canadese noto per il suo spiccato senso dell'umorismo che interpreta il sarcastico antieroe Marvel \"Deadpool\".",
+          "answer": "Ryan Reynolds"
+        },
+        {
+          "question": "La talentuosa cantante statunitense di origini italiane e dalla portentosa estensione vocale il cui fandom è orgogliosamente noto come \"Arianators\".",
+          "answer": "Ariana Grande"
+        },
+        {
+          "question": "L'attore diventato idolo delle adolescenti per il ruolo del vampiro Edward Cullen in \"Twilight\" e in seguito protagonista di un film di \"Batman\".",
+          "answer": "Robert Pattinson"
+        },
+        {
+          "question": "Il nome dell'immensamente popolare e longevo podcast condotto dal comico e commentatore sportivo Joe Rogan, il più ascoltato su Spotify.",
+          "answer": "The Joe Rogan Experience"
+        },
+        {
+          "question": "L'avvincente docu-serie sportiva uscita nel 2020 che racconta in maniera approfondita l'ultima leggendaria stagione di Michael Jordan con la maglia dei Chicago Bulls.",
+          "answer": "The Last Dance"
+        },
+        {
+          "question": "La giovane e innovativa cantante interprete della hit \"Bad Guy\", spesso nota per i suoi eccentrici capelli bicolor e vincitrice di svariati Grammy Awards.",
+          "answer": "Billie Eilish"
+        },
+        {
+          "question": "Il celebre youtuber e filantropo americano divenuto famoso per le sue spettacolari sfide estreme e per regalare enormi ed esagerate somme di denaro.",
+          "answer": "MrBeast"
+        },
+        {
+          "question": "Il vero nome di battesimo del cantante canadese conosciuto in tutto il mondo con il nome d'arte The Weeknd, interprete dell'iconica \"Blinding Lights\".",
+          "answer": "Abel Tesfaye"
+        },
+        {
+          "question": "L'attore britannico che ha fatto innamorare milioni di spettatori interpretando l'affascinante Duca di Hastings nella prima stagione della serie in costume Bridgerton.",
+          "answer": "Regé-Jean Page"
+        },
+        {
+          "question": "La prestigiosa e nota rivista d'informazione americana che alla fine del 2023 ha incoronato la popstar Taylor Swift come sua autorevole \"Persona dell'anno\".",
+          "answer": "Time"
+        },
+        {
+          "question": "L'esclusivo e sfarzoso evento di moda annuale a scopo benefico, celebre per i suoi look stravaganti, organizzato a New York dalla direttrice di Vogue Anna Wintour.",
+          "answer": "Met Gala"
+        },
+        {
+          "question": "Il membro della famiglia reale inglese e duca di York che si è clamorosamente ritirato a vita privata in seguito al suo grave coinvolgimento nel caso Epstein.",
+          "answer": "Principe Andrea"
+        },
+        {
+          "question": "L'attrice protagonista della miniserie evento di Netflix \"La Regina degli Scacchi\", in cui veste i panni della talentuosa scacchista Beth Harmon.",
+          "answer": "Anya Taylor-Joy"
         }
       ],
       "400": [
@@ -8064,6 +11504,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "L'attore di origini egiziane che ha magistralmente vestito i panni della leggenda Freddie Mercury nel biopic 'Bohemian Rhapsody'.",
           "answer": "Rami Malek"
+        },
+        {
+          "question": "Lo storico e amato conduttore televisivo americano che ha deciso di ritirarsi e ha ceduto il proprio iconico \"Late Show\" a Stephen Colbert nell'anno 2015.",
+          "answer": "David Letterman"
+        },
+        {
+          "question": "Il popolare e controverso reality show televisivo incentrato sui drammi sentimentali e lavorativi dello staff in servizio al ristorante SUR di Lisa Vanderpump.",
+          "answer": "Vanderpump Rules"
+        },
+        {
+          "question": "L'ex membro della boyband NSYNC ed ex compagno di Britney Spears a cui la cantante dedicò idealmente il celebre brano di addio \"Cry Me a River\".",
+          "answer": "Justin Timberlake"
+        },
+        {
+          "question": "L'ironica e colorata star sudcoreana che nell'anno 2012 ha fatto ballare letteralmente il mondo intero a ritmo del tormentone virale intitolato \"Gangnam Style\".",
+          "answer": "PSY"
+        },
+        {
+          "question": "Il nome della giovane figlia nata dall'ormai concluso e un tempo chiacchieratissimo matrimonio tra le due star di Hollywood Tom Cruise e Katie Holmes.",
+          "answer": "Suri Cruise"
+        },
+        {
+          "question": "L'attore cileno-statunitense diventato idolo del web per le sue interpretazioni di Joel Miller nell'acclamato \"The Last of Us\" e del mandaloriano nell'universo di Star Wars.",
+          "answer": "Pedro Pascal"
+        },
+        {
+          "question": "La celeberrima top model degli anni '90 passata alla storia per la sua iconica e snob affermazione: \"Non mi alzo dal letto per meno di 10.000 dollari al giorno\".",
+          "answer": "Linda Evangelista"
+        },
+        {
+          "question": "Il documentario Netflix basato su una storia vera incentrato sulle truffe amorose perpetrate attraverso un'app di incontri, ad opera del sedicente milionario Simon Leviev.",
+          "answer": "Il truffatore di Tinder"
+        },
+        {
+          "question": "L'aggressivo e grintoso alter ego ideato dalla cantante Beyoncé, utilizzato con successo anche come titolo principale per il suo fortunatissimo album pubblicato nel 2008.",
+          "answer": "Sasha Fierce"
+        },
+        {
+          "question": "Il giovane attore irlandese che ha interpretato in maniera eccellente il crudele e odiatissimo giovanissimo re Joffrey Baratheon nella serie tv \"Il Trono di Spade\".",
+          "answer": "Jack Gleeson"
+        },
+        {
+          "question": "Il famosissimo e affascinante attore americano che, sorprendendo tutti nel 2014, è diventato il marito della nota avvocatessa internazionale per i diritti umani Amal Alamuddin.",
+          "answer": "George Clooney"
+        },
+        {
+          "question": "La famosissima cantante e attrice il cui memorabile e profondamente scollato abito verde di Versace ai Grammy del 2000 ha ispirato la creazione diretta di Google Immagini.",
+          "answer": "Jennifer Lopez"
+        },
+        {
+          "question": "L'attivissimo movimento mediatico e legale nato spontaneamente dai fan in tutto il mondo per supportare la popstar Britney Spears e pretenderne l'immediata liberazione dalla tutela del padre.",
+          "answer": "#FreeBritney"
+        },
+        {
+          "question": "L'apprezzatissimo regista sudcoreano autore dell'acclamato capolavoro cinematografico intitolato \"Parasite\", pellicola che è stata una storica e assoluta trionfatrice nella notte degli Oscar 2020.",
+          "answer": "Bong Joon-ho"
+        },
+        {
+          "question": "Il celebre e virtuoso chitarrista della storica band britannica Queen, che oltre al suo incredibile talento musicale vanta persino l'aver conseguito un dottorato formale in astrofisica.",
+          "answer": "Brian May"
+        },
+        {
+          "question": "L'intenso e talentuoso attore che ha meritatamente vinto il premio Oscar come Miglior Attore per aver magistralmente impersonato l'indimenticabile cantante Freddie Mercury nel biopic \"Bohemian Rhapsody\".",
+          "answer": "Rami Malek"
+        },
+        {
+          "question": "Il celebre lungometraggio musicale che, a causa di uno scioccante scambio di buste, fu annunciato erroneamente come \"Miglior Film\" agli Oscar 2017 prima di cedere rapidamente il trofeo al legittimo vincitore \"Moonlight\".",
+          "answer": "La La Land"
+        },
+        {
+          "question": "La bellissima e solare attrice divenuta una star assoluta grazie alla serie per adolescenti \"Gossip Girl\", e che è felicemente sposata dal 2012 con il collega attore Ryan Reynolds.",
+          "answer": "Blake Lively"
+        },
+        {
+          "question": "Il celebre nome e pseudonimo musicale con cui è nota l'apprezzata e talentuosa cantante pop italiana, nata all'anagrafe come Elodie Di Patrizi.",
+          "answer": "Elodie"
+        },
+        {
+          "question": "La vulcanica e iconica opinionista fissa della trasmissione \"Uomini e Donne\" che ha pronunciato la frase divenuta un meme immortale nella cultura pop televisiva italiana: \"No Maria, io esco\".",
+          "answer": "Tina Cipollari"
         }
       ],
       "500": [
@@ -8246,6 +11766,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "Il popolarissimo termine colloquiale, nato e diffuso a dismisura su internet negli ultimi anni, che indica i figli di celebrità facilitati nel fare carriera a Hollywood.",
           "answer": "Nepo Baby"
+        },
+        {
+          "question": "Il leggendario e iconico attore di colore che ha storicamente prestato la sua voce inconfondibile e profonda al cattivo Darth Vader nell'amatissima trilogia originale di Star Wars.",
+          "answer": "James Earl Jones"
+        },
+        {
+          "question": "Il giovane e spregiudicato creatore che concepì, pubblicizzò e organizzò in maniera fraudolenta l'assoluto disastro noto come \"Fyre Festival\", finendo in seguito condannato alla reclusione per frode.",
+          "answer": "Billy McFarland"
+        },
+        {
+          "question": "Il celebre cantautore britannico ed ex membro dei The Beatles che fu tragicamente ed improvvisamente assassinato fuori dalla propria abitazione nel dicembre 1980 a New York.",
+          "answer": "John Lennon"
+        },
+        {
+          "question": "Il curioso nome della sfortunata scimmietta cappuccina che era originariamente appartenuta a Justin Bieber, e che fu poi dolorosamente confiscata dalle autorità alla dogana in Germania nel lontano 2013.",
+          "answer": "Mally"
+        },
+        {
+          "question": "Il magnetico e leggendario attore di origini scozzesi che è entrato a pieno diritto nella storia del cinema per essere stato il primissimo ad aver dato il volto sul grande schermo all'agente segreto 007 James Bond.",
+          "answer": "Sean Connery"
+        },
+        {
+          "question": "La veterana youtuber americana del settore beauty che è ricordata come l'autrice dell'esplosivo video virale intitolato \"Bye Sister\", filmato che diede il via al rovinoso scandalo noto come \"Dramageddon\" nel 2019.",
+          "answer": "Tati Westbrook"
+        },
+        {
+          "question": "Il nome anagrafico del primissimo e quasi sconosciuto marito di Marilyn Monroe, un agente di polizia che lei sposò quando aveva appena sedici anni nel tentativo estremo di evitare di finire in orfanotrofio.",
+          "answer": "James Dougherty"
+        },
+        {
+          "question": "La popolarissima e amata serie TV per adolescenti in onda negli anni '90, incentrata sulle complesse vicende relazionali dei gemelli Walsh e del loro gruppo di ricchi amici, nota per l'iconico e memorabile codice postale presente nel titolo.",
+          "answer": "Beverly Hills 90210"
+        },
+        {
+          "question": "Il geniale e amatissimo stilista italiano e fondatore dell'omonima celebre casa di moda che fu tragicamente assassinato da Andrew Cunanan sui gradini d'ingresso della sua immensa villa a Miami Beach nel torrido luglio 1997.",
+          "answer": "Gianni Versace"
+        },
+        {
+          "question": "L'affettuoso nome del primissimo cane corgi della Regina Elisabetta II, un amatissimo cucciolo che la sovrana d'Inghilterra ricevette come dono speciale in occasione del suo diciottesimo compleanno.",
+          "answer": "Susan"
+        },
+        {
+          "question": "L'importante e leggendario film dedicato alla mafia e diretto dal regista Francis Ford Coppola per il quale il grande attore Marlon Brando rifiutò polemicamente la vittoria dell'Oscar mandando al suo posto l'attivista Sacheen Littlefeather.",
+          "answer": "Il Padrino"
+        },
+        {
+          "question": "Il popolarissimo ed influente attore di Hollywood che, a causa di gravi polemiche relative all'organizzazione della HFPA, ha platealmente restituito i suoi tre premi Golden Globe guadagnati nella sua carriera in segno di forte protesta nel corso del 2021.",
+          "answer": "Tom Cruise"
+        },
+        {
+          "question": "La celebre e bionda ereditiera del lusso che durante i primi anni 2000 lanciava continuamente la bizzarra moda di sfoggiare il cane da borsetta andando sempre in giro in compagnia del suo minuscolo e amato chihuahua di nome Tinkerbell.",
+          "answer": "Paris Hilton"
+        },
+        {
+          "question": "L'acclamato e famosissimo gruppo musicale femminile sudcoreano, esponente di punta del genere K-pop in tutto il mondo, che ha interpretato singoli e hit virali di enorme successo del calibro di \"How You Like That\" e \"Kill This Love\".",
+          "answer": "BLACKPINK"
+        },
+        {
+          "question": "Il vulcanico e passionale attore e regista di nazionalità italiana che ha letteralmente conquistato l'Academy americana venendo premiato con la statuetta per l'impeccabile e toccante capolavoro cinematografico del 1997 intitolato \"La vita è bella\".",
+          "answer": "Roberto Benigni"
+        },
+        {
+          "question": "Il nome dell'isolata isola privata, situata nello splendido arcipelago delle Isole Vergini americane, che è purtroppo divenuta tristemente nota sui media e sui giornali per tutti gli oscuri abusi legati all'imprenditore e finanziere americano Jeffrey Epstein.",
+          "answer": "Little St. James"
+        },
+        {
+          "question": "Il famoso termine giornalistico che definisce l'enorme scandalo sportivo esploso con fragore in Italia nell'ormai lontano 2006, un'indagine giudiziaria che finì con il coinvolgere per frode sportiva numerose squadre blasonate di calcio del campionato di Serie A.",
+          "answer": "Calciopoli"
+        },
+        {
+          "question": "La filantropa, romanziera e ultra miliardaria diventata enormemente celebre nei media internazionali come l'ex moglie dello storico fondatore dell'azienda Amazon, il magnate Jeff Bezos, nota ormai per le sue ingentissime donazioni benefiche in giro per il mondo in seguito al burrascoso divorzio.",
+          "answer": "MacKenzie Scott"
+        },
+        {
+          "question": "Il vero e forse meno conosciuto nome all'anagrafe della leggendaria icona pop americana, l'attrice bionda platinata e sensuale che tutto il mondo ha conosciuto ed eternamente celebrato semplicemente sotto il celebre nome d'arte di Marilyn Monroe.",
+          "answer": "Norma Jeane Mortenson"
+        },
+        {
+          "question": "L'amatissima e iconica serie comica girata in stile finto documentario, denominato in gergo televisivo mockumentary, nella quale il simpatico ma imbarazzante ed eccentrico personaggio di Michael Scott gestisce goffamente le dinamiche di un tipico e noioso ufficio per venditori e fornitori di carta presso la cittadina di Scranton.",
+          "answer": "The Office (US)"
         }
       ]
     }
@@ -8433,6 +12033,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "In boxing, what is it called when a fighter is knocked down and cannot stand up before the referee counts to ten?",
           "answer": "Knockout (KO)"
+        },
+        {
+          "question": "In which sport do players use a racket to hit a shuttlecock over a net?",
+          "answer": "Badminton"
+        },
+        {
+          "question": "How many players are on a standard baseball team on the field at one time?",
+          "answer": "Nine"
+        },
+        {
+          "question": "Which sport is often referred to globally as 'the beautiful game'?",
+          "answer": "Soccer"
+        },
+        {
+          "question": "What color is the center ring on a standard archery target?",
+          "answer": "Yellow"
+        },
+        {
+          "question": "In American football, how many points is a touchdown worth?",
+          "answer": "Six"
+        },
+        {
+          "question": "In basketball, what is the term for bouncing the ball while moving?",
+          "answer": "Dribbling"
+        },
+        {
+          "question": "What sport takes place on a steeply banked oval track called a velodrome?",
+          "answer": "Cycling"
+        },
+        {
+          "question": "Which country hosts the famous Wimbledon tennis tournament?",
+          "answer": "United Kingdom"
+        },
+        {
+          "question": "How many holes are played in a standard, full round of golf?",
+          "answer": "18"
+        },
+        {
+          "question": "What is the name of the hard rubber disc hit by the players in ice hockey?",
+          "answer": "Puck"
+        },
+        {
+          "question": "In boxing, what do the letters 'KO' stand for?",
+          "answer": "Knockout"
+        },
+        {
+          "question": "Which competitive swimming stroke is named after an insect?",
+          "answer": "Butterfly"
+        },
+        {
+          "question": "In which sport might a player execute a move known as a 'slam dunk'?",
+          "answer": "Basketball"
+        },
+        {
+          "question": "What word is used in tennis to indicate a score of zero?",
+          "answer": "Love"
+        },
+        {
+          "question": "Which winter sport uses a broom and a heavy polished stone on a sheet of ice?",
+          "answer": "Curling"
+        },
+        {
+          "question": "In ten-pin bowling, what is it called when you knock down all the pins with the first ball?",
+          "answer": "Strike"
+        },
+        {
+          "question": "What is the maximum number of clubs a golfer is allowed to carry in their bag during a round?",
+          "answer": "14"
+        },
+        {
+          "question": "In which sport do competitors race in a narrow boat called a shell using oars?",
+          "answer": "Rowing"
+        },
+        {
+          "question": "Which athletic event consists of a continuous race of swimming, cycling, and running?",
+          "answer": "Triathlon"
+        },
+        {
+          "question": "What martial art's name translates to 'the gentle way' in Japanese?",
+          "answer": "Judo"
         }
       ],
       "200": [
@@ -8615,6 +12295,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "In what sport do competitors ride on a small sled down a frozen track face-first?",
           "answer": "Skeleton"
+        },
+        {
+          "question": "Who has won the most Olympic gold medals in swimming history?",
+          "answer": "Michael Phelps"
+        },
+        {
+          "question": "In which Asian city were the 2008 Summer Olympics held?",
+          "answer": "Beijing"
+        },
+        {
+          "question": "What heavy contact sport is widely considered the national sport of Japan?",
+          "answer": "Sumo Wrestling"
+        },
+        {
+          "question": "How many rounds are typically scheduled in a modern professional championship boxing match?",
+          "answer": "12"
+        },
+        {
+          "question": "What is the diameter of a standard basketball hoop in inches?",
+          "answer": "18"
+        },
+        {
+          "question": "Which NFL team has a logo featuring a single blue star on their silver helmet?",
+          "answer": "Dallas Cowboys"
+        },
+        {
+          "question": "What is the highest possible break a player can achieve in a standard game of snooker?",
+          "answer": "147"
+        },
+        {
+          "question": "Which South American country won the first ever FIFA World Cup in 1930?",
+          "answer": "Uruguay"
+        },
+        {
+          "question": "In baseball, which defensive player is positioned between second and third base?",
+          "answer": "Shortstop"
+        },
+        {
+          "question": "What color jersey is traditionally worn by the overall time leader in the Tour de France?",
+          "answer": "Yellow"
+        },
+        {
+          "question": "Which female tennis player has won 23 Grand Slam women's singles titles?",
+          "answer": "Serena Williams"
+        },
+        {
+          "question": "In golf, what is the term for completing a hole in one stroke under par?",
+          "answer": "Birdie"
+        },
+        {
+          "question": "What distance in miles is a standard marathon race?",
+          "answer": "26.2"
+        },
+        {
+          "question": "Which sport features a restart of play known as a 'scrum'?",
+          "answer": "Rugby"
+        },
+        {
+          "question": "What track and field event combines 10 different disciplines over two days?",
+          "answer": "Decathlon"
+        },
+        {
+          "question": "Which legendary NBA player scored exactly 100 points in a single game in 1962?",
+          "answer": "Wilt Chamberlain"
+        },
+        {
+          "question": "What is the only country to have played in every single FIFA Men's World Cup tournament?",
+          "answer": "Brazil"
+        },
+        {
+          "question": "In Formula 1 racing, what does a checkered flag signify when waved at a driver?",
+          "answer": "End of the race"
+        },
+        {
+          "question": "How long is a standard Olympic-size swimming pool in meters?",
+          "answer": "50"
+        },
+        {
+          "question": "Which country's national rugby team is famous for performing the Haka dance before matches?",
+          "answer": "New Zealand"
         }
       ],
       "300": [
@@ -8797,6 +12557,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "In what sport do players use a mallet to hit a wooden or plastic ball through hoops embedded in a grass court?",
           "answer": "Croquet"
+        },
+        {
+          "question": "Who is the all-time leading goalscorer in the history of the UEFA Champions League?",
+          "answer": "Cristiano Ronaldo"
+        },
+        {
+          "question": "In what year did the first modern Olympic Games take place in Athens?",
+          "answer": "1896"
+        },
+        {
+          "question": "In which sport would you historically use a club called a 'niblick' or a 'mashie'?",
+          "answer": "Golf"
+        },
+        {
+          "question": "Which heavyweight boxer was known globally as 'The Greatest' and 'The Louisville Lip'?",
+          "answer": "Muhammad Ali"
+        },
+        {
+          "question": "What is the weight of a standard men's shot put ball in kilograms?",
+          "answer": "7.26"
+        },
+        {
+          "question": "Which country won their fourth Men's Rugby World Cup title in 2023, the most of any nation?",
+          "answer": "South Africa"
+        },
+        {
+          "question": "Who holds the record for the most home runs hit in a single Major League Baseball season?",
+          "answer": "Barry Bonds"
+        },
+        {
+          "question": "In what year did the National Hockey League (NHL) officially form?",
+          "answer": "1917"
+        },
+        {
+          "question": "Which driver shares the record for the most Formula 1 World Championships with Michael Schumacher?",
+          "answer": "Lewis Hamilton"
+        },
+        {
+          "question": "Who was the first gymnast to score a perfect 10 at the Olympic Games?",
+          "answer": "Nadia Comaneci"
+        },
+        {
+          "question": "Which NFL quarterback holds the all-time record for the most career passing yards?",
+          "answer": "Tom Brady"
+        },
+        {
+          "question": "In cricket, how many wooden bails are placed on top of a set of stumps?",
+          "answer": "Two"
+        },
+        {
+          "question": "What is the length of a professional basketball court in the NBA in feet?",
+          "answer": "94"
+        },
+        {
+          "question": "Which team won the first ever Super Bowl played in 1967?",
+          "answer": "Green Bay Packers"
+        },
+        {
+          "question": "Who is the only tennis player to win the Golden Slam (all four majors and Olympic gold) in a single calendar year?",
+          "answer": "Steffi Graf"
+        },
+        {
+          "question": "What is officially recognized as the national winter sport of Canada?",
+          "answer": "Ice Hockey"
+        },
+        {
+          "question": "Which legendary racehorse won the US Triple Crown in 1973 with a record-breaking Belmont Stakes victory?",
+          "answer": "Secretariat"
+        },
+        {
+          "question": "How many points is the brown ball worth in a game of snooker?",
+          "answer": "Four"
+        },
+        {
+          "question": "Which country is recognized as the historical birthplace of Taekwondo?",
+          "answer": "South Korea"
+        },
+        {
+          "question": "What is the name of the prestigious trophy awarded annually to the winner of the NHL playoffs?",
+          "answer": "Stanley Cup"
         }
       ],
       "400": [
@@ -8979,6 +12819,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "What is the name of the traditional Maori dance performed by the New Zealand rugby team before a match?",
           "answer": "Haka"
+        },
+        {
+          "question": "Which nation won the first ever FIFA Women's World Cup tournament held in 1991?",
+          "answer": "United States"
+        },
+        {
+          "question": "What is the name of the iconic red mascot of the Chicago Bulls NBA franchise?",
+          "answer": "Benny the Bull"
+        },
+        {
+          "question": "Which golfer has spent the most consecutive weeks at World Number One in the Official World Golf Ranking?",
+          "answer": "Tiger Woods"
+        },
+        {
+          "question": "In fencing, which of the three weapons has a restricted target area limited strictly to the torso?",
+          "answer": "Foil"
+        },
+        {
+          "question": "Who was the first person in recorded history to run a mile in under four minutes?",
+          "answer": "Roger Bannister"
+        },
+        {
+          "question": "Which African country became the first from its continent to reach the semi-finals of a Men's FIFA World Cup?",
+          "answer": "Morocco"
+        },
+        {
+          "question": "In what US city is the prestigious 'Masters' golf tournament held annually?",
+          "answer": "Augusta"
+        },
+        {
+          "question": "Who holds the men's world record for the high jump, clearing 2.45 meters in 1993?",
+          "answer": "Javier Sotomayor"
+        },
+        {
+          "question": "What are the five distinct colors of the rings on the Olympic flag?",
+          "answer": "Blue, yellow, black, green, red"
+        },
+        {
+          "question": "Which legendary American baseball player was affectionately known as 'The Sultan of Swat'?",
+          "answer": "Babe Ruth"
+        },
+        {
+          "question": "In which Olympic sliding sport do competitors use a small sled and race head-first down a steep ice track?",
+          "answer": "Skeleton"
+        },
+        {
+          "question": "Who is the only heavyweight boxing champion to finish his professional career entirely undefeated?",
+          "answer": "Rocky Marciano"
+        },
+        {
+          "question": "What is the specific term used in ten-pin bowling to describe three consecutive strikes?",
+          "answer": "Turkey"
+        },
+        {
+          "question": "Which Southeast Asian country traditionally dominates the acrobatic sport of Sepak Takraw?",
+          "answer": "Thailand"
+        },
+        {
+          "question": "Who was the first wildcard entry to win the men's singles title at Wimbledon, achieving this feat in 2001?",
+          "answer": "Goran Ivanisevic"
+        },
+        {
+          "question": "What was the name of the official lion mascot of the 1966 FIFA World Cup held in England?",
+          "answer": "World Cup Willie"
+        },
+        {
+          "question": "Which NBA franchise set the record for the most regular season wins with 73 in the 2015-16 season?",
+          "answer": "Golden State Warriors"
+        },
+        {
+          "question": "What is the minimum legal weight of an official NFL game football in ounces?",
+          "answer": "14"
+        },
+        {
+          "question": "Which country won the gold medal in men's ice hockey at the 1980 'Miracle on Ice' Olympics?",
+          "answer": "United States"
+        },
+        {
+          "question": "What is the name of the premier international team competition in men's tennis?",
+          "answer": "Davis Cup"
         }
       ],
       "500": [
@@ -9161,6 +13081,86 @@ export const jeopardyCategories: JeopardyCategory[] = [
         {
           "question": "In Australian Rules Football, how many points is a 'behind' worth?",
           "answer": "1"
+        },
+        {
+          "question": "Who is the only player to have scored a hat-trick in a Men's FIFA World Cup final and still ended up on the losing team?",
+          "answer": "Kylian Mbappe"
+        },
+        {
+          "question": "In what year was the three-point shooting line officially introduced into the NBA?",
+          "answer": "1979"
+        },
+        {
+          "question": "Which cyclist won the first ever Tour de France held in 1903?",
+          "answer": "Maurice Garin"
+        },
+        {
+          "question": "In Australian Rules Football, how many points is a 'behind' worth?",
+          "answer": "One"
+        },
+        {
+          "question": "Who holds the record for the fastest serve ever recorded in professional men's tennis at 163.7 mph?",
+          "answer": "Sam Groth"
+        },
+        {
+          "question": "Which dominant pitcher holds the MLB record for career no-hitters with a total of seven?",
+          "answer": "Nolan Ryan"
+        },
+        {
+          "question": "What is the specific name for a period of play in a game of polo?",
+          "answer": "Chukka"
+        },
+        {
+          "question": "Who was the first female driver to score points in a Formula 1 World Championship race?",
+          "answer": "Lella Lombardi"
+        },
+        {
+          "question": "What is the maximum permitted width of a standard cricket bat in inches?",
+          "answer": "4.25"
+        },
+        {
+          "question": "Which US city hosted the infamous 1904 Summer Olympics, known for its bizarre and grueling marathon event?",
+          "answer": "St. Louis"
+        },
+        {
+          "question": "Who is the only player in NHL history to total over 200 points in a single regular season?",
+          "answer": "Wayne Gretzky"
+        },
+        {
+          "question": "In sumo wrestling, what is the Japanese term for the circular ring where competitive matches take place?",
+          "answer": "Dohyo"
+        },
+        {
+          "question": "Which country has won the most total medals in the history of the Winter Olympic Games?",
+          "answer": "Norway"
+        },
+        {
+          "question": "Who was the first person to successfully land a 900-degree aerial spin on a skateboard in competition?",
+          "answer": "Tony Hawk"
+        },
+        {
+          "question": "What is the oldest continuously run annual marathon race in the world, starting in 1897?",
+          "answer": "Boston Marathon"
+        },
+        {
+          "question": "Which boxer famously inflicted Muhammad Ali's first professional defeat in the 1971 'Fight of the Century'?",
+          "answer": "Joe Frazier"
+        },
+        {
+          "question": "In what fast-paced sport is the 'Corbillon Cup' awarded to the women's world team champions?",
+          "answer": "Table Tennis"
+        },
+        {
+          "question": "Who is the only athlete to win gold medals in different sports at both the Summer and Winter Olympic Games?",
+          "answer": "Eddie Eagan"
+        },
+        {
+          "question": "Which MLB team won the very first modern World Series played in 1903?",
+          "answer": "Boston Americans"
+        },
+        {
+          "question": "What is the traditional term for the event of throwing a heavy wooden pole in the Scottish Highland Games?",
+          "answer": "Tossing the caber"
         }
       ]
     }
