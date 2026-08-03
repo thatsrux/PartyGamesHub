@@ -1,582 +1,582 @@
 [
   {
     "question": "In che anno è uscito il primo iPhone?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1997,
+    "max": 2012,
     "answer": 2007,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscita la prima PlayStation in Giappone?",
-    "min": 1985,
-    "max": 2000,
+    "min": 1991,
+    "max": 2006,
     "answer": 1994,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscita la console Nintendo Switch?",
-    "min": 2010,
-    "max": 2022,
+    "min": 2015,
+    "max": 2027,
     "answer": 2017,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti tasti ha una tastiera per PC standard americana (ANSI)?",
-    "min": 80,
-    "max": 120,
+    "min": 76,
+    "max": 116,
     "answer": 104,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti byte ci sono esattamente in un Kilobyte (KB) tradizionale?",
-    "min": 900,
-    "max": 1100,
+    "min": 890,
+    "max": 1090,
     "answer": 1024,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti bit compongono un byte?",
-    "min": 2,
-    "max": 16,
+    "min": 6,
+    "max": 20,
     "answer": 8,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti Pokémon c'erano nella primissima generazione?",
-    "min": 100,
-    "max": 200,
+    "min": 70,
+    "max": 170,
     "answer": 151,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata fondata la Microsoft?",
-    "min": 1960,
-    "max": 1990,
+    "min": 1967,
+    "max": 1997,
     "answer": 1975,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata fondata la Apple?",
-    "min": 1960,
-    "max": 1990,
+    "min": 1956,
+    "max": 1986,
     "answer": 1976,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata fondata Google?",
-    "min": 1985,
-    "max": 2010,
+    "min": 1981,
+    "max": 2006,
     "answer": 1998,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata rilasciata la prima versione pubblica di Minecraft?",
-    "min": 2005,
-    "max": 2018,
+    "min": 2007,
+    "max": 2020,
     "answer": 2009,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito originariamente Grand Theft Auto V (GTA V)?",
-    "min": 2008,
-    "max": 2018,
+    "min": 2004,
+    "max": 2014,
     "answer": 2013,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti milioni di copie stimate ha venduto Minecraft (fino al 2023)?",
-    "min": 100,
-    "max": 500,
+    "min": 200,
+    "max": 600,
     "answer": 300,
     "unit": "milioni",
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti colori ci sono sulla superficie di un cubo di Rubik standard?",
-    "min": 3,
-    "max": 12,
+    "min": 0,
+    "max": 9,
     "answer": 6,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito il videogioco arcade Pac-Man?",
-    "min": 1970,
-    "max": 1990,
+    "min": 1965,
+    "max": 1985,
     "answer": 1980,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti fantasmini ci sono nel gioco originale di Pac-Man?",
-    "min": 2,
-    "max": 8,
+    "min": 3,
+    "max": 9,
     "answer": 4,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno il World Wide Web è stato reso pubblico?",
-    "min": 1980,
-    "max": 2000,
+    "min": 1975,
+    "max": 1995,
     "answer": 1991,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato caricato il primo video in assoluto su YouTube?",
-    "min": 2000,
-    "max": 2010,
+    "min": 2003,
+    "max": 2013,
     "answer": 2005,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Qual era il limite massimo originale di caratteri per un Tweet su Twitter?",
-    "min": 50,
-    "max": 300,
+    "min": 70,
+    "max": 320,
     "answer": 140,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Qual è il limite attuale di caratteri per un utente standard su X (ex Twitter)?",
-    "min": 100,
-    "max": 500,
+    "min": 0,
+    "max": 400,
     "answer": 280,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Qual è l'età minima teorica richiesta per iscriversi a Facebook?",
-    "min": 10,
-    "max": 18,
+    "min": 6,
+    "max": 14,
     "answer": 13,
     "unit": "anni",
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato fondato Facebook da Mark Zuckerberg?",
-    "min": 1998,
-    "max": 2010,
+    "min": 1996,
+    "max": 2008,
     "answer": 2004,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata lanciata l'app di Instagram?",
-    "min": 2005,
-    "max": 2015,
+    "min": 2001,
+    "max": 2011,
     "answer": 2010,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti Gigabyte (GB) ci sono in un Terabyte (TB)?",
-    "min": 500,
-    "max": 1500,
+    "min": 900,
+    "max": 1900,
     "answer": 1024,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti pin di connessione ha una normale presa USB Type-A?",
-    "min": 2,
-    "max": 10,
+    "min": 0,
+    "max": 8,
     "answer": 4,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti megabyte (MB) di capacità aveva un tipico CD-ROM standard?",
-    "min": 100,
-    "max": 2000,
+    "min": 0,
+    "max": 1900,
     "answer": 700,
     "unit": "MB",
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito Super Mario Bros per il NES?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1968,
+    "max": 1988,
     "answer": 1985,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito il Game Boy originale in Giappone?",
-    "min": 1980,
-    "max": 1998,
+    "min": 1975,
+    "max": 1993,
     "answer": 1989,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quante batterie stilo (AA) servivano per alimentare il Game Boy originale?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata lanciata la piattaforma Steam da Valve?",
-    "min": 1998,
-    "max": 2010,
+    "min": 1999,
+    "max": 2011,
     "answer": 2003,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno Netflix ha introdotto il servizio di streaming (Video on Demand)?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1995,
+    "max": 2010,
     "answer": 2007,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito il primo gioco di The Legend of Zelda?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1983,
+    "max": 2003,
     "answer": 1986,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito il popolarissimo MMORPG World of Warcraft?",
-    "min": 1998,
-    "max": 2010,
+    "min": 2000,
+    "max": 2012,
     "answer": 2004,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato pubblicato il primo videogioco della serie Doom?",
-    "min": 1985,
-    "max": 2000,
+    "min": 1980,
+    "max": 1995,
     "answer": 1993,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti giocatori compongono una singola squadra in una partita di League of Legends?",
-    "min": 2,
-    "max": 10,
+    "min": 0,
+    "max": 8,
     "answer": 5,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti campioni erano disponibili al lancio di League of Legends?",
-    "min": 10,
-    "max": 100,
+    "min": 0,
+    "max": 90,
     "answer": 40,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno la piattaforma di streaming Twitch è stata lanciata ufficialmente?",
-    "min": 2005,
-    "max": 2015,
+    "min": 2004,
+    "max": 2014,
     "answer": 2011,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno Amazon ha acquisito Twitch?",
-    "min": 2010,
-    "max": 2020,
+    "min": 2013,
+    "max": 2023,
     "answer": 2014,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata lanciata la modalità Battle Royale di Fortnite?",
-    "min": 2012,
-    "max": 2022,
+    "min": 2016,
+    "max": 2026,
     "answer": 2017,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti giocatori partecipano in una tipica partita singola di Fortnite Battle Royale?",
-    "min": 50,
-    "max": 150,
+    "min": 30,
+    "max": 130,
     "answer": 100,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quante carte compongono un mazzo da gioco standard in Hearthstone?",
-    "min": 15,
-    "max": 60,
+    "min": 0,
+    "max": 45,
     "answer": 30,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato creato il Bitcoin?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1996,
+    "max": 2011,
     "answer": 2009,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Qual è il limite massimo di Bitcoin che potranno mai esistere (in milioni)?",
-    "min": 10,
-    "max": 100,
+    "min": 0,
+    "max": 90,
     "answer": 21,
     "unit": "milioni",
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno c'è stato il famoso crash dei videogiochi negli Stati Uniti (Atari shock)?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1980,
+    "max": 2000,
     "answer": 1983,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata lanciata sul mercato la console Atari 2600?",
-    "min": 1970,
-    "max": 1985,
+    "min": 1972,
+    "max": 1987,
     "answer": 1977,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito l'home computer Commodore 64?",
-    "min": 1975,
-    "max": 1990,
+    "min": 1978,
+    "max": 1993,
     "answer": 1982,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti Kilobyte (KB) di memoria RAM aveva il Commodore 64?",
-    "min": 8,
-    "max": 256,
+    "min": 20,
+    "max": 270,
     "answer": 64,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno la Microsoft ha lanciato il sistema operativo Windows 95?",
-    "min": 1990,
-    "max": 2000,
+    "min": 1987,
+    "max": 1997,
     "answer": 1995,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato rilasciato il sistema operativo Windows XP?",
-    "min": 1995,
-    "max": 2005,
+    "min": 1992,
+    "max": 2002,
     "answer": 2001,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno la Apple ha lanciato il primissimo computer Macintosh?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1967,
+    "max": 1987,
     "answer": 1984,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti dollari costava la versione premium della PlayStation 3 al lancio negli Stati Uniti?",
-    "min": 300,
-    "max": 1000,
+    "min": 0,
+    "max": 700,
     "answer": 599,
     "unit": "$",
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato lanciato il Nintendo 64 in Giappone?",
-    "min": 1990,
-    "max": 2000,
+    "min": 1987,
+    "max": 1997,
     "answer": 1996,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscita la console Xbox 360?",
-    "min": 2000,
-    "max": 2010,
+    "min": 2003,
+    "max": 2013,
     "answer": 2005,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti megapixel aveva la fotocamera posteriore del primissimo modello di iPhone?",
-    "min": 1,
-    "max": 12,
+    "min": 0,
+    "max": 11,
     "answer": 2,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti episodi stand-alone di Half-Life 2 sono stati pubblicati?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 2,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato pubblicato il celebre puzzle game Portal 2?",
-    "min": 2005,
-    "max": 2015,
+    "min": 2003,
+    "max": 2013,
     "answer": 2011,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato lanciato nello spazio il primo satellite artificiale, lo Sputnik 1?",
-    "min": 1945,
-    "max": 1975,
+    "min": 1934,
+    "max": 1964,
     "answer": 1957,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno l'uomo ha messo piede sulla Luna per la prima volta?",
-    "min": 1960,
-    "max": 1980,
+    "min": 1963,
+    "max": 1983,
     "answer": 1969,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata fondata l'enciclopedia online Wikipedia?",
-    "min": 1995,
-    "max": 2010,
+    "min": 1989,
+    "max": 2004,
     "answer": 2001,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno Jeff Bezos ha fondato Amazon?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1980,
+    "max": 2000,
     "answer": 1994,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato inviato il primo SMS della storia?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1976,
+    "max": 1996,
     "answer": 1992,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno Yuri Gagarin è diventato il primo uomo a viaggiare nello spazio?",
-    "min": 1950,
-    "max": 1970,
+    "min": 1948,
+    "max": 1968,
     "answer": 1961,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito l'iconico videogioco arcade Space Invaders?",
-    "min": 1970,
-    "max": 1990,
+    "min": 1963,
+    "max": 1983,
     "answer": 1978,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata creata la primissima versione di Tetris da Alexey Pajitnov?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1968,
+    "max": 1988,
     "answer": 1984,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quante forme di blocchi diversi (tetramini) ci sono nel classico Tetris?",
-    "min": 4,
-    "max": 12,
+    "min": 1,
+    "max": 9,
     "answer": 7,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quante Super Stelle (Power Stars) totali ci sono nel gioco Super Mario 64?",
-    "min": 80,
-    "max": 150,
+    "min": 100,
+    "max": 170,
     "answer": 120,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quante classi di personaggi giocabili ci sono in Team Fortress 2?",
-    "min": 4,
-    "max": 16,
+    "min": 6,
+    "max": 18,
     "answer": 9,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno la Blizzard ha lanciato lo sparatutto multiplayer Overwatch?",
-    "min": 2012,
-    "max": 2020,
+    "min": 2010,
+    "max": 2018,
     "answer": 2016,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno Riot Games ha lanciato lo sparatutto tattico Valorant?",
-    "min": 2015,
-    "max": 2023,
+    "min": 2018,
+    "max": 2026,
     "answer": 2020,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito Cyberpunk 2077?",
-    "min": 2015,
-    "max": 2023,
+    "min": 2014,
+    "max": 2022,
     "answer": 2020,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito il pluripremiato gioco di ruolo The Witcher 3: Wild Hunt?",
-    "min": 2010,
-    "max": 2020,
+    "min": 2013,
+    "max": 2023,
     "answer": 2015,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata fondata l'azienda di videogiochi Nintendo (per produrre carte Hanafuda)?",
-    "min": 1850,
-    "max": 1950,
+    "min": 1820,
+    "max": 1920,
     "answer": 1889,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti milioni di copie stimate ha venduto la console PlayStation 2 nel mondo (arrotondato per difetto)?",
-    "min": 100,
-    "max": 200,
+    "min": 140,
+    "max": 240,
     "answer": 155,
     "unit": "milioni",
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti milioni di copie stimate ha venduto la console Nintendo DS nel mondo (arrotondato per difetto)?",
-    "min": 100,
-    "max": 200,
+    "min": 140,
+    "max": 240,
     "answer": 154,
     "unit": "milioni",
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato pubblicato Wii Sports, gioco di lancio della console Wii?",
-    "min": 2000,
-    "max": 2010,
+    "min": 2003,
+    "max": 2013,
     "answer": 2006,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito il primo gioco del simulatore di vita The Sims?",
-    "min": 1995,
-    "max": 2005,
+    "min": 1992,
+    "max": 2002,
     "answer": 2000,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata fondata la Electronic Arts (EA)?",
-    "min": 1970,
-    "max": 1995,
+    "min": 1962,
+    "max": 1987,
     "answer": 1982,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito The Elder Scrolls V: Skyrim?",
-    "min": 2006,
-    "max": 2016,
+    "min": 2008,
+    "max": 2018,
     "answer": 2011,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito Fallout 4?",
-    "min": 2010,
-    "max": 2020,
+    "min": 2006,
+    "max": 2016,
     "answer": 2015,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Da quale numero di Vault il protagonista emerge all'inizio di Fallout 4?",
-    "min": 1,
-    "max": 200,
+    "min": 80,
+    "max": 280,
     "answer": 111,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Da quale numero di Vault il protagonista emerge all'inizio di Fallout 3?",
-    "min": 1,
+    "min": 0,
     "max": 200,
     "answer": 101,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stata lanciata la piattaforma musicale Spotify?",
-    "min": 2002,
-    "max": 2012,
+    "min": 2000,
+    "max": 2010,
     "answer": 2008,
     "category": "Tecnologia e Videogiochi"
   },
@@ -597,331 +597,331 @@
   },
   {
     "question": "In che anno Steve Jobs ha presentato al pubblico la prima generazione di iPad?",
-    "min": 2005,
-    "max": 2015,
+    "min": 2007,
+    "max": 2017,
     "answer": 2010,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è venuto a mancare Steve Jobs, co-fondatore di Apple?",
-    "min": 2005,
-    "max": 2015,
+    "min": 2004,
+    "max": 2014,
     "answer": 2011,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato lanciato il primo smartphone con sistema operativo Android (HTC Dream)?",
-    "min": 2004,
-    "max": 2012,
+    "min": 2007,
+    "max": 2015,
     "answer": 2008,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno Google ha acquisito la piattaforma video YouTube?",
-    "min": 2002,
-    "max": 2010,
+    "min": 2004,
+    "max": 2012,
     "answer": 2006,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno si è tenuto il primo torneo mondiale di League of Legends (Season 1 Championship)?",
-    "min": 2008,
-    "max": 2015,
+    "min": 2006,
+    "max": 2013,
     "answer": 2011,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito il primo storico videogioco di Tomb Raider?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1986,
+    "max": 2001,
     "answer": 1996,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti anni ci sono voluti tra l'uscita originale di GTA V (2013) e il primo trailer di GTA VI (2023)?",
-    "min": 5,
-    "max": 15,
+    "min": 7,
+    "max": 17,
     "answer": 10,
     "unit": "anni",
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato lanciato Pokémon Rosso e Verde in Giappone?",
-    "min": 1990,
-    "max": 2002,
+    "min": 1995,
+    "max": 2007,
     "answer": 1996,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato rilasciato l'Apple Watch di prima generazione?",
-    "min": 2010,
-    "max": 2020,
+    "min": 2012,
+    "max": 2022,
     "answer": 2015,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato rilasciato il sistema operativo Linux da Linus Torvalds?",
-    "min": 1985,
-    "max": 1998,
+    "min": 1981,
+    "max": 1994,
     "answer": 1991,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno la sonda Voyager 1 è stata lanciata nello spazio?",
-    "min": 1965,
-    "max": 1985,
+    "min": 1959,
+    "max": 1979,
     "answer": 1977,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti pianeti del sistema solare sono stati visitati dalla sonda Voyager 2?",
-    "min": 1,
-    "max": 8,
+    "min": 2,
+    "max": 9,
     "answer": 4,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è stato fondato il marchio di videogiochi 'Atari'?",
-    "min": 1965,
-    "max": 1985,
+    "min": 1958,
+    "max": 1978,
     "answer": 1972,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "Quanti MB (megabyte) misurava la memoria di una memory card per PS2 standard ufficiale?",
-    "min": 1,
-    "max": 32,
+    "min": 0,
+    "max": 31,
     "answer": 8,
     "unit": "MB",
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscita la famosa console SEGA Mega Drive (o Genesis) in Giappone?",
-    "min": 1980,
-    "max": 1995,
+    "min": 1978,
+    "max": 1993,
     "answer": 1988,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "question": "In che anno è uscito il celebre gioco per smartphone Angry Birds?",
-    "min": 2005,
-    "max": 2015,
+    "min": 2006,
+    "max": 2016,
     "answer": 2009,
     "category": "Tecnologia e Videogiochi"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato lanciato il primo iPhone?",
-    "min": 1990,
-    "max": 2020,
+    "min": 2003,
+    "max": 2033,
     "answer": 2007,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti byte ci sono in un kilobyte (secondo il sistema binario tradizionale)?",
-    "min": 500,
-    "max": 1500,
+    "min": 200,
+    "max": 1200,
     "answer": 1024,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata fondata la Apple?",
-    "min": 1960,
-    "max": 2000,
+    "min": 1967,
+    "max": 2007,
     "answer": 1976,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Qual è il numero del livello del famoso 'kill screen' nell'originale Pac-Man?",
-    "min": 50,
-    "max": 300,
+    "min": 200,
+    "max": 450,
     "answer": 256,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti tasti possiede una tastiera standard con layout Windows QWERTY americano completo?",
-    "min": 60,
-    "max": 150,
+    "min": 80,
+    "max": 170,
     "answer": 104,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è uscito Super Mario Bros. per NES in Giappone?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1967,
+    "max": 1987,
     "answer": 1985,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti Pokémon ci sono nella prima generazione (Kanto)?",
-    "min": 50,
-    "max": 250,
+    "min": 0,
+    "max": 200,
     "answer": 151,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Bill Gates e Paul Allen hanno fondato Microsoft?",
-    "min": 1965,
-    "max": 1990,
+    "min": 1967,
+    "max": 1992,
     "answer": 1975,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti bit ha l'architettura del processore della console Nintendo 64?",
-    "min": 16,
-    "max": 128,
+    "min": 40,
+    "max": 150,
     "answer": 64,
     "unit": " bit"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato registrato il primissimo dominio .com?",
-    "min": 1970,
-    "max": 2000,
+    "min": 1961,
+    "max": 1991,
     "answer": 1985,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è uscita la prima PlayStation (PS1) in Europa?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1981,
+    "max": 2001,
     "answer": 1995,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti Megabyte (MB) di memoria RAM aveva la prima PlayStation?",
-    "min": 1,
-    "max": 32,
+    "min": 0,
+    "max": 31,
     "answer": 2,
     "unit": " MB"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Tim Berners-Lee ha inventato il World Wide Web?",
-    "min": 1975,
-    "max": 2005,
+    "min": 1981,
+    "max": 2011,
     "answer": 1989,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata rilasciata la versione ufficiale 1.0 di Minecraft?",
-    "min": 2000,
-    "max": 2020,
+    "min": 1997,
+    "max": 2017,
     "answer": 2011,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti pixel di larghezza possiede la risoluzione standard 4K UHD?",
-    "min": 2000,
-    "max": 5000,
+    "min": 3300,
+    "max": 6300,
     "answer": 3840,
     "unit": " px"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato inviato il primo SMS della storia?",
-    "min": 1980,
-    "max": 2010,
+    "min": 1970,
+    "max": 2000,
     "answer": 1992,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Qual è il numero di giocatori massimi in una singola partita standard di Fortnite Battle Royale?",
-    "min": 50,
-    "max": 200,
+    "min": 0,
+    "max": 150,
     "answer": 100,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato lanciato il Nintendo Game Boy in Giappone?",
-    "min": 1980,
-    "max": 2000,
+    "min": 1975,
+    "max": 1995,
     "answer": 1989,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quante generazioni di console per videogiochi casalinghe ci sono state fino all'era PS5/Xbox Series X?",
-    "min": 5,
-    "max": 15,
+    "min": 0,
+    "max": 10,
     "answer": 9,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Larry Page e Sergey Brin hanno fondato Google?",
-    "min": 1985,
-    "max": 2010,
+    "min": 1981,
+    "max": 2006,
     "answer": 1998,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti giocatori compongono un singolo team in una partita competitiva di Counter-Strike?",
-    "min": 2,
-    "max": 12,
+    "min": 3,
+    "max": 13,
     "answer": 5,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato rilasciato il computer Commodore 64?",
-    "min": 1970,
-    "max": 1995,
+    "min": 1975,
+    "max": 2000,
     "answer": 1982,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Da quanti blocchi singoli (quadratini) è composto ogni pezzo nel gioco Tetris?",
-    "min": 2,
-    "max": 8,
+    "min": 3,
+    "max": 9,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Douglas Engelbart ha presentato il primo prototipo di mouse per computer?",
-    "min": 1950,
-    "max": 1990,
+    "min": 1960,
+    "max": 2000,
     "answer": 1968,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è uscito originariamente Grand Theft Auto V (GTA V) su PS3 e Xbox 360?",
-    "min": 2005,
-    "max": 2020,
+    "min": 2009,
+    "max": 2024,
     "answer": 2013,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti pollici misurava il diametro del floppy disk standard più diffuso negli anni '90?",
-    "min": 1,
-    "max": 8,
+    "min": 0,
+    "max": 7,
     "answer": 3.5,
     "unit": " pollici"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata fondata l'azienda Nintendo (originariamente produceva carte Hanafuda)?",
-    "min": 1850,
-    "max": 1950,
+    "min": 1870,
+    "max": 1970,
     "answer": 1889,
     "unit": ""
   },
@@ -936,8 +936,8 @@
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Amazon.com ha iniziato a vendere libri online?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1991,
+    "max": 2011,
     "answer": 1995,
     "unit": ""
   },
@@ -952,128 +952,128 @@
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato pubblicato il capolavoro 'The Legend of Zelda: Ocarina of Time'?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1992,
+    "max": 2012,
     "answer": 1998,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quante batterie stilo (AA) erano necessarie per far funzionare il primo Nintendo Game Boy del 1989?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato rilasciato Pong, il primo videogioco arcade di grande successo?",
-    "min": 1960,
-    "max": 1990,
+    "min": 1945,
+    "max": 1975,
     "answer": 1972,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti Megabyte (MB) di memoria RAM aveva la prima console Xbox prodotta da Microsoft?",
-    "min": 16,
-    "max": 256,
+    "min": 30,
+    "max": 270,
     "answer": 64,
     "unit": " MB"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato fondato e aperto al pubblico YouTube?",
-    "min": 1995,
-    "max": 2015,
+    "min": 1990,
+    "max": 2010,
     "answer": 2005,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Qual era il limite massimo originale di caratteri consentiti in un singolo post su Twitter?",
-    "min": 50,
-    "max": 250,
+    "min": 100,
+    "max": 300,
     "answer": 140,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Steve Jobs ha fatto il suo ritorno ufficiale in Apple per risollevarla dal declino?",
-    "min": 1985,
-    "max": 2010,
+    "min": 1979,
+    "max": 2004,
     "answer": 1997,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti pin di contatto metallici ha al suo interno una classica porta USB 2.0 (Type-A)?",
-    "min": 2,
-    "max": 10,
+    "min": 0,
+    "max": 8,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Microsoft ha fatto il suo ingresso nel mercato console lanciando la prima Xbox negli USA?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1995,
+    "max": 2015,
     "answer": 2001,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Con quanti cuori di vita inizia il protagonista Link nel primo gioco 'The Legend of Zelda' per NES?",
-    "min": 1,
-    "max": 10,
+    "min": 2,
+    "max": 11,
     "answer": 3,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Mark Zuckerberg ha lanciato Facebook dalla sua stanza di Harvard?",
-    "min": 1995,
-    "max": 2015,
+    "min": 1997,
+    "max": 2017,
     "answer": 2004,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quante diverse dimensioni esplorabili (mondi) esistono di base in Minecraft senza l'uso di mod?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 3,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Apple ha presentato l'iMac G3 originale, noto per il suo design traslucido e colorato?",
-    "min": 1985,
-    "max": 2010,
+    "min": 1980,
+    "max": 2005,
     "answer": 1998,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato lanciato il sistema operativo Windows 95?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1982,
+    "max": 2002,
     "answer": 1995,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti frame al secondo (FPS) sono storicamente considerati lo standard minimo per la fluidità ottimale in un videogioco d'azione?",
-    "min": 24,
-    "max": 120,
+    "min": 0,
+    "max": 100,
     "answer": 60,
     "unit": " FPS"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata fondata l'iconica società di videogiochi Atari?",
-    "min": 1960,
-    "max": 1990,
+    "min": 1962,
+    "max": 1992,
     "answer": 1972,
     "unit": ""
   },
@@ -1088,232 +1088,232 @@
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato lanciato il primo smartphone commerciale equipaggiato con sistema operativo Android?",
-    "min": 1995,
-    "max": 2015,
+    "min": 2003,
+    "max": 2023,
     "answer": 2008,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti megapixel di risoluzione aveva la fotocamera posteriore del primo modello di iPhone nel 2007?",
-    "min": 1,
-    "max": 12,
+    "min": 0,
+    "max": 11,
     "answer": 2,
     "unit": " MP"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato rilasciato il famosissimo MMORPG 'World of Warcraft' (WoW)?",
-    "min": 1995,
-    "max": 2015,
+    "min": 1989,
+    "max": 2009,
     "answer": 2004,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti pulsanti di input principali (esclusa la croce direzionale D-Pad) sono presenti sul controller del Super Nintendo (SNES)?",
-    "min": 4,
-    "max": 14,
+    "min": 1,
+    "max": 11,
     "answer": 8,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato rilasciato il primissimo titolo della serie sparatutto 'DOOM'?",
-    "min": 1980,
-    "max": 2005,
+    "min": 1975,
+    "max": 2000,
     "answer": 1993,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti dollari americani costava al lancio la versione di fascia alta da 60GB della PlayStation 3 negli USA?",
-    "min": 200,
-    "max": 1000,
+    "min": 0,
+    "max": 800,
     "answer": 599,
     "unit": " $"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Amazon ha completato l'acquisizione della nota piattaforma di streaming Twitch?",
-    "min": 2005,
-    "max": 2020,
+    "min": 2003,
+    "max": 2018,
     "answer": 2014,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quante porte fisiche per il collegamento di controller frontali ha il Nintendo GameCube?",
-    "min": 2,
-    "max": 6,
+    "min": 3,
+    "max": 7,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata inviata con successo la primissima e-mail della storia?",
-    "min": 1960,
-    "max": 1990,
+    "min": 1949,
+    "max": 1979,
     "answer": 1971,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quante colorazioni diverse era possibile scegliere al momento del lancio del primissimo iMac G3 (prima dell'introduzione dei nuovi colori)?",
-    "min": 1,
-    "max": 10,
+    "min": 0,
+    "max": 9,
     "answer": 1,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata distribuita al grande pubblico la prima versione consumer del visore VR Oculus Rift?",
-    "min": 2005,
-    "max": 2020,
+    "min": 2004,
+    "max": 2019,
     "answer": 2016,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti Megabyte (MB) di capacità di archiviazione dati offriva l'IBM 350, il primissimo disco rigido commerciale lanciato nel 1956?",
-    "min": 1,
-    "max": 50,
+    "min": 0,
+    "max": 49,
     "answer": 5,
     "unit": " MB"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno ha fatto il suo debutto il videogioco 'Halo: Combat Evolved' come titolo di lancio per Xbox?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1985,
+    "max": 2005,
     "answer": 2001,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è uscito il leggendario sparatutto in prima persona 'GoldenEye 007' per Nintendo 64?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1983,
+    "max": 2003,
     "answer": 1997,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno l'azienda Intel ha lanciato sul mercato la primissima linea di processori Pentium?",
-    "min": 1980,
-    "max": 2005,
+    "min": 1973,
+    "max": 1998,
     "answer": 1993,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata originariamente fondata l'azienda SEGA (Service Games)?",
-    "min": 1940,
-    "max": 1980,
+    "min": 1953,
+    "max": 1993,
     "answer": 1960,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti tasti esclusivamente dedicati alle cifre (da 0 a 9) ci sono in un tastierino numerico standard (Numpad)?",
-    "min": 8,
-    "max": 20,
+    "min": 9,
+    "max": 21,
     "answer": 10,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata fondata e lanciata l'applicazione di messaggistica istantanea WhatsApp?",
-    "min": 2000,
-    "max": 2018,
+    "min": 2007,
+    "max": 2025,
     "answer": 2009,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quante 'Ere' temporali principali è possibile attraversare durante una partita nel videogioco 'Age of Empires II'?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è uscito sul mercato il primo e iconico videogioco di simulazione di vita reale 'The Sims'?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1997,
+    "max": 2017,
     "answer": 2000,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti Gigabyte (GB) di spazio di archiviazione gratuito offriva Gmail al momento del suo lancio ufficiale nel 2004?",
-    "min": 1,
-    "max": 15,
+    "min": 0,
+    "max": 14,
     "answer": 1,
     "unit": " GB"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato presentato al mondo l'IBM Personal Computer (IBM PC), che ha definito lo standard per i PC futuri?",
-    "min": 1970,
-    "max": 1995,
+    "min": 1960,
+    "max": 1985,
     "answer": 1981,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato originariamente pubblicato il GdR capolavoro 'The Elder Scrolls V: Skyrim'?",
-    "min": 2005,
-    "max": 2020,
+    "min": 2006,
+    "max": 2021,
     "answer": 2011,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti colpi di munizioni contiene un caricatore standard del fucile d'assalto MA5B del protagonista in 'Halo: Combat Evolved'?",
-    "min": 20,
-    "max": 100,
+    "min": 40,
+    "max": 120,
     "answer": 60,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno l'applicazione di condivisione di foto Instagram ha fatto il suo debutto sull'App Store di iOS?",
-    "min": 2005,
-    "max": 2020,
+    "min": 1997,
+    "max": 2012,
     "answer": 2010,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti milioni di copie stimate ha venduto complessivamente il gioco 'Minecraft' fino a fine 2023, rendendolo il gioco più venduto di sempre?",
-    "min": 50,
-    "max": 500,
+    "min": 0,
+    "max": 450,
     "answer": 300,
     "unit": " milioni"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Microsoft ha lanciato il pionieristico servizio di gioco multiplayer online Xbox Live?",
-    "min": 1995,
-    "max": 2015,
+    "min": 1997,
+    "max": 2017,
     "answer": 2002,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Da quanti petali colorati è formato il fiore nel logo originale della storica applicazione di messaggistica ICQ?",
-    "min": 3,
-    "max": 12,
+    "min": 5,
+    "max": 14,
     "answer": 7,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno sono stati rilasciati per la prima volta i videogiochi 'Pokémon Rosso' e 'Pokémon Verde' in Giappone?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1990,
+    "max": 2010,
     "answer": 1996,
     "unit": ""
   },
@@ -1328,184 +1328,184 @@
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stato rilasciato pubblicamente il noto linguaggio di programmazione Python (versione 0.9.0)?",
-    "min": 1980,
-    "max": 2005,
+    "min": 1983,
+    "max": 2008,
     "answer": 1991,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quante telecamere per il tracciamento inside-out dei movimenti sono integrate all'interno del visore PlayStation VR2?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata rilasciata la prima versione giocabile e funzionante di 'Tetris', sviluppata dal programmatore sovietico Aleksej Pažitnov?",
-    "min": 1970,
-    "max": 1995,
+    "min": 1967,
+    "max": 1992,
     "answer": 1984,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "A quanti gradi Celsius (°C) è solitamente impostata la soglia limite critica di 'thermal throttling' (rallentamento termico) in gran parte delle CPU moderne?",
-    "min": 60,
-    "max": 110,
+    "min": 80,
+    "max": 130,
     "answer": 90,
     "unit": " °C"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Nvidia ha introdotto sul mercato la prima scheda grafica della sua famosissima serie GeForce (la GeForce 256)?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1993,
+    "max": 2013,
     "answer": 1999,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti titoli di videogiochi completi erano inclusi all'interno della raccolta 'The Orange Box' pubblicata da Valve?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 5,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Microsoft ha rilasciato al pubblico il celebre e longevo sistema operativo Windows XP?",
-    "min": 1995,
-    "max": 2015,
+    "min": 1994,
+    "max": 2014,
     "answer": 2001,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quante punte dorate formano la parte superiore della corona indossata solitamente dalla Principessa Peach nei giochi di Super Mario?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Trip Hawkins ha fondato la famosissima casa di sviluppo e pubblicazione di videogiochi Electronic Arts (EA)?",
-    "min": 1970,
-    "max": 2000,
+    "min": 1958,
+    "max": 1988,
     "answer": 1982,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Nintendo ha lanciato globalmente sul mercato la sua innovativa console ibrida Switch?",
-    "min": 2010,
-    "max": 2025,
+    "min": 2004,
+    "max": 2019,
     "answer": 2017,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Da quanti bit è composto un singolo indirizzo di protocollo di rete standard di tipo IPv4?",
-    "min": 16,
-    "max": 128,
+    "min": 20,
+    "max": 130,
     "answer": 32,
     "unit": " bit"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno ha fatto il suo esordio il primo capitolo della serie 'Tomb Raider', con protagonista l'archeologa Lara Croft?",
-    "min": 1985,
-    "max": 2010,
+    "min": 1976,
+    "max": 2001,
     "answer": 1996,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Qual era il numero massimo di giocatori ammessi in una singola lobby nelle versioni iniziali e di maggior successo del gioco 'Among Us' (prima degli update per aumentarli)?",
-    "min": 5,
-    "max": 20,
+    "min": 0,
+    "max": 15,
     "answer": 10,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno l'autore Neal Stephenson ha coniato per la prima volta il termine 'Metaverso' nel suo romanzo sci-fi Snow Crash?",
-    "min": 1980,
-    "max": 2010,
+    "min": 1985,
+    "max": 2015,
     "answer": 1992,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti dischi ottici (CD-ROM) erano necessari per poter installare e giocare l'avventura grafica 'Phantasmagoria' su PC nel 1995?",
-    "min": 2,
-    "max": 12,
+    "min": 5,
+    "max": 15,
     "answer": 7,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno l'ex CEO di Apple Steve Jobs ha presentato al mondo la primissima generazione di iPad?",
-    "min": 2000,
-    "max": 2020,
+    "min": 1992,
+    "max": 2012,
     "answer": 2010,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Da quante lettere è composto l'acronimo del fondamentale linguaggio di markup per il web HTML?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno Google ha annunciato la chiusura definitiva ai consumatori del suo sfortunato social network Google+?",
-    "min": 2010,
-    "max": 2025,
+    "min": 2008,
+    "max": 2023,
     "answer": 2019,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti pollici misurava diagonalmente lo schermo touch del primissimo modello di iPhone annunciato nel 2007?",
-    "min": 2,
-    "max": 6,
+    "min": 1,
+    "max": 5,
     "answer": 3.5,
     "unit": " pollici"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno il violento e iconico videogioco picchiaduro 'Mortal Kombat' ha fatto il suo sanguinoso debutto nelle sale giochi arcade?",
-    "min": 1980,
-    "max": 2005,
+    "min": 1970,
+    "max": 1995,
     "answer": 1992,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti Megabyte (MB) di memoria di salvataggio conteneva la primissima Memory Card ufficiale standard per la console PlayStation 2 (PS2)?",
-    "min": 1,
-    "max": 32,
+    "min": 0,
+    "max": 31,
     "answer": 8,
     "unit": " MB"
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "In che anno è stata fondata a Stoccolma la piattaforma leader nello streaming musicale Spotify?",
-    "min": 2000,
-    "max": 2020,
+    "min": 1988,
+    "max": 2008,
     "answer": 2006,
     "unit": ""
   },
   {
     "category": "Tecnologia e Videogiochi",
     "question": "Quanti anni solari durava l'estensione eccezionale di garanzia offerta da Microsoft per coprire l'hardware fallato che causava il 'Red Ring of Death' su Xbox 360?",
-    "min": 1,
-    "max": 5,
+    "min": 2,
+    "max": 6,
     "answer": 3,
     "unit": " anni"
   }

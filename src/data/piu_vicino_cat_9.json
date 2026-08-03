@@ -1,120 +1,120 @@
 [
   {
     "question": "In che anno è uscito il film Titanic?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1990,
+    "max": 2010,
     "answer": 1997,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti Oscar ha vinto il film Titanic?",
-    "min": 0,
-    "max": 15,
+    "min": 1,
+    "max": 16,
     "answer": 11,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è morta Marilyn Monroe?",
-    "min": 1940,
-    "max": 1980,
+    "min": 1951,
+    "max": 1991,
     "answer": 1962,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il primo film di Harry Potter?",
-    "min": 1995,
-    "max": 2010,
+    "min": 1998,
+    "max": 2013,
     "answer": 2001,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Da quanti film è composta la saga principale di Harry Potter?",
-    "min": 5,
-    "max": 12,
+    "min": 3,
+    "max": 10,
     "answer": 8,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "A che età è morto Michael Jackson?",
-    "min": 35,
-    "max": 65,
+    "min": 41,
+    "max": 71,
     "answer": 50,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è andato in onda il primo episodio de I Simpson?",
-    "min": 1980,
-    "max": 1999,
+    "min": 1982,
+    "max": 2001,
     "answer": 1989,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quante stagioni ha la serie TV Friends?",
-    "min": 5,
-    "max": 15,
+    "min": 8,
+    "max": 18,
     "answer": 10,
     "unit": "stagioni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti episodi ha in totale la serie TV Friends?",
-    "min": 150,
-    "max": 300,
+    "min": 120,
+    "max": 270,
     "answer": 236,
     "unit": "episodi",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti Grammy Awards ha vinto Beyoncé (record assoluto fino al 2023)?",
-    "min": 15,
-    "max": 50,
+    "min": 20,
+    "max": 55,
     "answer": 32,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno si sono sposati il Principe William e Kate Middleton?",
-    "min": 2000,
-    "max": 2020,
+    "min": 2004,
+    "max": 2024,
     "answer": 2011,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno si sono sciolti ufficialmente i Beatles?",
-    "min": 1960,
-    "max": 1980,
+    "min": 1966,
+    "max": 1986,
     "answer": 1970,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti anni ha compiuto Madonna nel 2024?",
-    "min": 50,
-    "max": 80,
+    "min": 42,
+    "max": 72,
     "answer": 66,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film Avatar di James Cameron?",
-    "min": 2000,
-    "max": 2015,
+    "min": 2004,
+    "max": 2019,
     "answer": 2009,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti film ufficiali (EON) di James Bond sono stati realizzati fino al 2023?",
-    "min": 15,
-    "max": 35,
+    "min": 21,
+    "max": 41,
     "answer": 25,
     "unit": "film",
     "category": "Cultura Pop e Gossip"
@@ -129,32 +129,32 @@
   },
   {
     "question": "Quante nomination agli Oscar ha ricevuto Meryl Streep (fino al 2023)?",
-    "min": 10,
-    "max": 30,
+    "min": 19,
+    "max": 39,
     "answer": 21,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito l'album Thriller di Michael Jackson?",
-    "min": 1970,
-    "max": 1995,
+    "min": 1960,
+    "max": 1985,
     "answer": 1982,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "A che età è morto Kurt Cobain?",
-    "min": 20,
-    "max": 35,
+    "min": 25,
+    "max": 40,
     "answer": 27,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è stata fondata la Walt Disney Company?",
-    "min": 1900,
-    "max": 1950,
+    "min": 1890,
+    "max": 1940,
     "answer": 1923,
     "unit": "",
     "category": "Cultura Pop e Gossip"
@@ -169,64 +169,64 @@
   },
   {
     "question": "In che anno Britney Spears si è rasata la testa a zero?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1996,
+    "max": 2011,
     "answer": 2007,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti giorni è durato il matrimonio tra Kim Kardashian e Kris Humphries?",
-    "min": 10,
-    "max": 150,
+    "min": 0,
+    "max": 140,
     "answer": 72,
     "unit": "giorni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno si sono sposati Brad Pitt e Angelina Jolie?",
-    "min": 2005,
-    "max": 2020,
+    "min": 2011,
+    "max": 2026,
     "answer": 2014,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti figli (biologici e adottivi) hanno Brad Pitt e Angelina Jolie?",
-    "min": 2,
-    "max": 10,
+    "min": 0,
+    "max": 8,
     "answer": 6,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è stato presentato il primo iPhone?",
-    "min": 2000,
-    "max": 2015,
+    "min": 2005,
+    "max": 2020,
     "answer": 2007,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è nato Justin Bieber?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1979,
+    "max": 1999,
     "answer": 1994,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti episodi compongono la serie TV Il Trono di Spade (Game of Thrones)?",
-    "min": 50,
-    "max": 100,
+    "min": 40,
+    "max": 90,
     "answer": 73,
     "unit": "episodi",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quante stagioni ha Il Trono di Spade?",
-    "min": 4,
-    "max": 12,
+    "min": 1,
+    "max": 9,
     "answer": 8,
     "unit": "stagioni",
     "category": "Cultura Pop e Gossip"
@@ -241,16 +241,16 @@
   },
   {
     "question": "In che anno Leonardo DiCaprio ha vinto il suo primo Oscar?",
-    "min": 2005,
-    "max": 2022,
+    "min": 2004,
+    "max": 2021,
     "answer": 2016,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film Il Padrino?",
-    "min": 1960,
-    "max": 1985,
+    "min": 1967,
+    "max": 1992,
     "answer": 1972,
     "unit": "",
     "category": "Cultura Pop e Gossip"
@@ -265,456 +265,456 @@
   },
   {
     "question": "In che anno c'è stato il celebre schiaffo di Will Smith a Chris Rock agli Oscar?",
-    "min": 2015,
-    "max": 2024,
+    "min": 2016,
+    "max": 2025,
     "answer": 2022,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti episodi compongono la saga principale (Skywalker saga) di Star Wars?",
-    "min": 6,
-    "max": 12,
+    "min": 8,
+    "max": 14,
     "answer": 9,
     "unit": "film",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "A che età è morta la Regina Elisabetta II?",
-    "min": 85,
-    "max": 105,
+    "min": 80,
+    "max": 100,
     "answer": 96,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti anni è durato il regno della Regina Elisabetta II?",
-    "min": 50,
-    "max": 85,
+    "min": 43,
+    "max": 78,
     "answer": 70,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il videogioco arcade Pac-Man?",
-    "min": 1970,
-    "max": 1995,
+    "min": 1975,
+    "max": 2000,
     "answer": 1980,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il primo film di Star Wars (Episodio IV)?",
-    "min": 1965,
-    "max": 1990,
+    "min": 1955,
+    "max": 1980,
     "answer": 1977,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti erano i membri originali degli One Direction?",
-    "min": 3,
-    "max": 7,
+    "min": 1,
+    "max": 6,
     "answer": 5,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno gli One Direction hanno iniziato la loro pausa a tempo indeterminato?",
-    "min": 2010,
-    "max": 2020,
+    "min": 2014,
+    "max": 2024,
     "answer": 2016,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quante erano le Spice Girls?",
-    "min": 3,
-    "max": 7,
+    "min": 4,
+    "max": 8,
     "answer": 5,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno Geri Halliwell ha lasciato le Spice Girls?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1996,
+    "max": 2011,
     "answer": 1998,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "A che età è morta Amy Winehouse?",
-    "min": 20,
-    "max": 35,
+    "min": 16,
+    "max": 31,
     "answer": 27,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è stato pubblicato il primo libro di Harry Potter?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1979,
+    "max": 1999,
     "answer": 1997,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti sono i libri della saga originale di Harry Potter?",
-    "min": 4,
-    "max": 10,
+    "min": 2,
+    "max": 8,
     "answer": 7,
     "unit": "libri",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti matrimoni ha avuto Elizabeth Taylor?",
-    "min": 3,
-    "max": 12,
+    "min": 0,
+    "max": 9,
     "answer": 8,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è morto Elvis Presley?",
-    "min": 1965,
-    "max": 1990,
+    "min": 1958,
+    "max": 1983,
     "answer": 1977,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film Jurassic Park?",
-    "min": 1980,
-    "max": 2005,
+    "min": 1973,
+    "max": 1998,
     "answer": 1993,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno Netflix ha lanciato il suo servizio di streaming?",
-    "min": 1995,
-    "max": 2015,
+    "min": 2004,
+    "max": 2024,
     "answer": 2007,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quante stagioni ha la serie Breaking Bad?",
-    "min": 3,
-    "max": 10,
+    "min": 0,
+    "max": 7,
     "answer": 5,
     "unit": "stagioni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti episodi ha in totale Breaking Bad?",
-    "min": 40,
-    "max": 100,
+    "min": 50,
+    "max": 110,
     "answer": 62,
     "unit": "episodi",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quante volte si è sposato Tom Cruise?",
-    "min": 1,
-    "max": 6,
+    "min": 2,
+    "max": 7,
     "answer": 3,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti anni ha compiuto Tom Cruise nel 2024?",
-    "min": 50,
-    "max": 75,
+    "min": 55,
+    "max": 80,
     "answer": 62,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film Pulp Fiction?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1979,
+    "max": 1999,
     "answer": 1994,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è nata Taylor Swift?",
-    "min": 1980,
-    "max": 2000,
+    "min": 1976,
+    "max": 1996,
     "answer": 1989,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti Grammy per l'Album dell'anno (Album of the Year) ha vinto Taylor Swift fino al 2024?",
-    "min": 1,
-    "max": 8,
+    "min": 3,
+    "max": 10,
     "answer": 4,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti film compongono la saga cinematografica de Il Signore degli Anelli?",
-    "min": 1,
-    "max": 6,
+    "min": 0,
+    "max": 5,
     "answer": 3,
     "unit": "film",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti Oscar ha vinto il film Il Signore degli Anelli: Il ritorno del re?",
-    "min": 5,
-    "max": 15,
+    "min": 9,
+    "max": 19,
     "answer": 11,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno Lady Gaga ha indossato il famoso vestito di carne agli MTV VMA?",
-    "min": 2005,
-    "max": 2018,
+    "min": 2001,
+    "max": 2014,
     "answer": 2010,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Qual è l'altezza di Tom Cruise in centimetri?",
-    "min": 155,
-    "max": 185,
+    "min": 144,
+    "max": 174,
     "answer": 170,
     "unit": "cm",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Qual è l'altezza di Peter Dinklage in centimetri?",
-    "min": 110,
-    "max": 160,
+    "min": 120,
+    "max": 170,
     "answer": 135,
     "unit": "cm",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il primo episodio di Stranger Things?",
-    "min": 2010,
-    "max": 2022,
+    "min": 2006,
+    "max": 2018,
     "answer": 2016,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è stato fondato YouTube?",
-    "min": 1998,
-    "max": 2012,
+    "min": 2003,
+    "max": 2017,
     "answer": 2005,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quante stagioni ha la versione americana di The Office?",
-    "min": 5,
-    "max": 14,
+    "min": 7,
+    "max": 16,
     "answer": 9,
     "unit": "stagioni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno si è tenuto il processo per diffamazione tra Johnny Depp e Amber Heard?",
-    "min": 2018,
-    "max": 2024,
+    "min": 2017,
+    "max": 2023,
     "answer": 2022,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film Matrix?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1996,
+    "max": 2016,
     "answer": 1999,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno si è conclusa la serie TV Lost?",
-    "min": 2005,
-    "max": 2015,
+    "min": 2003,
+    "max": 2013,
     "answer": 2010,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti episodi compongono la serie TV Lost?",
-    "min": 80,
-    "max": 160,
+    "min": 110,
+    "max": 190,
     "answer": 121,
     "unit": "episodi",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "A che età è morta la Principessa Diana?",
-    "min": 25,
-    "max": 50,
+    "min": 14,
+    "max": 39,
     "answer": 36,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è avvenuto l'incidente mortale della Principessa Diana?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1984,
+    "max": 1999,
     "answer": 1997,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quante volte ha divorziato Ross Geller nella serie Friends?",
-    "min": 1,
-    "max": 6,
+    "min": 0,
+    "max": 5,
     "answer": 3,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è andata in onda la prima puntata del Grande Fratello in Italia?",
-    "min": 1995,
-    "max": 2008,
+    "min": 1996,
+    "max": 2009,
     "answer": 2000,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno Mark Zuckerberg ha fondato Facebook?",
-    "min": 1998,
-    "max": 2010,
+    "min": 1994,
+    "max": 2006,
     "answer": 2004,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il video di Wrecking Ball di Miley Cyrus?",
-    "min": 2008,
-    "max": 2018,
+    "min": 2006,
+    "max": 2016,
     "answer": 2013,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è stata pubblicata la canzone Bohemian Rhapsody dei Queen?",
-    "min": 1965,
-    "max": 1985,
+    "min": 1972,
+    "max": 1992,
     "answer": 1975,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno si è tenuto il mega-concerto Live Aid?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1972,
+    "max": 1992,
     "answer": 1985,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film E.T. l'extra-terrestre?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1965,
+    "max": 1985,
     "answer": 1982,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti premi Oscar competitivi ha vinto Walt Disney nella sua carriera?",
-    "min": 10,
-    "max": 35,
+    "min": 1,
+    "max": 26,
     "answer": 22,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il videogioco Super Mario Bros. per NES?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1971,
+    "max": 1991,
     "answer": 1985,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti anni ha compiuto Paul McCartney nel 2024?",
-    "min": 70,
-    "max": 95,
+    "min": 60,
+    "max": 85,
     "answer": 82,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è stato assassinato John Lennon?",
-    "min": 1970,
-    "max": 1990,
+    "min": 1965,
+    "max": 1985,
     "answer": 1980,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è andato in onda il primo episodio di Grey's Anatomy?",
-    "min": 1998,
-    "max": 2012,
+    "min": 1994,
+    "max": 2008,
     "answer": 2005,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti film del Marvel Cinematic Universe hanno come protagonista solista Spider-Man (con Tom Holland) fino al 2023?",
-    "min": 1,
-    "max": 6,
+    "min": 2,
+    "max": 7,
     "answer": 3,
     "unit": "film",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "A che età è morto l'attore Heath Ledger?",
-    "min": 20,
-    "max": 40,
+    "min": 25,
+    "max": 45,
     "answer": 28,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è stata lanciata la prima PlayStation in Giappone?",
-    "min": 1988,
-    "max": 2002,
+    "min": 1992,
+    "max": 2006,
     "answer": 1994,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno Kanye West ha interrotto Taylor Swift agli MTV VMA?",
-    "min": 2004,
-    "max": 2015,
+    "min": 2007,
+    "max": 2018,
     "answer": 2009,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Da quanti membri è composto il gruppo k-pop BTS?",
-    "min": 4,
-    "max": 12,
+    "min": 5,
+    "max": 13,
     "answer": 7,
     "unit": "membri",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno hanno debuttato i BTS?",
-    "min": 2008,
-    "max": 2018,
+    "min": 2005,
+    "max": 2015,
     "answer": 2013,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno Roberto Benigni ha vinto l'Oscar per La vita è bella?",
-    "min": 1992,
-    "max": 2006,
+    "min": 1995,
+    "max": 2009,
     "answer": 1999,
     "unit": "",
     "category": "Cultura Pop e Gossip"
@@ -729,72 +729,72 @@
   },
   {
     "question": "Quanti anni ha compiuto Clint Eastwood nel 2024?",
-    "min": 80,
-    "max": 105,
+    "min": 89,
+    "max": 114,
     "answer": 94,
     "unit": "anni",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film Ritorno al futuro?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1971,
+    "max": 1991,
     "answer": 1985,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film Il Gladiatore con Russell Crowe?",
-    "min": 1992,
-    "max": 2010,
+    "min": 1998,
+    "max": 2016,
     "answer": 2000,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è stata lanciata l'applicazione Instagram?",
-    "min": 2005,
-    "max": 2016,
+    "min": 2007,
+    "max": 2018,
     "answer": 2010,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il primo film di Shrek?",
-    "min": 1995,
-    "max": 2008,
+    "min": 1992,
+    "max": 2005,
     "answer": 2001,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti film di Indiana Jones sono usciti al cinema (fino al 2023)?",
-    "min": 2,
-    "max": 8,
+    "min": 3,
+    "max": 9,
     "answer": 5,
     "unit": "film",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film Forrest Gump?",
-    "min": 1985,
-    "max": 2002,
+    "min": 1982,
+    "max": 1999,
     "answer": 1994,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "Quanti premi Oscar ha vinto Forrest Gump?",
-    "min": 2,
-    "max": 12,
+    "min": 4,
+    "max": 14,
     "answer": 6,
     "unit": "",
     "category": "Cultura Pop e Gossip"
   },
   {
     "question": "In che anno è uscito il film Inception?",
-    "min": 2002,
-    "max": 2018,
+    "min": 2004,
+    "max": 2020,
     "answer": 2010,
     "unit": "",
     "category": "Cultura Pop e Gossip"
@@ -802,192 +802,192 @@
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è uscito il film 'Titanic' nelle sale cinematografiche statunitensi?",
-    "min": 1987,
-    "max": 2007,
+    "min": 1995,
+    "max": 2015,
     "answer": 1997,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti premi Oscar ha vinto il film 'Il Ritorno del Re' (Il Signore degli Anelli)?",
-    "min": 1,
-    "max": 20,
+    "min": 5,
+    "max": 24,
     "answer": 11,
     "unit": "premi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti minuti dura la versione cinematografica originale di 'Avengers: Endgame'?",
-    "min": 120,
-    "max": 240,
+    "min": 160,
+    "max": 280,
     "answer": 181,
     "unit": "minuti"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti film compongono la saga principale di 'Harry Potter'?",
-    "min": 5,
-    "max": 10,
+    "min": 4,
+    "max": 9,
     "answer": 8,
     "unit": "film"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è uscito il primo film di 'Star Wars' (Episodio IV)?",
-    "min": 1967,
-    "max": 1987,
+    "min": 1974,
+    "max": 1994,
     "answer": 1977,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di dollari ha incassato globalmente 'Avatar' (al 2023)?",
-    "min": 1000,
-    "max": 4000,
+    "min": 2600,
+    "max": 5600,
     "answer": 2923,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti film di James Bond sono stati prodotti dalla EON Productions (fino a 'No Time to Die')?",
-    "min": 15,
-    "max": 35,
+    "min": 19,
+    "max": 39,
     "answer": 25,
     "unit": "film"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Leonardo DiCaprio ha vinto il suo primo premio Oscar per 'Revenant'?",
-    "min": 2006,
-    "max": 2026,
+    "min": 2001,
+    "max": 2021,
     "answer": 2016,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti lungometraggi ha diretto Quentin Tarantino (considerando Kill Bill come un'opera unica)?",
-    "min": 5,
-    "max": 15,
+    "min": 7,
+    "max": 17,
     "answer": 9,
     "unit": "film"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti anni aveva Macaulay Culkin quando è uscito 'Mamma, ho perso l'aereo'?",
-    "min": 5,
-    "max": 15,
+    "min": 9,
+    "max": 19,
     "answer": 10,
     "unit": "anni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti premi Oscar ha vinto Meryl Streep nella sua carriera (fino al 2023)?",
-    "min": 1,
-    "max": 6,
+    "min": 2,
+    "max": 7,
     "answer": 3,
     "unit": "premi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è stato pubblicato il classico d'animazione Disney 'Il Re Leone'?",
-    "min": 1984,
-    "max": 2004,
+    "min": 1977,
+    "max": 1997,
     "answer": 1994,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di dollari è costato produrre 'Pirati dei Caraibi - Oltre i confini del mare' (budget stimato)?",
-    "min": 100,
-    "max": 500,
+    "min": 60,
+    "max": 460,
     "answer": 378,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti anni ha impiegato il regista Richard Linklater per girare il film 'Boyhood'?",
-    "min": 2,
-    "max": 20,
+    "min": 9,
+    "max": 27,
     "answer": 12,
     "unit": "anni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è uscito il primo film della saga di 'Matrix'?",
-    "min": 1989,
-    "max": 2009,
+    "min": 1986,
+    "max": 2006,
     "answer": 1999,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti Grammy Awards ha vinto Beyoncé nella sua carriera (fino al 2023)?",
-    "min": 15,
-    "max": 45,
+    "min": 24,
+    "max": 54,
     "answer": 32,
     "unit": "Grammy"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Michael Jackson ha pubblicato l'album 'Thriller'?",
-    "min": 1972,
-    "max": 1992,
+    "min": 1964,
+    "max": 1984,
     "answer": 1982,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante settimane consecutive la canzone 'Despacito' è stata al numero 1 nella Billboard Hot 100?",
-    "min": 5,
-    "max": 25,
+    "min": 3,
+    "max": 23,
     "answer": 16,
     "unit": "settimane"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti album in studio (ufficiali inglesi core catalog) hanno pubblicato i Beatles?",
-    "min": 8,
-    "max": 20,
+    "min": 3,
+    "max": 15,
     "answer": 13,
     "unit": "album"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è nata la popstar Taylor Swift?",
-    "min": 1979,
-    "max": 1999,
+    "min": 1984,
+    "max": 2004,
     "answer": 1989,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti componenti formavano originariamente la boy band 'One Direction'?",
-    "min": 3,
-    "max": 8,
+    "min": 1,
+    "max": 6,
     "answer": 5,
     "unit": "membri"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di copie ha venduto l'album 'The Dark Side of the Moon' dei Pink Floyd (stima globale)?",
-    "min": 20,
-    "max": 70,
+    "min": 40,
+    "max": 90,
     "answer": 45,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno si è tenuto il leggendario festival musicale di Woodstock?",
-    "min": 1959,
-    "max": 1979,
+    "min": 1965,
+    "max": 1985,
     "answer": 1969,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti anni aveva Kurt Cobain quando è morto, entrando nel 'Club 27'?",
-    "min": 20,
-    "max": 35,
+    "min": 17,
+    "max": 32,
     "answer": 27,
     "unit": "anni"
   },
@@ -1002,344 +1002,344 @@
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è scomparsa la cantante britannica Amy Winehouse?",
-    "min": 2001,
-    "max": 2021,
+    "min": 2007,
+    "max": 2027,
     "answer": 2011,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti BRIT Awards ha vinto Adele nella sua carriera (fino al 2023)?",
-    "min": 5,
-    "max": 25,
+    "min": 0,
+    "max": 20,
     "answer": 12,
     "unit": "premi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di stream ha raggiunto 'One Dance' di Drake nel suo primo anno, prima canzone a superare 1 miliardo su Spotify?",
-    "min": 500,
-    "max": 2000,
+    "min": 700,
+    "max": 2200,
     "answer": 1000,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Madonna ha pubblicato il celebre album 'Like a Virgin'?",
-    "min": 1974,
-    "max": 1994,
+    "min": 1978,
+    "max": 1998,
     "answer": 1984,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante corde ha tipicamente un basso elettrico standard usato nella musica rock e pop?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "unit": "corde"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante stagioni compongono l'amata serie televisiva 'Friends'?",
-    "min": 5,
-    "max": 15,
+    "min": 2,
+    "max": 12,
     "answer": 10,
     "unit": "stagioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è andata in onda la prima puntata de 'I Simpson' negli Stati Uniti?",
-    "min": 1979,
-    "max": 1999,
+    "min": 1975,
+    "max": 1995,
     "answer": 1989,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti episodi totali compongono la serie 'Breaking Bad'?",
-    "min": 40,
-    "max": 80,
+    "min": 48,
+    "max": 88,
     "answer": 62,
     "unit": "episodi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti premi Emmy ha vinto in totale la serie 'Il Trono di Spade' (Game of Thrones)?",
-    "min": 30,
-    "max": 90,
+    "min": 10,
+    "max": 70,
     "answer": 59,
     "unit": "premi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti minuti dura in media un episodio di una sitcom americana tradizionale (senza pubblicità)?",
-    "min": 10,
-    "max": 40,
+    "min": 0,
+    "max": 30,
     "answer": 22,
     "unit": "minuti"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti episodi compongono la prima stagione della serie sudcoreana 'Squid Game'?",
-    "min": 5,
-    "max": 15,
+    "min": 0,
+    "max": 10,
     "answer": 9,
     "unit": "episodi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è iniziata la prima edizione del reality show 'Grande Fratello' in Italia?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1996,
+    "max": 2016,
     "answer": 2000,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante stagioni della serie 'Stranger Things' sono state pubblicate fino alla fine del 2023?",
-    "min": 2,
-    "max": 7,
+    "min": 0,
+    "max": 5,
     "answer": 4,
     "unit": "stagioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno si è conclusa la serie televisiva 'Lost'?",
-    "min": 2000,
-    "max": 2020,
+    "min": 1995,
+    "max": 2015,
     "answer": 2010,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti 'Dottori' ufficiali (Doctor Who) ci sono stati fino al 2023 (incluso il 15esimo)?",
-    "min": 10,
-    "max": 20,
+    "min": 8,
+    "max": 18,
     "answer": 15,
     "unit": "Dottori"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti episodi ha la serie cult 'Twin Peaks' (comprese le prime due stagioni storiche e la terza)?",
-    "min": 20,
-    "max": 70,
+    "min": 30,
+    "max": 80,
     "answer": 48,
     "unit": "episodi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è stata trasmessa la prima puntata del medical drama 'Grey's Anatomy'?",
-    "min": 1995,
-    "max": 2015,
+    "min": 1988,
+    "max": 2008,
     "answer": 2005,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante stagioni della serie 'The Office' (versione statunitense) sono state prodotte?",
-    "min": 5,
-    "max": 15,
+    "min": 6,
+    "max": 16,
     "answer": 9,
     "unit": "stagioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti episodi formano la pluripremiata miniserie 'Chernobyl'?",
-    "min": 2,
-    "max": 10,
+    "min": 0,
+    "max": 8,
     "answer": 5,
     "unit": "episodi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è nato il canale televisivo MTV negli Stati Uniti?",
-    "min": 1971,
-    "max": 1991,
+    "min": 1967,
+    "max": 1987,
     "answer": 1981,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è stato pubblicato il primissimo video sulla piattaforma YouTube?",
-    "min": 1995,
-    "max": 2015,
+    "min": 1988,
+    "max": 2008,
     "answer": 2005,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti miliardi di visualizzazioni ha superato il video di 'Baby Shark', il più visto su YouTube (al 2023)?",
-    "min": 5,
-    "max": 20,
+    "min": 11,
+    "max": 26,
     "answer": 13,
     "unit": "miliardi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è stata lanciata per la prima volta l'applicazione Instagram?",
-    "min": 2000,
-    "max": 2020,
+    "min": 2006,
+    "max": 2026,
     "answer": 2010,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di follower aveva Cristiano Ronaldo su Instagram a fine 2023?",
-    "min": 400,
-    "max": 800,
+    "min": 320,
+    "max": 720,
     "answer": 615,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Mark Zuckerberg ha fondato Facebook?",
-    "min": 1994,
-    "max": 2014,
+    "min": 1990,
+    "max": 2010,
     "answer": 2004,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti caratteri era il limite massimo consentito originariamente per un singolo tweet?",
-    "min": 100,
-    "max": 280,
+    "min": 0,
+    "max": 180,
     "answer": 140,
     "unit": "caratteri"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno TikTok è diventato disponibile a livello globale dopo la fusione con Musical.ly?",
-    "min": 2008,
-    "max": 2028,
+    "min": 2013,
+    "max": 2033,
     "answer": 2018,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di iscritti aveva lo youtuber MrBeast (circa a fine 2023)?",
-    "min": 100,
-    "max": 350,
+    "min": 10,
+    "max": 260,
     "answer": 220,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Steve Jobs ha presentato e lanciato il primo modello di iPhone?",
-    "min": 1997,
-    "max": 2017,
+    "min": 2002,
+    "max": 2022,
     "answer": 2007,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante ore di video vengono caricate su YouTube in media ogni singolo minuto (stima ufficiale)?",
-    "min": 100,
-    "max": 1000,
+    "min": 0,
+    "max": 900,
     "answer": 500,
     "unit": "ore"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è stato coniato il termine 'Selfie' per la prima volta su un forum online?",
-    "min": 1992,
-    "max": 2012,
+    "min": 1985,
+    "max": 2005,
     "answer": 2002,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti miliardi di utenti attivi mensili ha raggiunto Facebook (stima 2023)?",
-    "min": 1,
-    "max": 5,
+    "min": 2,
+    "max": 6,
     "answer": 3,
     "unit": "miliardi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è stata fondata l'azienda Netflix, originariamente per noleggiare DVD via posta?",
-    "min": 1987,
-    "max": 2007,
+    "min": 1983,
+    "max": 2003,
     "answer": 1997,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti secondi durava al massimo un video sulla defunta piattaforma Vine?",
-    "min": 3,
-    "max": 15,
+    "min": 0,
+    "max": 12,
     "answer": 6,
     "unit": "secondi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Wikipedia, l'enciclopedia libera, è stata lanciata ufficialmente?",
-    "min": 1991,
-    "max": 2011,
+    "min": 1985,
+    "max": 2005,
     "answer": 2001,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti giorni esatti è durato il matrimonio mediatico tra Kim Kardashian e Kris Humphries?",
-    "min": 10,
-    "max": 150,
+    "min": 0,
+    "max": 140,
     "answer": 72,
     "unit": "giorni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno il Principe Harry e l'attrice americana Meghan Markle si sono sposati?",
-    "min": 2008,
-    "max": 2028,
+    "min": 2002,
+    "max": 2022,
     "answer": 2018,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti figli hanno avuto in totale (tra naturali e adottati) Angelina Jolie e Brad Pitt?",
-    "min": 2,
-    "max": 10,
+    "min": 0,
+    "max": 8,
     "answer": 6,
     "unit": "figli"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è scoppiato lo scandalo del 'Wardrobe Malfunction' di Janet Jackson al Super Bowl?",
-    "min": 1994,
-    "max": 2014,
+    "min": 2000,
+    "max": 2020,
     "answer": 2004,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti miliardi di dollari in azioni Amazon sono andati a MacKenzie Scott dopo il divorzio da Jeff Bezos?",
-    "min": 10,
-    "max": 70,
+    "min": 20,
+    "max": 80,
     "answer": 38,
     "unit": "miliardi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno si è concluso il seguitissimo processo per diffamazione tra Johnny Depp e Amber Heard?",
-    "min": 2012,
-    "max": 2032,
+    "min": 2007,
+    "max": 2027,
     "answer": 2022,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante volte in totale si è sposata Jennifer Lopez (fino al matrimonio con Ben Affleck)?",
-    "min": 1,
-    "max": 7,
+    "min": 2,
+    "max": 8,
     "answer": 4,
     "unit": "volte"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è morto tragicamente in un incidente d'auto l'attore Paul Walker?",
-    "min": 2003,
-    "max": 2023,
+    "min": 1996,
+    "max": 2016,
     "answer": 2013,
     "unit": ""
   },
@@ -1354,104 +1354,104 @@
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Britney Spears ha vissuto la sua celebre crisi pubblica, rasandosi la testa?",
-    "min": 1997,
-    "max": 2017,
+    "min": 1994,
+    "max": 2014,
     "answer": 2007,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti anni è durata la controversa 'conservatorship' (tutela legale) che controllava Britney Spears?",
-    "min": 5,
-    "max": 20,
+    "min": 0,
+    "max": 15,
     "answer": 13,
     "unit": "anni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno l'attore Will Smith ha dato uno schiaffo a Chris Rock in diretta agli Oscar?",
-    "min": 2012,
-    "max": 2032,
+    "min": 2005,
+    "max": 2025,
     "answer": 2022,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti tatuaggi si stima che abbia approssimativamente la popstar Justin Bieber?",
-    "min": 20,
-    "max": 100,
+    "min": 40,
+    "max": 120,
     "answer": 60,
     "unit": "tatuaggi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è nato il principe George, primogenito di William e Kate Middleton?",
-    "min": 2003,
-    "max": 2023,
+    "min": 2010,
+    "max": 2030,
     "answer": 2013,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante sorelle e fratellastri formano il nucleo televisivo Kardashian/Jenner dei reality?",
-    "min": 3,
-    "max": 9,
+    "min": 2,
+    "max": 8,
     "answer": 6,
     "unit": "sorelle/fratelli"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno si è tenuta la primissima edizione dell'evento di beneficenza Met Gala?",
-    "min": 1928,
-    "max": 1968,
+    "min": 1913,
+    "max": 1953,
     "answer": 1948,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di dollari costava il 'Red Hot Fantasy Bra' di Victoria's Secret nel 2000, il più costoso mai creato?",
-    "min": 5,
-    "max": 30,
+    "min": 9,
+    "max": 34,
     "answer": 15,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Anna Wintour è diventata direttrice di Vogue America?",
-    "min": 1978,
-    "max": 1998,
+    "min": 1973,
+    "max": 1993,
     "answer": 1988,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti colori componevano il logo originale arcobaleno della Apple usato fino al 1998?",
-    "min": 4,
-    "max": 10,
+    "min": 5,
+    "max": 11,
     "answer": 6,
     "unit": "colori"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno la Mattel ha introdotto sul mercato la prima bambola Barbie?",
-    "min": 1939,
-    "max": 1979,
+    "min": 1926,
+    "max": 1966,
     "answer": 1959,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di copie ha venduto il videogioco 'Minecraft' (stima 2023), record assoluto?",
-    "min": 100,
-    "max": 500,
+    "min": 180,
+    "max": 580,
     "answer": 300,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è uscito nelle librerie del Regno Unito 'Harry Potter e la pietra filosofale'?",
-    "min": 1987,
-    "max": 2007,
+    "min": 1992,
+    "max": 2012,
     "answer": 1997,
     "unit": ""
   },
@@ -1466,136 +1466,136 @@
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Guccio Gucci ha fondato l'omonima e celebre casa di moda a Firenze?",
-    "min": 1901,
-    "max": 1941,
+    "min": 1911,
+    "max": 1951,
     "answer": 1921,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti premi Oscar ha vinto il film sudcoreano 'Parasite' nell'edizione storica del 2020?",
-    "min": 1,
-    "max": 8,
+    "min": 0,
+    "max": 7,
     "answer": 4,
     "unit": "premi"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno Hugh Hefner ha pubblicato il primo numero della famosa rivista Playboy?",
-    "min": 1933,
-    "max": 1973,
+    "min": 1948,
+    "max": 1988,
     "answer": 1953,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di abbonati aveva raggiunto la piattaforma streaming Disney+ a livello globale (stima 2023)?",
-    "min": 50,
-    "max": 250,
+    "min": 0,
+    "max": 200,
     "answer": 150,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno la Walt Disney Company ha annunciato l'acquisizione della Marvel Entertainment?",
-    "min": 1999,
-    "max": 2019,
+    "min": 1994,
+    "max": 2014,
     "answer": 2009,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante sono le 'Principesse Disney' ufficiali nel franchise (al 2023)?",
-    "min": 8,
-    "max": 20,
+    "min": 4,
+    "max": 16,
     "answer": 13,
     "unit": "principesse"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è uscita la console di videogiochi PlayStation originale (PS1) in Giappone?",
-    "min": 1984,
-    "max": 2004,
+    "min": 1991,
+    "max": 2011,
     "answer": 1994,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante carte compongono un mazzo standard completo del gioco da tavolo Uno?",
-    "min": 50,
-    "max": 150,
+    "min": 30,
+    "max": 130,
     "answer": 108,
     "unit": "carte"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è morto il famoso e iconico stilista Karl Lagerfeld?",
-    "min": 2009,
-    "max": 2029,
+    "min": 2003,
+    "max": 2023,
     "answer": 2019,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti film nella storia del cinema hanno superato la soglia dei 2 miliardi di dollari di incasso mondiale (fino al 2023)?",
-    "min": 2,
-    "max": 15,
+    "min": 4,
+    "max": 17,
     "answer": 6,
     "unit": "film"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno la missione spaziale americana Apollo 11 ha portato il primo uomo sulla Luna?",
-    "min": 1959,
-    "max": 1979,
+    "min": 1962,
+    "max": 1982,
     "answer": 1969,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti membri originali componevano il celebre gruppo pop femminile delle Spice Girls?",
-    "min": 3,
-    "max": 8,
+    "min": 1,
+    "max": 6,
     "answer": 5,
     "unit": "membri"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è scoppiato lo scandalo del Watergate che ha portato alle dimissioni di Richard Nixon?",
-    "min": 1962,
-    "max": 1982,
+    "min": 1957,
+    "max": 1977,
     "answer": 1972,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quante medaglie d'oro olimpiche ha vinto in totale il nuotatore Michael Phelps, stabilendo un record assoluto?",
-    "min": 10,
-    "max": 35,
+    "min": 20,
+    "max": 45,
     "answer": 23,
     "unit": "medaglie"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno è stato pubblicato l'iconico e popolarissimo videogioco arcade Pac-Man?",
-    "min": 1970,
-    "max": 1990,
+    "min": 1964,
+    "max": 1984,
     "answer": 1980,
     "unit": ""
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "Quanti milioni di dischi ha venduto Elvis Presley nel mondo, secondo le stime minime?",
-    "min": 200,
-    "max": 1000,
+    "min": 0,
+    "max": 800,
     "answer": 500,
     "unit": "milioni"
   },
   {
     "category": "Cultura Pop e Gossip",
     "question": "In che anno i fratelli Gallagher hanno litigato sancendo lo scioglimento della band degli Oasis?",
-    "min": 1999,
-    "max": 2019,
+    "min": 2005,
+    "max": 2025,
     "answer": 2009,
     "unit": ""
   }
