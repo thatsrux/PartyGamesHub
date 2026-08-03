@@ -25,7 +25,7 @@ const getUnusedQuestion = (pool: any[], used: Record<string, boolean>, newlyUsed
 };
 
 export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
-  const { lobby, updateGameState, updateLobbyData } = useLobby(lobbyCode);
+  const { lobby, updateGameState } = useLobby(lobbyCode);
   const gameState = lobby?.game_state || {};
   const players = lobby?.players || {};
   
@@ -67,10 +67,6 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
             completedCells: [], 
             currentCell: null,
             startTime: getServerTime()
-         });
-         
-         updateLobbyData({
-            used_jeopardy_questions: { ...usedQuestions, ...newlyUsed }
          });
       }
     }
@@ -144,10 +140,6 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
            completedCells: [],
            currentCell: null,
            startTime: getServerTime()
-       });
-       
-       updateLobbyData({
-           used_jeopardy_questions: { ...usedQuestions, ...newlyUsed }
        });
     }
   }, [gameState.phase, gameState.startBoard]);
