@@ -8,8 +8,6 @@ interface ScreenFitterProps {
 
 export default function ScreenFitter({ children, width = 1920, height = 1080 }: ScreenFitterProps) {
   const [scale, setScale] = useState(1);
-  const [dynamicWidth, setDynamicWidth] = useState(width);
-  const [dynamicHeight, setDynamicHeight] = useState(height);
 
   useEffect(() => {
     const calculateScale = () => {
@@ -18,8 +16,6 @@ export default function ScreenFitter({ children, width = 1920, height = 1080 }: 
       const newScale = Math.min(scaleX, scaleY);
       
       setScale(newScale);
-      setDynamicWidth(window.innerWidth / newScale);
-      setDynamicHeight(window.innerHeight / newScale);
     };
 
     calculateScale();
@@ -38,8 +34,8 @@ export default function ScreenFitter({ children, width = 1920, height = 1080 }: 
       backgroundColor: 'transparent'
     }}>
       <div style={{
-        width: dynamicWidth,
-        height: dynamicHeight,
+        width: width,
+        height: height,
         transform: `scale(${scale})`,
         transformOrigin: 'center center',
         position: 'relative',

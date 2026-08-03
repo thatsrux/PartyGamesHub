@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { gameThemes } from '../../utils/theme';
 import type { GameThemeKey } from '../../utils/theme';
 import ScreenFitter from './ScreenFitter';
+import Background from './Background';
 
 interface GameLayoutTVProps {
   children: ReactNode;
@@ -17,43 +18,8 @@ export default function GameLayoutTV({ children, themeKey = 'default', leaderboa
   const theme = gameThemes[themeKey];
 
   return (
-    <ScreenFitter>
-      <div style={{ 
-        display: 'flex', 
-        flexDirection: 'column', 
-        height: '100%', 
-        width: '100%',
-        background: customBackground || theme.backgroundGradient, 
-        overflow: 'hidden',
-        position: 'relative',
-        ...style
-      }} className={className}>
-        {/* Background Decorative Elements */}
-        <motion.div 
-          animate={{ rotate: 360 }} 
-          transition={{ duration: 150, repeat: Infinity, ease: "linear" }} 
-          style={{ 
-            position: 'absolute', 
-            top: '-20%', left: '-10%', 
-            width: '50%', height: '50%', 
-            background: theme.orb1Color, 
-            borderRadius: '50%',
-            pointerEvents: 'none'
-          }} 
-        />
-        <motion.div 
-          animate={{ rotate: -360 }} 
-          transition={{ duration: 200, repeat: Infinity, ease: "linear" }} 
-          style={{ 
-            position: 'absolute', 
-            bottom: '-20%', right: '-10%', 
-            width: '60%', height: '60%', 
-            background: theme.orb2Color, 
-            borderRadius: '50%',
-            pointerEvents: 'none'
-          }} 
-        />
-
+    <Background theme={themeKey} customBackground={customBackground}>
+      <ScreenFitter>
         <div style={{ 
           display: 'flex', 
           width: '100%', 
@@ -61,8 +27,9 @@ export default function GameLayoutTV({ children, themeKey = 'default', leaderboa
           margin: '0 auto',
           padding: '2rem 4rem', 
           zIndex: 1,
-          gap: '4rem'
-        }}>
+          gap: '4rem',
+          ...style
+        }} className={className}>
           {/* Main Game Area */}
           <div style={{
             flex: 1,
@@ -88,7 +55,7 @@ export default function GameLayoutTV({ children, themeKey = 'default', leaderboa
             </div>
           )}
         </div>
-      </div>
-    </ScreenFitter>
+      </ScreenFitter>
+    </Background>
   );
 }
