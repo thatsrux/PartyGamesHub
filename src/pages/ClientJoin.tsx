@@ -30,6 +30,7 @@ import Background from '../components/shared/Background';
 
 import { ALL_CATEGORIES, getCategoryColor, CATEGORY_COUNTS } from '../utils/categories';
 import { GAMES_CONFIG } from '../config/gamesConfig';
+import ManagePlayersModal from '../components/shared/ManagePlayersModal';
 
 export default function ClientJoin() {
   const [searchParams] = useSearchParams();
@@ -55,6 +56,7 @@ export default function ClientJoin() {
   const [localSettings, setLocalSettings] = useState<any>({});
   
   const [showPhotoMenu, setShowPhotoMenu] = useState(false);
+  const [showManagePlayers, setShowManagePlayers] = useState(false);
   
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [tempPhoto, setTempPhoto] = useState<string | null>(null);
@@ -360,7 +362,39 @@ export default function ClientJoin() {
               >
                 Profilo 👤
               </button>
+              {myPlayer?.isAdmin && (
+                <button 
+                  className="btn btn-secondary" 
+                  style={{ 
+                    position: 'fixed', 
+                    bottom: 'max(env(safe-area-inset-bottom, 20px), 3vh)', 
+                    right: 'max(env(safe-area-inset-right, 20px), 3vw)', 
+                    background: 'rgba(59, 130, 246, 0.8)', 
+                    border: '1px solid rgba(255,255,255,0.1)', 
+                    borderRadius: '12px', 
+                    padding: '8px 20px', 
+                    fontWeight: 'bold',
+                    zIndex: 1000,
+                    backdropFilter: 'blur(10px)',
+                    boxShadow: '0 4px 15px rgba(0,0,0,0.5)',
+                    fontSize: '1rem',
+                    color: 'white'
+                  }} 
+                  onClick={() => setShowManagePlayers(true)}
+                >
+                  Giocatori 👥
+                </button>
+              )}
               <FloatingLobbyCode code={code} isClient />
+              
+              {showManagePlayers && (
+                <ManagePlayersModal 
+                  lobbyCode={code} 
+                  players={lobby.players || {}} 
+                  currentUserId={userId} 
+                  onClose={() => setShowManagePlayers(false)} 
+                />
+              )}
               
               {settingsOpen ? (
                 <div style={{ display: 'flex', flex: 1, alignItems: 'center', justifyContent: 'center' }}>

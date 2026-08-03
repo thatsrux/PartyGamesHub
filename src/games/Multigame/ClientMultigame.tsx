@@ -8,9 +8,10 @@ import Background from '../../components/shared/Background';
 import PodiumMobile from '../../components/shared/PodiumMobile';
 import { gameThemes } from '../../utils/theme';
 import type { GameThemeKey } from '../../utils/theme';
-import { PlayCircle, Sparkles, CheckCircle2, Trophy, XCircle } from 'lucide-react';
+import { PlayCircle, Sparkles, CheckCircle2, Trophy, XCircle, Users } from 'lucide-react';
 import { ref, update } from 'firebase/database';
 import { db } from '../../firebase';
+import ManagePlayersModal from '../../components/shared/ManagePlayersModal';
 
 const catalogGameDetails: Record<string, { title: string; icon: string; themeKey: GameThemeKey }> = {
   vero_o_fake: { title: 'Vero o Falso', icon: '🃏', themeKey: 'vero_o_fake' },
@@ -81,6 +82,7 @@ export default function ClientMultigame({ lobbyCode, userId }: { lobbyCode: stri
   const myPlayer = lobby?.players?.[userId];
   const isAdmin = myPlayer?.isAdmin;
   const [showConfirm, setShowConfirm] = useState(false);
+  const [showManagePlayers, setShowManagePlayers] = useState(false);
 
   const playlist: string[] = multigameSession.playlist || [];
   const currentIndex: number = multigameSession.currentIndex ?? -1;
@@ -367,6 +369,47 @@ export default function ClientMultigame({ lobbyCode, userId }: { lobbyCode: stri
             <XCircle size={18} />
             <span>Termina Multi-Game</span>
           </motion.button>
+        )}
+
+        {isAdmin && (
+          <motion.button
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            onClick={() => setShowManagePlayers(true)}
+            style={{
+              position: 'fixed',
+              bottom: '20px',
+              right: '20px',
+              backgroundColor: 'rgba(59, 130, 246, 0.8)',
+              border: '1px solid rgba(255,255,255,0.1)',
+              color: 'white',
+              padding: '0.6rem 1rem',
+              borderRadius: '2rem',
+              fontSize: '0.9rem',
+              fontWeight: 'bold',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              cursor: 'pointer',
+              zIndex: 2000,
+              backdropFilter: 'blur(5px)',
+              boxShadow: '0 4px 6px rgba(0,0,0,0.3)'
+            }}
+          >
+            <Users size={18} />
+            <span>Giocatori</span>
+          </motion.button>
+        )}
+
+        {showManagePlayers && isAdmin && (
+          <ManagePlayersModal 
+            lobbyCode={lobbyCode} 
+            players={lobby.players || {}} 
+            currentUserId={userId} 
+            onClose={() => setShowManagePlayers(false)} 
+          />
         )}
 
         {showConfirm && (
