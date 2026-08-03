@@ -1,6 +1,4 @@
 import type { ReactNode } from 'react';
-import { motion } from 'framer-motion';
-import { gameThemes } from '../../utils/theme';
 import type { GameThemeKey } from '../../utils/theme';
 import ScreenFitter from './ScreenFitter';
 import Background from './Background';
@@ -15,8 +13,6 @@ interface GameLayoutTVProps {
 }
 
 export default function GameLayoutTV({ children, themeKey = 'default', leaderboard, className = '', style = {}, customBackground }: GameLayoutTVProps) {
-  const theme = gameThemes[themeKey];
-
   return (
     <Background theme={themeKey} customBackground={customBackground}>
       <ScreenFitter>
