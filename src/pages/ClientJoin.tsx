@@ -367,7 +367,7 @@ export default function ClientJoin() {
                   className="btn btn-secondary" 
                   style={{ 
                     position: 'fixed', 
-                    bottom: 'max(env(safe-area-inset-bottom, 20px), 3vh)', 
+                    top: 'max(env(safe-area-inset-top, 20px), 3vh)', 
                     right: 'max(env(safe-area-inset-right, 20px), 3vw)', 
                     background: 'rgba(59, 130, 246, 0.8)', 
                     border: '1px solid rgba(255,255,255,0.1)', 

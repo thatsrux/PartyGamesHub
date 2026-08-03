@@ -380,7 +380,7 @@ export default function ClientMultigame({ lobbyCode, userId }: { lobbyCode: stri
             onClick={() => setShowManagePlayers(true)}
             style={{
               position: 'fixed',
-              bottom: '20px',
+              top: '20px',
               right: '20px',
               backgroundColor: 'rgba(59, 130, 246, 0.8)',
               border: '1px solid rgba(255,255,255,0.1)',
