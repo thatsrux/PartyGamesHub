@@ -744,5 +744,805 @@
     "max": 5,
     "answer": 3,
     "category": "Scienza e Natura"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante ossa compongono lo scheletro di un essere umano adulto?",
+    "min": 100,
+    "max": 350,
+    "answer": 206,
+    "unit": "ossa"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la temperatura di ebollizione dell'acqua in gradi Fahrenheit a livello del mare?",
+    "min": 100,
+    "max": 300,
+    "answer": 212,
+    "unit": "°F"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti pianeti riconosciuti compongono il nostro Sistema Solare?",
+    "min": 4,
+    "max": 15,
+    "answer": 8,
+    "unit": "pianeti"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il numero atomico dell'oro (Au)?",
+    "min": 20,
+    "max": 120,
+    "answer": 79,
+    "unit": ""
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il numero atomico del carbonio (C)?",
+    "min": 1,
+    "max": 20,
+    "answer": 6,
+    "unit": ""
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti cromosomi ci sono tipicamente in una cellula somatica umana?",
+    "min": 20,
+    "max": 80,
+    "answer": 46,
+    "unit": "cromosomi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti giorni dura in media la gestazione di un elefante africano?",
+    "min": 300,
+    "max": 800,
+    "answer": 645,
+    "unit": "giorni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti denti permanenti ha solitamente un essere umano adulto?",
+    "min": 20,
+    "max": 50,
+    "answer": 32,
+    "unit": "denti"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante zampe ha un ragno?",
+    "min": 4,
+    "max": 16,
+    "answer": 8,
+    "unit": "zampe"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante zampe hanno tipicamente gli insetti?",
+    "min": 2,
+    "max": 12,
+    "answer": 6,
+    "unit": "zampe"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "A quanti gradi Celsius corrisponde lo zero assoluto?",
+    "min": -400,
+    "max": -100,
+    "answer": -273,
+    "unit": "°C"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti cuori ha un polpo?",
+    "min": 1,
+    "max": 5,
+    "answer": 3,
+    "unit": "cuori"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti giorni impiega approssimativamente la Terra per completare una rivoluzione attorno al Sole?",
+    "min": 300,
+    "max": 400,
+    "answer": 365,
+    "unit": "giorni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti anni terrestri impiega Urano per completare un'orbita intorno al Sole?",
+    "min": 20,
+    "max": 150,
+    "answer": 84,
+    "unit": "anni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti elementi chimici sono attualmente confermati nella tavola periodica?",
+    "min": 90,
+    "max": 150,
+    "answer": 118,
+    "unit": "elementi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti lobi principali compongono il cervello umano?",
+    "min": 2,
+    "max": 8,
+    "answer": 4,
+    "unit": "lobi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "A quanti chilometri al secondo viaggia la luce nel vuoto (arrotondato)?",
+    "min": 100000,
+    "max": 500000,
+    "answer": 299792,
+    "unit": "km/s"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la velocità del suono nell'aria a 20 gradi Celsius (in m/s)?",
+    "min": 100,
+    "max": 500,
+    "answer": 343,
+    "unit": "m/s"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante vertebre cervicali ha una giraffa?",
+    "min": 3,
+    "max": 20,
+    "answer": 7,
+    "unit": "vertebre"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante vertebre cervicali ha un essere umano?",
+    "min": 3,
+    "max": 15,
+    "answer": 7,
+    "unit": "vertebre"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti satelliti naturali ha la Terra?",
+    "min": 0,
+    "max": 5,
+    "answer": 1,
+    "unit": "satelliti"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno l'uomo è sbarcato per la prima volta sulla Luna?",
+    "min": 1950,
+    "max": 2000,
+    "answer": 1969,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno Watson e Crick hanno pubblicato la struttura a doppia elica del DNA?",
+    "min": 1900,
+    "max": 2000,
+    "answer": 1953,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti gruppi sanguigni principali esistono nel sistema ABO?",
+    "min": 2,
+    "max": 8,
+    "answer": 4,
+    "unit": "gruppi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti reni possiede tipicamente un essere umano sano?",
+    "min": 1,
+    "max": 4,
+    "answer": 2,
+    "unit": "reni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti polmoni ha un essere umano?",
+    "min": 1,
+    "max": 4,
+    "answer": 2,
+    "unit": "polmoni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il pH dell'acqua pura a temperatura ambiente?",
+    "min": 0,
+    "max": 14,
+    "answer": 7,
+    "unit": "pH"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la percentuale approssimativa di azoto nell'atmosfera terrestre?",
+    "min": 50,
+    "max": 100,
+    "answer": 78,
+    "unit": "%"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la percentuale approssimativa di ossigeno nell'atmosfera terrestre?",
+    "min": 5,
+    "max": 50,
+    "answer": 21,
+    "unit": "%"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Da quante camere principali è formato il cuore umano?",
+    "min": 2,
+    "max": 6,
+    "answer": 4,
+    "unit": "camere"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti minuti impiega approssimativamente la luce del Sole per raggiungere la Terra?",
+    "min": 2,
+    "max": 20,
+    "answer": 8,
+    "unit": "minuti"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il numero atomico del ferro (Fe)?",
+    "min": 10,
+    "max": 60,
+    "answer": 26,
+    "unit": ""
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la temperatura di congelamento dell'acqua in gradi Fahrenheit?",
+    "min": 0,
+    "max": 100,
+    "answer": 32,
+    "unit": "°F"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante paia di zampe possiede un granchio (inclusi i chelipedi)?",
+    "min": 2,
+    "max": 10,
+    "answer": 5,
+    "unit": "paia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti tentacoli/braccia ha in totale un calamaro?",
+    "min": 6,
+    "max": 16,
+    "answer": 10,
+    "unit": "appendici"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante braccia ha tipicamente una stella marina comune?",
+    "min": 3,
+    "max": 10,
+    "answer": 5,
+    "unit": "braccia"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti occhi possiede in totale un'ape mellifera?",
+    "min": 2,
+    "max": 10,
+    "answer": 5,
+    "unit": "occhi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti scompartimenti principali ha lo stomaco di un ruminante come la mucca?",
+    "min": 2,
+    "max": 8,
+    "answer": 4,
+    "unit": "scompartimenti"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante ali ha una zanzara?",
+    "min": 1,
+    "max": 6,
+    "answer": 2,
+    "unit": "ali"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante ali ha una farfalla?",
+    "min": 2,
+    "max": 8,
+    "answer": 4,
+    "unit": "ali"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti milioni di anni fa si sono estinti i dinosauri non aviani?",
+    "min": 10,
+    "max": 200,
+    "answer": 66,
+    "unit": "milioni di anni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante lune ha il pianeta Marte?",
+    "min": 0,
+    "max": 10,
+    "answer": 2,
+    "unit": "lune"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti millimetri di pioggia cadono in media all'anno nel deserto del Sahara?",
+    "min": 0,
+    "max": 200,
+    "answer": 25,
+    "unit": "mm"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è l'altitudine ufficiale del Monte Everest in metri?",
+    "min": 7000,
+    "max": 10000,
+    "answer": 8848,
+    "unit": "metri"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "A quanti metri di profondità arriva approssimativamente la Fossa delle Marianne?",
+    "min": 8000,
+    "max": 15000,
+    "answer": 10920,
+    "unit": "metri"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti gradi Celsius misura in media la temperatura corporea umana?",
+    "min": 30,
+    "max": 45,
+    "answer": 37,
+    "unit": "°C"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Da quante fasi principali è composta la mitosi cellulare?",
+    "min": 2,
+    "max": 8,
+    "answer": 4,
+    "unit": "fasi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti diversi nucleotidi compongono il DNA?",
+    "min": 2,
+    "max": 10,
+    "answer": 4,
+    "unit": "nucleotidi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti sensi vengono tradizionalmente attribuiti all'essere umano?",
+    "min": 3,
+    "max": 10,
+    "answer": 5,
+    "unit": "sensi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il numero atomico dell'idrogeno (H)?",
+    "min": 0,
+    "max": 10,
+    "answer": 1,
+    "unit": ""
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il numero atomico dell'elio (He)?",
+    "min": 0,
+    "max": 15,
+    "answer": 2,
+    "unit": ""
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il numero atomico dell'uranio (U)?",
+    "min": 50,
+    "max": 150,
+    "answer": 92,
+    "unit": ""
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti colori si distinguono tradizionalmente nello spettro di un arcobaleno?",
+    "min": 4,
+    "max": 12,
+    "answer": 7,
+    "unit": "colori"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la lunghezza media dell'intestino tenue umano in metri?",
+    "min": 2,
+    "max": 12,
+    "answer": 6,
+    "unit": "metri"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti litri di sangue contiene in media il corpo di un adulto?",
+    "min": 2,
+    "max": 10,
+    "answer": 5,
+    "unit": "litri"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante ossa compongono il cranio umano (esclusi gli ossicini dell'udito)?",
+    "min": 10,
+    "max": 40,
+    "answer": 22,
+    "unit": "ossa"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti muscoli scheletrici ci sono all'incirca nel corpo umano?",
+    "min": 200,
+    "max": 1000,
+    "answer": 600,
+    "unit": "muscoli"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno Albert Einstein ha pubblicato la teoria della relatività generale?",
+    "min": 1900,
+    "max": 1950,
+    "answer": 1915,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno è stato lanciato il telescopio spaziale Hubble?",
+    "min": 1970,
+    "max": 2010,
+    "answer": 1990,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno è stato lanciato il telescopio spaziale James Webb?",
+    "min": 2000,
+    "max": 2030,
+    "answer": 2021,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la distanza media tra la Terra e la Luna in migliaia di chilometri?",
+    "min": 100,
+    "max": 800,
+    "answer": 384,
+    "unit": "mila km"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il raggio medio della Terra in chilometri?",
+    "min": 3000,
+    "max": 10000,
+    "answer": 6371,
+    "unit": "km"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il diametro medio della Terra in chilometri?",
+    "min": 8000,
+    "max": 15000,
+    "answer": 12742,
+    "unit": "km"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno Plutone è stato declassato da pianeta a pianeta nano?",
+    "min": 1990,
+    "max": 2020,
+    "answer": 2006,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti anni luce dista approssimativamente Proxima Centauri, la stella più vicina al nostro Sistema Solare?",
+    "min": 1,
+    "max": 20,
+    "answer": 4,
+    "unit": "anni luce"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante costole ha tipicamente un essere umano?",
+    "min": 12,
+    "max": 40,
+    "answer": 24,
+    "unit": "costole"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti denti da latte ha un bambino prima che inizino a cadere?",
+    "min": 10,
+    "max": 30,
+    "answer": 20,
+    "unit": "denti"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno Charles Darwin pubblicò 'L'origine delle specie'?",
+    "min": 1800,
+    "max": 1900,
+    "answer": 1859,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno è avvenuto il disastro nucleare di Chernobyl?",
+    "min": 1960,
+    "max": 2000,
+    "answer": 1986,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno è nata la pecora Dolly, il primo mammifero clonato con successo?",
+    "min": 1980,
+    "max": 2010,
+    "answer": 1996,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti grammi pesa approssimativamente il cuore di un uomo adulto?",
+    "min": 100,
+    "max": 800,
+    "answer": 300,
+    "unit": "grammi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti grammi pesa in media il cervello umano adulto?",
+    "min": 800,
+    "max": 2000,
+    "answer": 1350,
+    "unit": "grammi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti 'sapori' (tipi) di quark esistono nella fisica delle particelle?",
+    "min": 2,
+    "max": 12,
+    "answer": 6,
+    "unit": "quark"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante leggi della dinamica ha formulato Isaac Newton?",
+    "min": 1,
+    "max": 5,
+    "answer": 3,
+    "unit": "leggi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti sono i principi (o leggi) principali della termodinamica?",
+    "min": 2,
+    "max": 6,
+    "answer": 4,
+    "unit": "principi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante falangi ha un dito indice umano?",
+    "min": 1,
+    "max": 5,
+    "answer": 3,
+    "unit": "falangi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Da quante vertebre è composta la colonna vertebrale umana (incluse quelle fuse)?",
+    "min": 20,
+    "max": 50,
+    "answer": 33,
+    "unit": "vertebre"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti tepali (petali apparenti) ha tipicamente il fiore di un giglio?",
+    "min": 3,
+    "max": 12,
+    "answer": 6,
+    "unit": "tepali"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno il CERN ha annunciato la scoperta del bosone di Higgs?",
+    "min": 1990,
+    "max": 2020,
+    "answer": 2012,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno l'Organizzazione Mondiale della Sanità ha dichiarato ufficialmente debellato il vaiolo?",
+    "min": 1950,
+    "max": 2010,
+    "answer": 1980,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno Alexander Fleming scoprì la penicillina?",
+    "min": 1880,
+    "max": 1950,
+    "answer": 1928,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la temperatura superficiale del Sole in Kelvin (arrotondata)?",
+    "min": 3000,
+    "max": 10000,
+    "answer": 5778,
+    "unit": "Kelvin"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante lune galileiane orbitano attorno a Giove?",
+    "min": 1,
+    "max": 10,
+    "answer": 4,
+    "unit": "lune"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante specie viventi di orsi esistono al mondo?",
+    "min": 3,
+    "max": 20,
+    "answer": 8,
+    "unit": "specie"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti giorni dura approssimativamente un ciclo lunare completo (mese sinodico)?",
+    "min": 20,
+    "max": 40,
+    "answer": 29,
+    "unit": "giorni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la velocità massima stimata di un ghepardo in km/h?",
+    "min": 60,
+    "max": 200,
+    "answer": 120,
+    "unit": "km/h"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanto può pesare in tonnellate una balenottera azzurra adulta?",
+    "min": 50,
+    "max": 300,
+    "answer": 150,
+    "unit": "tonnellate"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno Marie e Pierre Curie scoprirono il radio?",
+    "min": 1850,
+    "max": 1950,
+    "answer": 1898,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno nacque lo scienziato Galileo Galilei?",
+    "min": 1400,
+    "max": 1700,
+    "answer": 1564,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "In che anno nacque Isaac Newton?",
+    "min": 1500,
+    "max": 1800,
+    "answer": 1643,
+    "unit": "anno"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti minuti può durare al massimo un'eclissi solare totale (arrotondato)?",
+    "min": 2,
+    "max": 20,
+    "answer": 7,
+    "unit": "minuti"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante ore dorme in media un bradipo al giorno?",
+    "min": 5,
+    "max": 24,
+    "answer": 15,
+    "unit": "ore"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti cromosomi possiede un cane domestico?",
+    "min": 20,
+    "max": 120,
+    "answer": 78,
+    "unit": "cromosomi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti cromosomi possiede un gatto domestico?",
+    "min": 10,
+    "max": 80,
+    "answer": 38,
+    "unit": "cromosomi"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "A quanti miliardi di anni fa risale l'origine stimata dell'universo (Big Bang, arrotondato all'intero più vicino)?",
+    "min": 5,
+    "max": 20,
+    "answer": 14,
+    "unit": "miliardi di anni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quanti milioni di anni fa si stima sia nata la Terra (arrotondato a decine)?",
+    "min": 1000,
+    "max": 8000,
+    "answer": 4540,
+    "unit": "milioni di anni"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è la percentuale media di acqua nel corpo di un uomo adulto?",
+    "min": 30,
+    "max": 90,
+    "answer": 60,
+    "unit": "%"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante orecchie ha una mantide religiosa?",
+    "min": 0,
+    "max": 4,
+    "answer": 1,
+    "unit": "orecchie"
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Qual è il numero atomico del piombo (Pb)?",
+    "min": 40,
+    "max": 120,
+    "answer": 82,
+    "unit": ""
+  },
+  {
+    "category": "Scienza e Natura",
+    "question": "Quante costellazioni ufficiali sono riconosciute dall'Unione Astronomica Internazionale?",
+    "min": 40,
+    "max": 150,
+    "answer": 88,
+    "unit": "costellazioni"
   }
 ]

@@ -798,5 +798,805 @@
     "answer": 1932,
     "unit": "",
     "category": "Letteratura e Arte"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu pubblicata la prima edizione ('Ventisettana') de 'I Promessi Sposi'?",
+    "min": 1700,
+    "max": 1950,
+    "answer": 1827,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti canti ci sono in totale nella 'Divina Commedia'?",
+    "min": 10,
+    "max": 150,
+    "answer": 100,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno nacque Dante Alighieri?",
+    "min": 1100,
+    "max": 1400,
+    "answer": 1265,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti romanzi completi scrisse Jane Austen durante la sua vita?",
+    "min": 1,
+    "max": 30,
+    "answer": 6,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Da quanti versi è composto tipicamente un sonetto?",
+    "min": 4,
+    "max": 30,
+    "answer": 14,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno morì Leonardo da Vinci?",
+    "min": 1400,
+    "max": 1600,
+    "answer": 1519,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno nacque William Shakespeare?",
+    "min": 1400,
+    "max": 1700,
+    "answer": 1564,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu pubblicato 'Il Signore degli Anelli - La Compagnia dell'Anello'?",
+    "min": 1900,
+    "max": 2000,
+    "answer": 1954,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti libri compongono la serie principale di Harry Potter?",
+    "min": 3,
+    "max": 15,
+    "answer": 7,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "A che età morì il compositore Wolfgang Amadeus Mozart?",
+    "min": 20,
+    "max": 80,
+    "answer": 35,
+    "unit": "anni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Pablo Picasso dipinse 'Guernica'?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1937,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Qual è l'altezza in centimetri della statua del David di Michelangelo?",
+    "min": 300,
+    "max": 700,
+    "answer": 517,
+    "unit": "cm"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu pubblicata la prima edizione di 'Cent'anni di solitudine'?",
+    "min": 1900,
+    "max": 2000,
+    "answer": 1967,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In quale cerchio dell'Inferno dantesco si trovano i golosi?",
+    "min": 1,
+    "max": 9,
+    "answer": 3,
+    "unit": "° cerchio"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante commedie di Aristofane sono giunte integre fino a noi?",
+    "min": 1,
+    "max": 40,
+    "answer": 11,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante sillabe metriche ha un endecasillabo piano?",
+    "min": 5,
+    "max": 15,
+    "answer": 11,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu pubblicato il celebre romanzo '1984' di George Orwell?",
+    "min": 1900,
+    "max": 1984,
+    "answer": 1949,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno morì il pittore Vincent van Gogh?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1890,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Da quanti versi è composta la celebre poesia 'L'infinito' di Giacomo Leopardi?",
+    "min": 5,
+    "max": 50,
+    "answer": 15,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Salvador Dalí dipinse 'La persistenza della memoria'?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1931,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu pubblicato il romanzo 'Il fu Mattia Pascal'?",
+    "min": 1850,
+    "max": 1950,
+    "answer": 1904,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "A che età morì il poeta Giacomo Leopardi?",
+    "min": 20,
+    "max": 70,
+    "answer": 38,
+    "unit": "anni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Michelangelo completò la decorazione della volta della Cappella Sistina?",
+    "min": 1400,
+    "max": 1600,
+    "answer": 1512,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante sono le Muse nella mitologia greca classica?",
+    "min": 3,
+    "max": 20,
+    "answer": 9,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Luigi Pirandello ricevette il Premio Nobel per la letteratura?",
+    "min": 1900,
+    "max": 1960,
+    "answer": 1934,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Da quanti canti è composto l'Inferno di Dante Alighieri?",
+    "min": 10,
+    "max": 50,
+    "answer": 34,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Edvard Munch dipinse la sua prima versione de 'L'Urlo'?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1893,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante sono le novelle narrate all'interno del Decameron di Boccaccio?",
+    "min": 50,
+    "max": 150,
+    "answer": 100,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti giorni dura il racconto in cui i giovani del Decameron narrano le novelle?",
+    "min": 5,
+    "max": 30,
+    "answer": 10,
+    "unit": "giorni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno nacque l'artista Michelangelo Buonarroti?",
+    "min": 1300,
+    "max": 1600,
+    "answer": 1475,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti romanzi pubblicò Italo Svevo in vita sua?",
+    "min": 1,
+    "max": 15,
+    "answer": 3,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno 'Le avventure di Pinocchio' venne pubblicato per la prima volta in volume?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1883,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Da quanti canti è composta l'edizione definitiva dell'Orlando Furioso?",
+    "min": 20,
+    "max": 80,
+    "answer": 46,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno morì il celebre pittore Caravaggio?",
+    "min": 1500,
+    "max": 1700,
+    "answer": 1610,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante sinfonie ha completato Ludwig van Beethoven?",
+    "min": 3,
+    "max": 25,
+    "answer": 9,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu pubblicato per la prima volta su rivista 'Il ritratto di Dorian Gray'?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1890,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno dopo Cristo fu inaugurato il Colosseo a Roma?",
+    "min": 10,
+    "max": 300,
+    "answer": 80,
+    "unit": "d.C."
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "A che età morì il pittore Raffaello Sanzio?",
+    "min": 20,
+    "max": 80,
+    "answer": 37,
+    "unit": "anni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno la Gioconda di Leonardo fu clamorosamente rubata dal Louvre?",
+    "min": 1850,
+    "max": 1950,
+    "answer": 1911,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante lettere compongono l'antico alfabeto runico germanico (Futhark antico)?",
+    "min": 10,
+    "max": 40,
+    "answer": 24,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu pubblicato il celebre romanzo 'Moby Dick'?",
+    "min": 1700,
+    "max": 1900,
+    "answer": 1851,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante figure umane e divine compongono il famoso gruppo scultoreo del Laocoonte?",
+    "min": 1,
+    "max": 10,
+    "answer": 3,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno venne stampata la prima edizione del Vocabolario degli Accademici della Crusca?",
+    "min": 1400,
+    "max": 1800,
+    "answer": 1612,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Da quante cantiche è formata la Divina Commedia?",
+    "min": 1,
+    "max": 10,
+    "answer": 3,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno nacque il premio Nobel Gabriel García Márquez?",
+    "min": 1850,
+    "max": 2000,
+    "answer": 1927,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti anni aveva Dante quando incontrò per la prima volta Beatrice, secondo la 'Vita Nova'?",
+    "min": 1,
+    "max": 30,
+    "answer": 9,
+    "unit": "anni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno venne pubblicato il romanzo 'Orgoglio e pregiudizio'?",
+    "min": 1700,
+    "max": 1900,
+    "answer": 1813,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Da quanti capitoli è composto il romanzo 'I Promessi Sposi'?",
+    "min": 10,
+    "max": 60,
+    "answer": 38,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu completata la prima versione della statua 'Amore e Psiche' di Antonio Canova?",
+    "min": 1600,
+    "max": 1900,
+    "answer": 1793,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti quadri si stima abbia venduto Vincent van Gogh durante la sua vita?",
+    "min": 0,
+    "max": 50,
+    "answer": 1,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno uscì 'Il Grande Gatsby' di F. Scott Fitzgerald?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1925,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti volumi compongono l'opera 'Alla ricerca del tempo perduto' di Marcel Proust?",
+    "min": 3,
+    "max": 20,
+    "answer": 7,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu aperto per la prima volta al pubblico il museo del Louvre?",
+    "min": 1600,
+    "max": 1900,
+    "answer": 1793,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante fatiche dovette compiere l'eroe mitologico Ercole?",
+    "min": 5,
+    "max": 25,
+    "answer": 12,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno morì lo scrittore Franz Kafka?",
+    "min": 1850,
+    "max": 1950,
+    "answer": 1924,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti lati compongono la base della Grande Piramide di Giza?",
+    "min": 3,
+    "max": 12,
+    "answer": 4,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno venne ritrovata la famosa Stele di Rosetta in Egitto?",
+    "min": 1500,
+    "max": 1900,
+    "answer": 1799,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "A che età morì prematuramente il poeta romantico John Keats?",
+    "min": 15,
+    "max": 50,
+    "answer": 25,
+    "unit": "anni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Filippo Tommaso Marinetti pubblicò il Manifesto del Futurismo?",
+    "min": 1850,
+    "max": 1950,
+    "answer": 1909,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante persone sono raffigurate nel dipinto murale 'L'Ultima Cena' di Leonardo?",
+    "min": 5,
+    "max": 30,
+    "answer": 13,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno debuttò l'opera lirica 'Aida' di Giuseppe Verdi?",
+    "min": 1750,
+    "max": 1950,
+    "answer": 1871,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti figli ebbe complessivamente il compositore Johann Sebastian Bach dalle due mogli?",
+    "min": 1,
+    "max": 30,
+    "answer": 20,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno venne pubblicata la prima parte del 'Don Chisciotte della Mancia'?",
+    "min": 1400,
+    "max": 1800,
+    "answer": 1605,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno nacque il pittore Pablo Picasso?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1881,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante sono le città fantastiche descritte nel romanzo 'Le città invisibili' di Calvino?",
+    "min": 10,
+    "max": 100,
+    "answer": 55,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno morì il romanziere russo Fëdor Dostoevskij?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1881,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Qual è l'altezza approssimativa in metri della Torre pendente di Pisa?",
+    "min": 20,
+    "max": 150,
+    "answer": 56,
+    "unit": "m"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno venne pubblicato per la prima volta il romanzo 'Frankenstein'?",
+    "min": 1700,
+    "max": 1900,
+    "answer": 1818,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante sono le cornici che compongono la montagna del Purgatorio dantesco?",
+    "min": 3,
+    "max": 15,
+    "answer": 7,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Giacomo Leopardi scrisse la poesia 'L'infinito'?",
+    "min": 1750,
+    "max": 1900,
+    "answer": 1819,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "A che età morì il pittore Amedeo Modigliani?",
+    "min": 20,
+    "max": 60,
+    "answer": 35,
+    "unit": "anni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante teste possiede solitamente il cane Cerbero nella mitologia greca?",
+    "min": 2,
+    "max": 10,
+    "answer": 3,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno nacque la celebre pittrice messicana Frida Kahlo?",
+    "min": 1850,
+    "max": 1950,
+    "answer": 1907,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante versioni su tela della serie 'I Girasoli' dipinse Vincent van Gogh ad Arles?",
+    "min": 1,
+    "max": 20,
+    "answer": 7,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno nacque la scrittrice Grazia Deledda, premio Nobel per la letteratura?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1871,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Baudelaire pubblicò la prima edizione de 'I fiori del male'?",
+    "min": 1750,
+    "max": 1950,
+    "answer": 1857,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno lo scrittore tedesco Goethe iniziò il suo famoso 'Viaggio in Italia'?",
+    "min": 1600,
+    "max": 1900,
+    "answer": 1786,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno venne dipinta la celebre prima versione de 'Il bacio' da Francesco Hayez?",
+    "min": 1700,
+    "max": 1950,
+    "answer": 1859,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante sillabe possiede tipicamente il verso detto 'senario'?",
+    "min": 2,
+    "max": 12,
+    "answer": 6,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Claude Monet dipinse 'Impressione, levar del sole'?",
+    "min": 1750,
+    "max": 1950,
+    "answer": 1872,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu pubblicato per la prima volta integralmente il romanzo 'Ulisse' di James Joyce?",
+    "min": 1850,
+    "max": 1980,
+    "answer": 1922,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In quante ore si svolge all'incirca l'intera trama del romanzo 'Ulisse' di Joyce?",
+    "min": 5,
+    "max": 48,
+    "answer": 18,
+    "unit": "ore"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno morì il famoso scrittore e poeta francese Victor Hugo?",
+    "min": 1750,
+    "max": 1950,
+    "answer": 1885,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti volumi in totale compongono la prima edizione dell'Encyclopédie di Diderot e d'Alembert?",
+    "min": 10,
+    "max": 100,
+    "answer": 35,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno André Breton pubblicò il primo Manifesto del Surrealismo?",
+    "min": 1850,
+    "max": 1980,
+    "answer": 1924,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti sono in totale i giovani narratori protagonisti della cornice del Decameron?",
+    "min": 3,
+    "max": 30,
+    "answer": 10,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno nacque lo scrittore inglese Charles Dickens?",
+    "min": 1700,
+    "max": 1900,
+    "answer": 1812,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti romanzi compongono l'imponente ciclo dei 'Rougon-Macquart' di Émile Zola?",
+    "min": 5,
+    "max": 50,
+    "answer": 20,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno circa fu completata la ricostruzione del Pantheon di Roma sotto l'imperatore Adriano?",
+    "min": 10,
+    "max": 500,
+    "answer": 125,
+    "unit": "d.C."
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "A che età morì il maestro del brivido Edgar Allan Poe?",
+    "min": 20,
+    "max": 80,
+    "answer": 40,
+    "unit": "anni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno fu inaugurato a New York il Museo Guggenheim progettato da Frank Lloyd Wright?",
+    "min": 1900,
+    "max": 2000,
+    "answer": 1959,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Da quanti libri è composta la versione definitiva del poema 'Il Paradiso perduto' di John Milton?",
+    "min": 5,
+    "max": 30,
+    "answer": 12,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno uscì la prima pubblicazione di 'Le avventure di Alice nel Paese delle Meraviglie'?",
+    "min": 1750,
+    "max": 1950,
+    "answer": 1865,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno Francisco Goya dipinse la celebre opera 'Il 3 maggio 1808'?",
+    "min": 1750,
+    "max": 1900,
+    "answer": 1814,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "A che età fu assassinato lo scrittore e regista Pier Paolo Pasolini?",
+    "min": 30,
+    "max": 80,
+    "answer": 53,
+    "unit": "anni"
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante sono le novelle narrate da Shahrazād nel celebre corpus mediorientale?",
+    "min": 100,
+    "max": 5000,
+    "answer": 1001,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno vide la luce la prima edizione de 'Il barone rampante' di Italo Calvino?",
+    "min": 1900,
+    "max": 2000,
+    "answer": 1957,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quanti gradini compongono la monumentale scalinata di Trinità dei Monti in Piazza di Spagna a Roma?",
+    "min": 50,
+    "max": 300,
+    "answer": 135,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "In che anno nacque il pittore surrealista Salvador Dalí?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1904,
+    "unit": ""
+  },
+  {
+    "category": "Letteratura e Arte",
+    "question": "Quante sono le tragedie scritte da Sofocle che si sono conservate per intero fino a noi?",
+    "min": 1,
+    "max": 30,
+    "answer": 7,
+    "unit": ""
   }
 ]

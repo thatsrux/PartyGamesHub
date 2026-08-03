@@ -16,402 +16,9152 @@ export interface JeopardyCategory {
 
 export const jeopardyCategories: JeopardyCategory[] = [
   {
-    name: "Cinema e Serie TV",
-    questions: {
-      100: [
-        { question: "Qual è il colore della pillola che Neo prende in Matrix?", answer: "Rossa" },
-        { question: "Chi interpreta Jack Dawson in Titanic?", answer: "Leonardo DiCaprio" },
-        { question: "Come si chiama il mago con la cicatrice a forma di saetta?", answer: "Harry Potter" },
-        { question: "In quale serie TV troviamo la famiglia Stark?", answer: "Il Trono di Spade (Game of Thrones)" },
-        { question: "Chi è l'orco verde protagonista dell'omonimo film d'animazione Dreamworks?", answer: "Shrek" }
+    "name": "Cinema e Serie TV",
+    "questions": {
+      "100": [
+        {
+          "question": "Qual è il colore della pillola che Neo prende in Matrix?",
+          "answer": "Rossa"
+        },
+        {
+          "question": "Chi interpreta Jack Dawson in Titanic?",
+          "answer": "Leonardo DiCaprio"
+        },
+        {
+          "question": "Come si chiama il mago con la cicatrice a forma di saetta?",
+          "answer": "Harry Potter"
+        },
+        {
+          "question": "In quale serie TV troviamo la famiglia Stark?",
+          "answer": "Il Trono di Spade (Game of Thrones)"
+        },
+        {
+          "question": "Chi è l'orco verde protagonista dell'omonimo film d'animazione Dreamworks?",
+          "answer": "Shrek"
+        },
+        {
+          "question": "In questa saga di fantascienza, Darth Vader rivela a Luke Skywalker di essere suo padre.",
+          "answer": "Star Wars / Guerre Stellari"
+        },
+        {
+          "question": "L'orco verde protagonista di una serie di film d'animazione DreamWorks, il cui migliore amico è Ciuchino.",
+          "answer": "Shrek"
+        },
+        {
+          "question": "Il mago con la cicatrice a forma di saetta sulla fronte, creato da J.K. Rowling.",
+          "answer": "Harry Potter"
+        },
+        {
+          "question": "Questo supereroe miliardario, interpretato da Robert Downey Jr., indossa un'armatura tecnologica rossa e oro.",
+          "answer": "Iron Man"
+        },
+        {
+          "question": "Il leone protagonista de 'Il Re Leone' che deve riprendersi il trono dallo zio Scar.",
+          "answer": "Simba"
+        },
+        {
+          "question": "Serie TV ambientata a Hawkins dove un gruppo di ragazzini affronta mostri del Sottosopra.",
+          "answer": "Stranger Things"
+        },
+        {
+          "question": "Il famosissimo idraulico baffuto protagonista del film d'animazione del 2023 campione d'incassi.",
+          "answer": "Super Mario"
+        },
+        {
+          "question": "Il pirata eccentrico e capitano della Perla Nera interpretato da Johnny Depp.",
+          "answer": "Jack Sparrow"
+        },
+        {
+          "question": "Il transatlantico affondato nel 1912 che dà il titolo al film di James Cameron con Leonardo DiCaprio.",
+          "answer": "Titanic"
+        },
+        {
+          "question": "Il supereroe di Gotham City noto anche come l'Uomo Pipistrello.",
+          "answer": "Batman"
+        },
+        {
+          "question": "La famiglia gialla creata da Matt Groening che vive a Springfield.",
+          "answer": "I Simpson"
+        },
+        {
+          "question": "Il film d'animazione Pixar in cui i giocattoli prendono vita quando gli umani non ci sono.",
+          "answer": "Toy Story"
+        },
+        {
+          "question": "La serie Netflix spagnola in cui un gruppo di rapinatori con maschere di Dalì assalta la Zecca di Stato.",
+          "answer": "La casa di carta"
+        },
+        {
+          "question": "Il supercattivo dell'universo Marvel che con uno schiocco di dita dimezza la popolazione dell'universo.",
+          "answer": "Thanos"
+        },
+        {
+          "question": "Il pesce pagliaccio protagonista di un film d'animazione Pixar in cui il padre attraversa l'oceano per cercarlo.",
+          "answer": "Nemo"
+        },
+        {
+          "question": "L'agente segreto britannico noto con la sigla 007.",
+          "answer": "James Bond"
+        },
+        {
+          "question": "L'anello forgiato da Sauron che deve essere distrutto nel Monte Fato dà il titolo a questa trilogia.",
+          "answer": "Il Signore degli Anelli"
+        },
+        {
+          "question": "Il simpatico pupazzo di neve animato dalla magia di Elsa in Frozen.",
+          "answer": "Olaf"
+        },
+        {
+          "question": "Serie TV in cui diverse nobili famiglie lottano per sedersi sul Trono di Spade.",
+          "answer": "Il Trono di Spade / Game of Thrones"
+        },
+        {
+          "question": "L'uomo ragno dell'universo Marvel, alter ego di Peter Parker.",
+          "answer": "Spider-Man"
+        },
+        {
+          "question": "Ha diretto e interpretato 'La vita è bella', vincendo l'Oscar come miglior attore protagonista.",
+          "answer": "Roberto Benigni"
+        },
+        {
+          "question": "È l'attore che interpreta l'iconico pirata Jack Sparrow nei film Disney.",
+          "answer": "Johnny Depp"
+        },
+        {
+          "question": "La serie TV epica della HBO ambientata nei Sette Regni di Westeros.",
+          "answer": "Il Trono di Spade (Game of Thrones)"
+        },
+        {
+          "question": "La saga cinematografica in cui un giovane mago combatte contro il signore oscuro Lord Voldemort.",
+          "answer": "Harry Potter"
+        },
+        {
+          "question": "Nella celebre frase della saga di Star Wars, Darth Vader dice a Luke Skywalker: 'Io sono tuo...'.",
+          "answer": "Padre"
+        },
+        {
+          "question": "È l'oscura città in cui vive e agisce il supereroe Batman.",
+          "answer": "Gotham City"
+        },
+        {
+          "question": "Ha composto la celebre colonna sonora per 'Il Re Leone' del 1994, vincendo un Premio Oscar.",
+          "answer": "Hans Zimmer"
+        },
+        {
+          "question": "Serie TV spagnola incentrata su un gruppo di abili ladri vestiti di rosso con maschere di Dalí.",
+          "answer": "La casa di carta"
+        },
+        {
+          "question": "Film di James Cameron del 1997 in cui Jack e Rose si innamorano a bordo di un celebre transatlantico.",
+          "answer": "Titanic"
+        },
+        {
+          "question": "L'attore che interpreta Tony Stark, ovvero Iron Man, nel Marvel Cinematic Universe.",
+          "answer": "Robert Downey Jr."
+        },
+        {
+          "question": "Serie animata satirica creata da Matt Groening, con una famiglia gialla che vive a Springfield.",
+          "answer": "I Simpson"
+        },
+        {
+          "question": "È l'autore dei romanzi fantasy da cui è tratta la trilogia cinematografica de 'Il Signore degli Anelli'.",
+          "answer": "J.R.R. Tolkien"
+        },
+        {
+          "question": "Film di fantascienza del 1999 in cui Neo, interpretato da Keanu Reeves, scopre la vera natura della realtà.",
+          "answer": "Matrix"
+        },
+        {
+          "question": "Il celebre regista italo-americano noto per capolavori gangster come 'Taxi Driver' e 'Quei bravi ragazzi'.",
+          "answer": "Martin Scorsese"
+        },
+        {
+          "question": "L'attrice protagonista della serie 'Mercoledì', incentrata sul noto personaggio della Famiglia Addams.",
+          "answer": "Jenna Ortega"
+        },
+        {
+          "question": "In questa popolarissima sitcom degli anni '90, sei amici si incontrano regolarmente al caffè Central Perk.",
+          "answer": "Friends"
+        },
+        {
+          "question": "Il mostro gigante giapponese dalla pelle squamosa, protagonista di innumerevoli film catastrofici a partire dal 1954.",
+          "answer": "Godzilla"
+        },
+        {
+          "question": "Attore comico italiano celebre per aver creato e interpretato il ragionier Ugo Fantozzi.",
+          "answer": "Paolo Villaggio"
+        },
+        {
+          "question": "L'agenzia governativa in cui lavorano gli agenti speciali Mulder e Scully nella serie 'X-Files'.",
+          "answer": "FBI"
+        },
+        {
+          "question": "Il film d'animazione Disney Pixar in cui un pesciolino pagliaccio viene catturato e suo padre parte per salvarlo.",
+          "answer": "Alla ricerca di Nemo"
+        }
       ],
-      200: [
-        { question: "Quale attore interpreta Iron Man nel Marvel Cinematic Universe?", answer: "Robert Downey Jr." },
-        { question: "Come si chiama il locale dove lavora Penny in The Big Bang Theory?", answer: "The Cheesecake Factory" },
-        { question: "Chi ha diretto il film Avatar del 2009?", answer: "James Cameron" },
-        { question: "Quale serie Netflix è ambientata nella fittizia Hawkins, Indiana?", answer: "Stranger Things" },
-        { question: "Come si chiama il mafioso protagonista della serie I Soprano?", answer: "Tony Soprano" }
+      "200": [
+        {
+          "question": "Quale attore interpreta Iron Man nel Marvel Cinematic Universe?",
+          "answer": "Robert Downey Jr."
+        },
+        {
+          "question": "Come si chiama il locale dove lavora Penny in The Big Bang Theory?",
+          "answer": "The Cheesecake Factory"
+        },
+        {
+          "question": "Chi ha diretto il film Avatar del 2009?",
+          "answer": "James Cameron"
+        },
+        {
+          "question": "Quale serie Netflix è ambientata nella fittizia Hawkins, Indiana?",
+          "answer": "Stranger Things"
+        },
+        {
+          "question": "Come si chiama il mafioso protagonista della serie I Soprano?",
+          "answer": "Tony Soprano"
+        },
+        {
+          "question": "Il velocista scarlatto della DC Comics che ha avuto diverse serie TV a lui dedicate.",
+          "answer": "Flash"
+        },
+        {
+          "question": "Il film in cui Keanu Reeves interpreta Neo, l'Eletto che scopre che il mondo è una simulazione.",
+          "answer": "Matrix"
+        },
+        {
+          "question": "La principessa guerriera amazzone della DC Comics, interpretata al cinema da Gal Gadot.",
+          "answer": "Wonder Woman"
+        },
+        {
+          "question": "Il dinosauro geneticamente modificato, principale attrazione del parco nel film 'Jurassic Park'.",
+          "answer": "T-Rex / Tyrannosaurus Rex"
+        },
+        {
+          "question": "Il simpatico extraterrestre che vuole 'telefonare casa' in un celebre film di Steven Spielberg.",
+          "answer": "E.T. l'extra-terrestre"
+        },
+        {
+          "question": "Il liceale che viaggia nel tempo con una DeLorean nella trilogia di 'Ritorno al futuro'.",
+          "answer": "Marty McFly"
+        },
+        {
+          "question": "Serie medical drama longeva in cui la protagonista è la dottoressa Meredith Grey.",
+          "answer": "Grey's Anatomy"
+        },
+        {
+          "question": "Il protagonista di 'Breaking Bad', professore di chimica che diventa un produttore di metanfetamina.",
+          "answer": "Walter White"
+        },
+        {
+          "question": "La serie in cui zombi cannibali sono chiamati 'vaganti', guidata dallo sceriffo Rick Grimes.",
+          "answer": "The Walking Dead"
+        },
+        {
+          "question": "L'attore che interpreta l'assassino professionista in cerca di vendetta per il suo cane in 'John Wick'.",
+          "answer": "Keanu Reeves"
+        },
+        {
+          "question": "Il nome dell'intelligenza artificiale dell'astronave in '2001: Odissea nello spazio'.",
+          "answer": "HAL 9000"
+        },
+        {
+          "question": "Il professore di archeologia armato di frusta e cappello interpretato da Harrison Ford.",
+          "answer": "Indiana Jones"
+        },
+        {
+          "question": "Il supereroe cieco della Marvel, avvocato di giorno e giustiziere di notte a Hell's Kitchen.",
+          "answer": "Daredevil"
+        },
+        {
+          "question": "La famiglia Addams ha una mano domestica che si muove da sola; come si chiama?",
+          "answer": "Mano"
+        },
+        {
+          "question": "La pellicola di Quentin Tarantino con Uma Thurman nei panni della 'Sposa' in cerca di vendetta.",
+          "answer": "Kill Bill"
+        },
+        {
+          "question": "La popolare sitcom con sei amici che si ritrovano spesso nella caffetteria Central Perk.",
+          "answer": "Friends"
+        },
+        {
+          "question": "Il pugile italo-americano di Filadelfia interpretato e creato da Sylvester Stallone.",
+          "answer": "Rocky Balboa"
+        },
+        {
+          "question": "Il film con Tom Hanks in cui il protagonista racconta la sua straordinaria vita seduto su una panchina.",
+          "answer": "Forrest Gump"
+        },
+        {
+          "question": "Il nome del villaggio dei Galli che resiste all'invasione romana grazie a una pozione magica.",
+          "answer": "Villaggio di Asterix"
+        },
+        {
+          "question": "L'epopea mafiosa di Francis Ford Coppola basata sul romanzo di Mario Puzo.",
+          "answer": "Il Padrino"
+        },
+        {
+          "question": "L'attore premio Oscar per aver interpretato l'indimenticabile Joker nel film 'Il Cavaliere Oscuro'.",
+          "answer": "Heath Ledger"
+        },
+        {
+          "question": "Serie TV fantascientifica ambientata nella fittizia cittadina di Hawkins durante gli anni '80.",
+          "answer": "Stranger Things"
+        },
+        {
+          "question": "Regista visionario e dark, noto per film come 'Edward mani di forbice' e 'La sposa cadavere'.",
+          "answer": "Tim Burton"
+        },
+        {
+          "question": "Il nome dell'attore che interpreta il professore di chimica Walter White nella serie 'Breaking Bad'.",
+          "answer": "Bryan Cranston"
+        },
+        {
+          "question": "Il film in cui il protagonista corre per gli Stati Uniti e dice che la vita è come una scatola di...",
+          "answer": "Cioccolatini"
+        },
+        {
+          "question": "L'attore che pronuncia allo specchio la celebre battuta 'Stai parlando con me?' nel film 'Taxi Driver'.",
+          "answer": "Robert De Niro"
+        },
+        {
+          "question": "L'acronimo TARDIS è la cabina di polizia usata come macchina del tempo da questo famoso alieno britannico.",
+          "answer": "Doctor Who"
+        },
+        {
+          "question": "Ha diretto thriller cerebrali e di successo come 'Inception', 'Interstellar' e 'Oppenheimer'.",
+          "answer": "Christopher Nolan"
+        },
+        {
+          "question": "L'attrice protagonista nel ruolo della ribelle Katniss Everdeen nella saga cinematografica di 'Hunger Games'.",
+          "answer": "Jennifer Lawrence"
+        },
+        {
+          "question": "Serie thriller in cui il protagonista lavora come ematologo per la polizia di Miami e di notte come serial killer.",
+          "answer": "Dexter"
+        },
+        {
+          "question": "L'attore che interpreta il coraggioso archeologo Indiana Jones e il contrabbandiere Han Solo.",
+          "answer": "Harrison Ford"
+        },
+        {
+          "question": "Il film del 1985 in cui il giovane Marty McFly viaggia per errore nel tempo usando una DeLorean modificata.",
+          "answer": "Ritorno al futuro"
+        },
+        {
+          "question": "La famiglia mafiosa italo-americana del New Jersey protagonista della celebre serie HBO di David Chase.",
+          "answer": "I Soprano"
+        },
+        {
+          "question": "Il luogo misterioso e pieno di segreti su cui si schianta il volo Oceanic 815 nella serie 'Lost'.",
+          "answer": "Un'isola"
+        },
+        {
+          "question": "Regista noto per i dialoghi brillanti e la violenza stilizzata in 'Pulp Fiction' e 'Kill Bill'.",
+          "answer": "Quentin Tarantino"
+        },
+        {
+          "question": "Il nome del protagonista del film 'Il Gladiatore', interpretato da Russell Crowe, che sfida l'imperatore.",
+          "answer": "Massimo Decimo Meridio"
+        },
+        {
+          "question": "Serie TV mockumentary su un'azienda cartaria di Scranton, con Steve Carell nel ruolo del capo.",
+          "answer": "The Office"
+        },
+        {
+          "question": "Il franchise horror macabro che vede come antagonista il sadico enigmista noto come Jigsaw.",
+          "answer": "Saw (L'enigmista)"
+        },
+        {
+          "question": "L'attore afroamericano vincitore dell'Oscar per 'Training Day' e noto per aver interpretato Malcolm X.",
+          "answer": "Denzel Washington"
+        },
+        {
+          "question": "Film del 1982 di Steven Spielberg in cui un simpatico extraterrestre vuole a tutti i costi 'telefonare casa'.",
+          "answer": "E.T. l'extra-terrestre"
+        }
       ],
-      300: [
-        { question: "Per quale film Leonardo DiCaprio ha vinto il suo primo premio Oscar come miglior attore?", answer: "Revenant - Redivivo" },
-        { question: "Chi ha scritto e diretto il film Pulp Fiction?", answer: "Quentin Tarantino" },
-        { question: "Quale serie TV ha come protagonista il professore di chimica Walter White?", answer: "Breaking Bad" },
-        { question: "In che anno è uscito il primo film della saga di Star Wars?", answer: "1977" },
-        { question: "Come si chiama l'attore che interpreta il Joker ne 'Il cavaliere oscuro'?", answer: "Heath Ledger" }
+      "300": [
+        {
+          "question": "Per quale film Leonardo DiCaprio ha vinto il suo primo premio Oscar come miglior attore?",
+          "answer": "Revenant - Redivivo"
+        },
+        {
+          "question": "Chi ha scritto e diretto il film Pulp Fiction?",
+          "answer": "Quentin Tarantino"
+        },
+        {
+          "question": "Quale serie TV ha come protagonista il professore di chimica Walter White?",
+          "answer": "Breaking Bad"
+        },
+        {
+          "question": "In che anno è uscito il primo film della saga di Star Wars?",
+          "answer": "1977"
+        },
+        {
+          "question": "Come si chiama l'attore che interpreta il Joker ne 'Il cavaliere oscuro'?",
+          "answer": "Heath Ledger"
+        },
+        {
+          "question": "Nella serie 'The Boys', come si chiama il leader spietato e corrotto dei Sette?",
+          "answer": "Patriota / Homelander"
+        },
+        {
+          "question": "Regista noto per i suoi intrecci complessi in film come 'Inception', 'Interstellar' e 'Tenet'.",
+          "answer": "Christopher Nolan"
+        },
+        {
+          "question": "Il vero nome di Gollum, la creatura corrotta dall'Unico Anello.",
+          "answer": "Sméagol"
+        },
+        {
+          "question": "L'attore vincitore del premio Oscar per la sua interpretazione del Joker nel film del 2019.",
+          "answer": "Joaquin Phoenix"
+        },
+        {
+          "question": "La serie antologica britannica creata da Charlie Brooker che esplora il lato oscuro della tecnologia.",
+          "answer": "Black Mirror"
+        },
+        {
+          "question": "Il pianeta desertico, unico luogo dove si trova la Spezia, fulcro del film 'Dune'.",
+          "answer": "Arrakis"
+        },
+        {
+          "question": "L'assassino mascherato della serie di film horror 'Scream'.",
+          "answer": "Ghostface"
+        },
+        {
+          "question": "La detective che risolve casi intricati a Easttown, interpretata da Kate Winslet.",
+          "answer": "Mare Sheehan (Omicidio a Easttown)"
+        },
+        {
+          "question": "Il nome del gatto arancione che odia i lunedì e ama le lasagne.",
+          "answer": "Garfield"
+        },
+        {
+          "question": "La famiglia mafiosa del New Jersey protagonista di una delle serie più acclamate della HBO.",
+          "answer": "I Soprano"
+        },
+        {
+          "question": "Il premio Oscar alla miglior regia per 'Parasite', il primo film non in lingua inglese a vincere il premio principale.",
+          "answer": "Bong Joon-ho"
+        },
+        {
+          "question": "La cittadina fittizia del Maine dove lo scrittore Stephen King ambienta molte delle sue storie e film, come 'It'.",
+          "answer": "Derry"
+        },
+        {
+          "question": "La serie comica in forma di falso documentario ambientata negli uffici della Dunder Mifflin.",
+          "answer": "The Office"
+        },
+        {
+          "question": "Il cattivo del film 'Die Hard - Trappola di cristallo', interpretato da Alan Rickman.",
+          "answer": "Hans Gruber"
+        },
+        {
+          "question": "Nella serie 'Peaky Blinders', chi è il leader carismatico della famiglia Shelby?",
+          "answer": "Tommy Shelby"
+        },
+        {
+          "question": "Il nome del cacciatore di androidi (replicanti) interpretato da Harrison Ford in 'Blade Runner'.",
+          "answer": "Rick Deckard"
+        },
+        {
+          "question": "L'attore che ha interpretato Wolverine in molteplici film degli X-Men.",
+          "answer": "Hugh Jackman"
+        },
+        {
+          "question": "La serie Netflix basata su scacchi e dipendenza, con protagonista Anya Taylor-Joy.",
+          "answer": "La regina degli scacchi / The Queen's Gambit"
+        },
+        {
+          "question": "L'intelligenza artificiale di Iron Man che poi prende forma fisica diventando Visione.",
+          "answer": "J.A.R.V.I.S."
+        },
+        {
+          "question": "Il nome del locale malfamato gestito da umani e frequentato da alieni a Mos Eisley in 'Star Wars'.",
+          "answer": "La Cantina / Cantina di Chalmun"
+        },
+        {
+          "question": "Serie antologica britannica creata da Charlie Brooker che esplora in modo inquietante i lati oscuri della tecnologia.",
+          "answer": "Black Mirror"
+        },
+        {
+          "question": "Il regista del visionario capolavoro di fantascienza del 1968 '2001: Odissea nello spazio'.",
+          "answer": "Stanley Kubrick"
+        },
+        {
+          "question": "L'attrice sudafricana che ha interpretato la tenace guerriera Furiosa nel film 'Mad Max: Fury Road'.",
+          "answer": "Charlize Theron"
+        },
+        {
+          "question": "La geniale sitcom britannica creata e interpretata da Phoebe Waller-Bridge, tratta da un suo spettacolo teatrale.",
+          "answer": "Fleabag"
+        },
+        {
+          "question": "Il film del 1994 in cui i personaggi di Tim Robbins e Morgan Freeman stringono amicizia nel carcere di Shawshank.",
+          "answer": "Le ali della libertà"
+        },
+        {
+          "question": "L'attore irlandese che interpreta il tormentato boss Thomas Shelby nella serie 'Peaky Blinders'.",
+          "answer": "Cillian Murphy"
+        },
+        {
+          "question": "Regista sudcoreano che ha fatto la storia vincendo l'Oscar al miglior film con il suo acclamato 'Parasite'.",
+          "answer": "Bong Joon-ho"
+        },
+        {
+          "question": "L'ospedale di Seattle in cui sono ambientate le vicende mediche e sentimentali della longeva serie 'Grey's Anatomy'.",
+          "answer": "Grey Sloan Memorial Hospital (o Seattle Grace)"
+        },
+        {
+          "question": "Cult del 1982 di Ridley Scott ispirato al romanzo 'Il cacciatore di androidi' del geniale Philip K. Dick.",
+          "answer": "Blade Runner"
+        },
+        {
+          "question": "Il creatore e showrunner della pluripremiata serie 'Mad Men', ambientata nel mondo pubblicitario degli anni '60.",
+          "answer": "Matthew Weiner"
+        },
+        {
+          "question": "Il nome del club clandestino nel film di David Fincher in cui 'la prima regola è non parlare del club'.",
+          "answer": "Fight Club"
+        },
+        {
+          "question": "L'attrice che ha vinto tre premi Oscar per i ruoli da protagonista, tra cui 'Fargo' e 'Nomadland'.",
+          "answer": "Frances McDormand"
+        },
+        {
+          "question": "Serie HBO basata su un film di Michael Crichton, ambientata in un futuristico parco a tema western popolato da androidi.",
+          "answer": "Westworld"
+        },
+        {
+          "question": "Il vanitoso e psicopatico broker di Wall Street interpretato da Christian Bale nel film 'American Psycho'.",
+          "answer": "Patrick Bateman"
+        },
+        {
+          "question": "Regista noto per i suoi imprevedibili colpi di scena in thriller come 'Il sesto senso', 'Unbreakable' e 'Split'.",
+          "answer": "M. Night Shyamalan"
+        },
+        {
+          "question": "Il commissario di polizia siciliano creato dai romanzi di Andrea Camilleri e interpretato in TV da Luca Zingaretti.",
+          "answer": "Salvo Montalbano"
+        },
+        {
+          "question": "L'anno di uscita nei cinema del primissimo film della saga di 'Guerre Stellari', ovvero l'Episodio IV.",
+          "answer": "1977"
+        },
+        {
+          "question": "Acclamata serie TV spin-off prequel di Breaking Bad, incentrata sull'evoluzione di un astuto avvocato da due soldi.",
+          "answer": "Better Call Saul"
+        },
+        {
+          "question": "Capolavoro di animazione giapponese del 2001 diretto da Hayao Miyazaki, vincitore del Premio Oscar.",
+          "answer": "La città incantata"
+        },
+        {
+          "question": "L'attore spagnolo che interpreta l'inquietante killer Anton Chigurh nel thriller 'Non è un paese per vecchi'.",
+          "answer": "Javier Bardem"
+        }
       ],
-      400: [
-        { question: "Quale film ha vinto il maggior numero di premi Oscar nella storia (11), insieme a Titanic e Il Signore degli Anelli?", answer: "Ben-Hur" },
-        { question: "Come si chiama il creatore della serie televisiva Mad Men?", answer: "Matthew Weiner" },
-        { question: "Chi è il regista del film muto Metropolis del 1927?", answer: "Fritz Lang" },
-        { question: "In quale film di Stanley Kubrick il computer HAL 9000 impazzisce?", answer: "2001: Odissea nello spazio" },
-        { question: "Quale attrice detiene il record per il maggior numero di candidature ai premi Oscar?", answer: "Meryl Streep" }
+      "400": [
+        {
+          "question": "Quale film ha vinto il maggior numero di premi Oscar nella storia (11), insieme a Titanic e Il Signore degli Anelli?",
+          "answer": "Ben-Hur"
+        },
+        {
+          "question": "Come si chiama il creatore della serie televisiva Mad Men?",
+          "answer": "Matthew Weiner"
+        },
+        {
+          "question": "Chi è il regista del film muto Metropolis del 1927?",
+          "answer": "Fritz Lang"
+        },
+        {
+          "question": "In quale film di Stanley Kubrick il computer HAL 9000 impazzisce?",
+          "answer": "2001: Odissea nello spazio"
+        },
+        {
+          "question": "Quale attrice detiene il record per il maggior numero di candidature ai premi Oscar?",
+          "answer": "Meryl Streep"
+        },
+        {
+          "question": "La serie sci-fi in cui i dipendenti della Lumon Industries subiscono una procedura per separare i ricordi lavorativi da quelli privati.",
+          "answer": "Scissione / Severance"
+        },
+        {
+          "question": "Il film muto del 1927 di Fritz Lang considerato un capolavoro dell'espressionismo tedesco.",
+          "answer": "Metropolis"
+        },
+        {
+          "question": "Il nome del demone che possiede la giovane Regan nel classico dell'horror 'L'esorcista'.",
+          "answer": "Pazuzu"
+        },
+        {
+          "question": "La città sotterranea, l'ultima roccaforte dell'umanità nel mondo di Matrix.",
+          "answer": "Zion"
+        },
+        {
+          "question": "L'attrice che ha vinto tre premi Oscar come migliore attrice protagonista, recitando in 'Nomadland', 'Fargo' e 'Tre manifesti a Ebbing, Missouri'.",
+          "answer": "Frances McDormand"
+        },
+        {
+          "question": "La serie spin-off prequel di 'Breaking Bad' incentrata su un avvocato dai metodi poco ortodossi.",
+          "answer": "Better Call Saul"
+        },
+        {
+          "question": "Il nome dell'albergo isolato dove Jack Torrance impazzisce in 'Shining'.",
+          "answer": "Overlook Hotel"
+        },
+        {
+          "question": "Il nome della prigione in cui è ambientato 'Le ali della libertà' (The Shawshank Redemption).",
+          "answer": "Shawshank State Penitentiary"
+        },
+        {
+          "question": "L'attore che interpreta l'enigmatico e spietato Anton Chigurh in 'Non è un paese per vecchi'.",
+          "answer": "Javier Bardem"
+        },
+        {
+          "question": "La commedia drammatica in cui Jim Carrey scopre che la sua intera vita è un reality show televisivo.",
+          "answer": "The Truman Show"
+        },
+        {
+          "question": "Serie in cui il governatore britannico di Nassau deve fronteggiare il Capitano Flint, prequel de 'L'isola del tesoro'.",
+          "answer": "Black Sails"
+        },
+        {
+          "question": "Il film vincitore dell'Oscar in cui un ragazzo delle baraccopoli indiane partecipa a 'Chi vuol essere milionario?'.",
+          "answer": "The Millionaire / Slumdog Millionaire"
+        },
+        {
+          "question": "Il co-creatore di 'Seinfeld' che interpreta una versione romanzata di se stesso in 'Curb Your Enthusiasm'.",
+          "answer": "Larry David"
+        },
+        {
+          "question": "L'iconico detective privato di Los Angeles interpretato da Humphrey Bogart ne 'Il mistero del falco'.",
+          "answer": "Sam Spade"
+        },
+        {
+          "question": "La serie in cui una giovane donna sopravvissuta a un culto cerca di rifarsi una vita a New York, scritta da Tina Fey.",
+          "answer": "Unbreakable Kimmy Schmidt"
+        },
+        {
+          "question": "Il capolavoro di Sergio Leone del 1984 con Robert De Niro, racconto epico della malavita ebraica a New York.",
+          "answer": "C'era una volta in America"
+        },
+        {
+          "question": "L'azienda fittizia al centro dello scandalo aziendale nella serie HBO 'Succession'.",
+          "answer": "Waystar Royco"
+        },
+        {
+          "question": "Il creatore e regista della serie 'Twin Peaks' insieme a Mark Frost.",
+          "answer": "David Lynch"
+        },
+        {
+          "question": "Il nome del samurai protagonista del film di Akira Kurosawa 'La sfida del samurai' (Yojimbo).",
+          "answer": "Sanjuro"
+        },
+        {
+          "question": "L'esclusivo resort hawaiano, e in seguito siciliano, in cui si svolgono le vicende grottesche dell'omonima serie antologica.",
+          "answer": "The White Lotus"
+        },
+        {
+          "question": "Il vero nome dell'attore noto per ruoli action e per essere il volto dell'inarrestabile sicario John Wick.",
+          "answer": "Keanu Reeves"
+        },
+        {
+          "question": "Serie TV creata da Damon Lindelof basata su una misteriosa e inspiegabile 'dipartita' del 2% della popolazione mondiale.",
+          "answer": "The Leftovers"
+        },
+        {
+          "question": "Il nome della malvagia multinazionale tecnologica fittizia al centro delle indagini informatiche nella serie 'Mr. Robot'.",
+          "answer": "E Corp (Evil Corp)"
+        },
+        {
+          "question": "Film muto tedesco del 1927 diretto da Fritz Lang, unanimemente considerato un capolavoro dell'espressionismo cinematografico.",
+          "answer": "Metropolis"
+        },
+        {
+          "question": "L'attrice bionda protagonista dell'intricato capolavoro di Alfred Hitchcock del 1958, 'La donna che visse due volte'.",
+          "answer": "Kim Novak"
+        },
+        {
+          "question": "Serie drammatica che racconta l'ascesa e la disastrosa caduta dell'imprenditrice Elizabeth Holmes, fondatrice di Theranos.",
+          "answer": "The Dropout"
+        },
+        {
+          "question": "L'attore giapponese storico feticcio del regista Akira Kurosawa, formidabile star in film come 'I sette samurai'.",
+          "answer": "Toshiro Mifune"
+        },
+        {
+          "question": "Il titolo del primo lungometraggio della storia interamente animato in CGI, realizzato dalla Pixar nel 1995.",
+          "answer": "Toy Story"
+        },
+        {
+          "question": "Il cognome della famiglia ricchissima e altamente disfunzionale al centro della premiata serie TV 'Succession'.",
+          "answer": "Roy"
+        },
+        {
+          "question": "Regista iraniano vincitore di due premi Oscar per i suoi drammi familiari intensi: 'Una separazione' e 'Il cliente'.",
+          "answer": "Asghar Farhadi"
+        },
+        {
+          "question": "Serie crime scandinava in cui le polizie di due paesi devono collaborare dopo il ritrovamento di un cadavere su un ponte di confine.",
+          "answer": "The Bridge (Bron/Broen)"
+        },
+        {
+          "question": "Esordio folgorante alla regia di Quentin Tarantino, sui cruenti retroscena e paranoie di una rapina andata storta.",
+          "answer": "Le iene (Reservoir Dogs)"
+        },
+        {
+          "question": "L'attore che ha dato il volto all'eccentrico agente speciale FBI Dale Cooper nella serie cult 'I segreti di Twin Peaks'.",
+          "answer": "Kyle MacLachlan"
+        },
+        {
+          "question": "Il Maestro e regista italiano vincitore di svariati Oscar per 'L'ultimo imperatore' e noto per 'Ultimo tango a Parigi'.",
+          "answer": "Bernardo Bertolucci"
+        },
+        {
+          "question": "L'agenzia di spionaggio internazionale segreta al centro delle prime stagioni della irriverente commedia d'animazione 'Archer'.",
+          "answer": "ISIS"
+        },
+        {
+          "question": "Estremo body horror francese vincitore della Palma d'oro 2021 diretto da Julia Ducournau, con una protagonista ibrida.",
+          "answer": "Titane"
+        },
+        {
+          "question": "La miniserie HBO del 2019 che racconta in modo accurato e drammatico il letale disastro nucleare del 1986 in URSS.",
+          "answer": "Chernobyl"
+        },
+        {
+          "question": "Acclamato regista messicano che ha diretto pellicole epiche come 'Roma' e 'Gravity', vincendo l'Oscar per entrambe.",
+          "answer": "Alfonso Cuarón"
+        },
+        {
+          "question": "Il geniale compositore italiano della leggendaria ed epica colonna sonora del film western 'Il buono, il brutto, il cattivo'.",
+          "answer": "Ennio Morricone"
+        },
+        {
+          "question": "L'attore che interpreta l'insegnante di batteria perfezionista, abusivo e tirannico Terence Fletcher nel film 'Whiplash'.",
+          "answer": "J.K. Simmons"
+        }
       ],
-      500: [
-        { question: "Come si chiamava l'attore protagonista della serie originale di Doctor Who nel 1963?", answer: "William Hartnell" },
-        { question: "Quale film giapponese del 1954 di Akira Kurosawa ha ispirato I magnifici sette?", answer: "I sette samurai" },
-        { question: "Chi ha vinto la Palma d'Oro al Festival di Cannes con il film 'Taxi Driver'?", answer: "Martin Scorsese" },
-        { question: "Qual è il titolo del primo lungometraggio animato interamente in CGI della Pixar?", answer: "Toy Story" },
-        { question: "Chi ha composto la colonna sonora del film Il buono, il brutto, il cattivo?", answer: "Ennio Morricone" }
+      "500": [
+        {
+          "question": "Come si chiamava l'attore protagonista della serie originale di Doctor Who nel 1963?",
+          "answer": "William Hartnell"
+        },
+        {
+          "question": "Quale film giapponese del 1954 di Akira Kurosawa ha ispirato I magnifici sette?",
+          "answer": "I sette samurai"
+        },
+        {
+          "question": "Chi ha vinto la Palma d'Oro al Festival di Cannes con il film 'Taxi Driver'?",
+          "answer": "Martin Scorsese"
+        },
+        {
+          "question": "Qual è il titolo del primo lungometraggio animato interamente in CGI della Pixar?",
+          "answer": "Toy Story"
+        },
+        {
+          "question": "Chi ha composto la colonna sonora del film Il buono, il brutto, il cattivo?",
+          "answer": "Ennio Morricone"
+        },
+        {
+          "question": "Il nome dell'organizzazione segreta che monitora le anomalie temporali nella serie 'Loki'.",
+          "answer": "TVA (Time Variance Authority)"
+        },
+        {
+          "question": "Nel film 'Blade Runner 2049', qual è il nome della compagnia che produce i nuovi modelli di replicanti?",
+          "answer": "Wallace Corporation"
+        },
+        {
+          "question": "La serie d'animazione per adulti di culto in cui un cavallo antropomorfo affronta depressione e fama hollywoodiana.",
+          "answer": "BoJack Horseman"
+        },
+        {
+          "question": "Il macguffin del film 'Pulp Fiction', il cui contenuto brillante rimane un mistero.",
+          "answer": "La valigetta (di Marsellus Wallace)"
+        },
+        {
+          "question": "L'attore e regista che ha diretto il film indipendente a basso budget 'Clerks' nel 1994.",
+          "answer": "Kevin Smith"
+        },
+        {
+          "question": "La serie HBO ambientata a Baltimora che esplora il rapporto tra polizia, droga, politica, scuole e stampa.",
+          "answer": "The Wire"
+        },
+        {
+          "question": "Il nome della moneta d'oro usata dagli assassini nel mondo di 'John Wick'.",
+          "answer": "Continental Coin"
+        },
+        {
+          "question": "Regista iraniano vincitore di due premi Oscar per i film 'Una separazione' e 'Il cliente'.",
+          "answer": "Asghar Farhadi"
+        },
+        {
+          "question": "L'alter ego del detective Rust Cohle quando operava sotto copertura, narrato nella prima stagione di 'True Detective'.",
+          "answer": "Crash"
+        },
+        {
+          "question": "L'inquietante film del 2014 di Jonathan Glazer in cui Scarlett Johansson interpreta un'entità aliena in Scozia.",
+          "answer": "Under the Skin"
+        },
+        {
+          "question": "Il nome della nave da esplorazione spaziale che nel 1979 capta un SOS alieno nel primo 'Alien'.",
+          "answer": "Nostromo"
+        },
+        {
+          "question": "In 'Mad Men', qual è l'agenzia pubblicitaria in cui lavora Don Draper nelle prime stagioni?",
+          "answer": "Sterling Cooper"
+        },
+        {
+          "question": "L'opera prima di Quentin Tarantino, film di rapina del 1992 in cui i protagonisti hanno nomi di colori.",
+          "answer": "Le iene / Reservoir Dogs"
+        },
+        {
+          "question": "Il capolavoro di Orson Welles del 1941, spesso citato come il miglior film della storia del cinema, che indaga sul significato della parola 'Rosabella' (Rosebud).",
+          "answer": "Quarto Potere / Citizen Kane"
+        },
+        {
+          "question": "Il nome della cittadina tedesca in cui avvengono misteriose sparizioni nella serie sci-fi Netflix 'Dark'.",
+          "answer": "Winden"
+        },
+        {
+          "question": "Il celebre compositore italiano autore della colonna sonora de 'Il buono, il brutto, il cattivo'.",
+          "answer": "Ennio Morricone"
+        },
+        {
+          "question": "Il nome dell'imponente verme delle sabbie di Arrakis nell'universo di 'Dune'.",
+          "answer": "Shai-Hulud"
+        },
+        {
+          "question": "Il film sudcoreano di Park Chan-wook del 2003, parte della 'trilogia della vendetta', incentrato su un uomo imprigionato per 15 anni.",
+          "answer": "Oldboy"
+        },
+        {
+          "question": "In 'Mr. Robot', come si chiama il gruppo di hacker attivisti guidato da Mr. Robot?",
+          "answer": "fsociety"
+        },
+        {
+          "question": "L'iconico film sovietico di fantascienza del 1972 diretto da Andrej Tarkovskij, ambientato in una stazione spaziale in orbita attorno a un pianeta misterioso.",
+          "answer": "Solaris"
+        },
+        {
+          "question": "Capolavoro di fantascienza sovietico del 1972 diretto dal geniale Andrej Tarkovskij basato su un romanzo di Stanislaw Lem.",
+          "answer": "Solaris"
+        },
+        {
+          "question": "La cruda e realistica serie TV creata da David Simon, celebre per il suo impareggiabile ritratto criminale della città di Baltimora.",
+          "answer": "The Wire"
+        },
+        {
+          "question": "L'attrice francese iconica protagonista del film 'Tre colori: Film Blu' dell'acclamato regista polacco Krzysztof Kieślowski.",
+          "answer": "Juliette Binoche"
+        },
+        {
+          "question": "Il nome della piovosa cittadina tedesca fittizia in cui si svolgono gli oscuri e intricati viaggi temporali della serie Netflix 'Dark'.",
+          "answer": "Winden"
+        },
+        {
+          "question": "Il regista, attore e pioniere del cinema muto che ha diretto capolavori come 'Il monello' e creato l'intramontabile personaggio di Charlot.",
+          "answer": "Charlie Chaplin"
+        },
+        {
+          "question": "La titanica miniserie tedesca in più stagioni diretta da Edgar Reitz che racconta la storia del XX secolo tramite il villaggio di Schabbach.",
+          "answer": "Heimat"
+        },
+        {
+          "question": "Film del 1939 diretto da Jean Renoir, considerato da molti critici uno dei vertici del cinema francese, satira graffiante sull'alta società.",
+          "answer": "La regola del gioco"
+        },
+        {
+          "question": "Il creatore della geniale, cospirazionista e controversa serie britannica dai colori sgargianti 'Utopia', andata in onda nel 2013.",
+          "answer": "Dennis Kelly"
+        },
+        {
+          "question": "L'attore svedese volto iconico nel cinema di Ingmar Bergman per aver, tra l'altro, giocato a scacchi con la Morte in 'Il settimo sigillo'.",
+          "answer": "Max von Sydow"
+        },
+        {
+          "question": "Il film capostipite del Neo-Realismo italiano diretto da Roberto Rossellini nel 1945 con protagonista un'indimenticabile Anna Magnani.",
+          "answer": "Roma città aperta"
+        },
+        {
+          "question": "La complessa serie sci-fi canadese in cui la protagonista Sarah Manning scopre un'oscura cospirazione legata a cloni perfetti.",
+          "answer": "Orphan Black"
+        },
+        {
+          "question": "Il pioniere del cinema Georges Méliès è passato alla storia in particolare per il suo visionario corto del 1902 intitolato 'Viaggio nella...'.",
+          "answer": "Luna"
+        },
+        {
+          "question": "Apprezzatissima serie TV comedy francese su una talent agency di Parigi, nota internazionalmente col titolo 'Call My Agent!'.",
+          "answer": "Dix pour cent"
+        },
+        {
+          "question": "Regista rumeno figura di spicco della New Wave del suo Paese, vincitore della Palma d'oro per il drammatico '4 mesi, 3 settimane, 2 giorni'.",
+          "answer": "Cristian Mungiu"
+        },
+        {
+          "question": "L'investigatore belga protagonista di innumerevoli gialli di Agatha Christie, interpretato magistralmente da David Suchet in TV.",
+          "answer": "Hercule Poirot"
+        },
+        {
+          "question": "Il film muto del 1922, un macabro documentario romanzato sulla stregoneria e demonologia, diretto dallo scandinavo Benjamin Christensen.",
+          "answer": "La stregoneria attraverso i secoli (Häxan)"
+        },
+        {
+          "question": "La serie comedy acclamata dalla critica, ambientata in una riserva indigena dell'Oklahoma, ideata da Sterlin Harjo e Taika Waititi.",
+          "answer": "Reservation Dogs"
+        },
+        {
+          "question": "Attrice asiatica di ineguagliabile fascino e protagonista dell'indimenticabile film romantico del 2000 'In the Mood for Love'.",
+          "answer": "Maggie Cheung"
+        },
+        {
+          "question": "Serie crime e politica italiana andata in onda su Sky Atlantic incentrata sullo scandalo Tangentopoli, con Stefano Accorsi.",
+          "answer": "1992"
+        },
+        {
+          "question": "L'enigmatico e onirico capolavoro del 2001 diretto da David Lynch, il cui titolo originale prende il nome da una strada collinare di Los Angeles.",
+          "answer": "Mulholland Drive"
+        }
       ]
     }
   },
   {
-    name: "Storia e Mitologia",
-    questions: {
-      100: [
-        { question: "Chi è il re degli dei nella mitologia greca?", answer: "Zeus" },
-        { question: "In che anno fu scoperta l'America da Cristoforo Colombo?", answer: "1492" },
-        { question: "Chi fu il primo imperatore romano?", answer: "Augusto (Ottaviano)" },
-        { question: "Come si chiamava l'eroe greco il cui unico punto debole era il tallone?", answer: "Achille" },
-        { question: "Quale civiltà ha costruito le piramidi di Giza?", answer: "Gli Egizi" }
+    "name": "Storia e Mitologia",
+    "questions": {
+      "100": [
+        {
+          "question": "Chi è il re degli dei nella mitologia greca?",
+          "answer": "Zeus"
+        },
+        {
+          "question": "In che anno fu scoperta l'America da Cristoforo Colombo?",
+          "answer": "1492"
+        },
+        {
+          "question": "Chi fu il primo imperatore romano?",
+          "answer": "Augusto (Ottaviano)"
+        },
+        {
+          "question": "Come si chiamava l'eroe greco il cui unico punto debole era il tallone?",
+          "answer": "Achille"
+        },
+        {
+          "question": "Quale civiltà ha costruito le piramidi di Giza?",
+          "answer": "Gli Egizi"
+        },
+        {
+          "question": "Era il re degli dèi nella mitologia greca.",
+          "answer": "Zeus"
+        },
+        {
+          "question": "La città sepolta dall'eruzione del Vesuvio nel 79 d.C.",
+          "answer": "Pompei"
+        },
+        {
+          "question": "Il primo presidente degli Stati Uniti d'America.",
+          "answer": "George Washington"
+        },
+        {
+          "question": "L'eroe greco il cui unico punto debole era il tallone.",
+          "answer": "Achille"
+        },
+        {
+          "question": "Il faraone egizio la cui tomba fu scoperta intatta da Howard Carter.",
+          "answer": "Tutankhamon"
+        },
+        {
+          "question": "La dea romana dell'amore e della bellezza.",
+          "answer": "Venere"
+        },
+        {
+          "question": "Il navigatore genovese che scoprì l'America nel 1492.",
+          "answer": "Cristoforo Colombo"
+        },
+        {
+          "question": "Il fondatore di Roma secondo la leggenda, che uccise il fratello Remo.",
+          "answer": "Romolo"
+        },
+        {
+          "question": "Il re di Macedonia che conquistò gran parte del mondo conosciuto prima di morire a 32 anni.",
+          "answer": "Alessandro Magno"
+        },
+        {
+          "question": "Il dio greco del mare e dei terremoti.",
+          "answer": "Poseidone"
+        },
+        {
+          "question": "L'edificio simbolo dell'Impero Romano dove si svolgevano i combattimenti tra gladiatori.",
+          "answer": "Colosseo"
+        },
+        {
+          "question": "Il mostro mitologico con corpo di leone e testa di donna che proponeva enigmi.",
+          "answer": "Sfinge"
+        },
+        {
+          "question": "Il comandante francese sconfitto definitivamente a Waterloo.",
+          "answer": "Napoleone Bonaparte"
+        },
+        {
+          "question": "La dea greca della saggezza, della guerra e delle arti, nata dalla testa di Zeus.",
+          "answer": "Atena"
+        },
+        {
+          "question": "L'esploratore veneziano che viaggiò in Asia e descrisse le sue esperienze ne 'Il Milione'.",
+          "answer": "Marco Polo"
+        },
+        {
+          "question": "Il dio egizio dell'oltretomba, spesso raffigurato come una mummia.",
+          "answer": "Osiride"
+        },
+        {
+          "question": "La capitale dell'Impero Bizantino, originariamente chiamata Bisanzio.",
+          "answer": "Costantinopoli"
+        },
+        {
+          "question": "Il leggendario re britannico che estrasse la spada nella roccia.",
+          "answer": "Re Artù"
+        },
+        {
+          "question": "Il periodo storico caratterizzato dal risveglio delle arti e della cultura in Europa.",
+          "answer": "Rinascimento"
+        },
+        {
+          "question": "Il re degli dei nordici, padre di Thor.",
+          "answer": "Odino"
+        },
+        {
+          "question": "Inizia con l'assassinio dell'arciduca Francesco Ferdinando a Sarajevo nel 1914.",
+          "answer": "Prima Guerra Mondiale"
+        },
+        {
+          "question": "La regina dell'Antico Egitto famosa per le sue relazioni con Giulio Cesare e Marco Antonio.",
+          "answer": "Cleopatra"
+        },
+        {
+          "question": "Il dio greco del mare, dei terremoti e dei cavalli, noto per il suo tridente.",
+          "answer": "Poseidone"
+        },
+        {
+          "question": "Il primo imperatore romano, salito al potere dopo la morte di Giulio Cesare.",
+          "answer": "Augusto (o Ottaviano)"
+        },
+        {
+          "question": "La leggendaria guerra scatenata dal rapimento di Elena da parte di Paride.",
+          "answer": "Guerra di Troia"
+        },
+        {
+          "question": "Esploratore genovese che raggiunse le Americhe nel 1492 viaggiando per conto dei re spagnoli.",
+          "answer": "Cristoforo Colombo"
+        },
+        {
+          "question": "L'eroe mitologico greco famoso per l'incredibile forza fisica e aver superato dodici fatiche.",
+          "answer": "Eracle (o Ercole)"
+        },
+        {
+          "question": "Il condottiero macedone che creò uno dei più grandi imperi del mondo antico prima di morire a soli 32 anni.",
+          "answer": "Alessandro Magno"
+        },
+        {
+          "question": "La capitale dell'Impero bizantino, originariamente chiamata Bisanzio e oggi Istanbul.",
+          "answer": "Costantinopoli"
+        },
+        {
+          "question": "La dea romana della saggezza, delle arti e della guerra strategica, corrispondente alla greca Atena.",
+          "answer": "Minerva"
+        },
+        {
+          "question": "Il grande evento storico del 1789 culminato con la famosa Presa della Bastiglia.",
+          "answer": "Rivoluzione Francese"
+        },
+        {
+          "question": "La grandiosa nave passeggeri che colò a picco nell'Oceano Atlantico nel 1912 dopo aver urtato un iceberg.",
+          "answer": "Titanic"
+        },
+        {
+          "question": "Il celebre dittatore e generale romano assassinato alle Idi di marzo del 44 a.C.",
+          "answer": "Giulio Cesare"
+        },
+        {
+          "question": "La mitica creatura con corpo di leone e testa umana che pose un insidioso indovinello a Edipo.",
+          "answer": "Sfinge"
+        },
+        {
+          "question": "Il dio norreno del tuono e delle tempeste, celebre possessore del martello magico Mjolnir.",
+          "answer": "Thor"
+        },
+        {
+          "question": "L'ultimo zar di Russia, che fu giustiziato assieme a tutta la sua famiglia dai bolscevichi nel 1918.",
+          "answer": "Nicola II"
+        },
+        {
+          "question": "Famosa eroina francese, la 'Pulzella d'Orléans', bruciata sul rogo nel 1431 durante la Guerra dei Cent'anni.",
+          "answer": "Giovanna d'Arco"
+        },
+        {
+          "question": "Il grande fiume sacro dell'India, centrale in moltissimi miti, preghiere e riti di purificazione induisti.",
+          "answer": "Gange"
+        },
+        {
+          "question": "Il re e padre di tutti gli dei norreni, che sacrificò uno dei suoi occhi per attingere al pozzo della saggezza.",
+          "answer": "Odino"
+        },
+        {
+          "question": "Il re dei Franchi che venne solennemente incoronato imperatore del Sacro Romano Impero la notte di Natale dell'800.",
+          "answer": "Carlo Magno"
+        }
       ],
-      200: [
-        { question: "Chi era il dio romano della guerra?", answer: "Marte" },
-        { question: "In che anno è caduto il Muro di Berlino?", answer: "1989" },
-        { question: "Chi dipinse il soffitto della Cappella Sistina?", answer: "Michelangelo Buonarroti" },
-        { question: "Quale eroe mitologico compì le dodici fatiche?", answer: "Ercole (Eracle)" },
-        { question: "Chi era la regina dell'antico Egitto famosa per le sue relazioni con Giulio Cesare e Marco Antonio?", answer: "Cleopatra" }
+      "200": [
+        {
+          "question": "Chi era il dio romano della guerra?",
+          "answer": "Marte"
+        },
+        {
+          "question": "In che anno è caduto il Muro di Berlino?",
+          "answer": "1989"
+        },
+        {
+          "question": "Chi dipinse il soffitto della Cappella Sistina?",
+          "answer": "Michelangelo Buonarroti"
+        },
+        {
+          "question": "Quale eroe mitologico compì le dodici fatiche?",
+          "answer": "Ercole (Eracle)"
+        },
+        {
+          "question": "Chi era la regina dell'antico Egitto famosa per le sue relazioni con Giulio Cesare e Marco Antonio?",
+          "answer": "Cleopatra"
+        },
+        {
+          "question": "La guerra combattuta tra le città greche e la città di Troia.",
+          "answer": "Guerra di Troia"
+        },
+        {
+          "question": "L'inventore e artista del Rinascimento che dipinse la Gioconda.",
+          "answer": "Leonardo da Vinci"
+        },
+        {
+          "question": "Il dio greco del sole, della musica e della profezia.",
+          "answer": "Apollo"
+        },
+        {
+          "question": "L'imperatore romano che avrebbe suonato la lira mentre Roma bruciava.",
+          "answer": "Nerone"
+        },
+        {
+          "question": "La figura mitologica con serpenti al posto dei capelli il cui sguardo pietrificava.",
+          "answer": "Medusa"
+        },
+        {
+          "question": "Il celebre generale cartaginese che attraversò le Alpi con gli elefanti.",
+          "answer": "Annibale"
+        },
+        {
+          "question": "La regina egiziana alleata di Giulio Cesare e Marco Antonio.",
+          "answer": "Cleopatra"
+        },
+        {
+          "question": "Il traghettatore delle anime dei morti attraverso il fiume Stige.",
+          "answer": "Caronte"
+        },
+        {
+          "question": "Il leader sudafricano che lottò contro l'apartheid e divenne presidente.",
+          "answer": "Nelson Mandela"
+        },
+        {
+          "question": "Il faraone egiziano noto per aver tentato di introdurre il culto monoteistico del dio sole Aton.",
+          "answer": "Akhenaton"
+        },
+        {
+          "question": "La flotta spagnola considerata invincibile, sconfitta dall'Inghilterra nel 1588.",
+          "answer": "Invincibile Armata"
+        },
+        {
+          "question": "Il mostro con corpo di uomo e testa di toro rinchiuso nel Labirinto di Cnosso.",
+          "answer": "Minotauro"
+        },
+        {
+          "question": "L'infermiera britannica considerata la fondatrice dell'assistenza infermieristica moderna.",
+          "answer": "Florence Nightingale"
+        },
+        {
+          "question": "La dea romana della caccia, corrispondente alla greca Artemide.",
+          "answer": "Diana"
+        },
+        {
+          "question": "Il muro costruito dai Romani nel nord della Britannia per difendersi dai Pitti.",
+          "answer": "Vallo di Adriano"
+        },
+        {
+          "question": "Il dio romano della guerra, padre di Romolo e Remo.",
+          "answer": "Marte"
+        },
+        {
+          "question": "L'attivista americano per i diritti civili che pronunciò il discorso 'I have a dream'.",
+          "answer": "Martin Luther King Jr."
+        },
+        {
+          "question": "Il cavallo alato della mitologia greca, nato dal sangue di Medusa.",
+          "answer": "Pegaso"
+        },
+        {
+          "question": "La prima e unica donna ad aver vinto due premi Nobel in due campi scientifici diversi.",
+          "answer": "Marie Curie"
+        },
+        {
+          "question": "Il mitico re di Creta per il quale fu costruito il Labirinto.",
+          "answer": "Minosse"
+        },
+        {
+          "question": "La dea greca dell'agricoltura e delle messi, il cui dolore per il rapimento della figlia Persefone causava la stagione invernale.",
+          "answer": "Demetra"
+        },
+        {
+          "question": "L'imponente muro fortificato in pietra costruito dai Romani in Britannia per difendersi dalle feroci tribù del nord.",
+          "answer": "Vallo di Adriano"
+        },
+        {
+          "question": "La vasta civiltà precolombiana sudamericana nota per la prodigiosa costruzione della cittadella di Machu Picchu.",
+          "answer": "Impero Inca"
+        },
+        {
+          "question": "Il terribile mostro della mitologia greca con capelli di serpenti vivi, il cui sguardo pietrificava chiunque la guardasse.",
+          "answer": "Medusa"
+        },
+        {
+          "question": "La dinastia imperiale cinese durante la quale fu rinforzata e costruita la gran parte dell'attuale Grande Muraglia.",
+          "answer": "Dinastia Ming"
+        },
+        {
+          "question": "Il navigatore portoghese la cui spedizione per prima completò la circumnavigazione del globo, pur morendo lui stesso durante il viaggio.",
+          "answer": "Ferdinando Magellano"
+        },
+        {
+          "question": "La potente divinità egizia dei morti, della risurrezione e dell'oltretomba, raffigurata spesso con la pelle di colore verde.",
+          "answer": "Osiride"
+        },
+        {
+          "question": "Il fondamentale documento siglato nel 1215 che limitò per la prima volta e in modo formale i poteri del re d'Inghilterra.",
+          "answer": "Magna Carta"
+        },
+        {
+          "question": "L'isola toscana su cui fu esiliato Napoleone Bonaparte prima della sua rocambolesca fuga e del ritorno per i 'Cento Giorni'.",
+          "answer": "Isola d'Elba"
+        },
+        {
+          "question": "Il leggendario fondatore e primo re di Roma, che la tradizione vuole abbia ucciso il fratello gemello Remo.",
+          "answer": "Romolo"
+        },
+        {
+          "question": "L'avanzata civiltà mesoamericana famosa per il suo precisissimo sistema di calendario e per l'elaborata scrittura geroglifica.",
+          "answer": "Maya"
+        },
+        {
+          "question": "Il feroce cane a tre teste che faceva la guardia all'ingresso dell'oltretomba greco per impedire ai vivi di entrare e ai morti di uscire.",
+          "answer": "Cerbero"
+        },
+        {
+          "question": "La lunga e disastrosa guerra dell'antica Grecia combattuta prevalentemente tra le potenti città-stato di Atene e Sparta.",
+          "answer": "Guerra del Peloponneso"
+        },
+        {
+          "question": "Il dio egizio dalla testa di sciacallo (o cane nero), protettore dell'imbalsamazione, della mummificazione e dei cimiteri.",
+          "answer": "Anubi"
+        },
+        {
+          "question": "Lo zar russo noto per aver tentato di modernizzare e occidentalizzare il proprio paese, fondando anche una nuova capitale sul Baltico.",
+          "answer": "Pietro il Grande"
+        },
+        {
+          "question": "Il mostro con il corpo di un uomo e la testa di un toro, rinchiuso dal re Minosse nel famoso labirinto di Creta.",
+          "answer": "Minotauro"
+        },
+        {
+          "question": "L'esploratore e mercante veneziano celebre per i suoi lunghi viaggi in Asia alla corte di Kublai Khan, descritti nel libro 'Il Milione'.",
+          "answer": "Marco Polo"
+        },
+        {
+          "question": "La decisiva battaglia del 1815 combattuta in Belgio, che segnò la definitiva e irreparabile sconfitta di Napoleone Bonaparte.",
+          "answer": "Battaglia di Waterloo"
+        },
+        {
+          "question": "La gelosa e vendicativa moglie di Zeus, venerata come la somma dea greca protettrice del matrimonio e della famiglia.",
+          "answer": "Era"
+        },
+        {
+          "question": "Il faraone egizio la cui tomba, scoperta quasi intatta nel 1922 dall'archeologo Howard Carter, lo ha reso celebre in tutto il mondo.",
+          "answer": "Tutankhamon"
+        }
       ],
-      300: [
-        { question: "Quale condottiero cartaginese attraversò le Alpi con gli elefanti?", answer: "Annibale" },
-        { question: "Chi era il dio egizio dell'oltretomba, spesso raffigurato con la pelle verde?", answer: "Osiride" },
-        { question: "In che anno è iniziata la Prima Guerra Mondiale?", answer: "1914" },
-        { question: "Chi era il re di Camelot, leggendario sovrano dei cavalieri della Tavola Rotonda?", answer: "Re Artù" },
-        { question: "Come si chiamava la fazione politica opposta ai Ghibellini nell'Italia medievale?", answer: "Guelfi" }
+      "300": [
+        {
+          "question": "Quale condottiero cartaginese attraversò le Alpi con gli elefanti?",
+          "answer": "Annibale"
+        },
+        {
+          "question": "Chi era il dio egizio dell'oltretomba, spesso raffigurato con la pelle verde?",
+          "answer": "Osiride"
+        },
+        {
+          "question": "In che anno è iniziata la Prima Guerra Mondiale?",
+          "answer": "1914"
+        },
+        {
+          "question": "Chi era il re di Camelot, leggendario sovrano dei cavalieri della Tavola Rotonda?",
+          "answer": "Re Artù"
+        },
+        {
+          "question": "Come si chiamava la fazione politica opposta ai Ghibellini nell'Italia medievale?",
+          "answer": "Guelfi"
+        },
+        {
+          "question": "L'evento del 1789 che segnò la fine della monarchia assoluta in Francia con la presa di una prigione.",
+          "answer": "Presa della Bastiglia"
+        },
+        {
+          "question": "La dea greca dell'agricoltura e delle messi, madre di Persefone.",
+          "answer": "Demetra"
+        },
+        {
+          "question": "Il trattato di pace che pose fine alla Prima Guerra Mondiale.",
+          "answer": "Trattato di Versailles"
+        },
+        {
+          "question": "L'eroe greco che completò le Dodici Fatiche.",
+          "answer": "Ercole"
+        },
+        {
+          "question": "L'imperatore mongolo che fondò il più vasto impero terrestre continuo della storia.",
+          "answer": "Gengis Khan"
+        },
+        {
+          "question": "Il guardiano a tre teste del mondo dei morti nella mitologia greca.",
+          "answer": "Cerbero"
+        },
+        {
+          "question": "Il periodo della Rivoluzione Francese caratterizzato da esecuzioni di massa tramite ghigliottina, guidato da Robespierre.",
+          "answer": "Il Terrore"
+        },
+        {
+          "question": "Il gigante della mitologia greca che reggeva la volta celeste sulle spalle.",
+          "answer": "Atlante"
+        },
+        {
+          "question": "Il monaco tedesco che diede inizio alla Riforma Protestante affiggendo le sue 95 tesi.",
+          "answer": "Martin Lutero"
+        },
+        {
+          "question": "La ninfa che si innamorò di Narciso e, respinta, si consumò fino a diventare solo una voce.",
+          "answer": "Eco"
+        },
+        {
+          "question": "Il primo imperatore romano, originariamente chiamato Ottaviano.",
+          "answer": "Augusto"
+        },
+        {
+          "question": "L'arma mitologica del dio nordico Thor, un potente martello.",
+          "answer": "Mjolnir"
+        },
+        {
+          "question": "L'esploratore portoghese che per primo circumnavigò il globo terrestre.",
+          "answer": "Ferdinando Magellano"
+        },
+        {
+          "question": "La moglie di Ade e regina dell'oltretomba greco, rapita mentre raccoglieva fiori.",
+          "answer": "Persefone"
+        },
+        {
+          "question": "La guerra civile americana fu combattuta tra gli Stati del Nord e questi stati secessionisti.",
+          "answer": "Stati Confederati d'America"
+        },
+        {
+          "question": "L'uccello mitologico egizio che rinasce dalle proprie ceneri.",
+          "answer": "Fenice"
+        },
+        {
+          "question": "La regina del Regno Unito che regnò per 63 anni dando il nome a un'intera epoca del XIX secolo.",
+          "answer": "Vittoria"
+        },
+        {
+          "question": "Il dio greco del fuoco e della metallurgia, fabbro degli dei.",
+          "answer": "Efesto"
+        },
+        {
+          "question": "La rotta commerciale che collegava l'Impero Romano alla Cina, famosa per il commercio di una preziosa stoffa.",
+          "answer": "Via della Seta"
+        },
+        {
+          "question": "Le divinità norrene del destino, corrispondenti alle Parche romane.",
+          "answer": "Norne"
+        },
+        {
+          "question": "La creatura della mitologia greca per metà uomo e per metà cavallo; il saggio Chirone ne fu l'esponente più nobile.",
+          "answer": "Centauro"
+        },
+        {
+          "question": "La coraggiosa regina celtica della tribù degli Iceni che guidò una sanguinosa rivolta contro l'occupazione romana della Britannia.",
+          "answer": "Boudicca (o Boadicea)"
+        },
+        {
+          "question": "Il laborioso dio del fuoco, delle fucine e della metallurgia, noto per essere l'unico tra gli dei dell'Olimpo a essere zoppo e deforme.",
+          "answer": "Efesto (o Vulcano)"
+        },
+        {
+          "question": "Il vasto conflitto armato del XVII secolo in Europa, scaturito da forti scontri religiosi ma trasformatosi in una spietata lotta per l'egemonia politica.",
+          "answer": "Guerra dei Trent'anni"
+        },
+        {
+          "question": "La figura mitologica greca condannata dagli dei a spingere un pesante masso su per una collina, per vederlo rotolare giù, per tutta l'eternità.",
+          "answer": "Sisifo"
+        },
+        {
+          "question": "Il famoso e potente ordine militare cavalleresco, fondato nel 1119 per proteggere i pellegrini in Terra Santa e poi violentemente soppresso nel XIV secolo.",
+          "answer": "Cavalieri Templari"
+        },
+        {
+          "question": "Il mitico re sumero della città di Uruk, protagonista di una delle più antiche epopee della storia umana, alla disperata ricerca dell'immortalità.",
+          "answer": "Gilgamesh"
+        },
+        {
+          "question": "Il coraggioso navigatore vichingo, figlio di Erik il Rosso, ritenuto il primo europeo ad aver raggiunto le coste del Nord America (Vinland).",
+          "answer": "Leif Erikson"
+        },
+        {
+          "question": "L'antica città del Medio Oriente il cui re Nabucodonosor II fece erigere i celebri giardini pensili, una delle sette meraviglie del mondo.",
+          "answer": "Babilonia"
+        },
+        {
+          "question": "La bestia mitologica sputafuoco con testa di leone, corpo di capra e coda di serpente, affrontata e uccisa dall'eroe Bellerofonte in sella a Pegaso.",
+          "answer": "Chimera"
+        },
+        {
+          "question": "Il fondamentale trattato del 1494 voluto dal Papa, che divise politicamente le terre appena scoperte al di fuori dell'Europa in due emisferi, tra Spagna e Portogallo.",
+          "answer": "Trattato di Tordesillas"
+        },
+        {
+          "question": "Il grande arcangelo della tradizione abramitica spesso raffigurato in armatura e con una spada sguainata, guerriero divino contro le forze del male.",
+          "answer": "Arcangelo Michele"
+        },
+        {
+          "question": "L'ambizioso imperatore bizantino sotto il cui lungo regno fu codificato il diritto romano nel 'Corpus Iuris Civilis' e fu costruita la Basilica di Santa Sofia.",
+          "answer": "Giustiniano I"
+        },
+        {
+          "question": "Il leggendario eroe della mitologia persiana, protagonista del poema epico Shahnameh, celebre per la sua incredibile e sovrumana forza.",
+          "answer": "Rostam"
+        },
+        {
+          "question": "La cruenta guerra combattuta tra l'Impero Britannico e i coloni di origine olandese e ugonotta in Sudafrica, a cavallo tra il XIX e il XX secolo.",
+          "answer": "Guerra Boera (o Seconda Guerra Boera)"
+        },
+        {
+          "question": "Il leggendario re britannico che, secondo il mito e il ciclo bretone, fondò l'ordine della Tavola Rotonda e impugnò la prodigiosa spada Excalibur.",
+          "answer": "Re Artù"
+        },
+        {
+          "question": "L'abilissimo sultano ottomano che conquistò la città di Costantinopoli nel 1453, mettendo definitivamente fine all'Impero Bizantino.",
+          "answer": "Maometto II (il Conquistatore)"
+        },
+        {
+          "question": "Il demone o spirito sovrannaturale della mitologia araba e islamica spesso associato alla magia del fuoco e capace, secondo il mito, di esaudire desideri.",
+          "answer": "Jinn (o Genio)"
+        },
+        {
+          "question": "Il formidabile daimyō e samurai che nel 1603 fu nominato Shogun, unificando definitivamente il Giappone e fondando l'ultimo shogunato, durato fino al 1868.",
+          "answer": "Tokugawa Ieyasu"
+        },
+        {
+          "question": "La ninfa greca delle montagne che si innamorò follemente di Narciso e che, respinta, si consumò di dolore fino a lasciare di sé solo la propria voce.",
+          "answer": "Eco"
+        }
       ],
-      400: [
-        { question: "Quale re babilonese ha promulgato uno dei primi codici di leggi scritti della storia?", answer: "Hammurabi" },
-        { question: "Nella mitologia norrena, chi è il dio del tuono?", answer: "Thor" },
-        { question: "Quale zarina russa prese il potere rovesciando il marito Pietro III?", answer: "Caterina II (Caterina la Grande)" },
-        { question: "Come si chiamava il mostro mitologico con il corpo di uomo e la testa di toro?", answer: "Il Minotauro" },
-        { question: "Chi fu il leader della rivoluzione russa del 1917?", answer: "Lenin" }
+      "400": [
+        {
+          "question": "Quale re babilonese ha promulgato uno dei primi codici di leggi scritti della storia?",
+          "answer": "Hammurabi"
+        },
+        {
+          "question": "Nella mitologia norrena, chi è il dio del tuono?",
+          "answer": "Thor"
+        },
+        {
+          "question": "Quale zarina russa prese il potere rovesciando il marito Pietro III?",
+          "answer": "Caterina II (Caterina la Grande)"
+        },
+        {
+          "question": "Come si chiamava il mostro mitologico con il corpo di uomo e la testa di toro?",
+          "answer": "Il Minotauro"
+        },
+        {
+          "question": "Chi fu il leader della rivoluzione russa del 1917?",
+          "answer": "Lenin"
+        },
+        {
+          "question": "Il dittatore romano assassinato alle Idi di Marzo del 44 a.C.",
+          "answer": "Giulio Cesare"
+        },
+        {
+          "question": "La musa greca della storia, spesso raffigurata con una pergamena o un rotolo.",
+          "answer": "Clio"
+        },
+        {
+          "question": "L'incidente del 1914 a Sarajevo in cui fu assassinato un arciduca, scintilla della Prima Guerra Mondiale.",
+          "answer": "Attentato di Sarajevo"
+        },
+        {
+          "question": "Il cacciatore gigante della mitologia greca, ucciso dallo scorpione e trasformato in costellazione.",
+          "answer": "Orione"
+        },
+        {
+          "question": "La dinastia regnante in Russia dal 1613 fino alla rivoluzione del 1917.",
+          "answer": "Romanov"
+        },
+        {
+          "question": "Il tragico amore mitologico babilonese che ispirò Romeo e Giulietta: loro parlavano attraverso una crepa nel muro.",
+          "answer": "Piramo e Tisbe"
+        },
+        {
+          "question": "Il patto del 1939 tra Germania nazista e Unione Sovietica per la non aggressione.",
+          "answer": "Patto Molotov-Ribbentrop"
+        },
+        {
+          "question": "L'eroe greco re di Itaca che impiegò dieci anni per tornare in patria dopo la Guerra di Troia.",
+          "answer": "Odisseo / Ulisse"
+        },
+        {
+          "question": "L'antica scrittura egizia decifrata grazie alla Stele di Rosetta.",
+          "answer": "Geroglifici"
+        },
+        {
+          "question": "La dea egizia della magia e della maternità, moglie di Osiride.",
+          "answer": "Iside"
+        },
+        {
+          "question": "La guerra tra Atene e Sparta che durò dal 431 al 404 a.C.",
+          "answer": "Guerra del Peloponneso"
+        },
+        {
+          "question": "Il dio nordico dell'inganno e della malizia, spesso creatore di problemi per gli Aesir.",
+          "answer": "Loki"
+        },
+        {
+          "question": "Il re di Francia noto come il 'Re Sole', che costruì il Palazzo di Versailles.",
+          "answer": "Luigi XIV"
+        },
+        {
+          "question": "Il labirintico mostro serpentiforme a nove teste ucciso da Ercole nella sua seconda fatica.",
+          "answer": "Idra di Lerna"
+        },
+        {
+          "question": "La rivolta del 1857 in India contro il dominio della Compagnia Britannica delle Indie Orientali.",
+          "answer": "Rivolta dei Sepoy"
+        },
+        {
+          "question": "La maga della mitologia greca che trasformò i compagni di Ulisse in maiali.",
+          "answer": "Circe"
+        },
+        {
+          "question": "La famosa battaglia navale del 1571 in cui la Lega Santa sconfisse la flotta ottomana.",
+          "answer": "Battaglia di Lepanto"
+        },
+        {
+          "question": "L'eroe semidio sumero e babilonese, re di Uruk, che cercò l'immortalità.",
+          "answer": "Gilgamesh"
+        },
+        {
+          "question": "La guerra di secessione giapponese (1868-1869) che restaurò il potere imperiale a spese dello shogunato.",
+          "answer": "Guerra Boshin"
+        },
+        {
+          "question": "Il fiume del mondo sotterraneo greco in cui le anime venivano immerse per dimenticare la loro vita terrena.",
+          "answer": "Lete"
+        },
+        {
+          "question": "Il terrificante mostro marino della mitologia greca, incarnazione di un gigantesco gorgo situato nello Stretto di Messina, spesso citato assieme a Scilla.",
+          "answer": "Cariddi"
+        },
+        {
+          "question": "La dinastia reale francese estintasi nel 1589 con la morte di Enrico III, alla quale succedette poi sul trono di Francia il casato dei Borbone.",
+          "answer": "Dinastia Valois"
+        },
+        {
+          "question": "La complessa entità mitologica mesopotamica, potente dea dell'amore, della sessualità, della guerra e della fertilità, spesso equivalente alla sumera Inanna.",
+          "answer": "Ishtar"
+        },
+        {
+          "question": "L'insieme dei trattati del 1648 che pose fine alla rovinosa Guerra dei Trent'anni e stabilì il moderno principio di sovranità degli Stati europei.",
+          "answer": "Pace di Vestfalia"
+        },
+        {
+          "question": "L'antica e florida città fenicia del Nord Africa, leggendariamente fondata dalla regina Didone, eterna rivale di Roma e da essa infine distrutta nel 146 a.C.",
+          "answer": "Cartagine"
+        },
+        {
+          "question": "Il gigantesco e mostruoso serpente marino norreno che circonda il mondo intero di Midgard mordendosi la coda, generato da Loki e dalla gigantessa Angrboda.",
+          "answer": "Jormungandr"
+        },
+        {
+          "question": "Il colto monaco ed evangelizzatore bizantino a cui è attribuita la creazione, assieme al fratello Metodio, dell'alfabeto ancora oggi usato per molte lingue slave.",
+          "answer": "San Cirillo"
+        },
+        {
+          "question": "L'eroe mitologico celtico e irlandese che ottenne il suo nome dopo aver ucciso il feroce cane da guardia del fabbro Culann, offrendosi poi di prenderne il posto.",
+          "answer": "Cú Chulainn"
+        },
+        {
+          "question": "L'illuminata e potentissima imperatrice russa del XVIII secolo, di origini prussiane, che allargò notevolmente i confini dell'impero espandendosi verso sud e ovest.",
+          "answer": "Caterina la Grande"
+        },
+        {
+          "question": "La temibile e affascinante dea induista della distruzione, del tempo e della trasformazione, spesso ritratta con una macabra collana di teschi e la lingua sanguinante in fuori.",
+          "answer": "Kali"
+        },
+        {
+          "question": "La clamorosa battaglia del 1415, durante la Guerra dei Cent'anni, in cui i formidabili arcieri lunghi inglesi guidati da Enrico V massacrarono la pesante cavalleria francese nel fango.",
+          "answer": "Battaglia di Azincourt"
+        },
+        {
+          "question": "Il leggendario gigante antropomorfo interamente fatto di bronzo che proteggeva l'isola di Creta scagliando pesanti massi contro le navi nemiche in avvicinamento.",
+          "answer": "Talos"
+        },
+        {
+          "question": "L'enorme e devastante movimento di ribellione contadina scoppiato in Cina a metà del XIX secolo, guidato da un singolare leader pseudo-cristiano, che causò milioni di vittime civili.",
+          "answer": "Rivolta dei Taiping"
+        },
+        {
+          "question": "Lo spirito rurale della natura e protettore dei boschi e delle greggi nella mitologia romana, dotato di corna e zampe caprine, strettamente corrispondente al dio greco Pan.",
+          "answer": "Fauno"
+        },
+        {
+          "question": "Il brillante re macedone padre di Alessandro Magno, che riorganizzò l'esercito introducendo la falange oplitica, prima di venire inaspettatamente assassinato nel 336 a.C.",
+          "answer": "Filippo II (di Macedonia)"
+        },
+        {
+          "question": "Il magico uccello della mitologia e del folklore slavo, simile a una fenice, le cui luminose piume continuano a brillare di una forte luce anche dopo essere state staccate.",
+          "answer": "Uccello di Fuoco (Zhar-ptitsa)"
+        },
+        {
+          "question": "Il geniale generale cartaginese che portò audacemente il suo esercito e dozzine di elefanti da guerra attraverso le Alpi innevate per combattere le legioni in Italia.",
+          "answer": "Annibale Barca"
+        },
+        {
+          "question": "L'eroe mitologico della Finlandia e protagonista del poema epico nazionale Kalevala, descritto come un vecchio e saggio sciamano dal prodigioso talento magico e canoro.",
+          "answer": "Vainamoinen"
+        },
+        {
+          "question": "La formidabile e longeva dinastia reale islamica di origine turca che governò ininterrottamente l'Impero Ottomano dalla sua fondazione nel 1299 fino al collasso nel 1922.",
+          "answer": "Casa di Osman (o Ottomani)"
+        },
+        {
+          "question": "La suprema divinità azteca il cui affascinante nome si traduce letteralmente come 'Serpente Piumato', venerato come dio della creazione, del vento e della sapienza.",
+          "answer": "Quetzalcoatl"
+        }
       ],
-      500: [
-        { question: "Come si chiamava il patto firmato nel 1939 tra la Germania nazista e l'Unione Sovietica?", answer: "Patto Molotov-Ribbentrop" },
-        { question: "Qual è il nome del serpente gigante che avvolge il mondo nella mitologia norrena?", answer: "Jörmungandr" },
-        { question: "Chi era l'imperatore romano durante l'eruzione del Vesuvio nel 79 d.C.?", answer: "Tito" },
-        { question: "Quale divinità sumera è al centro della discesa negli inferi nell'epopea di Gilgamesh?", answer: "Inanna (o Ishtar)" },
-        { question: "In che anno fu combattuta la battaglia di Waterloo?", answer: "1815" }
+      "500": [
+        {
+          "question": "Come si chiamava il patto firmato nel 1939 tra la Germania nazista e l'Unione Sovietica?",
+          "answer": "Patto Molotov-Ribbentrop"
+        },
+        {
+          "question": "Qual è il nome del serpente gigante che avvolge il mondo nella mitologia norrena?",
+          "answer": "Jörmungandr"
+        },
+        {
+          "question": "Chi era l'imperatore romano durante l'eruzione del Vesuvio nel 79 d.C.?",
+          "answer": "Tito"
+        },
+        {
+          "question": "Quale divinità sumera è al centro della discesa negli inferi nell'epopea di Gilgamesh?",
+          "answer": "Inanna (o Ishtar)"
+        },
+        {
+          "question": "In che anno fu combattuta la battaglia di Waterloo?",
+          "answer": "1815"
+        },
+        {
+          "question": "Il console romano che sconfisse Annibale nella decisiva battaglia di Zama nel 202 a.C.",
+          "answer": "Scipione l'Africano"
+        },
+        {
+          "question": "L'albero sacro della mitologia norrena, che sorregge i Nove Mondi.",
+          "answer": "Yggdrasill"
+        },
+        {
+          "question": "La crisi del 1962 che portò Stati Uniti e Unione Sovietica sull'orlo della guerra nucleare per via di missili a Cuba.",
+          "answer": "Crisi dei missili di Cuba"
+        },
+        {
+          "question": "Il semidio persiano dio del sole e della luce, il cui culto si diffuse nell'Impero Romano prima del Cristianesimo.",
+          "answer": "Mitra"
+        },
+        {
+          "question": "Il primo imperatore della Cina unificata, per il quale fu costruito l'Esercito di Terracotta.",
+          "answer": "Qin Shi Huang"
+        },
+        {
+          "question": "Il demone mesopotamico del vento del sudovest, portatore di carestie, famoso per un noto film horror.",
+          "answer": "Pazuzu"
+        },
+        {
+          "question": "Il condottiero turco-mongolo che nel XIV secolo fondò un vasto impero con capitale Samarcanda.",
+          "answer": "Tamerlano"
+        },
+        {
+          "question": "Le tre creature della mitologia greca che rapivano le anime dei morti, metà donne e metà uccelli.",
+          "answer": "Arpie"
+        },
+        {
+          "question": "La battaglia del 1415 in cui Enrico V d'Inghilterra ottenne una decisiva vittoria sui francesi durante la Guerra dei Cent'Anni.",
+          "answer": "Battaglia di Azincourt"
+        },
+        {
+          "question": "Il drago della mitologia norrena che mastica le radici dell'albero Yggdrasill.",
+          "answer": "Nidhogg"
+        },
+        {
+          "question": "La lega commerciale e difensiva di città mercantili che dominò il commercio nel nord Europa tra il XIII e il XVII secolo.",
+          "answer": "Lega Anseatica"
+        },
+        {
+          "question": "Il leggendario re persiano della mitologia zoroastriana che possedeva una coppa magica in cui si rifletteva l'universo intero.",
+          "answer": "Jamshid"
+        },
+        {
+          "question": "L'accordo del 1494 che divise il mondo in due zone di influenza, spagnola e portoghese.",
+          "answer": "Trattato di Tordesillas"
+        },
+        {
+          "question": "La mostruosa creatura della mitologia giapponese descritta come un ragno gigante che intrappolava i samurai nelle sue ragnatele.",
+          "answer": "Tsuchigumo"
+        },
+        {
+          "question": "L'evento del 1618 in cui i rappresentanti imperiali asburgici furono gettati da una finestra del castello di Praga.",
+          "answer": "Defenestrazione di Praga"
+        },
+        {
+          "question": "La creatura della mitologia induista e buddista, simile a un uccello, che funge da cavalcatura del dio Visnù.",
+          "answer": "Garuda"
+        },
+        {
+          "question": "Il sovrano dell'Impero Maurya in India che abbracciò il buddismo e promosse la non violenza dopo la sanguinosa guerra di Kalinga.",
+          "answer": "Ashoka"
+        },
+        {
+          "question": "L'eroe del Kalevala, l'epopea nazionale finlandese, un saggio sciamano dai poteri magici.",
+          "answer": "Vainamoinen"
+        },
+        {
+          "question": "L'esploratore arabo medievale considerato il più grande viaggiatore del mondo islamico prima dell'età moderna.",
+          "answer": "Ibn Battuta"
+        },
+        {
+          "question": "Il mostruoso serpente della mitologia aborigena australiana, creatore dei fiumi e dei paesaggi, legato all'acqua e all'arcobaleno.",
+          "answer": "Serpente Arcobaleno"
+        },
+        {
+          "question": "La fiera regina della città di Palmira che sfidò apertamente l'Impero Romano conquistando l'Egitto e gran parte dell'Asia Minore nel III secolo d.C. prima di essere sconfitta dall'imperatore Aureliano.",
+          "answer": "Zenobia"
+        },
+        {
+          "question": "Il gigantesco e inarrestabile lupo mostruoso della mitologia norrena, figlio di Loki e della gigantessa Angrboda, incatenato dagli dei ma destinato a divorare Odino durante il Ragnarok.",
+          "answer": "Fenrir"
+        },
+        {
+          "question": "L'astuto e implacabile re numida che per anni combatté una logorante guerriglia in Nord Africa contro Roma, prima di essere infine tradito dal suocero Bocco e catturato da Silla nel 105 a.C.",
+          "answer": "Giugurta"
+        },
+        {
+          "question": "Il radioso dio del sole e della giustizia inesorabile del pantheon mesopotamico, colui che secondo la tradizione dettò l'antico e famoso codice di leggi babilonese al re Hammurabi.",
+          "answer": "Shamash"
+        },
+        {
+          "question": "Il fondamentale trattato stipulato nel 1555 che sancì per la prima volta il principio del 'cuius regio, eius religio', stabilendo la convivenza tra sovrani cattolici e luterani all'interno del Sacro Romano Impero.",
+          "answer": "Pace di Augusta"
+        },
+        {
+          "question": "Il leggendario cacciatore e guerriero gigante celtico della mitologia gaelica a cui, secondo una fiaba popolare, è attribuita la miracolosa costruzione del Selciato del Gigante in Irlanda del Nord per sfidare uno scozzese.",
+          "answer": "Finn MacCool"
+        },
+        {
+          "question": "Il brillante ammiraglio ed eroe nazionale coreano che alla fine del XVI secolo respinse disastrosamente la massiccia invasione marittima giapponese, utilizzando sapientemente le innovative e corazzate 'navi testuggine'.",
+          "answer": "Yi Sun-sin"
+        },
+        {
+          "question": "La letale e velenosa progenie di Tifone ed Echidna nella mitologia greca: un colossale serpente acquatico dalle molte teste rigeneranti, che viveva in una palude e fu infine ucciso e bruciato da Eracle.",
+          "answer": "Idra di Lerna"
+        },
+        {
+          "question": "La violenta e sanguinosa rivolta militare scoppiata in India nel 1857 contro il dominio e le politiche della Compagnia Britannica delle Indie Orientali, causata inizialmente dall'uso di grasso animale sulle cartucce dei fucili.",
+          "answer": "Ammutinamento dei Sepoy (o Moti indiani del 1857)"
+        },
+        {
+          "question": "Il sovrano sumero citato nella lista reale, venerato come deità tutelare e descritto nei racconti epici antichi come marito della dea Ninsun e padre del grandioso eroe Gilgamesh.",
+          "answer": "Lugalbanda"
+        },
+        {
+          "question": "La disastrosa avventura militare del 415-413 a.C. intrapresa durante la Guerra del Peloponneso, istigata da Alcibiade, in cui la città di Atene perse l'intera flotta e l'esercito nel tentativo di conquistare Siracusa.",
+          "answer": "Spedizione ateniese in Sicilia"
+        },
+        {
+          "question": "Il temuto spirito femminile del folklore irlandese e scozzese il cui acuto lamento o grido disperato nella notte annuncia, secondo le tradizioni, l'imminente morte violenta di un membro della famiglia che lo ode.",
+          "answer": "Banshee"
+        },
+        {
+          "question": "L'ostinato imperatore del Sacro Romano Impero che si scontrò aspramente con Papa Gregorio VII nella celebre Lotta per le investiture, ricordato soprattutto per aver atteso il perdono papale in ginocchio nella neve al castello di Canossa.",
+          "answer": "Enrico IV"
+        },
+        {
+          "question": "La scaltra divinità e semidio della mitologia polinesiana, noto fra le varie gesta per aver pescato con un amo magico le isole del Pacifico dal fondale marino, per aver rallentato il sole e aver rubato il fuoco per donarlo agli uomini.",
+          "answer": "Maui"
+        },
+        {
+          "question": "Il cruciale scontro militare avvenuto nel 732 d.C. in territorio francese, in cui le truppe dei Franchi guidate da Carlo Martello fermarono in modo decisivo la rapida espansione del Califfato omayyade in Europa occidentale.",
+          "answer": "Battaglia di Poitiers (o di Tours)"
+        },
+        {
+          "question": "Il demone femminile originario dell'antico folklore mesopotamico ed ebraico, associata alla notte e alle tempeste, che secondo alcune tradizioni cabalistiche ed extra-bibliche fu la ribelle prima moglie di Adamo nel Giardino dell'Eden.",
+          "answer": "Lilith"
+        },
+        {
+          "question": "L'incredibile sovrano dell'Impero del Mali vissuto all'inizio del XIV secolo, celebre per il suo fastoso pellegrinaggio alla Mecca e popolarmente ritenuto dagli storici l'uomo più ricco dell'intera storia umana grazie alle sue immense miniere di sale e oro.",
+          "answer": "Mansa Musa"
+        },
+        {
+          "question": "Le affascinanti ninfe celesti della mitologia induista e buddista, spiriti della natura associati alle nubi e alle acque, famose per la loro insuperabile bellezza e per essere le eccellenti danzatrici alla corte del dio Indra.",
+          "answer": "Apsara"
+        },
+        {
+          "question": "Il primo dei cosiddetti 'trattati ineguali', siglato nel 1842 per porre fine alla Prima Guerra dell'Oppio, che sancì pesanti risarcimenti cinesi, l'apertura di nuovi porti stranieri e la definitiva cessione dell'isola di Hong Kong alla Gran Bretagna.",
+          "answer": "Trattato di Nanchino"
+        },
+        {
+          "question": "Lo spaventoso ma ambivalente demone della religione mesopotamica, raffigurato con quattro ali, artigli e testa deforme, considerato il re dei demoni malvagi del vento ma spesso invocato ed esorcizzato come amuleto per proteggere le donne incinte e i neonati.",
+          "answer": "Pazuzu"
+        }
       ]
     }
   },
   {
-    name: "Musica",
-    questions: {
-      100: [
-        { question: "Chi canta 'Rolling in the Deep'?", answer: "Adele" },
-        { question: "Quante corde ha una chitarra classica?", answer: "Sei" },
-        { question: "Come si chiama il leader e cantante dei Queen?", answer: "Freddie Mercury" },
-        { question: "Chi è l'autore della celebre 'Nona Sinfonia' (Inno alla Gioia)?", answer: "Ludwig van Beethoven" },
-        { question: "Qual è lo strumento musicale a fiato associato alla Scozia?", answer: "La cornamusa" }
+    "name": "Musica",
+    "questions": {
+      "100": [
+        {
+          "question": "Chi canta 'Rolling in the Deep'?",
+          "answer": "Adele"
+        },
+        {
+          "question": "Quante corde ha una chitarra classica?",
+          "answer": "Sei"
+        },
+        {
+          "question": "Come si chiama il leader e cantante dei Queen?",
+          "answer": "Freddie Mercury"
+        },
+        {
+          "question": "Chi è l'autore della celebre 'Nona Sinfonia' (Inno alla Gioia)?",
+          "answer": "Ludwig van Beethoven"
+        },
+        {
+          "question": "Qual è lo strumento musicale a fiato associato alla Scozia?",
+          "answer": "La cornamusa"
+        },
+        {
+          "question": "Ha cantato 'Albachiara' ed è una rockstar italiana",
+          "answer": "Vasco Rossi"
+        },
+        {
+          "question": "Il festival della canzone italiana che si tiene a febbraio",
+          "answer": "Sanremo"
+        },
+        {
+          "question": "Strumento a tastiera bianco e nero suonato da Mozart",
+          "answer": "Pianoforte"
+        },
+        {
+          "question": "Il re del pop che cantava 'Thriller'",
+          "answer": "Michael Jackson"
+        },
+        {
+          "question": "La band inglese autrice di 'Bohemian Rhapsody'",
+          "answer": "Queen"
+        },
+        {
+          "question": "Il cantante famoso per 'Nel blu dipinto di blu'",
+          "answer": "Domenico Modugno"
+        },
+        {
+          "question": "Lo strumento a 6 corde più usato nel rock",
+          "answer": "Chitarra"
+        },
+        {
+          "question": "L'autore della celebre opera 'Le Quattro Stagioni'",
+          "answer": "Antonio Vivaldi"
+        },
+        {
+          "question": "La popstar nota anche come 'Material Girl'",
+          "answer": "Madonna"
+        },
+        {
+          "question": "L'album più venduto della storia, pubblicato da Michael Jackson",
+          "answer": "Thriller"
+        },
+        {
+          "question": "La storica band inglese formata da John, Paul, George e Ringo",
+          "answer": "The Beatles"
+        },
+        {
+          "question": "Lo strumento a fiato d'ottone suonato dal celebre Louis Armstrong",
+          "answer": "Tromba"
+        },
+        {
+          "question": "Lo stile musicale afroamericano nato a New Orleans all'inizio del 1900",
+          "answer": "Jazz"
+        },
+        {
+          "question": "Il soprannome 'Blasco' appartiene a questo celebre rocker italiano",
+          "answer": "Vasco Rossi"
+        },
+        {
+          "question": "Cantante e tenore italiano non vedente famoso per 'Con te partirò'",
+          "answer": "Andrea Bocelli"
+        },
+        {
+          "question": "La band rock italiana vincitrice dell'Eurovision 2021 con 'Zitti e buoni'",
+          "answer": "Måneskin"
+        },
+        {
+          "question": "Il genere musicale giamaicano reso famoso nel mondo da Bob Marley",
+          "answer": "Reggae"
+        },
+        {
+          "question": "Lo strumento a percussione che dà il ritmo principale a una rock band",
+          "answer": "Batteria"
+        },
+        {
+          "question": "Il celebre tenore modenese scomparso nel 2007 noto per i suoi acuti",
+          "answer": "Luciano Pavarotti"
+        },
+        {
+          "question": "Il cantante e rapper milanese ex marito dell'influencer Chiara Ferragni",
+          "answer": "Fedez"
+        },
+        {
+          "question": "Il \"Re del Pop\" interprete di Thriller.",
+          "answer": "Michael Jackson"
+        },
+        {
+          "question": "Strumento musicale a corde suonato con l'archetto, fondamentale nelle orchestre.",
+          "answer": "Violino"
+        },
+        {
+          "question": "Cantautore italiano famoso per \"Vita spericolata\" e \"Albachiara\".",
+          "answer": "Vasco Rossi"
+        },
+        {
+          "question": "L'autore di \"Imagine\", ex membro dei Beatles.",
+          "answer": "John Lennon"
+        },
+        {
+          "question": "La cantante di \"Material Girl\" e \"Like a Virgin\".",
+          "answer": "Madonna"
+        },
+        {
+          "question": "La band di Freddie Mercury, Brian May, Roger Taylor e John Deacon.",
+          "answer": "Queen"
+        },
+        {
+          "question": "Il genere musicale originario della Giamaica, reso celebre da Bob Marley.",
+          "answer": "Reggae"
+        },
+        {
+          "question": "Lo strumento a tastiera bianco e nero per eccellenza.",
+          "answer": "Pianoforte"
+        },
+        {
+          "question": "Cantante italiana di \"La solitudine\", famosa in tutto il mondo.",
+          "answer": "Laura Pausini"
+        },
+        {
+          "question": "Il festival della canzone italiana che si tiene ogni anno in Liguria.",
+          "answer": "Festival di Sanremo"
+        },
+        {
+          "question": "La band inglese di Mick Jagger e Keith Richards.",
+          "answer": "The Rolling Stones"
+        },
+        {
+          "question": "Il rapper statunitense marito di Beyoncé.",
+          "answer": "Jay-Z"
+        },
+        {
+          "question": "Il cantautore italiano di \"Azzurro\" e \"Il ragazzo della via Gluck\".",
+          "answer": "Adriano Celentano"
+        },
+        {
+          "question": "Il cantante e chitarrista leader dei Nirvana.",
+          "answer": "Kurt Cobain"
+        },
+        {
+          "question": "L'icona della musica pop contemporanea autrice dell'Eras Tour.",
+          "answer": "Taylor Swift"
+        },
+        {
+          "question": "Il compositore classico di Salisburgo, autore de \"Il flauto magico\".",
+          "answer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "question": "Il cantante e musicista cieco autore di \"Superstition\" e \"I Just Called to Say I Love You\".",
+          "answer": "Stevie Wonder"
+        },
+        {
+          "question": "La band rock italiana che ha vinto l'Eurovision nel 2021 con \"Zitti e buoni\".",
+          "answer": "Måneskin"
+        },
+        {
+          "question": "Il famoso tenore italiano, uno dei \"Tre Tenori\" insieme a Domingo e Carreras.",
+          "answer": "Luciano Pavarotti"
+        },
+        {
+          "question": "Il genere musicale afroamericano caratterizzato da improvvisazione e swing.",
+          "answer": "Jazz"
+        }
       ],
-      200: [
-        { question: "Quale gruppo rock britannico ha pubblicato l'album 'The Dark Side of the Moon'?", answer: "Pink Floyd" },
-        { question: "Chi è conosciuto come 'Il Re del Pop'?", answer: "Michael Jackson" },
-        { question: "In quale città si svolge il celebre Festival della canzone italiana?", answer: "Sanremo" },
-        { question: "Come si chiamavano i quattro membri dei Beatles?", answer: "John, Paul, George, Ringo" },
-        { question: "Chi ha composto le 'Quattro stagioni'?", answer: "Antonio Vivaldi" }
+      "200": [
+        {
+          "question": "Quale gruppo rock britannico ha pubblicato l'album 'The Dark Side of the Moon'?",
+          "answer": "Pink Floyd"
+        },
+        {
+          "question": "Chi è conosciuto come 'Il Re del Pop'?",
+          "answer": "Michael Jackson"
+        },
+        {
+          "question": "In quale città si svolge il celebre Festival della canzone italiana?",
+          "answer": "Sanremo"
+        },
+        {
+          "question": "Come si chiamavano i quattro membri dei Beatles?",
+          "answer": "John, Paul, George, Ringo"
+        },
+        {
+          "question": "Chi ha composto le 'Quattro stagioni'?",
+          "answer": "Antonio Vivaldi"
+        },
+        {
+          "question": "La potente voce inglese che ha cantato 'Rolling in the Deep'",
+          "answer": "Adele"
+        },
+        {
+          "question": "Lo storico e inesauribile frontman dei Rolling Stones",
+          "answer": "Mick Jagger"
+        },
+        {
+          "question": "Il celebre cantautore italiano che incise 'La canzone del sole'",
+          "answer": "Lucio Battisti"
+        },
+        {
+          "question": "Il genere musicale basato su rime parlate nato nel Bronx negli anni '70",
+          "answer": "Hip Hop / Rap"
+        },
+        {
+          "question": "Il celebre compositore pesarese de 'Il barbiere di Siviglia'",
+          "answer": "Gioachino Rossini"
+        },
+        {
+          "question": "La popstar originaria delle Barbados che canta il tormentone 'Umbrella'",
+          "answer": "Rihanna"
+        },
+        {
+          "question": "La città industriale inglese che ha dato i natali ai Beatles",
+          "answer": "Liverpool"
+        },
+        {
+          "question": "Il celebre compositore tedesco che compose la 'Nona Sinfonia' pur essendo sordo",
+          "answer": "Ludwig van Beethoven"
+        },
+        {
+          "question": "Lo strumento ad arco di dimensioni maggiori nell'orchestra sinfonica",
+          "answer": "Contrabbasso"
+        },
+        {
+          "question": "Il cantautore britannico dai capelli rossi che canta 'Shape of You'",
+          "answer": "Ed Sheeran"
+        },
+        {
+          "question": "La celebre voce femminile e icona dei Fleetwood Mac",
+          "answer": "Stevie Nicks"
+        },
+        {
+          "question": "Il cantautore romano famoso per l'inno non ufficiale 'Roma Capoccia'",
+          "answer": "Antonello Venditti"
+        },
+        {
+          "question": "L'artista camaleontico e polistrumentista autore di 'Purple Rain'",
+          "answer": "Prince"
+        },
+        {
+          "question": "Il grande compositore italiano autore della celebre opera 'Aida'",
+          "answer": "Giuseppe Verdi"
+        },
+        {
+          "question": "Il leader e cantante dei Nirvana scomparso tragicamente nel 1994",
+          "answer": "Kurt Cobain"
+        },
+        {
+          "question": "La giovanissima cantautrice americana esplosa con la hit 'Bad Guy'",
+          "answer": "Billie Eilish"
+        },
+        {
+          "question": "L'isola caraibica strettamente associata alla musica e cultura Reggae",
+          "answer": "Giamaica"
+        },
+        {
+          "question": "Il celebre teatro dell'opera situato al centro di Milano",
+          "answer": "La Scala"
+        },
+        {
+          "question": "Il rocker emiliano soprannominato 'Liga', autore di 'Certe notti'",
+          "answer": "Luciano Ligabue"
+        },
+        {
+          "question": "Il vero nome all'anagrafe del cantante noto come Jovanotti",
+          "answer": "Lorenzo Cherubini"
+        },
+        {
+          "question": "Il celebre compositore tedesco diventato completamente sordo negli ultimi anni di vita.",
+          "answer": "Ludwig van Beethoven"
+        },
+        {
+          "question": "La popstar canadese scoperta su YouTube, interprete di \"Baby\" e \"Sorry\".",
+          "answer": "Justin Bieber"
+        },
+        {
+          "question": "Il \"Boss\" del rock americano, autore dell'album \"Born in the U.S.A.\".",
+          "answer": "Bruce Springsteen"
+        },
+        {
+          "question": "Il cantautore napoletano di \"Napule è\" e \"Je so' pazzo\".",
+          "answer": "Pino Daniele"
+        },
+        {
+          "question": "L'eccentrico cantautore inglese interprete di \"Starman\" e \"Space Oddity\".",
+          "answer": "David Bowie"
+        },
+        {
+          "question": "La cantante di Barbados interprete di \"Umbrella\" e \"Diamonds\".",
+          "answer": "Rihanna"
+        },
+        {
+          "question": "Il celebre gruppo britannico capitanato da Chris Martin.",
+          "answer": "Coldplay"
+        },
+        {
+          "question": "Lo storico chitarrista mancino considerato uno dei più grandi di tutti i tempi, celebre per la sua esibizione a Woodstock.",
+          "answer": "Jimi Hendrix"
+        },
+        {
+          "question": "La cantante britannica interprete di \"Rolling in the Deep\" e \"Someone Like You\".",
+          "answer": "Adele"
+        },
+        {
+          "question": "Il gruppo inglese di \"Yellow Submarine\" e \"Hey Jude\".",
+          "answer": "The Beatles"
+        },
+        {
+          "question": "Il genere musicale nato nel Bronx negli anni '70 che include rap e beatboxing.",
+          "answer": "Hip hop"
+        },
+        {
+          "question": "Il cantautore italiano di \"Centro di gravità permanente\".",
+          "answer": "Franco Battiato"
+        },
+        {
+          "question": "Il celebre trombettista jazz americano pioniere del bebop e del cool jazz, autore di \"Kind of Blue\".",
+          "answer": "Miles Davis"
+        },
+        {
+          "question": "Il duo di musica elettronica francese, noto per i loro caschi da robot.",
+          "answer": "Daft Punk"
+        },
+        {
+          "question": "Il cantautore di \"Bocca di Rosa\" e \"La canzone di Marinella\".",
+          "answer": "Fabrizio De André"
+        },
+        {
+          "question": "La \"Regina del Soul\", celebre per il brano \"Respect\".",
+          "answer": "Aretha Franklin"
+        },
+        {
+          "question": "La popstar colombiana famosa per i brani \"Hips Don't Lie\" e \"Waka Waka\".",
+          "answer": "Shakira"
+        },
+        {
+          "question": "Il ballerino e cantante, ex membro degli NSYNC, interprete di \"Cry Me a River\".",
+          "answer": "Justin Timberlake"
+        },
+        {
+          "question": "Il cantante e compositore di \"Rocket Man\" e \"Candle in the Wind\".",
+          "answer": "Elton John"
+        },
+        {
+          "question": "Il cantautore italiano famoso per i suoi iconici occhiali, autore di \"Caruso\".",
+          "answer": "Lucio Dalla"
+        }
       ],
-      300: [
-        { question: "Quale famosa cantante pop ha pubblicato un album intitolato '1989'?", answer: "Taylor Swift" },
-        { question: "Da quale paese proviene il genere musicale del Reggae?", answer: "Giamaica" },
-        { question: "Chi era il chitarrista principale dei The Jimi Hendrix Experience?", answer: "Jimi Hendrix" },
-        { question: "Quale band grunge ha pubblicato l'album 'Nevermind' nel 1991?", answer: "Nirvana" },
-        { question: "Come si chiama il rapper bianco protagonista del film '8 Mile'?", answer: "Eminem" }
+      "300": [
+        {
+          "question": "Quale famosa cantante pop ha pubblicato un album intitolato '1989'?",
+          "answer": "Taylor Swift"
+        },
+        {
+          "question": "Da quale paese proviene il genere musicale del Reggae?",
+          "answer": "Giamaica"
+        },
+        {
+          "question": "Chi era il chitarrista principale dei The Jimi Hendrix Experience?",
+          "answer": "Jimi Hendrix"
+        },
+        {
+          "question": "Quale band grunge ha pubblicato l'album 'Nevermind' nel 1991?",
+          "answer": "Nirvana"
+        },
+        {
+          "question": "Come si chiama il rapper bianco protagonista del film '8 Mile'?",
+          "answer": "Eminem"
+        },
+        {
+          "question": "L'ingegnere che ha dato il nome al più famoso sintetizzatore analogico moderno",
+          "answer": "Robert Moog"
+        },
+        {
+          "question": "Il chitarrista dei Queen, noto per la sua chitarra autocostruita e i suoi studi di astrofisica",
+          "answer": "Brian May"
+        },
+        {
+          "question": "Il cantautore genovese che ha scritto capolavori come 'La guerra di Piero'",
+          "answer": "Fabrizio De André"
+        },
+        {
+          "question": "Il leggendario album dei Pink Floyd con un prisma rifrangente in copertina",
+          "answer": "The Dark Side of the Moon"
+        },
+        {
+          "question": "Lo strumento a fiato magistralmente suonato dal jazzista Miles Davis",
+          "answer": "Tromba"
+        },
+        {
+          "question": "Il grande compositore russo autore del celebre balletto 'Il lago dei cigni'",
+          "answer": "Pëtr Il'ič Čajkovskij"
+        },
+        {
+          "question": "Il carismatico leader dei Doors famoso per i suoi testi poetici",
+          "answer": "Jim Morrison"
+        },
+        {
+          "question": "Il cantautore bolognese autore di brani intramontabili come 'L'anno che verrà' e 'Caruso'",
+          "answer": "Lucio Dalla"
+        },
+        {
+          "question": "La celebre opera di Puccini che contiene la potentissima aria 'Nessun dorma'",
+          "answer": "Turandot"
+        },
+        {
+          "question": "La 'Regina del Soul' indimenticabile interprete della canzone 'Respect'",
+          "answer": "Aretha Franklin"
+        },
+        {
+          "question": "Il DJ e produttore discografico francese autore di hit mondiali come 'Titanium'",
+          "answer": "David Guetta"
+        },
+        {
+          "question": "Il celebre e stravagante alter ego spaziale ideato da David Bowie",
+          "answer": "Ziggy Stardust"
+        },
+        {
+          "question": "Lo strumento musicale tradizionale scozzese dotato di una sacca",
+          "answer": "Cornamusa"
+        },
+        {
+          "question": "La cantautrice canadese esplosa negli anni '90 con l'album 'Jagged Little Pill'",
+          "answer": "Alanis Morissette"
+        },
+        {
+          "question": "Il vero nome della popstar nota al mondo come Lady Gaga",
+          "answer": "Stefani Germanotta"
+        },
+        {
+          "question": "La leggendaria rock band autrice dell'epica 'Stairway to Heaven'",
+          "answer": "Led Zeppelin"
+        },
+        {
+          "question": "La città del Tennessee considerata universalmente la capitale della musica Country",
+          "answer": "Nashville"
+        },
+        {
+          "question": "La famiglia di celebri liutai cremonesi famosa per i suoi inestimabili violini",
+          "answer": "Stradivari"
+        },
+        {
+          "question": "Il bluesman e cantautore napoletano autore di 'Napule è' e 'Je so pazzo'",
+          "answer": "Pino Daniele"
+        },
+        {
+          "question": "Il videoclip in cui Michael Jackson esegue il celebre passo inclinato 'anti-gravity lean'",
+          "answer": "Smooth Criminal"
+        },
+        {
+          "question": "L'album dei Pink Floyd con il famoso prisma e l'arcobaleno in copertina.",
+          "answer": "The Dark Side of the Moon"
+        },
+        {
+          "question": "Il cantautore folk americano premiato con il Nobel per la letteratura nel 2016.",
+          "answer": "Bob Dylan"
+        },
+        {
+          "question": "Lo strumento a fiato in legno, comunemente usato nel jazz, suonato da John Coltrane e Charlie Parker.",
+          "answer": "Sassofono"
+        },
+        {
+          "question": "La voce principale del gruppo rock The Doors.",
+          "answer": "Jim Morrison"
+        },
+        {
+          "question": "La cantautrice inglese, nota per il suo stile soul rétro e l'album \"Back to Black\".",
+          "answer": "Amy Winehouse"
+        },
+        {
+          "question": "L'opera rock degli Who che racconta la storia di un ragazzo sordo, cieco e muto.",
+          "answer": "Tommy"
+        },
+        {
+          "question": "Il vero nome di Lady Gaga.",
+          "answer": "Stefani Joanne Angelina Germanotta"
+        },
+        {
+          "question": "Il festival di musica rock che si tenne nello stato di New York nell'agosto del 1969.",
+          "answer": "Woodstock"
+        },
+        {
+          "question": "La band inglese pioniera dell'heavy metal, fondata da Ozzy Osbourne, Tony Iommi, Geezer Butler e Bill Ward.",
+          "answer": "Black Sabbath"
+        },
+        {
+          "question": "Il famoso teatro dell'opera di Milano.",
+          "answer": "Teatro alla Scala"
+        },
+        {
+          "question": "Il celebre compositore italiano di colonne sonore premio Oscar per \"Nuovo Cinema Paradiso\" e \"The Hateful Eight\".",
+          "answer": "Ennio Morricone"
+        },
+        {
+          "question": "Il gruppo grunge di Seattle capitanato da Eddie Vedder.",
+          "answer": "Pearl Jam"
+        },
+        {
+          "question": "La cantante islandese dall'eclettico stile musicale, ex membro dei Sugarcubes.",
+          "answer": "Björk"
+        },
+        {
+          "question": "L'artista autore e interprete dell'album capolavoro \"Purple Rain\".",
+          "answer": "Prince"
+        },
+        {
+          "question": "L'alter ego creato da Eminem, titolo del suo brano di successo del 2000.",
+          "answer": "The Real Slim Shady"
+        },
+        {
+          "question": "Il cantautore italiano che ha fondato l'etichetta discografica Numero Uno insieme a Mogol.",
+          "answer": "Lucio Battisti"
+        },
+        {
+          "question": "L'evento live mondiale in mondovisione organizzato da Bob Geldof nel 1985.",
+          "answer": "Live Aid"
+        },
+        {
+          "question": "La band alternative rock dei fratelli Gallagher, simbolo del britpop anni '90.",
+          "answer": "Oasis"
+        },
+        {
+          "question": "Il compositore russo del celebre balletto \"Lo schiaccianoci\".",
+          "answer": "Pëtr Il'ič Čajkovskij"
+        },
+        {
+          "question": "Il movimento punk londinese della fine degli anni '70 capeggiato da Johnny Rotten e Sid Vicious.",
+          "answer": "Sex Pistols"
+        }
       ],
-      400: [
-        { question: "Chi ha scritto e composto l'opera lirica 'La traviata'?", answer: "Giuseppe Verdi" },
-        { question: "Quale icona della musica pop ha interpretato il ruolo da protagonista nel film 'Evita' del 1996?", answer: "Madonna" },
-        { question: "Chi è il compositore della celebre 'Cavalcata delle Valchirie'?", answer: "Richard Wagner" },
-        { question: "Qual è il nome di battesimo del celebre trombettista jazz Miles Davis?", answer: "Miles" },
-        { question: "In quale decennio si è tenuto il leggendario festival di Woodstock?", answer: "Anni '60 (1969)" }
+      "400": [
+        {
+          "question": "Chi ha scritto e composto l'opera lirica 'La traviata'?",
+          "answer": "Giuseppe Verdi"
+        },
+        {
+          "question": "Quale icona della musica pop ha interpretato il ruolo da protagonista nel film 'Evita' del 1996?",
+          "answer": "Madonna"
+        },
+        {
+          "question": "Chi è il compositore della celebre 'Cavalcata delle Valchirie'?",
+          "answer": "Richard Wagner"
+        },
+        {
+          "question": "Qual è il nome di battesimo del celebre trombettista jazz Miles Davis?",
+          "answer": "Miles"
+        },
+        {
+          "question": "In quale decennio si è tenuto il leggendario festival di Woodstock?",
+          "answer": "Anni '60 (1969)"
+        },
+        {
+          "question": "L'anno solare in cui fu inaugurata e si tenne la prima edizione del Festival di Sanremo",
+          "answer": "1951"
+        },
+        {
+          "question": "Il marchio del celebre basso elettrico a forma di violino suonato da Paul McCartney",
+          "answer": "Höfner"
+        },
+        {
+          "question": "Il nome con cui è universalmente conosciuta la Terza Sinfonia di Beethoven",
+          "answer": "Sinfonia Eroica"
+        },
+        {
+          "question": "Il maestro italiano autore dell'iconica colonna sonora de 'Il buono, il brutto, il cattivo'",
+          "answer": "Ennio Morricone"
+        },
+        {
+          "question": "La celebre e provocatoria cantante italiana sorella maggiore della compianta Mia Martini",
+          "answer": "Loredana Bertè"
+        },
+        {
+          "question": "La famosa opera di Mozart in cui canta il personaggio de 'La Regina della Notte'",
+          "answer": "Il flauto magico"
+        },
+        {
+          "question": "Lo storico chitarrista solista dei Guns N' Roses, noto per il cilindro e i riccioli neri",
+          "answer": "Slash"
+        },
+        {
+          "question": "La cantautrice britannica autrice nel 1978 del brano capolavoro 'Wuthering Heights'",
+          "answer": "Kate Bush"
+        },
+        {
+          "question": "La celebre e onirica band islandese autrice del brano 'Hoppípolla'",
+          "answer": "Sigur Rós"
+        },
+        {
+          "question": "Il vero nome di battesimo all'anagrafe di Sir Elton John",
+          "answer": "Reginald Dwight"
+        },
+        {
+          "question": "Lo strumento a fiato suonato in modo selvaggio da Ian Anderson nei Jethro Tull",
+          "answer": "Flauto traverso"
+        },
+        {
+          "question": "Lo storico e malfamato locale punk di New York che lanciò band come i Ramones",
+          "answer": "CBGB"
+        },
+        {
+          "question": "L'eclettico cantautore siciliano autore del brano 'Centro di gravità permanente'",
+          "answer": "Franco Battiato"
+        },
+        {
+          "question": "Lo stile canoro tradizionale tipico delle Alpi basato sui rapidi salti di registro vocale",
+          "answer": "Yodel"
+        },
+        {
+          "question": "La turbolenta band britpop fondata a Manchester dai fratelli Liam e Noel Gallagher",
+          "answer": "Oasis"
+        },
+        {
+          "question": "Il compositore francese noto in tutto il mondo per il suo ipnotico 'Boléro'",
+          "answer": "Maurice Ravel"
+        },
+        {
+          "question": "L'anno esatto in cui si tenne il leggendario festival rock di Woodstock",
+          "answer": "1969"
+        },
+        {
+          "question": "Il geniale fondatore della storica etichetta discografica afroamericana Motown Records",
+          "answer": "Berry Gordy"
+        },
+        {
+          "question": "Paradossalmente, l'unico membro del power trio texano ZZ Top a non avere la barba lunga",
+          "answer": "Frank Beard"
+        },
+        {
+          "question": "Il cantautore canadese autore di brani intramontabili come 'Hallelujah' e 'Suzanne'",
+          "answer": "Leonard Cohen"
+        },
+        {
+          "question": "Il primo video musicale trasmesso da MTV il 1° agosto 1981.",
+          "answer": "Video Killed the Radio Star"
+        },
+        {
+          "question": "Il cantautore pop britannico interprete di \"Shape of You\" e \"Thinking Out Loud\".",
+          "answer": "Ed Sheeran"
+        },
+        {
+          "question": "Il genere musicale che combina ritmi afro-cubani, tipico di artisti come Tito Puente e Celia Cruz.",
+          "answer": "Salsa"
+        },
+        {
+          "question": "Il musicista polistrumentista, fondatore dei Foo Fighters ed ex batterista dei Nirvana.",
+          "answer": "Dave Grohl"
+        },
+        {
+          "question": "Il compositore italiano famoso per le sue opere, tra cui \"La traviata\" e \"Nabucco\".",
+          "answer": "Giuseppe Verdi"
+        },
+        {
+          "question": "Il frontman dei Radiohead.",
+          "answer": "Thom Yorke"
+        },
+        {
+          "question": "L'inventore del sintetizzatore analogico che rivoluzionò la musica elettronica negli anni '60.",
+          "answer": "Robert Moog"
+        },
+        {
+          "question": "Il vero nome di Freddie Mercury.",
+          "answer": "Farrokh Bulsara"
+        },
+        {
+          "question": "La cantautrice canadese il cui album di debutto internazionale del 1995 è \"Jagged Little Pill\".",
+          "answer": "Alanis Morissette"
+        },
+        {
+          "question": "Il compositore delle musiche dei film \"Star Wars\", \"Jurassic Park\" e \"Indiana Jones\".",
+          "answer": "John Williams"
+        },
+        {
+          "question": "L'album dei Fleetwood Mac del 1977 che vinse il Grammy come Album dell'anno e divenne uno dei dischi più venduti di sempre.",
+          "answer": "Rumours"
+        },
+        {
+          "question": "Il pioniere del rock and roll, famoso per il suo stile alla chitarra e brani come \"Johnny B. Goode\".",
+          "answer": "Chuck Berry"
+        },
+        {
+          "question": "Il rapper autore dell'album \"To Pimp a Butterfly\", premiato col Pulitzer per la musica nel 2018.",
+          "answer": "Kendrick Lamar"
+        },
+        {
+          "question": "L'icona della bossa nova che ha composto \"Garota de Ipanema\" insieme a Vinícius de Moraes.",
+          "answer": "Antônio Carlos Jobim"
+        },
+        {
+          "question": "La nota cantante francese, detta \"il passero\", celebre per \"La Vie en rose\".",
+          "answer": "Édith Piaf"
+        },
+        {
+          "question": "La band australiana nota per il brano \"Highway to Hell\" e per il caratteristico passo del chitarrista Angus Young.",
+          "answer": "AC/DC"
+        },
+        {
+          "question": "La cantante hip hop vincitrice di molteplici Grammy per l'album capolavoro \"The Miseducation of...\".",
+          "answer": "Lauryn Hill"
+        },
+        {
+          "question": "Il complesso musicale di Los Angeles noto per il pionieristico sound surf rock negli anni '60.",
+          "answer": "The Beach Boys"
+        },
+        {
+          "question": "Il batterista dei Led Zeppelin, considerato uno dei più influenti della storia del rock, morto nel 1980.",
+          "answer": "John Bonham"
+        },
+        {
+          "question": "La famiglia austriaca protagonista del musical e film \"Tutti insieme appassionatamente\".",
+          "answer": "Famiglia von Trapp"
+        }
       ],
-      500: [
-        { question: "Come si chiamava il cantante dei Joy Division, morto nel 1980?", answer: "Ian Curtis" },
-        { question: "Qual è il compositore barocco tedesco celebre per aver composto i 'Concerti brandeburghesi'?", answer: "Johann Sebastian Bach" },
-        { question: "Quale famoso produttore musicale ha inventato il 'Wall of Sound'?", answer: "Phil Spector" },
-        { question: "Chi suonava il basso nei Led Zeppelin?", answer: "John Paul Jones" },
-        { question: "Quale compositore russo ha scritto il balletto 'La sagra della primavera', che ha causato uno scandalo alla sua prima parigina?", answer: "Igor Stravinskij" }
+      "500": [
+        {
+          "question": "Come si chiamava il cantante dei Joy Division, morto nel 1980?",
+          "answer": "Ian Curtis"
+        },
+        {
+          "question": "Qual è il compositore barocco tedesco celebre per aver composto i 'Concerti brandeburghesi'?",
+          "answer": "Johann Sebastian Bach"
+        },
+        {
+          "question": "Quale famoso produttore musicale ha inventato il 'Wall of Sound'?",
+          "answer": "Phil Spector"
+        },
+        {
+          "question": "Chi suonava il basso nei Led Zeppelin?",
+          "answer": "John Paul Jones"
+        },
+        {
+          "question": "Quale compositore russo ha scritto il balletto 'La sagra della primavera', che ha causato uno scandalo alla sua prima parigina?",
+          "answer": "Igor Stravinskij"
+        },
+        {
+          "question": "Il numero esatto di sinfonie portate a termine e completate dal compositore Gustav Mahler",
+          "answer": "Nove"
+        },
+        {
+          "question": "Il modello del piccolo sintetizzatore per basso della Roland che diede vita al suono Acid House",
+          "answer": "TB-303"
+        },
+        {
+          "question": "Il compositore russo che scandalizzò il pubblico di Parigi con il balletto 'La sagra della primavera'",
+          "answer": "Igor Stravinskij"
+        },
+        {
+          "question": "La corretta accordatura a vuoto delle quattro corde di un violino, procedendo dal grave all'acuto",
+          "answer": "Sol, Re, La, Mi"
+        },
+        {
+          "question": "Il vero nome di nascita e origini parsi del leggendario frontman dei Queen Freddie Mercury",
+          "answer": "Farrokh Bulsara"
+        },
+        {
+          "question": "Il virtuoso supergruppo progressive rock britannico autore della suite 'Tarkus'",
+          "answer": "Emerson, Lake & Palmer"
+        },
+        {
+          "question": "Il malinconico cantautore genovese che morì tragicamente durante il Festival di Sanremo del 1967",
+          "answer": "Luigi Tenco"
+        },
+        {
+          "question": "Il titolo del primo e profetico videoclip musicale trasmesso da MTV il 1 agosto 1981",
+          "answer": "Video Killed the Radio Star"
+        },
+        {
+          "question": "I piccoli strumenti a percussione in legno tipicamente suonati dai ballerini di Flamenco spagnolo",
+          "answer": "Nacchere"
+        },
+        {
+          "question": "Il celebre compositore finlandese autore del maestoso poema sinfonico 'Finlandia'",
+          "answer": "Jean Sibelius"
+        },
+        {
+          "question": "Il celeberrimo album di Miles Davis del 1959, considerato il disco jazz più venduto di sempre",
+          "answer": "Kind of Blue"
+        },
+        {
+          "question": "L'incredibile chitarrista jazz manouche diventato leggenda pur suonando gli assoli con solo due dita",
+          "answer": "Django Reinhardt"
+        },
+        {
+          "question": "Il nome della diffusissima scala musicale formata da sole cinque note per ottava",
+          "answer": "Scala pentatonica"
+        },
+        {
+          "question": "La celebre cantautrice folk americana che si esibì sul palco di Woodstock incinta di sei mesi",
+          "answer": "Joan Baez"
+        },
+        {
+          "question": "Il tormentato cantante fondatore e paroliere dei Joy Division, scomparso suicida nel 1980",
+          "answer": "Ian Curtis"
+        },
+        {
+          "question": "La storica band di rock progressivo italiana autrice del capolavoro 'Impressioni di settembre'",
+          "answer": "PFM / Premiata Forneria Marconi"
+        },
+        {
+          "question": "L'innovativo compositore australiano che creò il primissimo tema musicale della serie 'Doctor Who'",
+          "answer": "Ron Grainer"
+        },
+        {
+          "question": "Il musicista e compositore greco pioniere dell'elettronica autore della colonna sonora di 'Momenti di gloria'",
+          "answer": "Vangelis"
+        },
+        {
+          "question": "L'altra grandissima e leggendaria dinastia di liutai cremonesi, considerata l'unica rivale degli Stradivari",
+          "answer": "Guarneri / Guarneri del Gesù"
+        },
+        {
+          "question": "L'antico e complesso strumento a corde pizzicate indiano suonato dal maestro Ravi Shankar",
+          "answer": "Sitar"
+        },
+        {
+          "question": "Lo strumento musicale che consiste di una cassa armonica e una tastiera che aziona dei plettri per pizzicare le corde, popolare nel Rinascimento.",
+          "answer": "Clavicembalo"
+        },
+        {
+          "question": "Il cantautore americano che scrisse e interpretò originariamente \"Hallelujah\" prima delle celebri cover di John Cale e Jeff Buckley.",
+          "answer": "Leonard Cohen"
+        },
+        {
+          "question": "Il nome d'arte di Paul Hewson.",
+          "answer": "Bono"
+        },
+        {
+          "question": "Il violoncellista di fama mondiale, nato in Francia da genitori cinesi, celebre interprete delle Suite per violoncello di Bach.",
+          "answer": "Yo-Yo Ma"
+        },
+        {
+          "question": "Il leggendario bluesman che, secondo la leggenda, avrebbe venduto l'anima al diavolo a un crocevia in Mississippi in cambio del talento musicale.",
+          "answer": "Robert Johnson"
+        },
+        {
+          "question": "L'autore classico, celebre compositore de \"Le quattro stagioni\".",
+          "answer": "Antonio Vivaldi"
+        },
+        {
+          "question": "L'album dei Clash del 1979 con la celebre copertina in cui Paul Simonon spacca il suo basso.",
+          "answer": "London Calling"
+        },
+        {
+          "question": "La città statunitense considerata la culla del genere grunge nei primi anni '90.",
+          "answer": "Seattle"
+        },
+        {
+          "question": "Il gruppo musicale islandese post-rock guidato da Jónsi, noto per l'uso dell'archetto sulla chitarra.",
+          "answer": "Sigur Rós"
+        },
+        {
+          "question": "L'album dei Joy Division uscito nel 1980 poco dopo il suicidio del cantante Ian Curtis.",
+          "answer": "Closer"
+        },
+        {
+          "question": "L'inventore del sassofono, un costruttore di strumenti belga del diciannovesimo secolo.",
+          "answer": "Adolphe Sax"
+        },
+        {
+          "question": "La leggendaria etichetta discografica soul e R&B di Detroit, fondata da Berry Gordy.",
+          "answer": "Motown"
+        },
+        {
+          "question": "Il geniale e sfortunato musicista inglese, fondatore originale dei Pink Floyd, che dovette lasciare la band a causa di problemi di salute mentale.",
+          "answer": "Syd Barrett"
+        },
+        {
+          "question": "Il pioniere della musica ambient e produttore di band come U2, Coldplay e Talking Heads.",
+          "answer": "Brian Eno"
+        },
+        {
+          "question": "Il compositore della celebre e complessa \"Sagra della primavera\", la cui prima a Parigi nel 1913 causò una vera e propria rissa in teatro.",
+          "answer": "Igor Stravinskij"
+        },
+        {
+          "question": "Il leggendario chitarrista jazz manouche che, pur avendo perso parzialmente l'uso di due dita della mano sinistra in un incendio, divenne un virtuoso dello strumento.",
+          "answer": "Django Reinhardt"
+        },
+        {
+          "question": "L'album in studio dei Beastie Boys del 1989, celebre per il suo stile di campionamento stratificato prodotto dai Dust Brothers.",
+          "answer": "Paul's Boutique"
+        },
+        {
+          "question": "L'influente band alternative rock americana il cui bassista, Kim Deal, suonava anche nelle Breeders.",
+          "answer": "Pixies"
+        },
+        {
+          "question": "La cantautrice di \"Wuthering Heights\", che divenne la prima artista femminile a raggiungere la numero uno nel Regno Unito con una canzone scritta interamente da sola.",
+          "answer": "Kate Bush"
+        },
+        {
+          "question": "L'antica scala musicale composta da cinque note per ottava, diffusissima in molte tradizioni popolari globali e nel blues.",
+          "answer": "Scala pentatonica"
+        }
       ]
     }
   },
   {
-    name: "Scienza e Natura",
-    questions: {
-      100: [
-        { question: "Qual è il pianeta più vicino al Sole?", answer: "Mercurio" },
-        { question: "Quante zampe ha un ragno?", answer: "Otto" },
-        { question: "Qual è il simbolo chimico dell'acqua?", answer: "H2O" },
-        { question: "Come si chiama il satellite naturale della Terra?", answer: "La Luna" },
-        { question: "Quale animale è famoso per il suo collo lunghissimo?", answer: "La giraffa" }
+    "name": "Scienza e Natura",
+    "questions": {
+      "100": [
+        {
+          "question": "Qual è il pianeta più vicino al Sole?",
+          "answer": "Mercurio"
+        },
+        {
+          "question": "Quante zampe ha un ragno?",
+          "answer": "Otto"
+        },
+        {
+          "question": "Qual è il simbolo chimico dell'acqua?",
+          "answer": "H2O"
+        },
+        {
+          "question": "Come si chiama il satellite naturale della Terra?",
+          "answer": "La Luna"
+        },
+        {
+          "question": "Quale animale è famoso per il suo collo lunghissimo?",
+          "answer": "La giraffa"
+        },
+        {
+          "question": "Qual è il pianeta più vicino al Sole?",
+          "answer": "Mercurio"
+        },
+        {
+          "question": "Come si chiama il satellite naturale della Terra?",
+          "answer": "Luna"
+        },
+        {
+          "question": "Quale gas le piante assorbono durante la fotosintesi?",
+          "answer": "Anidride carbonica"
+        },
+        {
+          "question": "Quante zampe ha un ragno?",
+          "answer": "Otto"
+        },
+        {
+          "question": "Qual è il metallo liquido a temperatura ambiente?",
+          "answer": "Mercurio"
+        },
+        {
+          "question": "In quale stato della materia l'acqua diventa ghiaccio?",
+          "answer": "Solido"
+        },
+        {
+          "question": "Qual è l'animale terrestre più veloce del mondo?",
+          "answer": "Ghepardo"
+        },
+        {
+          "question": "Come si chiama il processo per cui un bruco diventa farfalla?",
+          "answer": "Metamorfosi"
+        },
+        {
+          "question": "Qual è la stella al centro del nostro sistema solare?",
+          "answer": "Sole"
+        },
+        {
+          "question": "Quanti colori ci sono tradizionalmente in un arcobaleno?",
+          "answer": "Sette"
+        },
+        {
+          "question": "Quale organo umano pompa il sangue in tutto il corpo?",
+          "answer": "Cuore"
+        },
+        {
+          "question": "Come si chiama l'unità biologica di base di tutti gli esseri viventi?",
+          "answer": "Cellula"
+        },
+        {
+          "question": "Che tipo di animale è un delfino?",
+          "answer": "Mammifero"
+        },
+        {
+          "question": "Qual è l'osso più lungo e forte del corpo umano?",
+          "answer": "Femore"
+        },
+        {
+          "question": "Quale parte della pianta assorbe l'acqua e i nutrienti dal terreno?",
+          "answer": "Radici"
+        },
+        {
+          "question": "Quale forza invisibile ci tiene ancorati al suolo?",
+          "answer": "Gravità"
+        },
+        {
+          "question": "Quale uccello marino è noto per non poter volare ma per nuotare benissimo?",
+          "answer": "Pinguino"
+        },
+        {
+          "question": "Di che colore è la polpa interna di un'anguria matura?",
+          "answer": "Rosso"
+        },
+        {
+          "question": "Come si chiama il nostro pianeta?",
+          "answer": "Terra"
+        },
+        {
+          "question": "Qual è l'animale più grande mai vissuto sulla Terra?",
+          "answer": "Balenottera azzurra"
+        },
+        {
+          "question": "Il pianeta del sistema solare più vicino al Sole.",
+          "answer": "Mercurio"
+        },
+        {
+          "question": "Il processo attraverso il quale le piante producono il loro nutrimento usando la luce solare.",
+          "answer": "Fotosintesi clorofilliana"
+        },
+        {
+          "question": "Il gas più abbondante nell'atmosfera terrestre.",
+          "answer": "Azoto"
+        },
+        {
+          "question": "L'unico mammifero in grado di volare attivamente.",
+          "answer": "Pipistrello"
+        },
+        {
+          "question": "L'organo del corpo umano responsabile di pompare il sangue.",
+          "answer": "Cuore"
+        },
+        {
+          "question": "Lo stato dell'acqua quando si congela a zero gradi Celsius.",
+          "answer": "Ghiaccio (o Solido)"
+        },
+        {
+          "question": "L'animale terrestre più veloce del mondo.",
+          "answer": "Ghepardo"
+        },
+        {
+          "question": "Il più grande oceano della Terra.",
+          "answer": "Oceano Pacifico"
+        },
+        {
+          "question": "L'osso più lungo del corpo umano.",
+          "answer": "Femore"
+        },
+        {
+          "question": "Il satellite naturale della Terra.",
+          "answer": "Luna"
+        },
+        {
+          "question": "Il metallo liquido a temperatura ambiente usato nei vecchi termometri.",
+          "answer": "Mercurio"
+        },
+        {
+          "question": "L'insetto noto per produrre il miele.",
+          "answer": "Ape"
+        },
+        {
+          "question": "La forza che attira i corpi verso il centro della Terra.",
+          "answer": "Gravità"
+        },
+        {
+          "question": "L'unità di base della vita in tutti gli organismi.",
+          "answer": "Cellula"
+        },
+        {
+          "question": "Il mammifero marino più grande del mondo.",
+          "answer": "Balenottera azzurra"
+        },
+        {
+          "question": "Il processo per cui un bruco diventa farfalla.",
+          "answer": "Metamorfosi"
+        },
+        {
+          "question": "Il pigmento che dà il colore verde alle foglie.",
+          "answer": "Clorofilla"
+        },
+        {
+          "question": "La stella al centro del nostro sistema solare.",
+          "answer": "Sole"
+        },
+        {
+          "question": "Il fenomeno naturale che si verifica quando la Luna si frappone tra la Terra e il Sole.",
+          "answer": "Eclissi solare"
+        },
+        {
+          "question": "L'albero il cui frutto è una ghianda.",
+          "answer": "Quercia"
+        }
       ],
-      200: [
-        { question: "Chi ha sviluppato la teoria della relatività?", answer: "Albert Einstein" },
-        { question: "Qual è l'organo del corpo umano che pompa il sangue?", answer: "Il cuore" },
-        { question: "Come si chiama il processo con cui le piante producono il loro nutrimento dal sole?", answer: "Fotosintesi clorofilliana" },
-        { question: "Qual è il metallo liquido a temperatura ambiente?", answer: "Il mercurio" },
-        { question: "Quanti sono i pianeti del nostro sistema solare?", answer: "Otto" }
+      "200": [
+        {
+          "question": "Chi ha sviluppato la teoria della relatività?",
+          "answer": "Albert Einstein"
+        },
+        {
+          "question": "Qual è l'organo del corpo umano che pompa il sangue?",
+          "answer": "Il cuore"
+        },
+        {
+          "question": "Come si chiama il processo con cui le piante producono il loro nutrimento dal sole?",
+          "answer": "Fotosintesi clorofilliana"
+        },
+        {
+          "question": "Qual è il metallo liquido a temperatura ambiente?",
+          "answer": "Il mercurio"
+        },
+        {
+          "question": "Quanti sono i pianeti del nostro sistema solare?",
+          "answer": "Otto"
+        },
+        {
+          "question": "Qual è il simbolo chimico dell'ossigeno?",
+          "answer": "O"
+        },
+        {
+          "question": "Chi ha formulato la famosa teoria della relatività?",
+          "answer": "Albert Einstein"
+        },
+        {
+          "question": "Qual è l'organo più esteso del corpo umano?",
+          "answer": "Pelle"
+        },
+        {
+          "question": "Come si chiama la galassia in cui si trova il nostro sistema solare?",
+          "answer": "Via Lattea"
+        },
+        {
+          "question": "Quale scienziato è famoso per la sua legge di gravitazione universale associata alla mela?",
+          "answer": "Isaac Newton"
+        },
+        {
+          "question": "Che tipo di roccia si forma dal raffreddamento del magma?",
+          "answer": "Ignea (o Magmatica)"
+        },
+        {
+          "question": "Qual è il gas più abbondante nell'atmosfera terrestre?",
+          "answer": "Azoto"
+        },
+        {
+          "question": "In quale parte del corpo umano si trova la retina?",
+          "answer": "Occhio"
+        },
+        {
+          "question": "Quale anfibio inizia la sua vita acquatica sotto forma di girino?",
+          "answer": "Rana"
+        },
+        {
+          "question": "Come si chiama la parte centrale e massiccia di un atomo?",
+          "answer": "Nucleo"
+        },
+        {
+          "question": "Quale scienziata ha vinto due premi Nobel per le sue ricerche pionieristiche sulla radioattività?",
+          "answer": "Marie Curie"
+        },
+        {
+          "question": "Qual è il pianeta più grande del nostro sistema solare?",
+          "answer": "Giove"
+        },
+        {
+          "question": "Come si chiamano i vasi sanguigni che portano il sangue verso il cuore?",
+          "answer": "Vene"
+        },
+        {
+          "question": "Quale intelligente animale marino possiede otto tentacoli (braccia)?",
+          "answer": "Polpo"
+        },
+        {
+          "question": "In che anno è avvenuto il primo storico sbarco umano sulla Luna?",
+          "answer": "1969"
+        },
+        {
+          "question": "Qual è la nota formula chimica dell'acqua?",
+          "answer": "H2O"
+        },
+        {
+          "question": "Quale organo a forma di fagiolo filtra le scorie dal sangue?",
+          "answer": "Reni"
+        },
+        {
+          "question": "Come si chiama il continente interamente coperto di ghiaccio situato al Polo Sud?",
+          "answer": "Antartide"
+        },
+        {
+          "question": "A quale gruppo di animali preistorici appartiene il Tyrannosaurus rex?",
+          "answer": "Dinosauri"
+        },
+        {
+          "question": "Come si chiama il fenomeno ottico per cui la luce cambia direzione passando da un mezzo all'altro?",
+          "answer": "Rifrazione"
+        },
+        {
+          "question": "Il simbolo chimico dell'oro.",
+          "answer": "Au"
+        },
+        {
+          "question": "L'inventore del primo vaccino contro il vaiolo.",
+          "answer": "Edward Jenner"
+        },
+        {
+          "question": "La scienza che studia i fossili.",
+          "answer": "Paleontologia"
+        },
+        {
+          "question": "Il pianeta del nostro sistema solare noto per i suoi anelli visibili.",
+          "answer": "Saturno"
+        },
+        {
+          "question": "La parte del fiore che produce il polline.",
+          "answer": "Antera (o Stame)"
+        },
+        {
+          "question": "La roccia fusa che fuoriesce da un vulcano durante un'eruzione.",
+          "answer": "Lava"
+        },
+        {
+          "question": "Il gruppo sanguigno considerato donatore universale.",
+          "answer": "0 negativo (o Zero)"
+        },
+        {
+          "question": "L'uccello incapace di volare nativo dell'Antartide.",
+          "answer": "Pinguino"
+        },
+        {
+          "question": "La branca della fisica che studia il suono.",
+          "answer": "Acustica"
+        },
+        {
+          "question": "La proteina che trasporta l'ossigeno nei globuli rossi.",
+          "answer": "Emoglobina"
+        },
+        {
+          "question": "La scala usata per misurare la magnitudo di un terremoto.",
+          "answer": "Scala Richter"
+        },
+        {
+          "question": "Il processo con cui l'acqua passa dallo stato liquido allo stato gassoso.",
+          "answer": "Evaporazione"
+        },
+        {
+          "question": "Il più grande organo interno del corpo umano.",
+          "answer": "Fegato"
+        },
+        {
+          "question": "Il nome dato alla tempesta tropicale quando si forma nell'Oceano Pacifico nord-occidentale.",
+          "answer": "Tifone"
+        },
+        {
+          "question": "La struttura a doppia elica che contiene le informazioni genetiche.",
+          "answer": "DNA"
+        },
+        {
+          "question": "Il mammifero marsupiale noto per la sua dieta a base di foglie di eucalipto.",
+          "answer": "Koala"
+        },
+        {
+          "question": "Lo scienziato che ha formulato la teoria della relatività.",
+          "answer": "Albert Einstein"
+        },
+        {
+          "question": "Il nome del gas prodotto durante la respirazione cellulare ed espirato dagli esseri umani.",
+          "answer": "Anidride carbonica"
+        },
+        {
+          "question": "La particella subatomica con carica elettrica negativa.",
+          "answer": "Elettrone"
+        },
+        {
+          "question": "L'anfibio che può rigenerare parti del suo corpo, incluso il cuore e il cervello.",
+          "answer": "Axolotl (o Salamandra)"
+        }
       ],
-      300: [
-        { question: "Quale gas respiriamo per vivere?", answer: "Ossigeno" },
-        { question: "Quale animale è il mammifero più grande del mondo?", answer: "La balenottera azzurra" },
-        { question: "Chi ha scoperto la penicillina?", answer: "Alexander Fleming" },
-        { question: "Qual è il minerale più duro presente in natura?", answer: "Il diamante" },
-        { question: "Come si chiama l'unità di misura della forza nel Sistema Internazionale?", answer: "Newton" }
+      "300": [
+        {
+          "question": "Quale gas respiriamo per vivere?",
+          "answer": "Ossigeno"
+        },
+        {
+          "question": "Quale animale è il mammifero più grande del mondo?",
+          "answer": "La balenottera azzurra"
+        },
+        {
+          "question": "Chi ha scoperto la penicillina?",
+          "answer": "Alexander Fleming"
+        },
+        {
+          "question": "Qual è il minerale più duro presente in natura?",
+          "answer": "Il diamante"
+        },
+        {
+          "question": "Come si chiama l'unità di misura della forza nel Sistema Internazionale?",
+          "answer": "Newton"
+        },
+        {
+          "question": "Qual è il simbolo chimico dell'oro sulla tavola periodica?",
+          "answer": "Au"
+        },
+        {
+          "question": "Qual è il fiume spesso considerato il più lungo del mondo, che sfocia nel Mar Mediterraneo?",
+          "answer": "Nilo"
+        },
+        {
+          "question": "Qual è la distanza media approssimativa tra la Terra e il Sole in milioni di chilometri?",
+          "answer": "150"
+        },
+        {
+          "question": "Come si chiama il processo di divisione cellulare che produce due cellule figlie geneticamente identiche?",
+          "answer": "Mitosi"
+        },
+        {
+          "question": "Quale strumento meteorologico serve a misurare la pressione atmosferica?",
+          "answer": "Barometro"
+        },
+        {
+          "question": "In quale classe di vertebrati ectotermi rientrano serpenti e lucertole?",
+          "answer": "Rettili"
+        },
+        {
+          "question": "Chi ha sviluppato e pubblicato la teoria dell'evoluzione per selezione naturale nel 1859?",
+          "answer": "Charles Darwin"
+        },
+        {
+          "question": "Quale vitamina fondamentale viene sintetizzata dalla pelle umana quando è esposta alla luce solare?",
+          "answer": "Vitamina D"
+        },
+        {
+          "question": "Qual è la scala numerica utilizzata in chimica per misurare l'acidità o la basicità di una soluzione?",
+          "answer": "Scala pH"
+        },
+        {
+          "question": "Quale pianeta gassoso del sistema solare è famoso per i suoi spettacolari anelli visibili?",
+          "answer": "Saturno"
+        },
+        {
+          "question": "Qual è l'elemento chimico più leggero e di gran lunga più abbondante in tutto l'universo?",
+          "answer": "Idrogeno"
+        },
+        {
+          "question": "Quale ghiandola a forma di farfalla, situata nel collo, regola il metabolismo corporeo?",
+          "answer": "Tiroide"
+        },
+        {
+          "question": "Quale fenomeno astronomico si verifica quando la Luna si allinea esattamente tra la Terra e il Sole?",
+          "answer": "Eclissi solare"
+        },
+        {
+          "question": "Qual è il nome della branca della biologia che si occupa dello studio dei funghi?",
+          "answer": "Micologia"
+        },
+        {
+          "question": "Quale organello è comunemente considerato la 'centrale energetica' della cellula eucariota?",
+          "answer": "Mitocondrio"
+        },
+        {
+          "question": "Quale celebre scienziato italiano ha perfezionato il telescopio per le sue pionieristiche osservazioni astronomiche?",
+          "answer": "Galileo Galilei"
+        },
+        {
+          "question": "Quale forza resiste allo scivolamento o al rotolamento di un corpo solido su un altro?",
+          "answer": "Attrito"
+        },
+        {
+          "question": "Qual è la specie di uccello più grande e pesante attualmente vivente sul pianeta?",
+          "answer": "Struzzo"
+        },
+        {
+          "question": "Quale metallo alcalino ha come simbolo chimico Na?",
+          "answer": "Sodio"
+        },
+        {
+          "question": "Come si chiamano le rocce formate dalla trasformazione chimico-fisica di altre rocce a causa di calore e pressione?",
+          "answer": "Metamorfiche"
+        },
+        {
+          "question": "Il nome della galassia a cui appartiene il nostro sistema solare.",
+          "answer": "Via Lattea"
+        },
+        {
+          "question": "Il tipo di nuvola associata a temporali intensi e grandine.",
+          "answer": "Cumulonembo"
+        },
+        {
+          "question": "L'era geologica conosciuta come 'l'età dei rettili', in cui vissero i dinosauri.",
+          "answer": "Mesozoico"
+        },
+        {
+          "question": "Il processo chimico in cui una sostanza reagisce rapidamente con l'ossigeno producendo calore e luce.",
+          "answer": "Combustione"
+        },
+        {
+          "question": "Il minerale più duro presente in natura secondo la scala di Mohs.",
+          "answer": "Diamante"
+        },
+        {
+          "question": "L'organo elettrico dei pesci come le torpedini è formato da cellule specializzate chiamate così.",
+          "answer": "Elettrociti"
+        },
+        {
+          "question": "Il periodo di letargo estivo che alcuni animali attraversano per sopravvivere alla siccità.",
+          "answer": "Estivazione"
+        },
+        {
+          "question": "La ghiandola situata alla base del cervello, spesso chiamata 'ghiandola maestra'.",
+          "answer": "Ipofisi (o Ghiandola pituitaria)"
+        },
+        {
+          "question": "La legge fisica secondo cui ad ogni azione corrisponde una reazione uguale e contraria.",
+          "answer": "Terza legge della dinamica (o Terza legge di Newton)"
+        },
+        {
+          "question": "Il termine che indica la varietà di organismi viventi in un particolare ecosistema.",
+          "answer": "Biodiversità"
+        },
+        {
+          "question": "Il nome scientifico del processo di formazione delle montagne.",
+          "answer": "Orogenesi"
+        },
+        {
+          "question": "L'elemento chimico più leggero e più abbondante nell'universo.",
+          "answer": "Idrogeno"
+        },
+        {
+          "question": "Il primo scienziato a proporre il modello eliocentrico del sistema solare in epoca moderna.",
+          "answer": "Niccolò Copernico"
+        },
+        {
+          "question": "Il biome caratterizzato da permafrost, basse temperature e vegetazione scarsa.",
+          "answer": "Tundra"
+        },
+        {
+          "question": "La parte dell'occhio sensibile alla luce che contiene coni e bastoncelli.",
+          "answer": "Retina"
+        },
+        {
+          "question": "Il termine medico per la bassa concentrazione di zuccheri nel sangue.",
+          "answer": "Ipoglicemia"
+        },
+        {
+          "question": "L'astronomo che ha scoperto le prime quattro lune di Giove.",
+          "answer": "Galileo Galilei"
+        },
+        {
+          "question": "Il nome della reazione nucleare che alimenta il Sole e le altre stelle.",
+          "answer": "Fusione nucleare"
+        },
+        {
+          "question": "L'unità di misura dell'intensità della corrente elettrica.",
+          "answer": "Ampere"
+        },
+        {
+          "question": "Il processo di separazione dei componenti di una miscela liquida basato sui loro diversi punti di ebollizione.",
+          "answer": "Distillazione"
+        }
       ],
-      400: [
-        { question: "Qual è la formula chimica dell'acido solforico?", answer: "H2SO4" },
-        { question: "Come si chiama la particella subatomica con carica neutra?", answer: "Neutrone" },
-        { question: "Chi propose la teoria dell'evoluzione per selezione naturale?", answer: "Charles Darwin" },
-        { question: "Quale strato dell'atmosfera terrestre ci protegge dai raggi ultravioletti del sole?", answer: "Ozono (o Ozonosfera)" },
-        { question: "Che tipo di roccia è il marmo?", answer: "Metamorfica" }
+      "400": [
+        {
+          "question": "Qual è la formula chimica dell'acido solforico?",
+          "answer": "H2SO4"
+        },
+        {
+          "question": "Come si chiama la particella subatomica con carica neutra?",
+          "answer": "Neutrone"
+        },
+        {
+          "question": "Chi propose la teoria dell'evoluzione per selezione naturale?",
+          "answer": "Charles Darwin"
+        },
+        {
+          "question": "Quale strato dell'atmosfera terrestre ci protegge dai raggi ultravioletti del sole?",
+          "answer": "Ozono (o Ozonosfera)"
+        },
+        {
+          "question": "Che tipo di roccia è il marmo?",
+          "answer": "Metamorfica"
+        },
+        {
+          "question": "Quale particella subatomica residente nel nucleo ha carica elettrica positiva?",
+          "answer": "Protone"
+        },
+        {
+          "question": "Quale biologo scozzese ha scoperto il primo antibiotico al mondo, la penicillina, nel 1928?",
+          "answer": "Alexander Fleming"
+        },
+        {
+          "question": "Qual è il muscolo più forte del corpo umano in relazione alle sue dimensioni, fondamentale per la masticazione?",
+          "answer": "Massetere"
+        },
+        {
+          "question": "Come si chiama il confine teorico oltre il quale nulla, nemmeno la luce, può sfuggire all'attrazione di un buco nero?",
+          "answer": "Orizzonte degli eventi"
+        },
+        {
+          "question": "Quale era geologica, divisa in Triassico, Giurassico e Cretaceo, è spesso definita 'L'era dei rettili' o dei dinosauri?",
+          "answer": "Mesozoico"
+        },
+        {
+          "question": "Come si chiama l'acido nucleico a doppia elica depositario dell'informazione genetica negli organismi viventi?",
+          "answer": "DNA"
+        },
+        {
+          "question": "Di quale costellazione settentrionale fa parte la Stella Polare (Polaris)?",
+          "answer": "Orsa Minore"
+        },
+        {
+          "question": "In fisica e termodinamica, quale grandezza è comunemente intesa come misura del disordine di un sistema isolato?",
+          "answer": "Entropia"
+        },
+        {
+          "question": "Quale elemento chimico è l'unico non metallo a presentarsi allo stato liquido a temperatura e pressione ambiente?",
+          "answer": "Bromo"
+        },
+        {
+          "question": "Quale specifica parte del cervello umano è la principale responsabile del controllo dell'equilibrio e della coordinazione motoria?",
+          "answer": "Cervelletto"
+        },
+        {
+          "question": "Come si chiama la metalloproteina contenuta nei globuli rossi che si lega all'ossigeno per trasportarlo ai tessuti?",
+          "answer": "Emoglobina"
+        },
+        {
+          "question": "Qual è l'unità di misura della resistenza elettrica adottata dal Sistema Internazionale?",
+          "answer": "Ohm"
+        },
+        {
+          "question": "Quale fisico tedesco ha formulato il noto principio di indeterminazione, caposaldo della meccanica quantistica?",
+          "answer": "Werner Heisenberg"
+        },
+        {
+          "question": "Quale tipo di radiazione elettromagnetica ad altissima energia ha lunghezze d'onda persino più corte dei raggi X?",
+          "answer": "Raggi gamma"
+        },
+        {
+          "question": "Quale ormone secreto dalle ghiandole surrenali prepara l'organismo alla reazione fisiologica di 'combatti o fuggi'?",
+          "answer": "Adrenalina"
+        },
+        {
+          "question": "Come si chiama il processo esogeno di disgregazione e alterazione delle rocce causato dagli agenti atmosferici e chimici?",
+          "answer": "Erosione (o Degradazione meteorica)"
+        },
+        {
+          "question": "Come si chiama la branca dell'elettromagnetismo e della fisica che studia il comportamento e le proprietà della luce?",
+          "answer": "Ottica"
+        },
+        {
+          "question": "Quale teoria geologica moderna descrive il movimento a grande scala delle zolle che formano la litosfera terrestre?",
+          "answer": "Tettonica a placche"
+        },
+        {
+          "question": "Come si definisce in fisica nucleare il periodo di tempo occorrente affinché metà degli atomi di un radionuclide decadano?",
+          "answer": "Tempo di dimezzamento"
+        },
+        {
+          "question": "Quale metallo di transizione possiede il punto di fusione più elevato di tutti gli elementi puri scoperti finora?",
+          "answer": "Tungsteno"
+        },
+        {
+          "question": "La parte del cervello responsabile del coordinamento motorio e dell'equilibrio.",
+          "answer": "Cervelletto"
+        },
+        {
+          "question": "Il fenomeno fisico per cui la luce cambia direzione passando da un mezzo all'altro.",
+          "answer": "Rifrazione"
+        },
+        {
+          "question": "L'elemento chimico il cui nome deriva dalla parola greca per 'colore' a causa dei suoi composti colorati.",
+          "answer": "Cromo"
+        },
+        {
+          "question": "Il nome della navicella spaziale che ha portato i primi esseri umani sulla Luna.",
+          "answer": "Apollo 11"
+        },
+        {
+          "question": "La proteina fibrosa che costituisce la struttura principale di capelli, unghie e piume.",
+          "answer": "Cheratina"
+        },
+        {
+          "question": "L'effetto per cui la frequenza di un'onda cambia quando la sorgente si muove rispetto all'osservatore.",
+          "answer": "Effetto Doppler"
+        },
+        {
+          "question": "Il tipo di roccia formata dal raffreddamento e dalla solidificazione del magma.",
+          "answer": "Roccia ignea (o magmatica)"
+        },
+        {
+          "question": "Il chimico russo che ha creato la prima versione della tavola periodica degli elementi.",
+          "answer": "Dmitrij Mendeleev"
+        },
+        {
+          "question": "La malattia virale che è stata la prima a essere eradicata globalmente grazie alla vaccinazione.",
+          "answer": "Vaiolo"
+        },
+        {
+          "question": "La costante fisica che indica la velocità della luce nel vuoto, approssimata a 300.000 km/s.",
+          "answer": "c (Velocità della luce)"
+        },
+        {
+          "question": "Il termine per indicare gli animali che mantengono la loro temperatura corporea costante, indipendentemente dall'ambiente.",
+          "answer": "Omeotermi (o Endotermi)"
+        },
+        {
+          "question": "Il confine tra l'atmosfera terrestre e lo spazio esterno, situato a circa 100 km di altitudine.",
+          "answer": "Linea di Kármán"
+        },
+        {
+          "question": "L'enzima contenuto nella saliva che inizia la digestione dei carboidrati complessi.",
+          "answer": "Ptialina (o Amilasi salivare)"
+        },
+        {
+          "question": "Il principio secondo cui è impossibile conoscere simultaneamente con precisione sia la posizione che la quantità di moto di una particella.",
+          "answer": "Principio di indeterminazione di Heisenberg"
+        },
+        {
+          "question": "Il periodo geologico in cui comparvero per la prima volta gran parte dei gruppi animali complessi.",
+          "answer": "Cambriano (o Esplosione cambriana)"
+        },
+        {
+          "question": "L'ormone prodotto dal pancreas che abbassa i livelli di glucosio nel sangue.",
+          "answer": "Insulina"
+        },
+        {
+          "question": "La costellazione che contiene la stella Polare nell'emisfero nord.",
+          "answer": "Orsa Minore"
+        },
+        {
+          "question": "Il processo biologico in cui una cellula si divide in due cellule figlie identiche.",
+          "answer": "Mitosi"
+        },
+        {
+          "question": "Il nome della teoria che spiega il movimento delle placche litosferiche della Terra.",
+          "answer": "Tettonica a placche"
+        },
+        {
+          "question": "La forza fondamentale responsabile del decadimento radioattivo beta.",
+          "answer": "Interazione debole (o Forza nucleare debole)"
+        }
       ],
-      500: [
-        { question: "Qual è il nome della prima donna a vincere il Premio Nobel e l'unica a vincerlo in due campi scientifici diversi?", answer: "Marie Curie" },
-        { question: "Come si chiama la costante cosmologica indicata con la lettera Lambda nella teoria della relatività generale?", answer: "Energia oscura (o Costante cosmologica)" },
-        { question: "Quale teoria fisica cerca di unificare la meccanica quantistica e la relatività generale ipotizzando oggetti unidimensionali?", answer: "Teoria delle stringhe" },
-        { question: "Come si chiama il processo di divisione cellulare che produce le cellule sessuali (gameti)?", answer: "Meiosi" },
-        { question: "Chi ha formulato le tre leggi sul moto dei pianeti?", answer: "Giovanni Keplero" }
+      "500": [
+        {
+          "question": "Qual è il nome della prima donna a vincere il Premio Nobel e l'unica a vincerlo in due campi scientifici diversi?",
+          "answer": "Marie Curie"
+        },
+        {
+          "question": "Come si chiama la costante cosmologica indicata con la lettera Lambda nella teoria della relatività generale?",
+          "answer": "Energia oscura (o Costante cosmologica)"
+        },
+        {
+          "question": "Quale teoria fisica cerca di unificare la meccanica quantistica e la relatività generale ipotizzando oggetti unidimensionali?",
+          "answer": "Teoria delle stringhe"
+        },
+        {
+          "question": "Come si chiama il processo di divisione cellulare che produce le cellule sessuali (gameti)?",
+          "answer": "Meiosi"
+        },
+        {
+          "question": "Chi ha formulato le tre leggi sul moto dei pianeti?",
+          "answer": "Giovanni Keplero"
+        },
+        {
+          "question": "Quale celebre equazione della fisica moderna mette in relazione l'energia, la massa e la velocità della luce al quadrato?",
+          "answer": "E=mc²"
+        },
+        {
+          "question": "Come si chiama la particella elementare, teorizzata negli anni '60 e scoperta al CERN nel 2012, che conferisce la massa alle altre particelle?",
+          "answer": "Bosone di Higgs"
+        },
+        {
+          "question": "Quale modello cosmologico predominante spiega l'origine e l'evoluzione dell'universo a partire da uno stato iniziale ad altissima densità e temperatura?",
+          "answer": "Big Bang"
+        },
+        {
+          "question": "Quale anomalia genomica, caratterizzata dalla presenza di una terza copia (parziale o totale) del cromosoma 21, causa un ritardo nello sviluppo fisico e mentale?",
+          "answer": "Sindrome di Down (o Trisomia 21)"
+        },
+        {
+          "question": "Quale monaco agostiniano dell'Ottocento è universalmente considerato il padre fondatore della genetica per i suoi esperimenti sulle piante di pisum sativum?",
+          "answer": "Gregor Mendel"
+        },
+        {
+          "question": "Come si chiama il fenomeno fisico che consiste nel cambiamento apparente di frequenza di un'onda percepita da un osservatore in moto relativo rispetto alla sorgente?",
+          "answer": "Effetto Doppler"
+        },
+        {
+          "question": "Qual è il nome della reazione nucleare, responsabile dell'energia sprigionata dalle stelle, in cui due nuclei leggeri si uniscono per formarne uno più pesante?",
+          "answer": "Fusione nucleare"
+        },
+        {
+          "question": "Quale legge fondamentale della chimica classica, enunciata a fine Settecento, afferma che in una reazione chimica la somma delle masse dei reagenti è uguale alla somma delle masse dei prodotti?",
+          "answer": "Legge di conservazione della massa (o Legge di Lavoisier)"
+        },
+        {
+          "question": "Come si chiama l'unità morfo-funzionale microscopica del rene dei vertebrati, deputata alla formazione dell'urina?",
+          "answer": "Nefrone"
+        },
+        {
+          "question": "Quale costante fisica universale, indicata con la lettera 'c', ha un valore esatto di 299 792 458 metri al secondo nel vuoto?",
+          "answer": "Velocità della luce"
+        },
+        {
+          "question": "In biologia molecolare, con quale termine si indica il processo fisiologico e strettamente regolato di morte cellulare programmata?",
+          "answer": "Apoptosi"
+        },
+        {
+          "question": "Quale medico e naturalista britannico del Settecento ha sviluppato empiricamente il primo vaccino efficace della storia, quello contro il vaiolo?",
+          "answer": "Edward Jenner"
+        },
+        {
+          "question": "Quale allocromasia del carbonio puro rappresenta il minerale naturale più duro conosciuto, posizionandosi al decimo e ultimo grado della scala di Mohs?",
+          "answer": "Diamante"
+        },
+        {
+          "question": "Come si chiama l'ipotesi biologica e cosmologica che suggerisce che i semi della vita siano sparsi nell'universo e che la vita sulla Terra sia stata portata da meteoriti o comete?",
+          "answer": "Panspermia"
+        },
+        {
+          "question": "Quale geniale matematico e crittografo britannico ha contribuito in modo determinante a decifrare i codici della macchina tedesca Enigma durante la Seconda Guerra Mondiale?",
+          "answer": "Alan Turing"
+        },
+        {
+          "question": "All'interno di quale organo di senso umano si trova la coclea, una struttura anatomica a forma di chiocciola essenziale per la trasduzione dei suoni?",
+          "answer": "Orecchio (interno)"
+        },
+        {
+          "question": "In astrofisica, come si definisce una catastrofica ed estremamente luminosa esplosione stellare che segna l'atto finale del ciclo vitale di una stella molto massiccia?",
+          "answer": "Supernova"
+        },
+        {
+          "question": "Come viene denominata l'epoca geologica, successiva all'Olocene ma ancora in fase di ratifica formale, caratterizzata dall'impatto preponderante e globale delle attività umane sull'ecosistema terrestre?",
+          "answer": "Antropocene"
+        },
+        {
+          "question": "Qual è il termine ombrello adottato in cosmologia e meccanica quantistica per indicare l'ipotetico insieme di universi coesistenti al di fuori del nostro spaziotempo osservabile?",
+          "answer": "Multiverso"
+        },
+        {
+          "question": "Quale specifico enzima della classe delle idrolasi, secreto abbondantemente dalle ghiandole salivari, avvia la digestione chimica dei polisaccaridi come l'amido direttamente nella cavità orale?",
+          "answer": "Amilasi (o Ptialina)"
+        },
+        {
+          "question": "Il batteriologo che ha scoperto la penicillina nel 1928.",
+          "answer": "Alexander Fleming"
+        },
+        {
+          "question": "L'unità di misura usata in astronomia equivalente alla distanza dal Sole alla Terra (circa 150 milioni di km).",
+          "answer": "Unità astronomica (UA)"
+        },
+        {
+          "question": "La parte della cellula vegetale che fornisce supporto strutturale, assente nelle cellule animali.",
+          "answer": "Parete cellulare"
+        },
+        {
+          "question": "L'isotopo radioattivo del carbonio usato per datare reperti archeologici organici.",
+          "answer": "Carbonio-14"
+        },
+        {
+          "question": "Il nervo cranico più lungo e complesso che si estende dal tronco encefalico fino all'addome.",
+          "answer": "Nervo vago"
+        },
+        {
+          "question": "Il fisico tedesco che ha formulato la legge sulla conduzione elettrica che porta il suo nome (V = R * I).",
+          "answer": "Georg Ohm"
+        },
+        {
+          "question": "L'unico uccello noto per avere un olfatto molto sviluppato, che usa per trovare lombrichi sotto terra.",
+          "answer": "Kiwi"
+        },
+        {
+          "question": "L'ipotesi biologica secondo cui gli organismi eucarioti hanno avuto origine dall'incorporazione di batteri simbiotici.",
+          "answer": "Teoria endosimbiotica"
+        },
+        {
+          "question": "La particella mediatrice della forza nucleare forte che tiene uniti i quark all'interno dei protoni e dei neutroni.",
+          "answer": "Gluone"
+        },
+        {
+          "question": "Il fiore la cui particolarità è di aprirsi solo di notte, attirando le falene per l'impollinazione.",
+          "answer": "Bella di notte (o Mirabilis jalapa)"
+        },
+        {
+          "question": "Il nome del processo con cui il fegato sintetizza il glucosio a partire da precursori non glucidici.",
+          "answer": "Gluconeogenesi"
+        },
+        {
+          "question": "Il cratere da impatto in Messico, associato all'estinzione dei dinosauri alla fine del Cretaceo.",
+          "answer": "Cratere di Chicxulub"
+        },
+        {
+          "question": "L'astronomo che formulò le tre leggi sul moto dei pianeti.",
+          "answer": "Johannes Kepler"
+        },
+        {
+          "question": "La patologia causata dalla carenza di vitamina C, un tempo comune tra i marinai.",
+          "answer": "Scorbuto"
+        },
+        {
+          "question": "Il limite teorico oltre il quale un buco nero non permette alla luce di sfuggire.",
+          "answer": "Orizzonte degli eventi"
+        },
+        {
+          "question": "Il nome della fossa oceanica che rappresenta il punto più profondo degli oceani terrestri.",
+          "answer": "Fossa delle Marianne"
+        },
+        {
+          "question": "L'acronimo della tecnica di editing genomico derivata dal sistema immunitario dei batteri.",
+          "answer": "CRISPR"
+        },
+        {
+          "question": "Il termine che indica la transizione di fase diretta da solido a gas, senza passare per lo stato liquido.",
+          "answer": "Sublimazione"
+        },
+        {
+          "question": "L'ordine dei mammiferi a cui appartengono formichieri, bradipi e armadilli, caratterizzati da articolazioni extra nella spina dorsale.",
+          "answer": "Xenartri (o Sdentati)"
+        },
+        {
+          "question": "La particella elementare scoperta nel 2012 al CERN, che conferisce massa ad altre particelle.",
+          "answer": "Bosone di Higgs"
+        }
       ]
     }
   },
   {
-    name: "Tecnologia e Videogiochi",
-    questions: {
-      100: [
-        { question: "Chi è l'idraulico baffuto protagonista dei videogiochi Nintendo?", answer: "Super Mario" },
-        { question: "Come si chiama l'azienda fondata da Steve Jobs, creatrice dell'iPhone?", answer: "Apple" },
-        { question: "Qual è la forma dei blocchi in Minecraft?", answer: "Cubo" },
-        { question: "Come si chiama il popolare social network fondato da Mark Zuckerberg?", answer: "Facebook" },
-        { question: "Qual è la consonante centrale nell'acronimo 'PC'?", answer: "C (Personal Computer)" }
+    "name": "Tecnologia e Videogiochi",
+    "questions": {
+      "100": [
+        {
+          "question": "Chi è l'idraulico baffuto protagonista dei videogiochi Nintendo?",
+          "answer": "Super Mario"
+        },
+        {
+          "question": "Come si chiama l'azienda fondata da Steve Jobs, creatrice dell'iPhone?",
+          "answer": "Apple"
+        },
+        {
+          "question": "Qual è la forma dei blocchi in Minecraft?",
+          "answer": "Cubo"
+        },
+        {
+          "question": "Come si chiama il popolare social network fondato da Mark Zuckerberg?",
+          "answer": "Facebook"
+        },
+        {
+          "question": "Qual è la consonante centrale nell'acronimo 'PC'?",
+          "answer": "C (Personal Computer)"
+        },
+        {
+          "question": "L'idraulico più famoso del mondo dei videogiochi, creato da Nintendo.",
+          "answer": "Mario"
+        },
+        {
+          "question": "Il simbolo della Apple è una di queste con un morso.",
+          "answer": "Mela"
+        },
+        {
+          "question": "La moneta virtuale più famosa, creata da Satoshi Nakamoto.",
+          "answer": "Bitcoin"
+        },
+        {
+          "question": "Il creatore di Facebook.",
+          "answer": "Mark Zuckerberg"
+        },
+        {
+          "question": "La console di Sony arrivata alla sua quinta iterazione principale.",
+          "answer": "PlayStation"
+        },
+        {
+          "question": "Il popolare gioco di blocchi e sopravvivenza acquistato da Microsoft.",
+          "answer": "Minecraft"
+        },
+        {
+          "question": "Il social network caratterizzato da video brevi, sviluppato da ByteDance.",
+          "answer": "TikTok"
+        },
+        {
+          "question": "Il dispositivo di realtà virtuale prodotto da Meta, ex Oculus.",
+          "answer": "Quest"
+        },
+        {
+          "question": "L'assistente vocale di Amazon.",
+          "answer": "Alexa"
+        },
+        {
+          "question": "Il motore di ricerca più utilizzato al mondo.",
+          "answer": "Google"
+        },
+        {
+          "question": "Il famoso riccio blu mascotte di SEGA.",
+          "answer": "Sonic"
+        },
+        {
+          "question": "Il videogioco sparatutto battle royale di Epic Games noto per i suoi balletti.",
+          "answer": "Fortnite"
+        },
+        {
+          "question": "L'applicazione di messaggistica con un'icona a forma di cornetta bianca su sfondo verde.",
+          "answer": "WhatsApp"
+        },
+        {
+          "question": "L'acronimo 'PC' in ambito informatico sta per questo termine.",
+          "answer": "Personal Computer"
+        },
+        {
+          "question": "L'azienda informatica fondata da Bill Gates e Paul Allen.",
+          "answer": "Microsoft"
+        },
+        {
+          "question": "Il gioco per smartphone del 2016 in cui si cammina per catturare creature nel mondo reale.",
+          "answer": "Pokémon GO"
+        },
+        {
+          "question": "La componente hardware del computer che funge da cervello, indicata con la sigla CPU.",
+          "answer": "Processore"
+        },
+        {
+          "question": "Il servizio di streaming di film e serie TV rappresentato da una 'N' rossa.",
+          "answer": "Netflix"
+        },
+        {
+          "question": "La console ibrida di Nintendo che si può usare sia fissa che portatile.",
+          "answer": "Nintendo Switch"
+        },
+        {
+          "question": "Il famoso simulatore di vita creato da Will Wright.",
+          "answer": "The Sims"
+        },
+        {
+          "question": "Il sistema operativo mobile sviluppato da Google, basato su kernel Linux.",
+          "answer": "Android"
+        },
+        {
+          "question": "Questo idraulico baffuto vestito di rosso è la storica mascotte della Nintendo.",
+          "answer": "Mario"
+        },
+        {
+          "question": "Il popolare gioco di blocchi e sopravvivenza creato da Markus 'Notch' Persson.",
+          "answer": "Minecraft"
+        },
+        {
+          "question": "L'azienda produttrice di iPhone e Mac fondata da Steve Jobs e Steve Wozniak.",
+          "answer": "Apple"
+        },
+        {
+          "question": "Questa piattaforma di streaming di proprietà di Amazon permette di guardare giocatori in diretta.",
+          "answer": "Twitch"
+        },
+        {
+          "question": "Console di casa Sony giunta alla sua quinta iterazione principale nel 2020.",
+          "answer": "PlayStation 5"
+        },
+        {
+          "question": "Il famoso social network in blu di Mark Zuckerberg nato all'università di Harvard.",
+          "answer": "Facebook"
+        },
+        {
+          "question": "Il browser web con il logo della volpe di fuoco, sviluppato da Mozilla.",
+          "answer": "Firefox"
+        },
+        {
+          "question": "Questo dispositivo ibrido permette di giocare ai titoli Nintendo sia in TV che in modalità portatile.",
+          "answer": "Nintendo Switch"
+        },
+        {
+          "question": "È il linguaggio di markup standard per la creazione della struttura delle pagine web.",
+          "answer": "HTML"
+        },
+        {
+          "question": "L'unità di misura fondamentale dell'informazione in informatica, che può valere 0 o 1.",
+          "answer": "Bit"
+        },
+        {
+          "question": "Il celebre sparatutto della Epic Games che ha popolarizzato la modalità 'Battaglia Reale'.",
+          "answer": "Fortnite"
+        },
+        {
+          "question": "Azienda produttrice di schede video nota per le serie GeForce e RTX.",
+          "answer": "NVIDIA"
+        },
+        {
+          "question": "Storico videogioco in cui si cerca di incastrare forme geometriche cadenti dette tetramini.",
+          "answer": "Tetris"
+        },
+        {
+          "question": "La valuta digitale più famosa al mondo, creata dallo pseudonimo Satoshi Nakamoto.",
+          "answer": "Bitcoin"
+        },
+        {
+          "question": "Servizio di abbonamento Microsoft spesso definito il 'Netflix dei videogiochi'.",
+          "answer": "Xbox Game Pass"
+        },
+        {
+          "question": "L'uccellino azzurro era il logo di questo social network prima che Elon Musk lo rinominasse 'X'.",
+          "answer": "Twitter"
+        },
+        {
+          "question": "Serie calcistica prodotta da EA Sports, che dal 2023 ha cambiato nome in 'FC'.",
+          "answer": "FIFA"
+        },
+        {
+          "question": "Componente del computer che funge da cervello, acronimo di Central Processing Unit.",
+          "answer": "Processore / CPU"
+        },
+        {
+          "question": "Famoso riccio blu velocissimo in grado di raccogliere anelli d'oro, mascotte della SEGA.",
+          "answer": "Sonic"
+        }
       ],
-      200: [
-        { question: "Qual è la principessa che Link deve salvare in un'omonima serie di giochi?", answer: "Zelda" },
-        { question: "Come si chiama l'assistente vocale di Amazon?", answer: "Alexa" },
-        { question: "Quale console Sony ha succeduto la PlayStation 4?", answer: "PlayStation 5" },
-        { question: "Qual è il linguaggio di programmazione più usato per lo sviluppo web client-side?", answer: "JavaScript" },
-        { question: "In Pac-Man, quanti sono i fantasmi nemici originali?", answer: "Quattro" }
+      "200": [
+        {
+          "question": "Qual è la principessa che Link deve salvare in un'omonima serie di giochi?",
+          "answer": "Zelda"
+        },
+        {
+          "question": "Come si chiama l'assistente vocale di Amazon?",
+          "answer": "Alexa"
+        },
+        {
+          "question": "Quale console Sony ha succeduto la PlayStation 4?",
+          "answer": "PlayStation 5"
+        },
+        {
+          "question": "Qual è il linguaggio di programmazione più usato per lo sviluppo web client-side?",
+          "answer": "JavaScript"
+        },
+        {
+          "question": "In Pac-Man, quanti sono i fantasmi nemici originali?",
+          "answer": "Quattro"
+        },
+        {
+          "question": "Il termine che indica la rete globale di computer connessi tra loro.",
+          "answer": "Internet"
+        },
+        {
+          "question": "La principessa che Link deve spesso salvare nella famosa saga Nintendo.",
+          "answer": "Zelda"
+        },
+        {
+          "question": "L'azienda di Elon Musk nota per la produzione di auto elettriche.",
+          "answer": "Tesla"
+        },
+        {
+          "question": "L'esploratrice protagonista della saga videoludica Tomb Raider.",
+          "answer": "Lara Croft"
+        },
+        {
+          "question": "L'acronimo USB sta per Universal Serial...",
+          "answer": "Bus"
+        },
+        {
+          "question": "La piattaforma di live streaming per videogiocatori acquisita da Amazon.",
+          "answer": "Twitch"
+        },
+        {
+          "question": "Il videogioco di calcio della EA Sports che ha recentemente cambiato nome in FC.",
+          "answer": "FIFA"
+        },
+        {
+          "question": "Il visore di realtà mista di Apple presentato nel 2023.",
+          "answer": "Vision Pro"
+        },
+        {
+          "question": "Il gioco di ruolo d'azione fantasy sviluppato da FromSoftware e scritto con George R.R. Martin.",
+          "answer": "Elden Ring"
+        },
+        {
+          "question": "L'uccellino blu era il simbolo di questo social network prima che cambiasse nome in X.",
+          "answer": "Twitter"
+        },
+        {
+          "question": "L'inventore britannico del World Wide Web.",
+          "answer": "Tim Berners-Lee"
+        },
+        {
+          "question": "Il componente del computer su cui si salvano i dati in modo permanente (HDD o SSD).",
+          "answer": "Disco rigido"
+        },
+        {
+          "question": "Il sistema operativo open source rappresentato dalla mascotte di un pinguino.",
+          "answer": "Linux"
+        },
+        {
+          "question": "Il videogioco in cui bisogna impilare tetramini che scendono dall'alto.",
+          "answer": "Tetris"
+        },
+        {
+          "question": "La città fittizia, ispirata a Los Angeles, in cui è ambientato GTA V.",
+          "answer": "Los Santos"
+        },
+        {
+          "question": "L'azienda sudcoreana produttrice della serie di smartphone Galaxy.",
+          "answer": "Samsung"
+        },
+        {
+          "question": "L'assistente vocale integrato nei dispositivi Apple.",
+          "answer": "Siri"
+        },
+        {
+          "question": "Il primo videogioco commerciale di grande successo, una simulazione di ping-pong del 1972.",
+          "answer": "Pong"
+        },
+        {
+          "question": "Il servizio in abbonamento di Microsoft chiamato spesso il 'Netflix dei videogiochi'.",
+          "answer": "Xbox Game Pass"
+        },
+        {
+          "question": "Il cacciatore di mostri dai capelli bianchi, protagonista della saga The Witcher.",
+          "answer": "Geralt di Rivia"
+        },
+        {
+          "question": "Acronimo di 'Random Access Memory', è la memoria di lavoro a breve termine del PC.",
+          "answer": "RAM"
+        },
+        {
+          "question": "Questo titolo di Bethesda del 2011 ci porta nelle gelide terre di Tamriel nei panni del Sangue di Drago.",
+          "answer": "Skyrim"
+        },
+        {
+          "question": "Linguaggio di programmazione con il nome di un serpente, ideato da Guido van Rossum.",
+          "answer": "Python"
+        },
+        {
+          "question": "Console portatile Nintendo degli anni '90 che ha contribuito al successo globale dei Pokémon.",
+          "answer": "Game Boy"
+        },
+        {
+          "question": "Lo standard per collegare periferiche al PC il cui acronimo significa Universal Serial Bus.",
+          "answer": "USB"
+        },
+        {
+          "question": "La serie di videogiochi di Rockstar Games in cui si rubano auto e si vive fuori legge (acronimo).",
+          "answer": "GTA (Grand Theft Auto)"
+        },
+        {
+          "question": "Sistema operativo per PC di Microsoft lanciato per la prima volta nel 1985 con interfaccia a 'finestre'.",
+          "answer": "Windows"
+        },
+        {
+          "question": "Piattaforma digitale per l'acquisto e distribuzione di videogiochi per PC creata da Valve.",
+          "answer": "Steam"
+        },
+        {
+          "question": "Celebre videogioco MOBA dove si combatte nella Landa degli Evocatori con campioni come Ahri e Garen.",
+          "answer": "League of Legends"
+        },
+        {
+          "question": "Acronimo che indica uno schermo a cristalli liquidi, ampiamente usato in TV e monitor.",
+          "answer": "LCD"
+        },
+        {
+          "question": "Il vero nome dello Spartan 'Master Chief' nella serie Halo è John, seguito da questo numero a tre cifre.",
+          "answer": "117"
+        },
+        {
+          "question": "Nel mondo dei videogiochi, questa azienda giapponese ha creato le serie di Resident Evil e Street Fighter.",
+          "answer": "Capcom"
+        },
+        {
+          "question": "Formato di compressione audio digitale che ha rivoluzionato l'ascolto musicale a cavallo del nuovo millennio.",
+          "answer": "MP3"
+        },
+        {
+          "question": "Il chatbot ad intelligenza artificiale sviluppato da OpenAI e lanciato al pubblico a fine 2022.",
+          "answer": "ChatGPT"
+        },
+        {
+          "question": "L'eroe silenzioso di Hyrule con la tunica verde che cerca di salvare la principessa Zelda.",
+          "answer": "Link"
+        },
+        {
+          "question": "Il principale motore di ricerca internet di origine russa, concorrente diretto di Google nell'Est Europa.",
+          "answer": "Yandex"
+        },
+        {
+          "question": "La famiglia di processori Intel, indicata con la lettera 'i', arrivata a sostituire la generazione Pentium.",
+          "answer": "Core"
+        },
+        {
+          "question": "Genere di videogiochi in cui si interpreta un personaggio che guadagna esperienza e livelli, acronimo RPG.",
+          "answer": "Gioco di ruolo (Role-Playing Game)"
+        },
+        {
+          "question": "Serie sparatutto di Activision che comprende famosi sottotitoli come 'Modern Warfare' e 'Black Ops'.",
+          "answer": "Call of Duty"
+        },
+        {
+          "question": "Il primo videogioco arcade di grandissimo successo in cui si controlla un cannone laser contro alieni cadenti.",
+          "answer": "Space Invaders"
+        }
       ],
-      300: [
-        { question: "Chi è l'eroe protagonista della saga di Halo?", answer: "Master Chief" },
-        { question: "Cosa significa la sigla 'USB'?", answer: "Universal Serial Bus" },
-        { question: "Quale famosissimo gioco rompicapo è stato creato dal russo Aleksej Pažitnov nel 1984?", answer: "Tetris" },
-        { question: "Qual è il sistema operativo per dispositivi mobili sviluppato da Google?", answer: "Android" },
-        { question: "Come si chiama il mondo virtuale in cui si ambientano giochi di ruolo come World of Warcraft?", answer: "Azeroth" }
+      "300": [
+        {
+          "question": "Chi è l'eroe protagonista della saga di Halo?",
+          "answer": "Master Chief"
+        },
+        {
+          "question": "Cosa significa la sigla 'USB'?",
+          "answer": "Universal Serial Bus"
+        },
+        {
+          "question": "Quale famosissimo gioco rompicapo è stato creato dal russo Aleksej Pažitnov nel 1984?",
+          "answer": "Tetris"
+        },
+        {
+          "question": "Qual è il sistema operativo per dispositivi mobili sviluppato da Google?",
+          "answer": "Android"
+        },
+        {
+          "question": "Come si chiama il mondo virtuale in cui si ambientano giochi di ruolo come World of Warcraft?",
+          "answer": "Azeroth"
+        },
+        {
+          "question": "L'unità di misura della quantità di dati equivalente a 1024 megabyte.",
+          "answer": "Gigabyte"
+        },
+        {
+          "question": "Il linguaggio di programmazione web che affianca HTML e CSS per rendere i siti interattivi.",
+          "answer": "JavaScript"
+        },
+        {
+          "question": "L'azienda sviluppatrice di giochi come Half-Life e creatrice dello store Steam.",
+          "answer": "Valve"
+        },
+        {
+          "question": "La risoluzione video 4K corrisponde a quanti pixel di larghezza (circa)?",
+          "answer": "3840"
+        },
+        {
+          "question": "Il sistema operativo per dispositivi mobili sviluppato da Google.",
+          "answer": "Android"
+        },
+        {
+          "question": "Il noto autore e creatore della celebre serie videoludica Metal Gear.",
+          "answer": "Hideo Kojima"
+        },
+        {
+          "question": "La sigla NPC nei videogiochi sta per questo termine in lingua inglese.",
+          "answer": "Non-Player Character"
+        },
+        {
+          "question": "L'azienda asiatica famosa per i suoi processori grafici della serie GeForce.",
+          "answer": "NVIDIA"
+        },
+        {
+          "question": "L'Intelligenza Artificiale generativa conversazionale sviluppata da OpenAI.",
+          "answer": "ChatGPT"
+        },
+        {
+          "question": "Il videogioco del 1980 in cui una pallina gialla scappa da quattro fantasmini colorati.",
+          "answer": "Pac-Man"
+        },
+        {
+          "question": "Il dispositivo di input inventato nel 1964 da Douglas Engelbart, originariamente fatto di legno.",
+          "answer": "Mouse"
+        },
+        {
+          "question": "Il browser web sviluppato da Google e rilasciato per la prima volta nel 2008.",
+          "answer": "Chrome"
+        },
+        {
+          "question": "La serie di videogiochi sparatutto con protagonista il soldato Spartan Master Chief.",
+          "answer": "Halo"
+        },
+        {
+          "question": "Il popolarissimo videogioco MOBA di Riot Games lanciato nel 2009.",
+          "answer": "League of Legends"
+        },
+        {
+          "question": "L'azienda finlandese che dominava il mercato dei telefoni cellulari prima dell'era degli smartphone.",
+          "answer": "Nokia"
+        },
+        {
+          "question": "La serie videoludica stealth di Ubisoft che rivive i ricordi di antenati storici.",
+          "answer": "Assassin's Creed"
+        },
+        {
+          "question": "La tecnologia di rete senza fili il cui nome deriva da un antico re danese.",
+          "answer": "Bluetooth"
+        },
+        {
+          "question": "L'acronimo GPU sta per questo componente hardware fondamentale per i videogiochi.",
+          "answer": "Graphics Processing Unit"
+        },
+        {
+          "question": "La popolare piattaforma digitale per PC lanciata nel 2003 per aggiornare i giochi Valve.",
+          "answer": "Steam"
+        },
+        {
+          "question": "Il co-fondatore di Apple che ha creato l'azienda insieme a Steve Wozniak.",
+          "answer": "Steve Jobs"
+        },
+        {
+          "question": "Questa intelligenza artificiale di Google (conosciuta in precedenza come Bard) prende il suo nome attuale da un progetto astronomico.",
+          "answer": "Gemini"
+        },
+        {
+          "question": "Nel mondo hardware, la celebre 'legge' che afferma che la complessità dei microcircuiti raddoppia circa ogni due anni.",
+          "answer": "Legge di Moore"
+        },
+        {
+          "question": "Videogioco del 2019 diretto da Hideo Kojima in cui Sam Porter Bridges effettua consegne in un'America frammentata.",
+          "answer": "Death Stranding"
+        },
+        {
+          "question": "Linguaggio di scripting ampiamente utilizzato per rendere interattive le pagine web, da non confondere con un linguaggio dal nome simile.",
+          "answer": "JavaScript"
+        },
+        {
+          "question": "È stata la prima console a superare i 100 milioni di unità vendute nel mondo, utilizzando dischi CD-ROM al posto delle cartucce.",
+          "answer": "PlayStation 1"
+        },
+        {
+          "question": "Celebre hacker ed esperto di sicurezza informatica famoso negli anni '90, diventato poi consulente, che risponde al nome di Kevin...",
+          "answer": "Mitnick"
+        },
+        {
+          "question": "L'indirizzo numerico che identifica in modo univoco un dispositivo collegato a una rete informatica.",
+          "answer": "Indirizzo IP"
+        },
+        {
+          "question": "L'ordine storico nemico degli Assassini nella celebre serie di videogiochi Ubisoft 'Assassin's Creed'.",
+          "answer": "Templari"
+        },
+        {
+          "question": "Il primo modello di smartphone moderno presentato da Steve Jobs al Macworld nel gennaio 2007.",
+          "answer": "iPhone 2G (o iPhone EDGE)"
+        },
+        {
+          "question": "Genere di videogioco noto per l'altissima difficoltà, che deriva il suo nome da titoli come Demon's Souls e Dark Souls.",
+          "answer": "Soulslike"
+        },
+        {
+          "question": "Falla di sicurezza informatica non ancora conosciuta dallo sviluppatore del software, definita 'giorno zero'.",
+          "answer": "Zero-day"
+        },
+        {
+          "question": "Creato nel 1991 dallo studente finlandese Linus Torvalds, è il kernel alla base di innumerevoli sistemi operativi open-source.",
+          "answer": "Linux"
+        },
+        {
+          "question": "L'acronimo inglese 'NPC' all'interno dei videogiochi definisce questo tipo di entità.",
+          "answer": "Non-Player Character (Personaggio non giocante)"
+        },
+        {
+          "question": "Questa azienda americana, guidata da Gabe Newell, ha creato titoli storici come Half-Life, Portal e Left 4 Dead.",
+          "answer": "Valve"
+        },
+        {
+          "question": "Dispositivo di rete che 'instrada' i pacchetti dati da e verso diverse reti informatiche, fondamentale nelle case per l'accesso a internet.",
+          "answer": "Router"
+        },
+        {
+          "question": "Avanzata tecnica di rendering grafico che calcola fisicamente il percorso della luce per simulare riflessi e ombre realistici nei giochi.",
+          "answer": "Ray Tracing"
+        },
+        {
+          "question": "Storica serie di videogiochi strategici a turni creata da Sid Meier, in cui si guida un popolo dall'età della pietra fino ai viaggi spaziali.",
+          "answer": "Civilization"
+        },
+        {
+          "question": "Il primissimo videogioco di grande successo commerciale sviluppato dalla Atari, un semplice simulatore di ping-pong del 1972.",
+          "answer": "Pong"
+        },
+        {
+          "question": "Sigla che definisce i dischi a stato solido, oggi lo standard per l'archiviazione dati rapida nei PC moderni.",
+          "answer": "SSD"
+        },
+        {
+          "question": "Immenso gioco di ruolo del 2015 di CD Projekt Red che ha come protagonista lo strigo Geralt di Rivia.",
+          "answer": "The Witcher 3: Wild Hunt"
+        }
       ],
-      400: [
-        { question: "Quale azienda ha creato la prima scheda grafica GPU commerciale per PC, la GeForce 256?", answer: "Nvidia" },
-        { question: "In quale gioco della serie Final Fantasy appare il personaggio di Cloud Strife?", answer: "Final Fantasy VII" },
-        { question: "Chi è il programmatore che ha creato il kernel di Linux?", answer: "Linus Torvalds" },
-        { question: "Qual è la valuta virtuale basata su blockchain creata da Satoshi Nakamoto?", answer: "Bitcoin" },
-        { question: "Come si chiamava la prima console di casa Nintendo a usare i dischi ottici al posto delle cartucce?", answer: "Nintendo GameCube" }
+      "400": [
+        {
+          "question": "Quale azienda ha creato la prima scheda grafica GPU commerciale per PC, la GeForce 256?",
+          "answer": "Nvidia"
+        },
+        {
+          "question": "In quale gioco della serie Final Fantasy appare il personaggio di Cloud Strife?",
+          "answer": "Final Fantasy VII"
+        },
+        {
+          "question": "Chi è il programmatore che ha creato il kernel di Linux?",
+          "answer": "Linus Torvalds"
+        },
+        {
+          "question": "Qual è la valuta virtuale basata su blockchain creata da Satoshi Nakamoto?",
+          "answer": "Bitcoin"
+        },
+        {
+          "question": "Come si chiamava la prima console di casa Nintendo a usare i dischi ottici al posto delle cartucce?",
+          "answer": "Nintendo GameCube"
+        },
+        {
+          "question": "Il nome del primo computer elettronico programmabile general-purpose, completato nel 1945.",
+          "answer": "ENIAC"
+        },
+        {
+          "question": "Il protocollo di trasferimento ipertestuale utilizzato sul web (sigla di 4 lettere).",
+          "answer": "HTTP"
+        },
+        {
+          "question": "Il gioco più venduto per la console PlayStation 2, rilasciato nell'ottobre 2004.",
+          "answer": "Grand Theft Auto: San Andreas"
+        },
+        {
+          "question": "L'intelligenza artificiale di Google sviluppata per competere con ChatGPT, originariamente chiamata Bard.",
+          "answer": "Gemini"
+        },
+        {
+          "question": "La console SEGA a 16-bit che negli anni '90 competeva con il Super Nintendo.",
+          "answer": "Mega Drive"
+        },
+        {
+          "question": "La fittizia corporazione farmaceutica antagonista principale nella serie Resident Evil.",
+          "answer": "Umbrella Corporation"
+        },
+        {
+          "question": "Il game designer giapponese creatore originario della serie Final Fantasy.",
+          "answer": "Hironobu Sakaguchi"
+        },
+        {
+          "question": "Lo standard di connettività di quinta generazione per le reti mobili e cellulari.",
+          "answer": "5G"
+        },
+        {
+          "question": "La serie di videogiochi Capcom in cui si interpreta un avvocato difensore di nome Phoenix.",
+          "answer": "Ace Attorney"
+        },
+        {
+          "question": "La prima console portatile con cartucce intercambiabili prodotta da Nintendo nel 1989.",
+          "answer": "Game Boy"
+        },
+        {
+          "question": "Il formato di file per le immagini digitali bitmap animate introdotto nel 1987.",
+          "answer": "GIF"
+        },
+        {
+          "question": "Il filantropo e co-fondatore di Microsoft che creò l'azienda insieme a Bill Gates.",
+          "answer": "Paul Allen"
+        },
+        {
+          "question": "L'azienda giapponese che ha creato i franchise di Street Fighter e Mega Man.",
+          "answer": "Capcom"
+        },
+        {
+          "question": "Il linguaggio di programmazione sviluppato da Sun Microsystems noto per l'icona della tazzina di caffè.",
+          "answer": "Java"
+        },
+        {
+          "question": "La serie di videogiochi stealth in cui il protagonista è il letale e calvo Agente 47.",
+          "answer": "Hitman"
+        },
+        {
+          "question": "L'attore di Hollywood che presta volto e voce al personaggio Johnny Silverhand in Cyberpunk 2077.",
+          "answer": "Keanu Reeves"
+        },
+        {
+          "question": "L'azienda che nel 2012 ha acquisito l'app fotografica Instagram per circa un miliardo di dollari.",
+          "answer": "Meta"
+        },
+        {
+          "question": "Il linguaggio di markup standard utilizzato per creare la struttura delle pagine web.",
+          "answer": "HTML"
+        },
+        {
+          "question": "L'intelligenza artificiale femminile che assiste Master Chief nella serie Halo.",
+          "answer": "Cortana"
+        },
+        {
+          "question": "L'anno solare in cui Steve Jobs ha presentato e lanciato il primo modello di iPhone.",
+          "answer": "2007"
+        },
+        {
+          "question": "Linguaggio di programmazione sviluppato da Apple, introdotto nel 2014 per affiancare e sostituire Objective-C.",
+          "answer": "Swift"
+        },
+        {
+          "question": "Console di SEGA rilasciata alla fine degli anni '90, nota per essere stata la prima ad avere un modem integrato per il gioco online.",
+          "answer": "Dreamcast"
+        },
+        {
+          "question": "Protocollo crittografico attualmente utilizzato per le connessioni sicure sul web (HTTPS), che ha sostituito il vecchio SSL.",
+          "answer": "TLS"
+        },
+        {
+          "question": "Lo sviluppatore indipendente americano che ha creato da solo (compresa la colonna sonora) il pluripremiato gioco di ruolo 'Undertale'.",
+          "answer": "Toby Fox"
+        },
+        {
+          "question": "Gigante taiwanese dell'elettronica, leader mondiale nella produzione di semiconduttori e chip per conto terzi (acronimo).",
+          "answer": "TSMC"
+        },
+        {
+          "question": "In questo angosciante videogioco del 2014 il giocatore veste i panni di Amanda Ripley mentre si nasconde da un letale Xenomorfo.",
+          "answer": "Alien: Isolation"
+        },
+        {
+          "question": "Acronimo del sistema informatico fondamentale che traduce i nomi di dominio, come www.google.com, in indirizzi IP numerici.",
+          "answer": "DNS (Domain Name System)"
+        },
+        {
+          "question": "Famoso easter egg in 'Doom II' rivela che la testa mozzata di questo creatore del gioco si trova nascosta dietro l'ultimo boss.",
+          "answer": "John Romero"
+        },
+        {
+          "question": "Linguaggio standardizzato impiegato principalmente per interrogare, manipolare e gestire i database relazionali.",
+          "answer": "SQL"
+        },
+        {
+          "question": "Videogioco di esplorazione spaziale lanciato nel 2016 e sviluppato da Hello Games, che offre un intero universo generato in modo procedurale.",
+          "answer": "No Man's Sky"
+        },
+        {
+          "question": "Primo computer di Apple orientato all'ambito aziendale, dotato di interfaccia grafica e mouse, lanciato nel 1983 prima del Macintosh.",
+          "answer": "Apple Lisa"
+        },
+        {
+          "question": "Sistema di controllo di versione distribuito, essenziale nello sviluppo software, creato originariamente da Linus Torvalds nel 2005.",
+          "answer": "Git"
+        },
+        {
+          "question": "In 'Overwatch', questo eroe tank è un intelligentissimo gorilla geneticamente modificato proveniente dalla Colonia Lunare Horizon.",
+          "answer": "Winston"
+        },
+        {
+          "question": "Nel 1997, il supercomputer Deep Blue di IBM passò alla storia per aver sconfitto in un match a scacchi questo campione del mondo umano.",
+          "answer": "Garry Kasparov"
+        },
+        {
+          "question": "Metodo di input alternativo e futuristico introdotto per il NES nel 1989 sotto forma di guanto bionico, poi rivelatosi un flop commerciale.",
+          "answer": "Power Glove"
+        },
+        {
+          "question": "Componente hardware all'interno di un computer responsabile della conversione della corrente alternata nella corrente continua necessaria per i vari pezzi.",
+          "answer": "Alimentatore (PSU)"
+        },
+        {
+          "question": "Titolo del 1997 di Square, noto per essere il gioco che ha fatto esplodere la popolarità dei JRPG in occidente grazie al suo arrivo su PS1.",
+          "answer": "Final Fantasy VII"
+        },
+        {
+          "question": "Architettura di set di istruzioni per processori, ampiamente dominante in smartphone e tablet grazie alla sua alta efficienza energetica.",
+          "answer": "ARM"
+        },
+        {
+          "question": "Nell'ambito eSports, è il nome del torneo annuale più importante di Dota 2, noto storicamente per battere ogni record di montepremi.",
+          "answer": "The International"
+        },
+        {
+          "question": "Videogioco per Atari 2600 del 1982 basato su un film di Spielberg, noto per essere stato sepolto nel deserto per le scarse vendite.",
+          "answer": "E.T. the Extra-Terrestrial"
+        }
       ],
-      500: [
-        { question: "Qual era il nome in codice durante lo sviluppo del primo Nintendo 64?", answer: "Project Reality" },
-        { question: "Qual è l'azienda britannica che ha creato la serie di giochi Grand Theft Auto (GTA)?", answer: "Rockstar North (originariamente DMA Design)" },
-        { question: "Come si chiamava il primo computer elettronico turing completo, sviluppato durante la Seconda Guerra Mondiale nel Regno Unito?", answer: "Colossus" },
-        { question: "Qual è il titolo del gioco per PC del 1993 considerato uno dei pionieri del genere sparatutto in prima persona (FPS)?", answer: "Doom" },
-        { question: "Quale legge stabilisce che la complessità dei microcircuiti raddoppia ogni 18 mesi?", answer: "Legge di Moore" }
+      "500": [
+        {
+          "question": "Qual era il nome in codice durante lo sviluppo del primo Nintendo 64?",
+          "answer": "Project Reality"
+        },
+        {
+          "question": "Qual è l'azienda britannica che ha creato la serie di giochi Grand Theft Auto (GTA)?",
+          "answer": "Rockstar North (originariamente DMA Design)"
+        },
+        {
+          "question": "Come si chiamava il primo computer elettronico turing completo, sviluppato durante la Seconda Guerra Mondiale nel Regno Unito?",
+          "answer": "Colossus"
+        },
+        {
+          "question": "Qual è il titolo del gioco per PC del 1993 considerato uno dei pionieri del genere sparatutto in prima persona (FPS)?",
+          "answer": "Doom"
+        },
+        {
+          "question": "Quale legge stabilisce che la complessità dei microcircuiti raddoppia ogni 18 mesi?",
+          "answer": "Legge di Moore"
+        },
+        {
+          "question": "Il gioco sviluppato nel 1958 da William Higinbotham, considerato uno dei primi videogiochi della storia.",
+          "answer": "Tennis for Two"
+        },
+        {
+          "question": "Il nome del supercomputer IBM che sconfisse il campione del mondo di scacchi Garry Kasparov nel 1997.",
+          "answer": "Deep Blue"
+        },
+        {
+          "question": "La criptovaluta creata nel 2011 da Charlie Lee come versione più leggera e veloce del Bitcoin.",
+          "answer": "Litecoin"
+        },
+        {
+          "question": "Lo sviluppatore che ha inserito il famoso codice segreto in giochi come Gradius e Contra (Su, Su, Giù...).",
+          "answer": "Kazuhisa Hashimoto"
+        },
+        {
+          "question": "Il termine comune per indicare il potenziale difetto informatico dei sistemi al passaggio all'anno 2000.",
+          "answer": "Millennium Bug"
+        },
+        {
+          "question": "Il nome in codice utilizzato durante lo sviluppo della console Nintendo GameCube.",
+          "answer": "Project Dolphin"
+        },
+        {
+          "question": "Il programmatore sovietico che ha inventato il rompicapo Tetris nel 1984.",
+          "answer": "Aleksej Pažitnov"
+        },
+        {
+          "question": "L'acronimo BIOS in informatica significa Basic Input/Output...",
+          "answer": "System"
+        },
+        {
+          "question": "Il disastroso videogioco per Atari del 1982 le cui cartucce invendute furono sepolte in una discarica del New Mexico.",
+          "answer": "E.T. the Extra-Terrestrial"
+        },
+        {
+          "question": "L'anno esatto in cui è stata rilasciata la prima versione commerciale del sistema operativo Windows 1.0.",
+          "answer": "1985"
+        },
+        {
+          "question": "La fittizia città utopica sottomarina in cui è ambientato il primo capitolo del gioco BioShock.",
+          "answer": "Rapture"
+        },
+        {
+          "question": "Il nome del worm informatico che nel 2000 si diffuse via email promettendo affetto al destinatario.",
+          "answer": "ILOVEYOU"
+        },
+        {
+          "question": "La celebre serie di JRPG di Atlus che nacque originariamente come spin-off della serie Megami Tensei.",
+          "answer": "Persona"
+        },
+        {
+          "question": "L'inventore statunitense che brevettò la prima tastiera con layout QWERTY per macchine da scrivere.",
+          "answer": "Christopher Sholes"
+        },
+        {
+          "question": "Il celebre compositore giapponese autore delle iconiche colonne sonore di Super Mario e The Legend of Zelda.",
+          "answer": "Koji Kondo"
+        },
+        {
+          "question": "L'azienda informatica che ha prodotto e commercializzato il popolare home computer Amiga 500.",
+          "answer": "Commodore"
+        },
+        {
+          "question": "Il nome della software house che ha sviluppato originariamente il celebre motore grafico Unreal Engine.",
+          "answer": "Epic Games"
+        },
+        {
+          "question": "Il protocollo di rete standard utilizzato per l'invio delle e-mail (acronimo di Simple Mail Transfer Protocol).",
+          "answer": "SMTP"
+        },
+        {
+          "question": "Il nome dell'abile hacker protagonista del primo capitolo della serie di videogiochi Watch Dogs.",
+          "answer": "Aiden Pearce"
+        },
+        {
+          "question": "Il pionieristico servizio di cloud computing lanciato commercialmente da Amazon nel 2006 (acronimo di 3 lettere).",
+          "answer": "AWS"
+        },
+        {
+          "question": "Il computer portatile introdotto nel 1981, ampiamente considerato il primissimo laptop commerciale, dal modesto peso di quasi 11 kg.",
+          "answer": "Osborne 1"
+        },
+        {
+          "question": "Famosa sequenza 'cheat' dei videogiochi: 'Su, Su, Giù, Giù, Sinistra, Destra, Sinistra, Destra, B, A' conosciuta storicamente con questo nome.",
+          "answer": "Konami Code"
+        },
+        {
+          "question": "Scienziato e informatico britannico, noto soprattutto come l'inventore del World Wide Web presso il CERN nel 1989.",
+          "answer": "Tim Berners-Lee"
+        },
+        {
+          "question": "Non potendo ottenere i diritti del marinaio Braccio di Ferro, Nintendo trasformò il progetto originario creando i personaggi di questo titolo del 1981.",
+          "answer": "Donkey Kong"
+        },
+        {
+          "question": "Sofisticatissimo virus informatico (worm) scoperto nel 2010, creato per infiltrarsi nei sistemi e sabotare il programma nucleare iraniano.",
+          "answer": "Stuxnet"
+        },
+        {
+          "question": "La primissima console per videogiochi casalinga della storia, ideata da Ralph Baer e lanciata nel 1972.",
+          "answer": "Magnavox Odyssey"
+        },
+        {
+          "question": "Questo popolarissimo linguaggio di programmazione, creato in origine alla Sun Microsystems, nelle sue primissime fasi di sviluppo si chiamava 'Oak'.",
+          "answer": "Java"
+        },
+        {
+          "question": "Termine che significa letteralmente 'Multi-User Dungeon', è considerato il predecessore testuale dei moderni videogiochi di ruolo online.",
+          "answer": "MUD"
+        },
+        {
+          "question": "Questo accessorio per il controller del Nintendo 64 aggiungeva il feedback tattile alla console, ma necessitava di due batterie AAA per vibrare.",
+          "answer": "Rumble Pak"
+        },
+        {
+          "question": "L'architettura per lo sviluppo software in cui una grande applicazione viene scomposta in tanti piccoli servizi debolmente accoppiati tra loro.",
+          "answer": "Microservizi"
+        },
+        {
+          "question": "Questo videogioco enigmistico su un'isola deserta, lanciato dai fratelli Miller nel 1993, trainò da solo le vendite dei primi lettori CD-ROM per PC.",
+          "answer": "Myst"
+        },
+        {
+          "question": "Modello teorico inventato nel 1936 che rappresenta una macchina calcolatrice astratta, un pilastro nella teoria della computazione informatica.",
+          "answer": "Macchina di Turing"
+        },
+        {
+          "question": "Il nome originale giapponese di 'Pac-Man', cambiato prima dello sbarco in Occidente per evitare atti di vandalismo che lo rendessero volgare.",
+          "answer": "Puck Man"
+        },
+        {
+          "question": "Storico videogioco arcade della SEGA uscito nel 1982, noto per essere stato il primo in assoluto a implementare la prospettiva assonometrica isometrica.",
+          "answer": "Zaxxon"
+        },
+        {
+          "question": "Questa criptovaluta, nata originariamente per scherzo nel 2013 come meme su internet, presenta come mascotte un simpatico cane di razza Shiba Inu.",
+          "answer": "Dogecoin"
+        },
+        {
+          "question": "Colossale gioco di Yu Suzuki del 1999 per Dreamcast, che con i suoi 47 milioni di dollari era considerato all'epoca il videogioco più costoso mai realizzato.",
+          "answer": "Shenmue"
+        },
+        {
+          "question": "Uno degli algoritmi di ordinamento più veloci e ampiamente utilizzati in informatica, inventato dallo scienziato Tony Hoare nel 1959.",
+          "answer": "Quicksort"
+        },
+        {
+          "question": "Il celebre e costoso difetto hardware scoperto nei processori Intel Pentium nel 1994, che causava risultati errati in alcune divisioni a virgola mobile.",
+          "answer": "Bug FDIV (Pentium FDIV bug)"
+        },
+        {
+          "question": "L'agente di viaggio per i defunti protagonista della pluripremiata avventura grafica cult del 1998 'Grim Fandango' della LucasArts.",
+          "answer": "Manny Calavera"
+        },
+        {
+          "question": "Nell'ambito dei database NoSQL, questo tipo di architettura utilizza nodi e relazioni (edge), rivelandosi estremamente efficiente per mappare i social network.",
+          "answer": "Database a grafo (Graph database)"
+        }
       ]
     }
   },
   {
-    name: "Letteratura e Arte",
-    questions: {
-      100: [
-        { question: "Chi ha scritto 'La Divina Commedia'?", answer: "Dante Alighieri" },
-        { question: "Chi ha dipinto la Gioconda (Monna Lisa)?", answer: "Leonardo da Vinci" },
-        { question: "Come si chiama il celebre burattino di legno che voleva diventare un bambino vero?", answer: "Pinocchio" },
-        { question: "In quale città si trova il dipinto de 'L'Ultima Cena' di Leonardo?", answer: "Milano" },
-        { question: "Chi è l'autore di 'I Promessi Sposi'?", answer: "Alessandro Manzoni" }
+    "name": "Letteratura e Arte",
+    "questions": {
+      "100": [
+        {
+          "question": "Chi ha scritto 'La Divina Commedia'?",
+          "answer": "Dante Alighieri"
+        },
+        {
+          "question": "Chi ha dipinto la Gioconda (Monna Lisa)?",
+          "answer": "Leonardo da Vinci"
+        },
+        {
+          "question": "Come si chiama il celebre burattino di legno che voleva diventare un bambino vero?",
+          "answer": "Pinocchio"
+        },
+        {
+          "question": "In quale città si trova il dipinto de 'L'Ultima Cena' di Leonardo?",
+          "answer": "Milano"
+        },
+        {
+          "question": "Chi è l'autore di 'I Promessi Sposi'?",
+          "answer": "Alessandro Manzoni"
+        },
+        {
+          "question": "È l'autore della Divina Commedia.",
+          "answer": "Dante Alighieri"
+        },
+        {
+          "question": "Dipinse La Gioconda.",
+          "answer": "Leonardo da Vinci"
+        },
+        {
+          "question": "Scrisse I Promessi Sposi.",
+          "answer": "Alessandro Manzoni"
+        },
+        {
+          "question": "Scolpì il David conservato a Firenze.",
+          "answer": "Michelangelo Buonarroti"
+        },
+        {
+          "question": "Il famoso mago con la cicatrice a forma di saetta creato da J.K. Rowling.",
+          "answer": "Harry Potter"
+        },
+        {
+          "question": "Il romanzo di Collodi che ha per protagonista un burattino di legno.",
+          "answer": "Pinocchio"
+        },
+        {
+          "question": "Dipinse La Notte Stellata.",
+          "answer": "Vincent van Gogh"
+        },
+        {
+          "question": "Autore dell'Odissea e dell'Iliade.",
+          "answer": "Omero"
+        },
+        {
+          "question": "Il detective nato dalla penna di Arthur Conan Doyle.",
+          "answer": "Sherlock Holmes"
+        },
+        {
+          "question": "Autore della fiaba La Sirenetta.",
+          "answer": "Hans Christian Andersen"
+        },
+        {
+          "question": "Scrisse Romeo e Giulietta.",
+          "answer": "William Shakespeare"
+        },
+        {
+          "question": "L'autore de Le avventure di Alice nel Paese delle Meraviglie.",
+          "answer": "Lewis Carroll"
+        },
+        {
+          "question": "Il celebre poema epico che narra la guerra di Troia.",
+          "answer": "Iliade"
+        },
+        {
+          "question": "L'autore de Il Piccolo Principe.",
+          "answer": "Antoine de Saint-Exupéry"
+        },
+        {
+          "question": "Scrisse il Diario di una giovane ragazza vittima dell'Olocausto.",
+          "answer": "Anne Frank"
+        },
+        {
+          "question": "Il pittore spagnolo noto per il Cubismo e il quadro Guernica.",
+          "answer": "Pablo Picasso"
+        },
+        {
+          "question": "Il poeta di Recanati autore de L'Infinito.",
+          "answer": "Giacomo Leopardi"
+        },
+        {
+          "question": "Dipinse la Nascita di Venere.",
+          "answer": "Sandro Botticelli"
+        },
+        {
+          "question": "Creatore della serie di libri su Il Signore degli Anelli.",
+          "answer": "J.R.R. Tolkien"
+        },
+        {
+          "question": "L'autore della favola de Il gatto con gli stivali.",
+          "answer": "Charles Perrault"
+        },
+        {
+          "question": "L'autore fiorentino che scrisse la Divina Commedia",
+          "answer": "Dante Alighieri"
+        },
+        {
+          "question": "Il dipinto più famoso di Leonardo da Vinci, oggi esposto al Louvre",
+          "answer": "La Gioconda"
+        },
+        {
+          "question": "Il poeta di Recanati che compose 'L'Infinito'",
+          "answer": "Giacomo Leopardi"
+        },
+        {
+          "question": "L'autore milanese del celebre romanzo 'I Promessi Sposi'",
+          "answer": "Alessandro Manzoni"
+        },
+        {
+          "question": "Il pittore olandese famoso per i suoi 'Girasoli' e 'La Notte Stellata'",
+          "answer": "Vincent van Gogh"
+        },
+        {
+          "question": "Lo scrittore toscano, il cui vero cognome era Lorenzini, creatore di Pinocchio",
+          "answer": "Carlo Collodi"
+        },
+        {
+          "question": "Il celebre scultore e pittore rinascimentale autore del David di Firenze e della Cappella Sistina",
+          "answer": "Michelangelo Buonarroti"
+        },
+        {
+          "question": "Il celebre drammaturgo inglese autore di 'Romeo e Giulietta' e 'Amleto'",
+          "answer": "William Shakespeare"
+        },
+        {
+          "question": "Lo scrittore britannico creatore del magico mondo di Harry Potter",
+          "answer": "J.K. Rowling"
+        },
+        {
+          "question": "Il geniale pittore spagnolo, pioniere del cubismo, autore di 'Guernica'",
+          "answer": "Pablo Picasso"
+        },
+        {
+          "question": "L'architetto catalano che progettò la Sagrada Familia a Barcellona",
+          "answer": "Antoni Gaudí"
+        },
+        {
+          "question": "Il poeta vate italiano che scrisse 'La pioggia nel pineto'",
+          "answer": "Gabriele D'Annunzio"
+        },
+        {
+          "question": "L'autore francese del celebre libro 'Il piccolo principe'",
+          "answer": "Antoine de Saint-Exupéry"
+        },
+        {
+          "question": "L'artista simbolo della Pop Art, famoso per le serie sulle lattine Campbell e Marilyn Monroe",
+          "answer": "Andy Warhol"
+        },
+        {
+          "question": "Lo scrittore e drammaturgo siciliano, premio Nobel, autore de 'Il fu Mattia Pascal'",
+          "answer": "Luigi Pirandello"
+        },
+        {
+          "question": "Il celebre museo parigino dove sono conservate la Venere di Milo e la Vittoria di Samotracia",
+          "answer": "Museo del Louvre"
+        },
+        {
+          "question": "L'antico poeta greco a cui è tradizionalmente attribuita l'Iliade",
+          "answer": "Omero"
+        },
+        {
+          "question": "Lo scrittore e filologo britannico, autore de 'Il Signore degli Anelli'",
+          "answer": "J.R.R. Tolkien"
+        },
+        {
+          "question": "L'eccentrico pittore surrealista spagnolo celebre per i suoi orologi molli",
+          "answer": "Salvador Dalí"
+        },
+        {
+          "question": "L'autrice di famosi gialli con protagonisti Hercule Poirot e Miss Marple",
+          "answer": "Agatha Christie"
+        }
       ],
-      200: [
-        { question: "Come si chiama il famoso detective creato da Arthur Conan Doyle?", answer: "Sherlock Holmes" },
-        { question: "Chi ha dipinto 'La Notte Stellata'?", answer: "Vincent van Gogh" },
-        { question: "Qual è il capolavoro letterario spagnolo scritto da Miguel de Cervantes?", answer: "Don Chisciotte" },
-        { question: "Quale movimento artistico era guidato da pittori come Claude Monet e Pierre-Auguste Renoir?", answer: "Impressionismo" },
-        { question: "Come si chiama la poetessa greca antica vissuta sull'isola di Lesbo?", answer: "Saffo" }
+      "200": [
+        {
+          "question": "Come si chiama il famoso detective creato da Arthur Conan Doyle?",
+          "answer": "Sherlock Holmes"
+        },
+        {
+          "question": "Chi ha dipinto 'La Notte Stellata'?",
+          "answer": "Vincent van Gogh"
+        },
+        {
+          "question": "Qual è il capolavoro letterario spagnolo scritto da Miguel de Cervantes?",
+          "answer": "Don Chisciotte"
+        },
+        {
+          "question": "Quale movimento artistico era guidato da pittori come Claude Monet e Pierre-Auguste Renoir?",
+          "answer": "Impressionismo"
+        },
+        {
+          "question": "Come si chiama la poetessa greca antica vissuta sull'isola di Lesbo?",
+          "answer": "Saffo"
+        },
+        {
+          "question": "Il celebre quadro di Edvard Munch con un volto deformato.",
+          "answer": "L'Urlo"
+        },
+        {
+          "question": "L'autore de Il fu Mattia Pascal.",
+          "answer": "Luigi Pirandello"
+        },
+        {
+          "question": "Scrisse Orgoglio e Pregiudizio.",
+          "answer": "Jane Austen"
+        },
+        {
+          "question": "Il romanzo di Victor Hugo con protagonista Jean Valjean.",
+          "answer": "I Miserabili"
+        },
+        {
+          "question": "Il movimento artistico di Claude Monet e Pierre-Auguste Renoir.",
+          "answer": "Impressionismo"
+        },
+        {
+          "question": "Scrisse Il ritratto di Dorian Gray.",
+          "answer": "Oscar Wilde"
+        },
+        {
+          "question": "L'artista del periodo surrealista celebre per gli orologi molli.",
+          "answer": "Salvador Dalí"
+        },
+        {
+          "question": "Scrisse Moby Dick.",
+          "answer": "Herman Melville"
+        },
+        {
+          "question": "Autore della raccolta di novelle Decameron.",
+          "answer": "Giovanni Boccaccio"
+        },
+        {
+          "question": "Il celebre architetto catalano della Sagrada Familia.",
+          "answer": "Antoni Gaudí"
+        },
+        {
+          "question": "L'autore di 1984 e La fattoria degli animali.",
+          "answer": "George Orwell"
+        },
+        {
+          "question": "Scrisse Il Grande Gatsby.",
+          "answer": "F. Scott Fitzgerald"
+        },
+        {
+          "question": "Dipinse Il Bacio (con dettagli in oro).",
+          "answer": "Gustav Klimt"
+        },
+        {
+          "question": "Scrisse Cent'anni di solitudine.",
+          "answer": "Gabriel García Márquez"
+        },
+        {
+          "question": "L'autore de Il Vecchio e il Mare.",
+          "answer": "Ernest Hemingway"
+        },
+        {
+          "question": "Il pittore noto per i suoi affreschi nella Cappella degli Scrovegni a Padova.",
+          "answer": "Giotto"
+        },
+        {
+          "question": "La scrittrice britannica creatrice di Hercule Poirot.",
+          "answer": "Agatha Christie"
+        },
+        {
+          "question": "L'artista del Rinascimento che dipinse La Scuola di Atene.",
+          "answer": "Raffaello Sanzio"
+        },
+        {
+          "question": "Scrisse Frankenstein.",
+          "answer": "Mary Shelley"
+        },
+        {
+          "question": "Il vampiro creato da Bram Stoker.",
+          "answer": "Dracula"
+        },
+        {
+          "question": "Lo scrittore russo autore di 'Delitto e castigo'",
+          "answer": "Fëdor Dostoevskij"
+        },
+        {
+          "question": "L'artista norvegese che dipinse l'inquietante e celebre opera 'L'urlo'",
+          "answer": "Edvard Munch"
+        },
+        {
+          "question": "L'autore britannico del famoso romanzo distopico '1984' e de 'La fattoria degli animali'",
+          "answer": "George Orwell"
+        },
+        {
+          "question": "Il movimento artistico francese ottocentesco di cui facevano parte Monet, Renoir e Degas",
+          "answer": "Impressionismo"
+        },
+        {
+          "question": "L'autore irlandese del celebre romanzo 'Il ritratto di Dorian Gray'",
+          "answer": "Oscar Wilde"
+        },
+        {
+          "question": "Il celebre scultore neoclassico italiano autore di 'Amore e Psiche'",
+          "answer": "Antonio Canova"
+        },
+        {
+          "question": "Il poeta latino scelto da Dante come guida nell'Inferno e autore dell'Eneide",
+          "answer": "Virgilio"
+        },
+        {
+          "question": "La scrittrice britannica autrice del classico 'Orgoglio e pregiudizio'",
+          "answer": "Jane Austen"
+        },
+        {
+          "question": "Il pittore urbinate che affrescò le Stanze Vaticane e dipinse 'La Scuola di Atene'",
+          "answer": "Raffaello Sanzio"
+        },
+        {
+          "question": "Il grande scrittore romantico francese autore de 'I miserabili' e 'Notre-Dame de Paris'",
+          "answer": "Victor Hugo"
+        },
+        {
+          "question": "L'artista simbolista austriaco famoso per aver dipinto 'Il bacio'",
+          "answer": "Gustav Klimt"
+        },
+        {
+          "question": "Il poeta italiano vincitore del Nobel, autore della raccolta 'Ossi di seppia'",
+          "answer": "Eugenio Montale"
+        },
+        {
+          "question": "Il pittore rinascimentale che dipinse la 'Nascita di Venere' e 'La Primavera'",
+          "answer": "Sandro Botticelli"
+        },
+        {
+          "question": "L'autrice inglese che nel 1818 pubblicò il romanzo 'Frankenstein'",
+          "answer": "Mary Shelley"
+        },
+        {
+          "question": "Il poema epico greco che narra il lungo viaggio di ritorno in patria di Ulisse",
+          "answer": "Odissea"
+        },
+        {
+          "question": "Il drammaturgo irlandese esponente del teatro dell'assurdo e autore di 'Aspettando Godot'",
+          "answer": "Samuel Beckett"
+        },
+        {
+          "question": "Il maestro olandese del Seicento che dipinse la 'Ragazza col turbante' o 'Ragazza con l'orecchino di perla'",
+          "answer": "Johannes Vermeer"
+        },
+        {
+          "question": "Lo scrittore e semiologo italiano autore del romanzo 'Il nome della rosa'",
+          "answer": "Umberto Eco"
+        },
+        {
+          "question": "Il pittore tedesco, massimo esponente del Romanticismo, autore del 'Viandante sul mare di nebbia'",
+          "answer": "Caspar David Friedrich"
+        },
+        {
+          "question": "Lo scrittore statunitense autore de 'Il vecchio e il mare'",
+          "answer": "Ernest Hemingway"
+        }
       ],
-      300: [
-        { question: "Chi ha scritto il romanzo '1984'?", answer: "George Orwell" },
-        { question: "Qual è l'artista spagnolo che ha dipinto 'Guernica'?", answer: "Pablo Picasso" },
-        { question: "Chi ha scritto la tragedia di Romeo e Giulietta?", answer: "William Shakespeare" },
-        { question: "Chi è lo scultore della celebre statua del 'David' custodita a Firenze?", answer: "Michelangelo Buonarroti" },
-        { question: "Quale poeta italiano ha scritto 'Il Canzoniere'?", answer: "Francesco Petrarca" }
+      "300": [
+        {
+          "question": "Chi ha scritto il romanzo '1984'?",
+          "answer": "George Orwell"
+        },
+        {
+          "question": "Qual è l'artista spagnolo che ha dipinto 'Guernica'?",
+          "answer": "Pablo Picasso"
+        },
+        {
+          "question": "Chi ha scritto la tragedia di Romeo e Giulietta?",
+          "answer": "William Shakespeare"
+        },
+        {
+          "question": "Chi è lo scultore della celebre statua del 'David' custodita a Firenze?",
+          "answer": "Michelangelo Buonarroti"
+        },
+        {
+          "question": "Quale poeta italiano ha scritto 'Il Canzoniere'?",
+          "answer": "Francesco Petrarca"
+        },
+        {
+          "question": "L'autore del romanzo Don Chisciotte della Mancia.",
+          "answer": "Miguel de Cervantes"
+        },
+        {
+          "question": "Scrisse Il barone rampante e Il visconte dimezzato.",
+          "answer": "Italo Calvino"
+        },
+        {
+          "question": "Il dipinto di Rembrandt che raffigura una compagnia di miliziani.",
+          "answer": "Ronda di notte"
+        },
+        {
+          "question": "Autore del poema Orlando Furioso.",
+          "answer": "Ludovico Ariosto"
+        },
+        {
+          "question": "Scrisse Alla ricerca del tempo perduto.",
+          "answer": "Marcel Proust"
+        },
+        {
+          "question": "La pittrice messicana nota per i suoi numerosi autoritratti.",
+          "answer": "Frida Kahlo"
+        },
+        {
+          "question": "Il poeta latino che scrisse l'Eneide.",
+          "answer": "Virgilio"
+        },
+        {
+          "question": "L'artista pop autore dei barattoli di zuppa Campbell.",
+          "answer": "Andy Warhol"
+        },
+        {
+          "question": "L'autore de I fratelli Karamazov.",
+          "answer": "Fëdor Dostoevskij"
+        },
+        {
+          "question": "Scrisse Il processo e La metamorfosi.",
+          "answer": "Franz Kafka"
+        },
+        {
+          "question": "Dipinse La ragazza col turbante, nota anche come La ragazza col panno di perla.",
+          "answer": "Jan Vermeer"
+        },
+        {
+          "question": "Il poeta italiano premio Nobel noto per Ossi di seppia.",
+          "answer": "Eugenio Montale"
+        },
+        {
+          "question": "Scolpì Il Pensatore.",
+          "answer": "Auguste Rodin"
+        },
+        {
+          "question": "Scrisse Cime tempestose.",
+          "answer": "Emily Brontë"
+        },
+        {
+          "question": "Il romanzo distopico di Ray Bradbury in cui i pompieri bruciano i libri.",
+          "answer": "Fahrenheit 451"
+        },
+        {
+          "question": "Il pittore fiammingo autore del Trittico del Giardino delle delizie.",
+          "answer": "Hieronymus Bosch"
+        },
+        {
+          "question": "L'autore de Il Nome della Rosa.",
+          "answer": "Umberto Eco"
+        },
+        {
+          "question": "Il movimento letterario fondato da Filippo Tommaso Marinetti.",
+          "answer": "Futurismo"
+        },
+        {
+          "question": "Scrisse La Coscienza di Zeno.",
+          "answer": "Italo Svevo"
+        },
+        {
+          "question": "Dipinse Las Meninas.",
+          "answer": "Diego Velázquez"
+        },
+        {
+          "question": "Il celebre scrittore spagnolo creatore del cavaliere 'Don Chisciotte della Mancia'",
+          "answer": "Miguel de Cervantes"
+        },
+        {
+          "question": "Il pittore statunitense pioniere dell'espressionismo astratto e inventore del 'dripping'",
+          "answer": "Jackson Pollock"
+        },
+        {
+          "question": "L'autore francese della monumentale opera in sette volumi 'Alla ricerca del tempo perduto'",
+          "answer": "Marcel Proust"
+        },
+        {
+          "question": "La tormentata pittrice messicana celebre per i suoi numerosi e colorati autoritratti",
+          "answer": "Frida Kahlo"
+        },
+        {
+          "question": "Il filosofo e scrittore francese di origine algerina autore de 'Lo straniero'",
+          "answer": "Albert Camus"
+        },
+        {
+          "question": "L'orafo e scultore manierista fiorentino che realizzò la statua bronzea di 'Perseo con la testa di Medusa'",
+          "answer": "Benvenuto Cellini"
+        },
+        {
+          "question": "Lo scrittore trecentesco toscano autore della raccolta di cento novelle 'Decameron'",
+          "answer": "Giovanni Boccaccio"
+        },
+        {
+          "question": "Il pittore romantico francese che dipinse la celebre tela 'La Libertà che guida il popolo'",
+          "answer": "Eugène Delacroix"
+        },
+        {
+          "question": "L'autore statunitense diventato celebre per il romanzo generazionale 'Il giovane Holden'",
+          "answer": "J.D. Salinger"
+        },
+        {
+          "question": "Il pittore olandese fondatore del neoplasticismo, famoso per i reticoli neri con campiture rosse, gialle e blu",
+          "answer": "Piet Mondrian"
+        },
+        {
+          "question": "Il poeta maledetto francese autore della raccolta 'I fiori del male'",
+          "answer": "Charles Baudelaire"
+        },
+        {
+          "question": "L'enigmatico pittore fiammingo autore del 'Trittico del Giardino delle delizie'",
+          "answer": "Hieronymus Bosch"
+        },
+        {
+          "question": "Lo scrittore americano che ha raccontato la caccia alla grande balena bianca in 'Moby Dick'",
+          "answer": "Herman Melville"
+        },
+        {
+          "question": "Il pittore e scultore francese famoso per i suoi numerosi dipinti che ritraggono ballerine di danza classica",
+          "answer": "Edgar Degas"
+        },
+        {
+          "question": "Lo scrittore triestino, amico di James Joyce, autore de 'La coscienza di Zeno'",
+          "answer": "Italo Svevo"
+        },
+        {
+          "question": "Lo scultore francese a cui si deve la celebre scultura bronzea de 'Il pensatore'",
+          "answer": "Auguste Rodin"
+        },
+        {
+          "question": "La scrittrice inglese che pubblicò il suo unico romanzo, 'Cime tempestose', sotto lo pseudonimo di Ellis Bell",
+          "answer": "Emily Brontë"
+        },
+        {
+          "question": "Il pittore divisionista italiano che ha realizzato la grande tela sociale 'Il Quarto Stato'",
+          "answer": "Giuseppe Pellizza da Volpedo"
+        },
+        {
+          "question": "Il poeta e diplomatico cileno, premio Nobel, autore di 'Venti poesie d'amore e una canzone disperata'",
+          "answer": "Pablo Neruda"
+        },
+        {
+          "question": "Lo scultore napoletano autore della straordinaria statua marmorea del 'Cristo velato'",
+          "answer": "Giuseppe Sanmartino"
+        }
       ],
-      400: [
-        { question: "Qual è l'autore della celebre opera 'Cent'anni di solitudine'?", answer: "Gabriel García Márquez" },
-        { question: "A quale movimento artistico appartiene l'opera 'La persistenza della memoria' di Salvador Dalí?", answer: "Surrealismo" },
-        { question: "Chi ha scritto l'epopea 'Odissea'?", answer: "Omero" },
-        { question: "Quale pittore austriaco ha realizzato il celebre quadro 'Il Bacio'?", answer: "Gustav Klimt" },
-        { question: "Come si chiama il protagonista del romanzo 'Il fu Mattia Pascal' di Pirandello?", answer: "Mattia Pascal" }
+      "400": [
+        {
+          "question": "Qual è l'autore della celebre opera 'Cent'anni di solitudine'?",
+          "answer": "Gabriel García Márquez"
+        },
+        {
+          "question": "A quale movimento artistico appartiene l'opera 'La persistenza della memoria' di Salvador Dalí?",
+          "answer": "Surrealismo"
+        },
+        {
+          "question": "Chi ha scritto l'epopea 'Odissea'?",
+          "answer": "Omero"
+        },
+        {
+          "question": "Quale pittore austriaco ha realizzato il celebre quadro 'Il Bacio'?",
+          "answer": "Gustav Klimt"
+        },
+        {
+          "question": "Come si chiama il protagonista del romanzo 'Il fu Mattia Pascal' di Pirandello?",
+          "answer": "Mattia Pascal"
+        },
+        {
+          "question": "Il celebre pittore romantico tedesco de Il viandante sul mare di nebbia.",
+          "answer": "Caspar David Friedrich"
+        },
+        {
+          "question": "L'autore del dramma Aspettando Godot.",
+          "answer": "Samuel Beckett"
+        },
+        {
+          "question": "Scolpì l'Amore e Psiche conservato al Louvre.",
+          "answer": "Antonio Canova"
+        },
+        {
+          "question": "L'autore de I fiori del male.",
+          "answer": "Charles Baudelaire"
+        },
+        {
+          "question": "Il romanzo di James Joyce che si svolge in una sola giornata a Dublino.",
+          "answer": "Ulisse"
+        },
+        {
+          "question": "Dipinse Impressione, levar del sole, che diede il nome all'Impressionismo.",
+          "answer": "Claude Monet"
+        },
+        {
+          "question": "La scrittrice statunitense premio Pulitzer per Il buio oltre la siepe.",
+          "answer": "Harper Lee"
+        },
+        {
+          "question": "L'architetto della Cupola di Santa Maria del Fiore a Firenze.",
+          "answer": "Filippo Brunelleschi"
+        },
+        {
+          "question": "Il poeta romano autore de Le Metamorfosi.",
+          "answer": "Ovidio"
+        },
+        {
+          "question": "Il pittore francese post-impressionista che si trasferì a Tahiti.",
+          "answer": "Paul Gauguin"
+        },
+        {
+          "question": "L'autore di Lolita.",
+          "answer": "Vladimir Nabokov"
+        },
+        {
+          "question": "La famosa opera scultorea ellenistica trovata a Milo e priva di braccia.",
+          "answer": "Venere di Milo"
+        },
+        {
+          "question": "L'autore de La montagna incantata e Morte a Venezia.",
+          "answer": "Thomas Mann"
+        },
+        {
+          "question": "Dipinse Il Quarto Stato, simbolo delle lotte operaie.",
+          "answer": "Giuseppe Pellizza da Volpedo"
+        },
+        {
+          "question": "Il drammaturgo russo autore de Il gabbiano e Zio Vanja.",
+          "answer": "Anton Čechov"
+        },
+        {
+          "question": "L'artista russo pioniere dell'astrattismo geometrico e fondatore del Suprematismo.",
+          "answer": "Kazimir Malevič"
+        },
+        {
+          "question": "La scrittrice cilena autrice de La casa degli spiriti.",
+          "answer": "Isabel Allende"
+        },
+        {
+          "question": "Il poeta greco antico autore della Teogonia.",
+          "answer": "Esiodo"
+        },
+        {
+          "question": "Il pittore britannico noto per i suoi paesaggi e dipinti di navi come La valorosa Téméraire.",
+          "answer": "J.M.W. Turner"
+        },
+        {
+          "question": "Scrisse Il maestro e Margherita.",
+          "answer": "Michail Bulgakov"
+        },
+        {
+          "question": "Lo scrittore boemo di lingua tedesca autore de 'La metamorfosi' e 'Il processo'",
+          "answer": "Franz Kafka"
+        },
+        {
+          "question": "Il pittore russo considerato il primo astrattista e autore del saggio 'Lo spirituale nell'arte'",
+          "answer": "Vasilij Kandinskij"
+        },
+        {
+          "question": "Il grande poeta italiano trecentesco il cui capolavoro è il 'Canzoniere', dedicato a Laura",
+          "answer": "Francesco Petrarca"
+        },
+        {
+          "question": "Il pittore manierista del Cinquecento famoso per i suoi personaggi allungati e autore di 'Sepoltura del conte di Orgaz'",
+          "answer": "El Greco"
+        },
+        {
+          "question": "La scrittrice britannica, pioniera del flusso di coscienza, autrice di 'Gita al faro' e 'La signora Dalloway'",
+          "answer": "Virginia Woolf"
+        },
+        {
+          "question": "Il pittore e scultore futurista italiano autore della scultura 'Forme uniche della continuità nello spazio'",
+          "answer": "Umberto Boccioni"
+        },
+        {
+          "question": "Il celebre scrittore e saggista argentino autore delle raccolte di racconti 'Ficciones' e 'L'Aleph'",
+          "answer": "Jorge Luis Borges"
+        },
+        {
+          "question": "Il pittore francese massimo esponente del realismo, autore dei controversi 'Gli spaccapietre' e 'L'origine del mondo'",
+          "answer": "Gustave Courbet"
+        },
+        {
+          "question": "Lo scrittore russo autore del capolavoro satirico-fantastico 'Il Maestro e Margherita'",
+          "answer": "Michail Bulgakov"
+        },
+        {
+          "question": "Il celebre pittore e incisore tedesco del Rinascimento, autore della stampa 'Il cavaliere, la morte e il diavolo'",
+          "answer": "Albrecht Dürer"
+        },
+        {
+          "question": "Lo scrittore statunitense creatore del celebre universo fantascientifico di 'Dune'",
+          "answer": "Frank Herbert"
+        },
+        {
+          "question": "Il pittore francese ottocentesco autore di opere scandalose per l'epoca come 'Colazione sull'erba' e 'Olympia'",
+          "answer": "Édouard Manet"
+        },
+        {
+          "question": "La scrittrice di origine ungherese naturalizzata svizzera, celebre per la 'Trilogia della città di K.'",
+          "answer": "Ágota Kristóf"
+        },
+        {
+          "question": "Il geniale architetto rinascimentale italiano a cui si deve l'imponente cupola di Santa Maria del Fiore",
+          "answer": "Filippo Brunelleschi"
+        },
+        {
+          "question": "Lo scrittore portoghese vincitore del premio Nobel nel 1998, autore del romanzo 'Cecità'",
+          "answer": "José Saramago"
+        },
+        {
+          "question": "Il pittore svizzero del simbolismo famoso per le varie versioni del dipinto 'L'isola dei morti'",
+          "answer": "Arnold Böcklin"
+        },
+        {
+          "question": "Lo scrittore tedesco premio Nobel, noto soprattutto per il suo romanzo del 1959 'Il tamburo di latta'",
+          "answer": "Günter Grass"
+        },
+        {
+          "question": "Il pittore fiammingo di epoca barocca, celebre per i nudi opulenti e autore de 'Le tre Grazie'",
+          "answer": "Pieter Paul Rubens"
+        },
+        {
+          "question": "Il poeta e drammaturgo spagnolo autore di 'Nozze di sangue', ucciso dai nazionalisti durante la guerra civile",
+          "answer": "Federico García Lorca"
+        },
+        {
+          "question": "Il pittore surrealista belga celebre per i dipinti con bombette e per la tela 'Il tradimento delle immagini'",
+          "answer": "René Magritte"
+        }
       ],
-      500: [
-        { question: "Qual è il nome dell'autore russo del massiccio romanzo 'Guerra e Pace'?", answer: "Lev Tolstoj" },
-        { question: "Quale pittore fiammingo è noto per il trittico 'Il giardino delle delizie'?", answer: "Hieronymus Bosch" },
-        { question: "In quale romanzo compare per la prima volta il personaggio di Dracula creato da Bram Stoker?", answer: "Dracula" },
-        { question: "Chi è l'architetto che progettò la cupola di Santa Maria del Fiore a Firenze?", answer: "Filippo Brunelleschi" },
-        { question: "Qual è il vero nome dell'autore britannico che scriveva sotto lo pseudonimo di George Eliot?", answer: "Mary Ann Evans" }
+      "500": [
+        {
+          "question": "Qual è il nome dell'autore russo del massiccio romanzo 'Guerra e Pace'?",
+          "answer": "Lev Tolstoj"
+        },
+        {
+          "question": "Quale pittore fiammingo è noto per il trittico 'Il giardino delle delizie'?",
+          "answer": "Hieronymus Bosch"
+        },
+        {
+          "question": "In quale romanzo compare per la prima volta il personaggio di Dracula creato da Bram Stoker?",
+          "answer": "Dracula"
+        },
+        {
+          "question": "Chi è l'architetto che progettò la cupola di Santa Maria del Fiore a Firenze?",
+          "answer": "Filippo Brunelleschi"
+        },
+        {
+          "question": "Qual è il vero nome dell'autore britannico che scriveva sotto lo pseudonimo di George Eliot?",
+          "answer": "Mary Ann Evans"
+        },
+        {
+          "question": "Il leggendario eroe mesopotamico protagonista di un'antica epopea scritta su tavolette d'argilla.",
+          "answer": "Gilgamesh"
+        },
+        {
+          "question": "Il pittore veneziano del Rinascimento autore della Venere di Urbino.",
+          "answer": "Tiziano Vecellio"
+        },
+        {
+          "question": "L'autrice giapponese del Genji monogatari, considerato il primo romanzo al mondo.",
+          "answer": "Murasaki Shikibu"
+        },
+        {
+          "question": "Scolpì l'Estasi di Santa Teresa nella chiesa di Santa Maria della Vittoria.",
+          "answer": "Gian Lorenzo Bernini"
+        },
+        {
+          "question": "L'autore argentino delle raccolte Finzioni e L'Aleph.",
+          "answer": "Jorge Luis Borges"
+        },
+        {
+          "question": "Il dipinto di Géricault che raffigura i superstiti di un naufragio.",
+          "answer": "La zattera della Medusa"
+        },
+        {
+          "question": "L'autore latino de La guerra gallica.",
+          "answer": "Giulio Cesare"
+        },
+        {
+          "question": "Il movimento artistico e letterario fondato da Tristan Tzara a Zurigo nel 1916.",
+          "answer": "Dadaismo"
+        },
+        {
+          "question": "Lo scrittore nigeriano autore de Il crollo (Things Fall Apart).",
+          "answer": "Chinua Achebe"
+        },
+        {
+          "question": "Il pittore statunitense famoso per la tecnica del dripping (sgocciolatura).",
+          "answer": "Jackson Pollock"
+        },
+        {
+          "question": "L'autore portoghese premio Nobel per il romanzo Cecità.",
+          "answer": "José Saramago"
+        },
+        {
+          "question": "Il ciclo di arazzi medievali francesi noti per la raffigurazione dei cinque sensi più uno.",
+          "answer": "La dama e l'unicorno"
+        },
+        {
+          "question": "Il poeta persiano dell'XI secolo noto per le sue quartine (Rubaiyat).",
+          "answer": "Omar Khayyam"
+        },
+        {
+          "question": "L'architetto che progettò il Museo Guggenheim di Bilbao.",
+          "answer": "Frank Gehry"
+        },
+        {
+          "question": "La scrittrice britannica vincitrice di due Booker Prize per Wolf Hall e Bring Up the Bodies.",
+          "answer": "Hilary Mantel"
+        },
+        {
+          "question": "Il pittore fiammingo autore de I coniugi Arnolfini.",
+          "answer": "Jan van Eyck"
+        },
+        {
+          "question": "L'eroe del famoso poema epico anglosassone omonimo.",
+          "answer": "Beowulf"
+        },
+        {
+          "question": "Il movimento artistico russo costruttivista a cui apparteneva Vladimir Tatlin.",
+          "answer": "Costruttivismo"
+        },
+        {
+          "question": "Il drammaturgo svedese autore di Signorina Julie.",
+          "answer": "August Strindberg"
+        },
+        {
+          "question": "Il pittore barocco italiano celebre per il suo uso del chiaroscuro e autore de La Vocazione di San Matteo.",
+          "answer": "Caravaggio"
+        },
+        {
+          "question": "La dama di corte giapponese autrice nell'XI secolo del 'Genji monogatari', considerato il primo romanzo moderno",
+          "answer": "Murasaki Shikibu"
+        },
+        {
+          "question": "L'artista della Land Art, assieme alla moglie Jeanne-Claude, noto per aver impacchettato monumenti storici",
+          "answer": "Christo"
+        },
+        {
+          "question": "Il matematico, astronomo e poeta persiano dell'XI secolo noto per le sue quartine 'Rubʿayyāt'",
+          "answer": "Omar Khayyam"
+        },
+        {
+          "question": "Il pittore e architetto gesuita barocco che affrescò la finta cupola della Chiesa di Sant'Ignazio a Roma",
+          "answer": "Andrea Pozzo"
+        },
+        {
+          "question": "Lo scrittore nigeriano autore del classico postcoloniale del 1958 'Il crollo' (Things Fall Apart)",
+          "answer": "Chinua Achebe"
+        },
+        {
+          "question": "Il maestro rinascimentale autore degli spettacolari affreschi illusionistici della Camera degli Sposi a Mantova",
+          "answer": "Andrea Mantegna"
+        },
+        {
+          "question": "Lo scrittore islandese vincitore del premio Nobel per la letteratura nel 1955",
+          "answer": "Halldór Laxness"
+        },
+        {
+          "question": "L'artista dadaista francese creatore dei 'ready-made' tra cui la famosa 'Fontana', firmata 'R. Mutt'",
+          "answer": "Marcel Duchamp"
+        },
+        {
+          "question": "Il commediografo rumeno naturalizzato francese, pioniere del teatro dell'assurdo e autore de 'La cantatrice calva'",
+          "answer": "Eugène Ionesco"
+        },
+        {
+          "question": "Il pittore veneziano rinascimentale, maestro del tonalismo, autore dell'enigmatico dipinto 'La Tempesta'",
+          "answer": "Giorgione"
+        },
+        {
+          "question": "La scrittrice canadese vincitrice del Booker Prize per 'L'assassino cieco' e autrice de 'Il racconto dell'ancella'",
+          "answer": "Margaret Atwood"
+        },
+        {
+          "question": "Il grande pittore di corte spagnolo del Seicento, autore del capolavoro prospettico e metateatrale 'Las Meninas'",
+          "answer": "Diego Velázquez"
+        },
+        {
+          "question": "Lo scrittore serbo-bosniaco vincitore del Nobel nel 1961, autore del capolavoro storico 'Il ponte sulla Drina'",
+          "answer": "Ivo Andrić"
+        },
+        {
+          "question": "L'architetto visionario francese del Settecento che progettò l'utopico e immenso Cenotafio per Isaac Newton",
+          "answer": "Étienne-Louis Boullée"
+        },
+        {
+          "question": "Lo scrittore turco contemporaneo, vincitore del Nobel nel 2006, autore dei romanzi 'Neve' e 'Il mio nome è rosso'",
+          "answer": "Orhan Pamuk"
+        },
+        {
+          "question": "Il pittore paesaggista romantico inglese autore de 'La valorosa Téméraire' e definito il 'pittore della luce'",
+          "answer": "William Turner"
+        },
+        {
+          "question": "Lo scienziato e romanziere argentino autore della trilogia comprendente 'Il tunnel' e 'Sopra eroi e tombe'",
+          "answer": "Ernesto Sabato"
+        },
+        {
+          "question": "Il pittore francese del Settecento, massimo esponente dello stile rococò galante e autore del dipinto 'L'altalena'",
+          "answer": "Jean-Honoré Fragonard"
+        },
+        {
+          "question": "Il poeta e scrittore russo fondatore della letteratura moderna nazionale e autore del romanzo in versi 'Eugenio Onegin'",
+          "answer": "Aleksandr Puškin"
+        },
+        {
+          "question": "Il pittore russo fondatore del suprematismo, divenuto celebre per l'opera astratta 'Quadrato nero su fondo bianco'",
+          "answer": "Kazimir Malevič"
+        }
       ]
     }
   },
   {
-    name: "Geografia",
-    questions: {
-      100: [
-        { question: "Qual è la capitale dell'Italia?", answer: "Roma" },
-        { question: "In quale continente si trova il deserto del Sahara?", answer: "Africa" },
-        { question: "Quale fiume attraversa Parigi?", answer: "La Senna" },
-        { question: "Qual è l'oceano più grande del mondo?", answer: "L'Oceano Pacifico" },
-        { question: "Come si chiama lo stivale europeo?", answer: "Italia" }
+    "name": "Geografia",
+    "questions": {
+      "100": [
+        {
+          "question": "Qual è la capitale dell'Italia?",
+          "answer": "Roma"
+        },
+        {
+          "question": "In quale continente si trova il deserto del Sahara?",
+          "answer": "Africa"
+        },
+        {
+          "question": "Quale fiume attraversa Parigi?",
+          "answer": "La Senna"
+        },
+        {
+          "question": "Qual è l'oceano più grande del mondo?",
+          "answer": "L'Oceano Pacifico"
+        },
+        {
+          "question": "Come si chiama lo stivale europeo?",
+          "answer": "Italia"
+        },
+        {
+          "question": "Qual è la capitale d'Italia?",
+          "answer": "Roma"
+        },
+        {
+          "question": "In quale continente si trova l'Egitto?",
+          "answer": "Africa"
+        },
+        {
+          "question": "Qual è l'oceano più grande del mondo?",
+          "answer": "Oceano Pacifico"
+        },
+        {
+          "question": "Come si chiama il fiume che attraversa Londra?",
+          "answer": "Tamigi"
+        },
+        {
+          "question": "Qual è il paese più grande del mondo per superficie?",
+          "answer": "Russia"
+        },
+        {
+          "question": "In quale stato americano si trova il Grand Canyon?",
+          "answer": "Arizona"
+        },
+        {
+          "question": "Qual è la montagna più alta del mondo?",
+          "answer": "Monte Everest"
+        },
+        {
+          "question": "Come si chiama il deserto più grande del mondo non polare?",
+          "answer": "Sahara"
+        },
+        {
+          "question": "Qual è la capitale della Francia?",
+          "answer": "Parigi"
+        },
+        {
+          "question": "In quale paese si trova il Taj Mahal?",
+          "answer": "India"
+        },
+        {
+          "question": "Quale catena montuosa attraversa il Nord Italia?",
+          "answer": "Alpi"
+        },
+        {
+          "question": "Come si chiama l'isola più grande del mondo?",
+          "answer": "Groenlandia"
+        },
+        {
+          "question": "Qual è la capitale del Giappone?",
+          "answer": "Tokyo"
+        },
+        {
+          "question": "In quale paese si trova la Grande Barriera Corallina?",
+          "answer": "Australia"
+        },
+        {
+          "question": "Qual è il fiume più lungo del mondo?",
+          "answer": "Nilo"
+        },
+        {
+          "question": "Come si chiama il canale che collega il Mar Mediterraneo con il Mar Rosso?",
+          "answer": "Canale di Suez"
+        },
+        {
+          "question": "Qual è la capitale della Spagna?",
+          "answer": "Madrid"
+        },
+        {
+          "question": "In quale continente si trova il Brasile?",
+          "answer": "America del Sud"
+        },
+        {
+          "question": "Quale paese ha la forma di uno stivale?",
+          "answer": "Italia"
+        },
+        {
+          "question": "Come si chiama lo stretto che separa l'Europa dall'Africa?",
+          "answer": "Stretto di Gibilterra"
+        },
+        {
+          "question": "Qual è la capitale della Francia?",
+          "answer": "Parigi"
+        },
+        {
+          "question": "Quale oceano bagna le coste orientali degli Stati Uniti?",
+          "answer": "Oceano Atlantico"
+        },
+        {
+          "question": "In quale continente si trova il deserto del Sahara?",
+          "answer": "Africa"
+        },
+        {
+          "question": "Qual è il fiume più lungo del mondo?",
+          "answer": "Nilo"
+        },
+        {
+          "question": "Qual è lo stato più grande del mondo per superficie?",
+          "answer": "Russia"
+        },
+        {
+          "question": "Qual è la capitale del Giappone?",
+          "answer": "Tokyo"
+        },
+        {
+          "question": "In quale nazione si trova la Grande Muraglia?",
+          "answer": "Cina"
+        },
+        {
+          "question": "Quale catena montuosa separa l'Europa dall'Asia in Russia?",
+          "answer": "Monti Urali"
+        },
+        {
+          "question": "Qual è la nazione più popolosa del Sud America?",
+          "answer": "Brasile"
+        },
+        {
+          "question": "In quale paese europeo si trova la Torre di Pisa?",
+          "answer": "Italia"
+        },
+        {
+          "question": "Quale canale artificiale collega l'Oceano Atlantico con l'Oceano Pacifico?",
+          "answer": "Canale di Panama"
+        },
+        {
+          "question": "Qual è l'isola più grande del mondo?",
+          "answer": "Groenlandia"
+        },
+        {
+          "question": "Qual è la capitale del Regno Unito?",
+          "answer": "Londra"
+        },
+        {
+          "question": "In quale continente si trovano le montagne delle Ande?",
+          "answer": "Sud America"
+        },
+        {
+          "question": "Qual è il mare che bagna l'Italia a est?",
+          "answer": "Mare Adriatico"
+        },
+        {
+          "question": "Quale nazione è conosciuta come 'la terra del sol levante'?",
+          "answer": "Giappone"
+        },
+        {
+          "question": "Qual è il lago più grande del Nord America?",
+          "answer": "Lago Superiore"
+        },
+        {
+          "question": "Qual è la nazione famosa per i suoi fiordi e la capitale Oslo?",
+          "answer": "Norvegia"
+        },
+        {
+          "question": "In quale paese africano si trovano le piramidi di Giza?",
+          "answer": "Egitto"
+        },
+        {
+          "question": "Qual è la capitale della Spagna?",
+          "answer": "Madrid"
+        }
       ],
-      200: [
-        { question: "Qual è la capitale della Francia?", answer: "Parigi" },
-        { question: "Qual è la montagna più alta del mondo?", answer: "Monte Everest" },
-        { question: "Quale nazione asiatica ha la più grande popolazione al mondo assieme all'India?", answer: "Cina" },
-        { question: "In quale nazione si trova il Grand Canyon?", answer: "Stati Uniti" },
-        { question: "Qual è il continente più freddo e meridionale del mondo?", answer: "Antartide" }
+      "200": [
+        {
+          "question": "Qual è la capitale della Francia?",
+          "answer": "Parigi"
+        },
+        {
+          "question": "Qual è la montagna più alta del mondo?",
+          "answer": "Monte Everest"
+        },
+        {
+          "question": "Quale nazione asiatica ha la più grande popolazione al mondo assieme all'India?",
+          "answer": "Cina"
+        },
+        {
+          "question": "In quale nazione si trova il Grand Canyon?",
+          "answer": "Stati Uniti"
+        },
+        {
+          "question": "Qual è il continente più freddo e meridionale del mondo?",
+          "answer": "Antartide"
+        },
+        {
+          "question": "Qual è la capitale dell'Australia?",
+          "answer": "Canberra"
+        },
+        {
+          "question": "In quale paese si trovano le rovine di Machu Picchu?",
+          "answer": "Perù"
+        },
+        {
+          "question": "Qual è il lago più grande del mondo per superficie?",
+          "answer": "Mar Caspio"
+        },
+        {
+          "question": "Come si chiama il fiume che attraversa Parigi?",
+          "answer": "Senna"
+        },
+        {
+          "question": "Qual è la capitale del Canada?",
+          "answer": "Ottawa"
+        },
+        {
+          "question": "In quale continente si trova il deserto del Gobi?",
+          "answer": "Asia"
+        },
+        {
+          "question": "Quale mare bagna le coste orientali dell'Italia?",
+          "answer": "Mar Adriatico"
+        },
+        {
+          "question": "Come si chiama il vulcano che distrusse Pompei?",
+          "answer": "Vesuvio"
+        },
+        {
+          "question": "Qual è il paese più popoloso del mondo?",
+          "answer": "India"
+        },
+        {
+          "question": "In quale stato si trova la città di Dubai?",
+          "answer": "Emirati Arabi Uniti"
+        },
+        {
+          "question": "Qual è la capitale della Germania?",
+          "answer": "Berlino"
+        },
+        {
+          "question": "Quale catena montuosa separa l'Europa dall'Asia?",
+          "answer": "Monti Urali"
+        },
+        {
+          "question": "Come si chiama l'isola a sud dell'India a forma di goccia?",
+          "answer": "Sri Lanka"
+        },
+        {
+          "question": "In quale paese europeo si trovano i fiordi più famosi?",
+          "answer": "Norvegia"
+        },
+        {
+          "question": "Qual è il fiume più lungo d'Europa?",
+          "answer": "Volga"
+        },
+        {
+          "question": "Come si chiama la penisola in cui si trovano Spagna e Portogallo?",
+          "answer": "Penisola Iberica"
+        },
+        {
+          "question": "Qual è la capitale dell'Argentina?",
+          "answer": "Buenos Aires"
+        },
+        {
+          "question": "In quale oceano si trovano le isole Hawaii?",
+          "answer": "Oceano Pacifico"
+        },
+        {
+          "question": "Quale stato africano è completamente circondato dal Sudafrica?",
+          "answer": "Lesotho"
+        },
+        {
+          "question": "Come si chiama lo stretto che separa l'Asia dall'America del Nord?",
+          "answer": "Stretto di Bering"
+        },
+        {
+          "question": "Quale stato degli USA è composto interamente da isole vulcaniche?",
+          "answer": "Hawaii"
+        },
+        {
+          "question": "Qual è il vulcano attivo più alto d'Europa, situato in Sicilia?",
+          "answer": "Etna"
+        },
+        {
+          "question": "Quale fiume attraversa la città di Londra?",
+          "answer": "Tamigi"
+        },
+        {
+          "question": "Qual è la capitale dell'Australia?",
+          "answer": "Canberra"
+        },
+        {
+          "question": "In quale paese sudamericano si trova l'antica città Inca di Machu Picchu?",
+          "answer": "Perù"
+        },
+        {
+          "question": "Qual è la catena montuosa che ospita le cime più alte del mondo?",
+          "answer": "Himalaya"
+        },
+        {
+          "question": "Quale stretto marittimo separa la Spagna dal Marocco?",
+          "answer": "Stretto di Gibilterra"
+        },
+        {
+          "question": "Quale nazione europea è politicamente divisa in cantoni?",
+          "answer": "Svizzera"
+        },
+        {
+          "question": "Qual è la capitale dell'Argentina?",
+          "answer": "Buenos Aires"
+        },
+        {
+          "question": "In quale oceano si trova la grande isola del Madagascar?",
+          "answer": "Oceano Indiano"
+        },
+        {
+          "question": "Qual è lo stato indipendente più piccolo del mondo per estensione territoriale?",
+          "answer": "Città del Vaticano"
+        },
+        {
+          "question": "Quale grande fiume europeo attraversa ben 10 nazioni diverse prima di sfociare nel Mar Nero?",
+          "answer": "Danubio"
+        },
+        {
+          "question": "Qual è la valuta ufficiale utilizzata nel Regno Unito?",
+          "answer": "Sterlina"
+        },
+        {
+          "question": "In quale nazione si estende l'arido deserto di Atacama?",
+          "answer": "Cile"
+        },
+        {
+          "question": "Qual è la capitale del Canada?",
+          "answer": "Ottawa"
+        },
+        {
+          "question": "Quale penisola europea è occupata principalmente da Svezia e Norvegia?",
+          "answer": "Penisola Scandinava"
+        },
+        {
+          "question": "In quale paese asiatico sorge il celebre mausoleo del Taj Mahal?",
+          "answer": "India"
+        },
+        {
+          "question": "Quale mare separa la penisola arabica dal continente africano?",
+          "answer": "Mar Rosso"
+        },
+        {
+          "question": "Qual è la capitale della Turchia?",
+          "answer": "Ankara"
+        },
+        {
+          "question": "In quale stato degli USA si trova la gola profonda del Grand Canyon?",
+          "answer": "Arizona"
+        }
       ],
-      300: [
-        { question: "Qual è il fiume più lungo del mondo?", answer: "Il Nilo (o il Rio delle Amazzoni)" },
-        { question: "Qual è la capitale del Giappone?", answer: "Tokyo" },
-        { question: "Come si chiama lo stretto che separa l'Asia dall'America del Nord?", answer: "Stretto di Bering" },
-        { question: "In quale paese si trova l'antica città inca di Machu Picchu?", answer: "Perù" },
-        { question: "Qual è la capitale della Spagna?", answer: "Madrid" }
+      "300": [
+        {
+          "question": "Qual è il fiume più lungo del mondo?",
+          "answer": "Il Nilo (o il Rio delle Amazzoni)"
+        },
+        {
+          "question": "Qual è la capitale del Giappone?",
+          "answer": "Tokyo"
+        },
+        {
+          "question": "Come si chiama lo stretto che separa l'Asia dall'America del Nord?",
+          "answer": "Stretto di Bering"
+        },
+        {
+          "question": "In quale paese si trova l'antica città inca di Machu Picchu?",
+          "answer": "Perù"
+        },
+        {
+          "question": "Qual è la capitale della Spagna?",
+          "answer": "Madrid"
+        },
+        {
+          "question": "Qual è la capitale del Brasile?",
+          "answer": "Brasilia"
+        },
+        {
+          "question": "In quale paese si trova il lago Baikal, il più profondo del mondo?",
+          "answer": "Russia"
+        },
+        {
+          "question": "Quale nazione europea è divisa in cantoni?",
+          "answer": "Svizzera"
+        },
+        {
+          "question": "Come si chiama il punto più a sud del Sud America?",
+          "answer": "Capo Horn"
+        },
+        {
+          "question": "Qual è la capitale della Turchia?",
+          "answer": "Ankara"
+        },
+        {
+          "question": "Quali due fiumi si uniscono per formare il fiume Nilo?",
+          "answer": "Nilo Bianco e Nilo Azzurro"
+        },
+        {
+          "question": "In quale continente si trova la catena montuosa delle Ande?",
+          "answer": "America del Sud"
+        },
+        {
+          "question": "Qual è il paese più piccolo del mondo per superficie?",
+          "answer": "Città del Vaticano"
+        },
+        {
+          "question": "Come si chiama il deserto che si estende lungo la costa occidentale del Sud America?",
+          "answer": "Deserto di Atacama"
+        },
+        {
+          "question": "Qual è la capitale del Marocco?",
+          "answer": "Rabat"
+        },
+        {
+          "question": "In quale mare si riversa il fiume Danubio?",
+          "answer": "Mar Nero"
+        },
+        {
+          "question": "Quale stato degli Stati Uniti è il più vicino alla Russia?",
+          "answer": "Alaska"
+        },
+        {
+          "question": "Qual è la capitale del Kenya?",
+          "answer": "Nairobi"
+        },
+        {
+          "question": "In quale paese si trova la regione storica della Transilvania?",
+          "answer": "Romania"
+        },
+        {
+          "question": "Qual è l'unico stato al mondo a non avere una bandiera rettangolare o quadrata?",
+          "answer": "Nepal"
+        },
+        {
+          "question": "Quale stretto divide l'isola della Gran Bretagna dall'Europa continentale?",
+          "answer": "Stretto della Manica"
+        },
+        {
+          "question": "Qual è la capitale della Corea del Sud?",
+          "answer": "Seul"
+        },
+        {
+          "question": "In quale arcipelago si trova l'isola di Bali?",
+          "answer": "Indonesia"
+        },
+        {
+          "question": "Quale paese africano era precedentemente noto come Abissinia?",
+          "answer": "Etiopia"
+        },
+        {
+          "question": "Come si chiama la grande isola africana nota per i suoi lemuri?",
+          "answer": "Madagascar"
+        },
+        {
+          "question": "Quale vasto deserto si estende per la maggior parte del territorio del Botswana?",
+          "answer": "Deserto del Kalahari"
+        },
+        {
+          "question": "Quale delle capitali del Sudafrica ospita la sede del parlamento?",
+          "answer": "Città del Capo"
+        },
+        {
+          "question": "Quale arcipelago dell'Ecuador è famoso per aver ispirato le teorie evolutive di Charles Darwin?",
+          "answer": "Isole Galapagos"
+        },
+        {
+          "question": "Qual è la vetta montuosa più alta di tutto il continente africano?",
+          "answer": "Kilimangiaro"
+        },
+        {
+          "question": "Quale nazione mediorientale è bagnata sia dal Mar Caspio che dal Golfo Persico?",
+          "answer": "Iran"
+        },
+        {
+          "question": "Qual è la capitale della Nuova Zelanda?",
+          "answer": "Wellington"
+        },
+        {
+          "question": "In quale nazione asiatica si trova il Lago Baikal, il bacino d'acqua dolce più profondo al mondo?",
+          "answer": "Russia"
+        },
+        {
+          "question": "Quale fiume, considerato sacro dagli induisti, attraversa la città di Varanasi?",
+          "answer": "Gange"
+        },
+        {
+          "question": "Quale stato del Sud-Est asiatico era precedentemente conosciuto con il nome di Siam?",
+          "answer": "Thailandia"
+        },
+        {
+          "question": "Qual è l'isola più meridionale tra le quattro principali dell'arcipelago giapponese?",
+          "answer": "Kyushu"
+        },
+        {
+          "question": "Qual è la moderna metropoli che funge da capitale della Corea del Sud?",
+          "answer": "Seul"
+        },
+        {
+          "question": "Quale golfo oceanico separa la lunga penisola di Baja California dal resto del territorio messicano?",
+          "answer": "Golfo di California"
+        },
+        {
+          "question": "Qual è lo stato americano di gran lunga più esteso in termini di superficie terrestre?",
+          "answer": "Alaska"
+        },
+        {
+          "question": "Oltre alla Bolivia, quale altra nazione del Sud America non ha alcuno sbocco sul mare?",
+          "answer": "Paraguay"
+        },
+        {
+          "question": "In quale nazione dell'Europa dell'Est si estende la pittoresca regione storica della Transilvania?",
+          "answer": "Romania"
+        },
+        {
+          "question": "Qual è la montagna più elevata d'Europa, che si erge imponente nella catena del Caucaso?",
+          "answer": "Monte Elbrus"
+        },
+        {
+          "question": "Quale importantissimo canale artificiale egiziano collega le acque del Mar Rosso con quelle del Mar Mediterraneo?",
+          "answer": "Canale di Suez"
+        },
+        {
+          "question": "Qual è l'isola di gran lunga più grande situata interamente all'interno del Mar Mediterraneo?",
+          "answer": "Sicilia"
+        },
+        {
+          "question": "Qual è la capitale dell'Islanda, che detiene anche il record di capitale di stato più a nord del mondo?",
+          "answer": "Reykjavik"
+        },
+        {
+          "question": "Con quale altra nazione asiatica la Cina condivide l'esteso e freddo deserto del Gobi?",
+          "answer": "Mongolia"
+        }
       ],
-      400: [
-        { question: "Qual è il lago d'acqua dolce più grande del mondo per estensione?", answer: "Lago Superiore" },
-        { question: "Qual è la nazione più piccola del mondo?", answer: "Città del Vaticano" },
-        { question: "Come si chiama la catena montuosa che separa l'Europa dall'Asia in Russia?", answer: "Monti Urali" },
-        { question: "Qual è la capitale dell'Australia?", answer: "Canberra" },
-        { question: "In quale nazione si trova il deserto di Atacama, considerato il luogo più arido del mondo?", answer: "Cile" }
+      "400": [
+        {
+          "question": "Qual è il lago d'acqua dolce più grande del mondo per estensione?",
+          "answer": "Lago Superiore"
+        },
+        {
+          "question": "Qual è la nazione più piccola del mondo?",
+          "answer": "Città del Vaticano"
+        },
+        {
+          "question": "Come si chiama la catena montuosa che separa l'Europa dall'Asia in Russia?",
+          "answer": "Monti Urali"
+        },
+        {
+          "question": "Qual è la capitale dell'Australia?",
+          "answer": "Canberra"
+        },
+        {
+          "question": "In quale nazione si trova il deserto di Atacama, considerato il luogo più arido del mondo?",
+          "answer": "Cile"
+        },
+        {
+          "question": "Qual è la capitale dell'Ecuador?",
+          "answer": "Quito"
+        },
+        {
+          "question": "Quale nazione è formata da due isole principali, l'Isola del Nord e l'Isola del Sud?",
+          "answer": "Nuova Zelanda"
+        },
+        {
+          "question": "Qual è il monte più alto del Nord America?",
+          "answer": "Monte Denali"
+        },
+        {
+          "question": "In quale paese africano si trova il monte Kilimangiaro?",
+          "answer": "Tanzania"
+        },
+        {
+          "question": "Come si chiama la capitale della Colombia?",
+          "answer": "Bogotà"
+        },
+        {
+          "question": "Qual è l'isola più grande del Mar Mediterraneo?",
+          "answer": "Sicilia"
+        },
+        {
+          "question": "In quale oceano si trova l'isola di Mauritius?",
+          "answer": "Oceano Indiano"
+        },
+        {
+          "question": "Qual è la capitale della Nuova Zelanda?",
+          "answer": "Wellington"
+        },
+        {
+          "question": "Quale fiume sudamericano detiene il record per il maggior bacino idrografico del mondo?",
+          "answer": "Rio delle Amazzoni"
+        },
+        {
+          "question": "In quale paese europeo si parla il fiammingo?",
+          "answer": "Belgio"
+        },
+        {
+          "question": "Come si chiama il golfo che separa la penisola arabica dall'Iran?",
+          "answer": "Golfo Persico"
+        },
+        {
+          "question": "Qual è la capitale del Vietnam?",
+          "answer": "Hanoi"
+        },
+        {
+          "question": "Quale paese è noto come La terra del sol levante?",
+          "answer": "Giappone"
+        },
+        {
+          "question": "In quale continente si trova il deserto del Kalahari?",
+          "answer": "Africa"
+        },
+        {
+          "question": "Qual è la capitale del Cile?",
+          "answer": "Santiago del Cile"
+        },
+        {
+          "question": "Quale mare interno si trova tra il Kazakistan e l'Uzbekistan, ed è famoso per essersi quasi del tutto prosciugato?",
+          "answer": "Lago d'Aral"
+        },
+        {
+          "question": "Come si chiama l'enorme blocco di arenaria rossa situato nel centro dell'Australia?",
+          "answer": "Uluru"
+        },
+        {
+          "question": "Qual è la capitale dell'Islanda, nonché la capitale di stato più a nord del mondo?",
+          "answer": "Reykjavik"
+        },
+        {
+          "question": "Quale nazione sudamericana ha due capitali, Sucre e La Paz?",
+          "answer": "Bolivia"
+        },
+        {
+          "question": "In quale arcipelago si trova la città di Honolulu?",
+          "answer": "Isole Hawaii"
+        },
+        {
+          "question": "Secondo le stime, quale nazione nordeuropea vanta il maggior numero di isole al mondo?",
+          "answer": "Svezia"
+        },
+        {
+          "question": "Quale immenso lago africano ha le sue sponde divise tra i territori di Tanzania, Uganda e Kenya?",
+          "answer": "Lago Vittoria"
+        },
+        {
+          "question": "Qual è la capitale del Marocco, situata lungo la costa dell'Oceano Atlantico?",
+          "answer": "Rabat"
+        },
+        {
+          "question": "Quale massiccio montuoso si innalza come formidabile confine naturale terrestre tra Francia e Spagna?",
+          "answer": "Pirenei"
+        },
+        {
+          "question": "In quale paese del Sud-Est asiatico i visitatori possono ammirare il maestoso complesso templare di Angkor Wat?",
+          "answer": "Cambogia"
+        },
+        {
+          "question": "Qual è il nome con cui è universalmente nota la depressione sottomarina più profonda del pianeta Terra?",
+          "answer": "Fossa delle Marianne"
+        },
+        {
+          "question": "Quale possente fiume africano disegna un immenso arco attraversando la Repubblica Democratica del Congo per poi gettarsi nell'Atlantico?",
+          "answer": "Fiume Congo"
+        },
+        {
+          "question": "Qual è la celeberrima metropoli turca che ha la particolarità unica di espandersi su due continenti diversi, Europa e Asia?",
+          "answer": "Istanbul"
+        },
+        {
+          "question": "Quale via d'acqua e snodo strategico separa la parte europea di Istanbul da quella asiatica collegando il Mar di Marmara al Mar Nero?",
+          "answer": "Stretto del Bosforo"
+        },
+        {
+          "question": "In quale stato tropicale dell'India sud-occidentale la lingua ufficiale parlata è il Malayalam e la capitale è Thiruvananthapuram?",
+          "answer": "Kerala"
+        },
+        {
+          "question": "Qual è la capitale dell'Ecuador, un'antica città che sorge alle pendici delle Ande ad oltre 2800 metri di altitudine?",
+          "answer": "Quito"
+        },
+        {
+          "question": "Quale isola maggiore del Mar dei Caraibi ospita sul suo suolo due stati indipendenti, ovvero Haiti e la Repubblica Dominicana?",
+          "answer": "Hispaniola"
+        },
+        {
+          "question": "Qual è la storica valuta nazionale utilizzata in Polonia, il cui nome significa 'dorato' nella lingua locale?",
+          "answer": "Zloty"
+        },
+        {
+          "question": "Quale antica e boscosa catena montuosa si allunga parallelamente alla costa orientale degli Stati Uniti e del sud-est del Canada?",
+          "answer": "Monti Appalachi"
+        },
+        {
+          "question": "In quale nazione africana, all'altezza della sua capitale, avviene la scenografica confluenza tra le acque del Nilo Bianco e quelle del Nilo Blu?",
+          "answer": "Sudan"
+        },
+        {
+          "question": "Qual è la futuristica capitale del Kazakistan, una città che negli anni ha cambiato nome più volte, da Astana a Nur-Sultan e viceversa?",
+          "answer": "Astana"
+        },
+        {
+          "question": "Quale lunghissimo fiume d'importanza storica attraversa l'intero Pakistan da nord a sud prima di creare un vasto delta e sfociare nel Mar Arabico?",
+          "answer": "Fiume Indo"
+        },
+        {
+          "question": "Qual è l'isola più popolosa dell'arcipelago indonesiano e del mondo, nonché sede della gigantesca megalopoli di Giacarta?",
+          "answer": "Giava"
+        },
+        {
+          "question": "Quale montuoso paese dell'America Centrale confina a nord e ad ovest con il Messico ed è famoso per aver ospitato grandiose città Maya come Tikal?",
+          "answer": "Guatemala"
+        },
+        {
+          "question": "Le affollate e soleggiate isole turistiche di Maiorca, Minorca, Ibiza e Formentera, conosciute come Isole Baleari, si trovano nel mezzo di quale mare?",
+          "answer": "Mar Mediterraneo"
+        }
       ],
-      500: [
-        { question: "Qual è la capitale della Nuova Zelanda?", answer: "Wellington" },
-        { question: "Quale paese sudamericano ha per capitale Paramaribo?", answer: "Suriname" },
-        { question: "Come si chiama la vasta regione semiarida situata a sud del deserto del Sahara?", answer: "Sahel" },
-        { question: "Qual è il paese africano con il maggior numero di abitanti?", answer: "Nigeria" },
-        { question: "In quale nazione si trova il punto più basso della terraferma, la depressione del Mar Morto?", answer: "Tra Israele, Giordania e Cisgiordania" }
+      "500": [
+        {
+          "question": "Qual è la capitale della Nuova Zelanda?",
+          "answer": "Wellington"
+        },
+        {
+          "question": "Quale paese sudamericano ha per capitale Paramaribo?",
+          "answer": "Suriname"
+        },
+        {
+          "question": "Come si chiama la vasta regione semiarida situata a sud del deserto del Sahara?",
+          "answer": "Sahel"
+        },
+        {
+          "question": "Qual è il paese africano con il maggior numero di abitanti?",
+          "answer": "Nigeria"
+        },
+        {
+          "question": "In quale nazione si trova il punto più basso della terraferma, la depressione del Mar Morto?",
+          "answer": "Tra Israele, Giordania e Cisgiordania"
+        },
+        {
+          "question": "Qual è la capitale del Kazakistan?",
+          "answer": "Astana"
+        },
+        {
+          "question": "Quale microstato europeo è incastonato sui Pirenei tra Francia e Spagna?",
+          "answer": "Andorra"
+        },
+        {
+          "question": "Qual è la capitale dell'Arabia Saudita?",
+          "answer": "Riad"
+        },
+        {
+          "question": "Qual è il lago navigabile più alto del mondo?",
+          "answer": "Lago Titicaca"
+        },
+        {
+          "question": "In quale paese si trova la foce del fiume Gange?",
+          "answer": "Bangladesh"
+        },
+        {
+          "question": "Qual è la capitale del Madagascar?",
+          "answer": "Antananarivo"
+        },
+        {
+          "question": "Quale mare si trova tra l'Australia e la Nuova Zelanda?",
+          "answer": "Mar di Tasman"
+        },
+        {
+          "question": "Come si chiama lo stato africano quasi completamente circondato dal Senegal?",
+          "answer": "Gambia"
+        },
+        {
+          "question": "Qual è l'unica nazione del Sud-Est asiatico a non avere sbocchi sul mare?",
+          "answer": "Laos"
+        },
+        {
+          "question": "Qual è la capitale della Mongolia?",
+          "answer": "Ulan Bator"
+        },
+        {
+          "question": "Quale depressione salata è situata al confine tra Israele e Giordania?",
+          "answer": "Mar Morto"
+        },
+        {
+          "question": "Qual è l'isola più grande dei Caraibi?",
+          "answer": "Cuba"
+        },
+        {
+          "question": "Qual è la capitale della Nigeria, designata nel 1991 per sostituire Lagos?",
+          "answer": "Abuja"
+        },
+        {
+          "question": "Quale nazione europea ha per capitale Vaduz?",
+          "answer": "Liechtenstein"
+        },
+        {
+          "question": "Come si chiama lo stretto di mare che separa la Terra del Fuoco dall'Antartide?",
+          "answer": "Canale di Drake"
+        },
+        {
+          "question": "Qual è la capitale dell'Honduras?",
+          "answer": "Tegucigalpa"
+        },
+        {
+          "question": "Quale fiume attraversa diverse nazioni dell'Africa occidentale prima di sfociare nel Golfo di Guinea?",
+          "answer": "Fiume Niger"
+        },
+        {
+          "question": "Qual è la capitale della Cambogia?",
+          "answer": "Phnom Penh"
+        },
+        {
+          "question": "Quale arcipelago situato nell'Oceano Atlantico è una regione autonoma della Spagna di origine vulcanica?",
+          "answer": "Isole Canarie"
+        },
+        {
+          "question": "In quale nazione si trova l'isola di Socotra, famosa per i suoi alberi del sangue di drago?",
+          "answer": "Yemen"
+        },
+        {
+          "question": "Qual è la piccola e pittoresca capitale del regno himalayano del Bhutan, incastonata ad alta quota tra le montagne?",
+          "answer": "Thimphu"
+        },
+        {
+          "question": "Quale burrascoso stretto marittimo, fondamentale per la navigazione storica, separa le coste aspre dell'Isola della Terra del Fuoco dalla punta meridionale del continente sudamericano?",
+          "answer": "Stretto di Magellano"
+        },
+        {
+          "question": "Quale dinamica nazione situata nell'Africa sud-orientale, un tempo colonia dell'Impero Portoghese, è oggi governata dalla sua prospera capitale Maputo?",
+          "answer": "Mozambico"
+        },
+        {
+          "question": "Qual è la vasta e gelida isola, la più estesa del Canada e la quinta a livello mondiale per grandezza, posizionata nel territorio di Nunavut?",
+          "answer": "Isola di Baffin"
+        },
+        {
+          "question": "All'interno dei confini di quale vasta nazione asiatica si nascondono le distese sabbiose dell'inospitale Deserto del Taklamakan?",
+          "answer": "Cina"
+        },
+        {
+          "question": "Le acque di quale fiume, che taglia il paesaggio arido del sud-ovest africano, definiscono la maggior parte del turbolento confine naturale che separa il Sudafrica dalla vicina Namibia?",
+          "answer": "Fiume Orange"
+        },
+        {
+          "question": "Qual è la vibrante e montuosa capitale della repubblica centro-asiatica del Tagikistan, il cui nome significa 'Lunedì' nella lingua persiana?",
+          "answer": "Dusanbe"
+        },
+        {
+          "question": "Quale bacino idrico, un tempo uno dei mari interni più grandi dell'Asia Centrale, ha subìto un catastrofico restringimento a causa di intensivi progetti sovietici di deviazione fluviale?",
+          "answer": "Lago d'Aral"
+        },
+        {
+          "question": "Quale storico e ventoso stretto marino, battezzato col nome di un leggendario esploratore britannico, taglia a metà la Nuova Zelanda separando le sue due imponenti isole principali?",
+          "answer": "Stretto di Cook"
+        },
+        {
+          "question": "Qual è l'identificativo ufficiale del monte più alto di tutto il remoto continente dell'Antartide, la cui sommità ghiacciata sfiora i 4.892 metri d'altezza?",
+          "answer": "Massiccio Vinson"
+        },
+        {
+          "question": "Nella giungla lussureggiante di quale nazione del Sud America si nasconde il Salto Angel, la cascata con il dislivello ininterrotto più alto di tutto il pianeta Terra?",
+          "answer": "Venezuela"
+        },
+        {
+          "question": "In quale gigantesca nazione insulare esotica, persa nelle acque dell'Oceano Indiano, la popolazione residente comunica abitualmente utilizzando la complessa lingua malgascia come idioma nazionale?",
+          "answer": "Madagascar"
+        },
+        {
+          "question": "Qual è la vibrante capitale della Guyana, un tempo Guyana britannica, caratterizzata da canali urbani retaggio della passata dominazione olandese?",
+          "answer": "Georgetown"
+        },
+        {
+          "question": "Qual è l'esatto nome dello specchio d'acqua e stretto insidioso che costituisce la sottile separazione geografica tra l'isola di Sri Lanka e la punta sud-orientale del subcontinente indiano?",
+          "answer": "Stretto di Palk"
+        },
+        {
+          "question": "Condividendo questa particolarità solo con la città di Melilla, quale popolosa provincia autonoma spagnola è geograficamente ed interamente costituita come un'enclave fortificata all'interno del territorio sovrano del Marocco?",
+          "answer": "Ceuta"
+        },
+        {
+          "question": "Quale affascinante repubblica caucasica, nota storicamente e internazionalmente come la 'terra del fuoco', è amministrata dalla ventosa e ricca capitale Baku e basa la sua economia sull'estrazione petrolifera?",
+          "answer": "Azerbaigian"
+        },
+        {
+          "question": "Assieme all'adiacente Stato di Israele e alla Cisgiordania, in quale nazione mediorientale si estendono le sponde ipersaline del Mar Morto, identificato a livello mondiale come il punto di maggiore depressione della terraferma terrestre?",
+          "answer": "Giordania"
+        },
+        {
+          "question": "Quale selvaggia e inospitale penisola vulcanica dell'Estremo Oriente russo, Patrimonio dell'Umanità, si protende minacciosamente a dividere le gelide acque del Mare di Bering e quelle del Mare di Okhotsk?",
+          "answer": "Penisola di Kamchatka"
+        },
+        {
+          "question": "Qual è la fiera ed emblematica nazione situata nel tormentato Corno d'Africa a potersi storicamente e orgogliosamente fregiare del primato di essere l'unico vero impero locale del continente a non essere mai caduto preda del colonialismo europeo nel periodo della spartizione d'Africa?",
+          "answer": "Etiopia"
+        },
+        {
+          "question": "Quale prospero, idilliaco e minuscolo principato alpino mitteleuropeo, guidato ancora oggi attivamente dal suo Principe, siede silenziosamente incastonato in una lussureggiante valle posizionata esattamente lungo il confine montuoso tra l'Austria e la Svizzera?",
+          "answer": "Liechtenstein"
+        }
       ]
     }
   },
   {
-    name: "Cucina e Tradizioni",
-    questions: {
-      100: [
-        { question: "Di quale nazione è tipica la pizza?", answer: "Italia" },
-        { question: "Quale bevanda si ottiene dall'infusione di foglie e germogli della pianta Camellia sinensis?", answer: "Il tè" },
-        { question: "Come si chiama il dolce freddo italiano a base di savoiardi, caffè e mascarpone?", answer: "Tiramisù" },
-        { question: "Quale festa americana si festeggia il quarto giovedì di novembre mangiando il tacchino?", answer: "Il Giorno del Ringraziamento (Thanksgiving)" },
-        { question: "Di che colore è tipicamente il vino fatto con l'uva Chardonnay?", answer: "Bianco" }
+    "name": "Cucina e Tradizioni",
+    "questions": {
+      "100": [
+        {
+          "question": "Di quale nazione è tipica la pizza?",
+          "answer": "Italia"
+        },
+        {
+          "question": "Quale bevanda si ottiene dall'infusione di foglie e germogli della pianta Camellia sinensis?",
+          "answer": "Il tè"
+        },
+        {
+          "question": "Come si chiama il dolce freddo italiano a base di savoiardi, caffè e mascarpone?",
+          "answer": "Tiramisù"
+        },
+        {
+          "question": "Quale festa americana si festeggia il quarto giovedì di novembre mangiando il tacchino?",
+          "answer": "Il Giorno del Ringraziamento (Thanksgiving)"
+        },
+        {
+          "question": "Di che colore è tipicamente il vino fatto con l'uva Chardonnay?",
+          "answer": "Bianco"
+        },
+        {
+          "question": "È la forma di pasta lunga più famosa, spesso condita al pomodoro o ragù.",
+          "answer": "Spaghetti"
+        },
+        {
+          "question": "Il famoso dolce veneto a base di savoiardi, mascarpone e caffè.",
+          "answer": "Tiramisù"
+        },
+        {
+          "question": "La pizza Margherita prende il nome dall'omonima...",
+          "answer": "Regina"
+        },
+        {
+          "question": "L'ingrediente principale del pesto alla genovese.",
+          "answer": "Basilico"
+        },
+        {
+          "question": "La classica piadina è originaria di questa regione.",
+          "answer": "Emilia-Romagna"
+        },
+        {
+          "question": "Questo formaggio grattugiato DOP è tipico di Parma e Reggio Emilia.",
+          "answer": "Parmigiano Reggiano"
+        },
+        {
+          "question": "Per fare la vera carbonara romana si usa questo salume, non la pancetta.",
+          "answer": "Guanciale"
+        },
+        {
+          "question": "Il tipo di riso più usato in Italia per fare i risotti, insieme al Carnaroli.",
+          "answer": "Arborio"
+        },
+        {
+          "question": "Questo ortaggio è il protagonista della 'parmigiana'.",
+          "answer": "Melanzana"
+        },
+        {
+          "question": "Il tipico pane sardo sottile e croccante è il Pane...",
+          "answer": "Carasau"
+        },
+        {
+          "question": "La bevanda alcolica veneta da aperitivo di colore arancione acceso.",
+          "answer": "Spritz"
+        },
+        {
+          "question": "La bistecca alla fiorentina è rigorosamente di carne...",
+          "answer": "Bovina (o Chianina)"
+        },
+        {
+          "question": "Il ragù tradizionale di Bologna si mangia tipicamente con questo tipo di pasta fresca.",
+          "answer": "Tagliatelle"
+        },
+        {
+          "question": "L'aceto balsamico tradizionale è originario di questa città.",
+          "answer": "Modena"
+        },
+        {
+          "question": "Nel pesto alla genovese si usano i pinoli o, più raramente, queste altre noci.",
+          "answer": "Noci"
+        },
+        {
+          "question": "La classica focaccia ligure per eccellenza è la Focaccia...",
+          "answer": "Genovese"
+        },
+        {
+          "question": "I tortellini in brodo sono un piatto tipico di quale festività?",
+          "answer": "Natale"
+        },
+        {
+          "question": "Il panettone è il dolce natalizio tipico di questa città.",
+          "answer": "Milano"
+        },
+        {
+          "question": "Il pandoro è il dolce natalizio tipico di questa città.",
+          "answer": "Verona"
+        },
+        {
+          "question": "Il formaggio filante protagonista indiscusso della pizza.",
+          "answer": "Mozzarella"
+        },
+        {
+          "question": "In quale regione italiana è nata la pizza Margherita?",
+          "answer": "Campania"
+        },
+        {
+          "question": "Quale formato di pasta è tipicamente associato al pesto genovese?",
+          "answer": "Trofie"
+        },
+        {
+          "question": "Come si chiama il dolce a base di savoiardi, caffè e mascarpone?",
+          "answer": "Tiramisù"
+        },
+        {
+          "question": "Quale carne viene usata per preparare il ragù alla bolognese tradizionale?",
+          "answer": "Manzo e maiale (o carne trita)"
+        },
+        {
+          "question": "Quale formaggio si grattugia tradizionalmente sui classici maccheroni al pomodoro?",
+          "answer": "Parmigiano Reggiano (o Grana Padano)"
+        },
+        {
+          "question": "Che tipo di farina si usa principalmente per fare la polenta?",
+          "answer": "Farina di mais"
+        },
+        {
+          "question": "Da quale animale proviene il latte per la vera mozzarella campana?",
+          "answer": "Bufala"
+        },
+        {
+          "question": "Qual è l'ingrediente principale del pesto alla genovese, oltre all'olio, ai pinoli e all'aglio?",
+          "answer": "Basilico"
+        },
+        {
+          "question": "Quale regione italiana è famosa per i tortellini in brodo?",
+          "answer": "Emilia-Romagna"
+        },
+        {
+          "question": "Quale salume è il protagonista indiscusso della pasta all'Amatriciana?",
+          "answer": "Guanciale"
+        },
+        {
+          "question": "Quale bevanda calda si ottiene infondendo foglie di Camellia sinensis?",
+          "answer": "Tè"
+        },
+        {
+          "question": "In quale paese europeo è nato il formaggio Camembert?",
+          "answer": "Francia"
+        },
+        {
+          "question": "Come si chiama il classico antipasto italiano con fette di pane tostato, aglio, olio e pomodoro?",
+          "answer": "Bruschetta"
+        },
+        {
+          "question": "Quale agrume è l'ingrediente principale del Limoncello?",
+          "answer": "Limone"
+        },
+        {
+          "question": "Con quale nome è conosciuto il fungo Porcino in botanica?",
+          "answer": "Boletus edulis"
+        },
+        {
+          "question": "Che cosa è il 'guanciale' utilizzato in cucina?",
+          "answer": "Salume di guancia di maiale"
+        },
+        {
+          "question": "Qual è il cereale più consumato al mondo, base della dieta asiatica?",
+          "answer": "Riso"
+        },
+        {
+          "question": "Quale piatto spagnolo a base di riso, carne, pesce e zafferano prende il nome dalla padella in cui viene cotto?",
+          "answer": "Paella"
+        },
+        {
+          "question": "Che cosa si usa tradizionalmente per addensare la crema pasticcera, oltre ai tuorli e allo zucchero?",
+          "answer": "Amido (o farina)"
+        },
+        {
+          "question": "Quale città italiana è famosa per l'omonima 'Bistecca' tagliata spessa e con l'osso a T?",
+          "answer": "Firenze"
+        }
       ],
-      200: [
-        { question: "Da quale paese proviene il Sushi?", answer: "Giappone" },
-        { question: "Come si chiama il famoso piatto messicano formato da una tortilla di mais piegata e ripiena?", answer: "Taco" },
-        { question: "Quale dolce tipico napoletano a forma di fungo è inzuppato nel rum?", answer: "Babà" },
-        { question: "Che cosa si festeggia in Irlanda e nel mondo il 17 marzo con parate e birra verde?", answer: "San Patrizio (St. Patrick's Day)" },
-        { question: "Qual è l'ingrediente base del Guacamole?", answer: "L'avocado" }
+      "200": [
+        {
+          "question": "Da quale paese proviene il Sushi?",
+          "answer": "Giappone"
+        },
+        {
+          "question": "Come si chiama il famoso piatto messicano formato da una tortilla di mais piegata e ripiena?",
+          "answer": "Taco"
+        },
+        {
+          "question": "Quale dolce tipico napoletano a forma di fungo è inzuppato nel rum?",
+          "answer": "Babà"
+        },
+        {
+          "question": "Che cosa si festeggia in Irlanda e nel mondo il 17 marzo con parate e birra verde?",
+          "answer": "San Patrizio (St. Patrick's Day)"
+        },
+        {
+          "question": "Qual è l'ingrediente base del Guacamole?",
+          "answer": "L'avocado"
+        },
+        {
+          "question": "Nel ripieno tradizionale dei tortellini bolognesi non possono mancare prosciutto crudo e...",
+          "answer": "Mortadella"
+        },
+        {
+          "question": "Questo dolce siciliano è un tubo di croccante pasta fritta ripieno di ricotta.",
+          "answer": "Cannolo"
+        },
+        {
+          "question": "La 'cotoletta' alla milanese si prepara impanando carne di...",
+          "answer": "Vitello"
+        },
+        {
+          "question": "La farina utilizzata per fare la polenta gialla classica è di questo cereale.",
+          "answer": "Mais"
+        },
+        {
+          "question": "Il famoso 'oro rosso' usato nei risotti milanesi.",
+          "answer": "Zafferano"
+        },
+        {
+          "question": "Questo agrume è il protagonista assoluto del liquore di Sorrento.",
+          "answer": "Limone"
+        },
+        {
+          "question": "La famosa 'nduja', insaccato spalmabile piccante, è originaria di questa regione.",
+          "answer": "Calabria"
+        },
+        {
+          "question": "I famosi cioccolatini alle nocciole del Piemonte si chiamano...",
+          "answer": "Gianduiotti"
+        },
+        {
+          "question": "Questo tipo di pane senza sale è tipico di una regione centrale e viene chiamato pane 'sciocco'.",
+          "answer": "Toscana"
+        },
+        {
+          "question": "L'arancino o arancina è una celebre specialità di street food di questa regione.",
+          "answer": "Sicilia"
+        },
+        {
+          "question": "Questo formaggio DOP con venature blu, originario della Lombardia, può essere dolce o piccante.",
+          "answer": "Gorgonzola"
+        },
+        {
+          "question": "Il 'caciocavallo' è un tipico formaggio a pasta...",
+          "answer": "Filata"
+        },
+        {
+          "question": "La 'ribollita' è una famosa zuppa tradizionale di quale regione?",
+          "answer": "Toscana"
+        },
+        {
+          "question": "L'ingrediente principale della farinata ligure, oltre ad acqua e olio d'oliva.",
+          "answer": "Farina di ceci"
+        },
+        {
+          "question": "Il tipico sugo romano all'arrabbiata contiene pomodoro, aglio e...",
+          "answer": "Peperoncino"
+        },
+        {
+          "question": "Un tipico formato di pasta pugliese, a forma di piccola conchiglia.",
+          "answer": "Orecchiette"
+        },
+        {
+          "question": "Questo salume emiliano è caratterizzato da grandi cubetti di grasso bianco, detti lardelli.",
+          "answer": "Mortadella"
+        },
+        {
+          "question": "Il 'Pesto alla Trapanese' siciliano si distingue da quello genovese per l'uso di questo ingrediente rosso.",
+          "answer": "Pomodoro"
+        },
+        {
+          "question": "Questo fungo sotterraneo, molto pregiato, ha la sua capitale italiana ad Alba.",
+          "answer": "Tartufo bianco"
+        },
+        {
+          "question": "Il 'Lampredotto' è un tipico cibo da strada a base di trippa di questa città.",
+          "answer": "Firenze"
+        },
+        {
+          "question": "Qual è l'ingrediente che dà il caratteristico colore giallo al risotto alla milanese?",
+          "answer": "Zafferano"
+        },
+        {
+          "question": "Quale dolce natalizio tipico di Verona ha una inconfondibile forma di stella a otto punte?",
+          "answer": "Pandoro"
+        },
+        {
+          "question": "Quale tipo di burro è chiarificato e ampiamente usato nella cucina indiana?",
+          "answer": "Ghee"
+        },
+        {
+          "question": "Come si chiama la celebre salsa greca a base di yogurt, cetrioli, aglio e aneto?",
+          "answer": "Tzatziki"
+        },
+        {
+          "question": "Qual è la regione d'origine della 'Nduja, l'insaccato piccante e spalmabile?",
+          "answer": "Calabria"
+        },
+        {
+          "question": "Quale famoso formaggio erborinato prende il nome da una cittadina in provincia di Milano?",
+          "answer": "Gorgonzola"
+        },
+        {
+          "question": "In quale festa americana è tradizione consumare il tacchino ripieno con salsa di mirtilli?",
+          "answer": "Giorno del Ringraziamento (Thanksgiving)"
+        },
+        {
+          "question": "Qual è il nome della zuppa di pesce tipica di Marsiglia e della costa mediterranea francese?",
+          "answer": "Bouillabaisse"
+        },
+        {
+          "question": "Quale tubero è la base tradizionale per la preparazione della vodka in Polonia e Russia?",
+          "answer": "Patata"
+        },
+        {
+          "question": "Come si chiama l'alga essiccata in fogli sottili usata per avvolgere il sushi?",
+          "answer": "Nori"
+        },
+        {
+          "question": "Quale dolce siciliano è formato da una scorza fritta tubolare ripiena di crema di ricotta zuccherata?",
+          "answer": "Cannolo siciliano"
+        },
+        {
+          "question": "Di quale regione italiana sono tipici gli 'Arrosticini' cotti sulla fornacella?",
+          "answer": "Abruzzo"
+        },
+        {
+          "question": "Qual è l'erba aromatica che caratterizza il sapore della salsa Béarnaise francese?",
+          "answer": "Dragoncello"
+        },
+        {
+          "question": "Come si chiama il tradizionale pasticcio di melanzane fritte, pomodoro e formaggio diffuso nel Sud Italia?",
+          "answer": "Parmigiana di melanzane"
+        },
+        {
+          "question": "Quale vino liquoroso siciliano prende il nome da una città in provincia di Trapani?",
+          "answer": "Marsala"
+        },
+        {
+          "question": "Quale formaggio fresco greco viene tradizionalmente aggiunto a cubetti nell'insalata greca (Choriatiki)?",
+          "answer": "Feta"
+        },
+        {
+          "question": "In quale nazione è nato il piatto noto come 'Gulasch', a base di carne e paprika?",
+          "answer": "Ungheria"
+        },
+        {
+          "question": "Quale termine giapponese indica la salsa di soia, condimento essenziale in Oriente?",
+          "answer": "Shoyu"
+        },
+        {
+          "question": "Come si chiama il pane non lievitato tipico della cucina ebraica, consumato specialmente a Pesach?",
+          "answer": "Azzimo (o Matzah)"
+        },
+        {
+          "question": "Da quale pianta si ricava la farina usata per fare il dolce autunnale chiamato Castagnaccio?",
+          "answer": "Castagno"
+        }
       ],
-      300: [
-        { question: "Quale formaggio italiano è essenziale nella ricetta tradizionale del Pesto alla Genovese (insieme al Parmigiano)?", answer: "Fiore Sardo (o Pecorino)" },
-        { question: "Come si chiama la zuppa di pesce tradizionale originaria di Marsiglia, in Francia?", answer: "Bouillabaisse" },
-        { question: "Quale festività messicana celebra i defunti con altari e teschi di zucchero?", answer: "Día de los Muertos (Giorno dei Morti)" },
-        { question: "In quale nazione asiatica è nato il piatto speziato conosciuto come Curry?", answer: "India" },
-        { question: "Quale dolce tedesco è preparato con strati di pan di spagna al cioccolato, panna montata, ciliegie e Kirsch?", answer: "Torta della Foresta Nera" }
+      "300": [
+        {
+          "question": "Quale formaggio italiano è essenziale nella ricetta tradizionale del Pesto alla Genovese (insieme al Parmigiano)?",
+          "answer": "Fiore Sardo (o Pecorino)"
+        },
+        {
+          "question": "Come si chiama la zuppa di pesce tradizionale originaria di Marsiglia, in Francia?",
+          "answer": "Bouillabaisse"
+        },
+        {
+          "question": "Quale festività messicana celebra i defunti con altari e teschi di zucchero?",
+          "answer": "Día de los Muertos (Giorno dei Morti)"
+        },
+        {
+          "question": "In quale nazione asiatica è nato il piatto speziato conosciuto come Curry?",
+          "answer": "India"
+        },
+        {
+          "question": "Quale dolce tedesco è preparato con strati di pan di spagna al cioccolato, panna montata, ciliegie e Kirsch?",
+          "answer": "Torta della Foresta Nera"
+        },
+        {
+          "question": "Il sugo romano 'Amatriciana' prende il nome da questa cittadina laziale.",
+          "answer": "Amatrice"
+        },
+        {
+          "question": "La 'Bagna Cauda' è un intingolo caldo tipico piemontese, a base di aglio, olio e...",
+          "answer": "Acciughe"
+        },
+        {
+          "question": "Questo dolce tipico napoletano a forma di fungo è imbevuto nel rum.",
+          "answer": "Babà"
+        },
+        {
+          "question": "I 'Cantucci' toscani vengono tradizionalmente inzuppati in questo vino dolce.",
+          "answer": "Vin Santo"
+        },
+        {
+          "question": "La 'Bottarga' sarda è ottenuta dall'essiccazione delle uova di questo pesce.",
+          "answer": "Muggine (o Cefalo)"
+        },
+        {
+          "question": "Questo formaggio fresco a pasta filata ha un cuore cremoso di panna e sfilacci di mozzarella.",
+          "answer": "Burrata"
+        },
+        {
+          "question": "La 'Cassoeula' è un piatto invernale lombardo a base di verza e parti meno nobili di questo animale.",
+          "answer": "Maiale"
+        },
+        {
+          "question": "Il 'Radicchio Rosso', ortaggio IGP amaro, ha la sua varietà più pregiata coltivata in questa città veneta.",
+          "answer": "Treviso"
+        },
+        {
+          "question": "Il 'Pistacchio verde' DOP più famoso d'Italia viene da questa cittadina siciliana alle pendici dell'Etna.",
+          "answer": "Bronte"
+        },
+        {
+          "question": "La 'Fregola' è un tipo di pasta di semola tostata a forma di palline, tipica di questa regione.",
+          "answer": "Sardegna"
+        },
+        {
+          "question": "Il famoso vino passito prodotto sull'isola di Pantelleria è fatto con uva...",
+          "answer": "Zibibbo"
+        },
+        {
+          "question": "La 'Pastiera', tipico dolce campano a base di ricotta e grano, si prepara in occasione di quale festa?",
+          "answer": "Pasqua"
+        },
+        {
+          "question": "Questo salume tipico di Zibello è considerato il re dei salumi per la sua stagionatura lungo il fiume Po.",
+          "answer": "Culatello"
+        },
+        {
+          "question": "Gli 'Arrosticini' tradizionali abruzzesi sono spiedini di carne di...",
+          "answer": "Pecora (o Castrato)"
+        },
+        {
+          "question": "I famosi formati di pasta campani chiamati 'Paccheri' prendono il nome da un termine dialettale che significa...",
+          "answer": "Schiaffi"
+        },
+        {
+          "question": "La 'Focaccia barese' è tradizionalmente condita con pomodorini e...",
+          "answer": "Olive (o Olive nere)"
+        },
+        {
+          "question": "I 'Testaroli' sono una particolare pasta cotta nei testi di ghisa o terracotta, tipica di questa regione.",
+          "answer": "Liguria"
+        },
+        {
+          "question": "Il rinomato 'Lardo' IGP, stagionato in conche di marmo, viene prodotto a Colonnata, in questa regione.",
+          "answer": "Toscana"
+        },
+        {
+          "question": "I pizzoccheri, pasta tipica della Valtellina, sono fatti per buona parte con farina di...",
+          "answer": "Grano saraceno"
+        },
+        {
+          "question": "La 'Crescia', un pane piatto simile alla piadina ma arricchito con strutto e uova, è tipica di questa regione.",
+          "answer": "Marche"
+        },
+        {
+          "question": "Che cosa è esattamente il 'Katsuobushi' usato per preparare il brodo dashi in Giappone?",
+          "answer": "Tonnetto striato essiccato, fermentato e affumicato"
+        },
+        {
+          "question": "Quale regione italiana vanta la paternità del formaggio Asiago, prodotto sull'omonimo altopiano?",
+          "answer": "Veneto"
+        },
+        {
+          "question": "Come si chiama la tecnica in cui il cibo viene inserito sottovuoto e cotto in acqua a temperatura controllata?",
+          "answer": "Sous-vide"
+        },
+        {
+          "question": "Da quale paese proviene originariamente il cocktail 'Mojito' a base di rum, menta e lime?",
+          "answer": "Cuba"
+        },
+        {
+          "question": "Quale tipologia di pasta ripiena piemontese è tradizionalmente condita con sugo d'arrosto o burro e salvia?",
+          "answer": "Agnolotti"
+        },
+        {
+          "question": "Che cosa si intende per 'mirepoix' nella cucina francese?",
+          "answer": "Un trito di sedano, carota e cipolla"
+        },
+        {
+          "question": "Qual è il nome della bevanda alcolica messicana distillata dal succo di agave blu?",
+          "answer": "Tequila"
+        },
+        {
+          "question": "Quale piatto tipico del Medio Oriente è composto da polpette fritte di ceci o fave speziate?",
+          "answer": "Falafel"
+        },
+        {
+          "question": "Come si chiama il pregiato aceto invecchiato in botticelle di legno tipico di Modena e Reggio Emilia?",
+          "answer": "Aceto Balsamico Tradizionale"
+        },
+        {
+          "question": "Qual è la varietà di mela più indicata e tradizionalmente usata per preparare lo strudel in Trentino?",
+          "answer": "Renetta"
+        },
+        {
+          "question": "Quale spezia si ricava dalla macinazione dei frutti del genere Capsicum, molto usata in Ungheria?",
+          "answer": "Paprika"
+        },
+        {
+          "question": "In quale regione italiana si produce il famoso prosciutto crudo di San Daniele?",
+          "answer": "Friuli-Venezia Giulia"
+        },
+        {
+          "question": "Come si chiama il fungo sotterraneo, molto pregiato, di cui Alba e Acqualagna sono note per le varianti bianche?",
+          "answer": "Tartufo"
+        },
+        {
+          "question": "Quale piatto da asporto della cucina britannica è costituito da pesce fritto in pastella e patatine?",
+          "answer": "Fish and chips"
+        },
+        {
+          "question": "Quale formaggio fuso svizzero viene solitamente servito raschiato su patate e sottaceti?",
+          "answer": "Raclette"
+        },
+        {
+          "question": "In Giappone, come è chiamato il rafano verde e piccante servito comunemente con il sushi?",
+          "answer": "Wasabi"
+        },
+        {
+          "question": "Quale mix di erbe spontanee viene utilizzato per il ripieno dei 'pansoti' liguri assieme alla prescinseua?",
+          "answer": "Preboggion (o Borragine)"
+        },
+        {
+          "question": "Che tipo di carne è la base della celebre specialità romana della 'Coda alla vaccinara'?",
+          "answer": "Coda di bue (o bovino)"
+        },
+        {
+          "question": "Come si chiama il cavolo fermentato tipico della cucina tedesca, alsaziana e trentina?",
+          "answer": "Crauti (o Sauerkraut)"
+        },
+        {
+          "question": "Qual è l'ingrediente base del marzapane assieme allo zucchero e spesso all'albume?",
+          "answer": "Mandorle"
+        }
       ],
-      400: [
-        { question: "Come si chiama il piatto tipico greco simile alle lasagne, fatto con melanzane, patate e carne macinata?", answer: "Moussaka" },
-        { question: "Qual è il nome del festival dei colori che si tiene in primavera in India?", answer: "Holi" },
-        { question: "Da quale radice piccante si ottiene la pasta verde servita con il sushi?", answer: "Wasabi" },
-        { question: "In quale paese europeo è nata la tradizione dei mercatini di Natale (Christkindlmarkt)?", answer: "Germania (o Paesi di lingua tedesca)" },
-        { question: "Qual è il fungo sotterraneo, molto pregiato, cercato con l'aiuto di cani in Piemonte e in Umbria?", answer: "Il tartufo" }
+      "400": [
+        {
+          "question": "Come si chiama il piatto tipico greco simile alle lasagne, fatto con melanzane, patate e carne macinata?",
+          "answer": "Moussaka"
+        },
+        {
+          "question": "Qual è il nome del festival dei colori che si tiene in primavera in India?",
+          "answer": "Holi"
+        },
+        {
+          "question": "Da quale radice piccante si ottiene la pasta verde servita con il sushi?",
+          "answer": "Wasabi"
+        },
+        {
+          "question": "In quale paese europeo è nata la tradizione dei mercatini di Natale (Christkindlmarkt)?",
+          "answer": "Germania (o Paesi di lingua tedesca)"
+        },
+        {
+          "question": "Qual è il fungo sotterraneo, molto pregiato, cercato con l'aiuto di cani in Piemonte e in Umbria?",
+          "answer": "Il tartufo"
+        },
+        {
+          "question": "Il 'Casu Marzu' è un controverso formaggio sardo noto per contenere... al suo interno.",
+          "answer": "Larve di mosca (o Vermi)"
+        },
+        {
+          "question": "La 'Torta Barozzi', famoso dolce nero di Vignola, ha una ricetta segreta che include fondi di questo infuso.",
+          "answer": "Caffè"
+        },
+        {
+          "question": "Lo 'Stracchino' prende il nome dal fatto che originariamente era prodotto con latte di mucche 'stracche', ovvero...",
+          "answer": "Stanche"
+        },
+        {
+          "question": "L'ingrediente che lega il miele e le mandorle nel tipico 'Torrone' morbido o duro classico.",
+          "answer": "Albume d'uovo"
+        },
+        {
+          "question": "Il celebre 'Capocollo di Martina Franca', affumicato con corteccia di fragno, è un presidio di questa regione.",
+          "answer": "Puglia"
+        },
+        {
+          "question": "Questo pane croccante a forma di 'X' ritorta o cornetto sdoppiato è tipico della provincia di Ferrara.",
+          "answer": "Coppia ferrarese"
+        },
+        {
+          "question": "I 'Malloreddus', piccoli gnocchetti rigati spesso conditi con sugo di salsiccia e zafferano, sono un simbolo di quale regione?",
+          "answer": "Sardegna"
+        },
+        {
+          "question": "Il 'Baccalà alla vicentina' usa in realtà il merluzzo essiccato all'aria, noto come...",
+          "answer": "Stoccafisso"
+        },
+        {
+          "question": "La 'Panissa' piemontese è un risotto molto ricco arricchito con fagioli e questo salame conservato nel grasso.",
+          "answer": "Salame della Duja"
+        },
+        {
+          "question": "Il formaggio 'Castelmagno' DOP, erborinato d'alpeggio molto saporito, è una gloria di questa regione.",
+          "answer": "Piemonte"
+        },
+        {
+          "question": "La sfogliatella napoletana esiste in due varianti principali: la 'riccia' e la...",
+          "answer": "Frolla"
+        },
+        {
+          "question": "I 'Vincisgrassi' sono una ricca e rustica variante delle lasagne al forno tipica di questa regione.",
+          "answer": "Marche"
+        },
+        {
+          "question": "Questo antico piatto tipico veneziano è a base di fegato di vitello e...",
+          "answer": "Cipolle"
+        },
+        {
+          "question": "La 'Giardiniera' piemontese classica era usata in origine per accompagnare questo grande piatto di carni miste.",
+          "answer": "Bollito misto"
+        },
+        {
+          "question": "Nel 'Cacciucco', famosa zuppa di pesce livornese, la tradizione vuole che ci siano tante varietà di pesce quante sono le... nel nome.",
+          "answer": "C"
+        },
+        {
+          "question": "La 'Zucchina trombetta', ortaggio tipico allungato e dal sapore dolce, è originaria di questa regione.",
+          "answer": "Liguria"
+        },
+        {
+          "question": "I 'Canederli' (o Knödel) trentini e altoatesini sono grandi gnocchi fatti principalmente di...",
+          "answer": "Pane raffermo"
+        },
+        {
+          "question": "La 'Mostarda di frutta', spesso di Cremona o Mantova, deve il suo pungente sapore piccante alla presenza di...",
+          "answer": "Senape (o Essenza di senape)"
+        },
+        {
+          "question": "Il 'Ragusano' DOP è un formaggio storico siciliano che ha la particolarità di avere questa forma geometrica.",
+          "answer": "Parallelepipedo (o Rettangolare)"
+        },
+        {
+          "question": "Lo 'Zampone', insaccato modenese consumato a Capodanno, è racchiuso nell'involucro formato dalla zampa anteriore di questo animale.",
+          "answer": "Maiale"
+        },
+        {
+          "question": "Come si chiama la miscela di spezie originaria del Maghreb il cui nome significa 'il capo della drogheria'?",
+          "answer": "Ras el hanout"
+        },
+        {
+          "question": "In enologia, come viene chiamato il processo con cui si aggiunge il 'liqueur d'expédition' allo spumante?",
+          "answer": "Dosaggio (o Dosage)"
+        },
+        {
+          "question": "Quale tipo di fagiolo è l'ingrediente fondamentale per la preparazione della 'Ribollita' toscana?",
+          "answer": "Fagiolo cannellino (o zolfino)"
+        },
+        {
+          "question": "Come si chiama il tradizionale formaggio di pecora sardo infestato dai vermi della mosca casearia?",
+          "answer": "Casu marzu"
+        },
+        {
+          "question": "Nel contesto della pasticceria, che cos'è esattamente la 'ganache'?",
+          "answer": "Una crema di cioccolato e panna"
+        },
+        {
+          "question": "Da quale grande e longevo pesce viene ricavato il pregiatissimo caviale Beluga?",
+          "answer": "Storione"
+        },
+        {
+          "question": "Come si chiama il piatto peruviano a base di pesce crudo marinato nel succo di lime o limone con cipolla e peperoncino?",
+          "answer": "Ceviche"
+        },
+        {
+          "question": "Qual è il nome dell'impasto base francese, usato per bignè ed éclair, composto da farina, burro, acqua e uova?",
+          "answer": "Pasta choux"
+        },
+        {
+          "question": "Quale regione francese è famosa per i grandi vini rossi a base di Pinot Nero e bianchi a base di Chardonnay?",
+          "answer": "Borgogna"
+        },
+        {
+          "question": "In Corea, come si chiama il contorno tradizionale a base di verdure fermentate e speziate, principalmente cavolo napa?",
+          "answer": "Kimchi"
+        },
+        {
+          "question": "Qual è il termine corretto per indicare la reazione chimica che conferisce il colore bruno e il sapore caratteristico alla carne arrostita?",
+          "answer": "Reazione di Maillard"
+        },
+        {
+          "question": "In Inghilterra, quale tè viene tradizionalmente servito durante l'Afternoon Tea, riconoscibile per l'aroma di bergamotto?",
+          "answer": "Earl Grey"
+        },
+        {
+          "question": "Come si chiama il condimento tipico della cucina mediorientale a base di melanzane arrostite, tahina, limone e aglio?",
+          "answer": "Baba ghanoush"
+        },
+        {
+          "question": "Quale varietà di maiale allevato allo stato brado dà il nome al pregiato prosciutto spagnolo 'Pata Negra'?",
+          "answer": "Maiale iberico"
+        },
+        {
+          "question": "Qual è il nome della bevanda sudamericana ricca di caffeina preparata per infusione delle foglie di Ilex paraguariensis?",
+          "answer": "Mate (o Yerba Mate)"
+        },
+        {
+          "question": "In quale paese asiatico è nato il 'Pho', la celebre zuppa di noodles di riso e carne accompagnata da erbe fresche?",
+          "answer": "Vietnam"
+        },
+        {
+          "question": "Quale fungo commestibile, noto anche come 'orecchione' o 'gelone', cresce spesso sui tronchi di latifoglie ed è molto coltivato?",
+          "answer": "Pleurotus (o Pleurotus ostreatus)"
+        },
+        {
+          "question": "Come si chiama il tipico pane sardo, sottile e croccante, conosciuto nel resto d'Italia anche come 'carta da musica'?",
+          "answer": "Pane carasau"
+        },
+        {
+          "question": "Quale processo biochimico operato dai lieviti permette la conversione degli zuccheri del mosto in etanolo e anidride carbonica?",
+          "answer": "Fermentazione alcolica"
+        },
+        {
+          "question": "Di quale pianta asiatica la curcuma, spezia dal colore giallo intenso, è in realtà la radice sotterranea?",
+          "answer": "Curcuma longa (o Rizoma)"
+        }
       ],
-      500: [
-        { question: "Quale piatto coreano è formato da verdure fermentate, principalmente cavolo napa e ravanello coreano, molto piccanti?", answer: "Kimchi" },
-        { question: "Qual è il nome dell'antichissima bevanda fermentata a base di miele e acqua, conosciuta anche dai Vichinghi?", answer: "Idromele" },
-        { question: "Durante quale festa ebraica è proibito mangiare cibi lievitati, consumando invece la matzah?", answer: "Pesach (Pasqua ebraica)" },
-        { question: "Come si chiama la tecnica di cottura francese in cui gli alimenti vengono sigillati in sacchetti sottovuoto e cotti a bassa temperatura in acqua?", answer: "Sous-vide" },
-        { question: "In quale regione spagnola è originaria la vera Paella tradizionale?", answer: "Valencia" }
+      "500": [
+        {
+          "question": "Quale piatto coreano è formato da verdure fermentate, principalmente cavolo napa e ravanello coreano, molto piccanti?",
+          "answer": "Kimchi"
+        },
+        {
+          "question": "Qual è il nome dell'antichissima bevanda fermentata a base di miele e acqua, conosciuta anche dai Vichinghi?",
+          "answer": "Idromele"
+        },
+        {
+          "question": "Durante quale festa ebraica è proibito mangiare cibi lievitati, consumando invece la matzah?",
+          "answer": "Pesach (Pasqua ebraica)"
+        },
+        {
+          "question": "Come si chiama la tecnica di cottura francese in cui gli alimenti vengono sigillati in sacchetti sottovuoto e cotti a bassa temperatura in acqua?",
+          "answer": "Sous-vide"
+        },
+        {
+          "question": "In quale regione spagnola è originaria la vera Paella tradizionale?",
+          "answer": "Valencia"
+        },
+        {
+          "question": "Nella preparazione della 'Seadas', tipico dolce fritto sardo, il formaggio fuso all'interno è aromatizzato al...",
+          "answer": "Limone"
+        },
+        {
+          "question": "La piccola e preziosa 'Lenticchia di Castelluccio', che colora i Piani umbri in fioritura, è IGP di questa provincia.",
+          "answer": "Perugia"
+        },
+        {
+          "question": "Il formaggio dal profumo molto intenso 'Puzzone di Moena' DOP, viene prodotto in questa valle dolomitica.",
+          "answer": "Val di Fassa"
+        },
+        {
+          "question": "I 'Tajarin', sottilissimi tagliolini all'uovo piemontesi, tradizionalmente richiedono un numero altissimo (fino a 40 per chilo) di questo ingrediente.",
+          "answer": "Tuorli d'uovo"
+        },
+        {
+          "question": "La 'Cicerchiata' umbro-marchigiana è un dolce di Carnevale fatto di palline fritte nel miele, quasi identico a questo dolce napoletano.",
+          "answer": "Struffoli"
+        },
+        {
+          "question": "La 'Salama da sugo', insaccato sferico stagionato e speziato da cuocere a lungo, è un piatto simbolo di questa città emiliana.",
+          "answer": "Ferrara"
+        },
+        {
+          "question": "Nella 'Torta pasqualina' ligure originale, la sottile sfoglia dovrebbe essere formata tradizionalmente da un numero di strati pari a...",
+          "answer": "33 (gli anni di Cristo)"
+        },
+        {
+          "question": "Il 'Sanguinaccio' dolce napoletano, crema al cioccolato servita a Carnevale, un tempo conteneva realmente sangue di...",
+          "answer": "Maiale"
+        },
+        {
+          "question": "Il celebre marzapane plasmato e colorato a forma di frutta, tipico del 2 novembre in Sicilia, prende anche il nome di Frutta di...",
+          "answer": "Martorana"
+        },
+        {
+          "question": "Il 'Bratwurst' (salsiccia) e il 'Leberkäse' (polpettone) sono specialità di salumeria tradizionali di questa regione italiana autonoma.",
+          "answer": "Trentino-Alto Adige"
+        },
+        {
+          "question": "La 'Saba' o 'Sapa', un condimento scuro e denso usato per i dolci fin dall'antichità, non è altro che mosto d'uva...",
+          "answer": "Cotto"
+        },
+        {
+          "question": "La 'Panigaccia', una pastella non lievitata cotta in testi di terracotta arroventati, è originaria di questa località in Lunigiana.",
+          "answer": "Podenzana"
+        },
+        {
+          "question": "Il prezioso formaggio 'Bitto' storico, d'alpeggio, viene prodotto esclusivamente in questa lunga valle lombarda.",
+          "answer": "Valtellina"
+        },
+        {
+          "question": "Nel classico 'Pesto modenese', utilizzato per farcire le tigelle roventi, l'ingrediente base, finemente tritato, è...",
+          "answer": "Lardo"
+        },
+        {
+          "question": "I 'Maccheroncini di Campofilone', sottilissimi fili di pasta all'uovo, sono l'unica pasta all'uovo italiana ad aver ottenuto il riconoscimento europeo...",
+          "answer": "IGP"
+        },
+        {
+          "question": "La torta salata ligure nota come 'Baciocca' è tipica dell'entroterra e ha come ingrediente principale questo tubero.",
+          "answer": "Patata"
+        },
+        {
+          "question": "I rari 'Spinosini', pasta all'uovo finissima inventata da Vincenzo Spinosi, sono un marchio registrato originario di questa regione.",
+          "answer": "Marche"
+        },
+        {
+          "question": "Il 'Formaggio di Fossa' DOP, che per tre mesi viene stagionato sotto terra, è tipico di Sogliano al Rubicone, in questa regione.",
+          "answer": "Emilia-Romagna"
+        },
+        {
+          "question": "Il 'Pandolce' genovese tradizionale esiste storicamente in due versioni, quella antica lievitata detta 'alta' e quella non lievitata detta...",
+          "answer": "Bassa"
+        },
+        {
+          "question": "La tradizionale 'Braciola' barese, cotta per ore nel sugo della domenica, non è una fetta di carne ma in realtà un...",
+          "answer": "Involtino (di carne di cavallo o vitello)"
+        },
+        {
+          "question": "Come si chiama l'alimento base della cucina africana occidentale costituito da una densa pasta di farina di manioca o igname fermentata?",
+          "answer": "Fufu"
+        },
+        {
+          "question": "Quale nazione è l'unica vera produttrice tradizionale del formaggio Halloumi, celebre perché non si scioglie sulla griglia?",
+          "answer": "Cipro"
+        },
+        {
+          "question": "Che cos'è l''hákarl', il forte e controverso piatto tradizionale simbolo della cucina islandese?",
+          "answer": "Carne di squalo fermentata (o putrefatta ed essiccata)"
+        },
+        {
+          "question": "Nella cucina molecolare, come si chiama il processo di trasformazione di un liquido in sfere gelatinose usando alginato di sodio e cloruro di calcio?",
+          "answer": "Sferificazione"
+        },
+        {
+          "question": "Qual è il vitigno autoctono a bacca nera quasi esclusivamente utilizzato per produrre il pregiato vino DOCG Taurasi in Campania?",
+          "answer": "Aglianico"
+        },
+        {
+          "question": "Come si chiama il pregiato tè verde giapponese in polvere finissima utilizzato nella millenaria cerimonia del tè (Cha no yu)?",
+          "answer": "Matcha"
+        },
+        {
+          "question": "Da quale grande albero sudamericano si estraggono delle scure 'fave', usate in alta pasticceria per il loro potente aroma simile a vaniglia e mandorla?",
+          "answer": "Cumaru (o Albero del Dipteryx odorata / Fave di Tonka)"
+        },
+        {
+          "question": "In ambito caseario, che cos'è il 'presame', essenziale per far coagulare le proteine del latte separando la cagliata dal siero?",
+          "answer": "Caglio (un complesso di enzimi, principalmente chimosina)"
+        },
+        {
+          "question": "Qual è il nome della rustica zuppa fredda andalusa a base di pane, mandorle, aglio, acqua e olio d'oliva, considerata l'antenata bianca del gazpacho?",
+          "answer": "Ajoblanco"
+        },
+        {
+          "question": "Come si chiama il piatto nazionale della Scozia, costituito da un insaccato di interiora di pecora tritate e cotte tradizionalmente nello stomaco dell'animale stesso?",
+          "answer": "Haggis"
+        },
+        {
+          "question": "Da quale specifica parte del fiore 'Crocus sativus' si ricava la costosissima spezia dello zafferano?",
+          "answer": "Stigmi (o Stimmi)"
+        },
+        {
+          "question": "Da quale paese nordafricano proviene originariamente l''Harissa', la densa e piccante pasta di peperoncino rosso, aglio e coriandolo?",
+          "answer": "Tunisia"
+        },
+        {
+          "question": "Di cosa sono fatti in natura i rarissimi 'nidi di rondine' usati per preparare l'omonima, costosa e pregiata zuppa asiatica (Bird's nest soup)?",
+          "answer": "Saliva di salangana indurita"
+        },
+        {
+          "question": "Quale composto chimico alcaloide, misurato sulla scala di Scoville, è il principale responsabile della sensazione di piccantezza del peperoncino?",
+          "answer": "Capsaicina"
+        },
+        {
+          "question": "Come si chiama il celebre formaggio francese a crosta lavata con marc, originario della Borgogna, tristemente noto per il suo odore estremamente penetrante?",
+          "answer": "Époisses"
+        },
+        {
+          "question": "In Giappone, qual è il nome del fungo essenziale ('Aspergillus oryzae') che inoculato su riso o soia avvia la fermentazione per produrre sakè, salsa di soia e miso?",
+          "answer": "Koji"
+        },
+        {
+          "question": "A quale famiglia botanica appartiene la 'Cipolla Rossa di Tropea', rinomato prodotto ortofrutticolo calabrese?",
+          "answer": "Alliaceae (o Liliaceae / Amaryllidaceae)"
+        },
+        {
+          "question": "Che cos'è esattamente l''Amchoor', la polvere pungente e agrodolce usata ampiamente come insaporitore nella cucina indiana vegetariana?",
+          "answer": "Polvere di mango acerbo essiccato"
+        },
+        {
+          "question": "Come si chiama la tecnica tradizionale maya e messicana di cottura sotterranea, in forni di terra, utilizzata tipicamente per preparare la Cochinita Pibil?",
+          "answer": "Píib (o Pib)"
+        },
+        {
+          "question": "In etologia e agronomia, quale insospettabile animale femmina è tradizionalmente impiegato in Francia, specialmente nel Périgord, per la ricerca dei tartufi grazie al suo fiuto e all'attrazione per i feromoni del fungo?",
+          "answer": "Maiale (o Scrofa)"
+        }
       ]
     }
   },
   {
-    name: "Cultura Pop e Gossip",
-    questions: {
-      100: [
-        { question: "Quale celebre bambola della Mattel è stata creata nel 1959 e ha avuto un film di successo nel 2023?", answer: "Barbie" },
-        { question: "Chi è la moglie del principe William d'Inghilterra?", answer: "Kate Middleton" },
-        { question: "Quale famosa famiglia americana è diventata celebre grazie al reality 'Al passo con i...'", answer: "Kardashian" },
-        { question: "In che mese cade tradizionalmente la festa di Halloween?", answer: "Ottobre" },
-        { question: "Come si chiama il cane dei Simpson?", answer: "Piccolo Aiutante di Babbo Natale" }
+    "name": "Cultura Pop e Gossip",
+    "questions": {
+      "100": [
+        {
+          "question": "Quale celebre bambola della Mattel è stata creata nel 1959 e ha avuto un film di successo nel 2023?",
+          "answer": "Barbie"
+        },
+        {
+          "question": "Chi è la moglie del principe William d'Inghilterra?",
+          "answer": "Kate Middleton"
+        },
+        {
+          "question": "Quale famosa famiglia americana è diventata celebre grazie al reality 'Al passo con i...'",
+          "answer": "Kardashian"
+        },
+        {
+          "question": "In che mese cade tradizionalmente la festa di Halloween?",
+          "answer": "Ottobre"
+        },
+        {
+          "question": "Come si chiama il cane dei Simpson?",
+          "answer": "Piccolo Aiutante di Babbo Natale"
+        },
+        {
+          "question": "Ha vinto l'Oscar come miglior attore per \"Revenant - Redivivo\"",
+          "answer": "Leonardo DiCaprio"
+        },
+        {
+          "question": "La popstar di \"Shake It Off\" e \"Blank Space\"",
+          "answer": "Taylor Swift"
+        },
+        {
+          "question": "È la famiglia protagonista del reality show \"Al passo con i...\"",
+          "answer": "Kardashian"
+        },
+        {
+          "question": "L'ex marito di Angelina Jolie con cui formava i \"Brangelina\"",
+          "answer": "Brad Pitt"
+        },
+        {
+          "question": "La cantante barbadiana fondatrice di Fenty Beauty",
+          "answer": "Rihanna"
+        },
+        {
+          "question": "Ha interpretato Jack Dawson in Titanic",
+          "answer": "Leonardo DiCaprio"
+        },
+        {
+          "question": "Il principe inglese che ha sposato Meghan Markle",
+          "answer": "Principe Harry"
+        },
+        {
+          "question": "Il suo vero nome è Stefani Joanne Angelina Germanotta",
+          "answer": "Lady Gaga"
+        },
+        {
+          "question": "La popstar di \"Baby One More Time\" che è stata sotto tutela legale per 13 anni",
+          "answer": "Britney Spears"
+        },
+        {
+          "question": "Il social network acquistato da Elon Musk nel 2022 e ribattezzato X",
+          "answer": "Twitter"
+        },
+        {
+          "question": "L'attore che ha schiaffeggiato Chris Rock agli Oscar 2022",
+          "answer": "Will Smith"
+        },
+        {
+          "question": "La cantautrice di \"Rolling in the Deep\" e \"Someone Like You\"",
+          "answer": "Adele"
+        },
+        {
+          "question": "Il festival musicale nel deserto della California famoso per lo stile boho-chic",
+          "answer": "Coachella"
+        },
+        {
+          "question": "Ha interpretato la Barbie nell'omonimo film del 2023",
+          "answer": "Margot Robbie"
+        },
+        {
+          "question": "Il rapper ex marito di Kim Kardashian",
+          "answer": "Kanye West"
+        },
+        {
+          "question": "La popstar colombiana che ha cantato \"Hips Don't Lie\"",
+          "answer": "Shakira"
+        },
+        {
+          "question": "L'influencer italiana che ha creato il marchio con il logo dell'occhio",
+          "answer": "Chiara Ferragni"
+        },
+        {
+          "question": "Il cantante canadese \"scoperto\" su YouTube famoso per \"Baby\"",
+          "answer": "Justin Bieber"
+        },
+        {
+          "question": "È la creatrice della saga di Harry Potter",
+          "answer": "J.K. Rowling"
+        },
+        {
+          "question": "Il protagonista della serie di film \"Mission: Impossible\"",
+          "answer": "Tom Cruise"
+        },
+        {
+          "question": "Ha vinto l'Oscar come miglior attore per 'Revenant - Redivivo' nel 2016 dopo numerose nomination a vuoto.",
+          "answer": "Leonardo DiCaprio"
+        },
+        {
+          "question": "La celebre famiglia americana protagonista del reality 'Al passo con i...' che ha ridefinito il concetto di influencer.",
+          "answer": "Kardashian"
+        },
+        {
+          "question": "La popstar americana famosa per l'imponente 'The Eras Tour' e i suoi fedelissimi fan noti come 'Swifties'.",
+          "answer": "Taylor Swift"
+        },
+        {
+          "question": "La serie tv Netflix ambientata ad Hawkins negli anni '80 con protagonisti Undici e il Demogorgone.",
+          "answer": "Stranger Things"
+        },
+        {
+          "question": "Il cantante italiano trionfatore a Sanremo e all'Eurovision 2021 come frontman dei Maneskin.",
+          "answer": "Damiano David"
+        },
+        {
+          "question": "La famosa influencer e imprenditrice italiana che ha creato un brand di abbigliamento con il logo dell'occhio azzurro.",
+          "answer": "Chiara Ferragni"
+        },
+        {
+          "question": "L'ex calciatore inglese, noto per i suoi calci di punizione, sposato con una ex componente delle Spice Girls.",
+          "answer": "David Beckham"
+        },
+        {
+          "question": "L'attore che per oltre un decennio ha prestato il volto a Tony Stark nel Marvel Cinematic Universe.",
+          "answer": "Robert Downey Jr."
+        },
+        {
+          "question": "Ha condotto e diretto come direttore artistico il Festival di Sanremo per cinque anni consecutivi dal 2020 al 2024.",
+          "answer": "Amadeus"
+        },
+        {
+          "question": "La cantante e attrice conosciuta per i suoi 'Little Monsters' e per aver indossato un abito fatto di vera carne nel 2010.",
+          "answer": "Lady Gaga"
+        },
+        {
+          "question": "Il nome del secondogenito del Re Carlo III d'Inghilterra e di Lady Diana.",
+          "answer": "Principe Harry"
+        },
+        {
+          "question": "L'attore hollywoodiano noto per eseguire i propri stunt in prima persona nella saga di 'Mission: Impossible'.",
+          "answer": "Tom Cruise"
+        },
+        {
+          "question": "La principessa del Galles, moglie del Principe William e futura regina consorte del Regno Unito.",
+          "answer": "Kate Middleton"
+        },
+        {
+          "question": "Il reality show in cui un gruppo di perfetti sconosciuti vive rinchiuso in una casa spiato da telecamere 24 ore su 24.",
+          "answer": "Grande Fratello"
+        },
+        {
+          "question": "La popstar colombiana celebre per la hit 'Waka Waka' e per il discusso divorzio con il calciatore Piqué.",
+          "answer": "Shakira"
+        },
+        {
+          "question": "L'attrice australiana che ha interpretato la bambola più famosa del mondo nel film 'Barbie' del 2023.",
+          "answer": "Margot Robbie"
+        },
+        {
+          "question": "Il talent show italiano in onda su Canale 5 noto per gli scontri tra i professori come Alessandra Celentano e Rudy Zerbi.",
+          "answer": "Amici di Maria De Filippi"
+        },
+        {
+          "question": "La saga cinematografica basata sui libri di J.K. Rowling in cui il protagonista porta una cicatrice a forma di saetta.",
+          "answer": "Harry Potter"
+        },
+        {
+          "question": "Il rapper italiano ex marito di Chiara Ferragni, con la quale formava la coppia nota come 'Ferragnez'.",
+          "answer": "Fedez"
+        },
+        {
+          "question": "La famiglia televisiva animata dalla pelle gialla creata dal fumettista Matt Groening nel 1989.",
+          "answer": "I Simpson"
+        }
       ],
-      200: [
-        { question: "Quale miliardario ha acquisito Twitter e l'ha rinominato in X?", answer: "Elon Musk" },
-        { question: "Chi è stato il marito di Angelina Jolie dal 2014 al 2019?", answer: "Brad Pitt" },
-        { question: "Qual è il nome della tournée mondiale da record di Taylor Swift iniziata nel 2023?", answer: "The Eras Tour" },
-        { question: "Chi era l'interprete principale del film per adolescenti High School Musical?", answer: "Zac Efron" },
-        { question: "Quale famoso premio viene assegnato per il peggior film dell'anno prima degli Oscar?", answer: "I Razzie Awards" }
+      "200": [
+        {
+          "question": "Quale miliardario ha acquisito Twitter e l'ha rinominato in X?",
+          "answer": "Elon Musk"
+        },
+        {
+          "question": "Chi è stato il marito di Angelina Jolie dal 2014 al 2019?",
+          "answer": "Brad Pitt"
+        },
+        {
+          "question": "Qual è il nome della tournée mondiale da record di Taylor Swift iniziata nel 2023?",
+          "answer": "The Eras Tour"
+        },
+        {
+          "question": "Chi era l'interprete principale del film per adolescenti High School Musical?",
+          "answer": "Zac Efron"
+        },
+        {
+          "question": "Quale famoso premio viene assegnato per il peggior film dell'anno prima degli Oscar?",
+          "answer": "I Razzie Awards"
+        },
+        {
+          "question": "La coppia italiana formata da Fedez e Chiara Ferragni era nota con questo nome",
+          "answer": "Ferragnez"
+        },
+        {
+          "question": "Il conduttore storico del Festival di Sanremo dal 2020 al 2024",
+          "answer": "Amadeus"
+        },
+        {
+          "question": "La serie TV Netflix ambientata a Hawkins con Undici",
+          "answer": "Stranger Things"
+        },
+        {
+          "question": "L'attore di \"Iron Man\" nel Marvel Cinematic Universe",
+          "answer": "Robert Downey Jr."
+        },
+        {
+          "question": "La modella sorella di Gigi Hadid",
+          "answer": "Bella Hadid"
+        },
+        {
+          "question": "Il cantante vincitore del Festival di Sanremo 2023 con \"Due Vite\"",
+          "answer": "Marco Mengoni"
+        },
+        {
+          "question": "L'imprenditore fondatore di Facebook",
+          "answer": "Mark Zuckerberg"
+        },
+        {
+          "question": "Il nome d'arte di Abel Makkonen Tesfaye, autore di \"Blinding Lights\"",
+          "answer": "The Weeknd"
+        },
+        {
+          "question": "Il presentatore del \"The Tonight Show\" americano",
+          "answer": "Jimmy Fallon"
+        },
+        {
+          "question": "L'attore de \"I Pirati dei Caraibi\" che ha vinto un noto processo contro l'ex moglie",
+          "answer": "Johnny Depp"
+        },
+        {
+          "question": "La boy band britannica in cui cantava Harry Styles",
+          "answer": "One Direction"
+        },
+        {
+          "question": "La popstar di \"Roar\" e \"Firework\"",
+          "answer": "Katy Perry"
+        },
+        {
+          "question": "La serie HBO sui draghi prequel di Game of Thrones",
+          "answer": "House of the Dragon"
+        },
+        {
+          "question": "L'attore di \"Spiderman\" che fa coppia con Zendaya",
+          "answer": "Tom Holland"
+        },
+        {
+          "question": "Ha cantato \"Wrecking Ball\" dondolando su una palla da demolizione",
+          "answer": "Miley Cyrus"
+        },
+        {
+          "question": "Il documentario Netflix sulla vita del principe Harry e di sua moglie",
+          "answer": "Harry & Meghan"
+        },
+        {
+          "question": "Il gruppo K-pop di \"Dynamite\" e \"Butter\"",
+          "answer": "BTS"
+        },
+        {
+          "question": "L'attrice protagonista della serie \"Mercoledì\"",
+          "answer": "Jenna Ortega"
+        },
+        {
+          "question": "La prima fidanzata di Justin Bieber, ex star della Disney",
+          "answer": "Selena Gomez"
+        },
+        {
+          "question": "Ha fondato il marchio di intimo Skims",
+          "answer": "Kim Kardashian"
+        },
+        {
+          "question": "L'attore che ha scatenato il caos mediatico schiaffeggiando il comico Chris Rock durante la notte degli Oscar 2022.",
+          "answer": "Will Smith"
+        },
+        {
+          "question": "Il nome del noto podcast fondato e condotto da Fedez prima della discussa rottura con lo youtuber Luis Sal.",
+          "answer": "Muschio Selvaggio"
+        },
+        {
+          "question": "La cantante britannica dalla voce potente, autrice di hit come 'Rolling in the Deep' e 'Someone Like You'.",
+          "answer": "Adele"
+        },
+        {
+          "question": "L'attore irlandese diventato un'icona grazie al ruolo del gangster Thomas Shelby in 'Peaky Blinders'.",
+          "answer": "Cillian Murphy"
+        },
+        {
+          "question": "L'imprenditore visionario proprietario di Tesla, SpaceX e del social network X, precedentemente noto come Twitter.",
+          "answer": "Elon Musk"
+        },
+        {
+          "question": "L'artista canadese che ha cantato la hit 'Blinding Lights' e si è esibito durante l'halftime show del Super Bowl 2021.",
+          "answer": "The Weeknd"
+        },
+        {
+          "question": "Il cantante canadese divenuto famoso da giovanissimo con il brano 'Baby', storico ex fidanzato di Selena Gomez.",
+          "answer": "Justin Bieber"
+        },
+        {
+          "question": "La docuserie di successo su Netflix che ripercorre l'ultima stagione di Michael Jordan con i Chicago Bulls.",
+          "answer": "The Last Dance"
+        },
+        {
+          "question": "L'attrice emergente diventata una star globale per aver interpretato Mercoledì Addams nella serie Netflix di Tim Burton.",
+          "answer": "Jenna Ortega"
+        },
+        {
+          "question": "Il nome dell'attore italiano ex gieffino che ha conquistato il pubblico come protagonista della fiction 'Doc - Nelle tue mani'.",
+          "answer": "Luca Argentero"
+        },
+        {
+          "question": "La popstar di origini kosovare autrice del pluripremiato album 'Future Nostalgia' e del singolo 'Don't Start Now'.",
+          "answer": "Dua Lipa"
+        },
+        {
+          "question": "La celebre conduttrice tv italiana, ex moglie del calciatore Francesco Totti, al centro di un chiacchierato divorzio.",
+          "answer": "Ilary Blasi"
+        },
+        {
+          "question": "La commovente canzone con cui Marco Mengoni ha trionfato al Festival di Sanremo nel 2023.",
+          "answer": "Due Vite"
+        },
+        {
+          "question": "Il famoso regista pulp americano noto per capolavori violenti e iconici come 'Pulp Fiction' e 'Kill Bill'.",
+          "answer": "Quentin Tarantino"
+        },
+        {
+          "question": "L'attore che interpreta l'amichevole Spider-Man di quartiere nel MCU, felicemente fidanzato con la collega Zendaya.",
+          "answer": "Tom Holland"
+        },
+        {
+          "question": "La pluri-premiata serie HBO incentrata sulle lotte di potere all'interno della ricca famiglia proprietaria della Waystar Royco.",
+          "answer": "Succession"
+        },
+        {
+          "question": "Il nome della primogenita di Beyoncé e Jay-Z, nata nel 2012 e spesso in tour con la madre.",
+          "answer": "Blue Ivy"
+        },
+        {
+          "question": "La pungente giornalista e conduttrice del programma di interviste scomode 'Belve' in onda su Rai 2.",
+          "answer": "Francesca Fagnani"
+        },
+        {
+          "question": "Il capolavoro sudcoreano di Bong Joon-ho che ha fatto la storia trionfando come Miglior Film agli Oscar 2020.",
+          "answer": "Parasite"
+        },
+        {
+          "question": "La celebre top model americana, sorella di Bella Hadid, che ha avuto un figlio con il cantante Zayn Malik.",
+          "answer": "Gigi Hadid"
+        }
       ],
-      300: [
-        { question: "Come si chiama il celebre festival musicale che si tiene ogni anno nel deserto del Colorado in California?", answer: "Coachella" },
-        { question: "Chi ha vinto l'Oscar per lo schiaffo dato a Chris Rock durante la cerimonia degli Academy Awards 2022?", answer: "Will Smith" },
-        { question: "Qual è il nome del figlio primogenito del principe Harry e Meghan Markle?", answer: "Archie" },
-        { question: "In quale franchise cinematografico troviamo il personaggio di Katniss Everdeen?", answer: "Hunger Games" },
-        { question: "Chi è la popstar che ha come fan i 'Little Monsters'?", answer: "Lady Gaga" }
+      "300": [
+        {
+          "question": "Come si chiama il celebre festival musicale che si tiene ogni anno nel deserto del Colorado in California?",
+          "answer": "Coachella"
+        },
+        {
+          "question": "Chi ha vinto l'Oscar per lo schiaffo dato a Chris Rock durante la cerimonia degli Academy Awards 2022?",
+          "answer": "Will Smith"
+        },
+        {
+          "question": "Qual è il nome del figlio primogenito del principe Harry e Meghan Markle?",
+          "answer": "Archie"
+        },
+        {
+          "question": "In quale franchise cinematografico troviamo il personaggio di Katniss Everdeen?",
+          "answer": "Hunger Games"
+        },
+        {
+          "question": "Chi è la popstar che ha come fan i 'Little Monsters'?",
+          "answer": "Lady Gaga"
+        },
+        {
+          "question": "L'ex fidanzato di Shakira, ex calciatore del Barcellona",
+          "answer": "Gerard Piqué"
+        },
+        {
+          "question": "La cantante che ha vinto l'Oscar per \"Shallow\"",
+          "answer": "Lady Gaga"
+        },
+        {
+          "question": "Il tour di Taylor Swift che ha battuto ogni record di incassi nel 2023-2024",
+          "answer": "The Eras Tour"
+        },
+        {
+          "question": "L'attrice di \"Friends\" che ha sposato Brad Pitt nel 2000",
+          "answer": "Jennifer Aniston"
+        },
+        {
+          "question": "L'attore protagonista della serie \"The Witcher\" prima di Liam Hemsworth",
+          "answer": "Henry Cavill"
+        },
+        {
+          "question": "L'imprenditrice e sorella minore del clan Kardashian-Jenner che ha un brand di cosmetici",
+          "answer": "Kylie Jenner"
+        },
+        {
+          "question": "Il film sudcoreano che ha vinto l'Oscar al miglior film nel 2020",
+          "answer": "Parasite"
+        },
+        {
+          "question": "Il gruppo rock italiano che ha vinto l'Eurovision 2021",
+          "answer": "Måneskin"
+        },
+        {
+          "question": "Il nome della figlia primogenita di Beyoncé e Jay-Z",
+          "answer": "Blue Ivy"
+        },
+        {
+          "question": "La cantante di \"Thank U, Next\"",
+          "answer": "Ariana Grande"
+        },
+        {
+          "question": "Il rapper che è stato ucciso nel 1996 a Las Vegas",
+          "answer": "Tupac Shakur"
+        },
+        {
+          "question": "Il fenomeno cinematografico dell'estate 2023 con due grandi film usciti lo stesso giorno",
+          "answer": "Barbenheimer"
+        },
+        {
+          "question": "L'attore che ha interpretato Ken nel film Barbie",
+          "answer": "Ryan Gosling"
+        },
+        {
+          "question": "La rivista di moda diretta da Anna Wintour",
+          "answer": "Vogue"
+        },
+        {
+          "question": "L'evento annuale di beneficenza del Metropolitan Museum of Art a New York",
+          "answer": "Met Gala"
+        },
+        {
+          "question": "L'attore protagonista di \"Peaky Blinders\"",
+          "answer": "Cillian Murphy"
+        },
+        {
+          "question": "La cantante \"regina del pop\" interprete di \"Like a Virgin\"",
+          "answer": "Madonna"
+        },
+        {
+          "question": "Il vero nome di Marilyn Monroe",
+          "answer": "Norma Jeane Mortenson"
+        },
+        {
+          "question": "La supermodella britannica famosa per il look \"heroin chic\" negli anni '90",
+          "answer": "Kate Moss"
+        },
+        {
+          "question": "Il nome del fandom di Taylor Swift",
+          "answer": "Swifties"
+        },
+        {
+          "question": "L'attrice protagonista del celebre processo mediatico per diffamazione trasmesso in diretta streaming contro l'ex marito Johnny Depp.",
+          "answer": "Amber Heard"
+        },
+        {
+          "question": "Il famoso conduttore televisivo e comico britannico diventato celebre per il format 'Carpool Karaoke'.",
+          "answer": "James Corden"
+        },
+        {
+          "question": "La giovane cantautrice vincitrice del Festival di Sanremo 2024 con l'energico brano 'La Noia'.",
+          "answer": "Angelina Mango"
+        },
+        {
+          "question": "L'attore canadese che ha interpretato con grande ironia il ruolo di Ken nel film fenomeno 'Barbie'.",
+          "answer": "Ryan Gosling"
+        },
+        {
+          "question": "Il nome di battesimo, ovvero il vero nome, dell'icona del cinema e sex symbol Marilyn Monroe.",
+          "answer": "Norma Jeane Mortenson"
+        },
+        {
+          "question": "Il giocatore di football dei Kansas City Chiefs balzato agli onori del gossip internazionale per il suo fidanzamento con Taylor Swift.",
+          "answer": "Travis Kelce"
+        },
+        {
+          "question": "La popolare sitcom televisiva anni '90 che ha lanciato definitivamente la carriera dell'attore Will Smith.",
+          "answer": "Willy, il principe di Bel-Air"
+        },
+        {
+          "question": "L'acclamato regista britannico del film 'Oppenheimer', per il quale ha vinto finalmente il suo primo Oscar alla regia.",
+          "answer": "Christopher Nolan"
+        },
+        {
+          "question": "Il conduttore storico e volto rassicurante del reality dei sentimenti 'Temptation Island'.",
+          "answer": "Filippo Bisciglia"
+        },
+        {
+          "question": "La celebre top model e attrice britannica legata sentimentalmente da anni all'attore action Jason Statham.",
+          "answer": "Rosie Huntington-Whiteley"
+        },
+        {
+          "question": "L'artista italiano di fama internazionale, stabilitosi a Los Angeles, autore di hit iconiche come 'Sere nere' e 'Rosso Relativo'.",
+          "answer": "Tiziano Ferro"
+        },
+        {
+          "question": "Il controverso rapper e produttore americano, ex marito di Kim Kardashian, che ha legalmente cambiato nome in 'Ye'.",
+          "answer": "Kanye West"
+        },
+        {
+          "question": "La serie TV spagnola di successo globale in cui un gruppo di ladri dal vestito rosso usa nomi di città come alias.",
+          "answer": "La casa di carta"
+        },
+        {
+          "question": "La leggendaria attrice asiatica vincitrice del Premio Oscar 2023 per l'innovativo film 'Everything Everywhere All at Once'.",
+          "answer": "Michelle Yeoh"
+        },
+        {
+          "question": "Il termine specifico usato per descrivere e indicare l'accanita e leale fanbase della cantante Beyoncé.",
+          "answer": "BeyHive"
+        },
+        {
+          "question": "La giovane modella e attrice protagonista della controversa serie 'The Idol', nata dalla relazione tra Johnny Depp e Vanessa Paradis.",
+          "answer": "Lily-Rose Depp"
+        },
+        {
+          "question": "Il surreale film vincitore del Leone d'Oro a Venezia 2023 diretto dal regista greco Yorgos Lanthimos con Emma Stone.",
+          "answer": "Povere Creature!"
+        },
+        {
+          "question": "La nota attivista e scrittrice italiana per anni fidanzata con Damiano David dei Maneskin, prima della rottura nel 2023.",
+          "answer": "Giorgia Soleri"
+        },
+        {
+          "question": "La celebre conduttrice televisiva americana a cui il Principe Harry e Meghan Markle concessero una discussa intervista bomba nel 2021.",
+          "answer": "Oprah Winfrey"
+        },
+        {
+          "question": "Il talentuoso attore che ha ottenuto la fama mondiale interpretando Elvis Presley nel biopic di Baz Luhrmann del 2022.",
+          "answer": "Austin Butler"
+        }
       ],
-      400: [
-        { question: "Come si chiama la rivista di moda il cui direttore storico è Anna Wintour?", answer: "Vogue" },
-        { question: "Quale famoso evento mondano di beneficenza si tiene ogni anno a maggio al Metropolitan Museum of Art di New York?", answer: "Il Met Gala" },
-        { question: "Quale serie televisiva sudcoreana ha infranto tutti i record di visualizzazione su Netflix nel 2021?", answer: "Squid Game" },
-        { question: "Chi è l'ex marito di Kim Kardashian che ha legalmente cambiato il suo nome in 'Ye'?", answer: "Kanye West" },
-        { question: "Quale popstar ha tenuto una residenza a Las Vegas intitolata 'Piece of Me' dal 2013 al 2017?", answer: "Britney Spears" }
+      "400": [
+        {
+          "question": "Come si chiama la rivista di moda il cui direttore storico è Anna Wintour?",
+          "answer": "Vogue"
+        },
+        {
+          "question": "Quale famoso evento mondano di beneficenza si tiene ogni anno a maggio al Metropolitan Museum of Art di New York?",
+          "answer": "Il Met Gala"
+        },
+        {
+          "question": "Quale serie televisiva sudcoreana ha infranto tutti i record di visualizzazione su Netflix nel 2021?",
+          "answer": "Squid Game"
+        },
+        {
+          "question": "Chi è l'ex marito di Kim Kardashian che ha legalmente cambiato il suo nome in 'Ye'?",
+          "answer": "Kanye West"
+        },
+        {
+          "question": "Quale popstar ha tenuto una residenza a Las Vegas intitolata 'Piece of Me' dal 2013 al 2017?",
+          "answer": "Britney Spears"
+        },
+        {
+          "question": "L'attore di Hollywood che ha comprato una squadra di calcio in Galles (Wrexham)",
+          "answer": "Ryan Reynolds"
+        },
+        {
+          "question": "La cantante di \"Bad Guy\" e \"Ocean Eyes\"",
+          "answer": "Billie Eilish"
+        },
+        {
+          "question": "L'ex membro dei One Direction che ha lasciato la band nel 2015",
+          "answer": "Zayn Malik"
+        },
+        {
+          "question": "Il regista di \"Pulp Fiction\" e \"Kill Bill\"",
+          "answer": "Quentin Tarantino"
+        },
+        {
+          "question": "La modella che ha avuto una relazione lunga con Leonardo DiCaprio dal 2000 al 2005",
+          "answer": "Gisele Bündchen"
+        },
+        {
+          "question": "Il fidanzato di Taylor Swift, giocatore dei Kansas City Chiefs",
+          "answer": "Travis Kelce"
+        },
+        {
+          "question": "Il vero nome del rapper Drake",
+          "answer": "Aubrey Drake Graham"
+        },
+        {
+          "question": "L'attrice protagonista della serie tv \"La Regina degli Scacchi\"",
+          "answer": "Anya Taylor-Joy"
+        },
+        {
+          "question": "L'abito di Marilyn Monroe indossato al Met Gala 2022 è stato accusato di essere stato \"rovinato\" da chi?",
+          "answer": "Kim Kardashian"
+        },
+        {
+          "question": "La cantante pop che ha recitato nella serie \"Only Murders in the Building\"",
+          "answer": "Selena Gomez"
+        },
+        {
+          "question": "La figlia di Johnny Depp e Vanessa Paradis",
+          "answer": "Lily-Rose Depp"
+        },
+        {
+          "question": "La star di \"Euphoria\" che interpreta Rue",
+          "answer": "Zendaya"
+        },
+        {
+          "question": "La canzone dei Coldplay in collaborazione con i BTS",
+          "answer": "My Universe"
+        },
+        {
+          "question": "Il nome del fondatore di Amazon ed ex marito di MacKenzie Scott",
+          "answer": "Jeff Bezos"
+        },
+        {
+          "question": "Il gruppo femminile K-pop di \"How You Like That\"",
+          "answer": "Blackpink"
+        },
+        {
+          "question": "L'attore che interpreta il protagonista nella serie \"The Bear\"",
+          "answer": "Jeremy Allen White"
+        },
+        {
+          "question": "Il nome d'arte della cantante di origine kosovara che ha cantato \"Levitating\"",
+          "answer": "Dua Lipa"
+        },
+        {
+          "question": "L'autore dei romanzi da cui è tratta la serie \"Il Trono di Spade\"",
+          "answer": "George R.R. Martin"
+        },
+        {
+          "question": "La cantante texana che ha pubblicato l'album \"Cowboy Carter\" nel 2024",
+          "answer": "Beyoncé"
+        },
+        {
+          "question": "L'ex attrice di \"Suits\" diventata Duchessa di Sussex",
+          "answer": "Meghan Markle"
+        },
+        {
+          "question": "L'esclusiva isola delle Antille francesi che ogni Capodanno si riempie di yacht miliardari e VIP, finendo sui giornali di gossip.",
+          "answer": "Saint-Barthélemy / St. Barts"
+        },
+        {
+          "question": "Il nome completo e peculiare della primogenita nata dall'unione tra la modella Kim Kardashian e il rapper Kanye West.",
+          "answer": "North West"
+        },
+        {
+          "question": "Il folle e assurdo documentario Netflix del 2020 incentrato sulla bizzarra rivalità tra Joe Exotic e l'animalista Carole Baskin.",
+          "answer": "Tiger King"
+        },
+        {
+          "question": "L'attore britannico che ha scatenato i sospiri del pubblico interpretando l'affascinante Duca di Hastings nella prima stagione di Bridgerton.",
+          "answer": "Regé-Jean Page"
+        },
+        {
+          "question": "La giovane modella francese che ha sposato l'attore Vincent Cassel (da cui poi si è separata) anni dopo il divorzio da Monica Bellucci.",
+          "answer": "Tina Kunakey"
+        },
+        {
+          "question": "La controversa e cruda serie HBO sui problemi degli adolescenti moderni in cui Zendaya interpreta la tossicodipendente Rue Bennett.",
+          "answer": "Euphoria"
+        },
+        {
+          "question": "L'iconica artista di origini singalesi e britanniche interprete di 'Paper Planes', il cui vero nome è Mathangi Arulpragasam.",
+          "answer": "M.I.A."
+        },
+        {
+          "question": "L'attore amato dal web il cui ritorno sulle scene nel drammatico film 'The Whale' è stato coronato con l'Oscar.",
+          "answer": "Brendan Fraser"
+        },
+        {
+          "question": "Il nome inusuale basato su un frutto della primogenita dell'attrice Gwyneth Paltrow e del cantante dei Coldplay Chris Martin.",
+          "answer": "Apple"
+        },
+        {
+          "question": "La hit mondiale di Miley Cyrus rilasciata nel 2023, percepita come una 'revenge song' contro l'ex marito Liam Hemsworth.",
+          "answer": "Flowers"
+        },
+        {
+          "question": "L'eccentrico imprenditore italiano, famoso su TikTok per i suoi balletti estivi, inventore del marchio 'Kebhouze'.",
+          "answer": "Gianluca Vacchi"
+        },
+        {
+          "question": "Il regista partenopeo premio Oscar a cui è ispirato in parte un recente film, celebre per aver diretto 'La grande bellezza'.",
+          "answer": "Paolo Sorrentino"
+        },
+        {
+          "question": "L'acclamata e struggente serie tv di co-produzione internazionale, basata sulla fortunata tetralogia di romanzi di Elena Ferrante.",
+          "answer": "L'amica geniale"
+        },
+        {
+          "question": "L'ex idolo delle ragazzine nei One Direction che si è imposto come solista e icona fashion con l'album 'Harry's House'.",
+          "answer": "Harry Styles"
+        },
+        {
+          "question": "L'influencer di origini argentine, da anni compagna della stella del calcio Cristiano Ronaldo, protagonista di un suo reality show.",
+          "answer": "Georgina Rodriguez"
+        },
+        {
+          "question": "Il nome d'arte con cui è universalmente conosciuto l'acclamato cantautore R&B canadese Abel Makkonen Tesfaye.",
+          "answer": "The Weeknd"
+        },
+        {
+          "question": "Il film adolescenziale di culto del 2004 con Lindsay Lohan che ha coniato l'iconica frase 'Di mercoledì ci vestiamo di rosa'.",
+          "answer": "Mean Girls"
+        },
+        {
+          "question": "La storica e popolarissima conduttrice televisiva americana il cui talk show è stato chiuso in seguito ad accuse di ambiente di lavoro tossico.",
+          "answer": "Ellen DeGeneres"
+        },
+        {
+          "question": "Il famosissimo festival musicale artistico che si tiene ogni anno nel deserto della California, meta irrinunciabile per influencer e VIP.",
+          "answer": "Coachella"
+        },
+        {
+          "question": "L'attore di origini egiziane che ha magistralmente vestito i panni della leggenda Freddie Mercury nel biopic 'Bohemian Rhapsody'.",
+          "answer": "Rami Malek"
+        }
       ],
-      500: [
-        { question: "Quale famoso attore di Hollywood è noto per l'abitudine (o il meme) di non frequentare mai donne sopra i 25 anni?", answer: "Leonardo DiCaprio" },
-        { question: "In quale anno si è tenuto il famigerato Fyre Festival, rivelatosi un disastro clamoroso?", answer: "2017" },
-        { question: "Come si chiamava la popolare e scandalosa blogger di gossip interpretata da Kristen Bell in TV?", answer: "Gossip Girl" },
-        { question: "Qual è il nome del tribunale dove si è svolto il celebre processo per diffamazione tra Johnny Depp e Amber Heard?", answer: "Tribunale di Fairfax (Virginia)" },
-        { question: "Quale icona della moda ha creato il celebre 'tubino nero' indossato da Audrey Hepburn in Colazione da Tiffany?", answer: "Hubert de Givenchy" }
+      "500": [
+        {
+          "question": "Quale famoso attore di Hollywood è noto per l'abitudine (o il meme) di non frequentare mai donne sopra i 25 anni?",
+          "answer": "Leonardo DiCaprio"
+        },
+        {
+          "question": "In quale anno si è tenuto il famigerato Fyre Festival, rivelatosi un disastro clamoroso?",
+          "answer": "2017"
+        },
+        {
+          "question": "Come si chiamava la popolare e scandalosa blogger di gossip interpretata da Kristen Bell in TV?",
+          "answer": "Gossip Girl"
+        },
+        {
+          "question": "Qual è il nome del tribunale dove si è svolto il celebre processo per diffamazione tra Johnny Depp e Amber Heard?",
+          "answer": "Tribunale di Fairfax (Virginia)"
+        },
+        {
+          "question": "Quale icona della moda ha creato il celebre 'tubino nero' indossato da Audrey Hepburn in Colazione da Tiffany?",
+          "answer": "Hubert de Givenchy"
+        },
+        {
+          "question": "Il nome dell'isola privata posseduta da Marlon Brando nella Polinesia Francese",
+          "answer": "Tetiaroa"
+        },
+        {
+          "question": "L'attore che è stato il primo a interpretare James Bond al cinema",
+          "answer": "Sean Connery"
+        },
+        {
+          "question": "L'anno in cui è uscito il primo film della saga di Star Wars",
+          "answer": "1977"
+        },
+        {
+          "question": "Il nome della tigre del Bengala posseduta da Mike Tyson",
+          "answer": "Kenya"
+        },
+        {
+          "question": "Il premio che si ottiene vincendo Emmy, Grammy, Oscar e Tony",
+          "answer": "EGOT"
+        },
+        {
+          "question": "La celebre frase \"Lasciatemi in pace, so quello che sto facendo\" è di quale pilota di F1?",
+          "answer": "Kimi Raikkonen"
+        },
+        {
+          "question": "Il nome del primo marito di Marilyn Monroe",
+          "answer": "James Dougherty"
+        },
+        {
+          "question": "L'attrice che ha fatto da prestavolto per la creazione della sirenetta Ariel della Disney",
+          "answer": "Alyssa Milano"
+        },
+        {
+          "question": "Il nome della donna per cui il principe Edoardo VIII abdicò nel 1936",
+          "answer": "Wallis Simpson"
+        },
+        {
+          "question": "Il regista che è stato sposato con Madonna dal 2000 al 2008",
+          "answer": "Guy Ritchie"
+        },
+        {
+          "question": "L'artista mascherato noto per aver lasciato l'opera \"Girl with Balloon\" che si è autodistrutta all'asta",
+          "answer": "Banksy"
+        },
+        {
+          "question": "Il nome del podcast di Joe Rogan, venduto a Spotify per cifre astronomiche",
+          "answer": "The Joe Rogan Experience"
+        },
+        {
+          "question": "L'attore che ha rifiutato il ruolo di Neo in Matrix scegliendo Wild Wild West",
+          "answer": "Will Smith"
+        },
+        {
+          "question": "Il nome della bambola inquietante al centro del film horror spin-off di The Conjuring",
+          "answer": "Annabelle"
+        },
+        {
+          "question": "L'attore vincitore di Oscar che è anche il leader della band \"Thirty Seconds to Mars\"",
+          "answer": "Jared Leto"
+        },
+        {
+          "question": "L'ex compagna di Elon Musk, madre dei suoi figli X Æ A-12 ed Exa Dark Sideræl",
+          "answer": "Grimes"
+        },
+        {
+          "question": "Il conduttore degli Oscar 2014 il cui selfie ha fatto impallidire i server di Twitter",
+          "answer": "Ellen DeGeneres"
+        },
+        {
+          "question": "Il vero nome del cantante Elton John",
+          "answer": "Reginald Kenneth Dwight"
+        },
+        {
+          "question": "La band dei fratelli Gallagher famosa per i litigi che hanno portato allo scioglimento nel 2009",
+          "answer": "Oasis"
+        },
+        {
+          "question": "L'attrice vincitrice di 4 premi Oscar, più di ogni altro attore o attrice nella storia",
+          "answer": "Katharine Hepburn"
+        },
+        {
+          "question": "Il nome all'anagrafe del celebre rapper milanese Marracash, spesso citato nelle sue canzoni più personali.",
+          "answer": "Fabio Bartolo Rizzo"
+        },
+        {
+          "question": "L'ex wrestler professionista che è riuscito a far fallire il sito di gossip Gawker Media tramite una milionaria causa legale segretamente finanziata da Peter Thiel.",
+          "answer": "Hulk Hogan"
+        },
+        {
+          "question": "La celebre popstar americana che nel 2016 ha temporaneamente abbandonato gli abiti eccentrici per adottare un'estetica country e personale con l'album 'Joanne'.",
+          "answer": "Lady Gaga"
+        },
+        {
+          "question": "Il controverso organizzatore di eventi americano diventato il volto della frode per aver ideato il catastrofico e truffaldino Fyre Festival.",
+          "answer": "Billy McFarland"
+        },
+        {
+          "question": "L'attrice e modella nata nel 1997, diventata famosa per 'Daisy Jones & The Six' e per essere stata la fidanzata di Leonardo DiCaprio fino ai suoi 25 anni.",
+          "answer": "Camila Morrone"
+        },
+        {
+          "question": "La popstar coreana, membro del celebre gruppo K-Pop Blackpink, diventata anche attrice nel cast della serie 'The Idol' con Lily-Rose Depp.",
+          "answer": "Jennie"
+        },
+        {
+          "question": "Il nome della talentuosa attrice australiana che ha dato il volto alla spietata e calcolatrice Shiv Roy nella serie cult 'Succession'.",
+          "answer": "Sarah Snook"
+        },
+        {
+          "question": "La piccola, lussuosa ed esclusivissima città costiera della contea di Santa Barbara, in California, in cui risiedono il Principe Harry e Meghan Markle.",
+          "answer": "Montecito"
+        },
+        {
+          "question": "L'ex kickboxer e controverso influencer del web, noto per idee misogine e arrestato in Romania a fine 2022 con gravi accuse di traffico umano.",
+          "answer": "Andrew Tate"
+        },
+        {
+          "question": "La peculiare e derisa espressione in inglese con cui l'attrice Gwyneth Paltrow ha ufficialmente definito il suo divorzio amichevole da Chris Martin nel 2014.",
+          "answer": "Conscious uncoupling (Disaccoppiamento consapevole)"
+        },
+        {
+          "question": "Il nome del visionario regista italiano che ha diretto il sensuale e discusso film incentrato sul tennis 'Challengers', uscito nel 2024 con Zendaya.",
+          "answer": "Luca Guadagnino"
+        },
+        {
+          "question": "L'artista musicale di fama planetaria che è stato costretto a cancellare interamente il suo enorme tour 'Justice' dopo essere stato colpito dalla sindrome di Ramsay Hunt.",
+          "answer": "Justin Bieber"
+        },
+        {
+          "question": "Il famosissimo 'Re del Pop' su cui negli anni '80 i tabloid diffusero la bizzarra e falsa leggenda che dormisse abitualmente in una camera iperbarica per non invecchiare.",
+          "answer": "Michael Jackson"
+        },
+        {
+          "question": "L'eccentrico attore e comico del Saturday Night Live che ha avuto un breve ma intensissimo flirt con Kim Kardashian subito dopo il suo amaro divorzio da Kanye West.",
+          "answer": "Pete Davidson"
+        },
+        {
+          "question": "Il titolo originale ed evocativo del discusso libro autobiografico pubblicato dal Principe Harry nel 2023, ricco di retroscena scottanti sulla famiglia reale.",
+          "answer": "Spare"
+        },
+        {
+          "question": "Il nome della figlia di Tom Cruise e dell'attrice Katie Holmes, che vive ben lontana dai riflettori, dal padre e soprattutto dai dogmi di Scientology.",
+          "answer": "Suri Cruise"
+        },
+        {
+          "question": "La cantante e produttrice spagnola che ha rivoluzionato il pop latino e vinto numerosi Grammy con il suo acclamato e sperimentale album 'Motomami'.",
+          "answer": "Rosalía"
+        },
+        {
+          "question": "Il sorprendente e lodato film horror indipendente del 2022 girato da Ti West, che ha poi generato nel giro di pochissimo tempo il prequel intitolato 'Pearl'.",
+          "answer": "X - A Sexy Horror Story (X)"
+        },
+        {
+          "question": "L'ex amata star Disney che nel 2023 ha rilasciato un crudo, vulnerabile e lodato documentario sulla sua salute mentale intitolato 'My Mind & Me'.",
+          "answer": "Selena Gomez"
+        },
+        {
+          "question": "Il popolarissimo termine colloquiale, nato e diffuso a dismisura su internet negli ultimi anni, che indica i figli di celebrità facilitati nel fare carriera a Hollywood.",
+          "answer": "Nepo Baby"
+        }
       ]
     }
   },
   {
-    name: "Sport",
-    questions: {
-      100: [
-        { question: "Quanti giocatori ci sono in una squadra di calcio in campo?", answer: "Undici" },
-        { question: "In quale sport si usa una racchetta e una pallina gialla?", answer: "Tennis" },
-        { question: "Quale colore è associato alla maglia del leader del Giro d'Italia?", answer: "Rosa" },
-        { question: "In che sport spicca il campione LeBron James?", answer: "Pallacanestro (Basket)" },
-        { question: "Ogni quanti anni si tengono i Giochi Olimpici estivi?", answer: "Quattro" }
+    "name": "Sport",
+    "questions": {
+      "100": [
+        {
+          "question": "Quanti giocatori ci sono in una squadra di calcio in campo?",
+          "answer": "Undici"
+        },
+        {
+          "question": "In quale sport si usa una racchetta e una pallina gialla?",
+          "answer": "Tennis"
+        },
+        {
+          "question": "Quale colore è associato alla maglia del leader del Giro d'Italia?",
+          "answer": "Rosa"
+        },
+        {
+          "question": "In che sport spicca il campione LeBron James?",
+          "answer": "Pallacanestro (Basket)"
+        },
+        {
+          "question": "Ogni quanti anni si tengono i Giochi Olimpici estivi?",
+          "answer": "Quattro"
+        },
+        {
+          "question": "This sport features a net, a racket, and love.",
+          "answer": "Tennis"
+        },
+        {
+          "question": "In this sport, a 'touchdown' is worth 6 points.",
+          "answer": "American Football"
+        },
+        {
+          "question": "The NBA is the premier professional league for this sport.",
+          "answer": "Basketball"
+        },
+        {
+          "question": "A standard game of soccer lasts this many minutes, plus stoppage time.",
+          "answer": "90"
+        },
+        {
+          "question": "This piece of equipment is hit with a club in golf.",
+          "answer": "Golf ball"
+        },
+        {
+          "question": "In baseball, this player throws the ball to the batter.",
+          "answer": "Pitcher"
+        },
+        {
+          "question": "This martial art's name translates to 'empty hand'.",
+          "answer": "Karate"
+        },
+        {
+          "question": "In this sport, players try to knock down 10 pins with a heavy ball.",
+          "answer": "Bowling"
+        },
+        {
+          "question": "The Stanley Cup is awarded in this sport.",
+          "answer": "Ice Hockey"
+        },
+        {
+          "question": "This track event is exactly 26.2 miles long.",
+          "answer": "Marathon"
+        },
+        {
+          "question": "This swimming stroke is often considered the fastest and is used in freestyle events.",
+          "answer": "Freestyle"
+        },
+        {
+          "question": "In boxing, a KO stands for this.",
+          "answer": "Knockout"
+        },
+        {
+          "question": "You need a board, waves, and good balance for this water sport.",
+          "answer": "Surfing"
+        },
+        {
+          "question": "This sport is played on a diamond-shaped field.",
+          "answer": "Baseball"
+        },
+        {
+          "question": "In this sport, you hit a shuttlecock over a net.",
+          "answer": "Badminton"
+        },
+        {
+          "question": "The Tour de France is a famous race in this sport.",
+          "answer": "Cycling"
+        },
+        {
+          "question": "In American football, this position usually throws the ball.",
+          "answer": "Quarterback"
+        },
+        {
+          "question": "This sport uses a heavy iron ball attached to a wire, thrown for distance.",
+          "answer": "Hammer throw"
+        },
+        {
+          "question": "A 'hole-in-one' is a coveted achievement in this sport.",
+          "answer": "Golf"
+        },
+        {
+          "question": "In this sport, a heavy stone is slid across the ice toward a target area.",
+          "answer": "Curling"
+        },
+        {
+          "question": "In what sport would you perform a slam dunk?",
+          "answer": "Basketball"
+        },
+        {
+          "question": "What is the maximum number of clubs a golfer is allowed to carry in their bag during a round?",
+          "answer": "14"
+        },
+        {
+          "question": "In bowling, what is it called when you knock down all the pins on your first roll?",
+          "answer": "Strike"
+        },
+        {
+          "question": "Which sport is played on a pitch with a bat and a small hard ball, and features a bowler and a wicketkeeper?",
+          "answer": "Cricket"
+        },
+        {
+          "question": "What sport features the terms 'love', 'deuce', and 'advantage'?",
+          "answer": "Tennis"
+        },
+        {
+          "question": "In American football, how many points is a touchdown worth?",
+          "answer": "6"
+        },
+        {
+          "question": "What is the name of the object used instead of a ball in ice hockey?",
+          "answer": "Puck"
+        },
+        {
+          "question": "Which piece is often considered the most powerful in a game of chess?",
+          "answer": "Queen"
+        },
+        {
+          "question": "What color is the center ring in a traditional archery target?",
+          "answer": "Yellow (or Gold)"
+        },
+        {
+          "question": "In soccer, what part of the body cannot intentionally touch the ball for outfield players?",
+          "answer": "Hands (or Arms)"
+        },
+        {
+          "question": "How many bases are there on a baseball diamond, excluding home plate?",
+          "answer": "3"
+        },
+        {
+          "question": "Which martial art translates to 'gentle way' and emphasizes throws and grappling?",
+          "answer": "Judo"
+        },
+        {
+          "question": "What is the primary governing body for international association football?",
+          "answer": "FIFA"
+        },
+        {
+          "question": "In what sport do teams compete to sweep a stone across the ice towards a target?",
+          "answer": "Curling"
+        },
+        {
+          "question": "What piece of equipment is used to hit a shuttlecock in badminton?",
+          "answer": "Racket"
+        },
+        {
+          "question": "In what track and field event do athletes pass a baton to each other?",
+          "answer": "Relay"
+        },
+        {
+          "question": "What animal is ridden in equestrian sports?",
+          "answer": "Horse"
+        },
+        {
+          "question": "Which swimming stroke is performed on the back?",
+          "answer": "Backstroke"
+        },
+        {
+          "question": "What is the standard length of a marathon in miles?",
+          "answer": "26.2 miles"
+        },
+        {
+          "question": "In boxing, what is it called when a fighter is knocked down and cannot stand up before the referee counts to ten?",
+          "answer": "Knockout (KO)"
+        }
       ],
-      200: [
-        { question: "In quale sport i giocatori fanno 'meta'?", answer: "Rugby" },
-        { question: "Quale pilota ha vinto sette titoli mondiali in Formula 1 insieme a Lewis Hamilton?", answer: "Michael Schumacher" },
-        { question: "Dove sono state ospitate le Olimpiadi del 2020 (svolte nel 2021 a causa del Covid)?", answer: "Tokyo" },
-        { question: "Quanti round ha di solito un incontro professionistico di pugilato per il titolo?", answer: "Dodici" },
-        { question: "Quale nazione ha vinto più Coppe del Mondo di calcio maschile?", answer: "Brasile" }
+      "200": [
+        {
+          "question": "In quale sport i giocatori fanno 'meta'?",
+          "answer": "Rugby"
+        },
+        {
+          "question": "Quale pilota ha vinto sette titoli mondiali in Formula 1 insieme a Lewis Hamilton?",
+          "answer": "Michael Schumacher"
+        },
+        {
+          "question": "Dove sono state ospitate le Olimpiadi del 2020 (svolte nel 2021 a causa del Covid)?",
+          "answer": "Tokyo"
+        },
+        {
+          "question": "Quanti round ha di solito un incontro professionistico di pugilato per il titolo?",
+          "answer": "Dodici"
+        },
+        {
+          "question": "Quale nazione ha vinto più Coppe del Mondo di calcio maschile?",
+          "answer": "Brasile"
+        },
+        {
+          "question": "In tennis, this score means zero.",
+          "answer": "Love"
+        },
+        {
+          "question": "This country won the first-ever FIFA Men's World Cup in 1930.",
+          "answer": "Uruguay"
+        },
+        {
+          "question": "Michael Phelps holds the record for the most Olympic gold medals in this sport.",
+          "answer": "Swimming"
+        },
+        {
+          "question": "This basketball legend is often referred to by his initials, MJ.",
+          "answer": "Michael Jordan"
+        },
+        {
+          "question": "In rugby, a 'try' is worth this many points.",
+          "answer": "5"
+        },
+        {
+          "question": "This Grand Slam tennis tournament is played on clay courts.",
+          "answer": "French Open"
+        },
+        {
+          "question": "This Jamaican sprinter set world records in the 100m and 200m at the 2009 World Championships.",
+          "answer": "Usain Bolt"
+        },
+        {
+          "question": "In a standard game of volleyball, this many players from one team are on the court at a time.",
+          "answer": "6"
+        },
+        {
+          "question": "This legendary boxer was known as 'The Greatest' and famously said 'Float like a butterfly, sting like a bee.'",
+          "answer": "Muhammad Ali"
+        },
+        {
+          "question": "In golf, completing a hole one stroke under par is called this.",
+          "answer": "Birdie"
+        },
+        {
+          "question": "This team sport is played on horseback and involves hitting a ball with a wooden mallet.",
+          "answer": "Polo"
+        },
+        {
+          "question": "This NFL team has a star on its helmet and is often called 'America\\'s Team.'",
+          "answer": "Dallas Cowboys"
+        },
+        {
+          "question": "The Ryder Cup is a biennial competition in this sport.",
+          "answer": "Golf"
+        },
+        {
+          "question": "This country is considered the birthplace of modern golf.",
+          "answer": "Scotland"
+        },
+        {
+          "question": "This gymnast scored the first perfect 10 at the 1976 Olympics.",
+          "answer": "Nadia Comaneci"
+        },
+        {
+          "question": "In baseball, this many strikes mean the batter is out.",
+          "answer": "3"
+        },
+        {
+          "question": "This sport is also known as ping-pong.",
+          "answer": "Table Tennis"
+        },
+        {
+          "question": "In ice hockey, a team is allowed this many players on the ice at one time, including the goalie.",
+          "answer": "6"
+        },
+        {
+          "question": "This Brazilian football star is known simply by one name and won three World Cups.",
+          "answer": "Pele"
+        },
+        {
+          "question": "In fencing, this is the name of the lightest and most common weapon used.",
+          "answer": "Foil"
+        },
+        {
+          "question": "What international multi-sport event is held every four years and features both Summer and Winter games?",
+          "answer": "The Olympics"
+        },
+        {
+          "question": "In golf, what term describes scoring one stroke under par on a hole?",
+          "answer": "Birdie"
+        },
+        {
+          "question": "Which country is credited with inventing the modern game of table tennis, originally calling it 'Whiff-Whaff'?",
+          "answer": "England"
+        },
+        {
+          "question": "In volleyball, how many players are on the court for one team at a time?",
+          "answer": "6"
+        },
+        {
+          "question": "What is the term for a perfect score of 300 in a game of ten-pin bowling?",
+          "answer": "Perfect Game"
+        },
+        {
+          "question": "Which Grand Slam tennis tournament is played on clay courts?",
+          "answer": "French Open (Roland Garros)"
+        },
+        {
+          "question": "In basketball, how far from the hoop is the free-throw line?",
+          "answer": "15 feet"
+        },
+        {
+          "question": "What is the only country to have played in every single FIFA World Cup tournament?",
+          "answer": "Brazil"
+        },
+        {
+          "question": "In what sport might you 'catch a crab'?",
+          "answer": "Rowing"
+        },
+        {
+          "question": "Which Formula 1 team is famous for its bright red cars and 'prancing horse' logo?",
+          "answer": "Ferrari"
+        },
+        {
+          "question": "What is the name of the highest professional basketball league in North America?",
+          "answer": "NBA"
+        },
+        {
+          "question": "In rugby union, how many points is a try worth?",
+          "answer": "5"
+        },
+        {
+          "question": "What do the letters 'BMX' stand for in cycling?",
+          "answer": "Bicycle Motocross"
+        },
+        {
+          "question": "In fencing, which of the three weapons has a valid target area limited strictly to the torso?",
+          "answer": "Foil"
+        },
+        {
+          "question": "What is the hardest belt to earn in traditional Karate before achieving a black belt?",
+          "answer": "Brown belt"
+        },
+        {
+          "question": "In darts, what is the value of the outer bullseye?",
+          "answer": "25"
+        },
+        {
+          "question": "Which sport uses a specialized heavy ball with three finger holes?",
+          "answer": "Bowling"
+        },
+        {
+          "question": "In gymnastics, the pommel horse is traditionally an apparatus used only by which gender?",
+          "answer": "Men"
+        },
+        {
+          "question": "What is the name of the championship series in Major League Baseball?",
+          "answer": "World Series"
+        },
+        {
+          "question": "In what sport do competitors ride on a small sled down a frozen track face-first?",
+          "answer": "Skeleton"
+        }
       ],
-      300: [
-        { question: "In quale sport si usa il termine 'Fuoricampo' (Home Run)?", answer: "Baseball" },
-        { question: "Come si chiama la pista su cui gareggiano i ciclisti su pista?", answer: "Velodromo" },
-        { question: "Chi è il tennista spagnolo conosciuto come il 'Re della terra rossa'?", answer: "Rafael Nadal" },
-        { question: "In quale sport su ghiaccio si usa un disco nero chiamato 'puck'?", answer: "Hockey su ghiaccio" },
-        { question: "Qual è il punteggio perfetto in una partita di bowling?", answer: "300" }
+      "300": [
+        {
+          "question": "In quale sport si usa il termine 'Fuoricampo' (Home Run)?",
+          "answer": "Baseball"
+        },
+        {
+          "question": "Come si chiama la pista su cui gareggiano i ciclisti su pista?",
+          "answer": "Velodromo"
+        },
+        {
+          "question": "Chi è il tennista spagnolo conosciuto come il 'Re della terra rossa'?",
+          "answer": "Rafael Nadal"
+        },
+        {
+          "question": "In quale sport su ghiaccio si usa un disco nero chiamato 'puck'?",
+          "answer": "Hockey su ghiaccio"
+        },
+        {
+          "question": "Qual è il punteggio perfetto in una partita di bowling?",
+          "answer": "300"
+        },
+        {
+          "question": "This city hosted the 2016 Summer Olympics.",
+          "answer": "Rio de Janeiro"
+        },
+        {
+          "question": "In basketball, James Naismith used these as the first hoops.",
+          "answer": "Peach baskets"
+        },
+        {
+          "question": "This Formula 1 driver holds the record for the most World Championships, tied with Michael Schumacher at seven.",
+          "answer": "Lewis Hamilton"
+        },
+        {
+          "question": "The 'Ashes' is a famous cricket series played between England and this country.",
+          "answer": "Australia"
+        },
+        {
+          "question": "This NFL quarterback holds the record for the most Super Bowl rings won by a player.",
+          "answer": "Tom Brady"
+        },
+        {
+          "question": "In snooker, this colored ball is worth the most points, at 7.",
+          "answer": "Black"
+        },
+        {
+          "question": "This female tennis player has won 23 Grand Slam singles titles in the Open Era.",
+          "answer": "Serena Williams"
+        },
+        {
+          "question": "In the decathlon, athletes compete in this many different track and field events.",
+          "answer": "10"
+        },
+        {
+          "question": "This country has won the most medals in the history of the Winter Olympics.",
+          "answer": "Norway"
+        },
+        {
+          "question": "The Green Jacket is awarded to the winner of this major golf tournament.",
+          "answer": "The Masters"
+        },
+        {
+          "question": "In sumo wrestling, the highest rank a wrestler can achieve is called this.",
+          "answer": "Yokozuna"
+        },
+        {
+          "question": "This NHL player is widely known as 'The Great One.'",
+          "answer": "Wayne Gretzky"
+        },
+        {
+          "question": "In a game of darts, this is the highest possible score with three darts.",
+          "answer": "180"
+        },
+        {
+          "question": "The Vince Lombardi Trophy is awarded to the winner of this championship game.",
+          "answer": "Super Bowl"
+        },
+        {
+          "question": "This type of race involves swimming, cycling, and running.",
+          "answer": "Triathlon"
+        },
+        {
+          "question": "In judo, a match is instantly won if a competitor scores this point.",
+          "answer": "Ippon"
+        },
+        {
+          "question": "This African country was the first from the continent to host a FIFA World Cup in 2010.",
+          "answer": "South Africa"
+        },
+        {
+          "question": "In American football, this is the length of the field from goal line to goal line, excluding the end zones.",
+          "answer": "100 yards"
+        },
+        {
+          "question": "This famous stadium in London is known as the 'Home of Football.'",
+          "answer": "Wembley Stadium"
+        },
+        {
+          "question": "In figure skating, this jump is the only one that takes off from a forward edge.",
+          "answer": "Axel"
+        },
+        {
+          "question": "Who holds the record for the most Olympic gold medals won by a single athlete?",
+          "answer": "Michael Phelps"
+        },
+        {
+          "question": "In cricket, what is it called when a bowler takes three wickets on consecutive deliveries?",
+          "answer": "Hat-trick"
+        },
+        {
+          "question": "Which prestigious cycling race concludes on the Champs-Élysées in Paris?",
+          "answer": "Tour de France"
+        },
+        {
+          "question": "What is the diameter of a standard basketball hoop in inches?",
+          "answer": "18 inches"
+        },
+        {
+          "question": "In the NFL, what team won the very first Super Bowl in 1967?",
+          "answer": "Green Bay Packers"
+        },
+        {
+          "question": "Which golf major is held annually at the Augusta National Golf Club?",
+          "answer": "The Masters"
+        },
+        {
+          "question": "What material is a standard Major League Baseball bat made from?",
+          "answer": "Wood (Ash or Maple)"
+        },
+        {
+          "question": "In snooker, how many points is the black ball worth?",
+          "answer": "7"
+        },
+        {
+          "question": "Which country won the first ever Rugby World Cup in 1987?",
+          "answer": "New Zealand"
+        },
+        {
+          "question": "What is the official distance of an Ironman Triathlon swim?",
+          "answer": "2.4 miles"
+        },
+        {
+          "question": "In ice hockey, what trophy is awarded annually to the National Hockey League playoff champion?",
+          "answer": "Stanley Cup"
+        },
+        {
+          "question": "Which sport is contested for the Ryder Cup?",
+          "answer": "Golf"
+        },
+        {
+          "question": "In water polo, how many players are in the water for one team during regular play?",
+          "answer": "7"
+        },
+        {
+          "question": "What is the name of the area where a baseball pitcher warms up during a game?",
+          "answer": "Bullpen"
+        },
+        {
+          "question": "Which two teams contest the annual Boat Race on the River Thames?",
+          "answer": "Oxford and Cambridge"
+        },
+        {
+          "question": "What color jersey is worn by the overall leader in the Tour de France?",
+          "answer": "Yellow"
+        },
+        {
+          "question": "In track and field, the decathlon consists of how many events?",
+          "answer": "10"
+        },
+        {
+          "question": "Which Asian martial art features a fighting style heavily utilizing kicks and translates to 'the way of the foot and fist'?",
+          "answer": "Taekwondo"
+        },
+        {
+          "question": "What was the first city to host the modern Olympic Games twice?",
+          "answer": "Paris"
+        },
+        {
+          "question": "In what sport do players use a mallet to hit a wooden or plastic ball through hoops embedded in a grass court?",
+          "answer": "Croquet"
+        }
       ],
-      400: [
-        { question: "Quale nuotatore americano detiene il record per il maggior numero di medaglie d'oro olimpiche vinte in carriera (23)?", answer: "Michael Phelps" },
-        { question: "Come si chiama il premio assegnato al miglior giocatore della NFL durante il Super Bowl?", answer: "MVP del Super Bowl" },
-        { question: "Qual è la distanza ufficiale di una maratona in chilometri?", answer: "42,195 km" },
-        { question: "In quale specialità dell'atletica leggera l'atleta usa un'asta per superare un'asticella?", answer: "Salto con l'asta" },
-        { question: "Chi detiene il record del mondo nei 100 metri piani maschili (9.58)?", answer: "Usain Bolt" }
+      "400": [
+        {
+          "question": "Quale nuotatore americano detiene il record per il maggior numero di medaglie d'oro olimpiche vinte in carriera (23)?",
+          "answer": "Michael Phelps"
+        },
+        {
+          "question": "Come si chiama il premio assegnato al miglior giocatore della NFL durante il Super Bowl?",
+          "answer": "MVP del Super Bowl"
+        },
+        {
+          "question": "Qual è la distanza ufficiale di una maratona in chilometri?",
+          "answer": "42,195 km"
+        },
+        {
+          "question": "In quale specialità dell'atletica leggera l'atleta usa un'asta per superare un'asticella?",
+          "answer": "Salto con l'asta"
+        },
+        {
+          "question": "Chi detiene il record del mondo nei 100 metri piani maschili (9.58)?",
+          "answer": "Usain Bolt"
+        },
+        {
+          "question": "This country won the first-ever Rugby World Cup in 1987.",
+          "answer": "New Zealand"
+        },
+        {
+          "question": "In chess, this is the only piece that can jump over other pieces.",
+          "answer": "Knight"
+        },
+        {
+          "question": "This legendary baseball player was nicknamed 'The Sultan of Swat.'",
+          "answer": "Babe Ruth"
+        },
+        {
+          "question": "The term 'albatross' in golf refers to completing a hole this many strokes under par.",
+          "answer": "3"
+        },
+        {
+          "question": "This Argentine footballer scored the famous 'Hand of God' goal in the 1986 World Cup.",
+          "answer": "Diego Maradona"
+        },
+        {
+          "question": "In badminton, the Thomas Cup is the premier international championship for this gender.",
+          "answer": "Men"
+        },
+        {
+          "question": "This city is home to the famous Wimbledon tennis tournament.",
+          "answer": "London"
+        },
+        {
+          "question": "The 'Triple Crown' in thoroughbred racing consists of the Kentucky Derby, the Preakness Stakes, and this race.",
+          "answer": "Belmont Stakes"
+        },
+        {
+          "question": "In water polo, there are this many players on a team in the water during play.",
+          "answer": "7"
+        },
+        {
+          "question": "This MLB pitcher holds the all-time record for career strikeouts with 5,714.",
+          "answer": "Nolan Ryan"
+        },
+        {
+          "question": "The sport of sepaktakraw is native to this region of the world.",
+          "answer": "Southeast Asia"
+        },
+        {
+          "question": "This NHL team holds the record for the most Stanley Cup championships.",
+          "answer": "Montreal Canadiens"
+        },
+        {
+          "question": "In cricket, this term describes a bowler taking three wickets with three consecutive deliveries.",
+          "answer": "Hat-trick"
+        },
+        {
+          "question": "This woman was the first female driver to win an IndyCar Series race.",
+          "answer": "Danica Patrick"
+        },
+        {
+          "question": "This Olympic sport combines cross-country skiing and rifle shooting.",
+          "answer": "Biathlon"
+        },
+        {
+          "question": "In basketball, this player scored 100 points in a single NBA game in 1962.",
+          "answer": "Wilt Chamberlain"
+        },
+        {
+          "question": "This country has won the most medals in the history of the Summer Olympics.",
+          "answer": "United States"
+        },
+        {
+          "question": "The Jules Rimet Trophy was the original prize for winning this competition.",
+          "answer": "FIFA World Cup"
+        },
+        {
+          "question": "In bowling, three consecutive strikes are known by this term.",
+          "answer": "Turkey"
+        },
+        {
+          "question": "This martial art from Brazil combines elements of dance, acrobatics, and music.",
+          "answer": "Capoeira"
+        },
+        {
+          "question": "What is the maximum break possible in a standard game of snooker without the help of a free ball?",
+          "answer": "147"
+        },
+        {
+          "question": "Who was the first female tennis player to achieve a 'Golden Slam' by winning all four majors and Olympic gold in one calendar year?",
+          "answer": "Steffi Graf"
+        },
+        {
+          "question": "In horse racing, which three races make up the American Triple Crown?",
+          "answer": "Kentucky Derby, Preakness Stakes, Belmont Stakes"
+        },
+        {
+          "question": "What is the national sport of Japan, involving large wrestlers attempting to force each other out of a circular ring?",
+          "answer": "Sumo"
+        },
+        {
+          "question": "In the game of polo, how many periods, or 'chukkas', are typically played in a standard match?",
+          "answer": "6"
+        },
+        {
+          "question": "Which country is the all-time leading medal winner in the Winter Olympics?",
+          "answer": "Norway"
+        },
+        {
+          "question": "In the decathlon, what is always the final event?",
+          "answer": "1500 meters"
+        },
+        {
+          "question": "Which legendary boxer was born Cassius Clay before changing his name?",
+          "answer": "Muhammad Ali"
+        },
+        {
+          "question": "What is the only sport where the competitors are not allowed to cross the center line of the playing area, yet they constantly hit a projectile back and forth?",
+          "answer": "Volleyball"
+        },
+        {
+          "question": "Who holds the record for the most goals scored in a single NHL season?",
+          "answer": "Wayne Gretzky"
+        },
+        {
+          "question": "In Formula 1, which driver has won the most World Championships alongside Lewis Hamilton?",
+          "answer": "Michael Schumacher"
+        },
+        {
+          "question": "What piece of sporting equipment was completely revolutionized by the introduction of the 'dimple pattern' in 1905?",
+          "answer": "Golf ball"
+        },
+        {
+          "question": "What unusual name is given to the person who steers a bobsled or steers a rowing shell?",
+          "answer": "Coxswain"
+        },
+        {
+          "question": "In which sport is the 'Davis Cup' awarded to the winning men's national team?",
+          "answer": "Tennis"
+        },
+        {
+          "question": "Which country won the inaugural ICC Men's T20 World Cup in 2007?",
+          "answer": "India"
+        },
+        {
+          "question": "In the sport of biathlon, competitors combine cross-country skiing with what other discipline?",
+          "answer": "Rifle shooting"
+        },
+        {
+          "question": "What is the term for a golf score of three strokes under par on a single hole?",
+          "answer": "Albatross (or Double Eagle)"
+        },
+        {
+          "question": "In weightlifting, what are the two competition lifts performed at the Olympics?",
+          "answer": "Snatch and Clean and Jerk"
+        },
+        {
+          "question": "Which team holds the record for the most consecutive wins in NBA history with 33?",
+          "answer": "Los Angeles Lakers"
+        },
+        {
+          "question": "What is the name of the traditional Maori dance performed by the New Zealand rugby team before a match?",
+          "answer": "Haka"
+        }
       ],
-      500: [
-        { question: "Come si chiama l'attuale sistema di punteggio del decathlon, introdotto nel 1984 e in vigore ancora oggi?", answer: "Tabelle di punteggio IAAF" },
-        { question: "Quale nazione ha ospitato la prima edizione della Coppa del Mondo di calcio nel 1930 (vincendola)?", answer: "Uruguay" },
-        { question: "Chi è stato il primo pugile a sconfiggere Muhammad Ali da professionista?", answer: "Joe Frazier" },
-        { question: "Nel golf, come viene chiamato il punteggio di tre colpi sotto il par in una singola buca?", answer: "Albatross (o Doppio Eagle)" },
-        { question: "Quale squadra di basket NBA ha stabilito il record di 73 vittorie nella stagione regolare nel 2015-2016?", answer: "Golden State Warriors" }
+      "500": [
+        {
+          "question": "Come si chiama l'attuale sistema di punteggio del decathlon, introdotto nel 1984 e in vigore ancora oggi?",
+          "answer": "Tabelle di punteggio IAAF"
+        },
+        {
+          "question": "Quale nazione ha ospitato la prima edizione della Coppa del Mondo di calcio nel 1930 (vincendola)?",
+          "answer": "Uruguay"
+        },
+        {
+          "question": "Chi è stato il primo pugile a sconfiggere Muhammad Ali da professionista?",
+          "answer": "Joe Frazier"
+        },
+        {
+          "question": "Nel golf, come viene chiamato il punteggio di tre colpi sotto il par in una singola buca?",
+          "answer": "Albatross (o Doppio Eagle)"
+        },
+        {
+          "question": "Quale squadra di basket NBA ha stabilito il record di 73 vittorie nella stagione regolare nel 2015-2016?",
+          "answer": "Golden State Warriors"
+        },
+        {
+          "question": "This track athlete famously won four gold medals at the 1936 Berlin Olympics.",
+          "answer": "Jesse Owens"
+        },
+        {
+          "question": "In 1954, this British runner became the first person to run a mile in under four minutes.",
+          "answer": "Roger Bannister"
+        },
+        {
+          "question": "This golfer holds the record for the most consecutive weeks at World Number 1, with 281 weeks.",
+          "answer": "Tiger Woods"
+        },
+        {
+          "question": "The sport of Korfball, which features mixed-gender teams, originated in this European country.",
+          "answer": "Netherlands"
+        },
+        {
+          "question": "In Major League Baseball, this player holds the record for the longest hitting streak at 56 games.",
+          "answer": "Joe DiMaggio"
+        },
+        {
+          "question": "This surfer is often credited as the 'father of modern surfing' and popularized the sport globally in the early 20th century.",
+          "answer": "Duke Kahanamoku"
+        },
+        {
+          "question": "In the Tour de France, the 'Maillot à Pois Rouges' is awarded to the leader in this classification.",
+          "answer": "Mountains classification"
+        },
+        {
+          "question": "This country won the gold medal in ice hockey at the 1980 'Miracle on Ice' Olympic game.",
+          "answer": "United States"
+        },
+        {
+          "question": "This Italian motorcycle racer has won nine Grand Prix World Championships, seven of which are in the premier class.",
+          "answer": "Valentino Rossi"
+        },
+        {
+          "question": "In professional wrestling, this annual WWE pay-per-view event is often referred to as 'The Grandest Stage of Them All.'",
+          "answer": "WrestleMania"
+        },
+        {
+          "question": "This Spanish football club has won the most UEFA Champions League titles.",
+          "answer": "Real Madrid"
+        },
+        {
+          "question": "In athletics, the Fosbury Flop is a technique used in this event.",
+          "answer": "High jump"
+        },
+        {
+          "question": "This NBA franchise drafted Kobe Bryant in 1996 before trading him to the Lakers.",
+          "answer": "Charlotte Hornets"
+        },
+        {
+          "question": "In cricket, Sir Donald Bradman holds the record for the highest career batting average, which is this impressive number.",
+          "answer": "99.94"
+        },
+        {
+          "question": "This horse is considered one of the greatest racehorses of all time, winning the Triple Crown in 1973.",
+          "answer": "Secretariat"
+        },
+        {
+          "question": "In snooker, a 'maximum break' consists of potting all 15 reds with blacks, followed by all the colors, resulting in this many points.",
+          "answer": "147"
+        },
+        {
+          "question": "This female gymnast won four gold medals at the 2016 Rio Olympics and is considered one of the greatest of all time.",
+          "answer": "Simone Biles"
+        },
+        {
+          "question": "The America's Cup is a prestigious trophy awarded in this sport.",
+          "answer": "Sailing"
+        },
+        {
+          "question": "This boxer retired with a perfect professional record of 50-0.",
+          "answer": "Floyd Mayweather Jr."
+        },
+        {
+          "question": "In Australian Rules Football, this is the name of the premier professional league.",
+          "answer": "AFL"
+        },
+        {
+          "question": "In what year did the 'Miracle on Ice' occur, when the US men's ice hockey team defeated the heavily favored Soviet team?",
+          "answer": "1980"
+        },
+        {
+          "question": "Who is the only person to have played in both a Super Bowl and a World Series?",
+          "answer": "Deion Sanders"
+        },
+        {
+          "question": "Which South American country won the first ever FIFA World Cup in 1930?",
+          "answer": "Uruguay"
+        },
+        {
+          "question": "What is the highest possible score a judge can award a diver for a single dive before difficulty multipliers?",
+          "answer": "10"
+        },
+        {
+          "question": "In the game of squash, what happens if the ball hits the 'tin' at the bottom of the front wall?",
+          "answer": "It is out (or a fault)"
+        },
+        {
+          "question": "What was the first sport to be played on the moon?",
+          "answer": "Golf"
+        },
+        {
+          "question": "Which country is the traditional home of the martial art Muay Thai?",
+          "answer": "Thailand"
+        },
+        {
+          "question": "In fencing, the target area for the épée includes what parts of the body?",
+          "answer": "The entire body"
+        },
+        {
+          "question": "Who holds the record for the fastest serve ever recorded in professional men's tennis?",
+          "answer": "Sam Groth"
+        },
+        {
+          "question": "Which NBA player scored exactly 100 points in a single game in 1962?",
+          "answer": "Wilt Chamberlain"
+        },
+        {
+          "question": "What is the name of the international team competition in women's golf, analogous to the men's Ryder Cup?",
+          "answer": "Solheim Cup"
+        },
+        {
+          "question": "In modern pentathlon, which five sports are contested?",
+          "answer": "Fencing, swimming, equestrian show jumping, pistol shooting, cross-country running"
+        },
+        {
+          "question": "What is the oldest continuing sporting competition in North America, predating the Kentucky Derby by 15 years?",
+          "answer": "The Queen's Plate"
+        },
+        {
+          "question": "Which track athlete was stripped of his 100m gold medal at the 1988 Seoul Olympics due to doping?",
+          "answer": "Ben Johnson"
+        },
+        {
+          "question": "In baseball, what rare feat is accomplished when a batter hits a single, double, triple, and home run in the same game?",
+          "answer": "Hitting for the cycle"
+        },
+        {
+          "question": "Which team has won the most UEFA Champions League titles in football history?",
+          "answer": "Real Madrid"
+        },
+        {
+          "question": "What ancient sport, combining boxing and wrestling with very few rules, was featured in the original Greek Olympic Games?",
+          "answer": "Pankration"
+        },
+        {
+          "question": "In curling, what is the term for a stone that completely covers the button at the center of the house?",
+          "answer": "Lid"
+        },
+        {
+          "question": "Who was the first unseeded player to win the men's singles title at Wimbledon?",
+          "answer": "Boris Becker"
+        },
+        {
+          "question": "In Australian Rules Football, how many points is a 'behind' worth?",
+          "answer": "1"
+        }
       ]
     }
   }

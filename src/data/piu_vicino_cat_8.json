@@ -746,5 +746,805 @@
     "answer": 15000,
     "unit": "l",
     "category": "Cucina e Tradizioni"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è stata lanciata sul mercato la crema spalmabile Nutella?",
+    "min": 1900,
+    "max": 2000,
+    "answer": 1964,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti grammi di pasta ci sono tipicamente in una porzione raccomandata in Italia?",
+    "min": 40,
+    "max": 150,
+    "answer": 80,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In quale anno è stata aperta l'Antica Pizzeria Port'Alba, considerata la prima pizzeria di Napoli?",
+    "min": 1700,
+    "max": 1900,
+    "answer": 1830,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "A quale temperatura bolle l'acqua a livello del mare?",
+    "min": 50,
+    "max": 150,
+    "answer": 100,
+    "unit": "°C"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti ingredienti prevede la ricetta originale del pesto alla genovese della Confraternita del Pesto?",
+    "min": 3,
+    "max": 15,
+    "answer": 7,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante calorie contiene approssimativamente un grammo di grassi alimentari?",
+    "min": 1,
+    "max": 20,
+    "answer": 9,
+    "unit": "kcal"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è nato il celebre cocktail Negroni a Firenze?",
+    "min": 1850,
+    "max": 1980,
+    "answer": 1919,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti litri di latte sono necessari per produrre una forma media di Parmigiano Reggiano?",
+    "min": 100,
+    "max": 1000,
+    "answer": 550,
+    "unit": "L"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In quale anno (scrivi l'anno intero) è stato inventato il Tiramisù a Treviso (es. 1970)?",
+    "min": 1900,
+    "max": 2000,
+    "answer": 1970,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti mesi deve stagionare come minimo il Prosciutto di Parma DOP?",
+    "min": 6,
+    "max": 36,
+    "answer": 14,
+    "unit": "mesi"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante regioni italiane sono classificate come produttrici di vino?",
+    "min": 10,
+    "max": 30,
+    "answer": 20,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Qual è la temperatura ideale per cuocere la pizza napoletana nel forno a legna?",
+    "min": 250,
+    "max": 600,
+    "answer": 485,
+    "unit": "°C"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti caffè espresso si ricavano mediamente da un chilogrammo di caffè in grani?",
+    "min": 50,
+    "max": 300,
+    "answer": 140,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti petali ha tipicamente il fiore dello zafferano (Crocus sativus)?",
+    "min": 2,
+    "max": 12,
+    "answer": 6,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti fiori di zafferano servono approssimativamente per ottenere un grammo di spezia essiccata?",
+    "min": 10,
+    "max": 500,
+    "answer": 150,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è stato pubblicato il famoso manuale 'La scienza in cucina e l'arte di mangiar bene' di Pellegrino Artusi?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1891,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti grammi di zucchero ci sono in una classica lattina da 33 cl di Coca-Cola?",
+    "min": 5,
+    "max": 80,
+    "answer": 35,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Qual è la percentuale minima di cacao richiesta dalla normativa per definire un cioccolato 'fondente'?",
+    "min": 20,
+    "max": 80,
+    "answer": 43,
+    "unit": "%"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno McDonald's ha aperto il suo primo ristorante in Italia, a Roma?",
+    "min": 1960,
+    "max": 2010,
+    "answer": 1986,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti minuti cuoce mediamente la pasta di formato 'Spaghetti' di grano duro trafilata al bronzo?",
+    "min": 3,
+    "max": 20,
+    "answer": 10,
+    "unit": "min"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante bottiglie di vino da 75cl contiene una cassa standard (formato borgognotta o bordolese)?",
+    "min": 2,
+    "max": 12,
+    "answer": 6,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Qual è la gradazione alcolica tipica di un Limoncello commerciale tradizionale?",
+    "min": 15,
+    "max": 50,
+    "answer": 30,
+    "unit": "%"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante ore di lievitazione minima sono raccomandate per una pizza napoletana ad alta digeribilità?",
+    "min": 4,
+    "max": 72,
+    "answer": 24,
+    "unit": "ore"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti litri di birra si bevono pro capite all'anno in Repubblica Ceca (primo paese al mondo)?",
+    "min": 50,
+    "max": 300,
+    "answer": 140,
+    "unit": "L"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti tipi di formaggio francese esistono approssimativamente secondo la famosa citazione di Charles de Gaulle?",
+    "min": 50,
+    "max": 500,
+    "answer": 246,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In quale anno è stata commercializzata per la prima volta la birra in lattina?",
+    "min": 1850,
+    "max": 2000,
+    "answer": 1935,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante calorie ci sono in media in 100 grammi di mela fresca?",
+    "min": 10,
+    "max": 150,
+    "answer": 52,
+    "unit": "kcal"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti tuorli d'uovo per persona prevede in genere la ricetta tradizionale della carbonara?",
+    "min": 1,
+    "max": 5,
+    "answer": 1,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è stata brevettata la caffettiera Moka Express da Alfonso Bialetti?",
+    "min": 1900,
+    "max": 1980,
+    "answer": 1933,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti millilitri di bevanda ci sono in un tipico 'cicchetto' (shot) servito nei bar italiani?",
+    "min": 10,
+    "max": 100,
+    "answer": 40,
+    "unit": "ml"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanto pesa in media un uovo di gallina di calibro L (Grande)?",
+    "min": 30,
+    "max": 100,
+    "answer": 68,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti chilogrammi di olive servono mediamente per produrre un solo litro di olio extravergine di oliva?",
+    "min": 1,
+    "max": 20,
+    "answer": 6,
+    "unit": "kg"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "A che temperatura avviene la pastorizzazione rapida (HTST) del latte fresco per eliminare i batteri patogeni?",
+    "min": 40,
+    "max": 120,
+    "answer": 72,
+    "unit": "°C"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è stata inventata la macchina per produrre lo zucchero filato?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1897,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti grammi pesa tipicamente un panetto d'impasto per formare una pizza napoletana classica?",
+    "min": 100,
+    "max": 500,
+    "answer": 250,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti litri d'acqua dolce servono approssimativamente per produrre 1 kg di carne di manzo?",
+    "min": 1000,
+    "max": 50000,
+    "answer": 15400,
+    "unit": "L"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è stato fondato il movimento Slow Food in Italia da Carlo Petrini?",
+    "min": 1950,
+    "max": 2010,
+    "answer": 1986,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanto è lungo in centimetri uno spaghetto standard secco prima di essere cucinato?",
+    "min": 10,
+    "max": 50,
+    "answer": 25,
+    "unit": "cm"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti gradi alcolici possiede in media un prestigioso vino rosso come il Barolo?",
+    "min": 8,
+    "max": 20,
+    "answer": 14,
+    "unit": "%"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante once fluide (fluid ounces) ci sono in un bicchiere di 'pinta americana'?",
+    "min": 8,
+    "max": 30,
+    "answer": 16,
+    "unit": "oz"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante calorie contiene in media un bicchiere di vino rosso da 150 ml?",
+    "min": 50,
+    "max": 300,
+    "answer": 125,
+    "unit": "kcal"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti mesi minimi di stagionatura deve avere il formaggio Grana Padano per ottenere la dicitura 'Riserva'?",
+    "min": 10,
+    "max": 48,
+    "answer": 20,
+    "unit": "mesi"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante stelle Michelin detiene l'Osteria Francescana dello chef Massimo Bottura?",
+    "min": 1,
+    "max": 5,
+    "answer": 3,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "A quanti gradi Celsius inizia a fondere il burro a temperatura ambiente?",
+    "min": 10,
+    "max": 60,
+    "answer": 32,
+    "unit": "°C"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti milligrammi di caffeina si trovano mediamente in una tazzina di caffè espresso italiano (30ml)?",
+    "min": 10,
+    "max": 200,
+    "answer": 60,
+    "unit": "mg"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno l'ingegnere Percy Spencer ha inventato il primo forno a microonde?",
+    "min": 1900,
+    "max": 2000,
+    "answer": 1945,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti grammi di pregiato Tartufo Bianco d'Alba si consigliano come porzione tipica da grattugiare su un piatto di tagliolini?",
+    "min": 2,
+    "max": 50,
+    "answer": 10,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti sono gli ingredienti ufficiali per preparare il cocktail Mojito secondo l'Istruzione IBA?",
+    "min": 3,
+    "max": 10,
+    "answer": 5,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti mesi dura al minimo la stagionatura del Culatello di Zibello DOP, il re dei salumi?",
+    "min": 3,
+    "max": 36,
+    "answer": 10,
+    "unit": "mesi"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno il pomodoro venne citato per la prima volta in Italia dall'erborista Pietro Andrea Mattioli?",
+    "min": 1300,
+    "max": 1800,
+    "answer": 1544,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante varietà di mele esistono approssimativamente coltivate nel mondo?",
+    "min": 500,
+    "max": 20000,
+    "answer": 7500,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti milioni di ettolitri di vino ha prodotto l'Italia nel 2022, confermandosi tra i leader mondiali?",
+    "min": 10,
+    "max": 150,
+    "answer": 50,
+    "unit": "mln"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Qual è il grado di pH medio del succo di limone fresco?",
+    "min": 0,
+    "max": 7,
+    "answer": 2,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In quale anno è nato il famosissimo gelato Cornetto (poi acquisito da Algida)?",
+    "min": 1920,
+    "max": 2000,
+    "answer": 1959,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanto misura tipicamente in diametro il disco di una vera pizza napoletana al piatto?",
+    "min": 15,
+    "max": 50,
+    "answer": 30,
+    "unit": "cm"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti litri di vino contiene per convenzione una tradizionale 'barrique' di rovere francese?",
+    "min": 50,
+    "max": 500,
+    "answer": 225,
+    "unit": "L"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti chilogrammi di zucchero consuma in media un italiano adulto in un anno?",
+    "min": 5,
+    "max": 80,
+    "answer": 27,
+    "unit": "kg"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è stato servito il primo hamburger 'moderno' al Louis' Lunch di New Haven?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1900,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti strati di pasta all'uovo dovrebbe possibilmente avere una perfetta lasagna tradizionale emiliana?",
+    "min": 3,
+    "max": 15,
+    "answer": 6,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Qual è la percentuale di acqua contenuta in media in un'anguria matura?",
+    "min": 50,
+    "max": 99,
+    "answer": 92,
+    "unit": "%"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno fu creato per la prima volta l'aperitivo Aperol alla fiera di Padova?",
+    "min": 1850,
+    "max": 1980,
+    "answer": 1919,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "A quanti gradi Celsius si cuoce in modo ottimale sottovuoto un petto di pollo per mantenerlo succoso?",
+    "min": 40,
+    "max": 100,
+    "answer": 65,
+    "unit": "°C"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti chicchi di caffè tostato servono indicativamente per estrarre una tazzina di espresso perfetta?",
+    "min": 10,
+    "max": 150,
+    "answer": 50,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti litri di saliva (fondamentale per la digestione) produce mediamente un essere umano adulto in 24 ore?",
+    "min": 0,
+    "max": 5,
+    "answer": 1,
+    "unit": "L"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno Angelo Moriondo brevettò la prima macchina del caffè espresso commerciale a Torino?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1884,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanto pesa mediamente una castagna europea fresca non sbucciata?",
+    "min": 5,
+    "max": 50,
+    "answer": 15,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Qual è la gradazione alcolica minima prevista dal disciplinare per un vino Amarone della Valpolicella?",
+    "min": 8,
+    "max": 20,
+    "answer": 14,
+    "unit": "%"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti millimetri misura in genere il diametro o calibro di un maccherone trafilato tipico?",
+    "min": 2,
+    "max": 20,
+    "answer": 8,
+    "unit": "mm"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno fu aperta la prima gelateria moderna a Parigi, il famoso Café Procope?",
+    "min": 1500,
+    "max": 1850,
+    "answer": 1686,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti grammi di sale grosso andrebbero messi ogni 100g di pasta secca nell'acqua di ebollitura?",
+    "min": 1,
+    "max": 30,
+    "answer": 10,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno la celebre Guida Rossa Michelin ha introdotto l'assegnazione della prima 'stella' ai ristoranti?",
+    "min": 1850,
+    "max": 2000,
+    "answer": 1926,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante kilocalorie fornisce approssimativamente al corpo umano un grammo di alcol puro?",
+    "min": 1,
+    "max": 15,
+    "answer": 7,
+    "unit": "kcal"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante kilocalorie fornisce in media al corpo umano un grammo di proteine alimentari?",
+    "min": 1,
+    "max": 12,
+    "answer": 4,
+    "unit": "kcal"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti formati (tipi) diversi di pasta italiana esistono approssimativamente, secondo stime di settore?",
+    "min": 50,
+    "max": 1000,
+    "answer": 300,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanto pesava il gigantesco tartufo bianco record mondiale venduto all'asta di Sotheby's nel 2014?",
+    "min": 500,
+    "max": 5000,
+    "answer": 1890,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "A quanti grammi ammonta la dose giornaliera di fibra alimentare raccomandata dall'EFSA per un adulto?",
+    "min": 5,
+    "max": 100,
+    "answer": 30,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti grammi pesa tipicamente un classico 'panetto' rettangolare di burro in commercio in Italia?",
+    "min": 100,
+    "max": 500,
+    "answer": 250,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è stato inventato il Bubble Tea (tè con perle di tapioca) a Taiwan?",
+    "min": 1900,
+    "max": 2010,
+    "answer": 1980,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti anni richiede la maturazione minima dell'Aceto Balsamico Tradizionale di Modena DOP (versione 'Extra Vecchio')?",
+    "min": 5,
+    "max": 100,
+    "answer": 25,
+    "unit": "anni"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti grammi pesa di solito una classica zolletta di zucchero confezionata per il bar?",
+    "min": 1,
+    "max": 20,
+    "answer": 5,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno il mercante Thomas Sullivan inventò (casualmente) la bustina di tè in seta?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1904,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Qual è la gradazione alcolica della birra considerata tra le più forti al mondo, la scozzese 'Snake Venom'?",
+    "min": 20,
+    "max": 99,
+    "answer": 67,
+    "unit": "%"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti cucchiaini da tè equivalgono comunemente come volume a un cucchiaio da tavola?",
+    "min": 1,
+    "max": 10,
+    "answer": 3,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno il cacao e il cioccolato furono introdotti per la prima volta in Italia, alla corte di Firenze?",
+    "min": 1400,
+    "max": 1800,
+    "answer": 1606,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanto dovrebbe pesare mediamente una generosa porzione di gnocchi di patate per una persona?",
+    "min": 50,
+    "max": 400,
+    "answer": 200,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti spicchi (o 'denti') d'aglio sono contenuti tipicamente in un bulbo intero di dimensioni medie?",
+    "min": 2,
+    "max": 30,
+    "answer": 10,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti chilogrammi di latte produce mediamente in un giorno una moderna mucca da latte di razza Frisona?",
+    "min": 5,
+    "max": 80,
+    "answer": 28,
+    "unit": "kg"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno la Dieta Mediterranea è stata iscritta nella lista del Patrimonio Immateriale dell'UNESCO?",
+    "min": 1980,
+    "max": 2020,
+    "answer": 2010,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti minuti dura solitamente la cottura in acqua bollente per ottenere un perfetto uovo sodo?",
+    "min": 2,
+    "max": 20,
+    "answer": 8,
+    "unit": "min"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti millimetri di spessore ha in media una fetta di prosciutto crudo tagliata fine all'affettatrice?",
+    "min": 0,
+    "max": 5,
+    "answer": 1,
+    "unit": "mm"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è stato inaugurato il primissimo Eataly a Torino?",
+    "min": 1980,
+    "max": 2020,
+    "answer": 2007,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante foglie carnose possiede tipicamente la pianta del carciofo prima di arrivare al cuore?",
+    "min": 10,
+    "max": 150,
+    "answer": 40,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno è stata introdotta sul mercato europeo l'innovativa confezione di cartone Tetra Pak?",
+    "min": 1900,
+    "max": 2000,
+    "answer": 1951,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quante porzioni di frutta e verdura al giorno sono raccomandate dalle linee guida per una sana alimentazione (OMS)?",
+    "min": 1,
+    "max": 15,
+    "answer": 5,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti litri di vino si consumano in media pro capite all'anno in Italia (dati recenti)?",
+    "min": 10,
+    "max": 100,
+    "answer": 43,
+    "unit": "L"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti grammi di carboidrati si trovano in media in 100 grammi di normale pane bianco?",
+    "min": 10,
+    "max": 90,
+    "answer": 49,
+    "unit": "g"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In che anno il pasticcere veronese Domenico Melegatti ha ottenuto il brevetto per il Pandoro?",
+    "min": 1800,
+    "max": 1950,
+    "answer": 1894,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti spicchi separati possiede solitamente al suo interno un'arancia matura?",
+    "min": 4,
+    "max": 25,
+    "answer": 10,
+    "unit": ""
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "Quanti litri d'acqua dolce beve ogni giorno un maiale d'allevamento adulto?",
+    "min": 2,
+    "max": 50,
+    "answer": 15,
+    "unit": "L"
+  },
+  {
+    "category": "Cucina e Tradizioni",
+    "question": "In quale anno è stato inventato in Svizzera il famosissimo cioccolato Toblerone con la sua forma triangolare?",
+    "min": 1850,
+    "max": 1980,
+    "answer": 1908,
+    "unit": ""
   }
 ]
