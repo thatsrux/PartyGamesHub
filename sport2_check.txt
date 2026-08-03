@@ -1,0 +1,43 @@
+0: L'atleta che ha vinto più medaglie olimpiche è... -> Michael Phelps
+1: Il tennista con più titoli del Grande Slam in singolare maschile (al 2024) è... -> Novak Djokovic
+2: La squadra che ha vinto più campionati NBA nella storia (insieme ai Lakers) è... -> Boston Celtics
+3: Il ciclista italiano noto come 'Il Pirata' era... -> Marco Pantani
+4: Il record del mondo dei 100 metri piani maschili di 9.58 secondi è detenuto da... -> Usain Bolt
+5: Lo sport in cui si utilizza un volano invece di una palla è... -> Badminton
+6: Il pugile leggendario che diceva di 'volare come una farfalla e pungere come un'ape' era... -> Muhammad Ali
+7: Il paese che ha vinto più Coppe del Mondo di calcio maschile è... -> Brasile
+8: Il primo colore della maglia leader del Tour de France è... -> Giallo
+9: Lo sport in cui la squadra 'All Blacks' è famosa a livello mondiale è... -> Rugby
+10: La squadra italiana di calcio con più scudetti vinti è... -> Juventus
+11: L'arte marziale giapponese che significa 'la via della cedevolezza' è... -> Judo
+12: Il torneo di tennis che si gioca sull'erba a Londra è... -> Wimbledon
+13: La città che ha ospitato le Olimpiadi estive del 2024 è... -> Parigi
+14: Lo stile di nuoto più veloce è... -> Stile libero
+15: Il giocatore di basket famoso per il marchio 'Air' e il numero 23 è... -> Michael Jordan
+16: Il pilota di Formula 1 che ha vinto 7 titoli mondiali, pari a Lewis Hamilton, è... -> Michael Schumacher
+17: Nel baseball, un fuoricampo che fa segnare 4 punti si chiama... -> Grande Slam
+18: Il colore della cintura di massimo grado nel karate e nel judo è... -> Nero
+19: Il quarterback considerato tra i più grandi di tutti i tempi, vincitore di 7 Super Bowl, è... -> Tom Brady
+20: Il paese che ha inventato il ping pong (tennistavolo) è... -> Inghilterra
+21: Nel calcio, il cartellino che comporta l'espulsione diretta è di colore... -> Rosso
+22: Il termine usato nel golf quando la pallina va in buca con un colpo sotto il par è... -> Birdie
+23: Lo sportivo spagnolo soprannominato 'Rafa', re della terra rossa, è... -> Rafael Nadal
+24: L'attrezzo usato nella ginnastica ritmica simile a un anello di grandi dimensioni si chiama... -> Cerchio
+25: La durata di una partita di calcio regolamentare (escluso recupero) è di... -> 90 minuti
+26: Il famoso stadio di calcio di Barcellona si chiama... -> Camp Nou
+27: L'acronimo FIFA sta per... -> Fédération Internationale de Football Association
+28: Il maratoneta keniano che ha abbattuto il muro delle due ore (non ufficiale) è... -> Eliud Kipchoge
+29: Nel bowling, abbattere tutti i birilli al primo colpo si chiama... -> Strike
+30: L'unico tennista svizzero ad aver vinto 20 Slam in singolare è... -> Roger Federer
+31: La ginnasta americana considerata la più grande di tutti i tempi è... -> Simone Biles
+32: La gara ciclistica a tappe che si svolge in Italia in maggio è... -> Giro d'Italia
+33: Lo sport praticato a cavallo di scope volanti nella saga di Harry Potter si chiama... -> Quidditch
+34: Nel football americano, l'azione che vale 6 punti si chiama... -> Touchdown
+35: Il numero presente sulla classica palla da biliardo nera è... -> 8
+36: Il circuito di Formula 1 situato nel Principato di Monaco si chiama... -> Circuito di Monte Carlo
+37: L'arte marziale coreana famosa per i calci volanti e acrobatici è... -> Taekwondo
+38: Lo sport invernale in cui si spinge una pietra di granito sul ghiaccio verso un bersaglio è... -> Curling
+39: L'italiano vincitore della medaglia d'oro nei 100 metri a Tokyo 2020 è... -> Marcell Jacobs
+40: Il pugile Mike Tyson è tristemente famoso per aver morso l'orecchio a... -> Evander Holyfield
+41: Il trofeo assegnato al vincitore del campionato NHL di hockey su ghiaccio è la... -> Stanley Cup
+42: La distanza ufficiale di una maratona in chilometri è... -> 42,195 km

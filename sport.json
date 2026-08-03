@@ -1,0 +1,1315 @@
+{
+  "name": "Sport",
+  "questions": {
+    "100": [
+      {
+        "question": "Quanti giocatori ci sono in una squadra di calcio in campo?",
+        "answer": "Undici"
+      },
+      {
+        "question": "In quale sport si usa una racchetta e una pallina gialla?",
+        "answer": "Tennis"
+      },
+      {
+        "question": "Quale colore è associato alla maglia del leader del Giro d'Italia?",
+        "answer": "Rosa"
+      },
+      {
+        "question": "In che sport spicca il campione LeBron James?",
+        "answer": "Pallacanestro (Basket)"
+      },
+      {
+        "question": "Ogni quanti anni si tengono i Giochi Olimpici estivi?",
+        "answer": "Quattro"
+      },
+      {
+        "question": "This sport features a net, a racket, and love.",
+        "answer": "Tennis"
+      },
+      {
+        "question": "In this sport, a 'touchdown' is worth 6 points.",
+        "answer": "American Football"
+      },
+      {
+        "question": "The NBA is the premier professional league for this sport.",
+        "answer": "Basketball"
+      },
+      {
+        "question": "A standard game of soccer lasts this many minutes, plus stoppage time.",
+        "answer": "90"
+      },
+      {
+        "question": "This piece of equipment is hit with a club in golf.",
+        "answer": "Golf ball"
+      },
+      {
+        "question": "In baseball, this player throws the ball to the batter.",
+        "answer": "Pitcher"
+      },
+      {
+        "question": "This martial art's name translates to 'empty hand'.",
+        "answer": "Karate"
+      },
+      {
+        "question": "In this sport, players try to knock down 10 pins with a heavy ball.",
+        "answer": "Bowling"
+      },
+      {
+        "question": "The Stanley Cup is awarded in this sport.",
+        "answer": "Ice Hockey"
+      },
+      {
+        "question": "This track event is exactly 26.2 miles long.",
+        "answer": "Marathon"
+      },
+      {
+        "question": "This swimming stroke is often considered the fastest and is used in freestyle events.",
+        "answer": "Freestyle"
+      },
+      {
+        "question": "In boxing, a KO stands for this.",
+        "answer": "Knockout"
+      },
+      {
+        "question": "You need a board, waves, and good balance for this water sport.",
+        "answer": "Surfing"
+      },
+      {
+        "question": "This sport is played on a diamond-shaped field.",
+        "answer": "Baseball"
+      },
+      {
+        "question": "In this sport, you hit a shuttlecock over a net.",
+        "answer": "Badminton"
+      },
+      {
+        "question": "The Tour de France is a famous race in this sport.",
+        "answer": "Cycling"
+      },
+      {
+        "question": "In American football, this position usually throws the ball.",
+        "answer": "Quarterback"
+      },
+      {
+        "question": "This sport uses a heavy iron ball attached to a wire, thrown for distance.",
+        "answer": "Hammer throw"
+      },
+      {
+        "question": "A 'hole-in-one' is a coveted achievement in this sport.",
+        "answer": "Golf"
+      },
+      {
+        "question": "In this sport, a heavy stone is slid across the ice toward a target area.",
+        "answer": "Curling"
+      },
+      {
+        "question": "In what sport would you perform a slam dunk?",
+        "answer": "Basketball"
+      },
+      {
+        "question": "What is the maximum number of clubs a golfer is allowed to carry in their bag during a round?",
+        "answer": "14"
+      },
+      {
+        "question": "In bowling, what is it called when you knock down all the pins on your first roll?",
+        "answer": "Strike"
+      },
+      {
+        "question": "Which sport is played on a pitch with a bat and a small hard ball, and features a bowler and a wicketkeeper?",
+        "answer": "Cricket"
+      },
+      {
+        "question": "What sport features the terms 'love', 'deuce', and 'advantage'?",
+        "answer": "Tennis"
+      },
+      {
+        "question": "In American football, how many points is a touchdown worth?",
+        "answer": "6"
+      },
+      {
+        "question": "What is the name of the object used instead of a ball in ice hockey?",
+        "answer": "Puck"
+      },
+      {
+        "question": "Which piece is often considered the most powerful in a game of chess?",
+        "answer": "Queen"
+      },
+      {
+        "question": "What color is the center ring in a traditional archery target?",
+        "answer": "Yellow (or Gold)"
+      },
+      {
+        "question": "In soccer, what part of the body cannot intentionally touch the ball for outfield players?",
+        "answer": "Hands (or Arms)"
+      },
+      {
+        "question": "How many bases are there on a baseball diamond, excluding home plate?",
+        "answer": "3"
+      },
+      {
+        "question": "Which martial art translates to 'gentle way' and emphasizes throws and grappling?",
+        "answer": "Judo"
+      },
+      {
+        "question": "What is the primary governing body for international association football?",
+        "answer": "FIFA"
+      },
+      {
+        "question": "In what sport do teams compete to sweep a stone across the ice towards a target?",
+        "answer": "Curling"
+      },
+      {
+        "question": "What piece of equipment is used to hit a shuttlecock in badminton?",
+        "answer": "Racket"
+      },
+      {
+        "question": "In what track and field event do athletes pass a baton to each other?",
+        "answer": "Relay"
+      },
+      {
+        "question": "What animal is ridden in equestrian sports?",
+        "answer": "Horse"
+      },
+      {
+        "question": "Which swimming stroke is performed on the back?",
+        "answer": "Backstroke"
+      },
+      {
+        "question": "What is the standard length of a marathon in miles?",
+        "answer": "26.2 miles"
+      },
+      {
+        "question": "In boxing, what is it called when a fighter is knocked down and cannot stand up before the referee counts to ten?",
+        "answer": "Knockout (KO)"
+      },
+      {
+        "question": "In which sport do players use a racket to hit a shuttlecock over a net?",
+        "answer": "Badminton"
+      },
+      {
+        "question": "How many players are on a standard baseball team on the field at one time?",
+        "answer": "Nine"
+      },
+      {
+        "question": "Which sport is often referred to globally as 'the beautiful game'?",
+        "answer": "Soccer"
+      },
+      {
+        "question": "What color is the center ring on a standard archery target?",
+        "answer": "Yellow"
+      },
+      {
+        "question": "In American football, how many points is a touchdown worth?",
+        "answer": "Six"
+      },
+      {
+        "question": "In basketball, what is the term for bouncing the ball while moving?",
+        "answer": "Dribbling"
+      },
+      {
+        "question": "What sport takes place on a steeply banked oval track called a velodrome?",
+        "answer": "Cycling"
+      },
+      {
+        "question": "Which country hosts the famous Wimbledon tennis tournament?",
+        "answer": "United Kingdom"
+      },
+      {
+        "question": "How many holes are played in a standard, full round of golf?",
+        "answer": "18"
+      },
+      {
+        "question": "What is the name of the hard rubber disc hit by the players in ice hockey?",
+        "answer": "Puck"
+      },
+      {
+        "question": "In boxing, what do the letters 'KO' stand for?",
+        "answer": "Knockout"
+      },
+      {
+        "question": "Which competitive swimming stroke is named after an insect?",
+        "answer": "Butterfly"
+      },
+      {
+        "question": "In which sport might a player execute a move known as a 'slam dunk'?",
+        "answer": "Basketball"
+      },
+      {
+        "question": "What word is used in tennis to indicate a score of zero?",
+        "answer": "Love"
+      },
+      {
+        "question": "Which winter sport uses a broom and a heavy polished stone on a sheet of ice?",
+        "answer": "Curling"
+      },
+      {
+        "question": "In ten-pin bowling, what is it called when you knock down all the pins with the first ball?",
+        "answer": "Strike"
+      },
+      {
+        "question": "What is the maximum number of clubs a golfer is allowed to carry in their bag during a round?",
+        "answer": "14"
+      },
+      {
+        "question": "In which sport do competitors race in a narrow boat called a shell using oars?",
+        "answer": "Rowing"
+      },
+      {
+        "question": "Which athletic event consists of a continuous race of swimming, cycling, and running?",
+        "answer": "Triathlon"
+      },
+      {
+        "question": "What martial art's name translates to 'the gentle way' in Japanese?",
+        "answer": "Judo"
+      }
+    ],
+    "200": [
+      {
+        "question": "In quale sport i giocatori fanno 'meta'?",
+        "answer": "Rugby"
+      },
+      {
+        "question": "Quale pilota ha vinto sette titoli mondiali in Formula 1 insieme a Lewis Hamilton?",
+        "answer": "Michael Schumacher"
+      },
+      {
+        "question": "Dove sono state ospitate le Olimpiadi del 2020 (svolte nel 2021 a causa del Covid)?",
+        "answer": "Tokyo"
+      },
+      {
+        "question": "Quanti round ha di solito un incontro professionistico di pugilato per il titolo?",
+        "answer": "Dodici"
+      },
+      {
+        "question": "Quale nazione ha vinto più Coppe del Mondo di calcio maschile?",
+        "answer": "Brasile"
+      },
+      {
+        "question": "In tennis, this score means zero.",
+        "answer": "Love"
+      },
+      {
+        "question": "This country won the first-ever FIFA Men's World Cup in 1930.",
+        "answer": "Uruguay"
+      },
+      {
+        "question": "Michael Phelps holds the record for the most Olympic gold medals in this sport.",
+        "answer": "Swimming"
+      },
+      {
+        "question": "This basketball legend is often referred to by his initials, MJ.",
+        "answer": "Michael Jordan"
+      },
+      {
+        "question": "In rugby, a 'try' is worth this many points.",
+        "answer": "5"
+      },
+      {
+        "question": "This Grand Slam tennis tournament is played on clay courts.",
+        "answer": "French Open"
+      },
+      {
+        "question": "This Jamaican sprinter set world records in the 100m and 200m at the 2009 World Championships.",
+        "answer": "Usain Bolt"
+      },
+      {
+        "question": "In a standard game of volleyball, this many players from one team are on the court at a time.",
+        "answer": "6"
+      },
+      {
+        "question": "This legendary boxer was known as 'The Greatest' and famously said 'Float like a butterfly, sting like a bee.'",
+        "answer": "Muhammad Ali"
+      },
+      {
+        "question": "In golf, completing a hole one stroke under par is called this.",
+        "answer": "Birdie"
+      },
+      {
+        "question": "This team sport is played on horseback and involves hitting a ball with a wooden mallet.",
+        "answer": "Polo"
+      },
+      {
+        "question": "This NFL team has a star on its helmet and is often called 'America\\'s Team.'",
+        "answer": "Dallas Cowboys"
+      },
+      {
+        "question": "The Ryder Cup is a biennial competition in this sport.",
+        "answer": "Golf"
+      },
+      {
+        "question": "This country is considered the birthplace of modern golf.",
+        "answer": "Scotland"
+      },
+      {
+        "question": "This gymnast scored the first perfect 10 at the 1976 Olympics.",
+        "answer": "Nadia Comaneci"
+      },
+      {
+        "question": "In baseball, this many strikes mean the batter is out.",
+        "answer": "3"
+      },
+      {
+        "question": "This sport is also known as ping-pong.",
+        "answer": "Table Tennis"
+      },
+      {
+        "question": "In ice hockey, a team is allowed this many players on the ice at one time, including the goalie.",
+        "answer": "6"
+      },
+      {
+        "question": "This Brazilian football star is known simply by one name and won three World Cups.",
+        "answer": "Pele"
+      },
+      {
+        "question": "In fencing, this is the name of the lightest and most common weapon used.",
+        "answer": "Foil"
+      },
+      {
+        "question": "What international multi-sport event is held every four years and features both Summer and Winter games?",
+        "answer": "The Olympics"
+      },
+      {
+        "question": "In golf, what term describes scoring one stroke under par on a hole?",
+        "answer": "Birdie"
+      },
+      {
+        "question": "Which country is credited with inventing the modern game of table tennis, originally calling it 'Whiff-Whaff'?",
+        "answer": "England"
+      },
+      {
+        "question": "In volleyball, how many players are on the court for one team at a time?",
+        "answer": "6"
+      },
+      {
+        "question": "What is the term for a perfect score of 300 in a game of ten-pin bowling?",
+        "answer": "Perfect Game"
+      },
+      {
+        "question": "Which Grand Slam tennis tournament is played on clay courts?",
+        "answer": "French Open (Roland Garros)"
+      },
+      {
+        "question": "In basketball, how far from the hoop is the free-throw line?",
+        "answer": "15 feet"
+      },
+      {
+        "question": "What is the only country to have played in every single FIFA World Cup tournament?",
+        "answer": "Brazil"
+      },
+      {
+        "question": "In what sport might you 'catch a crab'?",
+        "answer": "Rowing"
+      },
+      {
+        "question": "Which Formula 1 team is famous for its bright red cars and 'prancing horse' logo?",
+        "answer": "Ferrari"
+      },
+      {
+        "question": "What is the name of the highest professional basketball league in North America?",
+        "answer": "NBA"
+      },
+      {
+        "question": "In rugby union, how many points is a try worth?",
+        "answer": "5"
+      },
+      {
+        "question": "What do the letters 'BMX' stand for in cycling?",
+        "answer": "Bicycle Motocross"
+      },
+      {
+        "question": "In fencing, which of the three weapons has a valid target area limited strictly to the torso?",
+        "answer": "Foil"
+      },
+      {
+        "question": "What is the hardest belt to earn in traditional Karate before achieving a black belt?",
+        "answer": "Brown belt"
+      },
+      {
+        "question": "In darts, what is the value of the outer bullseye?",
+        "answer": "25"
+      },
+      {
+        "question": "Which sport uses a specialized heavy ball with three finger holes?",
+        "answer": "Bowling"
+      },
+      {
+        "question": "In gymnastics, the pommel horse is traditionally an apparatus used only by which gender?",
+        "answer": "Men"
+      },
+      {
+        "question": "What is the name of the championship series in Major League Baseball?",
+        "answer": "World Series"
+      },
+      {
+        "question": "In what sport do competitors ride on a small sled down a frozen track face-first?",
+        "answer": "Skeleton"
+      },
+      {
+        "question": "Who has won the most Olympic gold medals in swimming history?",
+        "answer": "Michael Phelps"
+      },
+      {
+        "question": "In which Asian city were the 2008 Summer Olympics held?",
+        "answer": "Beijing"
+      },
+      {
+        "question": "What heavy contact sport is widely considered the national sport of Japan?",
+        "answer": "Sumo Wrestling"
+      },
+      {
+        "question": "How many rounds are typically scheduled in a modern professional championship boxing match?",
+        "answer": "12"
+      },
+      {
+        "question": "What is the diameter of a standard basketball hoop in inches?",
+        "answer": "18"
+      },
+      {
+        "question": "Which NFL team has a logo featuring a single blue star on their silver helmet?",
+        "answer": "Dallas Cowboys"
+      },
+      {
+        "question": "What is the highest possible break a player can achieve in a standard game of snooker?",
+        "answer": "147"
+      },
+      {
+        "question": "Which South American country won the first ever FIFA World Cup in 1930?",
+        "answer": "Uruguay"
+      },
+      {
+        "question": "In baseball, which defensive player is positioned between second and third base?",
+        "answer": "Shortstop"
+      },
+      {
+        "question": "What color jersey is traditionally worn by the overall time leader in the Tour de France?",
+        "answer": "Yellow"
+      },
+      {
+        "question": "Which female tennis player has won 23 Grand Slam women's singles titles?",
+        "answer": "Serena Williams"
+      },
+      {
+        "question": "In golf, what is the term for completing a hole in one stroke under par?",
+        "answer": "Birdie"
+      },
+      {
+        "question": "What distance in miles is a standard marathon race?",
+        "answer": "26.2"
+      },
+      {
+        "question": "Which sport features a restart of play known as a 'scrum'?",
+        "answer": "Rugby"
+      },
+      {
+        "question": "What track and field event combines 10 different disciplines over two days?",
+        "answer": "Decathlon"
+      },
+      {
+        "question": "Which legendary NBA player scored exactly 100 points in a single game in 1962?",
+        "answer": "Wilt Chamberlain"
+      },
+      {
+        "question": "What is the only country to have played in every single FIFA Men's World Cup tournament?",
+        "answer": "Brazil"
+      },
+      {
+        "question": "In Formula 1 racing, what does a checkered flag signify when waved at a driver?",
+        "answer": "End of the race"
+      },
+      {
+        "question": "How long is a standard Olympic-size swimming pool in meters?",
+        "answer": "50"
+      },
+      {
+        "question": "Which country's national rugby team is famous for performing the Haka dance before matches?",
+        "answer": "New Zealand"
+      }
+    ],
+    "300": [
+      {
+        "question": "In quale sport si usa il termine 'Fuoricampo' (Home Run)?",
+        "answer": "Baseball"
+      },
+      {
+        "question": "Come si chiama la pista su cui gareggiano i ciclisti su pista?",
+        "answer": "Velodromo"
+      },
+      {
+        "question": "Chi è il tennista spagnolo conosciuto come il 'Re della terra rossa'?",
+        "answer": "Rafael Nadal"
+      },
+      {
+        "question": "In quale sport su ghiaccio si usa un disco nero chiamato 'puck'?",
+        "answer": "Hockey su ghiaccio"
+      },
+      {
+        "question": "Qual è il punteggio perfetto in una partita di bowling?",
+        "answer": "300"
+      },
+      {
+        "question": "This city hosted the 2016 Summer Olympics.",
+        "answer": "Rio de Janeiro"
+      },
+      {
+        "question": "In basketball, James Naismith used these as the first hoops.",
+        "answer": "Peach baskets"
+      },
+      {
+        "question": "This Formula 1 driver holds the record for the most World Championships, tied with Michael Schumacher at seven.",
+        "answer": "Lewis Hamilton"
+      },
+      {
+        "question": "The 'Ashes' is a famous cricket series played between England and this country.",
+        "answer": "Australia"
+      },
+      {
+        "question": "This NFL quarterback holds the record for the most Super Bowl rings won by a player.",
+        "answer": "Tom Brady"
+      },
+      {
+        "question": "In snooker, this colored ball is worth the most points, at 7.",
+        "answer": "Black"
+      },
+      {
+        "question": "This female tennis player has won 23 Grand Slam singles titles in the Open Era.",
+        "answer": "Serena Williams"
+      },
+      {
+        "question": "In the decathlon, athletes compete in this many different track and field events.",
+        "answer": "10"
+      },
+      {
+        "question": "This country has won the most medals in the history of the Winter Olympics.",
+        "answer": "Norway"
+      },
+      {
+        "question": "The Green Jacket is awarded to the winner of this major golf tournament.",
+        "answer": "The Masters"
+      },
+      {
+        "question": "In sumo wrestling, the highest rank a wrestler can achieve is called this.",
+        "answer": "Yokozuna"
+      },
+      {
+        "question": "This NHL player is widely known as 'The Great One.'",
+        "answer": "Wayne Gretzky"
+      },
+      {
+        "question": "In a game of darts, this is the highest possible score with three darts.",
+        "answer": "180"
+      },
+      {
+        "question": "The Vince Lombardi Trophy is awarded to the winner of this championship game.",
+        "answer": "Super Bowl"
+      },
+      {
+        "question": "This type of race involves swimming, cycling, and running.",
+        "answer": "Triathlon"
+      },
+      {
+        "question": "In judo, a match is instantly won if a competitor scores this point.",
+        "answer": "Ippon"
+      },
+      {
+        "question": "This African country was the first from the continent to host a FIFA World Cup in 2010.",
+        "answer": "South Africa"
+      },
+      {
+        "question": "In American football, this is the length of the field from goal line to goal line, excluding the end zones.",
+        "answer": "100 yards"
+      },
+      {
+        "question": "This famous stadium in London is known as the 'Home of Football.'",
+        "answer": "Wembley Stadium"
+      },
+      {
+        "question": "In figure skating, this jump is the only one that takes off from a forward edge.",
+        "answer": "Axel"
+      },
+      {
+        "question": "Who holds the record for the most Olympic gold medals won by a single athlete?",
+        "answer": "Michael Phelps"
+      },
+      {
+        "question": "In cricket, what is it called when a bowler takes three wickets on consecutive deliveries?",
+        "answer": "Hat-trick"
+      },
+      {
+        "question": "Which prestigious cycling race concludes on the Champs-Élysées in Paris?",
+        "answer": "Tour de France"
+      },
+      {
+        "question": "What is the diameter of a standard basketball hoop in inches?",
+        "answer": "18 inches"
+      },
+      {
+        "question": "In the NFL, what team won the very first Super Bowl in 1967?",
+        "answer": "Green Bay Packers"
+      },
+      {
+        "question": "Which golf major is held annually at the Augusta National Golf Club?",
+        "answer": "The Masters"
+      },
+      {
+        "question": "What material is a standard Major League Baseball bat made from?",
+        "answer": "Wood (Ash or Maple)"
+      },
+      {
+        "question": "In snooker, how many points is the black ball worth?",
+        "answer": "7"
+      },
+      {
+        "question": "Which country won the first ever Rugby World Cup in 1987?",
+        "answer": "New Zealand"
+      },
+      {
+        "question": "What is the official distance of an Ironman Triathlon swim?",
+        "answer": "2.4 miles"
+      },
+      {
+        "question": "In ice hockey, what trophy is awarded annually to the National Hockey League playoff champion?",
+        "answer": "Stanley Cup"
+      },
+      {
+        "question": "Which sport is contested for the Ryder Cup?",
+        "answer": "Golf"
+      },
+      {
+        "question": "In water polo, how many players are in the water for one team during regular play?",
+        "answer": "7"
+      },
+      {
+        "question": "What is the name of the area where a baseball pitcher warms up during a game?",
+        "answer": "Bullpen"
+      },
+      {
+        "question": "Which two teams contest the annual Boat Race on the River Thames?",
+        "answer": "Oxford and Cambridge"
+      },
+      {
+        "question": "What color jersey is worn by the overall leader in the Tour de France?",
+        "answer": "Yellow"
+      },
+      {
+        "question": "In track and field, the decathlon consists of how many events?",
+        "answer": "10"
+      },
+      {
+        "question": "Which Asian martial art features a fighting style heavily utilizing kicks and translates to 'the way of the foot and fist'?",
+        "answer": "Taekwondo"
+      },
+      {
+        "question": "What was the first city to host the modern Olympic Games twice?",
+        "answer": "Paris"
+      },
+      {
+        "question": "In what sport do players use a mallet to hit a wooden or plastic ball through hoops embedded in a grass court?",
+        "answer": "Croquet"
+      },
+      {
+        "question": "Who is the all-time leading goalscorer in the history of the UEFA Champions League?",
+        "answer": "Cristiano Ronaldo"
+      },
+      {
+        "question": "In what year did the first modern Olympic Games take place in Athens?",
+        "answer": "1896"
+      },
+      {
+        "question": "In which sport would you historically use a club called a 'niblick' or a 'mashie'?",
+        "answer": "Golf"
+      },
+      {
+        "question": "Which heavyweight boxer was known globally as 'The Greatest' and 'The Louisville Lip'?",
+        "answer": "Muhammad Ali"
+      },
+      {
+        "question": "What is the weight of a standard men's shot put ball in kilograms?",
+        "answer": "7.26"
+      },
+      {
+        "question": "Which country won their fourth Men's Rugby World Cup title in 2023, the most of any nation?",
+        "answer": "South Africa"
+      },
+      {
+        "question": "Who holds the record for the most home runs hit in a single Major League Baseball season?",
+        "answer": "Barry Bonds"
+      },
+      {
+        "question": "In what year did the National Hockey League (NHL) officially form?",
+        "answer": "1917"
+      },
+      {
+        "question": "Which driver shares the record for the most Formula 1 World Championships with Michael Schumacher?",
+        "answer": "Lewis Hamilton"
+      },
+      {
+        "question": "Who was the first gymnast to score a perfect 10 at the Olympic Games?",
+        "answer": "Nadia Comaneci"
+      },
+      {
+        "question": "Which NFL quarterback holds the all-time record for the most career passing yards?",
+        "answer": "Tom Brady"
+      },
+      {
+        "question": "In cricket, how many wooden bails are placed on top of a set of stumps?",
+        "answer": "Two"
+      },
+      {
+        "question": "What is the length of a professional basketball court in the NBA in feet?",
+        "answer": "94"
+      },
+      {
+        "question": "Which team won the first ever Super Bowl played in 1967?",
+        "answer": "Green Bay Packers"
+      },
+      {
+        "question": "Who is the only tennis player to win the Golden Slam (all four majors and Olympic gold) in a single calendar year?",
+        "answer": "Steffi Graf"
+      },
+      {
+        "question": "What is officially recognized as the national winter sport of Canada?",
+        "answer": "Ice Hockey"
+      },
+      {
+        "question": "Which legendary racehorse won the US Triple Crown in 1973 with a record-breaking Belmont Stakes victory?",
+        "answer": "Secretariat"
+      },
+      {
+        "question": "How many points is the brown ball worth in a game of snooker?",
+        "answer": "Four"
+      },
+      {
+        "question": "Which country is recognized as the historical birthplace of Taekwondo?",
+        "answer": "South Korea"
+      },
+      {
+        "question": "What is the name of the prestigious trophy awarded annually to the winner of the NHL playoffs?",
+        "answer": "Stanley Cup"
+      }
+    ],
+    "400": [
+      {
+        "question": "Quale nuotatore americano detiene il record per il maggior numero di medaglie d'oro olimpiche vinte in carriera (23)?",
+        "answer": "Michael Phelps"
+      },
+      {
+        "question": "Come si chiama il premio assegnato al miglior giocatore della NFL durante il Super Bowl?",
+        "answer": "MVP del Super Bowl"
+      },
+      {
+        "question": "Qual è la distanza ufficiale di una maratona in chilometri?",
+        "answer": "42,195 km"
+      },
+      {
+        "question": "In quale specialità dell'atletica leggera l'atleta usa un'asta per superare un'asticella?",
+        "answer": "Salto con l'asta"
+      },
+      {
+        "question": "Chi detiene il record del mondo nei 100 metri piani maschili (9.58)?",
+        "answer": "Usain Bolt"
+      },
+      {
+        "question": "This country won the first-ever Rugby World Cup in 1987.",
+        "answer": "New Zealand"
+      },
+      {
+        "question": "In chess, this is the only piece that can jump over other pieces.",
+        "answer": "Knight"
+      },
+      {
+        "question": "This legendary baseball player was nicknamed 'The Sultan of Swat.'",
+        "answer": "Babe Ruth"
+      },
+      {
+        "question": "The term 'albatross' in golf refers to completing a hole this many strokes under par.",
+        "answer": "3"
+      },
+      {
+        "question": "This Argentine footballer scored the famous 'Hand of God' goal in the 1986 World Cup.",
+        "answer": "Diego Maradona"
+      },
+      {
+        "question": "In badminton, the Thomas Cup is the premier international championship for this gender.",
+        "answer": "Men"
+      },
+      {
+        "question": "This city is home to the famous Wimbledon tennis tournament.",
+        "answer": "London"
+      },
+      {
+        "question": "The 'Triple Crown' in thoroughbred racing consists of the Kentucky Derby, the Preakness Stakes, and this race.",
+        "answer": "Belmont Stakes"
+      },
+      {
+        "question": "In water polo, there are this many players on a team in the water during play.",
+        "answer": "7"
+      },
+      {
+        "question": "This MLB pitcher holds the all-time record for career strikeouts with 5,714.",
+        "answer": "Nolan Ryan"
+      },
+      {
+        "question": "The sport of sepaktakraw is native to this region of the world.",
+        "answer": "Southeast Asia"
+      },
+      {
+        "question": "This NHL team holds the record for the most Stanley Cup championships.",
+        "answer": "Montreal Canadiens"
+      },
+      {
+        "question": "In cricket, this term describes a bowler taking three wickets with three consecutive deliveries.",
+        "answer": "Hat-trick"
+      },
+      {
+        "question": "This woman was the first female driver to win an IndyCar Series race.",
+        "answer": "Danica Patrick"
+      },
+      {
+        "question": "This Olympic sport combines cross-country skiing and rifle shooting.",
+        "answer": "Biathlon"
+      },
+      {
+        "question": "In basketball, this player scored 100 points in a single NBA game in 1962.",
+        "answer": "Wilt Chamberlain"
+      },
+      {
+        "question": "This country has won the most medals in the history of the Summer Olympics.",
+        "answer": "United States"
+      },
+      {
+        "question": "The Jules Rimet Trophy was the original prize for winning this competition.",
+        "answer": "FIFA World Cup"
+      },
+      {
+        "question": "In bowling, three consecutive strikes are known by this term.",
+        "answer": "Turkey"
+      },
+      {
+        "question": "This martial art from Brazil combines elements of dance, acrobatics, and music.",
+        "answer": "Capoeira"
+      },
+      {
+        "question": "What is the maximum break possible in a standard game of snooker without the help of a free ball?",
+        "answer": "147"
+      },
+      {
+        "question": "Who was the first female tennis player to achieve a 'Golden Slam' by winning all four majors and Olympic gold in one calendar year?",
+        "answer": "Steffi Graf"
+      },
+      {
+        "question": "In horse racing, which three races make up the American Triple Crown?",
+        "answer": "Kentucky Derby, Preakness Stakes, Belmont Stakes"
+      },
+      {
+        "question": "What is the national sport of Japan, involving large wrestlers attempting to force each other out of a circular ring?",
+        "answer": "Sumo"
+      },
+      {
+        "question": "In the game of polo, how many periods, or 'chukkas', are typically played in a standard match?",
+        "answer": "6"
+      },
+      {
+        "question": "Which country is the all-time leading medal winner in the Winter Olympics?",
+        "answer": "Norway"
+      },
+      {
+        "question": "In the decathlon, what is always the final event?",
+        "answer": "1500 meters"
+      },
+      {
+        "question": "Which legendary boxer was born Cassius Clay before changing his name?",
+        "answer": "Muhammad Ali"
+      },
+      {
+        "question": "What is the only sport where the competitors are not allowed to cross the center line of the playing area, yet they constantly hit a projectile back and forth?",
+        "answer": "Volleyball"
+      },
+      {
+        "question": "Who holds the record for the most goals scored in a single NHL season?",
+        "answer": "Wayne Gretzky"
+      },
+      {
+        "question": "In Formula 1, which driver has won the most World Championships alongside Lewis Hamilton?",
+        "answer": "Michael Schumacher"
+      },
+      {
+        "question": "What piece of sporting equipment was completely revolutionized by the introduction of the 'dimple pattern' in 1905?",
+        "answer": "Golf ball"
+      },
+      {
+        "question": "What unusual name is given to the person who steers a bobsled or steers a rowing shell?",
+        "answer": "Coxswain"
+      },
+      {
+        "question": "In which sport is the 'Davis Cup' awarded to the winning men's national team?",
+        "answer": "Tennis"
+      },
+      {
+        "question": "Which country won the inaugural ICC Men's T20 World Cup in 2007?",
+        "answer": "India"
+      },
+      {
+        "question": "In the sport of biathlon, competitors combine cross-country skiing with what other discipline?",
+        "answer": "Rifle shooting"
+      },
+      {
+        "question": "What is the term for a golf score of three strokes under par on a single hole?",
+        "answer": "Albatross (or Double Eagle)"
+      },
+      {
+        "question": "In weightlifting, what are the two competition lifts performed at the Olympics?",
+        "answer": "Snatch and Clean and Jerk"
+      },
+      {
+        "question": "Which team holds the record for the most consecutive wins in NBA history with 33?",
+        "answer": "Los Angeles Lakers"
+      },
+      {
+        "question": "What is the name of the traditional Maori dance performed by the New Zealand rugby team before a match?",
+        "answer": "Haka"
+      },
+      {
+        "question": "Which nation won the first ever FIFA Women's World Cup tournament held in 1991?",
+        "answer": "United States"
+      },
+      {
+        "question": "What is the name of the iconic red mascot of the Chicago Bulls NBA franchise?",
+        "answer": "Benny the Bull"
+      },
+      {
+        "question": "Which golfer has spent the most consecutive weeks at World Number One in the Official World Golf Ranking?",
+        "answer": "Tiger Woods"
+      },
+      {
+        "question": "In fencing, which of the three weapons has a restricted target area limited strictly to the torso?",
+        "answer": "Foil"
+      },
+      {
+        "question": "Who was the first person in recorded history to run a mile in under four minutes?",
+        "answer": "Roger Bannister"
+      },
+      {
+        "question": "Which African country became the first from its continent to reach the semi-finals of a Men's FIFA World Cup?",
+        "answer": "Morocco"
+      },
+      {
+        "question": "In what US city is the prestigious 'Masters' golf tournament held annually?",
+        "answer": "Augusta"
+      },
+      {
+        "question": "Who holds the men's world record for the high jump, clearing 2.45 meters in 1993?",
+        "answer": "Javier Sotomayor"
+      },
+      {
+        "question": "What are the five distinct colors of the rings on the Olympic flag?",
+        "answer": "Blue, yellow, black, green, red"
+      },
+      {
+        "question": "Which legendary American baseball player was affectionately known as 'The Sultan of Swat'?",
+        "answer": "Babe Ruth"
+      },
+      {
+        "question": "In which Olympic sliding sport do competitors use a small sled and race head-first down a steep ice track?",
+        "answer": "Skeleton"
+      },
+      {
+        "question": "Who is the only heavyweight boxing champion to finish his professional career entirely undefeated?",
+        "answer": "Rocky Marciano"
+      },
+      {
+        "question": "What is the specific term used in ten-pin bowling to describe three consecutive strikes?",
+        "answer": "Turkey"
+      },
+      {
+        "question": "Which Southeast Asian country traditionally dominates the acrobatic sport of Sepak Takraw?",
+        "answer": "Thailand"
+      },
+      {
+        "question": "Who was the first wildcard entry to win the men's singles title at Wimbledon, achieving this feat in 2001?",
+        "answer": "Goran Ivanisevic"
+      },
+      {
+        "question": "What was the name of the official lion mascot of the 1966 FIFA World Cup held in England?",
+        "answer": "World Cup Willie"
+      },
+      {
+        "question": "Which NBA franchise set the record for the most regular season wins with 73 in the 2015-16 season?",
+        "answer": "Golden State Warriors"
+      },
+      {
+        "question": "What is the minimum legal weight of an official NFL game football in ounces?",
+        "answer": "14"
+      },
+      {
+        "question": "Which country won the gold medal in men's ice hockey at the 1980 'Miracle on Ice' Olympics?",
+        "answer": "United States"
+      },
+      {
+        "question": "What is the name of the premier international team competition in men's tennis?",
+        "answer": "Davis Cup"
+      }
+    ],
+    "500": [
+      {
+        "question": "Come si chiama l'attuale sistema di punteggio del decathlon, introdotto nel 1984 e in vigore ancora oggi?",
+        "answer": "Tabelle di punteggio IAAF"
+      },
+      {
+        "question": "Quale nazione ha ospitato la prima edizione della Coppa del Mondo di calcio nel 1930 (vincendola)?",
+        "answer": "Uruguay"
+      },
+      {
+        "question": "Chi è stato il primo pugile a sconfiggere Muhammad Ali da professionista?",
+        "answer": "Joe Frazier"
+      },
+      {
+        "question": "Nel golf, come viene chiamato il punteggio di tre colpi sotto il par in una singola buca?",
+        "answer": "Albatross (o Doppio Eagle)"
+      },
+      {
+        "question": "Quale squadra di basket NBA ha stabilito il record di 73 vittorie nella stagione regolare nel 2015-2016?",
+        "answer": "Golden State Warriors"
+      },
+      {
+        "question": "This track athlete famously won four gold medals at the 1936 Berlin Olympics.",
+        "answer": "Jesse Owens"
+      },
+      {
+        "question": "In 1954, this British runner became the first person to run a mile in under four minutes.",
+        "answer": "Roger Bannister"
+      },
+      {
+        "question": "This golfer holds the record for the most consecutive weeks at World Number 1, with 281 weeks.",
+        "answer": "Tiger Woods"
+      },
+      {
+        "question": "The sport of Korfball, which features mixed-gender teams, originated in this European country.",
+        "answer": "Netherlands"
+      },
+      {
+        "question": "In Major League Baseball, this player holds the record for the longest hitting streak at 56 games.",
+        "answer": "Joe DiMaggio"
+      },
+      {
+        "question": "This surfer is often credited as the 'father of modern surfing' and popularized the sport globally in the early 20th century.",
+        "answer": "Duke Kahanamoku"
+      },
+      {
+        "question": "In the Tour de France, the 'Maillot à Pois Rouges' is awarded to the leader in this classification.",
+        "answer": "Mountains classification"
+      },
+      {
+        "question": "This country won the gold medal in ice hockey at the 1980 'Miracle on Ice' Olympic game.",
+        "answer": "United States"
+      },
+      {
+        "question": "This Italian motorcycle racer has won nine Grand Prix World Championships, seven of which are in the premier class.",
+        "answer": "Valentino Rossi"
+      },
+      {
+        "question": "In professional wrestling, this annual WWE pay-per-view event is often referred to as 'The Grandest Stage of Them All.'",
+        "answer": "WrestleMania"
+      },
+      {
+        "question": "This Spanish football club has won the most UEFA Champions League titles.",
+        "answer": "Real Madrid"
+      },
+      {
+        "question": "In athletics, the Fosbury Flop is a technique used in this event.",
+        "answer": "High jump"
+      },
+      {
+        "question": "This NBA franchise drafted Kobe Bryant in 1996 before trading him to the Lakers.",
+        "answer": "Charlotte Hornets"
+      },
+      {
+        "question": "In cricket, Sir Donald Bradman holds the record for the highest career batting average, which is this impressive number.",
+        "answer": "99.94"
+      },
+      {
+        "question": "This horse is considered one of the greatest racehorses of all time, winning the Triple Crown in 1973.",
+        "answer": "Secretariat"
+      },
+      {
+        "question": "In snooker, a 'maximum break' consists of potting all 15 reds with blacks, followed by all the colors, resulting in this many points.",
+        "answer": "147"
+      },
+      {
+        "question": "This female gymnast won four gold medals at the 2016 Rio Olympics and is considered one of the greatest of all time.",
+        "answer": "Simone Biles"
+      },
+      {
+        "question": "The America's Cup is a prestigious trophy awarded in this sport.",
+        "answer": "Sailing"
+      },
+      {
+        "question": "This boxer retired with a perfect professional record of 50-0.",
+        "answer": "Floyd Mayweather Jr."
+      },
+      {
+        "question": "In Australian Rules Football, this is the name of the premier professional league.",
+        "answer": "AFL"
+      },
+      {
+        "question": "In what year did the 'Miracle on Ice' occur, when the US men's ice hockey team defeated the heavily favored Soviet team?",
+        "answer": "1980"
+      },
+      {
+        "question": "Who is the only person to have played in both a Super Bowl and a World Series?",
+        "answer": "Deion Sanders"
+      },
+      {
+        "question": "Which South American country won the first ever FIFA World Cup in 1930?",
+        "answer": "Uruguay"
+      },
+      {
+        "question": "What is the highest possible score a judge can award a diver for a single dive before difficulty multipliers?",
+        "answer": "10"
+      },
+      {
+        "question": "In the game of squash, what happens if the ball hits the 'tin' at the bottom of the front wall?",
+        "answer": "It is out (or a fault)"
+      },
+      {
+        "question": "What was the first sport to be played on the moon?",
+        "answer": "Golf"
+      },
+      {
+        "question": "Which country is the traditional home of the martial art Muay Thai?",
+        "answer": "Thailand"
+      },
+      {
+        "question": "In fencing, the target area for the épée includes what parts of the body?",
+        "answer": "The entire body"
+      },
+      {
+        "question": "Who holds the record for the fastest serve ever recorded in professional men's tennis?",
+        "answer": "Sam Groth"
+      },
+      {
+        "question": "Which NBA player scored exactly 100 points in a single game in 1962?",
+        "answer": "Wilt Chamberlain"
+      },
+      {
+        "question": "What is the name of the international team competition in women's golf, analogous to the men's Ryder Cup?",
+        "answer": "Solheim Cup"
+      },
+      {
+        "question": "In modern pentathlon, which five sports are contested?",
+        "answer": "Fencing, swimming, equestrian show jumping, pistol shooting, cross-country running"
+      },
+      {
+        "question": "What is the oldest continuing sporting competition in North America, predating the Kentucky Derby by 15 years?",
+        "answer": "The Queen's Plate"
+      },
+      {
+        "question": "Which track athlete was stripped of his 100m gold medal at the 1988 Seoul Olympics due to doping?",
+        "answer": "Ben Johnson"
+      },
+      {
+        "question": "In baseball, what rare feat is accomplished when a batter hits a single, double, triple, and home run in the same game?",
+        "answer": "Hitting for the cycle"
+      },
+      {
+        "question": "Which team has won the most UEFA Champions League titles in football history?",
+        "answer": "Real Madrid"
+      },
+      {
+        "question": "What ancient sport, combining boxing and wrestling with very few rules, was featured in the original Greek Olympic Games?",
+        "answer": "Pankration"
+      },
+      {
+        "question": "In curling, what is the term for a stone that completely covers the button at the center of the house?",
+        "answer": "Lid"
+      },
+      {
+        "question": "Who was the first unseeded player to win the men's singles title at Wimbledon?",
+        "answer": "Boris Becker"
+      },
+      {
+        "question": "In Australian Rules Football, how many points is a 'behind' worth?",
+        "answer": "1"
+      },
+      {
+        "question": "Who is the only player to have scored a hat-trick in a Men's FIFA World Cup final and still ended up on the losing team?",
+        "answer": "Kylian Mbappe"
+      },
+      {
+        "question": "In what year was the three-point shooting line officially introduced into the NBA?",
+        "answer": "1979"
+      },
+      {
+        "question": "Which cyclist won the first ever Tour de France held in 1903?",
+        "answer": "Maurice Garin"
+      },
+      {
+        "question": "In Australian Rules Football, how many points is a 'behind' worth?",
+        "answer": "One"
+      },
+      {
+        "question": "Who holds the record for the fastest serve ever recorded in professional men's tennis at 163.7 mph?",
+        "answer": "Sam Groth"
+      },
+      {
+        "question": "Which dominant pitcher holds the MLB record for career no-hitters with a total of seven?",
+        "answer": "Nolan Ryan"
+      },
+      {
+        "question": "What is the specific name for a period of play in a game of polo?",
+        "answer": "Chukka"
+      },
+      {
+        "question": "Who was the first female driver to score points in a Formula 1 World Championship race?",
+        "answer": "Lella Lombardi"
+      },
+      {
+        "question": "What is the maximum permitted width of a standard cricket bat in inches?",
+        "answer": "4.25"
+      },
+      {
+        "question": "Which US city hosted the infamous 1904 Summer Olympics, known for its bizarre and grueling marathon event?",
+        "answer": "St. Louis"
+      },
+      {
+        "question": "Who is the only player in NHL history to total over 200 points in a single regular season?",
+        "answer": "Wayne Gretzky"
+      },
+      {
+        "question": "In sumo wrestling, what is the Japanese term for the circular ring where competitive matches take place?",
+        "answer": "Dohyo"
+      },
+      {
+        "question": "Which country has won the most total medals in the history of the Winter Olympic Games?",
+        "answer": "Norway"
+      },
+      {
+        "question": "Who was the first person to successfully land a 900-degree aerial spin on a skateboard in competition?",
+        "answer": "Tony Hawk"
+      },
+      {
+        "question": "What is the oldest continuously run annual marathon race in the world, starting in 1897?",
+        "answer": "Boston Marathon"
+      },
+      {
+        "question": "Which boxer famously inflicted Muhammad Ali's first professional defeat in the 1971 'Fight of the Century'?",
+        "answer": "Joe Frazier"
+      },
+      {
+        "question": "In what fast-paced sport is the 'Corbillon Cup' awarded to the women's world team champions?",
+        "answer": "Table Tennis"
+      },
+      {
+        "question": "Who is the only athlete to win gold medals in different sports at both the Summer and Winter Olympic Games?",
+        "answer": "Eddie Eagan"
+      },
+      {
+        "question": "Which MLB team won the very first modern World Series played in 1903?",
+        "answer": "Boston Americans"
+      },
+      {
+        "question": "What is the traditional term for the event of throwing a heavy wooden pole in the Scottish Highland Games?",
+        "answer": "Tossing the caber"
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+400: Il calcio è lo sport più seguito al mondo. -> vero
+401: Le Olimpiadi estive si tengono ogni 3 anni. -> falso
+402: Nel tennis, 'Love' significa zero punti. -> vero
+403: Il basket è stato inventato da un insegnante di educazione fisica canadese. -> vero
+404: Michael Jordan ha giocato anche a baseball a livello professionistico. -> vero
+405: La maratona è lunga esattamente 40 chilometri. -> falso
+406: Usain Bolt detiene il record mondiale sui 100 metri piani. -> vero
+407: Il sumo è lo sport nazionale del Giappone. -> vero
+408: Nel rugby a 15, i giocatori in campo per squadra sono 11. -> falso
+409: La prima Coppa del Mondo di calcio si è tenuta in Brasile. -> falso
+410: La ginnastica ritmica è uno sport esclusivamente femminile alle Olimpiadi. -> vero
+411: Il campo da basket NBA è più grande di quello FIBA. -> vero
+412: Nel golf, un 'birdie' significa completare la buca con un colpo sotto il par. -> vero
+413: Nel nuoto, lo stile farfalla è il più veloce in assoluto. -> falso
+414: La Ferrari è la scuderia con più titoli mondiali costruttori in Formula 1. -> vero
+415: Lionel Messi ha vinto la sua prima Coppa del Mondo nel 2014. -> falso
+416: Il Super Bowl è l'evento sportivo annuale più visto negli Stati Uniti. -> vero
+417: Il judo è un'arte marziale di origine cinese. -> falso
+418: Il Tour de France si svolge interamente all'interno dei confini francesi senza eccezioni. -> falso
+419: Nel baseball, un fuoricampo con le basi piene si chiama 'Grand Slam'. -> vero
+420: LeBron James è il miglior marcatore della storia della NBA in stagione regolare. -> vero
+421: Il ping pong è nato originariamente in Cina. -> falso
+422: L'hockey su ghiaccio ha tre tempi da 20 minuti ciascuno. -> vero
+423: La pallavolo è stata inventata prima del basket. -> falso
+424: Il Giro d'Italia assegna la maglia gialla al leader della classifica generale. -> falso
+425: Muhammad Ali si chiamava originariamente Cassius Clay. -> vero
+426: Il triathlon olimpico comprende nuoto, ciclismo e corsa. -> vero
+427: Serena Williams ha vinto 23 titoli del Grande Slam in singolare. -> vero
+428: Nel calcio, un portiere può prendere la palla con le mani fuori dalla sua area di rigore. -> falso
+429: Ayrton Senna ha vinto tre campionati mondiali di Formula 1. -> vero
+430: La scherma è uno dei pochi sport presenti in tutte le edizioni delle Olimpiadi moderne. -> vero
+431: Nel bowling, un 'turkey' consiste in tre strike consecutivi. -> vero
+432: Il badminton utilizza una pallina di gomma rigida. -> falso
+433: I Giochi Olimpici invernali includono il pattinaggio di figura. -> vero
+434: Nel pugilato professionistico maschile odierno, un incontro per il titolo mondiale dura 15 round. -> falso
+435: Diego Armando Maradona ha giocato nel Napoli. -> vero
+436: La pallanuoto femminile è stata introdotta alle Olimpiadi solo nel 2000. -> vero
+437: Il record di punti in una singola partita NBA appartiene a Kobe Bryant. -> falso
+438: Il termine 'Hole in One' si usa nel golf. -> vero
+439: Nel canottaggio, il timoniere rema insieme agli altri atleti della squadra. -> falso
+440: Il salto con l'asta fa parte delle discipline del decathlon. -> vero
+441: La Nuova Zelanda è famosa per la sua nazionale di rugby, nota come All Blacks. -> vero
+442: Il Campionato europeo di calcio maschile si gioca regolarmente ogni 2 anni. -> falso
+443: Nel biliardo specialità palla 8, la palla nera deve essere imbucata per ultima. -> vero
+444: Il surf è diventato sport olimpico per la prima volta a Tokyo 2020. -> vero
+445: Il record mondiale maschile di salto in alto all'aperto supera i 2,50 metri. -> falso
+446: Il salto in lungo richiede l'uso di una pertica flessibile. -> falso
+447: La squadra di calcio del Real Madrid gioca le sue partite casalinghe al Santiago Bernabéu. -> vero
+448: Il biathlon olimpico combina lo sci di fondo e il tiro a segno con la carabina. -> vero
+449: Tutti i guantoni da boxe pesano esattamente 10 once. -> falso
+450: Nel curling, la 'house' è il bersaglio circolare disegnato sul ghiaccio. -> vero
+451: La partita di calcio professionistico più lunga della storia è durata ininterrottamente tre giorni. -> falso
+452: Michael Phelps ha vinto 28 medaglie d'oro olimpiche in carriera. -> falso
+453: Il taekwondo è un'antica arte marziale coreana. -> vero
+454: Valentino Rossi ha vinto un totale di 9 titoli mondiali nel motomondiale. -> vero
+455: Nel tennis tavolo, la palla può rimbalzare due volte sul proprio campo prima di essere colpita. -> falso
+456: La NASCAR è una competizione automobilistica nata e popolare in Europa. -> falso
+457: L'arrampicata sportiva olimpica prevede le discipline di speed, boulder e lead. -> vero
+458: Il trofeo originale della Coppa Rimet è stato rubato e mai più ritrovato in Brasile. -> vero
+459: Lo sci alpino include le discipline di discesa libera, supergigante, slalom gigante e slalom speciale. -> vero
+460: Il baseball prevede 9 inning in una partita regolamentare, se non ci sono pareggi. -> vero
+461: Nel rugby a 15, una meta vale 5 punti. -> vero
+462: L'Italia ha vinto 4 Coppe del Mondo di calcio maschile. -> vero
+463: Il decathlon femminile fa parte dell'attuale programma dei Giochi Olimpici estivi. -> falso
+464: Nel salto triplo si eseguono tre balzi consecutivi prima di atterrare nella sabbia. -> vero
+465: Pelé è l'unico calciatore ad aver vinto tre Coppe del Mondo FIFA come giocatore. -> vero
+466: Nel golf, il par di una buca non dipende mai dalla sua lunghezza. -> falso
+467: La palla da rugby utilizzata ufficialmente è perfettamente sferica. -> falso
+468: Tiger Woods è considerato uno dei più grandi giocatori di basket di tutti i tempi. -> falso
+469: Il Tour de France termina tradizionalmente a Parigi, sugli Champs-Élysées. -> vero
+470: La Formula E utilizza esclusivamente auto a propulsione elettrica. -> vero
+471: Il fioretto, la spada e la sciabola sono le tre armi ufficiali della scherma olimpica. -> vero
+472: Nel volley, una squadra può toccare la palla al massimo quattro volte prima di rimandarla. -> falso
+473: Il celebre torneo di Wimbledon si gioca tradizionalmente su campi in terra battuta. -> falso
+474: Il velocista Usain Bolt è originario della Giamaica. -> vero
+475: La ginnastica artistica prevede gli anelli come attrezzo sia per uomini che per donne. -> falso
+476: Il judo ammette l'uso di calci e pugni durante le competizioni olimpiche ufficiali. -> falso
+477: Nel football americano della NFL, un touchdown vale 6 punti. -> vero
+478: La pallamano indoor si gioca con 11 giocatori in campo per ogni squadra. -> falso
+479: Nel ciclismo su pista, la specialità del keirin è originaria del Giappone. -> vero
+480: Le Paralimpiadi estive si svolgono nella stessa città delle Olimpiadi estive dello stesso anno. -> vero
+481: Il torneo Sei Nazioni di rugby include la partecipazione della nazionale italiana. -> vero
+482: Simone Biles è considerata una delle più grandi ginnaste di tutti i tempi. -> vero
+483: L'hockey su prato si gioca con un disco di gomma piatta. -> falso
+484: Nel sollevamento pesi, le due specialità olimpiche attuali sono lo strappo e lo slancio. -> vero
+485: Il calcio balilla (noto anche come biliardino) è uno sport olimpico ufficiale. -> falso
+486: Il record di gol segnati in una singola edizione della Coppa del Mondo appartiene a Just Fontaine. -> vero
+487: Il campo da pallavolo è diviso da una rete alta esattamente 3 metri in tutte le categorie. -> falso
+488: Nel triathlon, la frazione di nuoto è sempre la prima disciplina affrontata dagli atleti. -> vero
+489: Nel polo, i giocatori colpiscono la palla utilizzando una mazza mentre cavalcano. -> vero
+490: Lo squash si gioca in un campo chiuso delimitato da quattro pareti. -> vero
+491: I Boston Celtics sono una famosa squadra di baseball americana. -> falso
+492: Il calcio a 5, noto anche come futsal, si gioca con un pallone a rimbalzo controllato. -> vero
+493: Nel tiro con l'arco olimpico gli atleti tirano da una distanza fissa di 70 metri. -> vero
+494: Il salto con gli sci si pratica anche durante la stagione estiva su piste artificiali. -> vero
+495: Un campo da calcio regolamentare internazionale deve essere lungo almeno 100 metri. -> vero
+496: La marcia è una disciplina dell'atletica in cui è consentito staccare entrambi i piedi da terra simultaneamente. -> falso
+497: La Juventus è la squadra che ha vinto il maggior numero di campionati di Serie A in Italia. -> vero
+498: Nadia Comăneci ha ottenuto il primo '10 perfetto' nella storia della ginnastica artistica alle Olimpiadi. -> vero
+499: Il padel, sport di derivazione tennistica, si gioca su un campo aperto senza alcuna parete laterale. -> falso
+1009: Nel calcio, una partita dura normalmente 90 minuti. -> vero
+1710: Il tennis da tavolo è nato in Inghilterra. -> vero
+1711: Il Brasile ha vinto il primo campionato mondiale di calcio nel 1930. -> falso
+1712: La maratona è lunga 42,195 km. -> vero
+1713: Il basket è stato inventato da James Naismith. -> vero
+1714: Michael Phelps ha vinto 28 medaglie d'oro olimpiche in totale. -> falso
+1715: Usain Bolt detiene il record del mondo dei 100 metri con 9.58 secondi. -> vero
+1716: Nel baseball, un 'inning' è diviso in tre parti. -> falso
+1717: Il torneo di Wimbledon si gioca sull'erba. -> vero
+1718: La nazionale italiana maschile di calcio ha vinto 4 mondiali. -> vero
+1719: Nel rugby a 15, una meta vale 5 punti. -> vero
+1720: Tiger Woods non ha mai vinto il torneo Masters di golf. -> falso
+1721: Nel nuoto, lo stile delfino è comunemente chiamato anche farfalla. -> vero
+1722: Il Super Bowl è la finale del campionato di baseball americano. -> falso
+1723: La ginnasta Nadia Comăneci ha ottenuto il primo 10 perfetto alle Olimpiadi. -> vero
+1724: Nel volley, ogni squadra può toccare la palla al massimo 4 volte prima di inviarla nel campo avversario. -> falso
+1725: La Formula 1 ha tenuto il suo primo campionato del mondo nel 1950. -> vero
+1726: Serena Williams ha vinto più tornei del Grande Slam in singolare di qualsiasi altro tennista nell'era Open. -> vero
+1727: Il Giro d'Italia si è sempre corso interamente nel mese di maggio. -> falso
+1728: Le Olimpiadi invernali del 2006 si sono tenute a Torino. -> vero
+1729: Lionel Messi ha vinto il suo primo Mondiale di calcio nel 2018. -> falso
+1730: La pallanuoto femminile è diventata sport olimpico nel 2000. -> vero
+1731: Il Tour de France termina tradizionalmente sugli Champs-Élysées a Parigi. -> vero
+1732: Nel badminton si usa una pallina di gomma. -> falso
+1733: Il record per il maggior numero di punti segnati in una singola partita NBA appartiene a Wilt Chamberlain con 100 punti. -> vero
+1734: La squadra dei New York Yankees ha vinto più World Series di qualsiasi altra squadra nella MLB. -> vero
+1735: Muhammad Ali è nato con il nome di Cassius Clay. -> vero
+1736: Nel tennis, il punteggio che segue il 30 è il 45. -> falso
+1737: Il calcio a 5 si gioca in due tempi da 45 minuti ciascuno. -> falso
+1738: I giochi olimpici moderni sono stati fondati dal barone Pierre de Coubertin. -> vero
+1739: Il judo è un'arte marziale originaria della Corea. -> falso
+1740: La Ferrari è l'unica scuderia ad aver partecipato a tutte le stagioni della Formula 1. -> vero
+1741: La coppa del mondo di rugby è intitolata a William Webb Ellis. -> vero
+1742: L'Italia ha ospitato le Olimpiadi estive due volte. -> falso
+1743: Il biathlon combina lo sci di fondo con il tiro a segno con la carabina. -> vero
+1744: Roger Federer è originario della Svizzera. -> vero
+1745: Il campo da basket nella NBA è più lungo di quello europeo FIBA. -> vero
+1746: Nelle gare di atletica, la staffetta prevede 5 corridori per squadra. -> falso
+1747: Il tavolo da snooker non ha le buche. -> falso
+1748: Diego Armando Maradona ha segnato il gol della 'Mano de Dios' contro la Germania. -> falso
+1749: Il Sei Nazioni è un torneo annuale di rugby a 15 maschile. -> vero
+1750: Il pugilato era uno degli sport delle Olimpiadi antiche. -> vero
+1751: Valentino Rossi ha vinto 9 campionati mondiali nel motomondiale. -> vero
+1752: Nel curling, l'area bersaglio circolare sul ghiaccio è chiamata 'house'. -> vero
+1753: Michael Jordan ha giocato l'intera sua carriera professionistica nei Chicago Bulls. -> falso
+1754: La maglia gialla nel Tour de France è indossata dal leader della classifica a punti. -> falso
+1755: Ayrton Senna era un pilota di Formula 1 brasiliano. -> vero
+1756: Il campo da pallavolo maschile è diviso da una rete alta esattamente 3 metri. -> falso
+1757: In una squadra di hockey su ghiaccio scendono in pista 6 giocatori contemporaneamente, compreso il portiere. -> vero
+1758: Il salto in lungo è una delle 10 prove previste nel decathlon maschile. -> vero
+1759: Simone Biles è una campionessa mondiale di nuoto sincronizzato. -> falso
+1760: L'attuale trofeo della Coppa del Mondo FIFA è realizzato in oro massiccio a 18 carati. -> vero
+1761: La distanza di un triathlon 'Ironman' prevede 42 km di corsa, 180 km in bicicletta e quasi 4 km di nuoto. -> vero
+1762: Le Olimpiadi del 1940 e del 1944 furono cancellate a causa della Prima Guerra Mondiale. -> falso
+1763: Il decathlon esiste come disciplina olimpica ufficiale anche per le donne. -> falso
+1764: La durata di un incontro di boxe professionistico per un titolo mondiale può arrivare a 15 round oggi. -> falso
+1765: La palla da golf è dotata di fossette per migliorarne l'aerodinamicità e farla volare più lontano. -> vero
+1766: La squadra nazionale di calcio maschile degli Stati Uniti ha vinto il Mondiale di calcio almeno una volta. -> falso
+1767: Il ping pong è diventato ufficialmente uno sport olimpico nel 1988. -> vero
+1768: Il record mondiale del salto in alto maschile è superiore a 2 metri e 40 centimetri. -> vero
+1769: Novak Djokovic ha vinto tutti i quattro tornei del Grande Slam almeno una volta in carriera. -> vero
+1770: Il termine 'Grand Slam' nel tennis deriva dal linguaggio del golf. -> falso
+1771: Nel football americano, un touchdown vale 6 punti. -> vero
+1772: L'arco utilizzato nel tiro con l'arco alle Olimpiadi è chiamato arco nudo. -> falso
+1773: Il taekwondo è un'arte marziale che nasce in Corea. -> vero
+1774: L'Islanda è la nazione con la popolazione più piccola ad essersi mai qualificata per i mondiali di calcio maschili. -> vero
+1775: Dal 1988, i Giochi Paralimpici si tengono nello stesso anno e nella stessa città dei Giochi Olimpici. -> vero
+1776: Il campo di gioco del torneo di Roland Garros è in terra rossa. -> vero
+1777: Pelé ha segnato oltre 1000 gol in carriera, includendo anche le partite non ufficiali. -> vero
+1778: I cinque colori dei cerchi olimpici, insieme al bianco dello sfondo, rappresentano i colori di tutte le bandiere del mondo all'epoca della loro creazione. -> vero
+1779: I Denver Nuggets hanno vinto il loro primo titolo NBA nel 2023. -> vero
+1780: Nella scherma sportiva, le tre armi utilizzate sono il fioretto, la spada e la sciabola. -> vero
+1781: Il ciclista Lance Armstrong ha conservato tutti i suoi titoli del Tour de France. -> falso
+1782: La Ryder Cup è una prestigiosa competizione a squadre di polo. -> falso
+1783: Il primo torneo di Wimbledon si disputò nel 1877 solo per il singolare maschile. -> vero
+1784: La pallanuoto si gioca con 8 giocatori per squadra contemporaneamente in acqua. -> falso
+1785: L'Inghilterra ha vinto la Coppa del Mondo di calcio maschile nel 1966. -> vero
+1786: Un incontro di judo può terminare in pochi secondi se viene assegnato un 'Ippon'. -> vero
+1787: Le mazze da baseball utilizzate dai professionisti nella MLB sono realizzate in alluminio. -> falso
+1788: La prima Olimpiade dell'era moderna fu celebrata ad Atene nel 1896. -> vero
+1789: Kobe Bryant ha segnato 81 punti in una singola partita NBA. -> vero
+1790: Il nastro del traguardo nelle gare di atletica leggera viene posto all'altezza del petto. -> vero
+1791: Nel motociclismo su pista, la classe di maggiore cilindrata è attualmente la MotoGP. -> vero
+1792: Gianluigi Buffon ha esordito in Serie A difendendo la porta della Juventus. -> falso
+1793: Il famoso stadio Maracanã si trova nella città di Buenos Aires, in Argentina. -> falso
+1794: Nella Formula 1, la bandiera a scacchi indica la fine della sessione o della gara. -> vero
+1795: Nel calcio sportivo, il termine Hattrick significa fare tre assist vincenti in una singola partita. -> falso
+1796: Alberto Tomba è stato uno sciatore alpino specializzato principalmente nelle prove di discesa libera. -> falso
+1797: La pallacanestro e la pallavolo sono stati inventati negli Stati Uniti. -> vero
+1798: Il Sudafrica ha vinto la Coppa del Mondo di rugby maschile più volte di qualsiasi altra squadra fino al 2023. -> vero
+1799: Il Kite Surf ha debuttato come sport olimpico ai Giochi di Parigi 2024. -> vero
+1800: La squadra vincitrice della Champions League calcistica riceve il trofeo originale da conservare per sempre. -> falso
+1801: La famosa esultanza di Cristiano Ronaldo è accompagnata dall'urlo 'Siuuu'. -> vero
+1802: Le discipline equestri come il salto ad ostacoli fanno parte degli sport olimpici. -> vero
+1803: Nel baseball, un battitore viene automaticamente eliminato se accumula tre 'strike'. -> vero
+1804: Il record per la traversata a nuoto più veloce del Canale della Manica è inferiore alle 7 ore. -> vero
+1805: Le medaglie d'oro olimpiche attuali sono realizzate in oro puro al 100%. -> falso
+1806: Le auto da rally competono solo ed esclusivamente su strade sterrate e mai su asfalto. -> falso
+1807: La nazionale di calcio dell'Italia non si è qualificata ai mondiali maschili né nel 2018 né nel 2022. -> vero
+1808: Nel calcio agonistico, il cartellino rosso comporta l'espulsione immediata del giocatore. -> vero
+1809: Nel golf, completare una buca impiegando un colpo in meno del 'par' viene chiamato 'Birdie'. -> vero
