@@ -12,8 +12,20 @@ import { jeopardyCategories } from './data';
 import type { JeopardyCategory } from './data';
 import { getServerTime } from '../../utils/serverTime';
 
+const encodeFirebaseKey = (str: string) => {
+  return encodeURIComponent(str).replace(/\./g, '%2E');
+};
+
+const getUnusedQuestion = (pool: any[], used: Record<string, boolean>, newlyUsed: Record<string, boolean>) => {
+  let available = pool.filter(q => !used[encodeFirebaseKey(q.question)]);
+  if (available.length === 0) available = pool; // Fallback
+  const selected = available[Math.floor(Math.random() * available.length)];
+  newlyUsed[encodeFirebaseKey(selected.question)] = true;
+  return selected;
+};
+
 export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
-  const { lobby, updateGameState } = useLobby(lobbyCode);
+  const { lobby, updateGameState, updateLobbyData } = useLobby(lobbyCode);
   const gameState = lobby?.game_state || {};
   const players = lobby?.players || {};
   
@@ -31,17 +43,20 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
          const adminCats = gameState.settings?.adminCategories || [];
          const finalCategories = adminCats.length === 5 ? adminCats : ['Cinema e Serie TV', 'Storia e Mitologia', 'Musica', 'Scienza e Natura', 'Sport'];
          
+         const usedQuestions = lobby?.used_jeopardy_questions || {};
+         const newlyUsed: Record<string, boolean> = {};
+
          const boardData = finalCategories.map((catName: string) => {
             const originalCat = jeopardyCategories.find(c => c.name === catName);
             if (!originalCat) return null;
             return {
                name: catName,
                questions: {
-                   100: originalCat.questions[100][Math.floor(Math.random() * originalCat.questions[100].length)],
-                   200: originalCat.questions[200][Math.floor(Math.random() * originalCat.questions[200].length)],
-                   300: originalCat.questions[300][Math.floor(Math.random() * originalCat.questions[300].length)],
-                   400: originalCat.questions[400][Math.floor(Math.random() * originalCat.questions[400].length)],
-                   500: originalCat.questions[500][Math.floor(Math.random() * originalCat.questions[500].length)],
+                   100: getUnusedQuestion(originalCat.questions[100], usedQuestions, newlyUsed),
+                   200: getUnusedQuestion(originalCat.questions[200], usedQuestions, newlyUsed),
+                   300: getUnusedQuestion(originalCat.questions[300], usedQuestions, newlyUsed),
+                   400: getUnusedQuestion(originalCat.questions[400], usedQuestions, newlyUsed),
+                   500: getUnusedQuestion(originalCat.questions[500], usedQuestions, newlyUsed),
                }
             }
          }).filter(Boolean);
@@ -52,6 +67,10 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
             completedCells: [], 
             currentCell: null,
             startTime: getServerTime()
+         });
+         
+         updateLobbyData({
+            used_jeopardy_questions: { ...usedQuestions, ...newlyUsed }
          });
       }
     }
@@ -100,17 +119,20 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
 
   useEffect(() => {
     if (gameState.phase === 'voting_results' && gameState.startBoard) {
+       const usedQuestions = lobby?.used_jeopardy_questions || {};
+       const newlyUsed: Record<string, boolean> = {};
+
        const boardData = gameState.finalCategories.map((catName: string) => {
           const originalCat = jeopardyCategories.find(c => c.name === catName);
           if (!originalCat) return null;
           return {
              name: catName,
              questions: {
-                 100: originalCat.questions[100][Math.floor(Math.random() * originalCat.questions[100].length)],
-                 200: originalCat.questions[200][Math.floor(Math.random() * originalCat.questions[200].length)],
-                 300: originalCat.questions[300][Math.floor(Math.random() * originalCat.questions[300].length)],
-                 400: originalCat.questions[400][Math.floor(Math.random() * originalCat.questions[400].length)],
-                 500: originalCat.questions[500][Math.floor(Math.random() * originalCat.questions[500].length)],
+                 100: getUnusedQuestion(originalCat.questions[100], usedQuestions, newlyUsed),
+                 200: getUnusedQuestion(originalCat.questions[200], usedQuestions, newlyUsed),
+                 300: getUnusedQuestion(originalCat.questions[300], usedQuestions, newlyUsed),
+                 400: getUnusedQuestion(originalCat.questions[400], usedQuestions, newlyUsed),
+                 500: getUnusedQuestion(originalCat.questions[500], usedQuestions, newlyUsed),
              }
           }
        }).filter(Boolean);
@@ -122,6 +144,10 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
            completedCells: [],
            currentCell: null,
            startTime: getServerTime()
+       });
+       
+       updateLobbyData({
+           used_jeopardy_questions: { ...usedQuestions, ...newlyUsed }
        });
     }
   }, [gameState.phase, gameState.startBoard]);
