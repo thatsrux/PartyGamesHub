@@ -1,56 +1,56 @@
 [
   {
     "question": "In che anno è uscito il film Titanic?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1991,
+    "max": 2011,
     "answer": 1997,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti premi Oscar ha vinto Il Signore degli Anelli - Il Ritorno del Re?",
-    "min": 5,
-    "max": 15,
+    "min": 8,
+    "max": 18,
     "answer": 11,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni compongono la serie Breaking Bad?",
-    "min": 2,
-    "max": 9,
+    "min": 3,
+    "max": 10,
     "answer": 5,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi ha in totale la serie Friends?",
-    "min": 150,
-    "max": 300,
+    "min": 110,
+    "max": 260,
     "answer": 236,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il primo film di Star Wars (Episodio IV)?",
-    "min": 1965,
-    "max": 1985,
+    "min": 1963,
+    "max": 1983,
     "answer": 1977,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti minuti dura la versione cinematografica di Avengers: Endgame?",
-    "min": 140,
-    "max": 220,
+    "min": 160,
+    "max": 240,
     "answer": 181,
     "unit": "min",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il primo film di Avatar?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1998,
+    "max": 2013,
     "answer": 2009,
     "unit": "",
     "category": "Cinema e Serie TV"
@@ -65,128 +65,128 @@
   },
   {
     "question": "Quanti premi Oscar ha vinto Meryl Streep?",
-    "min": 1,
-    "max": 6,
+    "min": 0,
+    "max": 5,
     "answer": 3,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni compongono la serie Il Trono di Spade (Game of Thrones)?",
-    "min": 4,
-    "max": 12,
-    "answer": 8,
-    "unit": "",
-    "category": "Cinema e Serie TV"
-  },
-  {
-    "question": "Quanti episodi compongono la serie Il Trono di Spade?",
-    "min": 50,
-    "max": 100,
-    "answer": 73,
-    "unit": "",
-    "category": "Cinema e Serie TV"
-  },
-  {
-    "question": "In che anno è uscito il primo film di Matrix?",
-    "min": 1990,
-    "max": 2005,
-    "answer": 1999,
-    "unit": "",
-    "category": "Cinema e Serie TV"
-  },
-  {
-    "question": "Quanti film compongono la saga principale di Harry Potter?",
-    "min": 5,
+    "min": 2,
     "max": 10,
     "answer": 8,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
+    "question": "Quanti episodi compongono la serie Il Trono di Spade?",
+    "min": 30,
+    "max": 80,
+    "answer": 73,
+    "unit": "",
+    "category": "Cinema e Serie TV"
+  },
+  {
+    "question": "In che anno è uscito il primo film di Matrix?",
+    "min": 1987,
+    "max": 2002,
+    "answer": 1999,
+    "unit": "",
+    "category": "Cinema e Serie TV"
+  },
+  {
+    "question": "Quanti film compongono la saga principale di Harry Potter?",
+    "min": 4,
+    "max": 9,
+    "answer": 8,
+    "unit": "",
+    "category": "Cinema e Serie TV"
+  },
+  {
     "question": "Quanti anni aveva Macaulay Culkin all'uscita di Mamma ho perso l'aereo (1990)?",
-    "min": 6,
-    "max": 14,
+    "min": 4,
+    "max": 12,
     "answer": 10,
     "unit": "anni",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Pulp Fiction?",
-    "min": 1985,
-    "max": 2000,
+    "min": 1981,
+    "max": 1996,
     "answer": 1994,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi ha la serie TV The Office (versione USA)?",
-    "min": 100,
-    "max": 250,
+    "min": 70,
+    "max": 220,
     "answer": 201,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni compongono The Office (USA)?",
-    "min": 5,
-    "max": 13,
+    "min": 2,
+    "max": 10,
     "answer": 9,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il primo film di Ritorno al Futuro?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1968,
+    "max": 1988,
     "answer": 1985,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti anni aveva Marlon Brando all'uscita de Il Padrino (1972)?",
-    "min": 35,
-    "max": 65,
+    "min": 23,
+    "max": 53,
     "answer": 48,
     "unit": "anni",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti premi Oscar ha vinto il film Il Padrino?",
-    "min": 1,
-    "max": 8,
+    "min": 2,
+    "max": 9,
     "answer": 3,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Jurassic Park?",
-    "min": 1985,
-    "max": 2000,
+    "min": 1980,
+    "max": 1995,
     "answer": 1993,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti minuti dura il film Il Padrino?",
-    "min": 120,
-    "max": 210,
+    "min": 160,
+    "max": 250,
     "answer": 175,
     "unit": "min",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi ha Stranger Things contando le prime quattro stagioni?",
-    "min": 20,
-    "max": 50,
+    "min": 14,
+    "max": 44,
     "answer": 34,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito E.T. l'extra-terrestre?",
-    "min": 1975,
-    "max": 1990,
+    "min": 1972,
+    "max": 1987,
     "answer": 1982,
     "unit": "",
     "category": "Cinema e Serie TV"
@@ -201,48 +201,48 @@
   },
   {
     "question": "In che anno è uscito il primo film di Iron Man?",
-    "min": 2000,
-    "max": 2015,
+    "min": 2004,
+    "max": 2019,
     "answer": 2008,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Fight Club?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1987,
+    "max": 2002,
     "answer": 1999,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Inception?",
-    "min": 2000,
-    "max": 2015,
+    "min": 2005,
+    "max": 2020,
     "answer": 2010,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il primo film di Toy Story?",
-    "min": 1985,
-    "max": 2000,
+    "min": 1991,
+    "max": 2006,
     "answer": 1995,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti film ufficiali di James Bond ha interpretato Sean Connery?",
-    "min": 3,
-    "max": 10,
+    "min": 5,
+    "max": 12,
     "answer": 6,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti film di James Bond ha interpretato Daniel Craig?",
-    "min": 2,
-    "max": 8,
+    "min": 4,
+    "max": 10,
     "answer": 5,
     "unit": "",
     "category": "Cinema e Serie TV"
@@ -257,496 +257,496 @@
   },
   {
     "question": "Quante stagioni di Stranger Things sono uscite fino al 2023?",
-    "min": 2,
-    "max": 6,
+    "min": 1,
+    "max": 5,
     "answer": 4,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno ha debuttato la serie Breaking Bad?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1995,
+    "max": 2010,
     "answer": 2008,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è andato in onda il primo episodio di Lost?",
-    "min": 1998,
-    "max": 2010,
+    "min": 1995,
+    "max": 2007,
     "answer": 2004,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni compongono la serie Lost?",
-    "min": 4,
-    "max": 10,
+    "min": 1,
+    "max": 7,
     "answer": 6,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Il Signore degli Anelli: La Compagnia dell'Anello?",
-    "min": 1995,
-    "max": 2005,
+    "min": 1999,
+    "max": 2009,
     "answer": 2001,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti premi Oscar ha vinto il film Titanic?",
-    "min": 5,
-    "max": 15,
+    "min": 2,
+    "max": 12,
     "answer": 11,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti premi Oscar ha vinto il film Ben-Hur?",
-    "min": 5,
-    "max": 15,
+    "min": 4,
+    "max": 14,
     "answer": 11,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Lo Squalo (Jaws)?",
-    "min": 1965,
-    "max": 1985,
+    "min": 1972,
+    "max": 1992,
     "answer": 1975,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film The Avengers?",
-    "min": 2005,
-    "max": 2018,
+    "min": 2004,
+    "max": 2017,
     "answer": 2012,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film d'animazione Il Re Leone originale?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1978,
+    "max": 1998,
     "answer": 1994,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti minuti dura la versione cinematografica de Il Signore degli Anelli - Il Ritorno del Re?",
-    "min": 160,
-    "max": 240,
+    "min": 170,
+    "max": 250,
     "answer": 201,
     "unit": "min",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti Oscar ha vinto Tom Hanks come Miglior Attore Protagonista?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 2,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Forrest Gump?",
-    "min": 1985,
-    "max": 2000,
+    "min": 1984,
+    "max": 1999,
     "answer": 1994,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni ha la serie How I Met Your Mother?",
-    "min": 5,
-    "max": 13,
+    "min": 7,
+    "max": 15,
     "answer": 9,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi ha la serie How I Met Your Mother?",
-    "min": 150,
-    "max": 250,
+    "min": 180,
+    "max": 280,
     "answer": 208,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Il Gladiatore?",
-    "min": 1992,
-    "max": 2008,
+    "min": 1989,
+    "max": 2005,
     "answer": 2000,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti Oscar ha vinto Daniel Day-Lewis come Miglior Attore Protagonista?",
-    "min": 1,
-    "max": 6,
+    "min": 0,
+    "max": 5,
     "answer": 3,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Blade Runner?",
-    "min": 1975,
-    "max": 1990,
+    "min": 1978,
+    "max": 1993,
     "answer": 1982,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni ha la serie The Big Bang Theory?",
-    "min": 8,
-    "max": 16,
+    "min": 11,
+    "max": 19,
     "answer": 12,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi ha in totale The Big Bang Theory?",
-    "min": 200,
-    "max": 350,
+    "min": 240,
+    "max": 390,
     "answer": 279,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito The Truman Show?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1995,
+    "max": 2010,
     "answer": 1998,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni ha la serie Peaky Blinders?",
-    "min": 3,
-    "max": 9,
+    "min": 2,
+    "max": 8,
     "answer": 6,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il primo Spider-Man diretto da Sam Raimi?",
-    "min": 1995,
-    "max": 2010,
+    "min": 1998,
+    "max": 2013,
     "answer": 2002,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il primo film di Harry Potter (La Pietra Filosofale)?",
-    "min": 1995,
-    "max": 2005,
+    "min": 1992,
+    "max": 2002,
     "answer": 2001,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti anni aveva Daniel Radcliffe all'uscita del primo film di Harry Potter?",
-    "min": 8,
-    "max": 16,
+    "min": 10,
+    "max": 18,
     "answer": 12,
     "unit": "anni",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti film compongono la saga principale (Saga degli Skywalker) di Star Wars?",
-    "min": 6,
-    "max": 12,
+    "min": 8,
+    "max": 14,
     "answer": 9,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni compongono la serie TV Scrubs?",
-    "min": 5,
-    "max": 12,
+    "min": 7,
+    "max": 14,
     "answer": 9,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Arancia Meccanica (A Clockwork Orange)?",
-    "min": 1960,
-    "max": 1985,
+    "min": 1967,
+    "max": 1992,
     "answer": 1971,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Shining?",
-    "min": 1970,
-    "max": 1990,
+    "min": 1973,
+    "max": 1993,
     "answer": 1980,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è andato in onda il primo episodio de I Simpson?",
-    "min": 1980,
-    "max": 1995,
+    "min": 1986,
+    "max": 2001,
     "answer": 1989,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni ha la serie I Soprano?",
-    "min": 4,
-    "max": 10,
+    "min": 1,
+    "max": 7,
     "answer": 6,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi ha la serie I Soprano?",
-    "min": 50,
-    "max": 120,
+    "min": 30,
+    "max": 100,
     "answer": 86,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Il silenzio degli innocenti?",
-    "min": 1985,
-    "max": 2000,
+    "min": 1978,
+    "max": 1993,
     "answer": 1991,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Braveheart - Cuore impavido?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1979,
+    "max": 1999,
     "answer": 1995,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film La Grande Bellezza?",
-    "min": 2005,
-    "max": 2020,
+    "min": 2009,
+    "max": 2024,
     "answer": 2013,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film La vita è bella?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1993,
+    "max": 2008,
     "answer": 1997,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti premi Oscar ha vinto il film La vita è bella?",
-    "min": 1,
-    "max": 6,
+    "min": 0,
+    "max": 5,
     "answer": 3,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Nuovo Cinema Paradiso?",
-    "min": 1980,
-    "max": 1995,
+    "min": 1975,
+    "max": 1990,
     "answer": 1988,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni di Black Mirror sono uscite fino al 2023?",
-    "min": 3,
-    "max": 10,
+    "min": 4,
+    "max": 11,
     "answer": 6,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi ha in totale la serie Breaking Bad?",
-    "min": 40,
-    "max": 90,
+    "min": 20,
+    "max": 70,
     "answer": 62,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Interstellar?",
-    "min": 2005,
-    "max": 2020,
+    "min": 2012,
+    "max": 2027,
     "answer": 2014,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti premi Oscar (incluso quello alla carriera) ha vinto Ennio Morricone?",
-    "min": 0,
-    "max": 5,
+    "min": 1,
+    "max": 6,
     "answer": 2,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è morta l'attrice Marilyn Monroe?",
-    "min": 1950,
-    "max": 1975,
+    "min": 1940,
+    "max": 1965,
     "answer": 1962,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti anni aveva l'attore James Dean quando è morto?",
-    "min": 18,
-    "max": 32,
+    "min": 21,
+    "max": 35,
     "answer": 24,
     "unit": "anni",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Psyco di Alfred Hitchcock?",
-    "min": 1950,
-    "max": 1970,
+    "min": 1944,
+    "max": 1964,
     "answer": 1960,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Il buono, il brutto, il cattivo?",
-    "min": 1955,
-    "max": 1975,
+    "min": 1952,
+    "max": 1972,
     "answer": 1966,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni compongono la serie Better Call Saul?",
-    "min": 3,
-    "max": 9,
+    "min": 2,
+    "max": 8,
     "answer": 6,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi ha in totale la serie Better Call Saul?",
-    "min": 40,
-    "max": 80,
+    "min": 55,
+    "max": 95,
     "answer": 63,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito The Wolf of Wall Street?",
-    "min": 2005,
-    "max": 2018,
+    "min": 2010,
+    "max": 2023,
     "answer": 2013,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Avatar: La via dell'acqua?",
-    "min": 2015,
-    "max": 2025,
+    "min": 2014,
+    "max": 2024,
     "answer": 2022,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti Oscar ha vinto il film sudcoreano Parasite?",
-    "min": 1,
-    "max": 7,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il film Parasite?",
-    "min": 2012,
-    "max": 2022,
+    "min": 2011,
+    "max": 2021,
     "answer": 2019,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscita la prima stagione della serie Squid Game?",
-    "min": 2016,
-    "max": 2023,
+    "min": 2015,
+    "max": 2022,
     "answer": 2021,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti film compongono la saga principale di Fast & Furious (fino al 2023)?",
-    "min": 6,
-    "max": 14,
+    "min": 8,
+    "max": 16,
     "answer": 10,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il primo film di Fast & Furious?",
-    "min": 1995,
-    "max": 2005,
+    "min": 1998,
+    "max": 2008,
     "answer": 2001,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il primo film Una notte da leoni?",
-    "min": 2002,
-    "max": 2015,
+    "min": 2006,
+    "max": 2019,
     "answer": 2009,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni ha la serie The Walking Dead?",
-    "min": 7,
-    "max": 15,
+    "min": 6,
+    "max": 14,
     "answer": 11,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi ha la serie TV The Walking Dead?",
-    "min": 130,
-    "max": 220,
+    "min": 100,
+    "max": 190,
     "answer": 177,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Mad Max: Fury Road?",
-    "min": 2008,
-    "max": 2020,
+    "min": 2013,
+    "max": 2025,
     "answer": 2015,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quante stagioni compongono la serie True Detective (fino al 2024)?",
-    "min": 2,
-    "max": 7,
+    "min": 3,
+    "max": 8,
     "answer": 4,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Il cavaliere oscuro di Christopher Nolan?",
-    "min": 2000,
-    "max": 2015,
+    "min": 2006,
+    "max": 2021,
     "answer": 2008,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito Le iene (Reservoir Dogs) di Quentin Tarantino?",
-    "min": 1985,
-    "max": 2000,
+    "min": 1990,
+    "max": 2005,
     "answer": 1992,
     "unit": "",
     "category": "Cinema e Serie TV"
@@ -761,8 +761,8 @@
   },
   {
     "question": "In che anno è uscito il primo film di Alien?",
-    "min": 1970,
-    "max": 1990,
+    "min": 1964,
+    "max": 1984,
     "answer": 1979,
     "unit": "",
     "category": "Cinema e Serie TV"
@@ -777,24 +777,24 @@
   },
   {
     "question": "Quante stagioni compongono la serie originale di Dexter?",
-    "min": 5,
-    "max": 11,
+    "min": 6,
+    "max": 12,
     "answer": 8,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "Quanti episodi compongono la serie originale di Dexter?",
-    "min": 70,
-    "max": 120,
+    "min": 60,
+    "max": 110,
     "answer": 96,
     "unit": "",
     "category": "Cinema e Serie TV"
   },
   {
     "question": "In che anno è uscito il primo film di Shrek?",
-    "min": 1995,
-    "max": 2005,
+    "min": 1992,
+    "max": 2002,
     "answer": 2001,
     "unit": "",
     "category": "Cinema e Serie TV"
@@ -802,216 +802,216 @@
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito nelle sale il primo film di 'Star Wars' (Una nuova speranza)?",
-    "min": 1970,
-    "max": 1985,
+    "min": 1965,
+    "max": 1980,
     "answer": 1977,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni conta in totale la serie TV 'Game of Thrones' (Il Trono di Spade)?",
-    "min": 4,
-    "max": 12,
+    "min": 1,
+    "max": 9,
     "answer": 8,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti premi Oscar ha vinto il film 'Titanic' (1997)?",
-    "min": 5,
-    "max": 15,
+    "min": 4,
+    "max": 14,
     "answer": 11,
     "unit": "Oscar"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti premi Oscar ha vinto 'Il Signore degli Anelli - Il ritorno del re'?",
-    "min": 5,
-    "max": 15,
+    "min": 8,
+    "max": 18,
     "answer": 11,
     "unit": "Oscar"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il primo film della saga di 'Matrix'?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1989,
+    "max": 2004,
     "answer": 1999,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Qual è la durata in minuti di 'Avengers: Endgame'?",
-    "min": 140,
-    "max": 220,
+    "min": 120,
+    "max": 200,
     "answer": 181,
     "unit": "minuti"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni compongono la serie TV 'Friends'?",
-    "min": 5,
-    "max": 15,
+    "min": 7,
+    "max": 17,
     "answer": 10,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi ha in totale la serie TV 'Friends'?",
-    "min": 150,
-    "max": 300,
+    "min": 190,
+    "max": 340,
     "answer": 236,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito nelle sale il primo film di 'Harry Potter' (La pietra filosofale)?",
-    "min": 1995,
-    "max": 2005,
+    "min": 1994,
+    "max": 2004,
     "answer": 2001,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti anni sono passati tra l'uscita del primo e dell'ultimo film della saga di 'Harry Potter'?",
-    "min": 5,
-    "max": 15,
+    "min": 8,
+    "max": 18,
     "answer": 10,
     "unit": "anni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni ha la serie TV 'Breaking Bad'?",
-    "min": 3,
-    "max": 9,
+    "min": 4,
+    "max": 10,
     "answer": 5,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi ha in totale 'Breaking Bad'?",
-    "min": 40,
-    "max": 80,
+    "min": 50,
+    "max": 90,
     "answer": 62,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti premi Oscar ha vinto Meryl Streep nella sua carriera?",
-    "min": 1,
-    "max": 6,
+    "min": 0,
+    "max": 5,
     "answer": 3,
     "unit": "Oscar"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito al cinema 'Il Padrino'?",
-    "min": 1960,
-    "max": 1985,
+    "min": 1951,
+    "max": 1976,
     "answer": 1972,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito nelle sale 'Avatar' di James Cameron?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1996,
+    "max": 2011,
     "answer": 2009,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti attori hanno interpretato ufficialmente James Bond nei film della EON Productions?",
-    "min": 3,
-    "max": 10,
+    "min": 5,
+    "max": 12,
     "answer": 6,
     "unit": "attori"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film ufficiali (EON Productions) di James Bond sono stati realizzati fino al 2023?",
-    "min": 15,
-    "max": 35,
+    "min": 19,
+    "max": 39,
     "answer": 25,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il primo 'Jurassic Park'?",
-    "min": 1985,
-    "max": 2000,
+    "min": 1990,
+    "max": 2005,
     "answer": 1993,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti anni aveva Leonardo DiCaprio quando ha vinto il suo primo premio Oscar?",
-    "min": 30,
-    "max": 50,
+    "min": 35,
+    "max": 55,
     "answer": 41,
     "unit": "anni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante statuette Oscar (competitive) ha vinto Walt Disney, detenendo il record assoluto?",
-    "min": 10,
-    "max": 35,
+    "min": 17,
+    "max": 42,
     "answer": 22,
     "unit": "Oscar"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni compongono la versione statunitense di 'The Office'?",
-    "min": 5,
-    "max": 15,
+    "min": 7,
+    "max": 17,
     "answer": 9,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi ha in totale 'The Office' (US)?",
-    "min": 150,
-    "max": 250,
+    "min": 190,
+    "max": 290,
     "answer": 201,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il film 'Pulp Fiction'?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1988,
+    "max": 2008,
     "answer": 1994,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film ha diretto Quentin Tarantino (contando 'Kill Bill' come un'unica opera) fino al 2023?",
-    "min": 5,
-    "max": 15,
+    "min": 2,
+    "max": 12,
     "answer": 9,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito 'Ritorno al futuro'?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1983,
+    "max": 2003,
     "answer": 1985,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni di 'Stranger Things' sono uscite fino al 2023?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In quale anno del futuro viaggiano i protagonisti in 'Ritorno al futuro - Parte II'?",
-    "min": 2000,
-    "max": 2030,
+    "min": 2010,
+    "max": 2040,
     "answer": 2015,
     "unit": ""
   },
@@ -1026,232 +1026,232 @@
   {
     "category": "Cinema e Serie TV",
     "question": "Da quanti film è composta la saga principale (Skywalker saga) di 'Star Wars'?",
-    "min": 6,
-    "max": 12,
+    "min": 4,
+    "max": 10,
     "answer": 9,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film compongono la saga principale di 'Harry Potter'?",
-    "min": 5,
-    "max": 10,
+    "min": 6,
+    "max": 11,
     "answer": 8,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il film 'Titanic'?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1984,
+    "max": 1999,
     "answer": 1997,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni ha la serie moderna di 'Doctor Who' (dal 2005 al 2022, prima del 14° Dottore)?",
-    "min": 8,
-    "max": 18,
+    "min": 6,
+    "max": 16,
     "answer": 13,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il primo 'Iron Man', dando inizio al Marvel Cinematic Universe?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1997,
+    "max": 2012,
     "answer": 2008,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti lungometraggi ha diretto Christopher Nolan, incluso 'Oppenheimer'?",
-    "min": 8,
-    "max": 16,
+    "min": 5,
+    "max": 13,
     "answer": 12,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è andato in onda il primo episodio in assoluto de 'I Simpson'?",
-    "min": 1980,
-    "max": 1995,
+    "min": 1977,
+    "max": 1992,
     "answer": 1989,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi ha la prima stagione della serie Netflix 'Squid Game'?",
-    "min": 5,
-    "max": 15,
+    "min": 6,
+    "max": 16,
     "answer": 9,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti anni aveva l'attore Macaulay Culkin quando è uscito 'Mamma, ho perso l'aereo' (1990)?",
-    "min": 5,
-    "max": 15,
+    "min": 8,
+    "max": 18,
     "answer": 10,
     "unit": "anni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito 'E.T. l'extra-terrestre'?",
-    "min": 1975,
-    "max": 1990,
+    "min": 1978,
+    "max": 1993,
     "answer": 1982,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni conta la serie TV 'Lost'?",
-    "min": 4,
-    "max": 10,
+    "min": 1,
+    "max": 7,
     "answer": 6,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi ha in totale la serie TV 'I Soprano'?",
-    "min": 60,
-    "max": 110,
+    "min": 70,
+    "max": 120,
     "answer": 86,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti premi Oscar ha vinto il celebre film storico 'Ben-Hur' (1959)?",
-    "min": 5,
-    "max": 15,
+    "min": 10,
+    "max": 20,
     "answer": 11,
     "unit": "Oscar"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film compongono la saga cinematografica di Indiana Jones fino al 2023?",
-    "min": 3,
-    "max": 8,
+    "min": 1,
+    "max": 6,
     "answer": 5,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è scomparso prematuramente l'attore Heath Ledger?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1997,
+    "max": 2012,
     "answer": 2008,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante candidature all'Oscar ha ricevuto il film 'La La Land' (record condiviso con Titanic e Eva contro Eva)?",
-    "min": 8,
-    "max": 18,
+    "min": 7,
+    "max": 17,
     "answer": 14,
     "unit": "nomination"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni ha la serie 'How I Met Your Mother'?",
-    "min": 5,
-    "max": 15,
+    "min": 1,
+    "max": 11,
     "answer": 9,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi compongono 'How I Met Your Mother'?",
-    "min": 150,
-    "max": 250,
+    "min": 120,
+    "max": 220,
     "answer": 208,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In quale anno è nato il celebre regista Steven Spielberg?",
-    "min": 1930,
-    "max": 1960,
+    "min": 1923,
+    "max": 1953,
     "answer": 1946,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film compongono la saga originale di 'Rocky' (esclusi gli spin-off di Creed)?",
-    "min": 4,
-    "max": 10,
+    "min": 1,
+    "max": 7,
     "answer": 6,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il Classico Disney d'animazione 'Il Re Leone'?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1978,
+    "max": 1998,
     "answer": 1994,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il film 'Forrest Gump'?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1990,
+    "max": 2010,
     "answer": 1994,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti premi Oscar ha vinto 'Forrest Gump'?",
-    "min": 2,
-    "max": 10,
+    "min": 3,
+    "max": 11,
     "answer": 6,
     "unit": "Oscar"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni compongono la serie 'The Big Bang Theory'?",
-    "min": 8,
-    "max": 16,
+    "min": 10,
+    "max": 18,
     "answer": 12,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi ha in totale 'The Big Bang Theory'?",
-    "min": 200,
-    "max": 350,
+    "min": 260,
+    "max": 410,
     "answer": 279,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il film 'Il Gladiatore' con Russell Crowe?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1983,
+    "max": 2003,
     "answer": 2000,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film compongono la saga principale di 'Fast & Furious' fino al capitolo 'Fast X'?",
-    "min": 6,
-    "max": 15,
+    "min": 3,
+    "max": 12,
     "answer": 10,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni compongono la serie TV 'Peaky Blinders'?",
-    "min": 4,
-    "max": 10,
+    "min": 5,
+    "max": 11,
     "answer": 6,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il primo film d'animazione di 'Shrek'?",
-    "min": 1995,
-    "max": 2010,
+    "min": 1991,
+    "max": 2006,
     "answer": 2001,
     "unit": ""
   },
@@ -1266,24 +1266,24 @@
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il film 'Inception' diretto da Christopher Nolan?",
-    "min": 2000,
-    "max": 2020,
+    "min": 2006,
+    "max": 2026,
     "answer": 2010,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Da quanti episodi è composta l'acclamata miniserie televisiva 'Chernobyl'?",
-    "min": 3,
-    "max": 10,
+    "min": 0,
+    "max": 7,
     "answer": 5,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito 'Il Signore degli Anelli - La Compagnia dell'Anello'?",
-    "min": 1995,
-    "max": 2010,
+    "min": 1990,
+    "max": 2005,
     "answer": 2001,
     "unit": ""
   },
@@ -1298,216 +1298,216 @@
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film di 'Mission: Impossible' sono usciti al cinema fino al 2023 (incluso Dead Reckoning - Parte 1)?",
-    "min": 4,
-    "max": 10,
+    "min": 6,
+    "max": 12,
     "answer": 7,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il film 'Fight Club'?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1997,
+    "max": 2017,
     "answer": 1999,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni ha lo spin-off televisivo 'Better Call Saul'?",
-    "min": 4,
-    "max": 10,
+    "min": 5,
+    "max": 11,
     "answer": 6,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi ha in totale 'Better Call Saul'?",
-    "min": 40,
-    "max": 80,
+    "min": 56,
+    "max": 96,
     "answer": 63,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito 'Il cavaliere oscuro' (The Dark Knight)?",
-    "min": 2000,
-    "max": 2015,
+    "min": 2006,
+    "max": 2021,
     "answer": 2008,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti premi Oscar come Miglior Attore Protagonista ha vinto Daniel Day-Lewis?",
-    "min": 1,
-    "max": 5,
+    "min": 2,
+    "max": 6,
     "answer": 3,
     "unit": "Oscar"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni di 'Black Mirror' sono uscite fino al 2023?",
-    "min": 4,
-    "max": 10,
+    "min": 1,
+    "max": 7,
     "answer": 6,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il film 'The Truman Show' con Jim Carrey?",
-    "min": 1990,
-    "max": 2010,
+    "min": 1993,
+    "max": 2013,
     "answer": 1998,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni conta la serie televisiva 'Scrubs'?",
-    "min": 5,
-    "max": 15,
+    "min": 7,
+    "max": 17,
     "answer": 9,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito l'iconico film horror 'Shining' diretto da Stanley Kubrick?",
-    "min": 1970,
-    "max": 1990,
+    "min": 1976,
+    "max": 1996,
     "answer": 1980,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni compongono la serie 'Prison Break'?",
-    "min": 3,
-    "max": 8,
+    "min": 4,
+    "max": 9,
     "answer": 5,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è andato in onda il primo episodio in assoluto della serie animata 'South Park'?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1994,
+    "max": 2009,
     "answer": 1997,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti lungometraggi ha diretto il regista Stanley Kubrick durante la sua carriera?",
-    "min": 8,
-    "max": 18,
+    "min": 11,
+    "max": 21,
     "answer": 13,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il thriller 'Il silenzio degli innocenti'?",
-    "min": 1980,
-    "max": 2000,
+    "min": 1988,
+    "max": 2008,
     "answer": 1991,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti premi Oscar ha vinto 'Il silenzio degli innocenti' (divenendo uno dei pochi a vincere i 5 premi principali)?",
-    "min": 2,
-    "max": 10,
+    "min": 3,
+    "max": 11,
     "answer": 5,
     "unit": "Oscar"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Da quanti episodi è composta la prima stagione della serie 'The Last of Us'?",
-    "min": 5,
-    "max": 15,
+    "min": 2,
+    "max": 12,
     "answer": 9,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il primo 'Toy Story'?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1991,
+    "max": 2006,
     "answer": 1995,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film su Batman ha diretto il regista Tim Burton?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 2,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni conta in totale la serie TV 'The Walking Dead'?",
-    "min": 7,
-    "max": 15,
+    "min": 4,
+    "max": 12,
     "answer": 11,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il capolavoro sci-fi 'Blade Runner' di Ridley Scott?",
-    "min": 1970,
-    "max": 1995,
+    "min": 1965,
+    "max": 1990,
     "answer": 1982,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante attrici diverse hanno interpretato la Regina Elisabetta II come protagonista nelle stagioni principali della serie 'The Crown'?",
-    "min": 1,
-    "max": 5,
+    "min": 2,
+    "max": 6,
     "answer": 3,
     "unit": "attrici"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito nelle sale il primo film 'Alien'?",
-    "min": 1970,
-    "max": 1990,
+    "min": 1962,
+    "max": 1982,
     "answer": 1979,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film compongono il franchise cinematografico di 'Pirati dei Caraibi'?",
-    "min": 3,
-    "max": 8,
+    "min": 1,
+    "max": 6,
     "answer": 5,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni ha la serie originale di 'Dexter' (escludendo il revival New Blood)?",
-    "min": 5,
-    "max": 12,
+    "min": 3,
+    "max": 10,
     "answer": 8,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il celebre film 'Lo squalo' (Jaws) di Steven Spielberg?",
-    "min": 1965,
-    "max": 1985,
+    "min": 1962,
+    "max": 1982,
     "answer": 1975,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante candidature all'Oscar ha ricevuto in totale Meryl Streep (record assoluto)?",
-    "min": 10,
-    "max": 30,
+    "min": 18,
+    "max": 38,
     "answer": 21,
     "unit": "nomination"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il film 'Quei bravi ragazzi' (Goodfellas) di Martin Scorsese?",
-    "min": 1980,
-    "max": 2000,
+    "min": 1973,
+    "max": 1993,
     "answer": 1990,
     "unit": ""
   },
@@ -1522,24 +1522,24 @@
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il primo indimenticabile 'Ghostbusters'?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1980,
+    "max": 2000,
     "answer": 1984,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi compongono l'acclamata prima stagione di 'True Detective'?",
-    "min": 5,
-    "max": 12,
+    "min": 3,
+    "max": 10,
     "answer": 8,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è stato trasmesso il primo episodio de 'Il Trono di Spade' (Game of Thrones)?",
-    "min": 2005,
-    "max": 2015,
+    "min": 2010,
+    "max": 2020,
     "answer": 2011,
     "unit": ""
   },
@@ -1547,55 +1547,55 @@
     "category": "Cinema e Serie TV",
     "question": "Quanti premi Oscar ha vinto Ennio Morricone (incluso quello onorario)?",
     "min": 1,
-    "max": 5,
+    "max": 6,
     "answer": 2,
     "unit": "Oscar"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito il primo film di 'Spider-Man' diretto da Sam Raimi?",
-    "min": 1995,
-    "max": 2010,
+    "min": 1992,
+    "max": 2007,
     "answer": 2002,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti film della saga di 'John Wick' sono usciti nelle sale fino al 2023?",
-    "min": 2,
-    "max": 8,
+    "min": 3,
+    "max": 9,
     "answer": 4,
     "unit": "film"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito lo storico remake di 'Scarface' con Al Pacino?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1979,
+    "max": 1999,
     "answer": 1983,
     "unit": ""
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quante stagioni conta la serie cult della HBO 'The Wire'?",
-    "min": 3,
-    "max": 8,
+    "min": 1,
+    "max": 6,
     "answer": 5,
     "unit": "stagioni"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "Quanti episodi ha la fortunata miniserie Netflix 'La regina degli scacchi'?",
-    "min": 4,
-    "max": 10,
+    "min": 2,
+    "max": 8,
     "answer": 7,
     "unit": "episodi"
   },
   {
     "category": "Cinema e Serie TV",
     "question": "In che anno è uscito nelle sale 'Interstellar'?",
-    "min": 2005,
-    "max": 2020,
+    "min": 2012,
+    "max": 2027,
     "answer": 2014,
     "unit": ""
   }

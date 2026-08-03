@@ -299,7 +299,7 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
                   if (diff !== null) {
                       const normalizedDiff = diff / (currentQ.max - currentQ.min);
                       points = Math.floor(100 * Math.exp(-25 * Math.pow(normalizedDiff, 2)));
-                      if (diff === 0) points += 50;
+                      if (diff === 0) points += 500;
                   }
                   
                   return (

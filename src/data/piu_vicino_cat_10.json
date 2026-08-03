@@ -1,51 +1,51 @@
 [
   {
     "question": "Quanti palloni d'oro ha vinto Lionel Messi (fino al 2023)?",
-    "min": 2,
-    "max": 12,
+    "min": 1,
+    "max": 11,
     "answer": 8,
     "category": "Sport"
   },
   {
     "question": "In che anno l'Italia ha vinto il suo primo Mondiale di calcio?",
-    "min": 1910,
-    "max": 1950,
+    "min": 1904,
+    "max": 1944,
     "answer": 1934,
     "category": "Sport"
   },
   {
     "question": "Quanti Mondiali di calcio ha vinto il Brasile?",
-    "min": 2,
-    "max": 8,
+    "min": 0,
+    "max": 6,
     "answer": 5,
     "category": "Sport"
   },
   {
     "question": "Quanti minuti dura una partita di calcio regolamentare (senza recupero)?",
-    "min": 60,
-    "max": 120,
+    "min": 40,
+    "max": 100,
     "answer": 90,
     "unit": "minuti",
     "category": "Sport"
   },
   {
     "question": "Quanti giocatori compongono una squadra di pallanuoto in acqua?",
-    "min": 5,
-    "max": 11,
+    "min": 3,
+    "max": 9,
     "answer": 7,
     "category": "Sport"
   },
   {
     "question": "Quanti anelli NBA ha vinto Michael Jordan?",
-    "min": 2,
-    "max": 10,
+    "min": 4,
+    "max": 12,
     "answer": 6,
     "category": "Sport"
   },
   {
     "question": "A quanti centimetri di altezza è posto il canestro nel basket?",
-    "min": 250,
-    "max": 350,
+    "min": 230,
+    "max": 330,
     "answer": 305,
     "unit": "cm",
     "category": "Sport"
@@ -60,231 +60,231 @@
   },
   {
     "question": "Quanti punti vale una meta nel rugby a 15 (senza trasformazione)?",
-    "min": 2,
-    "max": 8,
+    "min": 1,
+    "max": 7,
     "answer": 5,
     "unit": "punti",
     "category": "Sport"
   },
   {
     "question": "In che anno si sono tenute le Olimpiadi estive di Roma?",
-    "min": 1940,
-    "max": 1980,
+    "min": 1950,
+    "max": 1990,
     "answer": 1960,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti tornei del Grande Slam in singolare ha vinto Roger Federer?",
-    "min": 10,
-    "max": 30,
+    "min": 16,
+    "max": 36,
     "answer": 20,
     "category": "Sport"
   },
   {
     "question": "Quanti tornei del Grande Slam in singolare ha vinto Rafael Nadal (fino al 2023)?",
-    "min": 15,
-    "max": 25,
+    "min": 21,
+    "max": 31,
     "answer": 22,
     "category": "Sport"
   },
   {
     "question": "Quanti tornei del Grande Slam in singolare ha vinto Novak Djokovic (fino al 2024)?",
-    "min": 18,
-    "max": 28,
+    "min": 22,
+    "max": 32,
     "answer": 24,
     "category": "Sport"
   },
   {
     "question": "Quante medaglie d'oro olimpiche ha vinto Michael Phelps in carriera?",
-    "min": 10,
-    "max": 30,
+    "min": 20,
+    "max": 40,
     "answer": 23,
     "category": "Sport"
   },
   {
     "question": "In che anno Usain Bolt ha stabilito il record mondiale dei 100 metri piani?",
-    "min": 2000,
-    "max": 2020,
+    "min": 1995,
+    "max": 2015,
     "answer": 2009,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti chilometri (senza decimali) è lunga ufficialmente una maratona?",
-    "min": 35,
-    "max": 50,
+    "min": 40,
+    "max": 55,
     "answer": 42,
     "unit": "km",
     "category": "Sport"
   },
   {
     "question": "Quante buche ha un giro di golf standard?",
-    "min": 9,
-    "max": 27,
+    "min": 13,
+    "max": 31,
     "answer": 18,
     "category": "Sport"
   },
   {
     "question": "Quanti giocatori compongono una squadra di pallavolo in campo?",
-    "min": 4,
-    "max": 10,
+    "min": 2,
+    "max": 8,
     "answer": 6,
     "category": "Sport"
   },
   {
     "question": "Quanti punti servono per vincere un set standard nella pallavolo (tie-break escluso)?",
-    "min": 15,
-    "max": 35,
+    "min": 19,
+    "max": 39,
     "answer": 25,
     "unit": "punti",
     "category": "Sport"
   },
   {
     "question": "In che anno la Nazionale italiana di calcio ha vinto gli Europei per la prima volta?",
-    "min": 1950,
-    "max": 1990,
+    "min": 1939,
+    "max": 1979,
     "answer": 1968,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "In che anno l'Italia ha vinto gli Europei di calcio per la seconda volta?",
-    "min": 2000,
-    "max": 2024,
+    "min": 2018,
+    "max": 2042,
     "answer": 2021,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quante edizioni della Champions League/Coppa dei Campioni ha vinto il Real Madrid (fino al 2024)?",
-    "min": 8,
-    "max": 20,
+    "min": 5,
+    "max": 17,
     "answer": 15,
     "category": "Sport"
   },
   {
     "question": "Quante edizioni della Champions League/Coppa dei Campioni ha vinto il Milan?",
-    "min": 3,
-    "max": 10,
+    "min": 1,
+    "max": 8,
     "answer": 7,
     "category": "Sport"
   },
   {
     "question": "Quante edizioni del Super Bowl ha vinto Tom Brady in carriera?",
-    "min": 3,
-    "max": 10,
+    "min": 5,
+    "max": 12,
     "answer": 7,
     "category": "Sport"
   },
   {
     "question": "Quanti giri prevede solitamente il Gran Premio di Monaco di Formula 1?",
-    "min": 50,
-    "max": 100,
+    "min": 70,
+    "max": 120,
     "answer": 78,
     "unit": "giri",
     "category": "Sport"
   },
   {
     "question": "Quanti titoli mondiali di Formula 1 ha vinto Michael Schumacher?",
-    "min": 3,
-    "max": 10,
+    "min": 2,
+    "max": 9,
     "answer": 7,
     "category": "Sport"
   },
   {
     "question": "Quanti titoli mondiali di Formula 1 ha vinto Lewis Hamilton?",
-    "min": 3,
-    "max": 10,
+    "min": 5,
+    "max": 12,
     "answer": 7,
     "category": "Sport"
   },
   {
     "question": "Quanti titoli mondiali di motociclismo (in tutte le classi) ha vinto Valentino Rossi?",
-    "min": 5,
-    "max": 15,
+    "min": 8,
+    "max": 18,
     "answer": 9,
     "category": "Sport"
   },
   {
     "question": "Quanti titoli mondiali di motociclismo ha vinto Giacomo Agostini?",
-    "min": 8,
-    "max": 20,
+    "min": 13,
+    "max": 25,
     "answer": 15,
     "category": "Sport"
   },
   {
     "question": "Quanti anni aveva Mike Tyson quando è diventato campione del mondo dei pesi massimi per la prima volta?",
-    "min": 16,
-    "max": 26,
+    "min": 12,
+    "max": 22,
     "answer": 20,
     "unit": "anni",
     "category": "Sport"
   },
   {
     "question": "Quanti round durava al massimo un incontro di pugilato professionistico per il titolo mondiale prima della riduzione a 12?",
-    "min": 10,
-    "max": 20,
+    "min": 7,
+    "max": 17,
     "answer": 15,
     "unit": "round",
     "category": "Sport"
   },
   {
     "question": "Quanti birilli ci sono in una pista da bowling per il gioco tradizionale (ten-pin)?",
-    "min": 5,
-    "max": 15,
+    "min": 3,
+    "max": 13,
     "answer": 10,
     "category": "Sport"
   },
   {
     "question": "Quante palle (inclusa la bianca) ci sono su un tavolo da biliardo nella specialità palla 8 all'inizio della partita?",
-    "min": 10,
-    "max": 22,
+    "min": 6,
+    "max": 18,
     "answer": 16,
     "category": "Sport"
   },
   {
     "question": "Quante basi ci sono in un campo da baseball (casa base inclusa)?",
-    "min": 2,
-    "max": 6,
+    "min": 1,
+    "max": 5,
     "answer": 4,
     "category": "Sport"
   },
   {
     "question": "Quanti giocatori compongono una squadra di baseball in campo?",
-    "min": 5,
-    "max": 13,
+    "min": 8,
+    "max": 16,
     "answer": 9,
     "category": "Sport"
   },
   {
     "question": "Quanti inning ci sono in una partita di baseball regolamentare (senza extra inning)?",
-    "min": 5,
-    "max": 12,
+    "min": 7,
+    "max": 14,
     "answer": 9,
     "unit": "inning",
     "category": "Sport"
   },
   {
     "question": "In che anno è nato Diego Armando Maradona?",
-    "min": 1940,
-    "max": 1980,
+    "min": 1925,
+    "max": 1965,
     "answer": 1960,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti gol ha segnato Gonzalo Higuain nel campionato di Serie A 2015-2016, stabilendo il record (poi eguagliato)?",
-    "min": 25,
-    "max": 45,
+    "min": 19,
+    "max": 39,
     "answer": 36,
     "unit": "gol",
     "category": "Sport"
   },
   {
     "question": "Quanti gol ha segnato Ciro Immobile nel campionato di Serie A 2019-2020?",
-    "min": 25,
-    "max": 45,
+    "min": 29,
+    "max": 49,
     "answer": 36,
     "unit": "gol",
     "category": "Sport"
@@ -298,24 +298,24 @@
   },
   {
     "question": "In che anno è stata fondata la Juventus?",
-    "min": 1880,
-    "max": 1920,
+    "min": 1884,
+    "max": 1924,
     "answer": 1897,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "In che anno è stato fondato il Milan?",
-    "min": 1880,
-    "max": 1920,
+    "min": 1893,
+    "max": 1933,
     "answer": 1899,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "In che anno è stata fondata l'Inter?",
-    "min": 1890,
-    "max": 1930,
+    "min": 1878,
+    "max": 1918,
     "answer": 1908,
     "unit": "anno",
     "category": "Sport"
@@ -329,77 +329,77 @@
   },
   {
     "question": "In che anno l'Italia ha vinto il suo ultimo Mondiale di calcio maschile?",
-    "min": 1990,
-    "max": 2020,
+    "min": 2000,
+    "max": 2030,
     "answer": 2006,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti chilogrammi (circa, arrotondato) pesa la palla di getto del peso maschile alle Olimpiadi?",
-    "min": 3,
-    "max": 12,
+    "min": 5,
+    "max": 14,
     "answer": 7,
     "unit": "kg",
     "category": "Sport"
   },
   {
     "question": "In che anno è stata introdotta la linea del tiro da tre punti nella NBA?",
-    "min": 1960,
-    "max": 1990,
+    "min": 1954,
+    "max": 1984,
     "answer": 1979,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quante squadre partecipano attualmente alla Serie A italiana di calcio?",
-    "min": 16,
-    "max": 24,
+    "min": 14,
+    "max": 22,
     "answer": 20,
     "category": "Sport"
   },
   {
     "question": "Quante squadre partecipano alla Premier League inglese di calcio?",
-    "min": 16,
-    "max": 24,
+    "min": 18,
+    "max": 26,
     "answer": 20,
     "category": "Sport"
   },
   {
     "question": "In che anno si è tenuta la prima edizione della Coppa del Mondo di calcio?",
-    "min": 1910,
-    "max": 1950,
+    "min": 1901,
+    "max": 1941,
     "answer": 1930,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quante tappe ha solitamente il Tour de France di ciclismo?",
-    "min": 15,
-    "max": 25,
+    "min": 13,
+    "max": 23,
     "answer": 21,
     "unit": "tappe",
     "category": "Sport"
   },
   {
     "question": "Quante tappe ha solitamente il Giro d'Italia di ciclismo?",
-    "min": 15,
-    "max": 25,
+    "min": 19,
+    "max": 29,
     "answer": 21,
     "unit": "tappe",
     "category": "Sport"
   },
   {
     "question": "Quanti tornei dello Slam ha vinto Serena Williams nel singolare femminile?",
-    "min": 15,
-    "max": 30,
+    "min": 10,
+    "max": 25,
     "answer": 23,
     "category": "Sport"
   },
   {
     "question": "Quanti minuti dura un quarto di una partita NBA?",
-    "min": 8,
-    "max": 15,
+    "min": 6,
+    "max": 13,
     "answer": 12,
     "unit": "minuti",
     "category": "Sport"
@@ -414,287 +414,287 @@
   },
   {
     "question": "Quante medaglie d'oro olimpiche ha vinto Carl Lewis nell'atletica leggera?",
-    "min": 5,
-    "max": 15,
+    "min": 0,
+    "max": 10,
     "answer": 9,
     "category": "Sport"
   },
   {
     "question": "In che anno si sono svolte le Olimpiadi estive di Barcellona?",
-    "min": 1980,
-    "max": 2010,
+    "min": 1988,
+    "max": 2018,
     "answer": 1992,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti centimetri è alto il cestista Yao Ming?",
-    "min": 200,
-    "max": 250,
+    "min": 190,
+    "max": 240,
     "answer": 229,
     "unit": "cm",
     "category": "Sport"
   },
   {
     "question": "Quanti centimetri è alto il cestista Shaquille O'Neal (secondo i dati ufficiali NBA)?",
-    "min": 200,
-    "max": 230,
+    "min": 213,
+    "max": 243,
     "answer": 216,
     "unit": "cm",
     "category": "Sport"
   },
   {
     "question": "Quante partite gioca ogni squadra nella stagione regolare NBA?",
-    "min": 60,
-    "max": 100,
+    "min": 55,
+    "max": 95,
     "answer": 82,
     "unit": "partite",
     "category": "Sport"
   },
   {
     "question": "Quante stagioni ha giocato Francesco Totti con la maglia della Roma in Serie A?",
-    "min": 15,
-    "max": 30,
+    "min": 13,
+    "max": 28,
     "answer": 25,
     "category": "Sport"
   },
   {
     "question": "In che anno è nato Cristiano Ronaldo?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1969,
+    "max": 1989,
     "answer": 1985,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti palloni d'oro ha vinto Cristiano Ronaldo?",
-    "min": 2,
-    "max": 8,
+    "min": 1,
+    "max": 7,
     "answer": 5,
     "category": "Sport"
   },
   {
     "question": "Quanti tornei di Wimbledon ha vinto Martina Navratilova nel singolare femminile?",
-    "min": 5,
-    "max": 15,
+    "min": 6,
+    "max": 16,
     "answer": 9,
     "category": "Sport"
   },
   {
     "question": "Quanti punti vale un 'Touchdown' nel football americano (senza contare la trasformazione)?",
-    "min": 3,
-    "max": 10,
+    "min": 5,
+    "max": 12,
     "answer": 6,
     "unit": "punti",
     "category": "Sport"
   },
   {
     "question": "In che anno è scomparso il pilota brasiliano Ayrton Senna?",
-    "min": 1985,
-    "max": 2005,
+    "min": 1989,
+    "max": 2009,
     "answer": 1994,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "In quale anno si sono svolte le prime Olimpiadi dell'era moderna ad Atene?",
-    "min": 1850,
-    "max": 1920,
+    "min": 1840,
+    "max": 1910,
     "answer": 1896,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti giocatori compongono una squadra di rugby a 15 in campo?",
-    "min": 11,
-    "max": 20,
+    "min": 12,
+    "max": 21,
     "answer": 15,
     "category": "Sport"
   },
   {
     "question": "Quanti chilogrammi pesa un disco olimpico per l'atletica leggera maschile?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 2,
     "unit": "kg",
     "category": "Sport"
   },
   {
     "question": "Quanti giocatori compongono una squadra di cricket in campo?",
-    "min": 7,
-    "max": 15,
+    "min": 5,
+    "max": 13,
     "answer": 11,
     "category": "Sport"
   },
   {
     "question": "Quanti minuti dura una partita di pallamano (esclusi recuperi o supplementari)?",
-    "min": 40,
-    "max": 90,
+    "min": 50,
+    "max": 100,
     "answer": 60,
     "unit": "minuti",
     "category": "Sport"
   },
   {
     "question": "Quanti giocatori compongono una squadra di pallamano in campo?",
-    "min": 5,
-    "max": 11,
+    "min": 2,
+    "max": 8,
     "answer": 7,
     "category": "Sport"
   },
   {
     "question": "Quanti Mondiali di calcio maschile ha vinto l'Italia?",
-    "min": 1,
-    "max": 7,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "category": "Sport"
   },
   {
     "question": "Quanti Mondiali di calcio maschile ha vinto la Germania (inclusa Germania Ovest)?",
-    "min": 1,
-    "max": 7,
+    "min": 0,
+    "max": 6,
     "answer": 4,
     "category": "Sport"
   },
   {
     "question": "In che anno è stato fondato il Comitato Olimpico Internazionale (CIO)?",
-    "min": 1850,
-    "max": 1930,
+    "min": 1830,
+    "max": 1910,
     "answer": 1894,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quante medaglie d'oro ha vinto l'Italia alle Olimpiadi di Tokyo 2020 (disputate nel 2021)?",
-    "min": 3,
-    "max": 15,
+    "min": 6,
+    "max": 18,
     "answer": 10,
     "category": "Sport"
   },
   {
     "question": "Quante medaglie complessive ha vinto l'Italia alle Olimpiadi di Tokyo 2020?",
-    "min": 20,
-    "max": 60,
+    "min": 26,
+    "max": 66,
     "answer": 40,
     "category": "Sport"
   },
   {
     "question": "Quanti centimetri è alta la rete da pallavolo maschile (categorie maggiori)?",
-    "min": 220,
-    "max": 260,
+    "min": 216,
+    "max": 256,
     "answer": 243,
     "unit": "cm",
     "category": "Sport"
   },
   {
     "question": "Quanti centimetri è alta la rete da pallavolo femminile (categorie maggiori)?",
-    "min": 200,
-    "max": 240,
+    "min": 196,
+    "max": 236,
     "answer": 224,
     "unit": "cm",
     "category": "Sport"
   },
   {
     "question": "Quante sostituzioni massime sono attualmente permesse a una squadra di calcio durante i tempi regolamentari?",
-    "min": 3,
-    "max": 8,
+    "min": 4,
+    "max": 9,
     "answer": 5,
     "category": "Sport"
   },
   {
     "question": "Quanti campionati NBA hanno vinto i Los Angeles Lakers (fino al 2023)?",
-    "min": 10,
-    "max": 25,
+    "min": 14,
+    "max": 29,
     "answer": 17,
     "category": "Sport"
   },
   {
     "question": "Quanti campionati NBA hanno vinto i Boston Celtics (fino al 2024)?",
-    "min": 10,
-    "max": 25,
+    "min": 15,
+    "max": 30,
     "answer": 18,
     "category": "Sport"
   },
   {
     "question": "Quante stagioni ha giocato Kobe Bryant nella NBA?",
-    "min": 15,
-    "max": 25,
+    "min": 17,
+    "max": 27,
     "answer": 20,
     "unit": "stagioni",
     "category": "Sport"
   },
   {
     "question": "Quanti punti ha segnato Kobe Bryant nella sua famosa partita da record contro i Toronto Raptors nel 2006?",
-    "min": 60,
-    "max": 100,
+    "min": 51,
+    "max": 91,
     "answer": 81,
     "unit": "punti",
     "category": "Sport"
   },
   {
     "question": "Quanti punti ha segnato Wilt Chamberlain nella sua leggendaria partita da record del 1962?",
-    "min": 70,
-    "max": 120,
+    "min": 60,
+    "max": 110,
     "answer": 100,
     "unit": "punti",
     "category": "Sport"
   },
   {
     "question": "Quanti anni aveva la ginnasta Nadia Comaneci quando ottenne il primo 10 perfetto alle Olimpiadi?",
-    "min": 10,
-    "max": 20,
+    "min": 11,
+    "max": 21,
     "answer": 14,
     "unit": "anni",
     "category": "Sport"
   },
   {
     "question": "In che anno la Spagna ha vinto il suo primo (e unico finora) Mondiale di calcio maschile?",
-    "min": 1990,
-    "max": 2022,
+    "min": 2001,
+    "max": 2033,
     "answer": 2010,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti scudetti consecutivi ha vinto la Juventus dal 2012 al 2020?",
-    "min": 5,
-    "max": 12,
+    "min": 3,
+    "max": 10,
     "answer": 9,
     "category": "Sport"
   },
   {
     "question": "In che anno si è ritirato dal calcio giocato Roberto Baggio?",
-    "min": 1998,
-    "max": 2010,
+    "min": 1994,
+    "max": 2006,
     "answer": 2004,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "In che anno il Napoli ha vinto il suo terzo scudetto?",
-    "min": 2010,
-    "max": 2024,
+    "min": 2012,
+    "max": 2026,
     "answer": 2023,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti Gran Premi ha vinto Ayrton Senna in Formula 1?",
-    "min": 20,
-    "max": 60,
+    "min": 5,
+    "max": 45,
     "answer": 41,
     "category": "Sport"
   },
   {
     "question": "Quanti Gran Premi ha vinto Alain Prost in Formula 1?",
-    "min": 30,
-    "max": 70,
+    "min": 16,
+    "max": 56,
     "answer": 51,
     "category": "Sport"
   },
   {
     "question": "In che anno è nato Lionel Messi?",
-    "min": 1980,
-    "max": 1995,
+    "min": 1984,
+    "max": 1999,
     "answer": 1987,
     "unit": "anno",
     "category": "Sport"
@@ -708,24 +708,24 @@
   },
   {
     "question": "In che anno si terranno le Olimpiadi invernali di Milano-Cortina?",
-    "min": 2024,
-    "max": 2032,
+    "min": 2023,
+    "max": 2031,
     "answer": 2026,
     "unit": "anno",
     "category": "Sport"
   },
   {
     "question": "Quanti chilometri era lunga la gara di marcia più lunga alle Olimpiadi (disputata fino a Tokyo 2020)?",
-    "min": 30,
-    "max": 70,
+    "min": 43,
+    "max": 83,
     "answer": 50,
     "unit": "km",
     "category": "Sport"
   },
   {
     "question": "Quanti metri è lunga una piscina olimpionica standard?",
-    "min": 25,
-    "max": 75,
+    "min": 40,
+    "max": 90,
     "answer": 50,
     "unit": "metri",
     "category": "Sport"
@@ -739,399 +739,399 @@
   },
   {
     "question": "Quante squadre hanno partecipato alla fase finale dei Mondiali di calcio maschile dal 1998 al 2022?",
-    "min": 24,
-    "max": 40,
+    "min": 21,
+    "max": 37,
     "answer": 32,
     "category": "Sport"
   },
   {
     "question": "Quante squadre parteciperanno alla fase finale dei Mondiali di calcio maschile a partire dal 2026?",
-    "min": 32,
-    "max": 64,
+    "min": 26,
+    "max": 58,
     "answer": 48,
     "category": "Sport"
   },
   {
     "category": "Sport",
     "question": "Quanti gol ufficiali ha segnato Pelé con la maglia della nazionale maggiore del Brasile?",
-    "min": 50,
-    "max": 100,
+    "min": 40,
+    "max": 90,
     "answer": 77,
     "unit": "gol"
   },
   {
     "category": "Sport",
     "question": "In che anno si sono svolte ad Atene le prime Olimpiadi dell'era moderna?",
-    "min": 1850,
-    "max": 1920,
+    "min": 1840,
+    "max": 1910,
     "answer": 1896,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quanti minuti dura il tempo regolamentare di una partita di calcio (escluso recupero)?",
-    "min": 60,
-    "max": 120,
+    "min": 80,
+    "max": 140,
     "answer": 90,
     "unit": "minuti"
   },
   {
     "category": "Sport",
     "question": "Da quanti giocatori è composta una squadra di basket in campo in un dato momento?",
-    "min": 3,
-    "max": 10,
+    "min": 0,
+    "max": 7,
     "answer": 5,
     "unit": "giocatori"
   },
   {
     "category": "Sport",
     "question": "Quanti tornei del Grande Slam in singolare ha vinto Roger Federer nella sua carriera?",
-    "min": 10,
-    "max": 30,
+    "min": 16,
+    "max": 36,
     "answer": 20,
     "unit": "tornei"
   },
   {
     "category": "Sport",
     "question": "Quanti chilometri interi misura la distanza di una maratona (arrotondato per difetto)?",
-    "min": 20,
-    "max": 60,
+    "min": 7,
+    "max": 47,
     "answer": 42,
     "unit": "km"
   },
   {
     "category": "Sport",
     "question": "Da quante buche è composto un campo da golf standard?",
-    "min": 9,
-    "max": 27,
+    "min": 6,
+    "max": 24,
     "answer": 18,
     "unit": "buche"
   },
   {
     "category": "Sport",
     "question": "Quanti punti vale un singolo tiro libero nel basket?",
-    "min": 1,
-    "max": 3,
+    "min": 0,
+    "max": 2,
     "answer": 1,
     "unit": "punti"
   },
   {
     "category": "Sport",
     "question": "In che anno la Nazionale italiana di calcio ha vinto il suo primo Mondiale?",
-    "min": 1920,
-    "max": 1950,
+    "min": 1912,
+    "max": 1942,
     "answer": 1934,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Da quanti giocatori è composta una squadra di pallavolo in campo?",
-    "min": 4,
-    "max": 10,
+    "min": 1,
+    "max": 7,
     "answer": 6,
     "unit": "giocatori"
   },
   {
     "category": "Sport",
     "question": "Quanti titoli mondiali di Formula 1 ha conquistato in carriera Michael Schumacher?",
-    "min": 3,
-    "max": 10,
+    "min": 1,
+    "max": 8,
     "answer": 7,
     "unit": "titoli"
   },
   {
     "category": "Sport",
     "question": "Quanti grammi pesa circa un pallone da calcio regolamentare al calcio d'inizio (valore medio)?",
-    "min": 350,
-    "max": 500,
+    "min": 330,
+    "max": 480,
     "answer": 430,
     "unit": "grammi"
   },
   {
     "category": "Sport",
     "question": "In quale anno si sono tenute le Olimpiadi estive a Roma?",
-    "min": 1940,
-    "max": 1980,
+    "min": 1955,
+    "max": 1995,
     "answer": 1960,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "A quanti centimetri da terra è posizionato il ferro del canestro nel basket regolamentare?",
-    "min": 250,
-    "max": 350,
+    "min": 240,
+    "max": 340,
     "answer": 305,
     "unit": "cm"
   },
   {
     "category": "Sport",
     "question": "Quante medaglie d'oro ha vinto il nuotatore Michael Phelps alle Olimpiadi?",
-    "min": 10,
-    "max": 30,
+    "min": 16,
+    "max": 36,
     "answer": 23,
     "unit": "ori"
   },
   {
     "category": "Sport",
     "question": "Quanti round durava storicamente l'incontro per il titolo mondiale dei pesi massimi di boxe, prima della riduzione a 12?",
-    "min": 10,
-    "max": 20,
+    "min": 8,
+    "max": 18,
     "answer": 15,
     "unit": "round"
   },
   {
     "category": "Sport",
     "question": "Quanti centesimi di secondo impiegò Usain Bolt per stabilire il record mondiale dei 100 metri (9.58s)?",
-    "min": 900,
-    "max": 1000,
+    "min": 930,
+    "max": 1030,
     "answer": 958,
     "unit": "centesimi"
   },
   {
     "category": "Sport",
     "question": "Da quanti giocatori è composta una squadra di rugby a 15 in campo?",
-    "min": 10,
-    "max": 20,
+    "min": 8,
+    "max": 18,
     "answer": 15,
     "unit": "giocatori"
   },
   {
     "category": "Sport",
     "question": "Quante edizioni del Tour de France ha vinto in totale il belga Eddy Merckx?",
-    "min": 2,
-    "max": 10,
+    "min": 0,
+    "max": 8,
     "answer": 5,
     "unit": "edizioni"
   },
   {
     "category": "Sport",
     "question": "Quante sostituzioni massime per squadra sono normalmente consentite nei tempi regolamentari nel calcio professionistico moderno?",
-    "min": 3,
-    "max": 8,
+    "min": 4,
+    "max": 9,
     "answer": 5,
     "unit": "sostituzioni"
   },
   {
     "category": "Sport",
     "question": "Quanti Gran Premi di Formula 1 ha vinto in carriera il leggendario Ayrton Senna?",
-    "min": 20,
-    "max": 60,
+    "min": 11,
+    "max": 51,
     "answer": 41,
     "unit": "GP"
   },
   {
     "category": "Sport",
     "question": "In che anno Diego Armando Maradona ha trascinato l'Argentina alla vittoria del suo secondo Mondiale?",
-    "min": 1970,
-    "max": 2000,
+    "min": 1976,
+    "max": 2006,
     "answer": 1986,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quanti punti vale segnare una meta nel rugby a 15 (senza la trasformazione)?",
-    "min": 3,
-    "max": 7,
+    "min": 2,
+    "max": 6,
     "answer": 5,
     "unit": "punti"
   },
   {
     "category": "Sport",
     "question": "Quante squadre di club partecipavano alla fase a gironi della UEFA Champions League fino all'edizione 2023-24?",
-    "min": 16,
-    "max": 48,
+    "min": 8,
+    "max": 40,
     "answer": 32,
     "unit": "squadre"
   },
   {
     "category": "Sport",
     "question": "Quanti tornei del Grande Slam in singolare ha conquistato Rafael Nadal?",
-    "min": 15,
-    "max": 30,
+    "min": 9,
+    "max": 24,
     "answer": 22,
     "unit": "tornei"
   },
   {
     "category": "Sport",
     "question": "Quanti anni compiuti aveva Mike Tyson quando diventò per la prima volta campione del mondo dei pesi massimi?",
-    "min": 18,
-    "max": 25,
+    "min": 15,
+    "max": 22,
     "answer": 20,
     "unit": "anni"
   },
   {
     "category": "Sport",
     "question": "In quale anno è stata ufficialmente fondata la lega cestistica professionistica americana NBA?",
-    "min": 1920,
-    "max": 1960,
+    "min": 1911,
+    "max": 1951,
     "answer": 1946,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quante volte la Nazionale del Brasile ha vinto la Coppa del Mondo di calcio maschile (aggiornato al 2024)?",
-    "min": 2,
-    "max": 8,
+    "min": 4,
+    "max": 10,
     "answer": 5,
     "unit": "volte"
   },
   {
     "category": "Sport",
     "question": "Quanti millimetri misura precisamente il diametro di una pallina da ping pong regolamentare?",
-    "min": 30,
-    "max": 50,
+    "min": 26,
+    "max": 46,
     "answer": 40,
     "unit": "mm"
   },
   {
     "category": "Sport",
     "question": "Quanti giocatori della formazione difensiva o offensiva di una squadra di football americano si trovano in campo in un dato momento?",
-    "min": 7,
-    "max": 15,
+    "min": 4,
+    "max": 12,
     "answer": 11,
     "unit": "giocatori"
   },
   {
     "category": "Sport",
     "question": "Quanti minuti effettivi dura ogni singolo quarto in una partita del campionato NBA?",
-    "min": 10,
-    "max": 15,
+    "min": 8,
+    "max": 13,
     "answer": 12,
     "unit": "minuti"
   },
   {
     "category": "Sport",
     "question": "In quale anno solare si è disputata la primissima edizione della Coppa del Mondo FIFA in Uruguay?",
-    "min": 1900,
-    "max": 1950,
+    "min": 1890,
+    "max": 1940,
     "answer": 1930,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quante medaglie olimpiche totali (oro, argento e bronzo) ha conquistato l'Italia ai Giochi di Tokyo 2020?",
-    "min": 20,
-    "max": 60,
+    "min": 29,
+    "max": 69,
     "answer": 40,
     "unit": "medaglie"
   },
   {
     "category": "Sport",
     "question": "Quanti centimetri è alta al centro la rete da pallavolo per le partite maschili?",
-    "min": 200,
-    "max": 300,
+    "min": 180,
+    "max": 280,
     "answer": 243,
     "unit": "cm"
   },
   {
     "category": "Sport",
     "question": "Da quanti giocatori in campo è composta la difesa di una squadra di baseball?",
-    "min": 7,
-    "max": 12,
+    "min": 5,
+    "max": 10,
     "answer": 9,
     "unit": "giocatori"
   },
   {
     "category": "Sport",
     "question": "Quanti tornei del Grande Slam in singolare maschile ha vinto Novak Djokovic per stabilire il record assoluto?",
-    "min": 15,
-    "max": 35,
+    "min": 20,
+    "max": 40,
     "answer": 24,
     "unit": "tornei"
   },
   {
     "category": "Sport",
     "question": "In quale anno solare il Leicester City di Claudio Ranieri ha compiuto l'impresa di vincere la Premier League?",
-    "min": 2010,
-    "max": 2022,
+    "min": 2012,
+    "max": 2024,
     "answer": 2016,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quanti punti viene premiato un touchdown nel football americano (escluso il calcio addizionale)?",
-    "min": 3,
-    "max": 10,
+    "min": 5,
+    "max": 12,
     "answer": 6,
     "unit": "punti"
   },
   {
     "category": "Sport",
     "question": "Quanti metri misura in lunghezza un campo da calcio ideale per gli standard internazionali raccomandati dalla FIFA?",
-    "min": 90,
-    "max": 120,
+    "min": 78,
+    "max": 108,
     "answer": 105,
     "unit": "metri"
   },
   {
     "category": "Sport",
     "question": "Quanti campionati mondiali di motociclismo (in tutte le classi) ha vinto Valentino Rossi nella sua carriera?",
-    "min": 5,
-    "max": 15,
+    "min": 6,
+    "max": 16,
     "answer": 9,
     "unit": "titoli"
   },
   {
     "category": "Sport",
     "question": "A quanti anni esatti di età Max Verstappen ha conquistato il suo primissimo titolo mondiale di Formula 1?",
-    "min": 18,
-    "max": 30,
+    "min": 13,
+    "max": 25,
     "answer": 24,
     "unit": "anni"
   },
   {
     "category": "Sport",
     "question": "Quante edizioni della storica corsa a tappe del Giro d'Italia ha vinto Fausto Coppi?",
-    "min": 2,
-    "max": 8,
+    "min": 1,
+    "max": 7,
     "answer": 5,
     "unit": "edizioni"
   },
   {
     "category": "Sport",
     "question": "Quante volte in totale la Juventus ha vinto il massimo trofeo europeo (Coppa dei Campioni / Champions League)?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 2,
     "unit": "volte"
   },
   {
     "category": "Sport",
     "question": "Quante buche complessive vengono giocate nei 4 giri standard di un torneo professionistico di golf per definire il vincitore?",
-    "min": 36,
-    "max": 100,
+    "min": 30,
+    "max": 90,
     "answer": 72,
     "unit": "buche"
   },
   {
     "category": "Sport",
     "question": "In che anno è nato l'otto volte Pallone d'Oro Lionel Messi?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1970,
+    "max": 1990,
     "answer": 1987,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quanti Palloni d'Oro individuali ha messo in bacheca il portoghese Cristiano Ronaldo?",
-    "min": 3,
-    "max": 8,
+    "min": 4,
+    "max": 9,
     "answer": 5,
     "unit": "palloni d'oro"
   },
   {
     "category": "Sport",
     "question": "Quanti chilometri complessivi, sommando nuoto, bici e corsa, si percorrono in un triathlon distanza Ironman?",
-    "min": 100,
-    "max": 300,
+    "min": 90,
+    "max": 290,
     "answer": 226,
     "unit": "km"
   },
   {
     "category": "Sport",
     "question": "Quanti birilli vengono sistemati a forma di triangolo in fondo a una pista da bowling?",
-    "min": 6,
-    "max": 15,
+    "min": 2,
+    "max": 11,
     "answer": 10,
     "unit": "birilli"
   },
@@ -1146,103 +1146,103 @@
   {
     "category": "Sport",
     "question": "Quanti giocatori per squadra si trovano in acqua durante una normale partita di pallanuoto (incluso il portiere)?",
-    "min": 5,
-    "max": 10,
+    "min": 6,
+    "max": 11,
     "answer": 7,
     "unit": "giocatori"
   },
   {
     "category": "Sport",
     "question": "Quanti chilogrammi pesa ufficialmente il disco utilizzato nelle competizioni di lancio del disco categoria seniores maschile?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 2,
     "unit": "kg"
   },
   {
     "category": "Sport",
     "question": "Quanti secondi esatti di fermo obbligatorio comporta la penalità definita 'Stop-and-Go' base in Formula 1 (escluse altre infrazioni)?",
-    "min": 5,
-    "max": 20,
+    "min": 7,
+    "max": 22,
     "answer": 10,
     "unit": "secondi"
   },
   {
     "category": "Sport",
     "question": "Quanti gol ha segnato in totale Miroslav Klose, diventando il miglior marcatore della storia dei Mondiali di calcio?",
-    "min": 10,
-    "max": 25,
+    "min": 5,
+    "max": 20,
     "answer": 16,
     "unit": "gol"
   },
   {
     "category": "Sport",
     "question": "In che anno l'atleta giamaicano Usain Bolt ha stabilito gli imbattuti record mondiali dei 100 e 200 metri ai mondiali di Berlino?",
-    "min": 2000,
-    "max": 2015,
+    "min": 1998,
+    "max": 2013,
     "answer": 2009,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quanti tornei del Grande Slam ha vinto Serena Williams nella specialità del singolare femminile?",
-    "min": 15,
-    "max": 30,
+    "min": 20,
+    "max": 35,
     "answer": 23,
     "unit": "tornei"
   },
   {
     "category": "Sport",
     "question": "Quante Nazionali europee partecipano annualmente al più importante torneo di rugby dell'emisfero nord che si tiene in primavera?",
-    "min": 4,
-    "max": 8,
+    "min": 3,
+    "max": 7,
     "answer": 6,
     "unit": "nazioni"
   },
   {
     "category": "Sport",
     "question": "Quanti metri misura in lunghezza la vasca di una piscina olimpionica regolamentare?",
-    "min": 25,
-    "max": 100,
+    "min": 30,
+    "max": 110,
     "answer": 50,
     "unit": "metri"
   },
   {
     "category": "Sport",
     "question": "In quale anno solare è tragicamente scomparsa la leggenda dei Los Angeles Lakers, Kobe Bryant?",
-    "min": 2015,
-    "max": 2024,
+    "min": 2013,
+    "max": 2022,
     "answer": 2020,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "A quanti punti è necessario arrivare per vincere un normale set (salvo vantaggi) in una partita professionistica di ping pong?",
-    "min": 11,
-    "max": 21,
+    "min": 10,
+    "max": 20,
     "answer": 11,
     "unit": "punti"
   },
   {
     "category": "Sport",
     "question": "Quante partite totali è necessario vincere all'interno di una serie nei Playoff NBA per sconfiggere l'avversaria e passare il turno?",
-    "min": 3,
-    "max": 7,
+    "min": 1,
+    "max": 5,
     "answer": 4,
     "unit": "partite"
   },
   {
     "category": "Sport",
     "question": "Quanti campionati del mondo piloti ha vinto il campione britannico di Formula 1 Lewis Hamilton?",
-    "min": 4,
-    "max": 10,
+    "min": 2,
+    "max": 8,
     "answer": 7,
     "unit": "titoli"
   },
   {
     "category": "Sport",
     "question": "Quanti punti si ottengono precisamente centrando il tondo rosso perfetto (bullseye) nel gioco delle freccette?",
-    "min": 25,
+    "min": 20,
     "max": 100,
     "answer": 50,
     "unit": "punti"
@@ -1250,144 +1250,144 @@
   {
     "category": "Sport",
     "question": "In che anno l'Italia guidata dal c.t. Enzo Bearzot ha vinto l'emozionante Campionato Mondiale di calcio in Spagna?",
-    "min": 1970,
-    "max": 1990,
+    "min": 1976,
+    "max": 1996,
     "answer": 1982,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quanti metri misura esattamene un singolo giro completo all'interno della prima corsia di una pista d'atletica leggera all'aperto?",
-    "min": 200,
-    "max": 800,
+    "min": 0,
+    "max": 600,
     "answer": 400,
     "unit": "metri"
   },
   {
     "category": "Sport",
     "question": "Quante medaglie d'oro è riuscito a vincere l'atleta Carl Lewis in una singola edizione dei Giochi Olimpici (Los Angeles 1984)?",
-    "min": 2,
-    "max": 8,
+    "min": 3,
+    "max": 9,
     "answer": 4,
     "unit": "ori"
   },
   {
     "category": "Sport",
     "question": "Quante Coppe dei Campioni / Champions League ha conquistato il Real Madrid fino all'inizio della stagione calcistica 2024?",
-    "min": 10,
-    "max": 20,
+    "min": 8,
+    "max": 18,
     "answer": 15,
     "unit": "coppe"
   },
   {
     "category": "Sport",
     "question": "Quanti minuti effettivi dura ogni singolo tempo regolamentare in una partita ufficiale di pallamano?",
-    "min": 20,
-    "max": 45,
+    "min": 12,
+    "max": 37,
     "answer": 30,
     "unit": "minuti"
   },
   {
     "category": "Sport",
     "question": "Quanti giocatori per squadra, compreso l'estremo difensore, si trovano fisicamente in campo durante una partita di hockey su ghiaccio?",
-    "min": 4,
-    "max": 10,
+    "min": 2,
+    "max": 8,
     "answer": 6,
     "unit": "giocatori"
   },
   {
     "category": "Sport",
     "question": "In quale anno il ciclista italiano Marco Pantani ha trionfato completando la storica accoppiata Giro d'Italia e Tour de France?",
-    "min": 1990,
-    "max": 2005,
+    "min": 1996,
+    "max": 2011,
     "answer": 1998,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quanti anni compiuti aveva Muhammad Ali (all'epoca Cassius Clay) quando si mise al collo l'oro olimpico ai Giochi di Roma?",
-    "min": 16,
-    "max": 25,
+    "min": 17,
+    "max": 26,
     "answer": 18,
     "unit": "anni"
   },
   {
     "category": "Sport",
     "question": "Quante Coppe del Mondo di calcio maschile ha vinto complessivamente la Germania (includendo i successi della Germania Ovest)?",
-    "min": 2,
-    "max": 6,
+    "min": 1,
+    "max": 5,
     "answer": 4,
     "unit": "coppe"
   },
   {
     "category": "Sport",
     "question": "Quanti centimetri misura precisamente il diametro interno del ferro di un canestro regolamentare da basket?",
-    "min": 30,
-    "max": 60,
+    "min": 38,
+    "max": 68,
     "answer": 45,
     "unit": "cm"
   },
   {
     "category": "Sport",
     "question": "Da quante squadre è composto annualmente l'attuale campionato italiano calcistico maschile di Serie A?",
-    "min": 16,
-    "max": 24,
+    "min": 13,
+    "max": 21,
     "answer": 20,
     "unit": "squadre"
   },
   {
     "category": "Sport",
     "question": "Quanti minuti dura esattamene la prima frazione di un tempo supplementare standard nel gioco del calcio?",
-    "min": 10,
-    "max": 20,
+    "min": 13,
+    "max": 23,
     "answer": 15,
     "unit": "minuti"
   },
   {
     "category": "Sport",
     "question": "In che anno Michael Jordan, considerato da molti il più grande cestista della storia, si è ritirato per la terza e definitiva volta?",
-    "min": 1995,
-    "max": 2008,
+    "min": 1994,
+    "max": 2007,
     "answer": 2003,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quante palle complessive, includendo anche quella bianca, vengono posizionate sul tavolo all'inizio di una partita di biliardo specialità Palla 8?",
-    "min": 8,
-    "max": 22,
+    "min": 13,
+    "max": 27,
     "answer": 16,
     "unit": "palle"
   },
   {
     "category": "Sport",
     "question": "Quanti campionati del mondo nella categoria costruttori ha vinto la scuderia del Cavallino Rampante (Ferrari) in Formula 1?",
-    "min": 10,
-    "max": 25,
+    "min": 11,
+    "max": 26,
     "answer": 16,
     "unit": "mondiali"
   },
   {
     "category": "Sport",
     "question": "A quanti centimetri precisi dal suolo si trova l'estremità superiore della rete da tennis nella sua parte centrale più bassa?",
-    "min": 70,
-    "max": 110,
+    "min": 58,
+    "max": 98,
     "answer": 91,
     "unit": "cm"
   },
   {
     "category": "Sport",
     "question": "In che anno è nato l'iconico attaccante portoghese Cristiano Ronaldo?",
-    "min": 1975,
-    "max": 1995,
+    "min": 1980,
+    "max": 2000,
     "answer": 1985,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quanti gol segnò in totale Gonzalo Higuain per il Napoli nel corso del campionato di Serie A 2015-2016, stabilendo un record storico?",
-    "min": 25,
-    "max": 45,
+    "min": 18,
+    "max": 38,
     "answer": 36,
     "unit": "gol"
   },
@@ -1402,16 +1402,16 @@
   {
     "category": "Sport",
     "question": "A quale punteggio minimo (se si hanno due punti di vantaggio sull'avversario) si chiudono i primi quattro set in una gara di pallavolo?",
-    "min": 15,
-    "max": 30,
+    "min": 14,
+    "max": 29,
     "answer": 25,
     "unit": "punti"
   },
   {
     "category": "Sport",
     "question": "Quante diverse scuderie (o team) gareggiano ogni domenica all'interno del campionato mondiale di Formula 1 contemporaneo?",
-    "min": 8,
-    "max": 14,
+    "min": 9,
+    "max": 15,
     "answer": 10,
     "unit": "scuderie"
   },
@@ -1426,72 +1426,72 @@
   {
     "category": "Sport",
     "question": "Qual è il leggendario record assoluto di punti segnati dal giocatore Wilt Chamberlain in una singola partita NBA (del 1962)?",
-    "min": 80,
-    "max": 120,
+    "min": 67,
+    "max": 107,
     "answer": 100,
     "unit": "punti"
   },
   {
     "category": "Sport",
     "question": "In quale anno è stato ufficialmente fondato a Milano il club calcistico F.C. Internazionale (Inter)?",
-    "min": 1890,
-    "max": 1920,
+    "min": 1888,
+    "max": 1918,
     "answer": 1908,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quanti Gran Premi di Formula 1 ha vinto il quattro volte campione del mondo tedesco Sebastian Vettel?",
-    "min": 30,
-    "max": 70,
+    "min": 18,
+    "max": 58,
     "answer": 53,
     "unit": "GP"
   },
   {
     "category": "Sport",
     "question": "Quanti chilogrammi pesa esattamene la sbarra olimpionica (bilanciere) vuota utilizzata per le competizioni di pesistica maschile?",
-    "min": 10,
-    "max": 30,
+    "min": 3,
+    "max": 23,
     "answer": 20,
     "unit": "kg"
   },
   {
     "category": "Sport",
     "question": "In quale anno solare le Olimpiadi Invernali sono state ospitate e celebrate dalla città di Torino, in Italia?",
-    "min": 1995,
-    "max": 2015,
+    "min": 2002,
+    "max": 2022,
     "answer": 2006,
     "unit": "anno"
   },
   {
     "category": "Sport",
     "question": "Quante edizioni nel prestigioso torneo tennistico di Wimbledon in singolare ha portato a casa la grandissima Martina Navratilova?",
-    "min": 5,
-    "max": 15,
+    "min": 1,
+    "max": 11,
     "answer": 9,
     "unit": "edizioni"
   },
   {
     "category": "Sport",
     "question": "A quanti anni esatti Ronaldo il 'Fenomeno' si è aggiudicato il suo primo storico Pallone d'Oro, divenendo il vincitore più giovane di sempre?",
-    "min": 18,
-    "max": 25,
+    "min": 20,
+    "max": 27,
     "answer": 21,
     "unit": "anni"
   },
   {
     "category": "Sport",
     "question": "Quanti secondi di penalità sul cronometro vengono assegnati nella gara individuale di biathlon per ogni singolo bersaglio non colpito?",
-    "min": 10,
-    "max": 120,
+    "min": 20,
+    "max": 130,
     "answer": 60,
     "unit": "secondi"
   },
   {
     "category": "Sport",
     "question": "In quale anno si disputò in Africa l'epico, violentissimo e indimenticabile match di boxe chiamato 'Rumble in the Jungle' tra Ali e Foreman?",
-    "min": 1960,
-    "max": 1990,
+    "min": 1950,
+    "max": 1980,
     "answer": 1974,
     "unit": "anno"
   },
@@ -1506,48 +1506,48 @@
   {
     "category": "Sport",
     "question": "Quanti secondi esatti durano i periodi massimi di possesso palla per le azioni offensive nel campionato americano di basket NBA?",
-    "min": 14,
-    "max": 30,
+    "min": 13,
+    "max": 29,
     "answer": 24,
     "unit": "secondi"
   },
   {
     "category": "Sport",
     "question": "A quanti anni suonati il fenomenale quarterback Tom Brady è riuscito a vincere l'ultimo e settimo Super Bowl della sua inimitabile carriera?",
-    "min": 35,
-    "max": 48,
+    "min": 32,
+    "max": 45,
     "answer": 43,
     "unit": "anni"
   },
   {
     "category": "Sport",
     "question": "Quanti campionati italiani di Serie A (Scudetti) ha conquistato il club calcistico del Napoli in tutta la sua storia (aggiornato a inizio 2024)?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 3,
     "unit": "scudetti"
   },
   {
     "category": "Sport",
     "question": "Quanti centimetri lineari separano esattamente la linea del tiro libero dal piano perpendicolare del tabellone in un campo da basket FIBA?",
-    "min": 350,
-    "max": 550,
+    "min": 390,
+    "max": 590,
     "answer": 460,
     "unit": "cm"
   },
   {
     "category": "Sport",
     "question": "Quante gare di Coppa del Mondo di sci alpino ha vinto lo storico fenomeno svedese in campo maschile, Ingemar Stenmark?",
-    "min": 60,
-    "max": 100,
+    "min": 77,
+    "max": 117,
     "answer": 86,
     "unit": "gare"
   },
   {
     "category": "Sport",
     "question": "In quale anno solare il club calcistico della Juventus venne sanzionato e retrocesso per la prima volta in Serie B in seguito allo scandalo Calciopoli?",
-    "min": 2000,
-    "max": 2010,
+    "min": 2005,
+    "max": 2015,
     "answer": 2006,
     "unit": "anno"
   }

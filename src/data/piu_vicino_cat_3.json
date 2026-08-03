@@ -1,29 +1,29 @@
 [
   {
     "question": "In che anno è caduto l'Impero Romano d'Occidente?",
-    "min": 300,
-    "max": 600,
+    "min": 250,
+    "max": 550,
     "answer": 476,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante fatiche ha dovuto compiere Ercole?",
-    "min": 3,
-    "max": 20,
+    "min": 7,
+    "max": 24,
     "answer": 12,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno è stata scoperta l'America da Cristoforo Colombo?",
-    "min": 1400,
-    "max": 1600,
+    "min": 1430,
+    "max": 1630,
     "answer": 1492,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanto durò la Guerra dei Cent'Anni?",
-    "min": 90,
-    "max": 150,
+    "min": 70,
+    "max": 130,
     "answer": 116,
     "unit": "anni",
     "category": "Storia e Mitologia"
@@ -37,79 +37,79 @@
   },
   {
     "question": "In che anno è iniziata la Rivoluzione Francese?",
-    "min": 1700,
-    "max": 1850,
+    "min": 1660,
+    "max": 1810,
     "answer": 1789,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti erano i membri del primo Triumvirato romano?",
-    "min": 2,
-    "max": 7,
+    "min": 1,
+    "max": 6,
     "answer": 3,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu firmata la Magna Carta?",
-    "min": 1000,
-    "max": 1400,
+    "min": 1080,
+    "max": 1480,
     "answer": 1215,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante crociate principali furono combattute in Terra Santa?",
-    "min": 4,
-    "max": 15,
+    "min": 6,
+    "max": 17,
     "answer": 9,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno scoppiò la Prima Guerra Mondiale?",
-    "min": 1890,
-    "max": 1930,
+    "min": 1907,
+    "max": 1947,
     "answer": 1914,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti giorni impiegò Dio per creare il mondo (escluso il riposo) secondo la Genesi?",
-    "min": 1,
-    "max": 10,
+    "min": 3,
+    "max": 12,
     "answer": 6,
     "unit": "giorni",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno è caduto il Muro di Berlino?",
-    "min": 1970,
-    "max": 2000,
+    "min": 1969,
+    "max": 1999,
     "answer": 1989,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante divinità principali componevano il Pantheon dell'Olimpo greco?",
-    "min": 5,
-    "max": 20,
+    "min": 8,
+    "max": 23,
     "answer": 12,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno a.C. Augusto divenne il primo imperatore romano?",
-    "min": 10,
-    "max": 100,
+    "min": 0,
+    "max": 90,
     "answer": 27,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante mogli ebbe il re d'Inghilterra Enrico VIII?",
-    "min": 2,
-    "max": 12,
+    "min": 4,
+    "max": 14,
     "answer": 6,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno finì la Seconda Guerra Mondiale?",
-    "min": 1930,
-    "max": 1960,
+    "min": 1937,
+    "max": 1967,
     "answer": 1945,
     "category": "Storia e Mitologia"
   },
@@ -122,122 +122,122 @@
   },
   {
     "question": "Quanti anni regnò la regina Vittoria del Regno Unito?",
-    "min": 40,
-    "max": 80,
+    "min": 52,
+    "max": 92,
     "answer": 63,
     "unit": "anni",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno a.C. fu assassinato Giulio Cesare?",
-    "min": 10,
-    "max": 100,
+    "min": 0,
+    "max": 90,
     "answer": 44,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Secondo la mitologia greca, quante teste aveva Cerbero?",
-    "min": 1,
-    "max": 7,
+    "min": 0,
+    "max": 6,
     "answer": 3,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno l'Italia divenne una Repubblica?",
-    "min": 1900,
-    "max": 1980,
+    "min": 1890,
+    "max": 1970,
     "answer": 1946,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu incoronato imperatore Carlo Magno?",
-    "min": 600,
-    "max": 1000,
+    "min": 710,
+    "max": 1110,
     "answer": 800,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante Muse ci sono nella mitologia greca?",
-    "min": 3,
-    "max": 15,
+    "min": 7,
+    "max": 19,
     "answer": 9,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno è iniziata la Rivoluzione Russa d'Ottobre?",
-    "min": 1890,
-    "max": 1930,
+    "min": 1889,
+    "max": 1929,
     "answer": 1917,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti emendamenti compongono il Bill of Rights americano originale?",
-    "min": 5,
-    "max": 20,
+    "min": 7,
+    "max": 22,
     "answer": 10,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno a.C. fu fondata la città di Roma secondo la tradizione?",
-    "min": 500,
-    "max": 1000,
+    "min": 650,
+    "max": 1150,
     "answer": 753,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante tavole della legge furono date a Mosè?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 2,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno l'uomo sbarcò per la prima volta sulla Luna?",
-    "min": 1950,
-    "max": 1985,
+    "min": 1941,
+    "max": 1976,
     "answer": 1969,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti anni durò la Guerra dei Trent'Anni?",
-    "min": 10,
-    "max": 50,
+    "min": 0,
+    "max": 40,
     "answer": 30,
     "unit": "anni",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno si svolse la battaglia di Waterloo?",
-    "min": 1750,
-    "max": 1850,
+    "min": 1730,
+    "max": 1830,
     "answer": 1815,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante sono le porte di Tebe nel famoso mito di Eteocle e Polinice?",
-    "min": 3,
-    "max": 12,
+    "min": 4,
+    "max": 13,
     "answer": 7,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno d.C. fu distrutta Pompei dall'eruzione del Vesuvio?",
-    "min": 10,
-    "max": 200,
+    "min": 40,
+    "max": 230,
     "answer": 79,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante furono le guerre puniche combattute tra Roma e Cartagine?",
-    "min": 1,
-    "max": 5,
+    "min": 2,
+    "max": 6,
     "answer": 3,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno entrò in vigore la Costituzione Italiana?",
-    "min": 1930,
-    "max": 1960,
+    "min": 1926,
+    "max": 1956,
     "answer": 1948,
     "category": "Storia e Mitologia"
   },
@@ -251,188 +251,188 @@
   },
   {
     "question": "In che anno partì la spedizione di Magellano per circumnavigare il globo?",
-    "min": 1450,
-    "max": 1600,
+    "min": 1420,
+    "max": 1570,
     "answer": 1519,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti figli di Adamo ed Eva sono menzionati per nome nella Bibbia?",
-    "min": 1,
-    "max": 10,
+    "min": 0,
+    "max": 9,
     "answer": 3,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu dichiarata l'indipendenza degli Stati Uniti d'America?",
-    "min": 1700,
-    "max": 1820,
+    "min": 1670,
+    "max": 1790,
     "answer": 1776,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti anni durò la costruzione del Colosseo (circa)?",
-    "min": 2,
-    "max": 30,
+    "min": 0,
+    "max": 28,
     "answer": 10,
     "unit": "anni",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu presa la Bastiglia a Parigi?",
-    "min": 1700,
-    "max": 1850,
+    "min": 1740,
+    "max": 1890,
     "answer": 1789,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante erano le vestali in servizio contemporaneamente nell'Antica Roma?",
-    "min": 2,
-    "max": 15,
+    "min": 3,
+    "max": 16,
     "answer": 6,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno d.C. Maometto compì l'Egira fuggendo alla Mecca?",
-    "min": 400,
-    "max": 800,
+    "min": 280,
+    "max": 680,
     "answer": 622,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti giorni durò la battaglia di Gettysburg durante la guerra civile americana?",
-    "min": 1,
-    "max": 7,
+    "min": 2,
+    "max": 8,
     "answer": 3,
     "unit": "giorni",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno si sciolse ufficialmente l'Unione Sovietica?",
-    "min": 1980,
-    "max": 2000,
+    "min": 1973,
+    "max": 1993,
     "answer": 1991,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti anni aveva Giovanna d'Arco quando morì sul rogo?",
-    "min": 14,
-    "max": 35,
+    "min": 12,
+    "max": 33,
     "answer": 19,
     "unit": "anni",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno Martin Lutero affisse le sue 95 tesi?",
-    "min": 1400,
-    "max": 1650,
+    "min": 1460,
+    "max": 1710,
     "answer": 1517,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti colpi di pugnale furono inferti a Giulio Cesare secondo gli storici dell'epoca?",
-    "min": 5,
-    "max": 50,
+    "min": 15,
+    "max": 60,
     "answer": 23,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno Roma divenne capitale del Regno d'Italia con la Breccia di Porta Pia?",
-    "min": 1800,
-    "max": 1920,
+    "min": 1830,
+    "max": 1950,
     "answer": 1870,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti regni componevano la cosiddetta eptarchia nell'Inghilterra anglosassone?",
-    "min": 3,
-    "max": 12,
+    "min": 6,
+    "max": 15,
     "answer": 7,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu assassinato il presidente statunitense John F. Kennedy?",
-    "min": 1940,
-    "max": 1980,
+    "min": 1930,
+    "max": 1970,
     "answer": 1963,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti anni aveva Alessandro Magno alla sua morte?",
-    "min": 20,
-    "max": 50,
+    "min": 11,
+    "max": 41,
     "answer": 32,
     "unit": "anni",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno Gengis Khan riuscì a unificare le tribù mongole?",
-    "min": 1000,
-    "max": 1400,
+    "min": 860,
+    "max": 1260,
     "answer": 1206,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti secoli è durato convenzionalmente il Medioevo?",
-    "min": 5,
-    "max": 15,
+    "min": 1,
+    "max": 11,
     "answer": 10,
     "unit": "secoli",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno si tennero le prime elezioni multirazziali in Sudafrica?",
-    "min": 1970,
-    "max": 2010,
+    "min": 1981,
+    "max": 2021,
     "answer": 1994,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti sovrani della dinastia tolemaica egizia portarono il nome Tolomeo?",
-    "min": 5,
-    "max": 25,
+    "min": 11,
+    "max": 31,
     "answer": 15,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno circa Gutenberg completò la stampa della sua prima Bibbia a caratteri mobili?",
-    "min": 1300,
-    "max": 1600,
+    "min": 1200,
+    "max": 1500,
     "answer": 1455,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti mondi compongono l'universo secondo la cosmologia norrena?",
-    "min": 3,
-    "max": 15,
+    "min": 6,
+    "max": 18,
     "answer": 9,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno l'Italia entrò nella Prima Guerra Mondiale?",
-    "min": 1900,
-    "max": 1930,
+    "min": 1889,
+    "max": 1919,
     "answer": 1915,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti re di Francia si sono chiamati Luigi (fino a Luigi XVIII)?",
-    "min": 8,
-    "max": 25,
+    "min": 13,
+    "max": 30,
     "answer": 18,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu combattuta la battaglia di Hastings in Inghilterra?",
-    "min": 800,
-    "max": 1300,
+    "min": 650,
+    "max": 1150,
     "answer": 1066,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti anni durò il regno della regina Elisabetta II del Regno Unito?",
-    "min": 40,
-    "max": 90,
+    "min": 60,
+    "max": 110,
     "answer": 70,
     "unit": "anni",
     "category": "Storia e Mitologia"
@@ -453,22 +453,22 @@
   },
   {
     "question": "In che anno Nelson Mandela fu liberato dal carcere?",
-    "min": 1970,
-    "max": 2010,
+    "min": 1961,
+    "max": 2001,
     "answer": 1990,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti erano gli apostoli scelti da Gesù?",
-    "min": 5,
-    "max": 20,
+    "min": 8,
+    "max": 23,
     "answer": 12,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu assassinato Martin Luther King Jr.?",
-    "min": 1950,
-    "max": 1990,
+    "min": 1935,
+    "max": 1975,
     "answer": 1968,
     "category": "Storia e Mitologia"
   },
@@ -481,22 +481,22 @@
   },
   {
     "question": "In che anno è stata fondata l'ONU?",
-    "min": 1920,
-    "max": 1970,
+    "min": 1940,
+    "max": 1990,
     "answer": 1945,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti figli legittimi ha avuto Zeus con Era (nella tradizione greca principale)?",
-    "min": 1,
-    "max": 10,
+    "min": 0,
+    "max": 9,
     "answer": 4,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno avvenne il disastro nucleare di Chernobyl?",
-    "min": 1970,
-    "max": 2000,
+    "min": 1961,
+    "max": 1991,
     "answer": 1986,
     "category": "Storia e Mitologia"
   },
@@ -509,79 +509,79 @@
   },
   {
     "question": "In che anno Napoleone Bonaparte si proclamò Imperatore dei Francesi?",
-    "min": 1750,
-    "max": 1850,
+    "min": 1790,
+    "max": 1890,
     "answer": 1804,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti articoli compongono la Dichiarazione Universale dei Diritti Umani?",
-    "min": 10,
-    "max": 100,
+    "min": 0,
+    "max": 90,
     "answer": 30,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu combattuta la celebre battaglia navale di Lepanto?",
-    "min": 1400,
-    "max": 1700,
+    "min": 1470,
+    "max": 1770,
     "answer": 1571,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Secondo la mitologia norrena, quante radici principali ha l'albero Yggdrasil?",
-    "min": 1,
-    "max": 9,
+    "min": 0,
+    "max": 8,
     "answer": 3,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno avvenne il tragico Sacco di Roma ad opera dei Lanzichenecchi?",
-    "min": 1300,
-    "max": 1700,
+    "min": 1390,
+    "max": 1790,
     "answer": 1527,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti viaggi di esplorazione nel Pacifico compì il capitano James Cook?",
-    "min": 1,
-    "max": 10,
+    "min": 0,
+    "max": 9,
     "answer": 3,
     "unit": "viaggi",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu inaugurato il Canale di Suez?",
-    "min": 1800,
-    "max": 1920,
+    "min": 1770,
+    "max": 1890,
     "answer": 1869,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante erano le tribù d'Israele originarie menzionate nella Bibbia?",
-    "min": 5,
-    "max": 20,
+    "min": 9,
+    "max": 24,
     "answer": 12,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno nacque l'artista e scienziato Leonardo da Vinci?",
-    "min": 1300,
-    "max": 1600,
+    "min": 1240,
+    "max": 1540,
     "answer": 1452,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti animali di ogni specie portò Noè sull'Arca secondo la regola generale?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 2,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu fondato l'Impero Ottomano da Osman I (circa)?",
-    "min": 1000,
-    "max": 1500,
+    "min": 960,
+    "max": 1460,
     "answer": 1299,
     "category": "Storia e Mitologia"
   },
@@ -594,79 +594,79 @@
   },
   {
     "question": "In che anno morì in esilio a Sant'Elena Napoleone Bonaparte?",
-    "min": 1780,
-    "max": 1860,
+    "min": 1760,
+    "max": 1840,
     "answer": 1821,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante furono le mogli del profeta Maometto in totale (secondo le fonti storiche)?",
-    "min": 3,
-    "max": 20,
+    "min": 9,
+    "max": 26,
     "answer": 11,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno si tenne il referendum nel Regno Unito sulla Brexit?",
-    "min": 2000,
-    "max": 2022,
+    "min": 2012,
+    "max": 2034,
     "answer": 2016,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti anni aveva il faraone Tutankhamon quando salì al trono (circa)?",
-    "min": 5,
-    "max": 20,
+    "min": 0,
+    "max": 15,
     "answer": 9,
     "unit": "anni",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu inaugurata la Torre Eiffel a Parigi?",
-    "min": 1800,
-    "max": 1950,
+    "min": 1860,
+    "max": 2010,
     "answer": 1889,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti cavalieri componevano il gruppo originario dei monaci Templari?",
-    "min": 3,
-    "max": 25,
+    "min": 6,
+    "max": 28,
     "answer": 9,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno si inabissò il transatlantico Titanic?",
-    "min": 1880,
-    "max": 1950,
+    "min": 1890,
+    "max": 1960,
     "answer": 1912,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante furono le sorelle Gorgoni nella mitologia greca (tra cui Medusa)?",
-    "min": 1,
-    "max": 7,
+    "min": 2,
+    "max": 8,
     "answer": 3,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno fu abolita formalmente la schiavitù negli Stati Uniti?",
-    "min": 1800,
-    "max": 1900,
+    "min": 1850,
+    "max": 1950,
     "answer": 1865,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti sono i samurai protagonisti nel capolavoro cinematografico di Akira Kurosawa?",
-    "min": 3,
-    "max": 15,
+    "min": 0,
+    "max": 12,
     "answer": 7,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno l'Unione Sovietica lanciò nello spazio lo Sputnik 1?",
-    "min": 1930,
-    "max": 1980,
+    "min": 1920,
+    "max": 1970,
     "answer": 1957,
     "category": "Storia e Mitologia"
   },
@@ -679,381 +679,381 @@
   },
   {
     "question": "In che anno Costantinopoli cadde in mano agli Ottomani?",
-    "min": 1200,
-    "max": 1700,
+    "min": 1120,
+    "max": 1620,
     "answer": 1453,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quanti anni durò il regno di Luigi XIV in Francia, noto come il Re Sole?",
-    "min": 40,
-    "max": 90,
+    "min": 30,
+    "max": 80,
     "answer": 72,
     "unit": "anni",
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno si concluse ufficialmente la Guerra del Vietnam con la caduta di Saigon?",
-    "min": 1960,
-    "max": 1990,
+    "min": 1955,
+    "max": 1985,
     "answer": 1975,
     "category": "Storia e Mitologia"
   },
   {
     "question": "Quante erano le Parche (o Moire) che tessevano il filo del destino?",
-    "min": 1,
-    "max": 7,
+    "min": 2,
+    "max": 8,
     "answer": 3,
     "category": "Storia e Mitologia"
   },
   {
     "question": "In che anno avvenne l'attentato terroristico alle Torri Gemelle di New York?",
-    "min": 1990,
-    "max": 2015,
+    "min": 1984,
+    "max": 2009,
     "answer": 2001,
     "category": "Storia e Mitologia"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è iniziata la Rivoluzione Francese?",
-    "min": 1700,
-    "max": 1900,
+    "min": 1660,
+    "max": 1860,
     "answer": 1789,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno a.C. è stata fondata la città di Roma?",
-    "min": 500,
-    "max": 1000,
+    "min": 370,
+    "max": 870,
     "answer": 753,
     "unit": "a.C."
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti anni è durata la cosiddetta Guerra dei Cent'Anni?",
-    "min": 50,
-    "max": 150,
+    "min": 90,
+    "max": 190,
     "answer": 116,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è caduto definitivamente l'Impero Romano d'Occidente?",
-    "min": 300,
-    "max": 600,
+    "min": 450,
+    "max": 750,
     "answer": 476,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quante sono le fatiche canoniche compiute da Ercole nella mitologia greca?",
-    "min": 5,
-    "max": 20,
+    "min": 2,
+    "max": 17,
     "answer": 12,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno Cristoforo Colombo ha scoperto l'America?",
-    "min": 1300,
-    "max": 1600,
+    "min": 1400,
+    "max": 1700,
     "answer": 1492,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno si è conclusa la Seconda Guerra Mondiale?",
-    "min": 1935,
-    "max": 1955,
+    "min": 1930,
+    "max": 1950,
     "answer": 1945,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è scoppiata la Prima Guerra Mondiale?",
-    "min": 1900,
-    "max": 1930,
+    "min": 1891,
+    "max": 1921,
     "answer": 1914,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quante erano le Muse, le figlie di Zeus e Mnemosine, nella mitologia greca?",
-    "min": 3,
-    "max": 15,
+    "min": 0,
+    "max": 12,
     "answer": 9,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti anni aveva il celebre condottiero Alessandro Magno al momento della sua morte?",
-    "min": 20,
-    "max": 50,
+    "min": 24,
+    "max": 54,
     "answer": 32,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno a.C. è stato assassinato Giulio Cesare alle famose Idi di marzo?",
-    "min": 10,
-    "max": 100,
+    "min": 0,
+    "max": 90,
     "answer": 44,
     "unit": "a.C."
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno il re d'Inghilterra Giovanni Senzaterra ha firmato la Magna Carta?",
-    "min": 1000,
-    "max": 1500,
+    "min": 1040,
+    "max": 1540,
     "answer": 1215,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti giorni è durata la durissima e sanguinosa battaglia di Stalingrado?",
-    "min": 100,
-    "max": 300,
+    "min": 60,
+    "max": 260,
     "answer": 200,
     "unit": "giorni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stato abbattuto il Muro di Berlino?",
-    "min": 1970,
-    "max": 2005,
+    "min": 1985,
+    "max": 2020,
     "answer": 1989,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quante mogli ha avuto il famoso re d'Inghilterra Enrico VIII?",
-    "min": 2,
-    "max": 10,
+    "min": 0,
+    "max": 8,
     "answer": 6,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno la missione Apollo 11 ha portato l'uomo sulla Luna per la prima volta?",
-    "min": 1950,
-    "max": 1980,
+    "min": 1959,
+    "max": 1989,
     "answer": 1969,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è tragicamente affondato il transatlantico Titanic?",
-    "min": 1890,
-    "max": 1940,
+    "min": 1910,
+    "max": 1960,
     "answer": 1912,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stata ufficialmente proclamata l'Unità d'Italia?",
-    "min": 1820,
-    "max": 1900,
+    "min": 1800,
+    "max": 1880,
     "answer": 1861,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti re si sono succeduti al governo di Roma secondo la tradizione monarchica?",
-    "min": 3,
-    "max": 12,
+    "min": 1,
+    "max": 10,
     "answer": 7,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno Carlo Magno è stato incoronato Imperatore del Sacro Romano Impero?",
-    "min": 500,
-    "max": 1100,
+    "min": 680,
+    "max": 1280,
     "answer": 800,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno l'archeologo Howard Carter ha scoperto la tomba intatta di Tutankhamon?",
-    "min": 1890,
-    "max": 1950,
+    "min": 1870,
+    "max": 1930,
     "answer": 1922,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti sono i Titani originari della prima generazione nella mitologia greca?",
-    "min": 5,
-    "max": 20,
+    "min": 10,
+    "max": 25,
     "answer": 12,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è iniziata la Guerra Civile Americana, nota anche come Guerra di Secessione?",
-    "min": 1820,
-    "max": 1900,
+    "min": 1800,
+    "max": 1880,
     "answer": 1861,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti articoli di legge erano incisi sul famoso Codice babilonese di Hammurabi?",
-    "min": 100,
-    "max": 500,
+    "min": 230,
+    "max": 630,
     "answer": 282,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno si è conclusa la lunga e travagliata Guerra del Vietnam?",
-    "min": 1960,
-    "max": 1990,
+    "min": 1971,
+    "max": 2001,
     "answer": 1975,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è esplosa in Russia la Rivoluzione d'Ottobre guidata da Lenin?",
-    "min": 1890,
-    "max": 1940,
+    "min": 1910,
+    "max": 1960,
     "answer": 1917,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stato dato alle stampe il primo volume de 'Il Capitale' di Karl Marx?",
-    "min": 1820,
-    "max": 1900,
+    "min": 1850,
+    "max": 1930,
     "answer": 1867,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti anni è sopravvissuto l'Impero Bizantino prima della sua definitiva caduta nel 1453?",
-    "min": 500,
-    "max": 1500,
+    "min": 200,
+    "max": 1200,
     "answer": 1058,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno l'eroina francese Giovanna d'Arco è stata processata e bruciata sul rogo?",
-    "min": 1300,
-    "max": 1600,
+    "min": 1360,
+    "max": 1660,
     "answer": 1431,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno l'ingegnere James Watt ha brevettato la sua efficiente macchina a vapore?",
-    "min": 1650,
-    "max": 1850,
+    "min": 1700,
+    "max": 1900,
     "answer": 1769,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quante tavole di bronzo componevano la primissima e fondamentale raccolta di leggi scritte dell'antica Roma?",
-    "min": 5,
-    "max": 20,
+    "min": 9,
+    "max": 24,
     "answer": 12,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stata fondata l'ONU (Organizzazione delle Nazioni Unite)?",
-    "min": 1910,
-    "max": 1970,
+    "min": 1930,
+    "max": 1990,
     "answer": 1945,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quante divinità principali formavano il pantheon divino residente sul Monte Olimpo?",
-    "min": 5,
-    "max": 20,
+    "min": 0,
+    "max": 15,
     "answer": 12,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è avvenuto il drammatico Sacco di Roma compiuto dalle truppe dei Lanzichenecchi?",
-    "min": 1400,
-    "max": 1700,
+    "min": 1300,
+    "max": 1600,
     "answer": 1527,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno fu completata la Bibbia a 42 linee, il primo libro mai stampato in Europa da Gutenberg?",
-    "min": 1300,
-    "max": 1600,
+    "min": 1390,
+    "max": 1690,
     "answer": 1455,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti anni aveva all'incirca il giovane faraone Tutankhamon al momento della sua misteriosa morte?",
-    "min": 10,
-    "max": 30,
+    "min": 4,
+    "max": 24,
     "answer": 19,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stato assassinato a Dallas il presidente americano John Fitzgerald Kennedy?",
-    "min": 1945,
-    "max": 1980,
+    "min": 1932,
+    "max": 1967,
     "answer": 1963,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti guerrieri scelti spartani combatterono fino alla fine accanto a Leonida alle Termopili?",
-    "min": 100,
-    "max": 1000,
+    "min": 180,
+    "max": 1080,
     "answer": 300,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno il popolo parigino si è ribellato e ha assaltato la prigione della Bastiglia?",
-    "min": 1700,
-    "max": 1900,
+    "min": 1660,
+    "max": 1860,
     "answer": 1789,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno Nelson Mandela, eletto presidente, ha posto ufficialmente fine al regime di Apartheid in Sudafrica?",
-    "min": 1970,
-    "max": 2010,
+    "min": 1981,
+    "max": 2021,
     "answer": 1994,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è nato ad Ajaccio il futuro imperatore francese Napoleone Bonaparte?",
-    "min": 1700,
-    "max": 1850,
+    "min": 1750,
+    "max": 1900,
     "answer": 1769,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quante erano le stupefacenti meraviglie del mondo antico decantate nei testi classici?",
-    "min": 3,
-    "max": 15,
+    "min": 4,
+    "max": 16,
     "answer": 7,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno l'imperatore romano Costantino ha promulgato il celebre Editto di tolleranza di Milano?",
-    "min": 100,
-    "max": 500,
+    "min": 180,
+    "max": 580,
     "answer": 313,
     "unit": ""
   },
@@ -1068,216 +1068,216 @@
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è esploso il famigerato reattore nucleare della centrale di Chernobyl?",
-    "min": 1960,
-    "max": 2005,
+    "min": 1955,
+    "max": 2000,
     "answer": 1986,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti giorni è durata la dolorosa prigionia dello statista Aldo Moro prima di essere ucciso?",
-    "min": 20,
-    "max": 100,
+    "min": 30,
+    "max": 110,
     "answer": 55,
     "unit": "giorni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno gli italiani hanno votato un decisivo referendum che ha sancito la nascita della Repubblica?",
-    "min": 1920,
-    "max": 1970,
+    "min": 1910,
+    "max": 1960,
     "answer": 1946,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stata redatta e firmata l'innovativa Costituzione degli Stati Uniti d'America?",
-    "min": 1720,
-    "max": 1850,
+    "min": 1770,
+    "max": 1900,
     "answer": 1787,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Da quante imbarcazioni (caravelle e navi) era originariamente formata la flotta di Colombo nel 1492?",
-    "min": 1,
-    "max": 10,
+    "min": 0,
+    "max": 9,
     "answer": 3,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno il monaco Martin Lutero ha affisso le sue polemiche tesi sulla chiesa di Wittenberg?",
-    "min": 1400,
-    "max": 1700,
+    "min": 1300,
+    "max": 1600,
     "answer": 1517,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quante storiche tesi di protesta religiosa vennero affisse da Martin Lutero sul portone di Wittenberg?",
-    "min": 20,
-    "max": 200,
+    "min": 0,
+    "max": 180,
     "answer": 95,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stata completata e inaugurata al pubblico la maestosa Torre Eiffel a Parigi?",
-    "min": 1800,
-    "max": 1950,
+    "min": 1770,
+    "max": 1920,
     "answer": 1889,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Di quanti mesi era originariamente composto l'antichissimo primo calendario romano ideato dal re Romolo?",
-    "min": 6,
-    "max": 15,
+    "min": 8,
+    "max": 17,
     "answer": 10,
     "unit": "mesi"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno il generale Napoleone Bonaparte fu sconfitto per sempre nella celebre Battaglia di Waterloo?",
-    "min": 1750,
-    "max": 1850,
+    "min": 1730,
+    "max": 1830,
     "answer": 1815,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti anni è durato lo storico regno della regina Vittoria sul vastissimo Impero Britannico?",
-    "min": 30,
-    "max": 90,
+    "min": 20,
+    "max": 80,
     "answer": 63,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno lo zar Nicola II e tutta la famiglia imperiale russa dei Romanov sono stati fucilati?",
-    "min": 1880,
-    "max": 1950,
+    "min": 1870,
+    "max": 1940,
     "answer": 1918,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Da quante divinità principali è composta la sacra Trimurti, manifestazione del dio supremo nell'Induismo?",
-    "min": 1,
-    "max": 10,
+    "min": 0,
+    "max": 9,
     "answer": 3,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stato ufficialmente inaugurato il rivoluzionario Canale di Suez in Egitto?",
-    "min": 1800,
-    "max": 1930,
+    "min": 1780,
+    "max": 1910,
     "answer": 1869,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno il Regno d'Italia ha dichiarato guerra all'Austria, entrando nella Prima Guerra Mondiale?",
-    "min": 1900,
-    "max": 1930,
+    "min": 1893,
+    "max": 1923,
     "answer": 1915,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quante spietate Parche (o Moire) si occupavano di tessere, svolgere e recidere il filo della vita?",
-    "min": 1,
-    "max": 10,
+    "min": 0,
+    "max": 9,
     "answer": 3,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno d.C. si è scatenata la catastrofica eruzione del Vesuvio che ha sepolto l'intera Pompei?",
-    "min": 10,
-    "max": 200,
+    "min": 0,
+    "max": 190,
     "answer": 79,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti giorni dura idealmente l'incredibile viaggio di Dante Alighieri nell'aldilà nella Divina Commedia?",
-    "min": 2,
-    "max": 30,
+    "min": 0,
+    "max": 28,
     "answer": 7,
     "unit": "giorni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno d.C. è avvenuta l'Egira, la storica fuga del profeta Maometto dalla Mecca a Medina?",
-    "min": 400,
-    "max": 1000,
+    "min": 560,
+    "max": 1160,
     "answer": 622,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Su quanti storici colli è stata originariamente fondata ed estesa la mitica città di Roma?",
-    "min": 3,
-    "max": 12,
+    "min": 0,
+    "max": 9,
     "answer": 7,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno si è ufficialmente concluso il lungo Concilio di Trento, avviando la Controriforma cattolica?",
-    "min": 1450,
-    "max": 1700,
+    "min": 1500,
+    "max": 1750,
     "answer": 1563,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti impegnativi viaggi transatlantici compì Cristoforo Colombo verso le misteriose Americhe?",
-    "min": 1,
-    "max": 10,
+    "min": 3,
+    "max": 12,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno si è svolta la gigantesca e decisiva battaglia navale di Lepanto contro l'Impero Ottomano?",
-    "min": 1400,
-    "max": 1800,
+    "min": 1470,
+    "max": 1870,
     "answer": 1571,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti magistrati, con la carica di consoli, venivano eletti ogni anno per governare la Repubblica Romana?",
-    "min": 1,
-    "max": 5,
+    "min": 0,
+    "max": 4,
     "answer": 2,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno l'Unione Sovietica è riuscita a lanciare nello spazio lo Sputnik 1, il primo satellite artificiale?",
-    "min": 1930,
-    "max": 1980,
+    "min": 1910,
+    "max": 1960,
     "answer": 1957,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti anni è durato il controverso periodo del proibizionismo sugli alcolici negli Stati Uniti?",
-    "min": 5,
-    "max": 30,
+    "min": 8,
+    "max": 33,
     "answer": 13,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno il rivoluzionario Fidel Castro e i suoi miliziani hanno trionfato prendendo la città dell'Avana a Cuba?",
-    "min": 1930,
-    "max": 1990,
+    "min": 1950,
+    "max": 2010,
     "answer": 1959,
     "unit": ""
   },
@@ -1292,48 +1292,48 @@
   {
     "category": "Storia e Mitologia",
     "question": "In che anno il navigatore Vasco da Gama è riuscito a raggiungere le Indie doppiando il Capo di Buona Speranza?",
-    "min": 1350,
-    "max": 1650,
+    "min": 1250,
+    "max": 1550,
     "answer": 1498,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quante temibili teste possedeva il mostruoso cane guardiano Cerbero posto alle porte dell'Ade?",
-    "min": 1,
-    "max": 10,
+    "min": 2,
+    "max": 11,
     "answer": 3,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stato ratificato l'accordo militare noto come Patto di Varsavia dal blocco dei paesi comunisti?",
-    "min": 1930,
-    "max": 1990,
+    "min": 1940,
+    "max": 2000,
     "answer": 1955,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è venuto a mancare Leonardo da Vinci, ineguagliabile genio e scienziato del Rinascimento italiano?",
-    "min": 1400,
-    "max": 1650,
+    "min": 1460,
+    "max": 1710,
     "answer": 1519,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti ambiziosi imperatori romani si sono succeduti e scontrati nel sanguinosissimo e caotico anno 69 d.C.?",
-    "min": 2,
-    "max": 10,
+    "min": 0,
+    "max": 8,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno sono state organizzate e disputate ad Atene le prime storiche Olimpiadi dell'era sportiva moderna?",
-    "min": 1800,
-    "max": 1950,
+    "min": 1770,
+    "max": 1920,
     "answer": 1896,
     "unit": ""
   },
@@ -1348,168 +1348,168 @@
   {
     "category": "Storia e Mitologia",
     "question": "In che anno la caduta di Costantinopoli in mano ai Turchi ha segnato la fine del millenario Impero Romano d'Oriente?",
-    "min": 1200,
-    "max": 1700,
+    "min": 1370,
+    "max": 1870,
     "answer": 1453,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti anni ha trascorso duramente in prigione l'eroico attivista e leader politico sudafricano Nelson Mandela?",
-    "min": 5,
-    "max": 50,
+    "min": 17,
+    "max": 62,
     "answer": 27,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno i visionari fratelli Wright sono riusciti a compiere il primo volo controllato a motore della storia umana?",
-    "min": 1850,
-    "max": 1950,
+    "min": 1890,
+    "max": 1990,
     "answer": 1903,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti mesi compongono la misurazione del tempo di un anno solare/lunare all'interno del calendario islamico?",
-    "min": 8,
-    "max": 16,
+    "min": 11,
+    "max": 19,
     "answer": 12,
     "unit": "mesi"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno la potentissima e temuta flotta spagnola nota come Invincibile Armata è stata quasi totalmente distrutta?",
-    "min": 1400,
-    "max": 1800,
+    "min": 1500,
+    "max": 1900,
     "answer": 1588,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno a.C. le legioni romane hanno saccheggiato e raso al suolo Corinto, sottomettendo per sempre la Grecia?",
-    "min": 50,
-    "max": 300,
+    "min": 0,
+    "max": 250,
     "answer": 146,
     "unit": "a.C."
   },
   {
     "category": "Storia e Mitologia",
     "question": "Per quanti decenni/anni ha mantenuto il potere assoluto Augusto, il primissimo imperatore romano (dal 27 a.C. al 14 d.C.)?",
-    "min": 10,
-    "max": 70,
+    "min": 20,
+    "max": 80,
     "answer": 41,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è ufficialmente entrata in circolazione l'Euro come moneta unica fisica in 12 nazioni dell'Unione Europea?",
-    "min": 1980,
-    "max": 2020,
+    "min": 1994,
+    "max": 2034,
     "answer": 2002,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti devoti califfi, noti come i 'ben guidati' o Rashidun, si sono succeduti immediatamente dopo la morte di Maometto?",
-    "min": 1,
-    "max": 15,
+    "min": 0,
+    "max": 14,
     "answer": 4,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno leggendario la tradizione storiografica posiziona la fondazione sul Rivoalto della Serenissima città di Venezia?",
-    "min": 100,
-    "max": 1000,
+    "min": 0,
+    "max": 900,
     "answer": 421,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno si è verificato l'epocale e definitivo crollo dell'Impero Ottomano in seguito all'abolizione del suo Sultanato?",
-    "min": 1850,
-    "max": 1950,
+    "min": 1840,
+    "max": 1940,
     "answer": 1922,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti anni aveva appena compiuto l'eroina ed emblema patriottico francese Giovanna d'Arco quando fu arsa viva al rogo?",
-    "min": 12,
-    "max": 40,
+    "min": 16,
+    "max": 44,
     "answer": 19,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno d.C. è stata finalmente e grandiosamente completata l'edificazione del celebre Anfiteatro Flavio, o Colosseo, a Roma?",
-    "min": 10,
-    "max": 300,
+    "min": 40,
+    "max": 330,
     "answer": 80,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno gli agguerriti cavalieri cristiani della prima crociata sono riusciti a cingere d'assedio e conquistare Gerusalemme?",
-    "min": 800,
-    "max": 1400,
+    "min": 920,
+    "max": 1520,
     "answer": 1099,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti sono i magici mondi che compongono l'antico e vasto universo nella cosmologia norrena (collocati attorno all'Yggdrasil)?",
-    "min": 3,
-    "max": 20,
+    "min": 4,
+    "max": 21,
     "answer": 9,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è stato barbaramente assassinato, in un motel di Memphis, il celebre leader e pastore per i diritti civili Martin Luther King Jr.?",
-    "min": 1940,
-    "max": 2000,
+    "min": 1960,
+    "max": 2020,
     "answer": 1968,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno è avvenuta l'orrenda strage di centinaia di protestanti ugonotti, tragicamente nota ai libri come il Massacro di San Bartolomeo?",
-    "min": 1300,
-    "max": 1800,
+    "min": 1490,
+    "max": 1990,
     "answer": 1572,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Quanti figli in totale ha partorito l'energica e longeva regina Vittoria d'Inghilterra, venendo spesso definita la 'nonna dell'intera Europa'?",
-    "min": 2,
-    "max": 20,
+    "min": 0,
+    "max": 18,
     "answer": 9,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno il famoso ed eccezionale viaggiatore veneziano Marco Polo ha fatto il suo rientro definitivo in patria a Venezia, tornando dal lontano Catai?",
-    "min": 1000,
-    "max": 1600,
+    "min": 850,
+    "max": 1450,
     "answer": 1295,
     "unit": ""
   },
   {
     "category": "Storia e Mitologia",
     "question": "Per quanti lunghi anni si è protratta, ininterrottamente, la forte egemonia della potente dinastia dei Romanov sull'Impero Russo (dal 1613 al 1917)?",
-    "min": 100,
-    "max": 500,
+    "min": 260,
+    "max": 660,
     "answer": 304,
     "unit": "anni"
   },
   {
     "category": "Storia e Mitologia",
     "question": "In che anno l'aviazione militare americana, ordinata dal presidente, ha tragicamente sganciato la prima letale bomba atomica sulla popolosa città di Hiroshima?",
-    "min": 1920,
-    "max": 1980,
+    "min": 1930,
+    "max": 1990,
     "answer": 1945,
     "unit": ""
   }
