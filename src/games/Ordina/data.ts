@@ -10004,5 +10004,10005 @@ export const ordinaQuestions: OrdinaQuestion[] = [
       "Bilia Verde"
     ],
     "category": "Sport"
-  }
+  },
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Quentin Tarantino dal più vecchio al più recente",
+  "items": [
+    "Le Iene",
+    "Pulp Fiction",
+    "Kill Bill",
+    "Django Unchained"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film del Marvel Cinematic Universe dal più vecchio al più recente",
+  "items": [
+    "Iron Man",
+    "The Avengers",
+    "Black Panther",
+    "Avengers: Endgame"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi registi in base al numero di premi Oscar vinti come Miglior Regista, dal minore al maggiore",
+  "items": [
+    "Martin Scorsese",
+    "Steven Spielberg",
+    "Frank Capra",
+    "John Ford"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Christopher Nolan dal più vecchio al più recente",
+  "items": [
+    "Memento",
+    "The Prestige",
+    "Inception",
+    "Interstellar"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste serie TV per anno di debutto, dalla meno recente alla più recente",
+  "items": [
+    "I Soprano",
+    "The Wire",
+    "Breaking Bad",
+    "Game of Thrones"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film della saga di Harry Potter dal primo all'ultimo uscito",
+  "items": [
+    "La pietra filosofale",
+    "Il prigioniero di Azkaban",
+    "L'Ordine della Fenice",
+    "I Doni della Morte - Parte 2"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi attori italiani per anno di nascita, dal più anziano al più giovane",
+  "items": [
+    "Vittorio Gassman",
+    "Marcello Mastroianni",
+    "Giancarlo Giannini",
+    "Toni Servillo"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film vincitori dell'Oscar al miglior film dal più vecchio al più recente",
+  "items": [
+    "Il Padrino",
+    "Forrest Gump",
+    "Il Gladiatore",
+    "Parasite"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di fantascienza dal più vecchio al più recente",
+  "items": [
+    "2001: Odissea nello spazio",
+    "Blade Runner",
+    "Matrix",
+    "Avatar"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Steven Spielberg dal più vecchio al più recente",
+  "items": [
+    "Lo squalo",
+    "E.T. l'extra-terrestre",
+    "Jurassic Park",
+    "Salvate il soldato Ryan"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film italiani vincitori dell'Oscar come miglior film straniero dal più vecchio al più recente",
+  "items": [
+    "Ladri di biciclette",
+    "Amarcord",
+    "Nuovo Cinema Paradiso",
+    "La grande bellezza"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste serie TV Netflix per anno di uscita, dalla più vecchia alla più recente",
+  "items": [
+    "House of Cards",
+    "Stranger Things",
+    "La casa di carta",
+    "Squid Game"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film della saga di Star Wars dal primo all'ultimo uscito",
+  "items": [
+    "Una nuova speranza",
+    "L'Impero colpisce ancora",
+    "La minaccia fantasma",
+    "Il risveglio della Forza"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film d'animazione Disney dal più vecchio al più recente",
+  "items": [
+    "Biancaneve e i sette nani",
+    "Il re leone",
+    "Frozen",
+    "Encanto"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi attori in base al numero di premi Oscar vinti, dal minore al maggiore",
+  "items": [
+    "Leonardo DiCaprio",
+    "Tom Hanks",
+    "Daniel Day-Lewis",
+    "Katharine Hepburn"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste sit-com americane per anno di debutto, dalla più vecchia alla più recente",
+  "items": [
+    "Friends",
+    "How I Met Your Mother",
+    "The Big Bang Theory",
+    "Modern Family"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Martin Scorsese dal più vecchio al più recente",
+  "items": [
+    "Taxi Driver",
+    "Toro scatenato",
+    "Quei bravi ragazzi",
+    "The Wolf of Wall Street"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di James Bond dal più vecchio al più recente",
+  "items": [
+    "Licenza di uccidere",
+    "Goldfinger",
+    "GoldenEye",
+    "Skyfall"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Stanley Kubrick dal più vecchio al più recente",
+  "items": [
+    "Orizzonti di gloria",
+    "Il dottor Stranamore",
+    "Arancia meccanica",
+    "Shining"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Ridley Scott dal più vecchio al più recente",
+  "items": [
+    "Alien",
+    "Blade Runner",
+    "Il Gladiatore",
+    "Sopravvissuto - The Martian"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi attori per anno di nascita, dal più anziano al più giovane",
+  "items": [
+    "Marlon Brando",
+    "Al Pacino",
+    "Robert De Niro",
+    "Leonardo DiCaprio"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste saghe cinematografiche in base al numero totale di film usciti, dal minore al maggiore",
+  "items": [
+    "Il Signore degli Anelli",
+    "Harry Potter",
+    "Star Wars",
+    "James Bond"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Peter Jackson dal più vecchio al più recente",
+  "items": [
+    "Creature del cielo",
+    "La Compagnia dell'Anello",
+    "King Kong",
+    "Lo Hobbit - Un viaggio inaspettato"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste attrici per anno di nascita, dalla più anziana alla più giovane",
+  "items": [
+    "Marilyn Monroe",
+    "Audrey Hepburn",
+    "Meryl Streep",
+    "Scarlett Johansson"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film italiani dal più vecchio al più recente",
+  "items": [
+    "Roma città aperta",
+    "La dolce vita",
+    "Il postino",
+    "La vita è bella"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi registi per anno di nascita, dal più anziano al più giovane",
+  "items": [
+    "Alfred Hitchcock",
+    "Federico Fellini",
+    "Stanley Kubrick",
+    "Quentin Tarantino"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Alfred Hitchcock dal più vecchio al più recente",
+  "items": [
+    "La finestra sul cortile",
+    "La donna che visse due volte",
+    "Intrigo internazionale",
+    "Psyco"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film della Pixar dal più vecchio al più recente",
+  "items": [
+    "Toy Story",
+    "Alla ricerca di Nemo",
+    "Wall-E",
+    "Inside Out"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film dello Studio Ghibli dal più vecchio al più recente",
+  "items": [
+    "Il mio vicino Totoro",
+    "La principessa Mononoke",
+    "La città incantata",
+    "Il castello errante di Howl"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Clint Eastwood come regista dal più vecchio al più recente",
+  "items": [
+    "Gli spietati",
+    "I ponti di Madison County",
+    "Million Dollar Baby",
+    "Gran Torino"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Tim Burton dal più vecchio al più recente",
+  "items": [
+    "Beetlejuice",
+    "Edward mani di forbice",
+    "Big Fish",
+    "Alice in Wonderland"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste serie TV italiane per anno di debutto, dalla meno recente alla più recente",
+  "items": [
+    "Romanzo criminale",
+    "Gomorra",
+    "Suburra",
+    "Mare fuori"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Batman dal più vecchio al più recente",
+  "items": [
+    "Batman (Tim Burton)",
+    "Batman Begins",
+    "Il cavaliere oscuro",
+    "The Batman"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film della saga di Indiana Jones dal primo all'ultimo uscito",
+  "items": [
+    "I predatori dell'arca perduta",
+    "Il tempio maledetto",
+    "L'ultima crociata",
+    "Il regno del teschio di cristallo"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di David Fincher dal più vecchio al più recente",
+  "items": [
+    "Seven",
+    "Fight Club",
+    "The Social Network",
+    "L'amore bugiardo - Gone Girl"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Wes Anderson dal più vecchio al più recente",
+  "items": [
+    "I Tenenbaum",
+    "Le avventure acquatiche di Steve Zissou",
+    "Moonrise Kingdom",
+    "Grand Budapest Hotel"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Denis Villeneuve dal più vecchio al più recente",
+  "items": [
+    "Prisoners",
+    "Sicario",
+    "Arrival",
+    "Dune"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Paul Thomas Anderson dal più vecchio al più recente",
+  "items": [
+    "Boogie Nights",
+    "Magnolia",
+    "Il petroliere",
+    "Phantom Thread"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Woody Allen dal più vecchio al più recente",
+  "items": [
+    "Io e Annie",
+    "Manhattan",
+    "Match Point",
+    "Midnight in Paris"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film sui supereroi DC dal più vecchio al più recente",
+  "items": [
+    "Superman (1978)",
+    "Wonder Woman",
+    "Aquaman",
+    "The Flash"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Spider-Man dal più vecchio al più recente",
+  "items": [
+    "Spider-Man",
+    "The Amazing Spider-Man",
+    "Spider-Man: Homecoming",
+    "Spider-Man: No Way Home"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film vincitori della Palma d'Oro a Cannes dal più vecchio al più recente",
+  "items": [
+    "Apocalypse Now",
+    "Pulp Fiction",
+    "Il pianista",
+    "Parasite"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Federico Fellini dal più vecchio al più recente",
+  "items": [
+    "La strada",
+    "Le notti di Cabiria",
+    "La dolce vita",
+    "8½"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Sergio Leone dal più vecchio al più recente",
+  "items": [
+    "Per un pugno di dollari",
+    "Il buono il brutto il cattivo",
+    "C'era una volta il West",
+    "C'era una volta in America"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film d'animazione DreamWorks dal più vecchio al più recente",
+  "items": [
+    "Z la formica",
+    "Shrek",
+    "Madagascar",
+    "Kung Fu Panda"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Tom Cruise dal più vecchio al più recente",
+  "items": [
+    "Top Gun",
+    "Mission: Impossible",
+    "Minority Report",
+    "Edge of Tomorrow"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Leonardo DiCaprio dal più vecchio al più recente",
+  "items": [
+    "Titanic",
+    "Prova a prendermi",
+    "Inception",
+    "Revenant"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Brad Pitt dal più vecchio al più recente",
+  "items": [
+    "Intervista col vampiro",
+    "Fight Club",
+    "Bastardi senza gloria",
+    "C'era una volta a... Hollywood"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Johnny Depp dal più vecchio al più recente",
+  "items": [
+    "Edward mani di forbice",
+    "Paura e delirio a Las Vegas",
+    "La maledizione della prima luna",
+    "Alice in Wonderland"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste attrici italiane per anno di nascita, dalla più anziana alla più giovane",
+  "items": [
+    "Anna Magnani",
+    "Sophia Loren",
+    "Monica Bellucci",
+    "Matilda De Angelis"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film della saga di Terminator dal primo all'ultimo uscito",
+  "items": [
+    "Terminator",
+    "Terminator 2 - Il giorno del giudizio",
+    "Terminator 3 - Le macchine ribelli",
+    "Terminator Salvation"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di fantascienza anni '80 dal più vecchio al più recente",
+  "items": [
+    "L'Impero colpisce ancora",
+    "Blade Runner",
+    "Ritorno al futuro",
+    "Aliens - Scontro finale"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di fantascienza anni '90 dal più vecchio al più recente",
+  "items": [
+    "Atto di forza",
+    "Jurassic Park",
+    "L'esercito delle 12 scimmie",
+    "Matrix"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Pedro Almodóvar dal più vecchio al più recente",
+  "items": [
+    "Donne sull'orlo di una crisi di nervi",
+    "Tutto su mia madre",
+    "Parla con lei",
+    "Volver"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film musicali dal più vecchio al più recente",
+  "items": [
+    "Cantando sotto la pioggia",
+    "Tutti insieme appassionatamente",
+    "Grease",
+    "La La Land"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film horror classici dal più vecchio al più recente",
+  "items": [
+    "Psyco",
+    "L'esorcista",
+    "Halloween",
+    "Shining"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film horror contemporanei dal più vecchio al più recente",
+  "items": [
+    "The Conjuring",
+    "Babadook",
+    "Scappa - Get Out",
+    "Hereditary"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Robert De Niro dal più vecchio al più recente",
+  "items": [
+    "Il Padrino - Parte II",
+    "Taxi Driver",
+    "Toro scatenato",
+    "Quei bravi ragazzi"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Al Pacino dal più vecchio al più recente",
+  "items": [
+    "Serpico",
+    "Quel pomeriggio di un giorno da cani",
+    "Scarface",
+    "Scent of a Woman - Profumo di donna"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film dei fratelli Coen dal più vecchio al più recente",
+  "items": [
+    "Fargo",
+    "Il grande Lebowski",
+    "Non è un paese per vecchi",
+    "Il Grinta"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste stagioni di American Horror Story dalla prima all'ultima",
+  "items": [
+    "Murder House",
+    "Asylum",
+    "Coven",
+    "Freak Show"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste serie TV fantasy dalla più vecchia alla più recente",
+  "items": [
+    "Buffy l'ammazzavampiri",
+    "Streghe",
+    "Supernatural",
+    "Il Trono di Spade"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste serie TV di fantascienza dalla più vecchia alla più recente",
+  "items": [
+    "X-Files",
+    "Lost",
+    "Fringe",
+    "Black Mirror"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste serie TV comedy americane per anno di debutto",
+  "items": [
+    "Seinfeld",
+    "Scrubs",
+    "The Office (US)",
+    "Brooklyn Nine-Nine"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste serie TV mediche per anno di debutto, dalla meno recente alla più recente",
+  "items": [
+    "E.R. - Medici in prima linea",
+    "Scrubs",
+    "Dr. House",
+    "Grey's Anatomy"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Spike Lee dal più vecchio al più recente",
+  "items": [
+    "Fa' la cosa giusta",
+    "Malcolm X",
+    "La 25ª ora",
+    "BlacKkKlansman"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Brian De Palma dal più vecchio al più recente",
+  "items": [
+    "Carrie",
+    "Scarface",
+    "The Untouchables - Gli intoccabili",
+    "Mission: Impossible"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film della serie Fast & Furious dal primo all'ultimo uscito",
+  "items": [
+    "Fast and Furious",
+    "The Fast and the Furious: Tokyo Drift",
+    "Fast & Furious 5",
+    "Fast & Furious 7"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film degli X-Men dal più vecchio al più recente",
+  "items": [
+    "X-Men",
+    "X-Men 2",
+    "X-Men - L'inizio",
+    "X-Men - Giorni di un futuro passato"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Godzilla dal più vecchio al più recente",
+  "items": [
+    "Godzilla (1954)",
+    "Godzilla (1998)",
+    "Godzilla (2014)",
+    "Godzilla Minus One"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Tom Hanks dal più vecchio al più recente",
+  "items": [
+    "Big",
+    "Philadelphia",
+    "Forrest Gump",
+    "Cast Away"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Meryl Streep dal più vecchio al più recente",
+  "items": [
+    "Kramer contro Kramer",
+    "La scelta di Sophie",
+    "I ponti di Madison County",
+    "Il diavolo veste Prada"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Denzel Washington dal più vecchio al più recente",
+  "items": [
+    "Philadelphia",
+    "Training Day",
+    "American Gangster",
+    "The Equalizer"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di John Carpenter dal più vecchio al più recente",
+  "items": [
+    "Halloween",
+    "1997: Fuga da New York",
+    "La cosa",
+    "Grosso guaio a Chinatown"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di M. Night Shyamalan dal più vecchio al più recente",
+  "items": [
+    "Il sesto senso",
+    "Unbreakable",
+    "Signs",
+    "Split"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Richard Linklater dal più vecchio al più recente",
+  "items": [
+    "Prima dell'alba",
+    "School of Rock",
+    "Boyhood",
+    "Tutti vogliono qualcosa"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Damien Chazelle dal più vecchio al più recente",
+  "items": [
+    "Whiplash",
+    "La La Land",
+    "First Man",
+    "Babylon"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste serie animate per adulti dalla più vecchia alla più recente",
+  "items": [
+    "I Simpson",
+    "South Park",
+    "I Griffin",
+    "Rick and Morty"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Jim Carrey dal più vecchio al più recente",
+  "items": [
+    "Ace Ventura",
+    "The Mask",
+    "The Truman Show",
+    "Se mi lasci ti cancello"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film con Robin Williams dal più vecchio al più recente",
+  "items": [
+    "L'attimo fuggente",
+    "Hook - Capitan Uncino",
+    "Mrs. Doubtfire",
+    "Will Hunting"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi classici film di guerra dal più vecchio al più recente",
+  "items": [
+    "Apocalypse Now",
+    "Platoon",
+    "Full Metal Jacket",
+    "Salvate il soldato Ryan"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film romantici dal più vecchio al più recente",
+  "items": [
+    "Colazione da Tiffany",
+    "Harry ti presento Sally",
+    "Titanic",
+    "Le pagine della nostra vita"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Carlo Verdone dal più vecchio al più recente",
+  "items": [
+    "Un sacco bello",
+    "Bianco, rosso e Verdone",
+    "Viaggi di nozze",
+    "L'amore è eterno finché dura"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Roberto Benigni dal più vecchio al più recente",
+  "items": [
+    "Non ci resta che piangere",
+    "Il piccolo diavolo",
+    "Johnny Stecchino",
+    "La vita è bella"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Nanni Moretti dal più vecchio al più recente",
+  "items": [
+    "Ecce bombo",
+    "Caro diario",
+    "La stanza del figlio",
+    "Habemus Papam"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Paolo Sorrentino dal più vecchio al più recente",
+  "items": [
+    "L'uomo in più",
+    "Le conseguenze dell'amore",
+    "Il divo",
+    "La grande bellezza"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Matteo Garrone dal più vecchio al più recente",
+  "items": [
+    "L'imbalsamatore",
+    "Gomorra",
+    "Dogman",
+    "Io capitano"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi attori vincitori dell'Oscar come miglior attore dal più vecchio al più recente (anno di vittoria)",
+  "items": [
+    "Marlon Brando",
+    "Tom Hanks",
+    "Russell Crowe",
+    "Leonardo DiCaprio"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste attrici vincitrici dell'Oscar come miglior attrice dal più vecchio al più recente (anno di vittoria)",
+  "items": [
+    "Jodie Foster",
+    "Julia Roberts",
+    "Natalie Portman",
+    "Emma Stone"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film d'animazione in base all'incasso mondiale, dal minore al maggiore",
+  "items": [
+    "Il re leone (1994)",
+    "Toy Story 3",
+    "Frozen",
+    "Inside Out 2"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film in base al loro budget di produzione stimato, dal minore al maggiore",
+  "items": [
+    "The Blair Witch Project",
+    "Pulp Fiction",
+    "Titanic",
+    "Avengers: Endgame"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di Guy Ritchie dal più vecchio al più recente",
+  "items": [
+    "Lock & Stock",
+    "Snatch",
+    "Sherlock Holmes",
+    "The Gentlemen"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film di George Miller della saga di Mad Max dal primo all'ultimo",
+  "items": [
+    "Interceptor",
+    "Il guerriero della strada",
+    "Oltre la cupola del tuono",
+    "Fury Road"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film della saga di Rocky dal più vecchio al più recente",
+  "items": [
+    "Rocky",
+    "Rocky IV",
+    "Rocky Balboa",
+    "Creed"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste serie TV crime o investigative dalla più vecchia alla più recente",
+  "items": [
+    "La signora in giallo",
+    "CSI - Scena del crimine",
+    "Dexter",
+    "True Detective"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina queste famose serie TV teen drama dalla più vecchia alla più recente",
+  "items": [
+    "Beverly Hills 90210",
+    "Dawson's Creek",
+    "The O.C.",
+    "Gossip Girl"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi celebri film di vampiri dal più vecchio al più recente",
+  "items": [
+    "Nosferatu",
+    "Dracula di Bram Stoker",
+    "Intervista col vampiro",
+    "Twilight"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi film tratti dai romanzi di Stephen King dal più vecchio al più recente",
+  "items": [
+    "Carrie",
+    "Shining",
+    "Le ali della libertà",
+    "Il miglio verde"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi celebri film sui dinosauri dal più vecchio al più recente",
+  "items": [
+    "Jurassic Park",
+    "Il mondo perduto",
+    "Jurassic World",
+    "Jurassic World - Il dominio"
+  ]
+},
+{
+  "category": "Cinema e Serie TV",
+  "question": "Ordina questi famosi film a tema sportivo dal più vecchio al più recente",
+  "items": [
+    "Rocky",
+    "Momenti di gloria",
+    "Ogni maledetta domenica",
+    "Million Dollar Baby"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tipi di pasta per dimensione (dal più piccolo al più grande)",
+  "items": [
+    "Ditalini",
+    "Penne",
+    "Rigatoni",
+    "Paccheri"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste fasi per preparare il ragù alla bolognese",
+  "items": [
+    "Soffritto di verdure",
+    "Aggiunta della carne",
+    "Sfumatura con vino",
+    "Cottura lenta con pomodoro"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi peperoncini per grado di piccantezza (dal meno piccante al più piccante)",
+  "items": [
+    "Friggitello",
+    "Jalapeño",
+    "Habanero",
+    "Carolina Reaper"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi formaggi italiani per tempo di stagionatura minimo tipico (dal più breve al più lungo)",
+  "items": [
+    "Mozzarella",
+    "Gorgonzola",
+    "Pecorino Romano",
+    "Parmigiano Reggiano"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi vini italiani per gradazione alcolica tipica (dal più leggero al più forte)",
+  "items": [
+    "Moscato d'Asti",
+    "Prosecco",
+    "Chianti Classico",
+    "Amarone della Valpolicella"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste bevande per contenuto di caffeina (dal minore al maggiore)",
+  "items": [
+    "Tè bianco",
+    "Tè verde",
+    "Caffè espresso",
+    "Caffè filtro"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina i passaggi per preparare il risotto perfetto",
+  "items": [
+    "Tostatura del riso",
+    "Sfumatura con il vino",
+    "Cottura graduale con brodo",
+    "Mantecatura fuori dal fuoco"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi ingredienti per quantità necessaria nella ricetta tradizionale della Carbonara",
+  "items": [
+    "Pepe nero",
+    "Pecorino Romano",
+    "Guanciale",
+    "Pasta"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi cibi per secolo di introduzione in Europa (dal più antico al più recente)",
+  "items": [
+    "Grano tenero",
+    "Zucchero di canna",
+    "Pomodoro",
+    "Kiwi"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi utensili dal più antico al più moderno nella storia della cucina",
+  "items": [
+    "Mortaio in pietra",
+    "Cucchiaio di legno",
+    "Forchetta in metallo",
+    "Frullatore elettrico"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste cotture della carne per temperatura interna al cuore (dalla più bassa alla più alta)",
+  "items": [
+    "Bleu (Al sangue)",
+    "Saignant (Media-sangue)",
+    "À point (Media)",
+    "Bien cuit (Ben cotta)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina le regioni italiane di origine di questi piatti (dal Nord al Sud)",
+  "items": [
+    "Bagna cauda",
+    "Tortellini",
+    "Amatriciana",
+    "Cannoli"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste città per l'origine dei rispettivi piatti (da Nord a Sud)",
+  "items": [
+    "Milano (Risotto)",
+    "Genova (Pesto)",
+    "Roma (Carbonara)",
+    "Napoli (Pizza)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi ingredienti in base alle calorie per 100g (dal meno calorico al più calorico)",
+  "items": [
+    "Zucchine",
+    "Mela",
+    "Petto di pollo crudo",
+    "Olio extravergine di oliva"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tipi di farina di grano tenero per grado di raffinamento (dalla più grezza alla più raffinata)",
+  "items": [
+    "Farina integrale",
+    "Farina tipo 2",
+    "Farina tipo 1",
+    "Farina 00"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi oli per punto di fumo (dal più basso al più alto)",
+  "items": [
+    "Olio di lino non raffinato",
+    "Olio extravergine di oliva",
+    "Olio di semi di girasole alto oleico",
+    "Olio di avocado raffinato"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina le seguenti fasi della panificazione",
+  "items": [
+    "Impastamento degli ingredienti",
+    "Prima lievitazione (Puntatura)",
+    "Formatura dei pani",
+    "Seconda lievitazione (Appretto)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi salumi italiani per percentuale di grasso (dal più magro al più grasso)",
+  "items": [
+    "Bresaola della Valtellina",
+    "Prosciutto crudo",
+    "Salame Milano",
+    "Lardo di Colonnata"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi frutti per contenuto di zuccheri (dal meno dolce al più dolce)",
+  "items": [
+    "Limone",
+    "Fragola",
+    "Mela",
+    "Fico"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste bevande per invenzione storica (dalla più antica alla più recente)",
+  "items": [
+    "Birra",
+    "Vino",
+    "Distillati",
+    "Bevande gassate moderne"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi metodi di preparazione del caffè (dal più antico al più moderno)",
+  "items": [
+    "Caffè turco (Ibrik)",
+    "Moka",
+    "Macchina per espresso",
+    "Macchina a capsule"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi formaggi dal più morbido al più duro",
+  "items": [
+    "Burrata",
+    "Gorgonzola dolce",
+    "Fontina",
+    "Grana Padano"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste carni per tempo di cottura in padella/griglia (dal più breve al più lungo)",
+  "items": [
+    "Fettina di petto di pollo",
+    "Hamburger di manzo",
+    "Braciola di maiale spessa",
+    "Costine di maiale (BBQ)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tipi di tè per grado di ossidazione delle foglie (dal minore al maggiore)",
+  "items": [
+    "Tè bianco",
+    "Tè verde",
+    "Tè oolong",
+    "Tè nero"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi funghi dal più economico al più costoso (in media)",
+  "items": [
+    "Champignon",
+    "Chiodini",
+    "Porcini",
+    "Tartufo bianco pregiato"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina le fasi della lavorazione del cioccolato partendo dal frutto",
+  "items": [
+    "Tostatura delle fave di cacao",
+    "Macinazione",
+    "Concaggio",
+    "Temperaggio"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi piatti tradizionali per regione di origine (da Nord a Sud)",
+  "items": [
+    "Canederli",
+    "Pici all'aglione",
+    "Arrosticini",
+    "Orecchiette alle cime di rapa"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi ingredienti per quantità (in grammi) nella ricetta del Pesto alla Genovese",
+  "items": [
+    "Aglio",
+    "Pinoli",
+    "Parmigiano Reggiano",
+    "Foglie di basilico fresco"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi zuccheri in base al potere dolcificante (dal meno dolce al più dolce)",
+  "items": [
+    "Lattosio",
+    "Glucosio",
+    "Saccarosio",
+    "Fruttosio"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste nazioni per consumo di caffè pro capite (dal minore al maggiore)",
+  "items": [
+    "Cina",
+    "Stati Uniti",
+    "Italia",
+    "Finlandia"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi paesi per produzione annua di vino (dal minore al maggiore)",
+  "items": [
+    "Germania",
+    "Stati Uniti",
+    "Francia",
+    "Italia"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste varietà di mele dalla più aspra alla più dolce",
+  "items": [
+    "Granny Smith",
+    "Gala",
+    "Golden Delicious",
+    "Fuji"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tipi di cioccolato per percentuale minima di cacao richiesta (dalla minore alla maggiore)",
+  "items": [
+    "Cioccolato bianco",
+    "Cioccolato al latte",
+    "Cioccolato fondente",
+    "Cioccolato extra fondente"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste verdure della famiglia dei cavoli per dimensione media (dalla più piccola alla più grande)",
+  "items": [
+    "Cavoletto di Bruxelles",
+    "Cavolo rapa",
+    "Cavolfiore",
+    "Cavolo verza"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi piatti internazionali per diffusione globale (dal più antico al più recente stimato)",
+  "items": [
+    "Sushi",
+    "Pizza Margherita",
+    "Hamburger fast-food",
+    "Poke bowl"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste forme di pasta per lunghezza (dalla più corta alla più lunga)",
+  "items": [
+    "Farfalle",
+    "Fusilli",
+    "Penne",
+    "Spaghetti"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi vini rossi per invecchiamento minimo richiesto dal disciplinare (dal più breve al più lungo)",
+  "items": [
+    "Lambrusco",
+    "Chianti",
+    "Barolo",
+    "Brunello di Montalcino Riserva"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste spezie dalla più economica alla più costosa al grammo",
+  "items": [
+    "Pepe nero",
+    "Cannella",
+    "Vaniglia",
+    "Zafferano"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tipi di riso per tempo di cottura medio (dal più breve al più lungo)",
+  "items": [
+    "Riso Basmati",
+    "Riso Arborio",
+    "Riso Carnaroli",
+    "Riso Integrale"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi metodi di cottura per quantità di grassi usati (dal minore al maggiore)",
+  "items": [
+    "Cottura al vapore",
+    "Cottura alla piastra",
+    "Saltato in padella",
+    "Frittura profonda"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi pesci per dimensione media da adulti (dal più piccolo al più grande)",
+  "items": [
+    "Acciuga",
+    "Sgombro",
+    "Branzino",
+    "Tonno rosso"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi frutti in base al numero medio di semi (dal minore al maggiore)",
+  "items": [
+    "Pesca",
+    "Mela",
+    "Anguria",
+    "Melograno"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi formaggi per regione di origine (da Nord a Sud)",
+  "items": [
+    "Asiago",
+    "Squacquerone",
+    "Caciocavallo Silano",
+    "Vastedda della Valle del Belice"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi dolci natalizi italiani da Nord a Sud in base alla loro origine",
+  "items": [
+    "Panettone",
+    "Pandoro",
+    "Panforte",
+    "Struffoli"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi strumenti di cottura dal più primitivo al più moderno",
+  "items": [
+    "Spiedo su fuoco vivo",
+    "Forno a legna in mattoni",
+    "Cucina a gas",
+    "Piano cottura a induzione"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina i passaggi fondamentali della degustazione del vino",
+  "items": [
+    "Analisi visiva",
+    "Analisi olfattiva",
+    "Analisi gustativa",
+    "Valutazione del retrogusto"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi crostacei per dimensione (dal più piccolo al più grande)",
+  "items": [
+    "Gamberetto",
+    "Scampo",
+    "Astice europeo",
+    "Granchio reale dell'Alaska"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste erbe aromatiche per intensità di sapore (dal più delicato al più forte)",
+  "items": [
+    "Prezzemolo",
+    "Basilico",
+    "Rosmarino",
+    "Menta piperita"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste nazioni per consumo pro capite di pasta (dal minore al maggiore)",
+  "items": [
+    "Giappone",
+    "Regno Unito",
+    "Stati Uniti",
+    "Italia"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi agrumi per dimensione media (dal più piccolo al più grande)",
+  "items": [
+    "Mandarino",
+    "Limone",
+    "Arancia",
+    "Pompelmo"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste ricette di uova per tempo di cottura (dal più breve al più lungo)",
+  "items": [
+    "Uovo alla coque",
+    "Uovo in camicia",
+    "Uovo bazzotto",
+    "Uovo sodo"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste preparazioni di patate fritte per spessore del taglio (dal più sottile al più spesso)",
+  "items": [
+    "Chips",
+    "Allumette (a fiammifero)",
+    "Frites (bastoncino classico)",
+    "Wedges (a spicchi)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi liquori italiani per gradazione alcolica media (dal meno forte al più forte)",
+  "items": [
+    "Limoncello",
+    "Amaretto",
+    "Sambuca",
+    "Centerbe"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi frutti tropicali dal meno calorico al più calorico per 100g",
+  "items": [
+    "Papaya",
+    "Ananas",
+    "Banana",
+    "Avocado"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste città europee dalla più a nord alla più a sud, in base ai loro piatti tipici",
+  "items": [
+    "Copenaghen (Smørrebrød)",
+    "Londra (Fish and Chips)",
+    "Budapest (Gulasch)",
+    "Valencia (Paella)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina le fasi della lavorazione della birra",
+  "items": [
+    "Ammostamento",
+    "Bollitura con luppolo",
+    "Fermentazione",
+    "Maturazione"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste nazioni per le loro specialità culinarie (da Nord a Sud nel continente americano)",
+  "items": [
+    "Messico (Tacos)",
+    "Venezuela (Arepa)",
+    "Perù (Ceviche)",
+    "Argentina (Asado)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi legumi per tempo di ammollo richiesto (dal più breve al più lungo)",
+  "items": [
+    "Lenticchie rosse decorticate",
+    "Piselli spezzati",
+    "Ceci",
+    "Fave secche intere"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi salumi italiani in base alla regione di origine (da Nord a Sud)",
+  "items": [
+    "Speck",
+    "Culatello",
+    "Ciauscolo",
+    "'Nduja"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi formaggi erborinati dal sapore più delicato a quello più pungente",
+  "items": [
+    "Gorgonzola dolce",
+    "Gorgonzola piccante",
+    "Roquefort",
+    "Cabrales"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina le fasi della preparazione della besciamella",
+  "items": [
+    "Sciogliere il burro",
+    "Aggiungere la farina (Roux)",
+    "Aggiungere latte caldo a filo",
+    "Cuocere mescolando fino ad addensamento"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi dolci per anno o secolo di invenzione (dal più antico al più moderno)",
+  "items": [
+    "Macaron",
+    "Torta Sacher",
+    "Brownie",
+    "Tiramisù"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tagli di carne di maiale dal più magro al più grasso",
+  "items": [
+    "Filetto",
+    "Lonza",
+    "Coppa",
+    "Pancetta"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste varietà di pomodoro per dimensione (dal più piccolo al più grande)",
+  "items": [
+    "Pachino",
+    "Datterino",
+    "San Marzano",
+    "Cuore di Bue"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste nazioni per produzione di formaggio nel mondo (dal minore al maggiore)",
+  "items": [
+    "Svizzera",
+    "Italia",
+    "Germania",
+    "Stati Uniti"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste varietà di cipolla dalla più dolce alla più pungente",
+  "items": [
+    "Cipolla di Tropea",
+    "Cipolla bianca",
+    "Cipolla dorata",
+    "Cipolla rossa"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi frutti secchi e semi per contenuto di grassi (dal minore al maggiore)",
+  "items": [
+    "Castagne",
+    "Ceci tostati",
+    "Mandorle",
+    "Noci Macadamia"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi cereali per contenuto di glutine (dal minore al maggiore)",
+  "items": [
+    "Riso",
+    "Avena",
+    "Farro",
+    "Grano tenero (Frumento)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste regioni italiane per la loro produzione di tartufo (da Nord a Sud)",
+  "items": [
+    "Piemonte",
+    "Emilia-Romagna",
+    "Umbria",
+    "Molise"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste bevande calde per temperatura ideale dell'acqua di infusione (dalla più bassa alla più alta)",
+  "items": [
+    "Tè verde giapponese",
+    "Tè bianco",
+    "Tè nero",
+    "Tisana alle erbe"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi dolci italiani per regione di origine (da Nord a Sud)",
+  "items": [
+    "Strudel di mele",
+    "Tiramisù",
+    "Cantucci",
+    "Cassata siciliana"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina le fasi della degustazione tecnica dell'olio extravergine di oliva",
+  "items": [
+    "Riscaldamento del bicchiere con le mani",
+    "Analisi olfattiva",
+    "Assaggio con strippaggio",
+    "Valutazione dell'amaro e piccante"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tipi di pane per idratazione dell'impasto (dalla minore alla maggiore)",
+  "items": [
+    "Bagel",
+    "Baguette",
+    "Ciabatta",
+    "Pizza in teglia ad alta idratazione"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste spezie in base al loro colore in polvere (dal giallo chiaro al rosso scuro)",
+  "items": [
+    "Zenzero",
+    "Curcuma",
+    "Paprika dolce",
+    "Peperoncino di Cayenna"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi formaggi italiani per quantità di latte necessaria per produrre 1 kg (dal minore al maggiore)",
+  "items": [
+    "Mozzarella",
+    "Pecorino fresco",
+    "Gorgonzola",
+    "Parmigiano Reggiano stagionato"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi pesci per contenuto di grassi benefici Omega-3 (dal minore al maggiore)",
+  "items": [
+    "Merluzzo",
+    "Tonno",
+    "Trota",
+    "Salmone"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste salse italiane per regione di origine (da Nord a Sud)",
+  "items": [
+    "Pesto alla genovese",
+    "Ragù bolognese",
+    "Amatriciana",
+    "Pesto alla trapanese"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste tecniche classiche di taglio delle verdure (dalla più grande alla più piccola)",
+  "items": [
+    "Mirepoix",
+    "Macedoine",
+    "Brunoise",
+    "Fine brunoise"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi famosi cocktail per anno di invenzione (dal più antico al più moderno)",
+  "items": [
+    "Old Fashioned",
+    "Negroni",
+    "Margarita",
+    "Cosmopolitan"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi dessert al cucchiaio per la loro consistenza tipica (dal più fluido al più solido)",
+  "items": [
+    "Crema inglese",
+    "Zabaione montato",
+    "Panna cotta",
+    "Budino"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi frutti di mare bivalvi per dimensione tipica del guscio (dal più piccolo al più grande)",
+  "items": [
+    "Tellina",
+    "Vongola verace",
+    "Cozza",
+    "Capasanta"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina i passaggi principali della ricetta del Tiramisù",
+  "items": [
+    "Preparare e far raffreddare il caffè",
+    "Montare i tuorli con lo zucchero",
+    "Amalgamare il mascarpone e gli albumi montati",
+    "Inzuppare i savoiardi e stratificare"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi ingredienti per la loro acidità (dal più acido al più neutro)",
+  "items": [
+    "Succo di limone",
+    "Aceto di mele",
+    "Succo di pomodoro",
+    "Latte intero"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi mieli italiani dal colore più chiaro al più scuro",
+  "items": [
+    "Miele di acacia",
+    "Miele di tiglio",
+    "Miele di castagno",
+    "Miele di melata"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi piatti tradizionali europei per nazione da Ovest verso Est",
+  "items": [
+    "Baccalà alla Brás (Portogallo)",
+    "Quiche Lorraine (Francia)",
+    "Moussaka (Grecia)",
+    "Borscht (Ucraina)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina le fasi della preparazione del pane a lievitazione naturale (Lievito madre)",
+  "items": [
+    "Rinfresco del lievito madre",
+    "Autolisi (mescolare farina e acqua)",
+    "Impastamento finale con sale",
+    "Pieghe di rinforzo e formatura"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi cereali per epoca di domesticazione umana (dal più antico al più recente)",
+  "items": [
+    "Grano",
+    "Riso",
+    "Mais",
+    "Avena"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste nazioni per produzione mondiale di olio d'oliva (dalla maggiore alla minore)",
+  "items": [
+    "Spagna",
+    "Italia",
+    "Grecia",
+    "Tunisia"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tipi di latte per contenuto naturale di grassi (dal più magro al più grasso)",
+  "items": [
+    "Latte scremato",
+    "Latte parzialmente scremato",
+    "Latte intero di vacca",
+    "Latte di pecora"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste tipologie di carne in base al colore crudo (dalla più chiara alla più scura)",
+  "items": [
+    "Petto di pollo",
+    "Carne di vitello",
+    "Carne di manzo",
+    "Carne di cavallo"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina i seguenti formaggi a pasta filata dal più morbido al più compatto",
+  "items": [
+    "Mozzarella di bufala",
+    "Scamorza fresca",
+    "Caciocavallo",
+    "Provolone stagionato piccante"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi cibi fermentati per il loro paese di origine (da Ovest a Est)",
+  "items": [
+    "Choucroute (Francia)",
+    "Crauti (Germania)",
+    "Kimchi (Corea del Sud)",
+    "Miso (Giappone)"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste operazioni nella preparazione della pasta fresca all'uovo tradizionale",
+  "items": [
+    "Disporre la farina a fontana",
+    "Inserire le uova al centro",
+    "Sbattere le uova incorporando la farina ai bordi",
+    "Lavorare energicamente l'impasto con le mani"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi cibi per il loro contenuto percentuale di acqua (dal più basso al più alto)",
+  "items": [
+    "Mandorle secche",
+    "Formaggio stagionato (Parmigiano)",
+    "Petto di pollo crudo",
+    "Cetriolo"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tipi di pizza italiana per spessore tipico della base (dalla più sottile alla più spessa)",
+  "items": [
+    "Pizza romana (scrocchiarella)",
+    "Pizza napoletana",
+    "Pizza al trancio milanese",
+    "Sfincione palermitano"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina queste bevande per temperatura di servizio ideale (dalla più fredda alla più calda)",
+  "items": [
+    "Vodka (dal congelatore)",
+    "Birra Lager",
+    "Vino rosso strutturato",
+    "Vin brulé"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi dessert regionali italiani (da Nord a Sud)",
+  "items": [
+    "Bonèt",
+    "Zuppa Inglese",
+    "Pastiera",
+    "Seadas"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi funghi per il periodo ottimale di raccolta (dalla primavera all'inverno)",
+  "items": [
+    "Spugnola (Morchella)",
+    "Porcino estivo",
+    "Chiodino autunnale",
+    "Tartufo nero pregiato invernale"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi tagli di carne bovina dalla parte anteriore a quella posteriore dell'animale",
+  "items": [
+    "Collo",
+    "Costata",
+    "Filetto",
+    "Codone"
+  ]
+},
+{
+  "category": "Cucina e Tradizioni",
+  "question": "Ordina questi ingredienti per aggiunta nella ricetta del purè di patate classico",
+  "items": [
+    "Patate (da lessare)",
+    "Sale (nell'acqua di cottura)",
+    "Burro (nel purè caldo per mantecare)",
+    "Latte caldo (a filo alla fine)"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti continenti per estensione (dal più grande al più piccolo).",
+  "items": [
+    "Asia",
+    "Africa",
+    "Nord America",
+    "Sud America"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati per superficie totale (dal più grande al più piccolo).",
+  "items": [
+    "Russia",
+    "Canada",
+    "Cina",
+    "Stati Uniti"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti fiumi per lunghezza (dal più lungo al più corto).",
+  "items": [
+    "Nilo",
+    "Rio delle Amazzoni",
+    "Fiume Azzurro",
+    "Mississippi"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste montagne per altitudine (dalla più alta alla più bassa).",
+  "items": [
+    "Everest",
+    "K2",
+    "Kangchenjunga",
+    "Lhotse"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina gli oceani per superficie (dal più esteso al meno esteso).",
+  "items": [
+    "Oceano Pacifico",
+    "Oceano Atlantico",
+    "Oceano Indiano",
+    "Oceano Artico"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi laghi per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Mar Caspio",
+    "Lago Superiore",
+    "Lago Vittoria",
+    "Lago Huron"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste isole per dimensione (dalla più grande alla più piccola).",
+  "items": [
+    "Groenlandia",
+    "Nuova Guinea",
+    "Borneo",
+    "Madagascar"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste nazioni per popolazione (dalla più popolosa alla meno popolosa).",
+  "items": [
+    "India",
+    "Cina",
+    "Stati Uniti",
+    "Indonesia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati europei per numero di abitanti (dal più popoloso al meno).",
+  "items": [
+    "Germania",
+    "Francia",
+    "Italia",
+    "Spagna"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti città per latitudine (dalla più a nord alla più a sud).",
+  "items": [
+    "Oslo",
+    "Londra",
+    "Roma",
+    "Il Cairo"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati americani per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Alaska",
+    "Texas",
+    "California",
+    "Montana"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste nazioni sudamericane per estensione (dalla più grande alla più piccola).",
+  "items": [
+    "Brasile",
+    "Argentina",
+    "Perù",
+    "Colombia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi deserti per estensione (dal più grande al più piccolo).",
+  "items": [
+    "Sahara",
+    "Deserto Arabico",
+    "Deserto del Gobi",
+    "Deserto del Kalahari"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti capitali europee da Ovest verso Est.",
+  "items": [
+    "Lisbona",
+    "Madrid",
+    "Parigi",
+    "Berlino"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste città italiane per popolazione (dalla più popolosa alla meno popolosa).",
+  "items": [
+    "Roma",
+    "Milano",
+    "Napoli",
+    "Torino"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le regioni italiane per superficie (dalla più grande alla più piccola).",
+  "items": [
+    "Sicilia",
+    "Piemonte",
+    "Sardegna",
+    "Lombardia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le regioni italiane da Nord a Sud (in base al loro capoluogo).",
+  "items": [
+    "Trentino-Alto Adige",
+    "Toscana",
+    "Campania",
+    "Calabria"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti monti europei per altitudine (dal più alto al più basso).",
+  "items": [
+    "Monte Bianco",
+    "Cervino",
+    "Gran Paradiso",
+    "Marmolada"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi fiumi europei per lunghezza (dal più lungo al più corto).",
+  "items": [
+    "Volga",
+    "Danubio",
+    "Ural",
+    "Dnepr"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati per lunghezza delle coste (dalla più lunga alla più corta).",
+  "items": [
+    "Canada",
+    "Indonesia",
+    "Groenlandia",
+    "Russia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi paesi confinanti con l'Italia da Ovest verso Est.",
+  "items": [
+    "Francia",
+    "Svizzera",
+    "Austria",
+    "Slovenia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti nazioni africane per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "Nigeria",
+    "Etiopia",
+    "Egitto",
+    "Repubblica Democratica del Congo"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste isole italiane per estensione (dalla più grande alla più piccola).",
+  "items": [
+    "Sicilia",
+    "Sardegna",
+    "Isola d'Elba",
+    "Sant'Antioco"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati per densità di popolazione (dal più denso al meno denso).",
+  "items": [
+    "Monaco",
+    "Singapore",
+    "Bahrein",
+    "Malta"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti cascate per altezza (dalla più alta alla più bassa).",
+  "items": [
+    "Salto Angel",
+    "Cascate del Tugela",
+    "Cascate Tres Hermanas",
+    "Cascate di Olo'upena"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi laghi italiani per superficie (dal più esteso al meno esteso).",
+  "items": [
+    "Lago di Garda",
+    "Lago Maggiore",
+    "Lago di Como",
+    "Lago Trasimeno"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti città statunitensi per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "New York",
+    "Los Angeles",
+    "Chicago",
+    "Houston"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste capitali asiatiche da Nord a Sud.",
+  "items": [
+    "Pechino",
+    "Tokyo",
+    "Nuova Delhi",
+    "Bangkok"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le nazioni che attraversano l'equatore, da Ovest verso Est.",
+  "items": [
+    "Ecuador",
+    "Brasile",
+    "Repubblica Democratica del Congo",
+    "Indonesia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi mari per estensione (dal più grande al più piccolo).",
+  "items": [
+    "Mar dei Coralli",
+    "Mar Arabico",
+    "Mar Cinese Meridionale",
+    "Mar Mediterraneo"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti vulcani per altezza (dal più alto al più basso).",
+  "items": [
+    "Ojos del Salado",
+    "Kilimangiaro",
+    "Monte Elbrus",
+    "Monte Fuji"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste nazioni per numero di fusi orari posseduti (dal maggior numero al minor numero).",
+  "items": [
+    "Francia",
+    "Russia",
+    "Stati Uniti",
+    "Cina"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti isole greche per superficie (dalla più grande alla più piccola).",
+  "items": [
+    "Creta",
+    "Eubea",
+    "Lesbo",
+    "Rodi"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stretti o canali per lunghezza (dal più lungo al più corto).",
+  "items": [
+    "Canale del Mozambico",
+    "Stretto di Malacca",
+    "Canale della Manica",
+    "Stretto di Gibilterra"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti penisole per estensione (dalla più grande alla più piccola).",
+  "items": [
+    "Penisola Arabica",
+    "Penisola Indocinese",
+    "Penisola Iberica",
+    "Penisola Balcanica"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati in base alla loro latitudine media, dal più a Nord al più a Sud.",
+  "items": [
+    "Islanda",
+    "Regno Unito",
+    "Spagna",
+    "Marocco"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste province canadesi da Ovest verso Est.",
+  "items": [
+    "Columbia Britannica",
+    "Alberta",
+    "Saskatchewan",
+    "Manitoba"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti città del mondo per popolazione dell'area metropolitana (dalla più popolosa alla meno).",
+  "items": [
+    "Tokyo",
+    "Delhi",
+    "Shanghai",
+    "San Paolo"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati per numero di confini terrestri (dal maggior numero al minor numero).",
+  "items": [
+    "Cina",
+    "Brasile",
+    "Germania",
+    "Italia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste fosse oceaniche per profondità (dalla più profonda alla meno profonda).",
+  "items": [
+    "Fossa delle Marianne",
+    "Fossa di Tonga",
+    "Fossa delle Filippine",
+    "Fossa del Giappone"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti nazioni per percentuale di territorio coperto da foreste (dalla più alta alla più bassa).",
+  "items": [
+    "Suriname",
+    "Micronesia",
+    "Finlandia",
+    "Italia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste capitali africane da Nord a Sud.",
+  "items": [
+    "Tunisi",
+    "Il Cairo",
+    "Nairobi",
+    "Città del Capo"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi arcipelaghi per numero di isole (dal maggiore al minore).",
+  "items": [
+    "Arcipelago Malese",
+    "Filippine",
+    "Giappone",
+    "Hawaii"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti stati dell'Oceania per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Australia",
+    "Papua Nuova Guinea",
+    "Nuova Zelanda",
+    "Figi"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti città brasiliane per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "San Paolo",
+    "Rio de Janeiro",
+    "Brasilia",
+    "Salvador"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste regioni francesi da Nord a Sud.",
+  "items": [
+    "Alta Francia",
+    "Île-de-France",
+    "Alvernia-Rodano-Alpi",
+    "Provenza-Alpi-Costa Azzurra"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti stati dell'Asia centrale per estensione (dal più grande al più piccolo).",
+  "items": [
+    "Kazakistan",
+    "Turkmenistan",
+    "Uzbekistan",
+    "Kirghizistan"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi fiumi italiani per lunghezza (dal più lungo al più corto).",
+  "items": [
+    "Po",
+    "Adige",
+    "Tevere",
+    "Adda"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti isole delle Canarie per superficie (dalla più grande alla più piccola).",
+  "items": [
+    "Tenerife",
+    "Fuerteventura",
+    "Gran Canaria",
+    "Lanzarote"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi laghi africani per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Lago Vittoria",
+    "Lago Tanganica",
+    "Lago Malawi",
+    "Lago Turkana"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti capitali del Sud America da Ovest verso Est.",
+  "items": [
+    "Lima",
+    "La Paz",
+    "Buenos Aires",
+    "Brasilia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste nazioni nordiche per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "Svezia",
+    "Danimarca",
+    "Finlandia",
+    "Islanda"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi mari europei da Nord a Sud.",
+  "items": [
+    "Mare di Barents",
+    "Mar Baltico",
+    "Mare del Nord",
+    "Mar Mediterraneo"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti rilievi italiani per altezza (dal più alto al più basso).",
+  "items": [
+    "Monte Bianco",
+    "Etna",
+    "Gran Sasso",
+    "Massiccio del Pollino"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste capitali nordamericane e centramericane da Nord a Sud.",
+  "items": [
+    "Ottawa",
+    "Washington D.C.",
+    "Città del Messico",
+    "San José"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati federati della Germania per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Baviera",
+    "Bassa Sassonia",
+    "Baden-Württemberg",
+    "Renania Settentrionale-Vestfalia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti città australiane per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "Sydney",
+    "Melbourne",
+    "Brisbane",
+    "Perth"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati del Medio Oriente per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Arabia Saudita",
+    "Iran",
+    "Iraq",
+    "Siria"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti passi alpini per altitudine (dal più alto al più basso).",
+  "items": [
+    "Passo dello Stelvio",
+    "Passo Gavia",
+    "Passo Pordoi",
+    "Passo del Tonale"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi fiumi sudamericani per lunghezza (dal più lungo al più corto).",
+  "items": [
+    "Rio delle Amazzoni",
+    "Paraná",
+    "Madeira",
+    "Purus"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti nazioni caraibiche per superficie (dalla più grande alla più piccola).",
+  "items": [
+    "Cuba",
+    "Repubblica Dominicana",
+    "Haiti",
+    "Giamaica"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste città del Regno Unito per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "Londra",
+    "Birmingham",
+    "Manchester",
+    "Glasgow"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti vulcani italiani da Nord a Sud.",
+  "items": [
+    "Colli Euganei",
+    "Vesuvio",
+    "Stromboli",
+    "Etna"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste grandi regioni geografiche per precipitazioni medie annue (dalla più piovosa alla meno).",
+  "items": [
+    "Foresta Amazzonica",
+    "Sud-est asiatico",
+    "Europa Centrale",
+    "Deserto del Sahara"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi golfi per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Golfo del Bengala",
+    "Golfo del Messico",
+    "Golfo di Guinea",
+    "Golfo Persico"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti isole giapponesi da Nord a Sud.",
+  "items": [
+    "Hokkaido",
+    "Honshu",
+    "Shikoku",
+    "Kyushu"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste città cinesi per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "Shanghai",
+    "Pechino",
+    "Canton (Guangzhou)",
+    "Shenzhen"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti stati bagnati dal Mar Mediterraneo da Ovest verso Est.",
+  "items": [
+    "Spagna",
+    "Italia",
+    "Grecia",
+    "Turchia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi deserti nordamericani per estensione (dal più grande al più piccolo).",
+  "items": [
+    "Deserto di Chihuahua",
+    "Deserto di Sonora",
+    "Deserto del Mojave",
+    "Deserto del Colorado"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti baie per estensione (dalla più grande alla più piccola).",
+  "items": [
+    "Baia di Hudson",
+    "Baia di Baffin",
+    "Baia di Fundy",
+    "Baia di Guantanamo"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati dell'India per popolazione (dal più popoloso al meno).",
+  "items": [
+    "Uttar Pradesh",
+    "Maharashtra",
+    "Bihar",
+    "Bengala Occidentale"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti nazioni baltiche e limitrofe da Nord a Sud.",
+  "items": [
+    "Estonia",
+    "Lettonia",
+    "Lituania",
+    "Polonia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stretti marittimi da Nord a Sud.",
+  "items": [
+    "Stretto di Bering",
+    "Stretto di Gibilterra",
+    "Stretto di Hormuz",
+    "Stretto di Magellano"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti laghi del Nord America per profondità massima (dal più profondo al meno).",
+  "items": [
+    "Grande Lago degli Schiavi",
+    "Lago Superiore",
+    "Lago Huron",
+    "Lago Erie"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste isole delle Baleari per estensione (dalla più grande alla più piccola).",
+  "items": [
+    "Maiorca",
+    "Minorca",
+    "Ibiza",
+    "Formentera"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti città tedesche per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "Berlino",
+    "Amburgo",
+    "Monaco di Baviera",
+    "Colonia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi fiumi asiatici per lunghezza (dal più lungo al più corto).",
+  "items": [
+    "Fiume Azzurro",
+    "Fiume Giallo",
+    "Mekong",
+    "Gange"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi stati centroamericani per popolazione (dal più popoloso al meno).",
+  "items": [
+    "Guatemala",
+    "Honduras",
+    "El Salvador",
+    "Costa Rica"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti laghi salati per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Mar Caspio",
+    "Lago d'Aral (storico)",
+    "Gran Lago Salato",
+    "Mar Morto"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti capitali mondiali per altitudine (dalla più alta alla più bassa).",
+  "items": [
+    "La Paz",
+    "Quito",
+    "Bogotà",
+    "Città del Messico"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste nazioni per speranza di vita alla nascita (dalla più alta alla più bassa).",
+  "items": [
+    "Giappone",
+    "Svizzera",
+    "Italia",
+    "Stati Uniti"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi fiumi africani per lunghezza (dal più lungo al più corto).",
+  "items": [
+    "Nilo",
+    "Congo",
+    "Niger",
+    "Zambesi"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti regioni della Spagna da Nord a Sud.",
+  "items": [
+    "Galizia",
+    "Castiglia e León",
+    "Madrid",
+    "Andalusia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste nazioni attraversate dal Tropico del Cancro da Ovest verso Est.",
+  "items": [
+    "Messico",
+    "Mauritania",
+    "India",
+    "Cina"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti città spagnole per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "Madrid",
+    "Barcellona",
+    "Valencia",
+    "Siviglia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste penisole europee per estensione (dalla più grande alla più piccola).",
+  "items": [
+    "Penisola Scandinava",
+    "Penisola Iberica",
+    "Penisola Balcanica",
+    "Penisola Italiana"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti fiumi che sfociano nel Mar Nero per lunghezza (dal più lungo al più corto).",
+  "items": [
+    "Danubio",
+    "Dnepr",
+    "Don",
+    "Dnestr"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste nazioni sudamericane per lunghezza della costa (dalla più lunga alla più corta).",
+  "items": [
+    "Brasile",
+    "Cile",
+    "Argentina",
+    "Perù"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti capitali europee per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "Londra",
+    "Berlino",
+    "Madrid",
+    "Roma"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi territori dipendenti per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Groenlandia",
+    "Svalbard",
+    "Isole Falkland",
+    "Gibilterra"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste città della Russia da Ovest verso Est.",
+  "items": [
+    "San Pietroburgo",
+    "Mosca",
+    "Ekaterinburg",
+    "Vladivostok"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti mari marginali dell'Oceano Pacifico da Nord a Sud.",
+  "items": [
+    "Mare di Bering",
+    "Mar del Giappone",
+    "Mar Cinese Orientale",
+    "Mar dei Coralli"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi laghi europei per superficie (dal più grande al più piccolo).",
+  "items": [
+    "Lago Ladoga",
+    "Lago Onega",
+    "Lago Vänern",
+    "Lago Saimaa"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina le seguenti nazioni africane per superficie (dalla più grande alla più piccola).",
+  "items": [
+    "Algeria",
+    "Repubblica Democratica del Congo",
+    "Sudan",
+    "Libia"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina questi arcipelaghi italiani da Nord a Sud.",
+  "items": [
+    "Arcipelago Toscano",
+    "Isole Tremiti",
+    "Arcipelago Campano",
+    "Isole Pelagie"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste province storiche dell'Irlanda da Nord a Sud.",
+  "items": [
+    "Ulster",
+    "Connacht",
+    "Leinster",
+    "Munster"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti continenti per altitudine media (dal più alto al più basso).",
+  "items": [
+    "Antartide",
+    "Asia",
+    "Nord America",
+    "Europa"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste città africane per popolazione (dalla più popolosa alla meno).",
+  "items": [
+    "Lagos",
+    "Il Cairo",
+    "Kinshasa",
+    "Johannesburg"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina i seguenti canali artificiali per lunghezza (dal più lungo al più corto).",
+  "items": [
+    "Canale di Suez",
+    "Canale di Kiel",
+    "Canale di Panama",
+    "Canale di Corinto"
+  ]
+},
+{
+  "category": "Geografia",
+  "question": "Ordina queste nazioni attraversate dal Meridiano di Greenwich da Nord a Sud.",
+  "items": [
+    "Regno Unito",
+    "Francia",
+    "Spagna",
+    "Algeria"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi movimenti artistici europei dal più antico al più recente.",
+  "items": [
+    "Rinascimento",
+    "Manierismo",
+    "Barocco",
+    "Neoclassicismo"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi movimenti artistici dell'Ottocento e Novecento dal più antico al più recente.",
+  "items": [
+    "Romanticismo",
+    "Realismo",
+    "Impressionismo",
+    "Cubismo"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste grandi ere della storia dell'arte dalla più antica alla più recente.",
+  "items": [
+    "Arte Paleocristiana",
+    "Arte Romanica",
+    "Arte Gotica",
+    "Arte Rinascimentale"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri pittori italiani in base al loro anno di nascita, dal più antico.",
+  "items": [
+    "Giotto",
+    "Sandro Botticelli",
+    "Leonardo da Vinci",
+    "Caravaggio"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi grandi artisti del Rinascimento in base al loro anno di nascita.",
+  "items": [
+    "Masaccio",
+    "Piero della Francesca",
+    "Raffaello Sanzio",
+    "Tiziano Vecellio"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi artisti del Post-impressionismo in ordine di nascita.",
+  "items": [
+    "Paul Cézanne",
+    "Paul Gauguin",
+    "Vincent van Gogh",
+    "Henri de Toulouse-Lautrec"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri scultori in ordine cronologico.",
+  "items": [
+    "Fidia",
+    "Donatello",
+    "Michelangelo Buonarroti",
+    "Gian Lorenzo Bernini"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi movimenti d'avanguardia del Novecento dal primo all'ultimo nato.",
+  "items": [
+    "Fauvismo",
+    "Cubismo",
+    "Futurismo",
+    "Surrealismo"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri artisti spagnoli per anno di nascita (dal più antico).",
+  "items": [
+    "Diego Velázquez",
+    "Francisco Goya",
+    "Pablo Picasso",
+    "Salvador Dalí"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste sculture e opere di Michelangelo in base all'anno di realizzazione.",
+  "items": [
+    "Pietà vaticana",
+    "David",
+    "Tondo Doni",
+    "Giudizio Universale"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi capolavori di Leonardo da Vinci in base all'anno di realizzazione.",
+  "items": [
+    "Battesimo di Cristo (con Verrocchio)",
+    "Vergine delle Rocce",
+    "L'Ultima Cena",
+    "La Gioconda"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste fasi e stili della carriera di Pablo Picasso (dal primo all'ultimo).",
+  "items": [
+    "Periodo blu",
+    "Periodo rosa",
+    "Cubismo analitico",
+    "Cubismo sintetico"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi grandi architetti italiani in ordine di nascita.",
+  "items": [
+    "Filippo Brunelleschi",
+    "Donato Bramante",
+    "Andrea Palladio",
+    "Francesco Borromini"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste grandi correnti letterarie italiane in ordine cronologico.",
+  "items": [
+    "Dolce Stil Novo",
+    "Umanesimo",
+    "Illuminismo",
+    "Verismo"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri autori della letteratura italiana in ordine di nascita.",
+  "items": [
+    "Dante Alighieri",
+    "Francesco Petrarca",
+    "Giovanni Boccaccio",
+    "Ludovico Ariosto"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi famosi scrittori italiani in ordine di nascita dal più antico al più recente.",
+  "items": [
+    "Torquato Tasso",
+    "Carlo Goldoni",
+    "Ugo Foscolo",
+    "Alessandro Manzoni"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri scrittori italiani del Novecento in ordine di nascita.",
+  "items": [
+    "Luigi Pirandello",
+    "Italo Svevo",
+    "Italo Calvino",
+    "Umberto Eco"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina i luoghi visitati da Dante Alighieri nella Divina Commedia (dal primo all'ultimo).",
+  "items": [
+    "Selva Oscura",
+    "Inferno",
+    "Purgatorio",
+    "Paradiso"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Jane Austen in base all'anno della loro prima pubblicazione.",
+  "items": [
+    "Ragione e sentimento",
+    "Orgoglio e pregiudizio",
+    "Emma",
+    "Persuasione"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Fëdor Dostoevskij in ordine di prima pubblicazione.",
+  "items": [
+    "Memorie dal sottosuolo",
+    "Delitto e castigo",
+    "L'idiota",
+    "I fratelli Karamazov"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste famose tragedie di William Shakespeare in ordine approssimativo di stesura.",
+  "items": [
+    "Romeo e Giulietta",
+    "Amleto",
+    "Otello",
+    "Macbeth"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi della saga di Harry Potter in ordine di pubblicazione.",
+  "items": [
+    "La pietra filosofale",
+    "La camera dei segreti",
+    "Il prigioniero di Azkaban",
+    "Il calice di fuoco"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina gli ultimi romanzi della saga di Harry Potter in ordine di pubblicazione.",
+  "items": [
+    "Il calice di fuoco",
+    "L'Ordine della Fenice",
+    "Il principe mezzosangue",
+    "I Doni della Morte"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina le opere di J.R.R. Tolkien ambientate nella Terra di Mezzo per pubblicazione.",
+  "items": [
+    "Lo Hobbit",
+    "La Compagnia dell'Anello",
+    "Le Due Torri",
+    "Il Ritorno del Re"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste creature della mitologia greca per numero di teste (dal minore al maggiore).",
+  "items": [
+    "Ciclope",
+    "Ortros",
+    "Cerbero",
+    "Idra di Lerna"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi famosi poemi epici dal più antico al più recente.",
+  "items": [
+    "Epopea di Gilgamesh",
+    "Iliade",
+    "Eneide",
+    "Divina Commedia"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di George Orwell in ordine di pubblicazione.",
+  "items": [
+    "Senza un soldo a Parigi e Londra",
+    "Fiorirà l'aspidistra",
+    "La fattoria degli animali",
+    "1984"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Charles Dickens in ordine di pubblicazione.",
+  "items": [
+    "Oliver Twist",
+    "David Copperfield",
+    "Tempi difficili",
+    "Grandi speranze"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste famose biblioteche per anno di fondazione (dalla più antica alla più recente).",
+  "items": [
+    "Biblioteca di Alessandria",
+    "Biblioteca Apostolica Vaticana",
+    "Bodleian Library",
+    "Library of Congress"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri pittori fiamminghi e olandesi in ordine di nascita.",
+  "items": [
+    "Jan van Eyck",
+    "Hieronymus Bosch",
+    "Rembrandt",
+    "Johannes Vermeer"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi capolavori di Vincent van Gogh in ordine di realizzazione.",
+  "items": [
+    "I mangiatori di patate",
+    "I Girasoli",
+    "Notte stellata",
+    "Campo di grano con volo di corvi"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi scrittori italiani vincitori del Premio Nobel per la Letteratura (dal primo all'ultimo).",
+  "items": [
+    "Giosuè Carducci",
+    "Grazia Deledda",
+    "Luigi Pirandello",
+    "Dario Fo"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Italo Calvino in ordine di pubblicazione.",
+  "items": [
+    "Il sentiero dei nidi di ragno",
+    "Il visconte dimezzato",
+    "Il barone rampante",
+    "Il cavaliere inesistente"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Stephen King in ordine di pubblicazione.",
+  "items": [
+    "Carrie",
+    "Shining",
+    "It",
+    "Il miglio verde"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Agatha Christie con Hercule Poirot in ordine di pubblicazione.",
+  "items": [
+    "Poirot a Styles Court",
+    "L'assassinio di Roger Ackroyd",
+    "Assassinio sull'Orient Express",
+    "Poirot sul Nilo"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina le grandi età storiche della letteratura latina in ordine cronologico.",
+  "items": [
+    "Età arcaica",
+    "Età repubblicana",
+    "Età augustea",
+    "Età imperiale"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi grandi poeti e autori latini in ordine di nascita (dal più antico).",
+  "items": [
+    "Plauto",
+    "Virgilio",
+    "Orazio",
+    "Ovidio"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri filosofi (e il loro allievo più famoso) in ordine maestro-allievo.",
+  "items": [
+    "Socrate",
+    "Platone",
+    "Aristotele",
+    "Alessandro Magno"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina le celebri mogli di re Enrico VIII d'Inghilterra in ordine cronologico di matrimonio.",
+  "items": [
+    "Caterina d'Aragona",
+    "Anna Bolena",
+    "Jane Seymour",
+    "Caterina Parr"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina la nascita di questi celebri poeti e scrittori inglesi dell'Ottocento.",
+  "items": [
+    "William Wordsworth",
+    "Lord Byron",
+    "Percy Bysshe Shelley",
+    "John Keats"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Victor Hugo in ordine di pubblicazione.",
+  "items": [
+    "L'ultimo giorno di un condannato a morte",
+    "Notre-Dame de Paris",
+    "I miserabili",
+    "L'uomo che ride"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri dipinti di Sandro Botticelli in ordine di realizzazione.",
+  "items": [
+    "Adorazione dei Magi",
+    "La Primavera",
+    "Nascita di Venere",
+    "Calunnia di Apelle"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi colori primari e secondari in base alla lunghezza d'onda, dal maggiore al minore.",
+  "items": [
+    "Rosso",
+    "Giallo",
+    "Verde",
+    "Blu"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri romanzi di Jules Verne in ordine di pubblicazione.",
+  "items": [
+    "Viaggio al centro della Terra",
+    "Dalla Terra alla Luna",
+    "Ventimila leghe sotto i mari",
+    "Il giro del mondo in 80 giorni"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste opere teatrali di Luigi Pirandello in ordine di prima rappresentazione o pubblicazione.",
+  "items": [
+    "Pensaci, Giacomino!",
+    "Così è (se vi pare)",
+    "Sei personaggi in cerca d'autore",
+    "Enrico IV"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina le quattro sorelle March nel romanzo 'Piccole donne' in ordine di età (dalla maggiore alla minore).",
+  "items": [
+    "Meg",
+    "Jo",
+    "Beth",
+    "Amy"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina i nomi italiani delle quattro casate di Hogwarts in ordine alfabetico.",
+  "items": [
+    "Corvonero",
+    "Grifondoro",
+    "Serpeverde",
+    "Tassorosso"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Gabriel García Márquez in ordine di prima pubblicazione.",
+  "items": [
+    "Nessuno scrive al colonnello",
+    "Cent'anni di solitudine",
+    "Cronaca di una morte annunciata",
+    "L'amore ai tempi del colera"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi pittori legati al movimento Impressionista in ordine di nascita.",
+  "items": [
+    "Édouard Manet",
+    "Edgar Degas",
+    "Claude Monet",
+    "Pierre-Auguste Renoir"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi grandi musei europei per anno di apertura al pubblico (dal più antico al più recente).",
+  "items": [
+    "Gallerie degli Uffizi",
+    "British Museum",
+    "Museo del Louvre",
+    "Museo del Prado"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste celebri sculture in ordine di realizzazione (dalla più antica alla più recente).",
+  "items": [
+    "Venere di Milo",
+    "David (Donatello)",
+    "Estasi di Santa Teresa",
+    "Il pensatore (Rodin)"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste opere di Umberto Eco in ordine di pubblicazione.",
+  "items": [
+    "Il nome della rosa",
+    "Il pendolo di Foucault",
+    "L'isola del giorno prima",
+    "Baudolino"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina in base all'anno di nascita questi celebri artisti messicani.",
+  "items": [
+    "José Clemente Orozco",
+    "Diego Rivera",
+    "David Alfaro Siqueiros",
+    "Frida Kahlo"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste opere di Franz Kafka in ordine di pubblicazione (incluse opere postume).",
+  "items": [
+    "La metamorfosi",
+    "Nella colonia penale",
+    "Il processo",
+    "Il castello"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi famosi romanzi di Ernest Hemingway in ordine di pubblicazione.",
+  "items": [
+    "Fiesta (Il sole sorgerà ancora)",
+    "Addio alle armi",
+    "Per chi suona la campana",
+    "Il vecchio e il mare"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Francis Scott Fitzgerald in ordine di pubblicazione.",
+  "items": [
+    "Di qua dal Paradiso",
+    "Belli e dannati",
+    "Il grande Gatsby",
+    "Tenera è la notte"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste sinfonie di Ludwig van Beethoven in ordine numerico (e di composizione).",
+  "items": [
+    "Sinfonia n. 3 (Eroica)",
+    "Sinfonia n. 5",
+    "Sinfonia n. 6 (Pastorale)",
+    "Sinfonia n. 9 (Corale)"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri romanzi di Virginia Woolf in ordine di pubblicazione.",
+  "items": [
+    "La signora Dalloway",
+    "Gita al faro",
+    "Orlando",
+    "Le onde"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina la nascita di questi celebri scrittori americani (dal più antico al più recente).",
+  "items": [
+    "Edgar Allan Poe",
+    "Mark Twain",
+    "Jack London",
+    "John Steinbeck"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste fasi del viaggio di Ulisse nell'Odissea (dal primo evento al successivo).",
+  "items": [
+    "Incontro con i Ciconi",
+    "Isola dei Lotofagi",
+    "Fuga da Polifemo",
+    "Soggiorno da Circe"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste tecniche pittoriche in ordine di massima diffusione storica (dalla più antica).",
+  "items": [
+    "Affresco",
+    "Tempera all'uovo",
+    "Colori a olio",
+    "Colori acrilici"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri dipinti in ordine di realizzazione (dal più antico al più recente).",
+  "items": [
+    "La nascita di Venere",
+    "La Gioconda",
+    "La ronda di notte",
+    "L'urlo (Munch)"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina l'anno di nascita di queste celebri autrici di lingua inglese (dalla più antica alla più recente).",
+  "items": [
+    "Mary Shelley",
+    "Charlotte Brontë",
+    "Emily Dickinson",
+    "Virginia Woolf"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina i primi gironi dell'Inferno dantesco in ordine di discesa (dal primo al quarto).",
+  "items": [
+    "Limbo",
+    "Lussuriosi",
+    "Golosi",
+    "Avari e prodighi"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina i gironi più profondi dell'Inferno dantesco in ordine di discesa (dal quinto all'ottavo).",
+  "items": [
+    "Iracondi e accidiosi",
+    "Eretici",
+    "Violenti",
+    "Fraudolenti"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina la nascita dei celebri poeti francesi dell'Ottocento (dal più antico al più recente).",
+  "items": [
+    "Charles Baudelaire",
+    "Paul Verlaine",
+    "Arthur Rimbaud",
+    "Guillaume Apollinaire"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina le opere della tetralogia operistica 'L'anello del Nibelungo' di Richard Wagner.",
+  "items": [
+    "L'oro del Reno",
+    "La Valchiria",
+    "Sigfrido",
+    "Il crepuscolo degli dei"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina la nascita di questi celebri drammaturghi europei (dal più antico al più recente).",
+  "items": [
+    "William Shakespeare",
+    "Molière",
+    "Henrik Ibsen",
+    "Anton Čechov"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri romanzi con protagonista Sherlock Holmes in ordine di pubblicazione.",
+  "items": [
+    "Uno studio in rosso",
+    "Il segno dei quattro",
+    "Il mastino dei Baskerville",
+    "La valle della paura"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi movimenti architettonici occidentali in ordine cronologico (dal più antico).",
+  "items": [
+    "Romanico",
+    "Gotico",
+    "Barocco",
+    "Art Nouveau"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri romanzi russi dell'Ottocento in ordine di pubblicazione.",
+  "items": [
+    "Oblomov",
+    "Padri e figli",
+    "Delitto e castigo",
+    "Anna Karenina"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste famose opere del pittore Gustav Klimt in ordine di realizzazione.",
+  "items": [
+    "Giuditta I",
+    "Fregio di Beethoven",
+    "Ritratto di Adele Bloch-Bauer I",
+    "Il bacio"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina la nascita di questi celebri artisti del Rinascimento nordeuropeo (dal più antico).",
+  "items": [
+    "Jan van Eyck",
+    "Albrecht Dürer",
+    "Hans Holbein il Giovane",
+    "Pieter Bruegel il Vecchio"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi grandi romanzi di Hermann Hesse in ordine di pubblicazione.",
+  "items": [
+    "Demian",
+    "Siddharta",
+    "Il lupo della steppa",
+    "Il giuoco delle perle di vetro"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi libri della saga 'Le cronache di Narnia' in ordine di pubblicazione.",
+  "items": [
+    "Il leone, la strega e l'armadio",
+    "Il principe Caspian",
+    "Il viaggio del veliero",
+    "La sedia d'argento"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste categorie del Premio Pulitzer per le lettere in ordine alfabetico.",
+  "items": [
+    "Biografia",
+    "Narrativa",
+    "Poesia",
+    "Saggistica"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina la nascita di questi celebri scrittori di fantascienza (dal più antico al più recente).",
+  "items": [
+    "H.G. Wells",
+    "Isaac Asimov",
+    "Ray Bradbury",
+    "Philip K. Dick"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi grandi scrittori latinoamericani in ordine di nascita.",
+  "items": [
+    "Jorge Luis Borges",
+    "Julio Cortázar",
+    "Gabriel García Márquez",
+    "Mario Vargas Llosa"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste celebri opere di Salvador Dalí in ordine di realizzazione.",
+  "items": [
+    "Il grande masturbatore",
+    "La persistenza della memoria",
+    "Costruzione molle con fave bollite",
+    "Sogno causato dal volo di un'ape"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri dipinti raffiguranti donne in ordine di realizzazione (dal più antico).",
+  "items": [
+    "Dama con l'ermellino",
+    "Ragazza col turbante (Vermeer)",
+    "La Maja desnuda",
+    "Ritratto di Dora Maar"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi monumenti e opere architettoniche di Parigi in ordine di completamento.",
+  "items": [
+    "Cattedrale di Notre-Dame",
+    "Pantheon",
+    "Arco di Trionfo",
+    "Torre Eiffel"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi movimenti letterari e artistici in Italia (Ottocento e Novecento) in ordine cronologico.",
+  "items": [
+    "Scapigliatura",
+    "Verismo",
+    "Futurismo",
+    "Ermetismo"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi della serie 'Millennium' (Stieg Larsson e seguiti) in ordine di pubblicazione.",
+  "items": [
+    "Uomini che odiano le donne",
+    "La ragazza che giocava con il fuoco",
+    "La regina dei castelli di carta",
+    "Quello che non uccide"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi grandi autori teatrali dell'Antica Grecia in ordine di nascita.",
+  "items": [
+    "Eschilo",
+    "Sofocle",
+    "Euripide",
+    "Aristofane"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi grandi artisti della Pop Art in ordine di nascita (dal più anziano).",
+  "items": [
+    "Richard Hamilton",
+    "Roy Lichtenstein",
+    "Andy Warhol",
+    "Keith Haring"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste opere di Michelangelo Merisi da Caravaggio in ordine di realizzazione.",
+  "items": [
+    "Ragazzo con canestra di frutta",
+    "Vocazione di San Matteo",
+    "Morte della Vergine",
+    "Davide con la testa di Golia"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina i titoli italiani di questi romanzi di Jane Austen in ordine alfabetico.",
+  "items": [
+    "Emma",
+    "L'abbazia di Northanger",
+    "Orgoglio e pregiudizio",
+    "Ragione e sentimento"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina i primi quattro libri della Bibbia (Pentateuco) nel loro ordine tradizionale.",
+  "items": [
+    "Genesi",
+    "Esodo",
+    "Levitico",
+    "Numeri"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri romanzi distopici in ordine di prima pubblicazione.",
+  "items": [
+    "Il tallone di ferro (Jack London)",
+    "Il mondo nuovo (Aldous Huxley)",
+    "1984 (George Orwell)",
+    "Fahrenheit 451 (Ray Bradbury)"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina i primi quattro mesi del calendario rivoluzionario francese (inizio in autunno).",
+  "items": [
+    "Vendemmiaio",
+    "Brumaio",
+    "Frimaio",
+    "Nevoso"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina l'anno di nascita di questi famosi 'poeti maledetti' e affini in Francia.",
+  "items": [
+    "Gérard de Nerval",
+    "Charles Baudelaire",
+    "Paul Verlaine",
+    "Arthur Rimbaud"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi capolavori della letteratura americana in ordine di prima pubblicazione.",
+  "items": [
+    "Moby Dick",
+    "Le avventure di Huckleberry Finn",
+    "Il grande Gatsby",
+    "Il giovane Holden"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi romanzi di Dan Brown con protagonista Robert Langdon in ordine di pubblicazione.",
+  "items": [
+    "Angeli e demoni",
+    "Il codice da Vinci",
+    "Il simbolo perduto",
+    "Inferno"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri edifici di Roma antica in ordine di inizio della loro costruzione originaria.",
+  "items": [
+    "Circo Massimo",
+    "Colosseo",
+    "Pantheon",
+    "Terme di Caracalla"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina i titoli italiani di queste quattro celebri tragedie di William Shakespeare in ordine alfabetico.",
+  "items": [
+    "Amleto",
+    "Macbeth",
+    "Otello",
+    "Re Lear"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri scrittori e poeti italiani in ordine alfabetico (per cognome).",
+  "items": [
+    "Boccaccio",
+    "Dante",
+    "Manzoni",
+    "Petrarca"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina l'anno di morte di questi celebri compositori di musica classica (dal primo all'ultimo).",
+  "items": [
+    "Wolfgang Amadeus Mozart",
+    "Ludwig van Beethoven",
+    "Fryderyk Chopin",
+    "Richard Wagner"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina queste opere di Raffaello Sanzio in ordine di realizzazione (dalla più antica).",
+  "items": [
+    "Sposalizio della Vergine",
+    "Scuola di Atene",
+    "Madonna Sistina",
+    "Trasfigurazione"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri romanzi di Lev Tolstoj in ordine di prima pubblicazione in formato libro.",
+  "items": [
+    "Guerra e pace",
+    "Anna Karenina",
+    "La morte di Ivan Il'ič",
+    "Resurrezione"
+  ]
+},
+{
+  "category": "Letteratura e Arte",
+  "question": "Ordina questi celebri musei d'arte di New York in ordine di inaugurazione (dal più antico).",
+  "items": [
+    "Metropolitan Museum of Art (Met)",
+    "Museum of Modern Art (MoMA)",
+    "Whitney Museum of American Art",
+    "Solomon R. Guggenheim Museum"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Pink Floyd dal primo all'ultimo pubblicato",
+  "items": [
+    "The Dark Side of the Moon",
+    "Wish You Were Here",
+    "Animals",
+    "The Wall"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Queen dal primo all'ultimo pubblicato",
+  "items": [
+    "A Night at the Opera",
+    "News of the World",
+    "The Game",
+    "Innuendo"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Michael Jackson dal primo all'ultimo pubblicato",
+  "items": [
+    "Off the Wall",
+    "Thriller",
+    "Bad",
+    "Dangerous"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Madonna dal primo all'ultimo pubblicato",
+  "items": [
+    "Like a Virgin",
+    "True Blue",
+    "Ray of Light",
+    "Confessions on a Dance Floor"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Nirvana dal primo all'ultimo pubblicato",
+  "items": [
+    "Bleach",
+    "Nevermind",
+    "In Utero",
+    "MTV Unplugged in New York"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Coldplay dal primo all'ultimo pubblicato",
+  "items": [
+    "Parachutes",
+    "A Rush of Blood to the Head",
+    "X&Y",
+    "Viva la Vida"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album degli U2 dal primo all'ultimo pubblicato",
+  "items": [
+    "Boy",
+    "The Joshua Tree",
+    "Achtung Baby",
+    "All That You Can't Leave Behind"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Radiohead dal primo all'ultimo pubblicato",
+  "items": [
+    "Pablo Honey",
+    "The Bends",
+    "OK Computer",
+    "Kid A"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Bruce Springsteen dal primo all'ultimo pubblicato",
+  "items": [
+    "Born to Run",
+    "Born in the U.S.A.",
+    "The Rising",
+    "Wrecking Ball"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di David Bowie dal primo all'ultimo pubblicato",
+  "items": [
+    "Space Oddity",
+    "The Rise and Fall of Ziggy Stardust",
+    "Heroes",
+    "Let's Dance"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Led Zeppelin dal primo all'ultimo pubblicato",
+  "items": [
+    "Led Zeppelin",
+    "Led Zeppelin III",
+    "Led Zeppelin IV",
+    "Physical Graffiti"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Rolling Stones dal primo all'ultimo pubblicato",
+  "items": [
+    "Aftermath",
+    "Let It Bleed",
+    "Sticky Fingers",
+    "Exile on Main St."
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album degli AC/DC dal primo all'ultimo pubblicato",
+  "items": [
+    "High Voltage",
+    "Highway to Hell",
+    "Back in Black",
+    "The Razors Edge"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Metallica dal primo all'ultimo pubblicato",
+  "items": [
+    "Kill 'Em All",
+    "Ride the Lightning",
+    "Master of Puppets",
+    "...And Justice for All"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Eminem dal primo all'ultimo pubblicato",
+  "items": [
+    "The Slim Shady LP",
+    "The Marshall Mathers LP",
+    "The Eminem Show",
+    "Encore"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Red Hot Chili Peppers dal primo all'ultimo pubblicato",
+  "items": [
+    "Blood Sugar Sex Magik",
+    "Californication",
+    "By the Way",
+    "Stadium Arcadium"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Green Day dal primo all'ultimo pubblicato",
+  "items": [
+    "Dookie",
+    "Nimrod",
+    "American Idiot",
+    "21st Century Breakdown"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Muse dal primo all'ultimo pubblicato",
+  "items": [
+    "Showbiz",
+    "Origin of Symmetry",
+    "Absolution",
+    "Black Holes and Revelations"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Linkin Park dal primo all'ultimo pubblicato",
+  "items": [
+    "Hybrid Theory",
+    "Meteora",
+    "Minutes to Midnight",
+    "A Thousand Suns"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album dei Daft Punk dal primo all'ultimo pubblicato",
+  "items": [
+    "Homework",
+    "Discovery",
+    "Human After All",
+    "Random Access Memories"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Vasco Rossi dal primo all'ultimo pubblicato",
+  "items": [
+    "Bollicine",
+    "Gli spari sopra",
+    "Nessun pericolo... per te",
+    "Stupido hotel"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Ligabue dal primo all'ultimo pubblicato",
+  "items": [
+    "Ligabue",
+    "Buon compleanno Elvis",
+    "Miss Mondo",
+    "Arrivederci, mostro!"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Jovanotti dal primo all'ultimo pubblicato",
+  "items": [
+    "Jovanotti for President",
+    "Lorenzo 1992",
+    "L'albero",
+    "Safari"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Zucchero dal primo all'ultimo pubblicato",
+  "items": [
+    "Blue's",
+    "Oro incenso e birra",
+    "Spirito DiVino",
+    "Shake"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Laura Pausini dal primo all'ultimo pubblicato",
+  "items": [
+    "Laura Pausini",
+    "Le cose che vivi",
+    "Tra te e il mare",
+    "Resta in ascolto"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Eros Ramazzotti dal primo all'ultimo pubblicato",
+  "items": [
+    "Cuori agitati",
+    "In ogni senso",
+    "Dove c'è musica",
+    "Ali e radici"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Tiziano Ferro dal primo all'ultimo pubblicato",
+  "items": [
+    "Rosso relativo",
+    "111",
+    "Nessuno è solo",
+    "Alla mia età"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Cesare Cremonini (incluso il periodo Lunapop) dal primo all'ultimo pubblicato",
+  "items": [
+    "...Squérez?",
+    "Bagus",
+    "Maggese",
+    "La teoria dei colori"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Caparezza dal primo all'ultimo pubblicato",
+  "items": [
+    "Verità supposte",
+    "Habemus Capa",
+    "Le dimensioni del mio caos",
+    "Il sogno eretico"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi album di Fabri Fibra dal primo all'ultimo pubblicato",
+  "items": [
+    "Turbe giovanili",
+    "Tradimento",
+    "Bugiardo",
+    "Controcultura"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi compositori classici dal più antico al più recente (per anno di nascita)",
+  "items": [
+    "Antonio Vivaldi",
+    "Johann Sebastian Bach",
+    "Wolfgang Amadeus Mozart",
+    "Ludwig van Beethoven"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi compositori italiani dal più antico al più recente (per anno di nascita)",
+  "items": [
+    "Giovanni Pierluigi da Palestrina",
+    "Claudio Monteverdi",
+    "Arcangelo Corelli",
+    "Domenico Scarlatti"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi grandi compositori classici dal più antico al più recente (per anno di nascita)",
+  "items": [
+    "Franz Joseph Haydn",
+    "Franz Schubert",
+    "Fryderyk Chopin",
+    "Johannes Brahms"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri compositori dal più antico al più recente (per anno di nascita)",
+  "items": [
+    "Franz Liszt",
+    "Richard Wagner",
+    "Giuseppe Verdi",
+    "Giacomo Puccini"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi compositori classici dal più antico al più recente (per anno di nascita)",
+  "items": [
+    "Pëtr Il'ič Čajkovskij",
+    "Antonín Dvořák",
+    "Gustav Mahler",
+    "Igor Stravinskij"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi compositori del Novecento dal più antico al più recente (per anno di nascita)",
+  "items": [
+    "Claude Debussy",
+    "Maurice Ravel",
+    "George Gershwin",
+    "Dmitrij Šostakovič"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi compositori operistici italiani dal più antico al più recente (per anno di nascita)",
+  "items": [
+    "Gioachino Rossini",
+    "Gaetano Donizetti",
+    "Vincenzo Bellini",
+    "Pietro Mascagni"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri artisti dal più anziano al più giovane (per anno di nascita)",
+  "items": [
+    "Frank Sinatra",
+    "Elvis Presley",
+    "John Lennon",
+    "Freddie Mercury"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste celebri cantanti dalla più anziana alla più giovane (per anno di nascita)",
+  "items": [
+    "Tina Turner",
+    "Aretha Franklin",
+    "Whitney Houston",
+    "Mariah Carey"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi storici cantautori e musicisti dal più anziano al più giovane (per anno di nascita)",
+  "items": [
+    "Bob Dylan",
+    "Paul McCartney",
+    "Mick Jagger",
+    "Elton John"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi giganti della musica americana dal più anziano al più giovane (per anno di nascita)",
+  "items": [
+    "Ray Charles",
+    "Johnny Cash",
+    "James Brown",
+    "Stevie Wonder"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste leggende della musica dal più anziano al più giovane (per anno di nascita)",
+  "items": [
+    "David Bowie",
+    "Bruce Springsteen",
+    "Sting",
+    "Bono"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi artisti musicali iconici dal più anziano al più giovane (per anno di nascita)",
+  "items": [
+    "Stevie Ray Vaughan",
+    "Prince",
+    "George Michael",
+    "Kurt Cobain"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi esponenti della musica rap/hip-hop dal più anziano al più giovane (per anno di nascita)",
+  "items": [
+    "Tupac Shakur",
+    "Eminem",
+    "Kanye West",
+    "Drake"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste pop star internazionali dalla più anziana alla più giovane (per anno di nascita)",
+  "items": [
+    "Cher",
+    "Cyndi Lauper",
+    "Lady Gaga",
+    "Ariana Grande"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri artisti italiani dal più anziano al più giovane (per anno di nascita)",
+  "items": [
+    "Adriano Celentano",
+    "Mina",
+    "Gianni Morandi",
+    "Claudio Baglioni"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi grandi cantautori italiani dal più anziano al più giovane (per anno di nascita)",
+  "items": [
+    "Lucio Dalla",
+    "Franco Battiato",
+    "Rino Gaetano",
+    "Pino Daniele"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste celebri cantanti italiane dalla più anziana alla più giovane (per anno di nascita)",
+  "items": [
+    "Andrea Bocelli",
+    "Giorgia",
+    "Elisa",
+    "Emma Marrone"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi storici singoli dei Beatles dal primo all'ultimo pubblicato",
+  "items": [
+    "Love Me Do",
+    "Help!",
+    "Hey Jude",
+    "Let It Be"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi famosi singoli dei Queen dal primo all'ultimo pubblicato",
+  "items": [
+    "Bohemian Rhapsody",
+    "We Will Rock You",
+    "Another One Bites the Dust",
+    "Radio Ga Ga"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri singoli di Michael Jackson dal primo all'ultimo pubblicato",
+  "items": [
+    "Don't Stop 'Til You Get Enough",
+    "Billie Jean",
+    "Smooth Criminal",
+    "You Are Not Alone"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi famosi singoli di Madonna dal primo all'ultimo pubblicato",
+  "items": [
+    "Holiday",
+    "Like a Prayer",
+    "Vogue",
+    "Hung Up"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri singoli dei Nirvana dal primo all'ultimo pubblicato",
+  "items": [
+    "Smells Like Teen Spirit",
+    "Come As You Are",
+    "Heart-Shaped Box",
+    "About a Girl (MTV Unplugged)"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi iconici singoli degli Oasis dal primo all'ultimo pubblicato",
+  "items": [
+    "Live Forever",
+    "Wonderwall",
+    "Don't Look Back in Anger",
+    "Stop Crying Your Heart Out"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi fortunati singoli dei Coldplay dal primo all'ultimo pubblicato",
+  "items": [
+    "Yellow",
+    "Clocks",
+    "Fix You",
+    "Viva la Vida"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri singoli di Eminem dal primo all'ultimo pubblicato",
+  "items": [
+    "My Name Is",
+    "Stan",
+    "Lose Yourself",
+    "Not Afraid"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi artisti vincitori del Festival di Sanremo dal più antico al più recente (per anno di vittoria)",
+  "items": [
+    "Nilla Pizzi",
+    "Domenico Modugno",
+    "Gigliola Cinquetti",
+    "Massimo Ranieri"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi artisti vincitori del Festival di Sanremo dal più antico al più recente (per anno di vittoria)",
+  "items": [
+    "Eros Ramazzotti",
+    "Giorgia",
+    "Elisa",
+    "Mahmood"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi vincitori storici del Festival di Sanremo dal più antico al più recente (per anno di vittoria)",
+  "items": [
+    "Toto Cutugno",
+    "Al Bano e Romina Power",
+    "Ricchi e Poveri",
+    "Enrico Ruggeri"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi artisti vincitori del Festival di Sanremo dal più antico al più recente (per anno di vittoria)",
+  "items": [
+    "Laura Pausini",
+    "Andrea Bocelli",
+    "Il Volo",
+    "Måneskin"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi artisti vincitori del Festival di Sanremo dal più antico al più recente (per anno di vittoria)",
+  "items": [
+    "Marco Mengoni",
+    "Francesco Gabbani",
+    "Diodato",
+    "Blanco e Mahmood"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi strumenti musicali per invenzione storica, dal più antico al più recente",
+  "items": [
+    "Flauto d'osso",
+    "Lira",
+    "Liuto",
+    "Chitarra elettrica"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi strumenti musicali per invenzione storica, dal più antico al più recente",
+  "items": [
+    "Tamburo",
+    "Arpa",
+    "Clavicembalo",
+    "Sintetizzatore"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi strumenti musicali per invenzione storica, dal più antico al più recente",
+  "items": [
+    "Organo a canne",
+    "Violino",
+    "Pianoforte",
+    "Sassofono"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi strumenti musicali per invenzione storica, dal più antico al più recente",
+  "items": [
+    "Tromba",
+    "Clarinetto",
+    "Fisarmonica",
+    "Batteria elettronica"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi strumenti per numero di corde, dal minore al maggiore",
+  "items": [
+    "Balalaika",
+    "Violino",
+    "Chitarra classica",
+    "Arpa"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi strumenti per numero di corde, dal minore al maggiore",
+  "items": [
+    "Erhu (violino cinese)",
+    "Ukulele",
+    "Banjo (standard)",
+    "Chitarra a 12 corde"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi strumenti per numero di corde, dal minore al maggiore",
+  "items": [
+    "Monocordo",
+    "Erhu",
+    "Violoncello",
+    "Mandolino"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi strumenti a corda, da quello con meno corde a quello con più corde",
+  "items": [
+    "Violino",
+    "Basso elettrico (a 5 corde)",
+    "Chitarra classica",
+    "Liuto rinascimentale"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste indicazioni di tempo nella musica classica dal più lento al più veloce",
+  "items": [
+    "Grave",
+    "Adagio",
+    "Andante",
+    "Allegro"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste indicazioni di tempo nella musica classica dal più lento al più veloce",
+  "items": [
+    "Largo",
+    "Lento",
+    "Moderato",
+    "Presto"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste indicazioni di tempo nella musica classica dal più lento al più veloce",
+  "items": [
+    "Larghissimo",
+    "Andantino",
+    "Vivace",
+    "Prestissimo"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi registri vocali maschili dal più grave al più acuto",
+  "items": [
+    "Basso",
+    "Baritono",
+    "Tenore",
+    "Controtenore"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi registri vocali femminili dal più grave al più acuto",
+  "items": [
+    "Contralto",
+    "Mezzosoprano",
+    "Soprano",
+    "Soprano di coloratura"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste sottocategorie vocali dal più grave al più acuto",
+  "items": [
+    "Basso profondo",
+    "Basso cantante",
+    "Tenore drammatico",
+    "Tenore leggero"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi periodi della storia della musica dal più antico al più recente",
+  "items": [
+    "Musica medievale",
+    "Musica rinascimentale",
+    "Musica barocca",
+    "Musica classica"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi periodi della storia della musica dal più antico al più recente",
+  "items": [
+    "Musica classica",
+    "Musica romantica",
+    "Musica impressionista",
+    "Musica contemporanea"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi supporti fonografici per l'ascolto musicale, dal più antico al più recente",
+  "items": [
+    "Cilindro fonografico",
+    "Disco in vinile",
+    "Musicassetta",
+    "Compact Disc (CD)"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi formati e supporti di registrazione dal più antico al più recente",
+  "items": [
+    "Vinile 78 giri",
+    "Vinile 33 giri",
+    "Stereo8",
+    "Minidisc"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste tecnologie per la fruizione musicale dalla più antica alla più recente",
+  "items": [
+    "Compact Disc (CD)",
+    "Formato MP3",
+    "Lettore iPod",
+    "Piattaforma Spotify"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri festival e concerti mondiali dal primo all'ultimo svoltosi",
+  "items": [
+    "Festival di Monterey",
+    "Festival di Woodstock",
+    "Live Aid",
+    "Live 8"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri eventi musicali dalla loro prima edizione in ordine cronologico",
+  "items": [
+    "Primo Festival di Sanremo",
+    "Prima edizione dello Zecchino d'Oro",
+    "Primo Festivalbar",
+    "Primo Eurovision Song Contest in Italia"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi eventi internazionali dalla loro prima edizione in ordine cronologico",
+  "items": [
+    "Primi MTV Video Music Awards",
+    "Primo Lollapalooza",
+    "Primo Coachella",
+    "Primo Tomorrowland"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste storiche band dal primo all'ultimo anno di formazione",
+  "items": [
+    "The Rolling Stones",
+    "The Who",
+    "Pink Floyd",
+    "Queen"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste celebri band dal primo all'ultimo anno di formazione",
+  "items": [
+    "The Beach Boys",
+    "The Doors",
+    "Eagles",
+    "The Police"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste celebri band rock/metal dal primo all'ultimo anno di formazione",
+  "items": [
+    "Black Sabbath",
+    "Iron Maiden",
+    "Metallica",
+    "Slipknot"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste famose band punk/rock dal primo all'ultimo anno di formazione",
+  "items": [
+    "Ramones",
+    "The Clash",
+    "Green Day",
+    "Blink-182"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste band alternative/indie dal primo all'ultimo anno di formazione",
+  "items": [
+    "The Cure",
+    "Depeche Mode",
+    "Radiohead",
+    "Arctic Monkeys"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi storici gruppi italiani dal primo all'ultimo anno di formazione",
+  "items": [
+    "Nomadi",
+    "Pooh",
+    "Matia Bazar",
+    "Subsonica"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste famose band italiane dal primo all'ultimo anno di formazione",
+  "items": [
+    "PFM (Premiata Forneria Marconi)",
+    "Elio e le Storie Tese",
+    "Bluvertigo",
+    "Negramaro"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri gruppi vocali e pop dal primo all'ultimo anno di formazione",
+  "items": [
+    "The Supremes",
+    "ABBA",
+    "Spice Girls",
+    "Destiny's Child"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina queste famose boy band dal primo all'ultimo anno di formazione",
+  "items": [
+    "Backstreet Boys",
+    "NSYNC",
+    "One Direction",
+    "BTS"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi iconici artisti per anno di morte, dal primo all'ultimo",
+  "items": [
+    "Jimi Hendrix",
+    "Jim Morrison",
+    "Elvis Presley",
+    "John Lennon"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi leggendari artisti per anno di morte, dal primo all'ultimo",
+  "items": [
+    "Freddie Mercury",
+    "Kurt Cobain",
+    "Tupac Shakur",
+    "The Notorious B.I.G."
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi celebri artisti per anno di morte, dal primo all'ultimo",
+  "items": [
+    "Frank Sinatra",
+    "George Harrison",
+    "Johnny Cash",
+    "Ray Charles"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi iconici cantanti per anno di morte, dal primo all'ultimo",
+  "items": [
+    "Michael Jackson",
+    "Whitney Houston",
+    "David Bowie",
+    "Prince"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi amati artisti per anno di morte, dal primo all'ultimo",
+  "items": [
+    "Amy Winehouse",
+    "George Michael",
+    "Chris Cornell",
+    "Avicii"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi grandi artisti italiani per anno di morte, dal primo all'ultimo",
+  "items": [
+    "Lucio Battisti",
+    "Fabrizio De André",
+    "Giorgio Gaber",
+    "Lucio Dalla"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina questi amati artisti italiani per data di morte, dal primo all'ultimo",
+  "items": [
+    "Pino Daniele",
+    "Franco Battiato",
+    "Raffaella Carrà",
+    "Toto Cutugno"
+  ]
+},
+{
+  "category": "Musica",
+  "question": "Ordina cronologicamente queste iconiche fasi e alter ego della carriera di David Bowie, dalla prima all'ultima",
+  "items": [
+    "Periodo Mod",
+    "Ziggy Stardust",
+    "Il Duca Bianco (Thin White Duke)",
+    "Trilogia di Berlino"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina cronologicamente le uscite di questi film del Marvel Cinematic Universe (dal primo all'ultimo):",
+  "items": [
+    "Iron Man",
+    "The Avengers",
+    "Black Panther",
+    "Spider-Man: No Way Home"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste famose serie TV per anno di debutto (dalla più vecchia alla più recente):",
+  "items": [
+    "Friends",
+    "Breaking Bad",
+    "Stranger Things",
+    "Squid Game"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi cantanti per numero di ascoltatori mensili su Spotify (stima globale, dal maggiore al minore):",
+  "items": [
+    "The Weeknd",
+    "Taylor Swift",
+    "Ed Sheeran",
+    "Dua Lipa"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste celebrità per numero di follower su Instagram (dal maggiore al minore):",
+  "items": [
+    "Cristiano Ronaldo",
+    "Lionel Messi",
+    "Selena Gomez",
+    "Kylie Jenner"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina cronologicamente l'uscita degli album di Taylor Swift (dal più vecchio al più recente):",
+  "items": [
+    "Fearless",
+    "1989",
+    "Reputation",
+    "Midnights"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i membri della famiglia Kardashian/Jenner per età (dalla più grande alla più piccola):",
+  "items": [
+    "Kourtney Kardashian",
+    "Kim Kardashian",
+    "Khloé Kardashian",
+    "Kylie Jenner"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina cronologicamente i matrimoni di Jennifer Lopez (dal primo all'ultimo):",
+  "items": [
+    "Ojani Noa",
+    "Cris Judd",
+    "Marc Anthony",
+    "Ben Affleck"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina gli attori che hanno interpretato Spider-Man al cinema in base al loro primo film nel ruolo (dal primo all'ultimo):",
+  "items": [
+    "Tobey Maguire",
+    "Andrew Garfield",
+    "Tom Holland",
+    "Shameik Moore (doppiatore)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i film di Quentin Tarantino per anno di uscita (dal più vecchio al più recente):",
+  "items": [
+    "Pulp Fiction",
+    "Kill Bill: Volume 1",
+    "Bastardi senza gloria",
+    "C'era una volta a... Hollywood"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina per numero di stagioni prodotte queste celebri serie TV (dalla più lunga alla più corta):",
+  "items": [
+    "I Simpson",
+    "Grey's Anatomy",
+    "Supernatural",
+    "Breaking Bad"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi video di YouTube per numero di visualizzazioni di tutti i tempi (dal maggiore al minore):",
+  "items": [
+    "Baby Shark Dance",
+    "Despacito",
+    "Shape of You",
+    "Gangnam Style"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le vincitrici dell'Oscar come Miglior Attrice Protagonista (dalla meno recente alla più recente):",
+  "items": [
+    "Meryl Streep (The Iron Lady)",
+    "Jennifer Lawrence (Il lato positivo)",
+    "Emma Stone (La La Land)",
+    "Michelle Yeoh (Everything Everywhere All at Once)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina cronologicamente le storiche fidanzate di Leonardo DiCaprio (dalla prima all'ultima):",
+  "items": [
+    "Gisele Bündchen",
+    "Bar Refaeli",
+    "Blake Lively",
+    "Camila Morrone"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi brani famosi per anno di pubblicazione (dal più vecchio al più recente):",
+  "items": [
+    "Billie Jean (Michael Jackson)",
+    "Wannabe (Spice Girls)",
+    "Crazy in Love (Beyoncé)",
+    "Uptown Funk (Mark Ronson ft. Bruno Mars)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i membri dei One Direction per età (dal più grande al più giovane):",
+  "items": [
+    "Louis Tomlinson",
+    "Zayn Malik",
+    "Niall Horan",
+    "Harry Styles"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina cronologicamente questi scandali o eventi scioccanti di Hollywood (dal più vecchio al più recente):",
+  "items": [
+    "Arresto di Hugh Grant",
+    "Britney Spears si rasa a zero",
+    "Lo schiaffo di Will Smith agli Oscar",
+    "Processo per diffamazione Depp-Heard"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i film per incasso globale totale nella storia del cinema (dal maggiore al minore):",
+  "items": [
+    "Avatar",
+    "Avengers: Endgame",
+    "Titanic",
+    "Star Wars: Il risveglio della Forza"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina cronologicamente l'uscita di queste iconiche console (dalla più vecchia alla più recente):",
+  "items": [
+    "Super Nintendo (SNES)",
+    "PlayStation 2",
+    "Nintendo Wii",
+    "Nintendo Switch"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le ere musicali di Michael Jackson in base all'uscita degli album (dal primo all'ultimo):",
+  "items": [
+    "Off the Wall",
+    "Thriller",
+    "Bad",
+    "Dangerous"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le edizioni del Festival di Sanremo in base al brano vincitore (dal meno recente al più recente):",
+  "items": [
+    "Nel blu dipinto di blu (Modugno)",
+    "Luce (Elisa)",
+    "Soldi (Mahmood)",
+    "Brividi (Mahmood e Blanco)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina per età questi famosi attori di Hollywood (dal più anziano al più giovane):",
+  "items": [
+    "Al Pacino",
+    "Tom Hanks",
+    "Brad Pitt",
+    "Timothée Chalamet"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi film d'animazione Pixar per anno di uscita (dal più vecchio al più recente):",
+  "items": [
+    "Toy Story",
+    "Alla ricerca di Nemo",
+    "Inside Out",
+    "Soul"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i film della saga di Harry Potter per anno di uscita (dal primo all'ultimo):",
+  "items": [
+    "La pietra filosofale",
+    "Il prigioniero di Azkaban",
+    "L'Ordine della Fenice",
+    "I Doni della Morte - Parte 2"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le canzoni più ascoltate di sempre su Spotify (dalla più riprodotta alla meno riprodotta):",
+  "items": [
+    "Blinding Lights (The Weeknd)",
+    "Shape of You (Ed Sheeran)",
+    "Someone You Loved (Lewis Capaldi)",
+    "Dance Monkey (Tones and I)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina gli album solisti di Beyoncé per anno di pubblicazione (dal primo all'ultimo):",
+  "items": [
+    "Dangerously in Love",
+    "I Am... Sasha Fierce",
+    "Lemonade",
+    "Renaissance"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi cantanti per numero totale di premi Grammy vinti in carriera (dal maggiore al minore):",
+  "items": [
+    "Beyoncé",
+    "Kanye West",
+    "Eminem",
+    "Dua Lipa"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi social network per anno di fondazione/lancio globale (dal più vecchio al più recente):",
+  "items": [
+    "Facebook",
+    "Twitter",
+    "Instagram",
+    "TikTok"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina gli attori che hanno interpretato Batman al cinema (dal primo all'ultimo in base all'esordio):",
+  "items": [
+    "Michael Keaton",
+    "George Clooney",
+    "Christian Bale",
+    "Robert Pattinson"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi tormentoni estivi italiani per anno di uscita (dal meno recente al più recente):",
+  "items": [
+    "Tre parole (Valeria Rossi)",
+    "Roma-Bangkok (Baby K ft. Giusy Ferreri)",
+    "Riccione (Thegiornalisti)",
+    "Mille (Fedez, Achille Lauro, Orietta Berti)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le icone del pop femminile per età (dalla più grande alla più giovane):",
+  "items": [
+    "Madonna",
+    "Mariah Carey",
+    "Britney Spears",
+    "Ariana Grande"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina gli eventi della carriera musicale di Britney Spears (dal meno recente al più recente):",
+  "items": [
+    "Uscita di ...Baby One More Time",
+    "Esibizione con il serpente agli VMA",
+    "Bacio con Madonna agli VMA",
+    "Inizio della residency a Las Vegas"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi famosi reality e talent show italiani per anno della prima edizione (dal più vecchio al più recente):",
+  "items": [
+    "Grande Fratello",
+    "Amici di Maria De Filippi",
+    "X Factor",
+    "Pechino Express"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina per durata effettiva al cinema in minuti questi film kolossal (dal più lungo al più corto):",
+  "items": [
+    "Via col vento",
+    "Titanic",
+    "Avengers: Endgame",
+    "Avatar"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina gli eventi della carriera di Rihanna (dal meno recente al più recente):",
+  "items": [
+    "Uscita della hit Umbrella",
+    "Primo Grammy vinto in carriera",
+    "Lancio globale di Fenty Beauty",
+    "Esibizione al Super Bowl Halftime Show"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi famosi conduttori televisivi italiani per età (dal più anziano al più giovane):",
+  "items": [
+    "Pippo Baudo",
+    "Gerry Scotti",
+    "Carlo Conti",
+    "Amadeus"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste celebri rotture di coppie VIP internazionali (dalla più vecchia alla più recente):",
+  "items": [
+    "Brad Pitt e Jennifer Aniston",
+    "Tom Cruise e Katie Holmes",
+    "Angelina Jolie e Brad Pitt",
+    "Gerard Piqué e Shakira"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i celebri look di Kim Kardashian al Met Gala per anno (dal meno recente al più recente):",
+  "items": [
+    "Abito floreale (incinta)",
+    "Abito 'bagnato' di Thierry Mugler",
+    "Total black look di Balenciaga",
+    "Abito originale di Marilyn Monroe"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste serie originali Netflix per anno di uscita della prima stagione (dalla prima all'ultima):",
+  "items": [
+    "House of Cards",
+    "Stranger Things",
+    "La casa di carta",
+    "Bridgerton"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina gli interpreti del ruolo di James Bond (dal primo all'ultimo in base all'esordio):",
+  "items": [
+    "Sean Connery",
+    "Roger Moore",
+    "Pierce Brosnan",
+    "Daniel Craig"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste popstar per patrimonio netto stimato (dalla più ricca alla meno ricca):",
+  "items": [
+    "Rihanna",
+    "Taylor Swift",
+    "Madonna",
+    "Katy Perry"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina cronologicamente l'uscita degli album di Adele (dal più vecchio al più recente):",
+  "items": [
+    "19",
+    "21",
+    "25",
+    "30"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina per anno di nascita questi celebri cantanti italiani (dal più vecchio al più giovane):",
+  "items": [
+    "Vasco Rossi",
+    "Jovanotti",
+    "Tiziano Ferro",
+    "Blanco"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste boyband internazionali per anno di formazione (dalla più vecchia alla più recente):",
+  "items": [
+    "Backstreet Boys",
+    "NSYNC",
+    "Jonas Brothers",
+    "One Direction"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste girlband internazionali per anno di formazione (dalla più vecchia alla più recente):",
+  "items": [
+    "Spice Girls",
+    "Destiny's Child",
+    "Pussycat Dolls",
+    "Blackpink"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi film vincitori dell'Oscar al Miglior Film (dal più vecchio al più recente):",
+  "items": [
+    "Il Gladiatore",
+    "Il Signore degli Anelli - Il ritorno del re",
+    "The Millionaire (Slumdog Millionaire)",
+    "Parasite"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste saghe cinematografiche per numero di film canonici usciti (dalla più numerosa alla meno numerosa):",
+  "items": [
+    "Marvel Cinematic Universe",
+    "James Bond (serie ufficiale)",
+    "Star Wars (film live-action)",
+    "Il Signore degli Anelli + Lo Hobbit"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi famosi meme e video virali per anno di esplosione (dal più vecchio al più recente):",
+  "items": [
+    "Charlie Bit My Finger",
+    "Nyan Cat",
+    "Harlem Shake",
+    "Distracted Boyfriend"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le console casalinghe Sony per anno di uscita in Europa (dalla prima all'ultima):",
+  "items": [
+    "PlayStation 1",
+    "PlayStation 2",
+    "PlayStation 4",
+    "PlayStation 5"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i giudici storici di X Factor Italia per numero di edizioni fatte (dal maggiore al minore):",
+  "items": [
+    "Morgan",
+    "Mara Maionchi",
+    "Simona Ventura",
+    "Lodo Guenzi"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi personaggi di Stranger Things per apparizione / rilevanza nella trama (dalla prima alla quarta stagione):",
+  "items": [
+    "Undici",
+    "Max Mayfield",
+    "Robin Buckley",
+    "Eddie Munson"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste icone della musica in base al loro anno di nascita (dal più anziano al più giovane):",
+  "items": [
+    "Elvis Presley",
+    "Freddie Mercury",
+    "Michael Jackson",
+    "Kurt Cobain"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi supereroi per anno della loro prima apparizione a fumetti (dal più vecchio al più recente):",
+  "items": [
+    "Superman",
+    "Batman",
+    "Spider-Man",
+    "Wolverine"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi registi per numero di premi Oscar vinti come Miglior Regista (dal maggiore al minore):",
+  "items": [
+    "John Ford",
+    "Steven Spielberg",
+    "Christopher Nolan",
+    "Bradley Cooper"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina cronologicamente le ere e gli album musicali di Madonna (dal più vecchio al più recente):",
+  "items": [
+    "Like a Virgin",
+    "Ray of Light",
+    "Confessions on a Dance Floor",
+    "Madame X"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le famose liti televisive italiane (dalla più vecchia alla più recente):",
+  "items": [
+    "Vittorio Sgarbi vs D'Agostino",
+    "Pappalardo vs Zequila",
+    "Ilary Blasi vs Fabrizio Corona al GF Vip",
+    "Bugo e Morgan a Sanremo"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi film diretti da Christopher Nolan per anno di uscita (dal più vecchio al più recente):",
+  "items": [
+    "Memento",
+    "Il cavaliere oscuro",
+    "Interstellar",
+    "Oppenheimer"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste celebri coppie reali britanniche per data del loro matrimonio (dalla più vecchia alla più recente):",
+  "items": [
+    "Regina Elisabetta II e Filippo",
+    "Carlo e Diana",
+    "William e Kate",
+    "Harry e Meghan"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i vincitori del Grande Fratello VIP in Italia (dal primo in ordine cronologico ai successivi):",
+  "items": [
+    "Alessia Macari",
+    "Daniele Bossari",
+    "Tommaso Zorzi",
+    "Jessica Selassié"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le hit di Lady Gaga per data di uscita come singolo (dalla più vecchia alla più recente):",
+  "items": [
+    "Just Dance",
+    "Bad Romance",
+    "Shallow",
+    "Rain On Me"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi famosi personaggi italiani per numero di follower su Instagram (dal maggiore al minore):",
+  "items": [
+    "Khaby Lame",
+    "Chiara Ferragni",
+    "Fedez",
+    "Giulia De Lellis"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le relazioni o matrimoni di Tom Cruise (dalla prima all'ultima in ordine cronologico):",
+  "items": [
+    "Mimi Rogers",
+    "Nicole Kidman",
+    "Penélope Cruz",
+    "Katie Holmes"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina per numero totale di episodi trasmessi queste famose serie TV (dalla più lunga alla più corta):",
+  "items": [
+    "I Simpson",
+    "The Big Bang Theory",
+    "Friends",
+    "The Office (US)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi remake in live-action Disney per anno di uscita al cinema (dal primo all'ultimo):",
+  "items": [
+    "Alice in Wonderland",
+    "Maleficent",
+    "La bella e la bestia",
+    "La Sirenetta"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le vittorie ad Amici di Maria De Filippi per anno (dalla meno recente alla più recente):",
+  "items": [
+    "Vittoria di Giulia Ottonello",
+    "Vittoria di Alessandra Amoroso",
+    "Vittoria di The Kolors",
+    "Vittoria di Angelina Mango (categoria canto)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste piattaforme di streaming video per anno di fondazione/lancio globale (dalla più vecchia alla più recente):",
+  "items": [
+    "Netflix (streaming video)",
+    "Disney+",
+    "HBO Max",
+    "Paramount+"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i film della saga 'The Avengers' per anno di uscita nelle sale (dal primo all'ultimo):",
+  "items": [
+    "The Avengers",
+    "Avengers: Age of Ultron",
+    "Avengers: Infinity War",
+    "Avengers: Endgame"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste top model per l'anno in cui hanno indossato il Fantasy Bra di Victoria's Secret (dalla prima all'ultima):",
+  "items": [
+    "Claudia Schiffer",
+    "Tyra Banks",
+    "Heidi Klum",
+    "Miranda Kerr"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i figli di David e Victoria Beckham dal più grande al più piccolo (per età):",
+  "items": [
+    "Brooklyn",
+    "Romeo",
+    "Cruz",
+    "Harper Seven"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi eventi iconici (e shock) degli Oscar (dal più vecchio al più recente):",
+  "items": [
+    "Marlon Brando rifiuta l'Oscar",
+    "Adrien Brody bacia Halle Berry",
+    "Errore tra La La Land e Moonlight",
+    "Lo schiaffo di Will Smith"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi celebri film degli anni '90 per anno di uscita (dal più vecchio al più recente):",
+  "items": [
+    "Mamma, ho perso l'aereo",
+    "Pulp Fiction",
+    "Titanic",
+    "Matrix"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi iconici film degli anni '80 per anno di uscita (dal più vecchio al più recente):",
+  "items": [
+    "E.T. l'extra-terrestre",
+    "Ghostbusters",
+    "Ritorno al futuro",
+    "Batman (di Tim Burton)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina gli eventi principali della relazione tra Fedez e Chiara Ferragni (dal primo all'ultimo):",
+  "items": [
+    "Citazione nel brano Vorrei ma non posto",
+    "Proposta di matrimonio all'Arena di Verona",
+    "Nascita del primogenito Leone",
+    "Matrimonio a Noto"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le fasi della carriera di Miley Cyrus (dal prodotto più vecchio al più recente):",
+  "items": [
+    "Hannah Montana (serie TV)",
+    "Album Bangerz",
+    "Album Plastic Hearts",
+    "Singolo Flowers"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina per numero totale di premi Oscar vinti questi iconici film (dal maggiore al minore):",
+  "items": [
+    "Titanic",
+    "Il Paziente Inglese",
+    "Schindler's List",
+    "Il Gladiatore"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le città in cui sono ambientate queste serie TV, da Nord verso Sud (Stati Uniti):",
+  "items": [
+    "Seattle (Grey's Anatomy)",
+    "New York (Friends)",
+    "Los Angeles (Beverly Hills 90210)",
+    "Miami (Dexter)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste canzoni vincitrici dell'Eurovision per anno di vittoria (dalla meno recente alla più recente):",
+  "items": [
+    "Waterloo (ABBA)",
+    "Euphoria (Loreen)",
+    "Toy (Netta)",
+    "Zitti e buoni (Måneskin)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le celebri conduttrici italiane per età (dalla più anziana alla più giovane):",
+  "items": [
+    "Mara Venier",
+    "Maria De Filippi",
+    "Antonella Clerici",
+    "Michelle Hunziker"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i ruoli interpretati da Johnny Depp in base all'anno di uscita del film (dal più vecchio al più recente):",
+  "items": [
+    "Edward Mani di Forbice",
+    "Jack Sparrow (La maledizione della prima luna)",
+    "Willy Wonka (La fabbrica di cioccolato)",
+    "Il Cappellaio Matto (Alice in Wonderland)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste famose fiabe Disney per anno di uscita del Classico d'animazione (dal più vecchio al più recente):",
+  "items": [
+    "Biancaneve e i sette nani",
+    "La bella addormentata nel bosco",
+    "La sirenetta",
+    "Mulan"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina l'uscita degli smartphone Apple (dal primo annunciato al più recente):",
+  "items": [
+    "iPhone 3G",
+    "iPhone 5",
+    "iPhone X",
+    "iPhone 14"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi famosi attori comici italiani per età (dal più anziano al più giovane):",
+  "items": [
+    "Massimo Boldi",
+    "Carlo Verdone",
+    "Christian De Sica",
+    "Checco Zalone"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le stagioni della serie TV The Crown in base all'epoca storica iniziale (dalla prima all'ultima):",
+  "items": [
+    "Anni '40 e '50",
+    "Anni '70 e '80",
+    "Anni '90",
+    "Primi anni 2000"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina gli attori che hanno interpretato l'iconico villain Joker al cinema o in TV (dal primo all'ultimo):",
+  "items": [
+    "Cesar Romero",
+    "Jack Nicholson",
+    "Heath Ledger",
+    "Joaquin Phoenix"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i famosi attori di Harry Potter per età (dal più anziano al più giovane):",
+  "items": [
+    "Alan Rickman",
+    "Ralph Fiennes",
+    "Helena Bonham Carter",
+    "Daniel Radcliffe"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste docuserie true crime di Netflix per anno di uscita (dalla più vecchia alla più recente):",
+  "items": [
+    "Making a Murderer",
+    "Wild Wild Country",
+    "Tiger King",
+    "Il truffatore di Tinder"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina l'anno in cui questi presentatori hanno condotto il loro primo Festival di Sanremo (dal meno recente al più recente):",
+  "items": [
+    "Pippo Baudo",
+    "Paolo Bonolis",
+    "Carlo Conti",
+    "Amadeus"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi storici programmi di Maria De Filippi per anno di debutto (dal più vecchio al più recente):",
+  "items": [
+    "Uomini e Donne",
+    "C'è posta per te",
+    "Amici",
+    "Tu sì que vales"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina i fidanzati celebri di Taylor Swift in ordine cronologico (dal primo all'ultimo):",
+  "items": [
+    "Joe Jonas",
+    "Harry Styles",
+    "Calvin Harris",
+    "Travis Kelce"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste star nate in Canada per età (dalla più anziana alla più giovane):",
+  "items": [
+    "Celine Dion",
+    "Ryan Reynolds",
+    "Justin Bieber",
+    "Shawn Mendes"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina le relazioni sentimentali famose di Justin Bieber (dalla prima all'ultima):",
+  "items": [
+    "Caitlin Beadles",
+    "Selena Gomez",
+    "Sofia Richie",
+    "Hailey Baldwin (Bieber)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina per altezza reale queste celebrità femminili (dalla più alta alla più bassa):",
+  "items": [
+    "Gwendoline Christie",
+    "Taylor Swift",
+    "Zendaya",
+    "Ariana Grande"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina per altezza reale questi attori maschili (dal più alto al più basso):",
+  "items": [
+    "Dwayne Johnson",
+    "Chris Hemsworth",
+    "Tom Holland",
+    "Danny DeVito"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste famose hit estive latine e reggaeton per anno (dal più vecchio al più recente):",
+  "items": [
+    "Gasolina",
+    "Danza Kuduro",
+    "Despacito",
+    "Mi Gente"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi storici e controversi show di MTV per anno di debutto (dal più vecchio al più recente):",
+  "items": [
+    "The Real World",
+    "Punk'd",
+    "Jersey Shore",
+    "Catfish"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste protagoniste Disney per anno di uscita del loro film animato (dalla prima all'ultima):",
+  "items": [
+    "Cenerentola",
+    "Ariel (La Sirenetta)",
+    "Mulan",
+    "Elsa (Frozen)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste popolari fiction italiane per anno di prima messa in onda (dalla più vecchia alla più recente):",
+  "items": [
+    "Il Commissario Montalbano",
+    "Don Matteo",
+    "Gomorra - La serie",
+    "Mare Fuori"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste canzoni iconiche degli anni 2000 in base al loro anno di uscita (dalla più vecchia alla più recente):",
+  "items": [
+    "Toxic (Britney Spears)",
+    "Umbrella (Rihanna)",
+    "I Gotta Feeling (Black Eyed Peas)",
+    "Bad Romance (Lady Gaga)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi celebri film interpretati da Leonardo DiCaprio per anno (dal più vecchio al più recente):",
+  "items": [
+    "Buon compleanno Mr. Grape",
+    "Titanic",
+    "Inception",
+    "The Wolf of Wall Street"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina queste star lanciate da Disney Channel in base al debutto della loro serie (dalla prima all'ultima):",
+  "items": [
+    "Hilary Duff (Lizzie McGuire)",
+    "Raven-Symoné (That's So Raven)",
+    "Miley Cyrus (Hannah Montana)",
+    "Zendaya (A tutto ritmo)"
+  ]
+},
+{
+  "category": "Cultura Pop e Gossip",
+  "question": "Ordina questi cantanti italiani per numero di vittorie al Festival di Sanremo (dal maggiore al minore o zero):",
+  "items": [
+    "Claudio Villa",
+    "Iva Zanicchi",
+    "Mahmood",
+    "Lazza"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi pianeti dal più vicino al più lontano dal Sole:",
+  "items": [
+    "Mercurio",
+    "Venere",
+    "Terra",
+    "Marte"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi pianeti dal più grande al più piccolo:",
+  "items": [
+    "Giove",
+    "Saturno",
+    "Urano",
+    "Nettuno"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le fasi lunari nel loro ciclo naturale:",
+  "items": [
+    "Luna Nuova",
+    "Primo Quarto",
+    "Luna Piena",
+    "Ultimo Quarto"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi strati dell'atmosfera terrestre dal più basso al più alto:",
+  "items": [
+    "Troposfera",
+    "Stratosfera",
+    "Mesosfera",
+    "Termosfera"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste stelle dalla più vicina alla più lontana dalla Terra:",
+  "items": [
+    "Sole",
+    "Proxima Centauri",
+    "Sirio",
+    "Stella Polare"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i pianeti in base al numero di lune conosciute (dal maggiore al minore):",
+  "items": [
+    "Saturno",
+    "Giove",
+    "Urano",
+    "Nettuno"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina gli stadi della vita di una stella di massa media:",
+  "items": [
+    "Nebulosa",
+    "Protostella",
+    "Stella della sequenza principale",
+    "Gigante Rossa"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi corpi celesti dal più piccolo al più grande:",
+  "items": [
+    "Asteroide",
+    "Luna",
+    "Pianeta",
+    "Stella"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le galassie per distanza dalla Via Lattea (dalla più vicina alla più lontana):",
+  "items": [
+    "Galassia Nana del Cane Maggiore",
+    "Nubi di Magellano",
+    "Galassia di Andromeda",
+    "Galassia del Triangolo"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i colori delle stelle dal più freddo al più caldo:",
+  "items": [
+    "Rosso",
+    "Giallo",
+    "Bianco",
+    "Blu"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina gli strati della Terra dall'esterno verso l'interno:",
+  "items": [
+    "Crosta",
+    "Mantello",
+    "Nucleo Esterno",
+    "Nucleo Interno"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le ere geologiche dalla più antica alla più recente:",
+  "items": [
+    "Precambriano",
+    "Paleozoico",
+    "Mesozoico",
+    "Cenozoico"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste epoche geologiche dalla più antica alla più recente:",
+  "items": [
+    "Paleocene",
+    "Eocene",
+    "Miocene",
+    "Olocene"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i minerali in base alla scala di Mohs (dal più tenero al più duro):",
+  "items": [
+    "Talco",
+    "Gesso",
+    "Quarzo",
+    "Diamante"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste rocce dalla meno densa alla più densa:",
+  "items": [
+    "Pietra pomice",
+    "Carbone",
+    "Granito",
+    "Basalto"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi oceani dal più grande al più piccolo:",
+  "items": [
+    "Oceano Pacifico",
+    "Oceano Atlantico",
+    "Oceano Indiano",
+    "Oceano Artico"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi gas per abbondanza nell'atmosfera terrestre (dal più al meno abbondante):",
+  "items": [
+    "Azoto",
+    "Ossigeno",
+    "Argon",
+    "Anidride Carbonica"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i continenti per estensione superficiale (dal più grande al più piccolo):",
+  "items": [
+    "Asia",
+    "Africa",
+    "Nord America",
+    "Europa"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi fiumi per lunghezza (dal più lungo al più corto):",
+  "items": [
+    "Nilo",
+    "Fiume Azzurro",
+    "Mississippi",
+    "Danubio"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi monti per altitudine (dal più alto al più basso):",
+  "items": [
+    "Everest",
+    "K2",
+    "Kangchenjunga",
+    "Kilimangiaro"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i prefissi del Sistema Internazionale dal più piccolo al più grande:",
+  "items": [
+    "Nano",
+    "Micro",
+    "Milli",
+    "Kilo"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le radiazioni dello spettro elettromagnetico dalla frequenza più bassa alla più alta:",
+  "items": [
+    "Onde Radio",
+    "Microonde",
+    "Luce Visibile",
+    "Raggi X"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi mezzi per velocità di propagazione del suono (dal più lento al più veloce):",
+  "items": [
+    "Aria",
+    "Acqua",
+    "Legno",
+    "Acciaio"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste particelle subatomiche in base alla loro massa (dalla più leggera alla più pesante):",
+  "items": [
+    "Elettrone",
+    "Protone",
+    "Neutrone",
+    "Particella Alfa"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste velocità dalla più lenta alla più veloce:",
+  "items": [
+    "Velocità del suono in aria",
+    "Velocità di fuga della Terra",
+    "Velocità della luce nell'acqua",
+    "Velocità della luce nel vuoto"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i colori dello spettro visibile dalla lunghezza d'onda maggiore alla minore:",
+  "items": [
+    "Rosso",
+    "Giallo",
+    "Verde",
+    "Violetto"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste unità di misura della memoria informatica dalla più piccola alla più grande:",
+  "items": [
+    "Kilobyte",
+    "Megabyte",
+    "Gigabyte",
+    "Terabyte"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste temperature dalla più fredda alla più calda:",
+  "items": [
+    "Zero Assoluto",
+    "Punto di congelamento dell'acqua",
+    "Punto di ebollizione dell'acqua",
+    "Superficie del Sole"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i tipi di interazione fondamentale dalla più debole alla più forte:",
+  "items": [
+    "Gravità",
+    "Forza debole",
+    "Forza elettromagnetica",
+    "Forza forte"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi scienziati in base all'anno di nascita (dal più antico al più recente):",
+  "items": [
+    "Galileo Galilei",
+    "Isaac Newton",
+    "Albert Einstein",
+    "Stephen Hawking"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi elementi chimici per numero atomico (dal minore al maggiore):",
+  "items": [
+    "Idrogeno",
+    "Carbonio",
+    "Ossigeno",
+    "Oro"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste sostanze in base al pH (dalla più acida alla più basica):",
+  "items": [
+    "Succo di limone",
+    "Acqua pura",
+    "Sapone",
+    "Candeggina"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi elementi per abbondanza nel corpo umano (dal più al meno abbondante):",
+  "items": [
+    "Ossigeno",
+    "Carbonio",
+    "Idrogeno",
+    "Azoto"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi elementi per temperatura di fusione (dalla più bassa alla più alta):",
+  "items": [
+    "Elio",
+    "Mercurio",
+    "Ferro",
+    "Tungsteno"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste particelle dell'atomo dall'esterno verso il centro:",
+  "items": [
+    "Elettroni di valenza",
+    "Elettroni interni",
+    "Protoni",
+    "Quark"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i gas nobili per peso atomico (dal più leggero al più pesante):",
+  "items": [
+    "Elio",
+    "Neon",
+    "Argon",
+    "Kripton"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste sostanze per densità (dalla meno densa alla più densa):",
+  "items": [
+    "Aria",
+    "Legno",
+    "Acqua",
+    "Piombo"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi materiali in base alla conduttività termica (dal peggiore al migliore):",
+  "items": [
+    "Aria",
+    "Legno",
+    "Vetro",
+    "Rame"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi materiali in base alla conduttività elettrica (dal peggiore al migliore):",
+  "items": [
+    "Gomma",
+    "Acqua salata",
+    "Alluminio",
+    "Rame"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina gli stati della materia per livello di energia cinetica delle particelle (dal minore al maggiore):",
+  "items": [
+    "Solido",
+    "Liquido",
+    "Gas",
+    "Plasma"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le fasi della mitosi cellulare:",
+  "items": [
+    "Profase",
+    "Metafase",
+    "Anafase",
+    "Telofase"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina gli organi dell'apparato digerente umano in base al passaggio del cibo:",
+  "items": [
+    "Esofago",
+    "Stomaco",
+    "Intestino Tenue",
+    "Intestino Crasso"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le strutture dell'occhio umano attraversate dalla luce (dall'esterno all'interno):",
+  "items": [
+    "Cornea",
+    "Pupilla",
+    "Cristallino",
+    "Retina"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina il percorso dell'aria nell'apparato respiratorio umano:",
+  "items": [
+    "Faringe",
+    "Laringe",
+    "Trachea",
+    "Alveoli"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste ossa umane per lunghezza (dalla più lunga alla più corta):",
+  "items": [
+    "Femore",
+    "Tibia",
+    "Omero",
+    "Staffa"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi componenti del sangue dal più abbondante al meno abbondante in volume:",
+  "items": [
+    "Plasma",
+    "Globuli rossi",
+    "Piastrine",
+    "Globuli bianchi"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina gli strati della pelle umana dall'esterno verso l'interno:",
+  "items": [
+    "Epidermide",
+    "Derma",
+    "Ipoderma",
+    "Tessuto muscolare"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i denti umani dalla parte anteriore a quella posteriore della bocca:",
+  "items": [
+    "Incisivi",
+    "Canini",
+    "Premolari",
+    "Molari"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le parti del cuore umano attraversate dal sangue deossigenato (dal corpo ai polmoni):",
+  "items": [
+    "Vena Cava",
+    "Atrio Destro",
+    "Ventricolo Destro",
+    "Arteria Polmonare"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi muscoli per dimensione nel corpo umano (dal più grande al più piccolo):",
+  "items": [
+    "Grande gluteo",
+    "Gran dorsale",
+    "Quadricipite",
+    "Muscolo stapedio"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi animali in base all'aspettativa di vita media (dalla più breve alla più lunga):",
+  "items": [
+    "Mosca",
+    "Cane",
+    "Elefante",
+    "Tartaruga gigante"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi animali per velocità massima raggiungibile (dal più lento al più veloce):",
+  "items": [
+    "Lumaca",
+    "Essere umano",
+    "Ghepardo",
+    "Falco pellegrino"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi mammiferi per peso medio (dal più leggero al più pesante):",
+  "items": [
+    "Toporagno",
+    "Gatto",
+    "Tigre",
+    "Balenottera azzurra"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste specie in base al periodo di gestazione (dal più breve al più lungo):",
+  "items": [
+    "Topo",
+    "Cane",
+    "Essere umano",
+    "Elefante"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina gli stadi della metamorfosi di una farfalla:",
+  "items": [
+    "Uovo",
+    "Bruco (Larva)",
+    "Crisalide (Pupa)",
+    "Farfalla (Adulto)"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi uccelli per apertura alare (dalla più piccola alla più grande):",
+  "items": [
+    "Colibrì",
+    "Piccione",
+    "Aquila reale",
+    "Albatro urlatore"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina la gerarchia della classificazione tassonomica (dal più generale al più specifico):",
+  "items": [
+    "Regno",
+    "Phylum",
+    "Classe",
+    "Ordine"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina la gerarchia della classificazione tassonomica inferiore (dal più generale al più specifico):",
+  "items": [
+    "Famiglia",
+    "Genere",
+    "Specie",
+    "Sottospecie"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi animali in base al numero di zampe (dal minore al maggiore):",
+  "items": [
+    "Serpente",
+    "Struzzo",
+    "Cane",
+    "Ragno"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi primati per grado di parentela evolutiva con l'uomo (dal più lontano al più vicino):",
+  "items": [
+    "Lemure",
+    "Macaco",
+    "Gorilla",
+    "Scimpanzé"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina gli stadi del ciclo vitale di una pianta angiosperma:",
+  "items": [
+    "Seme",
+    "Germoglio",
+    "Pianta adulta",
+    "Fiore"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi organismi fotosintetici per evoluzione temporale (dal più antico al più recente):",
+  "items": [
+    "Cianobatteri",
+    "Alghe verdi",
+    "Felci",
+    "Piante con fiori"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi frutti e ortaggi per percentuale di acqua contenuta (dal meno al più ricco d'acqua):",
+  "items": [
+    "Banana",
+    "Mela",
+    "Anguria",
+    "Cetriolo"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi alberi in base alla massima altezza raggiungibile (dal più basso al più alto):",
+  "items": [
+    "Melo",
+    "Quercia",
+    "Pino",
+    "Sequoia gigante"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi agenti infettivi per dimensione (dal più piccolo al più grande):",
+  "items": [
+    "Prione",
+    "Virus",
+    "Batterio",
+    "Cellula fungina"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste molecole per complessità (dalla più piccola alla più grande):",
+  "items": [
+    "Acqua",
+    "Glucosio",
+    "Emoglobina",
+    "DNA"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi biomi per quantità di precipitazioni annue (dalla minore alla maggiore):",
+  "items": [
+    "Deserto",
+    "Tundra",
+    "Prateria",
+    "Foresta pluviale"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le parti di una foglia dall'esterno all'interno:",
+  "items": [
+    "Cuticola",
+    "Epidermide",
+    "Mesofillo",
+    "Fasci vascolari"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi semi per grandezza (dal più piccolo al più grande):",
+  "items": [
+    "Seme di papavero",
+    "Seme di mela",
+    "Seme di pesca",
+    "Noce di cocco"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi alimenti per contenuto proteico (dal minore al maggiore, per 100g):",
+  "items": [
+    "Mela",
+    "Patata",
+    "Uovo",
+    "Petto di pollo"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste invenzioni storiche in ordine cronologico (dalla più antica alla più recente):",
+  "items": [
+    "Ruota",
+    "Stampa a caratteri mobili",
+    "Motore a vapore",
+    "Transistor"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le pietre miliari dell'esplorazione spaziale in ordine cronologico:",
+  "items": [
+    "Lancio dello Sputnik",
+    "Primo uomo nello spazio",
+    "Primo sbarco sulla Luna",
+    "Lancio del Telescopio Hubble"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina la scoperta di queste particelle subatomiche in ordine cronologico (dalla prima all'ultima):",
+  "items": [
+    "Elettrone",
+    "Protone",
+    "Neutrone",
+    "Bosone di Higgs"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste scoperte mediche dalla più antica alla più recente:",
+  "items": [
+    "Vaccino contro il vaiolo",
+    "Raggi X",
+    "Penicillina",
+    "Struttura del DNA"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i modelli atomici dal più antico al più moderno:",
+  "items": [
+    "Modello di Thomson",
+    "Modello di Rutherford",
+    "Modello di Bohr",
+    "Modello a orbitali"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le seguenti forme di comunicazione dalla più antica alla più recente:",
+  "items": [
+    "Telegrafo",
+    "Telefono",
+    "Radio",
+    "Internet"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina l'introduzione di queste teorie scientifiche dalla più antica alla più recente:",
+  "items": [
+    "Teoria eliocentrica",
+    "Teoria dell'evoluzione",
+    "Teoria della Relatività",
+    "Teoria delle stringhe"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i lanci di queste sonde spaziali in ordine cronologico (dal primo all'ultimo):",
+  "items": [
+    "Sputnik 1",
+    "Voyager 1",
+    "Hubble Space Telescope",
+    "James Webb Space Telescope"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi veicoli spaziali per capacità di carico utile (dal minore al maggiore):",
+  "items": [
+    "Sputnik",
+    "Navicella Apollo",
+    "Space Shuttle",
+    "Starship"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le generazioni di computer in base alla tecnologia usata (dalla più vecchia alla più nuova):",
+  "items": [
+    "Valvole termoioniche",
+    "Transistor",
+    "Circuiti integrati",
+    "Microprocessori"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste fonti di energia in base all'anno di prima applicazione diffusa (dalla più antica alla più recente):",
+  "items": [
+    "Vento (mulini)",
+    "Carbone",
+    "Petrolio",
+    "Energia Nucleare"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste misure di lunghezza dalla più corta alla più lunga:",
+  "items": [
+    "Spessore di un capello",
+    "Lunghezza di una formica",
+    "Altezza di un uomo",
+    "Lunghezza di un campo da calcio"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste nubi in base alla loro altitudine tipica (dalla più bassa alla più alta):",
+  "items": [
+    "Strati",
+    "Cumuli",
+    "Altocumuli",
+    "Cirri"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina i venti in base alla scala Beaufort (dal più debole al più forte):",
+  "items": [
+    "Bava di vento",
+    "Brezza tesa",
+    "Burrasca",
+    "Uragano"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi eventi meteorologici per dimensione tipica della zona colpita (dal più piccolo al più grande):",
+  "items": [
+    "Tornado",
+    "Temporale",
+    "Uragano",
+    "Ciclone extratropicale"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le scale di misurazione dei terremoti dalla meno utilizzata oggi alla più moderna:",
+  "items": [
+    "Scala Rossi-Forel",
+    "Scala Mercalli",
+    "Scala Richter",
+    "Scala di magnitudo momento"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le ere glaciali della Terra (dalla più antica alla più recente):",
+  "items": [
+    "Glaciazione uroniana",
+    "Glaciazione criogeniana",
+    "Glaciazione andino-sahariana",
+    "Glaciazione del Quaternario"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi materiali in base al loro calore specifico (dal più basso al più alto):",
+  "items": [
+    "Piombo",
+    "Ferro",
+    "Ghiaccio",
+    "Acqua liquida"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi metalli per punto di ebollizione (dal più basso al più alto):",
+  "items": [
+    "Mercurio",
+    "Potassio",
+    "Rame",
+    "Tungsteno"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi fossili in base al periodo in cui vissero (dal più antico al più recente):",
+  "items": [
+    "Trilobiti",
+    "Ammoniti",
+    "Dinosauri",
+    "Mammut"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi elementi per elettronegatività (dal minore al maggiore):",
+  "items": [
+    "Francio",
+    "Sodio",
+    "Carbonio",
+    "Fluoro"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le fasi della digestione negli esseri umani:",
+  "items": [
+    "Insalivazione (Bocca)",
+    "Chimo (Stomaco)",
+    "Chilo (Intestino Tenue)",
+    "Feci (Intestino Crasso)"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi insetti in base alla durata del loro ciclo vitale (dal più breve al più lungo):",
+  "items": [
+    "Effimera",
+    "Mosca domestica",
+    "Ape operaia",
+    "Cicala periodica"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi animali per profondità massima di immersione documentata (dalla minore alla maggiore):",
+  "items": [
+    "Essere umano (apnea)",
+    "Delfino",
+    "Pinguino imperatore",
+    "Capodoglio"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina queste tipologie di sangue in base alla diffusione globale (dal più raro al più comune):",
+  "items": [
+    "AB negativo",
+    "B negativo",
+    "A positivo",
+    "O positivo"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi componenti del sistema immunitario dal più piccolo al più grande:",
+  "items": [
+    "Anticorpo",
+    "Virus",
+    "Batterio",
+    "Macrofago"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le categorie di uragani (Scala Saffir-Simpson) per velocità del vento (dalla minore alla maggiore):",
+  "items": [
+    "Categoria 1",
+    "Categoria 2",
+    "Categoria 4",
+    "Categoria 5"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina gli isotopi dell'idrogeno in base alla loro massa (dal più leggero al più pesante):",
+  "items": [
+    "Prozio",
+    "Deuterio",
+    "Trizio",
+    "Idrogeno-4"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina le unità di misura dell'energia dalla più piccola alla più grande:",
+  "items": [
+    "Elettronvolt (eV)",
+    "Erg",
+    "Joule",
+    "Caloria (kcal)"
+  ]
+},
+{
+  "category": "Scienza e Natura",
+  "question": "Ordina questi tipi di radiazioni per potere penetrante (dal minore al maggiore):",
+  "items": [
+    "Raggi Alfa",
+    "Raggi Beta",
+    "Raggi X",
+    "Raggi Gamma"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi calciatori per numero di Palloni d'Oro vinti (dal maggiore al minore).",
+  "items": [
+    "Lionel Messi",
+    "Cristiano Ronaldo",
+    "Michel Platini",
+    "Ronaldinho"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste nazioni per numero di Mondiali di calcio vinti (dal maggiore al minore).",
+  "items": [
+    "Brasile",
+    "Italia",
+    "Francia",
+    "Inghilterra"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi tennisti per numero di tornei del Grande Slam vinti in singolare maschile (dal maggiore al minore).",
+  "items": [
+    "Novak Djokovic",
+    "Rafael Nadal",
+    "Roger Federer",
+    "Andy Murray"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti piloti di Formula 1 per numero di campionati mondiali vinti (dal maggiore al minore).",
+  "items": [
+    "Michael Schumacher",
+    "Sebastian Vettel",
+    "Fernando Alonso",
+    "Kimi Räikkönen"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le seguenti franchigie NBA per numero di titoli vinti (dal maggiore al minore).",
+  "items": [
+    "Boston Celtics",
+    "Los Angeles Lakers",
+    "Chicago Bulls",
+    "Miami Heat"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi atleti per il record del mondo nei 100 metri piani maschili (dal più veloce al più lento).",
+  "items": [
+    "Usain Bolt",
+    "Tyson Gay",
+    "Asafa Powell",
+    "Carl Lewis"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le seguenti città in base all'anno in cui hanno ospitato le Olimpiadi estive (dalla più recente alla meno recente).",
+  "items": [
+    "Parigi (2024)",
+    "Tokyo (2020)",
+    "Rio de Janeiro (2016)",
+    "Londra (2012)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi sport in base al numero di giocatori in campo per squadra (dal maggiore al minore).",
+  "items": [
+    "Rugby a 15",
+    "Calcio",
+    "Baseball",
+    "Pallacanestro"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi tornei di tennis del Grande Slam in base all'ordine in cui si svolgono durante l'anno solare.",
+  "items": [
+    "Australian Open",
+    "Roland Garros",
+    "Wimbledon",
+    "US Open"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le seguenti cinture nelle arti marziali (Judo/Karate) dalla meno esperta alla più esperta.",
+  "items": [
+    "Bianca",
+    "Gialla",
+    "Verde",
+    "Nera"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi campioni di ciclismo per numero di vittorie al Tour de France (dal maggiore al minore).",
+  "items": [
+    "Eddy Merckx",
+    "Chris Froome",
+    "Greg LeMond",
+    "Vincenzo Nibali"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste competizioni calcistiche europee in ordine di prestigio decrescente.",
+  "items": [
+    "UEFA Champions League",
+    "UEFA Europa League",
+    "UEFA Conference League",
+    "UEFA Intertoto Cup"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi pesi nel pugilato professionistico dal più leggero al più pesante.",
+  "items": [
+    "Pesi Mosca",
+    "Pesi Leggeri",
+    "Pesi Medi",
+    "Pesi Massimi"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti record di salto in alto maschile dal più alto al più basso.",
+  "items": [
+    "Javier Sotomayor",
+    "Mutaz Essa Barshim",
+    "Gianmarco Tamberi",
+    "Dick Fosbury"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste nazioni per medaglie d'oro complessive vinte ai Giochi Olimpici estivi (dal maggiore al minore).",
+  "items": [
+    "Stati Uniti",
+    "Cina",
+    "Gran Bretagna",
+    "Italia"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le seguenti durate di partite regolamentari in base allo sport (dalla più lunga alla più corta).",
+  "items": [
+    "Calcio",
+    "Rugby a 15",
+    "Hockey su prato",
+    "Pallacanestro FIBA"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le dimensioni (lunghezza) di questi campi/piste sportive dal più lungo al più corto.",
+  "items": [
+    "Pista di atletica (giro)",
+    "Campo da calcio",
+    "Campo da tennis",
+    "Tavolo da ping pong"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi nuotatori per medaglie d'oro olimpiche vinte in carriera (dal maggiore al minore).",
+  "items": [
+    "Michael Phelps",
+    "Mark Spitz",
+    "Ian Thorpe",
+    "Gregorio Paltrinieri"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi stili di nuoto dal mediamente più veloce al più lento.",
+  "items": [
+    "Stile libero",
+    "Farfalla",
+    "Dorso",
+    "Rana"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti stadi di calcio per capienza (dal più grande al più piccolo).",
+  "items": [
+    "Camp Nou",
+    "Wembley",
+    "San Siro",
+    "Allianz Stadium"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi giocatori italiani per presenze nella Nazionale di calcio (dal maggiore al minore).",
+  "items": [
+    "Gianluigi Buffon",
+    "Fabio Cannavaro",
+    "Paolo Maldini",
+    "Francesco Totti"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi sport su tavola per lunghezza tipica della tavola (dal maggiore al minore).",
+  "items": [
+    "Surf (Longboard)",
+    "Windsurf",
+    "Snowboard",
+    "Skateboard"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi campioni del mondo di scacchi cronologicamente dal primo all'ultimo.",
+  "items": [
+    "Garry Kasparov",
+    "Vladimir Kramnik",
+    "Viswanathan Anand",
+    "Magnus Carlsen"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi sport in base al numero di set/tempi previsti di base (dal maggiore al minore).",
+  "items": [
+    "Pallavolo",
+    "Football americano",
+    "Hockey su ghiaccio",
+    "Calcio"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste edizioni della Coppa del Mondo FIFA cronologicamente (dalla più antica alla più recente).",
+  "items": [
+    "Corea del Sud-Giappone",
+    "Germania",
+    "Sudafrica",
+    "Brasile"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le seguenti distanze di corse di atletica dalla più lunga alla più corta.",
+  "items": [
+    "Maratona",
+    "Mezza maratona",
+    "Diecimila metri",
+    "Tremila siepi"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi piloti di motociclismo per numero di titoli mondiali vinti nella classe regina (dal maggiore al minore).",
+  "items": [
+    "Giacomo Agostini",
+    "Valentino Rossi",
+    "Marc Marquez",
+    "Casey Stoner"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste mosse/salti del pattinaggio di figura in base ai giri di rotazione (dal maggiore al minore).",
+  "items": [
+    "Salto quadruplo",
+    "Salto triplo",
+    "Salto doppio",
+    "Salto singolo"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi colori dei cerchi olimpici da sinistra a destra (riga superiore, poi inferiore).",
+  "items": [
+    "Azzurro",
+    "Nero",
+    "Rosso",
+    "Giallo"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti campionati di calcio per coefficiente UEFA (dal più alto al più basso nel 2024).",
+  "items": [
+    "Premier League (Inghilterra)",
+    "La Liga (Spagna)",
+    "Serie A (Italia)",
+    "Ligue 1 (Francia)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi ciclisti italiani per vittorie al Giro d'Italia (dal maggiore al minore).",
+  "items": [
+    "Fausto Coppi",
+    "Fiorenzo Magni",
+    "Vincenzo Nibali",
+    "Damiano Cunego"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste altezze della rete dal pavimento (dalla più alta alla più bassa).",
+  "items": [
+    "Pallavolo maschile",
+    "Pallavolo femminile",
+    "Tennis",
+    "Tennistavolo"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi giocatori NBA per punti totali segnati in carriera (dal maggiore al minore).",
+  "items": [
+    "LeBron James",
+    "Kareem Abdul-Jabbar",
+    "Kobe Bryant",
+    "Michael Jordan"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi sport in base alla velocità massima raggiunta dagli atleti/mezzi (dal più veloce al più lento).",
+  "items": [
+    "Formula 1",
+    "MotoGP",
+    "Ciclismo su pista",
+    "Corsa 100m piani"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste cinture WWE per anzianità di fondazione (dalla più antica alla più recente).",
+  "items": [
+    "WWE Championship",
+    "Intercontinental Championship",
+    "Universal Championship",
+    "24/7 Championship"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste nazioni sudamericane per vittorie in Copa America (dal maggiore al minore).",
+  "items": [
+    "Argentina",
+    "Uruguay",
+    "Brasile",
+    "Cile"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti stadi di tennis per capienza (dal più grande al più piccolo).",
+  "items": [
+    "Arthur Ashe Stadium (New York)",
+    "Indian Wells Court 1",
+    "Centre Court (Wimbledon)",
+    "Campo Pietrangeli (Roma)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti pezzi degli scacchi per valore teorico decrescente.",
+  "items": [
+    "Regina",
+    "Torre",
+    "Alfiere",
+    "Pedone"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi ruoli del baseball per numero associato sulla scorecard (dall'1 al 4).",
+  "items": [
+    "Lanciatore",
+    "Ricevitore",
+    "Prima base",
+    "Seconda base"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le seguenti imbarcazioni del canottaggio per numero di vogatori (dal maggiore al minore).",
+  "items": [
+    "Otto",
+    "Quattro di coppia",
+    "Due senza",
+    "Singolo"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi gol storici di Diego Armando Maradona ai Mondiali in ordine cronologico.",
+  "items": [
+    "Gol contro l'Ungheria (1982)",
+    "Mano de Dios (1986)",
+    "Gol del Secolo (1986)",
+    "Gol contro la Grecia (1994)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste competizioni ciclistiche (Classiche Monumento) in base alla loro collocazione abituale nell'anno solare.",
+  "items": [
+    "Milano-Sanremo",
+    "Giro delle Fiandre",
+    "Parigi-Roubaix",
+    "Il Lombardia"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi allenatori per numero di Champions League vinte (dal maggiore al minore).",
+  "items": [
+    "Carlo Ancelotti",
+    "Pep Guardiola",
+    "José Mourinho",
+    "Jürgen Klopp"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi pugili per numero di incontri vinti in carriera professionistica (dal maggiore al minore).",
+  "items": [
+    "Sugar Ray Robinson",
+    "Julio Cesar Chavez",
+    "Muhammad Ali",
+    "Floyd Mayweather Jr."
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi sport di squadra per punteggio massimo realizzabile in una singola azione (esclusi extra/trasformazioni successive).",
+  "items": [
+    "Touchdown (Football Americano)",
+    "Meta (Rugby)",
+    "Tiro da 3 (Pallacanestro)",
+    "Gol (Calcio)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi tornei di golf Major cronologicamente nell'anno solare.",
+  "items": [
+    "The Masters",
+    "PGA Championship",
+    "US Open",
+    "The Open Championship"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste leghe professionistiche americane per anno di fondazione (dalla più antica alla più recente).",
+  "items": [
+    "MLB (Baseball)",
+    "NFL (Football)",
+    "NBA (Basket)",
+    "MLS (Calcio)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste ginnaste per numero di medaglie d'oro olimpiche vinte (dal maggiore al minore).",
+  "items": [
+    "Larisa Latynina",
+    "Simone Biles",
+    "Nadia Comaneci",
+    "Gabby Douglas"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi circuiti di Formula 1 per lunghezza del tracciato (dal più lungo al più corto).",
+  "items": [
+    "Spa-Francorchamps",
+    "Baku City Circuit",
+    "Monza",
+    "Monaco"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste palle sportive in base al peso (dalla più pesante alla più leggera).",
+  "items": [
+    "Palla medica (standard 5kg)",
+    "Palla da basket",
+    "Pallone da calcio",
+    "Pallina da golf"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le seguenti edizioni dei Campionati Europei di calcio cronologicamente (dalla meno recente alla più recente).",
+  "items": [
+    "Francia 2016",
+    "Europa 2020",
+    "Germania 2024",
+    "Regno Unito e Irlanda 2028"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi atleti per numero di medaglie d'oro olimpiche vinte in carriera (dal maggiore al minore).",
+  "items": [
+    "Michael Phelps",
+    "Usain Bolt",
+    "Marcell Jacobs",
+    "Filippo Tortu"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi stili di arti marziali in base al paese d'origine (da Est verso Ovest).",
+  "items": [
+    "Karate (Giappone)",
+    "Kung Fu (Cina)",
+    "Muay Thai (Thailandia)",
+    "Capoeira (Brasile)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi numeri di maglia storicamente ritirati nel calcio, dal più basso al più alto.",
+  "items": [
+    "Paolo Maldini (Milan)",
+    "Javier Zanetti (Inter)",
+    "Franco Baresi (Milan)",
+    "Diego Maradona (Napoli)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i ruoli della pallavolo dalla posizione 1 alla 4 nella rotazione iniziale in campo.",
+  "items": [
+    "Difesa destra (Battuta)",
+    "Attacco destra",
+    "Attacco centro",
+    "Attacco sinistra"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste competizioni automobilistiche per durata o distanza della gara (dalla più lunga alla più corta).",
+  "items": [
+    "Rally Dakar",
+    "24 Ore di Le Mans",
+    "500 Miglia di Indianapolis",
+    "Gran Premio di Monaco di F1"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi giocatori di snooker per titoli mondiali vinti (dal maggiore al minore).",
+  "items": [
+    "Ronnie O'Sullivan",
+    "Steve Davis",
+    "Mark Selby",
+    "Neil Robertson"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste carte nel poker Texas Hold'em in base al valore delle combinazioni (dalla più forte alla più debole).",
+  "items": [
+    "Scala Reale",
+    "Poker",
+    "Colore",
+    "Doppia Coppia"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi salti dell'atletica leggera in base al record del mondo maschile (dal più lungo/alto al più corto/basso).",
+  "items": [
+    "Salto triplo",
+    "Salto in lungo",
+    "Salto con l'asta",
+    "Salto in alto"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi sport olimpici in base all'anno in cui sono stati introdotti per la prima volta.",
+  "items": [
+    "Scherma",
+    "Pallacanestro",
+    "Beach Volley",
+    "Skateboard"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti incontri di Boxe per numero di acquisti Pay-Per-View generati (dal più alto al più basso).",
+  "items": [
+    "Mayweather vs Pacquiao",
+    "Mayweather vs McGregor",
+    "Mayweather vs De La Hoya",
+    "Tyson vs Holyfield II"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le seguenti nazionali di rugby per vittorie della Coppa del Mondo (dal maggiore al minore).",
+  "items": [
+    "Sudafrica",
+    "Nuova Zelanda",
+    "Australia",
+    "Inghilterra"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi storici stadi britannici in base alla loro latitudine (dal più a nord al più a sud).",
+  "items": [
+    "Celtic Park (Glasgow)",
+    "St James' Park (Newcastle)",
+    "Old Trafford (Manchester)",
+    "Stamford Bridge (Londra)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi tennisti italiani per la migliore posizione raggiunta nel ranking ATP singolare.",
+  "items": [
+    "Jannik Sinner",
+    "Adriano Panatta",
+    "Matteo Berrettini",
+    "Fabio Fognini"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste posizioni del football americano in base alla loro vicinanza tipica alla linea di scrimmage (dal più vicino al più lontano).",
+  "items": [
+    "Centro",
+    "Quarterback",
+    "Running Back",
+    "Punter"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste storiche mosse/valutazioni di judo in base al punteggio ottenuto in gara (dal maggiore al minore).",
+  "items": [
+    "Ippon",
+    "Waza-ari",
+    "Yuko",
+    "Koka"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi club italiani per numero di Scudetti vinti (dal maggiore al minore).",
+  "items": [
+    "Juventus",
+    "Inter",
+    "Milan",
+    "Roma"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi eventi del Decathlon nell'ordine in cui si svolgono nella prima giornata di gare.",
+  "items": [
+    "100 metri piani",
+    "Salto in lungo",
+    "Getto del peso",
+    "Salto in alto"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi giocatori per numero di gol segnati nella storia della Serie A (dal maggiore al minore).",
+  "items": [
+    "Silvio Piola",
+    "Francesco Totti",
+    "Gunnar Nordahl",
+    "Roberto Baggio"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi sport con racchetta in base alle dimensioni del campo (dal più grande al più piccolo).",
+  "items": [
+    "Tennis",
+    "Badminton",
+    "Squash",
+    "Tennistavolo"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste maglie storiche del Giro d'Italia per importanza della classifica (dalla generale all'ultimo posto elencato).",
+  "items": [
+    "Maglia Rosa",
+    "Maglia Ciclamino",
+    "Maglia Azzurra",
+    "Maglia Bianca"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste franchigie NBA in ordine strettamente alfabetico.",
+  "items": [
+    "Boston Celtics",
+    "Chicago Bulls",
+    "Los Angeles Lakers",
+    "Miami Heat"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti premi calcistici individuali per anno di prima istituzione (dal più antico al più recente).",
+  "items": [
+    "Pallone d'Oro",
+    "Scarpa d'Oro",
+    "FIFA World Player",
+    "Golden Boy"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi sport in base al numero di lettere nel loro nome in italiano (dal minore al maggiore).",
+  "items": [
+    "Sci",
+    "Boxe",
+    "Nuoto",
+    "Calcio"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste discipline legate all'arrampicata per altezza tipica della parete (dalla più alta alla più bassa).",
+  "items": [
+    "Alpinismo himalayano",
+    "Arrampicata multipitch",
+    "Lead (Difficoltà)",
+    "Bouldering"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi storici record di punti segnati da un singolo giocatore in una partita NBA (dal maggiore al minore).",
+  "items": [
+    "Wilt Chamberlain",
+    "Kobe Bryant",
+    "Luka Doncic",
+    "Devin Booker"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi campionati del mondo di Formula 1 per decennio (dal più vecchio al più recente).",
+  "items": [
+    "Dominio di Fangio",
+    "Dominio di Senna e Prost",
+    "Dominio di Schumacher",
+    "Dominio di Hamilton"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste nazioni vincitrici della Coppa del Mondo FIFA per popolazione attuale (dalla maggiore alla minore).",
+  "items": [
+    "Brasile",
+    "Germania",
+    "Italia",
+    "Uruguay"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi paesi per numero di medaglie d'oro olimpiche invernali vinte nella storia (dal maggiore al minore).",
+  "items": [
+    "Norvegia",
+    "Stati Uniti",
+    "Germania",
+    "Italia"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi oggetti usati in sport su ghiaccio dal più pesante al più leggero.",
+  "items": [
+    "Bob a due",
+    "Stone da curling",
+    "Pattino da figura",
+    "Disco da hockey"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le seguenti varianti di biliardo per numero di biglie previste sul tavolo all'inizio della partita.",
+  "items": [
+    "Snooker",
+    "Palla 8",
+    "Palla 9",
+    "Carambola"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste specialità della ginnastica ritmica in base agli attrezzi, in ordine alfabetico.",
+  "items": [
+    "Cerchio",
+    "Clavette",
+    "Nastro",
+    "Palla"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste donne tenniste per settimane trascorse al numero 1 del ranking WTA (dal maggiore al minore).",
+  "items": [
+    "Steffi Graf",
+    "Martina Navratilova",
+    "Serena Williams",
+    "Chris Evert"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi paesi per capienza del loro stadio nazionale/principale (dal più grande al più piccolo).",
+  "items": [
+    "Corea del Nord",
+    "Inghilterra",
+    "Francia",
+    "Italia"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste classiche figure del pattinaggio artistico su ghiaccio in ordine alfabetico.",
+  "items": [
+    "Axel",
+    "Flip",
+    "Lutz",
+    "Salchow"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi campionati di calcio per numero di squadre partecipanti (dal maggiore al minore).",
+  "items": [
+    "EFL Championship (Inghilterra)",
+    "Serie A (Italia)",
+    "Bundesliga (Germania)",
+    "A-League Men (Australia)"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti premi di MVP della NBA in ordine cronologico.",
+  "items": [
+    "Michael Jordan",
+    "Shaquille O'Neal",
+    "LeBron James",
+    "Nikola Jokic"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi salti del trampolino elastico in base al coefficiente di difficoltà tipico (dal più complesso al più semplice).",
+  "items": [
+    "Triplo salto mortale",
+    "Doppio salto mortale",
+    "Salto mortale teso",
+    "Salto diritto"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi celebri tennisti per altezza fisica (dal più alto al più basso).",
+  "items": [
+    "Ivo Karlovic",
+    "John Isner",
+    "Daniil Medvedev",
+    "Carlos Alcaraz"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi piloti di MotoGP/500cc per numero di Gran Premi vinti in classe regina (dal maggiore al minore).",
+  "items": [
+    "Valentino Rossi",
+    "Giacomo Agostini",
+    "Marc Marquez",
+    "Jorge Lorenzo"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina le fasi di esecuzione di una gara di salto in lungo, dall'inizio alla fine.",
+  "items": [
+    "Rincorsa",
+    "Stacco",
+    "Volo",
+    "Atterraggio"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti sport per numero di giocatori in campo per squadra.",
+  "items": [
+    "Football Americano",
+    "Baseball",
+    "Pallavolo",
+    "Basket 3x3"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi pugili storici per categoria di peso (dal più pesante al più leggero).",
+  "items": [
+    "Tyson Fury",
+    "Canelo Alvarez",
+    "Manny Pacquiao",
+    "Naoya Inoue"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste prestigiose squadre per numero di Champions League / Coppe dei Campioni vinte (dal maggiore al minore).",
+  "items": [
+    "Real Madrid",
+    "Milan",
+    "Bayern Monaco",
+    "Ajax"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste palline sportive in base al diametro (dalla più grande alla più piccola).",
+  "items": [
+    "Pallone da basket",
+    "Pallone da calcio",
+    "Palla da tennis",
+    "Pallina da ping pong"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina queste edizioni delle Olimpiadi Invernali cronologicamente.",
+  "items": [
+    "Torino 2006",
+    "Vancouver 2010",
+    "Sochi 2014",
+    "Pyeongchang 2018"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi campioni olimpici dei 100m piani cronologicamente (dal primo all'ultimo).",
+  "items": [
+    "Jesse Owens",
+    "Carl Lewis",
+    "Usain Bolt",
+    "Marcell Jacobs"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina i seguenti tiri nel basket in base alla percentuale media storica di realizzazione (dal maggiore al minore).",
+  "items": [
+    "Schiacciata",
+    "Tiro libero",
+    "Tiro da due punti in sospensione",
+    "Tiro da tre punti"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi ruoli classici del rugby a 15 in base al numero di maglia (dal più basso al più alto).",
+  "items": [
+    "Pilone sinistro",
+    "Seconda linea",
+    "Mediano d'apertura",
+    "Estremo"
+  ]
+},
+{
+  "category": "Sport",
+  "question": "Ordina questi sport in base all'esordio ufficiale ai Giochi Olimpici moderni (dal più antico al più recente).",
+  "items": [
+    "Scherma",
+    "Judo",
+    "Taekwondo",
+    "Arrampicata sportiva"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i primi quattro re di Roma, dal primo all'ultimo.",
+  "items": [
+    "Romolo",
+    "Numa Pompilio",
+    "Tullo Ostilio",
+    "Anco Marzio"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le seguenti battaglie della Seconda Guerra Punica in ordine cronologico.",
+  "items": [
+    "Battaglia del Ticino",
+    "Battaglia della Trebbia",
+    "Battaglia del Lago Trasimeno",
+    "Battaglia di Canne"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente questi eventi della fine della Repubblica Romana.",
+  "items": [
+    "Guerra Gallica",
+    "Passaggio del Rubicone",
+    "Assassinio di Giulio Cesare",
+    "Battaglia di Azio"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i seguenti imperatori della dinastia Giulio-Claudia dal primo all'ultimo.",
+  "items": [
+    "Augusto",
+    "Tiberio",
+    "Caligola",
+    "Claudio"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i seguenti imperatori romani cosiddetti 'd'adozione'.",
+  "items": [
+    "Traiano",
+    "Adriano",
+    "Antonino Pio",
+    "Marco Aurelio"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i seguenti eventi del Tardo Impero Romano dal più antico al più recente.",
+  "items": [
+    "Editto di Milano",
+    "Concilio di Nicea",
+    "Sacco di Roma dei Visigoti",
+    "Caduta dell'Impero Romano d'Occidente"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le fasi dell'espansione di Roma in ordine cronologico.",
+  "items": [
+    "Guerre Sannitiche",
+    "Guerre Puniche",
+    "Conquista della Grecia",
+    "Conquista della Dacia"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le magistrature del Cursus Honorum romano dalla più bassa alla più alta.",
+  "items": [
+    "Questore",
+    "Edile",
+    "Pretore",
+    "Console"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i seguenti accordi e leggi di Roma antica.",
+  "items": [
+    "Leggi delle XII Tavole",
+    "Lex Hortensia",
+    "Primo Triumvirato",
+    "Secondo Triumvirato"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina questi celebri scontri civili nell'antica Roma dal più antico al più recente.",
+  "items": [
+    "Mario contro Silla",
+    "Cesare contro Pompeo",
+    "Ottaviano contro Marco Antonio",
+    "L'Anno dei quattro imperatori"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente le seguenti battaglie delle Guerre Persiane.",
+  "items": [
+    "Battaglia di Maratona",
+    "Battaglia delle Termopili",
+    "Battaglia di Salamina",
+    "Battaglia di Platea"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le grandi epoche della storia greca antica dalla più remota alla più recente.",
+  "items": [
+    "Età Micenea",
+    "Medioevo Ellenico",
+    "Età Arcaica",
+    "Età Classica"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i seguenti grandi filosofi greci per data di nascita.",
+  "items": [
+    "Talete",
+    "Socrate",
+    "Platone",
+    "Aristotele"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le seguenti battaglie di Alessandro Magno in ordine cronologico.",
+  "items": [
+    "Battaglia del Granico",
+    "Battaglia di Isso",
+    "Assedio di Tiro",
+    "Battaglia di Gaugamela"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente le seguenti celebri guerre dell'antichità.",
+  "items": [
+    "Guerra di Troia",
+    "Prima guerra messenica",
+    "Guerre Persiane",
+    "Guerra del Peloponneso"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina queste antiche civiltà della Mesopotamia in base al loro apogeo, dalla più antica.",
+  "items": [
+    "Sumeri",
+    "Accadi",
+    "Babilonesi",
+    "Assiri"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i seguenti celebri faraoni egizi.",
+  "items": [
+    "Djoser",
+    "Cheope",
+    "Akhenaton",
+    "Ramses II"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i grandi periodi della storia dell'Antico Egitto dal più antico al più recente.",
+  "items": [
+    "Antico Regno",
+    "Medio Regno",
+    "Nuovo Regno",
+    "Epoca Tolemaica"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le seguenti fasi della preistoria e protostoria dalla più antica alla più recente.",
+  "items": [
+    "Età del Rame",
+    "Età del Bronzo",
+    "Età del Ferro",
+    "Età Antica"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente la comparsa di queste invenzioni fondamentali dell'antichità.",
+  "items": [
+    "Ruota",
+    "Scrittura cuneiforme",
+    "Alfabeto fenicio",
+    "Carta"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le Età dell'uomo secondo il mito greco di Esiodo, dalla prima all'ultima.",
+  "items": [
+    "Età dell'Oro",
+    "Età dell'Argento",
+    "Età del Bronzo",
+    "Età del Ferro"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le generazioni delle entità e divinità supreme greche in ordine di dominio.",
+  "items": [
+    "Caos",
+    "Urano",
+    "Crono",
+    "Zeus"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente le prime quattro delle Dodici Fatiche di Ercole.",
+  "items": [
+    "Leone di Nemea",
+    "Idra di Lerna",
+    "Cerva di Cerinea",
+    "Cinghiale di Erimanto"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le tappe del viaggio di Ulisse nell'Odissea.",
+  "items": [
+    "Terra dei Lotofagi",
+    "Isola del Ciclope Polifemo",
+    "Isola della Maga Circe",
+    "L'isola delle Sirene"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina in senso logico e cronologico questi eventi chiave della Guerra di Troia.",
+  "items": [
+    "Mela della Discordia",
+    "Rapimento di Elena",
+    "Morte di Patroclo",
+    "Cavallo di Troia"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina gli eventi della cosmogonia norrena dall'origine in poi.",
+  "items": [
+    "Nascita del gigante primordiale Ymir",
+    "Nascita di Odino",
+    "Uccisione di Ymir",
+    "Creazione di Midgard"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina gli eventi legati al mito greco dell'eroe Perseo.",
+  "items": [
+    "Profezia funesta al re Acrisio",
+    "Uccisione di Medusa",
+    "Salvataggio di Andromeda",
+    "Ritorno sull'isola di Serifo"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le tappe del viaggio di Enea narrate nell'Eneide.",
+  "items": [
+    "Fuga da Troia in fiamme",
+    "Incontro con Didone a Cartagine",
+    "Discesa nell'Oltretomba",
+    "Duello finale con Turno nel Lazio"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i seguenti sovrani mitologici della città di Tebe.",
+  "items": [
+    "Cadmo",
+    "Laio",
+    "Edipo",
+    "Eteocle e Polinice"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le vicende dell'antica epopea mesopotamica di Gilgamesh.",
+  "items": [
+    "Creazione di Enkidu",
+    "Scontro con il mostro Humbaba",
+    "Morte di Enkidu",
+    "Ricerca dell'immortalità"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina questi eventi dell'Alto Medioevo in Italia in ordine cronologico.",
+  "items": [
+    "Inizio delle Invasioni Barbariche",
+    "Fondazione del Regno ostrogoto di Teodorico",
+    "Guerra Gotico-Bizantina",
+    "Invasione Longobarda"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente le grandi dinastie e famiglie regnanti dei Franchi.",
+  "items": [
+    "Merovingi",
+    "Pipinidi",
+    "Carolingi",
+    "Capetingi"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina in ordine cronologico queste tappe storiche dell'Impero Carolingio.",
+  "items": [
+    "Incoronazione di Carlo Magno",
+    "Trattato di Verdun",
+    "Capitolare di Quierzy",
+    "Constitutio de feudis"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le Crociate principali in Terrasanta in ordine cronologico.",
+  "items": [
+    "Prima Crociata",
+    "Terza Crociata",
+    "Quarta Crociata",
+    "Sesta Crociata"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente questi importanti eventi politici e religiosi del Medioevo.",
+  "items": [
+    "Grande Scisma d'Oriente",
+    "Inizio della Lotta per le investiture",
+    "Firma della Magna Charta",
+    "Schiaffo di Anagni"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente le seguenti battaglie della Guerra dei Cent'anni.",
+  "items": [
+    "Battaglia di Crécy",
+    "Battaglia di Poitiers",
+    "Battaglia di Azincourt",
+    "Assedio di Orléans"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina la fondazione dei principali ordini religiosi in ordine cronologico.",
+  "items": [
+    "Ordine Benedettino",
+    "Ordine Cistercense",
+    "Ordine Francescano",
+    "Ordine Domenicano"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente questi celebri sovrani inglesi del Medioevo.",
+  "items": [
+    "Guglielmo il Conquistatore",
+    "Enrico II Plantageneto",
+    "Riccardo Cuor di Leone",
+    "Giovanni Senzaterra"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le fasi dell'evoluzione politica nell'Italia centro-settentrionale dal Medioevo al Rinascimento.",
+  "items": [
+    "Nascita dei Comuni",
+    "Pace di Costanza",
+    "Nascita delle Signorie",
+    "Pace di Lodi"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina l'introduzione o invenzione di queste tecnologie in Europa cronologicamente.",
+  "items": [
+    "Staffa per cavalli",
+    "Mulino a vento",
+    "Occhiali",
+    "Stampa a caratteri mobili"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente le seguenti grandi imprese delle esplorazioni geografiche.",
+  "items": [
+    "Doppiaggio del Capo di Buona Speranza",
+    "Scoperta dell'America",
+    "Raggiungimento dell'India via mare",
+    "Prima circumnavigazione del globo"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina questi eventi storici legati alle civiltà precolombiane e alla loro conquista.",
+  "items": [
+    "Apogeo della civiltà Maya classica",
+    "Inizio della massima espansione dell'Impero Inca",
+    "Conquista dell'Impero Azteco",
+    "Conquista dell'Impero Inca"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i seguenti grandi artisti italiani per data di nascita.",
+  "items": [
+    "Donatello",
+    "Leonardo da Vinci",
+    "Michelangelo Buonarroti",
+    "Caravaggio"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i pontificati di questi Papi dell'età rinascimentale.",
+  "items": [
+    "Alessandro VI Borgia",
+    "Giulio II della Rovere",
+    "Leone X de' Medici",
+    "Clemente VII de' Medici"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente questi eventi legati alla Riforma Protestante.",
+  "items": [
+    "Affissione delle 95 Tesi di Lutero",
+    "Bolla pontificia di Scomunica a Lutero",
+    "Atto di Supremazia in Inghilterra",
+    "Inizio del Concilio di Trento"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le tappe delle Guerre d'Italia tra fine '400 e metà '500.",
+  "items": [
+    "Discesa in Italia di re Carlo VIII",
+    "Battaglia di Pavia",
+    "Sacco di Roma dei Lanzichenecchi",
+    "Pace di Cateau-Cambrésis"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina questi eventi della storia inglese dal Cinquecento agli inizi del Seicento.",
+  "items": [
+    "Scisma Anglicano promosso da Enrico VIII",
+    "Inizio del Regno di Elisabetta I",
+    "Sconfitta dell'Invincibile Armata spagnola",
+    "Congiura delle polveri"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i regni di questi famosi sovrani francesi.",
+  "items": [
+    "Francesco I di Valois",
+    "Enrico IV di Borbone",
+    "Luigi XIII",
+    "Luigi XIV il Re Sole"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente queste tappe fondamentali della Rivoluzione Scientifica.",
+  "items": [
+    "Pubblicazione del modello eliocentrico di Copernico",
+    "Formulazione delle prime Leggi di Keplero",
+    "Processo per eresia a Galileo Galilei",
+    "Pubblicazione dei Principia di Newton"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i seguenti grandi conflitti dell'Età Moderna europea.",
+  "items": [
+    "Guerra dei Trent'anni",
+    "Guerra Civile Inglese",
+    "Guerra di Successione Spagnola",
+    "Guerra dei Sette Anni"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le tappe della Rivoluzione Americana e delle origini degli Stati Uniti.",
+  "items": [
+    "Boston Tea Party",
+    "Dichiarazione d'Indipendenza",
+    "Promulgazione della Costituzione degli USA",
+    "Elezione di George Washington a presidente"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina questi snodi fondamentali della Rivoluzione Francese.",
+  "items": [
+    "Presa della Bastiglia",
+    "Tentata fuga del Re a Varennes",
+    "Proclamazione della Prima Repubblica",
+    "Esecuzione di Robespierre"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente gli eventi legati alla vita e alle campagne di Napoleone Bonaparte.",
+  "items": [
+    "Inizio della Campagna d'Italia",
+    "Campagna d'Egitto",
+    "Incoronazione a Imperatore dei Francesi",
+    "Battaglia di Waterloo"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le Guerre d'Indipendenza e le fasi principali dell'Unità d'Italia.",
+  "items": [
+    "Moti carbonari del 1820-21",
+    "Prima Guerra d'Indipendenza",
+    "Spedizione dei Mille",
+    "Presa di Roma (Porta Pia)"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina in sequenza temporale i seguenti eventi del Risorgimento Italiano.",
+  "items": [
+    "Fondazione della Giovine Italia",
+    "Le Cinque Giornate di Milano",
+    "Proclamazione del Regno d'Italia",
+    "Trasferimento della Capitale a Roma"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente questi importanti conflitti della seconda metà dell'Ottocento.",
+  "items": [
+    "Guerra di Crimea",
+    "Guerra di Secessione Americana",
+    "Guerra Franco-Prussiana",
+    "Guerra Ispano-Americana"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le grandi invenzioni della Rivoluzione Industriale e del XIX secolo.",
+  "items": [
+    "Macchina a vapore migliorata da Watt",
+    "Telaio meccanico di Cartwright",
+    "Prima locomotiva a vapore passeggeri di Stephenson",
+    "Invenzione del telegrafo elettrico Morse"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i mandati presidenziali di questi celebri Presidenti degli Stati Uniti.",
+  "items": [
+    "Thomas Jefferson",
+    "Abraham Lincoln",
+    "Ulysses S. Grant",
+    "Theodore Roosevelt"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le tappe fondamentali del processo di Unificazione Tedesca nel XIX secolo.",
+  "items": [
+    "Nascita dell'unione doganale Zollverein",
+    "Guerra contro la Danimarca",
+    "Guerra Austro-Prussiana",
+    "Proclamazione dell'Impero Tedesco (Secondo Reich)"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente i regni di questi celebri Zar dell'Impero Russo.",
+  "items": [
+    "Pietro I il Grande",
+    "Caterina II la Grande",
+    "Alessandro II",
+    "Nicola II"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina gli eventi scatenanti e iniziali della Prima Guerra Mondiale nell'estate 1914.",
+  "items": [
+    "Attentato di Sarajevo",
+    "Ultimatum austriaco alla Serbia",
+    "Invasione tedesca del Belgio",
+    "Prima battaglia della Marna"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le fasi cruciali e i trattati legati alla Prima Guerra Mondiale.",
+  "items": [
+    "Affondamento del transatlantico Lusitania",
+    "Inizio della Battaglia di Verdun",
+    "Ingresso in guerra degli Stati Uniti",
+    "Firma del Trattato di Versailles"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina gli eventi legati alla fine dell'Impero Russo e alla nascita dell'URSS.",
+  "items": [
+    "Domenica di Sangue (1905)",
+    "Rivoluzione di Febbraio",
+    "Rivoluzione d'Ottobre",
+    "Nascita formale dell'URSS (1922)"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente questi importanti eventi politici del periodo interbellico (anni '20 e '30).",
+  "items": [
+    "Marcia su Roma",
+    "Crollo della Borsa di Wall Street",
+    "Nomina di Hitler a Cancelliere della Germania",
+    "Inizio della Guerra Civile Spagnola"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente l'espansionismo delle potenze dell'Asse prima dello scoppio della Seconda Guerra Mondiale.",
+  "items": [
+    "Inizio della Guerra d'Etiopia",
+    "Anschluss dell'Austria",
+    "Conferenza di Monaco sui Sudeti",
+    "Firma del Patto Molotov-Ribbentrop"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le grandi offensive e gli snodi della prima fase della Seconda Guerra Mondiale (1939-1941).",
+  "items": [
+    "Invasione tedesca della Polonia",
+    "Battaglia d'Inghilterra",
+    "Operazione Barbarossa contro l'URSS",
+    "Attacco giapponese a Pearl Harbor"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le grandi battaglie e tappe della seconda fase della Seconda Guerra Mondiale (1942-1945).",
+  "items": [
+    "Seconda Battaglia di El Alamein",
+    "Fine della Battaglia di Stalingrado",
+    "Sbarco in Normandia (D-Day)",
+    "Bombardamenti atomici sul Giappone"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente le principali Conferenze interalleate della Seconda Guerra Mondiale.",
+  "items": [
+    "Conferenza di Casablanca",
+    "Conferenza di Teheran",
+    "Conferenza di Yalta",
+    "Conferenza di Potsdam"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le più grandi battaglie della Guerra del Pacifico dal 1942 al 1945.",
+  "items": [
+    "Battaglia delle Midway",
+    "Inizio della Campagna di Guadalcanal",
+    "Battaglia di Iwo Jima",
+    "Battaglia di Okinawa"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le tappe fondamentali della partecipazione dell'Italia alla Seconda Guerra Mondiale.",
+  "items": [
+    "Dichiarazione di guerra a Francia e Gran Bretagna",
+    "Sbarco alleato in Sicilia",
+    "Annuncio dell'Armistizio di Cassibile",
+    "Liberazione definitiva d'Italia"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina gli eventi iniziali che hanno definito la Guerra Fredda nel secondo dopoguerra.",
+  "items": [
+    "Enunciazione della Dottrina Truman",
+    "Lancio del Piano Marshall",
+    "Inizio del Blocco di Berlino",
+    "Fondazione della NATO"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le seguenti grandi crisi internazionali e geopolitiche degli anni '50 e '60.",
+  "items": [
+    "Scoppio della Guerra di Corea",
+    "Morte di Iosif Stalin",
+    "Crisi dei missili di Cuba",
+    "Assassinio del Presidente John F. Kennedy"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina in sequenza le tappe fondamentali della corsa allo Spazio.",
+  "items": [
+    "Lancio del primo satellite Sputnik 1",
+    "Yuri Gagarin diventa il primo uomo nello spazio",
+    "Sbarco dell'Apollo 11 sulla Luna",
+    "Primo volo inaugurale dello Space Shuttle"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina gli eventi legati al coinvolgimento degli Stati Uniti nella Guerra del Vietnam.",
+  "items": [
+    "Incidente del Golfo del Tonchino",
+    "Offensiva del Têt",
+    "Firma degli Accordi di pace di Parigi",
+    "Caduta di Saigon"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente questi snodi fondamentali del processo di decolonizzazione mondiale.",
+  "items": [
+    "Indipendenza dell'India",
+    "Inizio della Guerra d'Algeria",
+    "Indipendenza del Congo belga",
+    "Fine formale del regime di apartheid in Sudafrica"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina in sequenza cronologica i principali conflitti arabo-israeliani nel Novecento.",
+  "items": [
+    "Dichiarazione d'Indipendenza di Israele",
+    "Crisi del Canale di Suez",
+    "Guerra dei Sei Giorni",
+    "Guerra del Kippur"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i pontificati dei seguenti Papi che hanno guidato la Chiesa Cattolica nel Novecento.",
+  "items": [
+    "Pio XII",
+    "Giovanni XXIII",
+    "Paolo VI",
+    "Giovanni Paolo II"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i mandati dei seguenti Presidenti della Repubblica Italiana dal più remoto al più recente.",
+  "items": [
+    "Enrico De Nicola",
+    "Luigi Einaudi",
+    "Sandro Pertini",
+    "Sergio Mattarella"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina gli eventi che hanno segnato la fine della Guerra Fredda e il crollo del blocco sovietico.",
+  "items": [
+    "Invasione sovietica dell'Afghanistan",
+    "Caduta del Muro di Berlino",
+    "Riunificazione formale della Germania",
+    "Dissoluzione dell'Unione Sovietica"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i seguenti trattati e tappe del processo di integrazione dell'Unione Europea.",
+  "items": [
+    "Firma del Trattato di Roma",
+    "Firma del Trattato di Maastricht",
+    "Introduzione dell'Euro come moneta fisica",
+    "Uscita del Regno Unito dall'UE (Brexit)"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i primi quattro libri dell'Antico Testamento (Pentateuco) nell'ordine biblico tradizionale.",
+  "items": [
+    "Genesi",
+    "Esodo",
+    "Levitico",
+    "Numeri"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina gli eventi centrali della vita pubblica di Gesù di Nazareth come narrati dai Vangeli.",
+  "items": [
+    "Battesimo nel fiume Giordano",
+    "Ingresso a Gerusalemme",
+    "L'Ultima Cena",
+    "La Crocifissione"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente l'epoca in cui vissero queste grandi figure profetiche e religiose monoteiste.",
+  "items": [
+    "Abramo",
+    "Mosè",
+    "Re Davide",
+    "Maometto"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente le successive quattro (dalla 5a alla 8a) delle Dodici Fatiche di Ercole.",
+  "items": [
+    "Pulizia delle stalle di Augia",
+    "Cacciata degli uccelli del lago Stinfalo",
+    "Cattura del Toro di Creta",
+    "Furto delle cavalle di Diomede"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le generazioni delle divinità primordiali nella cosmogonia egizia di Eliopoli.",
+  "items": [
+    "Nun (l'Oceano primordiale)",
+    "Atum (il creatore)",
+    "Geb (il dio della terra)",
+    "Osiride"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le Sette Meraviglie del Mondo Antico in base all'epoca stimata di costruzione, dalla più antica.",
+  "items": [
+    "Grande Piramide di Giza",
+    "Giardini pensili di Babilonia",
+    "Tempio di Artemide a Efeso",
+    "Colosso di Rodi"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i miti e gli eventi del ritorno a Itaca narrati nell'Odissea.",
+  "items": [
+    "Sbarco in incognito sull'isola di Itaca",
+    "Incontro con il fedele porcaro Eumeo",
+    "Superamento della prova dell'arco",
+    "Strage dei Proci nel palazzo"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina gli eventi legati alla vita del Buddha storico Siddhārtha Gautama.",
+  "items": [
+    "Nascita del principe in Nepal",
+    "Le Quattro Visioni fuori dal palazzo",
+    "Raggiungimento dell'Illuminazione sotto l'albero della Bodhi",
+    "Raggiungimento del Parinirvana alla morte"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente le seguenti dinastie che hanno governato la Cina imperiale.",
+  "items": [
+    "Dinastia Qin",
+    "Dinastia Han",
+    "Dinastia Tang",
+    "Dinastia Ming"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le dinastie imperiali di Roma antica, dalla prima all'ultima.",
+  "items": [
+    "Dinastia Giulio-Claudia",
+    "Dinastia Flavia",
+    "Dinastia degli Antonini",
+    "Dinastia dei Severi"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le scoperte europee di queste grandi terre in ordine cronologico.",
+  "items": [
+    "Groenlandia (da parte di Erik il Rosso)",
+    "Americhe (da parte di Cristoforo Colombo)",
+    "Brasile (da parte di Pedro Álvares Cabral)",
+    "Australia orientale (da parte di James Cook)"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i seguenti traguardi fondamentali della medicina e della biologia moderna e contemporanea.",
+  "items": [
+    "Scoperta del vaccino contro il vaiolo",
+    "Scoperta della penicillina",
+    "Scoperta della struttura a doppia elica del DNA",
+    "Clonazione della pecora Dolly"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente questi celebri e fatali attentati politici che hanno cambiato la storia.",
+  "items": [
+    "Assassinio di Giulio Cesare",
+    "Assassinio di Abraham Lincoln",
+    "Attentato all'Arciduca Francesco Ferdinando",
+    "Assassinio di John F. Kennedy"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina le seguenti grandi pandemie ed epidemie della storia, dalla più antica alla più recente.",
+  "items": [
+    "Peste di Atene",
+    "Peste Nera in Europa",
+    "Pandemia di Influenza Spagnola",
+    "Pandemia di COVID-19"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina l'inizio della costruzione di queste grandi e celebri strutture dell'antichità e del Medioevo.",
+  "items": [
+    "Piramide di Cheope a Giza",
+    "Prima costruzione della Grande Muraglia Cinese (dinastia Qin)",
+    "Colosseo di Roma",
+    "Torre pendente di Pisa"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina l'inaugurazione di queste iconiche strutture dell'età moderna e contemporanea.",
+  "items": [
+    "Torre Eiffel a Parigi",
+    "Empire State Building a New York",
+    "Golden Gate Bridge a San Francisco",
+    "Burj Khalifa a Dubai"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i seguenti grandi imperi in base all'epoca in cui raggiunsero la loro massima espansione territoriale.",
+  "items": [
+    "Impero Persiano Achemenide",
+    "Impero Macedone di Alessandro Magno",
+    "Impero Romano",
+    "Impero Mongolo"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina cronologicamente l'introduzione di queste unità monetarie storiche europee e italiane.",
+  "items": [
+    "Sesterzio d'argento romano",
+    "Fiorino d'oro fiorentino",
+    "Lira italiana post-unitaria",
+    "Euro (circolazione fiduciaria)"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina questi famosi disastri e tragedie storiche in ordine cronologico.",
+  "items": [
+    "Eruzione del Vesuvio su Pompei ed Ercolano",
+    "Grande incendio di Londra",
+    "Affondamento del RMS Titanic",
+    "Disastro nucleare di Chernobyl"
+  ]
+},
+{
+  "category": "Storia e Mitologia",
+  "question": "Ordina i seguenti celebri disastri o incidenti legati all'esplorazione (marittima e spaziale).",
+  "items": [
+    "Ammutinamento del Bounty",
+    "Spedizione artica perduta di Franklin",
+    "Disastro del dirigibile Hindenburg",
+    "Esplosione dello Space Shuttle Challenger"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste console fisse Nintendo per anno di uscita (dalla più vecchia alla più recente):",
+  "items": [
+    "NES",
+    "Super Nintendo",
+    "Nintendo 64",
+    "GameCube"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste console fisse Sony per anno di uscita (dalla prima all'ultima):",
+  "items": [
+    "PlayStation 1",
+    "PlayStation 2",
+    "PlayStation 3",
+    "PlayStation 4"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste versioni del sistema operativo Windows (dalla più vecchia alla più recente):",
+  "items": [
+    "Windows 95",
+    "Windows XP",
+    "Windows 7",
+    "Windows 10"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi capitoli principali della serie Grand Theft Auto per anno di rilascio (dal più vecchio):",
+  "items": [
+    "Grand Theft Auto III",
+    "Grand Theft Auto: Vice City",
+    "Grand Theft Auto: San Andreas",
+    "Grand Theft Auto IV"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste invenzioni nel campo delle telecomunicazioni (dalla più antica alla più recente):",
+  "items": [
+    "Telegrafo",
+    "Telefono",
+    "Radio",
+    "Televisione"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi popolari social network per anno di lancio ufficiale (dal più vecchio):",
+  "items": [
+    "LinkedIn",
+    "MySpace",
+    "Facebook",
+    "Instagram"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi modelli di smartphone Apple per data di uscita (dal più vecchio):",
+  "items": [
+    "iPhone 3G",
+    "iPhone 4",
+    "iPhone 5",
+    "iPhone 6"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste storiche aziende informatiche per anno di fondazione (dalla più antica):",
+  "items": [
+    "IBM",
+    "Hewlett-Packard (HP)",
+    "Microsoft",
+    "Apple"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste aziende tecnologiche per anno di fondazione (dalla più antica alla più recente):",
+  "items": [
+    "Intel",
+    "AMD",
+    "Oracle",
+    "Google"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste prime versioni del sistema operativo Android (dalla più vecchia):",
+  "items": [
+    "Cupcake",
+    "Donut",
+    "Eclair",
+    "Froyo"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste successive versioni di Android (dalla più vecchia alla più recente):",
+  "items": [
+    "Gingerbread",
+    "Honeycomb",
+    "Ice Cream Sandwich",
+    "Jelly Bean"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi browser web per anno di lancio originale (dal più vecchio):",
+  "items": [
+    "WorldWideWeb",
+    "Netscape Navigator",
+    "Internet Explorer",
+    "Google Chrome"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste generazioni di reti cellulari mobili dalla più vecchia alla più recente:",
+  "items": [
+    "1G",
+    "2G",
+    "3G",
+    "4G"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi supporti fisici ottici per capacità di archiviazione (dal meno capiente al più capiente):",
+  "items": [
+    "CD-ROM",
+    "DVD",
+    "Blu-ray Disc",
+    "Ultra HD Blu-ray"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi supporti di memoria storici per anno di introduzione (dal più vecchio):",
+  "items": [
+    "Scheda perforata",
+    "Nastro magnetico",
+    "Floppy Disk",
+    "Chiavetta USB"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi storici linguaggi di programmazione per anno di prima apparizione (dal più vecchio):",
+  "items": [
+    "Assembly",
+    "COBOL",
+    "Pascal",
+    "C++"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste tecnologie fondamentali del Web per anno di prima pubblicazione (dalla più vecchia):",
+  "items": [
+    "HTML",
+    "CSS",
+    "XML",
+    "JSON"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi videogiochi arcade e storici per anno di uscita originale (dal più vecchio):",
+  "items": [
+    "Pong",
+    "Space Invaders",
+    "Pac-Man",
+    "Tetris"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi classici sparatutto in prima persona (FPS) per data di uscita (dal più vecchio):",
+  "items": [
+    "Wolfenstein 3D",
+    "Doom",
+    "Quake",
+    "Half-Life"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste console domestiche prodotte da Sega per anno di uscita (dalla più vecchia):",
+  "items": [
+    "SG-1000",
+    "Master System",
+    "Sega Mega Drive",
+    "Sega Dreamcast"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi storici capitoli in 3D della serie The Legend of Zelda per anno di uscita:",
+  "items": [
+    "Ocarina of Time",
+    "Majora's Mask",
+    "The Wind Waker",
+    "Twilight Princess"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi capitoli della saga di Final Fantasy per anno di uscita originale (dal più vecchio):",
+  "items": [
+    "Final Fantasy VII",
+    "Final Fantasy VIII",
+    "Final Fantasy IX",
+    "Final Fantasy X"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi fondamentali componenti hardware per anno di invenzione (dal più vecchio):",
+  "items": [
+    "Transistor",
+    "Circuito Integrato",
+    "Microprocessore",
+    "GPU (Graphics Processing Unit)"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste celebri piattaforme di streaming per anno di lancio iniziale:",
+  "items": [
+    "YouTube",
+    "Netflix (servizio streaming)",
+    "Twitch",
+    "Disney+"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste popolari applicazioni di messaggistica per anno di lancio (dalla più vecchia):",
+  "items": [
+    "ICQ",
+    "Skype",
+    "WhatsApp",
+    "Telegram"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste unità di misura dell'archiviazione dati dalla più piccola alla più grande:",
+  "items": [
+    "Kilobyte",
+    "Megabyte",
+    "Gigabyte",
+    "Terabyte"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste comuni risoluzioni video per numero di pixel (dalla più bassa alla più alta):",
+  "items": [
+    "SD (480p)",
+    "HD (720p)",
+    "Full HD (1080p)",
+    "4K UHD (2160p)"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste storiche aziende videoludiche per anno di fondazione (dalla più antica):",
+  "items": [
+    "Nintendo",
+    "Sega",
+    "Electronic Arts",
+    "Ubisoft"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste tipologie di computer dalla dimensione fisica mediamente più piccola alla più grande:",
+  "items": [
+    "Smartphone",
+    "Tablet",
+    "Laptop",
+    "Mainframe"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi famosi computer prodotti da Apple per anno di commercializzazione (dal più antico):",
+  "items": [
+    "Apple I",
+    "Apple II",
+    "Macintosh 128K",
+    "iMac G3"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi motori di ricerca per anno di lancio pubblico (dal più vecchio al più recente):",
+  "items": [
+    "WebCrawler",
+    "AltaVista",
+    "Google",
+    "Bing"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi modelli base di Raspberry Pi per data di rilascio (dal primo all'ultimo):",
+  "items": [
+    "Raspberry Pi 1",
+    "Raspberry Pi 2",
+    "Raspberry Pi 3",
+    "Raspberry Pi 4"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste generazioni di videogiochi principali Pokémon (dalla prima alla quarta):",
+  "items": [
+    "Rosso / Blu",
+    "Oro / Argento",
+    "Rubino / Zaffiro",
+    "Diamante / Perla"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste piattaforme di Cloud Computing per anno di lancio (dalla più vecchia):",
+  "items": [
+    "Amazon Web Services (AWS)",
+    "Google Cloud Platform",
+    "Microsoft Azure",
+    "Apple iCloud"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi formati di file immagine per anno di introduzione (dal più antico):",
+  "items": [
+    "GIF",
+    "JPEG",
+    "PNG",
+    "WebP"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi diffusi sistemi per il controllo di versione o hosting del codice per anno di lancio:",
+  "items": [
+    "CVS",
+    "Subversion (SVN)",
+    "Git",
+    "GitHub"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi storici capitoli della serie Super Smash Bros. per anno di uscita originale:",
+  "items": [
+    "Super Smash Bros. (Nintendo 64)",
+    "Super Smash Bros. Melee",
+    "Super Smash Bros. Brawl",
+    "Super Smash Bros. Ultimate"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste architetture di processori dalla meno evoluta alla più evoluta in termini di bit:",
+  "items": [
+    "8-bit",
+    "16-bit",
+    "32-bit",
+    "64-bit"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi noti framework o librerie JavaScript per anno di prima pubblicazione (dal più vecchio):",
+  "items": [
+    "jQuery",
+    "AngularJS",
+    "React",
+    "Vue.js"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi sistemi operativi per dispositivi mobili per anno di lancio (dal più vecchio):",
+  "items": [
+    "Symbian",
+    "BlackBerry OS",
+    "iOS",
+    "Android"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi grandi successi di Blizzard Entertainment per anno di uscita (dal più vecchio):",
+  "items": [
+    "Warcraft: Orcs & Humans",
+    "Diablo",
+    "StarCraft",
+    "World of Warcraft"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi popolari titoli sviluppati da Valve per anno di uscita originale (dal più vecchio):",
+  "items": [
+    "Half-Life",
+    "Counter-Strike",
+    "Portal",
+    "Dota 2"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi noti editor di testo per programmatori per anno di rilascio iniziale (dal più vecchio):",
+  "items": [
+    "Emacs",
+    "Vim",
+    "Notepad++",
+    "Visual Studio Code"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi standard di rete Wi-Fi per data di approvazione (dal più vecchio al più recente):",
+  "items": [
+    "802.11b",
+    "802.11g",
+    "802.11n (Wi-Fi 4)",
+    "802.11ac (Wi-Fi 5)"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi connettori fisici USB per anno di introduzione sul mercato (dal più antico):",
+  "items": [
+    "USB Type-A",
+    "Mini-USB",
+    "Micro-USB",
+    "USB Type-C"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi videogiochi incentrati su simulazione e costruzione per anno di uscita originale:",
+  "items": [
+    "SimCity",
+    "The Sims",
+    "Roblox",
+    "Minecraft"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi capitoli principali della serie Assassin's Creed per anno di uscita (dal più vecchio):",
+  "items": [
+    "Assassin's Creed",
+    "Assassin's Creed II",
+    "Assassin's Creed IV: Black Flag",
+    "Assassin's Creed Valhalla"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi dispositivi indossabili o smartwatch per anno di rilascio (dal più vecchio):",
+  "items": [
+    "Orologio calcolatrice Pulsar",
+    "Fitbit Tracker originale",
+    "Pebble Smartwatch",
+    "Apple Watch"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi storici titoli protagonisti degli eSport per anno di rilascio (dal più vecchio):",
+  "items": [
+    "Warcraft III",
+    "League of Legends",
+    "CS:GO",
+    "Valorant"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi supporti fisici per l'home video per anno di introduzione commerciale (dal più antico):",
+  "items": [
+    "VHS",
+    "DVD",
+    "Blu-ray Disc",
+    "Ultra HD Blu-ray"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi iconici supercomputer per anno di completamento o attivazione (dal più vecchio):",
+  "items": [
+    "ENIAC",
+    "CDC 6600",
+    "Cray-1",
+    "Deep Blue"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi famosi assistenti vocali per anno di primo lancio commerciale (dal più vecchio):",
+  "items": [
+    "Siri",
+    "Google Now",
+    "Amazon Alexa",
+    "Google Assistant"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi dispositivi o visori legati alla Realtà Virtuale per anno di lancio (dal più vecchio):",
+  "items": [
+    "Virtual Boy",
+    "Oculus Rift DK1",
+    "HTC Vive",
+    "Meta Quest 2"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste versioni della famiglia Windows NT per data di uscita (dalla più vecchia):",
+  "items": [
+    "Windows 2000",
+    "Windows XP",
+    "Windows Vista",
+    "Windows 7"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi celebri videogiochi per numero di copie totali vendute (dal meno venduto al più venduto fra questi):",
+  "items": [
+    "Super Mario Bros. originale",
+    "Wii Sports",
+    "Grand Theft Auto V",
+    "Minecraft"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste popolari piattaforme di distribuzione digitale di giochi per anno di lancio (dalla più vecchia):",
+  "items": [
+    "Steam",
+    "Xbox Live Arcade",
+    "PlayStation Network",
+    "Epic Games Store"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi motori grafici per videogiochi per anno del loro primo rilascio (dal più vecchio):",
+  "items": [
+    "Unreal Engine (prima versione)",
+    "Source Engine",
+    "Unity",
+    "Unreal Engine 5"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi famosi marchi e aziende di dispositivi audio per anno di fondazione (dal più antico):",
+  "items": [
+    "Shure",
+    "Sennheiser",
+    "Bose",
+    "Beats by Dre"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi iconici personaggi dei videogiochi per anno della loro prima apparizione originale:",
+  "items": [
+    "Pac-Man",
+    "Mario",
+    "Link",
+    "Master Chief"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi grandi eventi e fiere del settore tecnologico/videoludico per anno della prima edizione (dal più antico):",
+  "items": [
+    "CES (Consumer Electronics Show)",
+    "E3 (Electronic Entertainment Expo)",
+    "Tokyo Game Show",
+    "Gamescom"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste popolari applicazioni e siti di dating per anno di lancio (dal più vecchio):",
+  "items": [
+    "Match.com",
+    "eHarmony",
+    "Badoo",
+    "Tinder"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste note criptovalute per anno del loro blocco genesi o lancio iniziale (dalla più vecchia):",
+  "items": [
+    "Bitcoin",
+    "Litecoin",
+    "Dogecoin",
+    "Ethereum"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi famosi sistemi e modelli legati all'Intelligenza Artificiale per anno di creazione o presentazione:",
+  "items": [
+    "ELIZA",
+    "Deep Blue",
+    "IBM Watson",
+    "ChatGPT"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi capitoli principali della serie Resident Evil per anno di uscita originale (dal più vecchio):",
+  "items": [
+    "Resident Evil originale",
+    "Resident Evil 4",
+    "Resident Evil 7: Biohazard",
+    "Resident Evil Village"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi capitoli della serie RPG Fallout per anno di uscita originale (dal più vecchio):",
+  "items": [
+    "Fallout originale",
+    "Fallout 3",
+    "Fallout: New Vegas",
+    "Fallout 4"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi dispositivi e console portatili PlayStation per anno di uscita originale (dal più vecchio):",
+  "items": [
+    "PocketStation",
+    "PSP (PlayStation Portable)",
+    "PSP Go",
+    "PlayStation Vita"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi modelli ufficiali di controller Xbox per anno di rilascio sul mercato (dal più vecchio):",
+  "items": [
+    "Controller The Duke",
+    "Controller Xbox 360",
+    "Controller Xbox One",
+    "Controller Xbox Elite (Serie 1)"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste aziende del settore dei trasporti, ride sharing e food delivery per anno di fondazione (dalla più antica):",
+  "items": [
+    "Zipcar",
+    "Uber",
+    "Lyft",
+    "Deliveroo"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste note piattaforme e siti E-commerce per anno di lancio originale (dal più antico):",
+  "items": [
+    "Amazon",
+    "eBay",
+    "Alibaba",
+    "Shopify"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi linguaggi usati anche per lo sviluppo di app mobile per anno di prima apparizione (dal più vecchio):",
+  "items": [
+    "Objective-C",
+    "Java",
+    "Swift",
+    "Kotlin"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi capitoli storici della serie Call of Duty per anno di uscita (dal più vecchio):",
+  "items": [
+    "Call of Duty originale",
+    "Call of Duty 4: Modern Warfare",
+    "Call of Duty: Black Ops",
+    "Call of Duty: Warzone"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi giochi della serie Tomb Raider per anno di uscita (dal più vecchio al più recente):",
+  "items": [
+    "Tomb Raider originale (1996)",
+    "Tomb Raider II",
+    "Tomb Raider: Legend",
+    "Shadow of the Tomb Raider"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste storiche famiglie di processori Intel per anno di introduzione sul mercato (dalla più antica):",
+  "items": [
+    "Pentium originale",
+    "Core 2 Duo",
+    "Core i7",
+    "Core i9"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste versioni principali dello standard Bluetooth per anno di adozione (dalla più vecchia):",
+  "items": [
+    "Bluetooth 1.0",
+    "Bluetooth 3.0",
+    "Bluetooth 4.0",
+    "Bluetooth 5.0"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi famosi lettori musicali portatili per anno di lancio (dal più vecchio):",
+  "items": [
+    "Sony Walkman (cassette)",
+    "Sony Discman (CD)",
+    "MPMan (primo lettore MP3)",
+    "Apple iPod originale"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste grandi acquisizioni nel mondo Tech in ordine cronologico (dalla meno recente alla più recente):",
+  "items": [
+    "Acquisizione di YouTube da parte di Google",
+    "Acquisizione di Instagram da parte di Facebook",
+    "Acquisizione di WhatsApp da parte di Facebook",
+    "Acquisizione di LinkedIn da parte di Microsoft"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi modelli di iPhone con denominazione 'Pro' per anno di uscita (dal più vecchio):",
+  "items": [
+    "iPhone 11 Pro",
+    "iPhone 12 Pro",
+    "iPhone 13 Pro",
+    "iPhone 14 Pro"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste storiche versioni di macOS (precedentemente Mac OS X) per data di rilascio (dalla più vecchia):",
+  "items": [
+    "Cheetah",
+    "Snow Leopard",
+    "Yosemite",
+    "Monterey"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste principali versioni del Kernel Linux per anno di rilascio (dalla più vecchia alla più recente):",
+  "items": [
+    "Kernel 1.0",
+    "Kernel 2.0",
+    "Kernel 3.0",
+    "Kernel 4.0"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste console per numero complessivo stimato di unità vendute nel mondo (dalla meno venduta alla più venduta fra queste):",
+  "items": [
+    "Wii U",
+    "Xbox One",
+    "Nintendo Switch",
+    "PlayStation 2"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina le prime edizioni di questi famosi videogiochi sportivi EA per anno di uscita originale (dal più vecchio):",
+  "items": [
+    "John Madden Football",
+    "FIFA International Soccer",
+    "NBA Live 95",
+    "EA Sports UFC"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste console portatili prodotte da Nintendo per anno di uscita (dalla più vecchia):",
+  "items": [
+    "Game Boy",
+    "Game Boy Advance",
+    "Nintendo DS",
+    "Nintendo 3DS"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi capitoli della serie sparatutto Halo per anno di uscita originale (dal più antico):",
+  "items": [
+    "Halo: Combat Evolved",
+    "Halo 3",
+    "Halo: Reach",
+    "Halo Infinite"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi grandi videogiochi di ruolo sviluppati da BioWare per anno di uscita (dal più vecchio):",
+  "items": [
+    "Baldur's Gate",
+    "Star Wars: Knights of the Old Republic",
+    "Mass Effect",
+    "Dragon Age: Origins"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi celebri giochi da tavolo storici per l'anno di prima pubblicazione della loro versione fisica originale (dal più antico):",
+  "items": [
+    "Monopoly",
+    "Scarabeo / Scrabble",
+    "Risiko",
+    "I Coloni di Catan"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi componenti hardware e memorie di un PC per velocità di accesso media (dal più lento al più veloce):",
+  "items": [
+    "Hard Disk Drive (HDD magnetico)",
+    "Solid State Drive (SSD)",
+    "Memoria RAM",
+    "Memoria Cache L1 del Processore"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi famosi videogiochi o serie sviluppate da Naughty Dog per anno della prima uscita originale (dal più vecchio):",
+  "items": [
+    "Crash Bandicoot originale",
+    "Jak and Daxter",
+    "Uncharted: Drake's Fortune",
+    "The Last of Us"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste famose piattaforme dedicate alla raccolta fondi o Crowdfunding per anno di lancio (dalla più vecchia):",
+  "items": [
+    "Indiegogo",
+    "Kickstarter",
+    "GoFundMe",
+    "Patreon"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi noti videogiochi RPG occidentali per anno di uscita del primo capitolo della loro serie (dal più antico):",
+  "items": [
+    "The Elder Scrolls (Arena)",
+    "Fallout originale",
+    "The Witcher",
+    "The Elder Scrolls V: Skyrim"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi videogiochi sviluppati dallo studio CD Projekt Red per anno di uscita (dal più vecchio al più recente):",
+  "items": [
+    "The Witcher originale",
+    "The Witcher 2: Assassins of Kings",
+    "The Witcher 3: Wild Hunt",
+    "Cyberpunk 2077"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi iconici capitoli in tre dimensioni della serie Super Mario per anno di uscita (dal più vecchio):",
+  "items": [
+    "Super Mario 64",
+    "Super Mario Sunshine",
+    "Super Mario Galaxy",
+    "Super Mario Odyssey"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste storiche e attuali aziende produttrici di telefoni e smartphone per anno di fondazione (dalla più antica):",
+  "items": [
+    "Nokia",
+    "Motorola",
+    "Samsung Electronics",
+    "Xiaomi"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi noti protocolli, programmi o servizi per il trasferimento o condivisione di file per anno di invenzione o lancio (dal più vecchio):",
+  "items": [
+    "FTP (File Transfer Protocol)",
+    "BitTorrent",
+    "Dropbox",
+    "WeTransfer"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste storiche console domestiche per generazione di appartenenza (dalla più vecchia alla più recente):",
+  "items": [
+    "Atari 2600",
+    "Nintendo Entertainment System",
+    "Sega Mega Drive",
+    "Sony PlayStation 1"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste note applicazioni o software per videoconferenze per anno di lancio (dal più vecchio):",
+  "items": [
+    "Webex",
+    "Skype",
+    "Zoom",
+    "Google Meet"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi noti strumenti software per creativi, artisti e designer per anno di lancio originale (dal più vecchio):",
+  "items": [
+    "AutoCAD",
+    "Adobe Photoshop",
+    "Blender",
+    "Figma"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi capitoli della serie Animal Crossing per anno di uscita europea o mondiale (dal più vecchio):",
+  "items": [
+    "Animal Crossing (GameCube)",
+    "Animal Crossing: Wild World",
+    "Animal Crossing: New Leaf",
+    "Animal Crossing: New Horizons"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste famose aziende attive nella produzione di droni civili per anno di fondazione (dalla più antica):",
+  "items": [
+    "Parrot",
+    "Yuneec",
+    "DJI",
+    "Skydio"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina questi noti modelli di visori per la Realtà Virtuale della famiglia Oculus/Meta per data di uscita (dal più vecchio):",
+  "items": [
+    "Oculus Rift CV1",
+    "Oculus Go",
+    "Oculus Quest originale",
+    "Meta Quest 3"
+  ]
+},
+{
+  "category": "Tecnologia e Videogiochi",
+  "question": "Ordina queste classiche espansioni del MMORPG World of Warcraft per anno di pubblicazione (dalla più vecchia):",
+  "items": [
+    "The Burning Crusade",
+    "Wrath of the Lich King",
+    "Cataclysm",
+    "Mists of Pandaria"
+  ]
+}
 ];

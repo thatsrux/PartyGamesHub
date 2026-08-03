@@ -20,6 +20,7 @@ export interface LobbyState {
   players: Record<string, Player>;
   game_state?: any;
   multigame_session?: any;
+  used_jeopardy_questions?: Record<string, boolean>;
 }
 
 export function useLobby(lobbyCode: string | null) {
@@ -215,6 +216,12 @@ export function useLobby(lobbyCode: string | null) {
     }
   };
 
+  const updateLobbyData = async (updates: any) => {
+    if (!lobbyCode) return;
+    const lobbyRef = ref(db, `lobbies/${lobbyCode}`);
+    await update(lobbyRef, updates);
+  };
+
   const leaveLobby = async () => {
     if (!lobbyCode || !userId) return;
     const playerRef = ref(db, `lobbies/${lobbyCode}/players/${userId}`);
@@ -233,6 +240,7 @@ export function useLobby(lobbyCode: string | null) {
     createLobby,
     joinLobby,
     leaveLobby,
+    updateLobbyData,
     updateGameState,
     setGameStatus,
     updatePlayerScore,

@@ -8,7 +8,7 @@ import type { JeopardyCategory } from './data';
 import { CATEGORY_EMOJIS } from '../../utils/categories';
 
 export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
-  const { lobby, updateGameState, updatePlayerScore, returnToLobbyOrNextGame } = useLobby(lobbyCode);
+  const { lobby, updateGameState, updatePlayerScore, returnToLobbyOrNextGame, updateLobbyData } = useLobby(lobbyCode);
   
   const gameState = lobby?.game_state || {};
   const phase = gameState.phase || 'board';
@@ -234,7 +234,17 @@ export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: strin
                       <button 
                         className="btn btn-primary" 
                         style={{ padding: '1.5rem', fontSize: '1.5rem', marginTop: 'auto' }}
-                        onClick={() => updateGameState({ phase: 'reveal' })}
+                        onClick={() => {
+                            updateGameState({ phase: 'reveal' });
+                            const encodeFirebaseKey = (str: string) => encodeURIComponent(str).replace(/\./g, '%2E');
+                            const qKey = encodeFirebaseKey(currentCell.questionObj.question);
+                            updateLobbyData({
+                                used_jeopardy_questions: {
+                                    ...(lobby?.used_jeopardy_questions || {}),
+                                    [qKey]: true
+                                }
+                            });
+                        }}
                       >
                           Rivela Risposta in TV
                       </button>
