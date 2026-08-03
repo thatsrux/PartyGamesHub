@@ -5,9 +5,10 @@ import type { GameThemeKey } from '../../utils/theme';
 interface BackgroundProps {
   theme?: GameThemeKey;
   children?: React.ReactNode;
+  customBackground?: string;
 }
 
-export default function Background({ theme = 'default', children }: BackgroundProps) {
+export default function Background({ theme = 'default', children, customBackground }: BackgroundProps) {
   const currentTheme = gameThemes[theme];
 
   return (
@@ -15,7 +16,7 @@ export default function Background({ theme = 'default', children }: BackgroundPr
       display: 'flex', 
       flexDirection: 'column', 
       height: '100dvh', /* Fix iOS Safari bouncing */
-      background: currentTheme.backgroundGradient, 
+      background: customBackground || currentTheme.backgroundGradient, 
       overflow: 'hidden',
       position: 'relative'
     }}>
