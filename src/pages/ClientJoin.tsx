@@ -390,8 +390,8 @@ export default function ClientJoin() {
               {showManagePlayers && (
                 <ManagePlayersModal 
                   lobbyCode={code} 
-                  players={lobby.players || {}} 
-                  currentUserId={userId} 
+                  players={lobby?.players || {}} 
+                  currentUserId={userId || ''} 
                   onClose={() => setShowManagePlayers(false)} 
                 />
               )}

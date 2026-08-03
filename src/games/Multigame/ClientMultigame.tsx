@@ -406,7 +406,7 @@ export default function ClientMultigame({ lobbyCode, userId }: { lobbyCode: stri
         {showManagePlayers && isAdmin && (
           <ManagePlayersModal 
             lobbyCode={lobbyCode} 
-            players={lobby.players || {}} 
+            players={lobby?.players || {}} 
             currentUserId={userId} 
             onClose={() => setShowManagePlayers(false)} 
           />
