@@ -5030,11 +5030,6 @@
     "truth": "Omero"
   },
   {
-    "category": "Geografia",
-    "text": "La capitale dell'Australia è...",
-    "truth": "Canberra"
-  },
-  {
     "category": "Cucina e Tradizioni",
     "text": "L'ingrediente principale del guacamole è...",
     "truth": "Avocado"
@@ -5138,11 +5133,6 @@
     "category": "Cinema e Serie TV",
     "text": "Nella serie 'Il Trono di Spade', la casata il cui motto è 'L'inverno sta arrivando' è la casata...",
     "truth": "Stark"
-  },
-  {
-    "category": "Cinema e Serie TV",
-    "text": "Il nome del pianeta natale di Superman è...",
-    "truth": "Krypton"
   },
   {
     "category": "Cinema e Serie TV",
@@ -6051,11 +6041,6 @@
   },
   {
     "category": "Geografia",
-    "text": "La capitale dell'Australia è...",
-    "truth": "Canberra"
-  },
-  {
-    "category": "Geografia",
     "text": "Il fiume più lungo del mondo, in Africa, è il...",
     "truth": "Nilo"
   },
@@ -6201,11 +6186,6 @@
   },
   {
     "category": "Geografia",
-    "text": "La capitale della Nuova Zelanda è...",
-    "truth": "Wellington"
-  },
-  {
-    "category": "Geografia",
     "text": "Il bacino endoreico più grande del mondo, considerato un mare chiuso, è il Mar...",
     "truth": "Caspio"
   },
@@ -6218,11 +6198,6 @@
     "category": "Geografia",
     "text": "Il paese asiatico tradizionalmente conosciuto come la Terra del Sol Levante è il...",
     "truth": "Giappone"
-  },
-  {
-    "category": "Geografia",
-    "text": "La capitale della Turchia è...",
-    "truth": "Ankara"
   },
   {
     "category": "Geografia",
@@ -7071,11 +7046,6 @@
   },
   {
     "category": "Musica",
-    "text": "Il vero nome di Lady Gaga è...",
-    "truth": "Stefani Joanne Angelina Germanotta"
-  },
-  {
-    "category": "Musica",
     "text": "Il celebre festival musicale del 1969 si tenne a...",
     "truth": "Woodstock"
   },
@@ -7548,11 +7518,6 @@
     "category": "Musica",
     "text": "L'artista americana che ha scioccato il mondo col 'twerking' e interprete di 'Wrecking Ball' è...",
     "truth": "Miley Cyrus"
-  },
-  {
-    "category": "Cultura Pop e Gossip",
-    "text": "Il vero nome di Lady Gaga è...",
-    "truth": "Stefani Joanne Angelina Germanotta"
   },
   {
     "category": "Cultura Pop e Gossip",
@@ -8093,11 +8058,6 @@
     "category": "Scienza e Natura",
     "text": "La branca della geofisica che studia i terremoti è...",
     "truth": "la sismologia"
-  },
-  {
-    "category": "Scienza e Natura",
-    "text": "L'organo più esteso del corpo umano è...",
-    "truth": "la pelle"
   },
   {
     "category": "Scienza e Natura",
@@ -9051,11 +9011,6 @@
   },
   {
     "category": "Storia e Mitologia",
-    "text": "Il primo imperatore romano fu...",
-    "truth": "Augusto"
-  },
-  {
-    "category": "Storia e Mitologia",
     "text": "La guerra dei cent'anni durò in realtà...",
     "truth": "116 anni"
   },
@@ -9211,11 +9166,6 @@
   },
   {
     "category": "Storia e Mitologia",
-    "text": "L'inventore della stampa a caratteri mobili in Europa fu...",
-    "truth": "Johannes Gutenberg"
-  },
-  {
-    "category": "Storia e Mitologia",
     "text": "L'assassinio dell'arciduca Francesco Ferdinando, che scatenò la Prima Guerra Mondiale, avvenne a...",
     "truth": "Sarajevo"
   },
@@ -9253,11 +9203,6 @@
     "category": "Storia e Mitologia",
     "text": "L'eroe che compì le famose Dodici Fatiche per espiare le sue colpe fu...",
     "truth": "Ercole (Eracle)"
-  },
-  {
-    "category": "Storia e Mitologia",
-    "text": "L'imperatore romano che, secondo la leggenda, suonava la lira mentre Roma bruciava fu...",
-    "truth": "Nerone"
   },
   {
     "category": "Storia e Mitologia",

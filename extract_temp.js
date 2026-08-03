@@ -1,20 +1,5 @@
-export interface JeopardyQuestion {
-  question: string;
-  answer: string;
-}
 
-export interface JeopardyCategory {
-  name: string;
-  questions: {
-    100: JeopardyQuestion[];
-    200: JeopardyQuestion[];
-    300: JeopardyQuestion[];
-    400: JeopardyQuestion[];
-    500: JeopardyQuestion[];
-  };
-}
-
-export const jeopardyCategories: JeopardyCategory[] = [
+    const data = [] = [
   {
     "name": "Cinema e Serie TV",
     "questions": {
@@ -287,7 +272,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Come si chiama il locale dove lavora Penny in The Big Bang Theory?",
-          "answer": "La fabbrica del formaggio"
+          "answer": "The Cheesecake Factory"
         },
         {
           "question": "Chi ha diretto il film Avatar del 2009?",
@@ -335,7 +320,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie in cui zombi cannibali sono chiamati 'vaganti', guidata dallo sceriffo Rick Grimes.",
-          "answer": "Morti che camminano"
+          "answer": "The Walking Dead"
         },
         {
           "question": "L'attore che interpreta l'assassino professionista in cerca di vendetta per il suo cane in 'John Wick'.",
@@ -407,7 +392,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "L'acronimo TARDIS è la cabina di polizia usata come macchina del tempo da questo famoso alieno britannico.",
-          "answer": "Dottor Chi"
+          "answer": "Doctor Who"
         },
         {
           "question": "Ha diretto thriller cerebrali e di successo come 'Inception', 'Interstellar' e 'Oppenheimer'.",
@@ -447,7 +432,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Serie TV mockumentary su un'azienda cartaria di Scranton, con Steve Carell nel ruolo del capo.",
-          "answer": "L'Ufficio"
+          "answer": "The Office"
         },
         {
           "question": "Il franchise horror macabro che vede come antagonista il sadico enigmista noto come Jigsaw.",
@@ -527,7 +512,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie TV britannica che narra le avventure di un Signore del Tempo alieno che viaggia nel TARDIS.",
-          "answer": "Dottor Chi"
+          "answer": "Doctor Who"
         },
         {
           "question": "Il film in cui un giovane leone di nome Simba deve reclamare il suo trono.",
@@ -613,7 +598,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie comica in forma di falso documentario ambientata negli uffici della Dunder Mifflin.",
-          "answer": "L'Ufficio"
+          "answer": "The Office"
         },
         {
           "question": "Il cattivo del film 'Die Hard - Trappola di cristallo', interpretato da Alan Rickman.",
@@ -741,7 +726,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie TV distopica basata sul romanzo di Margaret Atwood in cui le donne fertili sono ridotte in schiavitù.",
-          "answer": "Il racconto dell'ancella"
+          "answer": "The Handmaid's Tale"
         },
         {
           "question": "Questo film di Ridley Scott del 1982 è incentrato su un cacciatore di replicanti interpretato da Harrison Ford.",
@@ -753,7 +738,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie TV incentrata sulla famiglia reale britannica a partire dal regno della regina Elisabetta II.",
-          "answer": "La corona"
+          "answer": "The Crown"
         },
         {
           "question": "Questo regista ha diretto capolavori come 'Arancia meccanica' e '2001: Odissea nello spazio'.",
@@ -793,11 +778,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie comica che documenta in stile mockumentary la vita dei dipendenti della Dunder Mifflin.",
-          "answer": "L'Ufficio"
+          "answer": "The Office"
         },
         {
           "question": "Questo film di Martin Scorsese racconta la vita del broker Jordan Belfort.",
-          "answer": "Il lupo di Wall Street"
+          "answer": "The Wolf of Wall Street"
         },
         {
           "question": "In questa serie TV, un insegnante di ginnastica diventa l'allenatore di una squadra di calcio inglese della Premier League.",
@@ -863,7 +848,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La commedia drammatica in cui Jim Carrey scopre che la sua intera vita è un reality show televisivo.",
-          "answer": "Lo spettacolo di Truman"
+          "answer": "The Truman Show"
         },
         {
           "question": "Serie in cui il governatore britannico di Nassau deve fronteggiare il Capitano Flint, prequel de 'L'isola del tesoro'.",
@@ -871,7 +856,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il film vincitore dell'Oscar in cui un ragazzo delle baraccopoli indiane partecipa a 'Chi vuol essere milionario?'.",
-          "answer": "Il milionario/milionario dei bassifondi"
+          "answer": "The Millionaire / Slumdog Millionaire"
         },
         {
           "question": "Il co-creatore di 'Seinfeld' che interpreta una versione romanzata di se stesso in 'Curb Your Enthusiasm'.",
@@ -903,7 +888,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "L'esclusivo resort hawaiano, e in seguito siciliano, in cui si svolgono le vicende grottesche dell'omonima serie antologica.",
-          "answer": "Il Loto Bianco"
+          "answer": "The White Lotus"
         },
         {
           "question": "Il vero nome dell'attore noto per ruoli action e per essere il volto dell'inarrestabile sicario John Wick.",
@@ -911,7 +896,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Serie TV creata da Damon Lindelof basata su una misteriosa e inspiegabile 'dipartita' del 2% della popolazione mondiale.",
-          "answer": "Gli avanzi"
+          "answer": "The Leftovers"
         },
         {
           "question": "Il nome della malvagia multinazionale tecnologica fittizia al centro delle indagini informatiche nella serie 'Mr. Robot'.",
@@ -927,7 +912,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Serie drammatica che racconta l'ascesa e la disastrosa caduta dell'imprenditrice Elizabeth Holmes, fondatrice di Theranos.",
-          "answer": "L'abbandono"
+          "answer": "The Dropout"
         },
         {
           "question": "L'attore giapponese storico feticcio del regista Akira Kurosawa, formidabile star in film come 'I sette samurai'.",
@@ -947,7 +932,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Serie crime scandinava in cui le polizie di due paesi devono collaborare dopo il ritrovamento di un cadavere su un ponte di confine.",
-          "answer": "Il ponte (Bron/Broen)"
+          "answer": "The Bridge (Bron/Broen)"
         },
         {
           "question": "Esordio folgorante alla regia di Quentin Tarantino, sui cruenti retroscena e paranoie di una rapina andata storta.",
@@ -1039,7 +1024,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie creata da David Simon, spesso citata come una delle migliori di sempre, ambientata per le strade di Baltimora.",
-          "answer": "Il filo"
+          "answer": "The Wire"
         },
         {
           "question": "Il titolo del primo lungometraggio animato mai prodotto dalla Walt Disney, uscito nel 1937.",
@@ -1109,7 +1094,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie HBO ambientata a Baltimora che esplora il rapporto tra polizia, droga, politica, scuole e stampa.",
-          "answer": "Il filo"
+          "answer": "The Wire"
         },
         {
           "question": "Il nome della moneta d'oro usata dagli assassini nel mondo di 'John Wick'.",
@@ -1125,7 +1110,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "L'inquietante film del 2014 di Jonathan Glazer in cui Scarlett Johansson interpreta un'entità aliena in Scozia.",
-          "answer": "Sotto la pelle"
+          "answer": "Under the Skin"
         },
         {
           "question": "Il nome della nave da esplorazione spaziale che nel 1979 capta un SOS alieno nel primo 'Alien'.",
@@ -1173,7 +1158,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La cruda e realistica serie TV creata da David Simon, celebre per il suo impareggiabile ritratto criminale della città di Baltimora.",
-          "answer": "Il filo"
+          "answer": "The Wire"
         },
         {
           "question": "L'attrice francese iconica protagonista del film 'Tre colori: Film Blu' dell'acclamato regista polacco Krzysztof Kieślowski.",
@@ -1277,7 +1262,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie creata da Damon Lindelof per HBO ambientata in un mondo in cui il 2% della popolazione mondiale è svanito nel nulla.",
-          "answer": "Gli avanzi"
+          "answer": "The Leftovers"
         },
         {
           "question": "L'attrice che detiene il record per il maggior numero di candidature ai premi Oscar, con ben 21 nomination.",
@@ -2711,7 +2696,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La storica band inglese formata da John, Paul, George e Ringo",
-          "answer": "Gli scarafaggi"
+          "answer": "The Beatles"
         },
         {
           "question": "Lo strumento a fiato d'ottone suonato dal celebre Louis Armstrong",
@@ -2791,7 +2776,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La band inglese di Mick Jagger e Keith Richards.",
-          "answer": "I Rolling Stones"
+          "answer": "The Rolling Stones"
         },
         {
           "question": "Il rapper statunitense marito di Beyoncé.",
@@ -2855,7 +2840,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La band inglese formata da John, Paul, George e Ringo.",
-          "answer": "Gli scarafaggi"
+          "answer": "The Beatles"
         },
         {
           "question": "La popstar che canta 'Material Girl' e 'Like a Virgin'.",
@@ -3049,7 +3034,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il gruppo inglese di \"Yellow Submarine\" e \"Hey Jude\".",
-          "answer": "Gli scarafaggi"
+          "answer": "The Beatles"
         },
         {
           "question": "Il genere musicale nato nel Bronx negli anni '70 che include rap e beatboxing.",
@@ -3207,7 +3192,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il leggendario album dei Pink Floyd con un prisma rifrangente in copertina",
-          "answer": "Il lato oscuro della luna"
+          "answer": "The Dark Side of the Moon"
         },
         {
           "question": "Lo strumento a fiato magistralmente suonato dal jazzista Miles Davis",
@@ -3275,7 +3260,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "L'album dei Pink Floyd con il famoso prisma e l'arcobaleno in copertina.",
-          "answer": "Il lato oscuro della luna"
+          "answer": "The Dark Side of the Moon"
         },
         {
           "question": "Il cantautore folk americano premiato con il Nobel per la letteratura nel 2016.",
@@ -3331,7 +3316,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "L'alter ego creato da Eminem, titolo del suo brano di successo del 2000.",
-          "answer": "Il vero magro ombroso"
+          "answer": "The Real Slim Shady"
         },
         {
           "question": "Il cantautore italiano che ha fondato l'etichetta discografica Numero Uno insieme a Mogol.",
@@ -3371,7 +3356,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Popstar canadese di 'Blinding Lights' e 'Starboy'.",
-          "answer": "Il fine settimana"
+          "answer": "The Weeknd"
         },
         {
           "question": "Grande strumento a corde pizzicate usato nelle orchestre sinfoniche classiche.",
@@ -3537,7 +3522,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il primo video musicale trasmesso da MTV il 1° agosto 1981.",
-          "answer": "Il video ha ucciso la star della radio"
+          "answer": "Video Killed the Radio Star"
         },
         {
           "question": "Il cantautore pop britannico interprete di \"Shape of You\" e \"Thinking Out Loud\".",
@@ -3605,7 +3590,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il complesso musicale di Los Angeles noto per il pionieristico sound surf rock negli anni '60.",
-          "answer": "I ragazzi della spiaggia"
+          "answer": "The Beach Boys"
         },
         {
           "question": "Il batterista dei Led Zeppelin, considerato uno dei più influenti della storia del rock, morto nel 1980.",
@@ -3747,7 +3732,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il titolo del primo e profetico videoclip musicale trasmesso da MTV il 1 agosto 1981",
-          "answer": "Il video ha ucciso la star della radio"
+          "answer": "Video Killed the Radio Star"
         },
         {
           "question": "I piccoli strumenti a percussione in legno tipicamente suonati dai ballerini di Flamenco spagnolo",
@@ -3759,7 +3744,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il celeberrimo album di Miles Davis del 1959, considerato il disco jazz più venduto di sempre",
-          "answer": "Tipo di blu"
+          "answer": "Kind of Blue"
         },
         {
           "question": "L'incredibile chitarrista jazz manouche diventato leggenda pur suonando gli assoli con solo due dita",
@@ -3883,7 +3868,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Album dei Pink Floyd del 1979, concepito anche come opera rock su un musicista alienato.",
-          "answer": "Il Muro"
+          "answer": "The Wall"
         },
         {
           "question": "La leggendaria cantante e solista jazz che era nota anche col soprannome di 'Lady Day'.",
@@ -5377,7 +5362,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il famoso simulatore di vita creato da Will Wright.",
-          "answer": "I Sims"
+          "answer": "The Sims"
         },
         {
           "question": "Il sistema operativo mobile sviluppato da Google, basato su kernel Linux.",
@@ -5981,7 +5966,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Immenso gioco di ruolo del 2015 di CD Projekt Red che ha come protagonista lo strigo Geralt di Rivia.",
-          "answer": "The Witcher 3: Caccia Selvaggia"
+          "answer": "The Witcher 3: Wild Hunt"
         },
         {
           "question": "L'azienda taiwanese nota come la più grande produttrice indipendente di semiconduttori al mondo.",
@@ -6239,11 +6224,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nell'ambito eSports, è il nome del torneo annuale più importante di Dota 2, noto storicamente per battere ogni record di montepremi.",
-          "answer": "L'Internazionale"
+          "answer": "The International"
         },
         {
           "question": "Videogioco per Atari 2600 del 1982 basato su un film di Spielberg, noto per essere stato sepolto nel deserto per le scarse vendite.",
-          "answer": "E.T. l'extraterrestre"
+          "answer": "E.T. the Extra-Terrestrial"
         },
         {
           "question": "Il videogioco di esplorazione spaziale generato proceduralmente sviluppato da Hello Games.",
@@ -6283,7 +6268,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La celebre frase 'It's dangerous to go alone! Take this.' proviene da questo storico videogioco.",
-          "answer": "La leggenda di Zelda"
+          "answer": "The Legend of Zelda"
         },
         {
           "question": "Il termine specifico per un software malevolo che blocca l'accesso ai dati chiedendo un riscatto.",
@@ -6307,7 +6292,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il capolavoro del 2015 della CD Projekt RED che ha per protagonista lo strigo Geralt di Rivia.",
-          "answer": "The Witcher 3: Caccia Selvaggia"
+          "answer": "The Witcher 3: Wild Hunt"
         },
         {
           "question": "L'acronimo della celebre azienda informatica IBM sta per 'International Business...'.",
@@ -6349,7 +6334,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il gioco sviluppato nel 1958 da William Higinbotham, considerato uno dei primi videogiochi della storia.",
-          "answer": "Tennis per due"
+          "answer": "Tennis for Two"
         },
         {
           "question": "Il nome del supercomputer IBM che sconfisse il campione del mondo di scacchi Garry Kasparov nel 1997.",
@@ -6381,7 +6366,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il disastroso videogioco per Atari del 1982 le cui cartucce invendute furono sepolte in una discarica del New Mexico.",
-          "answer": "E.T. l'extraterrestre"
+          "answer": "E.T. the Extra-Terrestrial"
         },
         {
           "question": "L'anno esatto in cui è stata rilasciata la prima versione commerciale del sistema operativo Windows 1.0.",
@@ -9902,7 +9887,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale piatto da asporto della cucina britannica è costituito da pesce fritto in pastella e patatine?",
-          "answer": "Pesce e patatine"
+          "answer": "Fish and chips"
         },
         {
           "question": "Quale formaggio fuso svizzero viene solitamente servito raschiato su patate e sottaceti?",
@@ -10811,7 +10796,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Qual è il nome della tournée mondiale da record di Taylor Swift iniziata nel 2023?",
-          "answer": "Il Giro delle Ere"
+          "answer": "The Eras Tour"
         },
         {
           "question": "Chi era l'interprete principale del film per adolescenti High School Musical?",
@@ -10851,7 +10836,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il nome d'arte di Abel Makkonen Tesfaye, autore di \"Blinding Lights\"",
-          "answer": "Il fine settimana"
+          "answer": "The Weeknd"
         },
         {
           "question": "Il presentatore del \"The Tonight Show\" americano",
@@ -10871,7 +10856,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La serie HBO sui draghi prequel di Game of Thrones",
-          "answer": "Casa del Drago"
+          "answer": "House of the Dragon"
         },
         {
           "question": "L'attore di \"Spiderman\" che fa coppia con Zendaya",
@@ -10923,7 +10908,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "L'artista canadese che ha cantato la hit 'Blinding Lights' e si è esibito durante l'halftime show del Super Bowl 2021.",
-          "answer": "Il fine settimana"
+          "answer": "The Weeknd"
         },
         {
           "question": "Il cantante canadese divenuto famoso da giovanissimo con il brano 'Baby', storico ex fidanzato di Selena Gomez.",
@@ -10931,7 +10916,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La docuserie di successo su Netflix che ripercorre l'ultima stagione di Michael Jordan con i Chicago Bulls.",
-          "answer": "L'ultimo ballo"
+          "answer": "The Last Dance"
         },
         {
           "question": "L'attrice emergente diventata una star globale per aver interpretato Mercoledì Addams nella serie Netflix di Tim Burton.",
@@ -11093,7 +11078,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il tour di Taylor Swift che ha battuto ogni record di incassi nel 2023-2024",
-          "answer": "Il Giro delle Ere"
+          "answer": "The Eras Tour"
         },
         {
           "question": "L'attrice di \"Friends\" che ha sposato Brad Pitt nel 2000",
@@ -11285,11 +11270,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il nome dell'immensamente popolare e longevo podcast condotto dal comico e commentatore sportivo Joe Rogan, il più ascoltato su Spotify.",
-          "answer": "L'esperienza di Joe Rogan"
+          "answer": "The Joe Rogan Experience"
         },
         {
           "question": "L'avvincente docu-serie sportiva uscita nel 2020 che racconta in maniera approfondita l'ultima leggendaria stagione di Michael Jordan con la maglia dei Chicago Bulls.",
-          "answer": "L'ultimo ballo"
+          "answer": "The Last Dance"
         },
         {
           "question": "La giovane e innovativa cantante interprete della hit \"Bad Guy\", spesso nota per i suoi eccentrici capelli bicolor e vincitrice di svariati Grammy Awards.",
@@ -11487,7 +11472,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il nome d'arte con cui è universalmente conosciuto l'acclamato cantautore R&B canadese Abel Makkonen Tesfaye.",
-          "answer": "Il fine settimana"
+          "answer": "The Weeknd"
         },
         {
           "question": "Il film adolescenziale di culto del 2004 con Lindsay Lohan che ha coniato l'iconica frase 'Di mercoledì ci vestiamo di rosa'.",
@@ -11653,7 +11638,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il nome del podcast di Joe Rogan, venduto a Spotify per cifre astronomiche",
-          "answer": "L'esperienza di Joe Rogan"
+          "answer": "The Joe Rogan Experience"
         },
         {
           "question": "L'attore che ha rifiutato il ruolo di Neo in Matrix scegliendo Wild Wild West",
@@ -11845,7 +11830,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "L'amatissima e iconica serie comica girata in stile finto documentario, denominato in gergo televisivo mockumentary, nella quale il simpatico ma imbarazzante ed eccentrico personaggio di Michael Scott gestisce goffamente le dinamiche di un tipico e noioso ufficio per venditori e fornitori di carta presso la cittadina di Scranton.",
-          "answer": "L'Ufficio (Stati Uniti)"
+          "answer": "The Office (US)"
         }
       ]
     }
@@ -11875,211 +11860,211 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Quattro"
         },
         {
-          "question": "Questo sport è caratterizzato da una rete, una racchetta e l'amore.",
+          "question": "This sport features a net, a racket, and love.",
           "answer": "Tennis"
         },
         {
-          "question": "In questo sport, un 'touchdown' vale 6 punti.",
+          "question": "In this sport, a 'touchdown' is worth 6 points.",
           "answer": "American Football"
         },
         {
-          "question": "La NBA è la principale lega professionistica di questo sport.",
+          "question": "The NBA is the premier professional league for this sport.",
           "answer": "Basketball"
         },
         {
-          "question": "Una partita di calcio standard dura tanti minuti, più il tempo di recupero.",
+          "question": "A standard game of soccer lasts this many minutes, plus stoppage time.",
           "answer": "90"
         },
         {
-          "question": "Questo attrezzo viene colpito con una mazza nel golf.",
+          "question": "This piece of equipment is hit with a club in golf.",
           "answer": "Golf ball"
         },
         {
-          "question": "Nel baseball, questo giocatore lancia la palla al battitore.",
+          "question": "In baseball, this player throws the ball to the batter.",
           "answer": "Pitcher"
         },
         {
-          "question": "Il nome di questa arte marziale significa \"mano vuota\".",
+          "question": "This martial art's name translates to 'empty hand'.",
           "answer": "Karate"
         },
         {
-          "question": "In questo sport i giocatori cercano di abbattere 10 birilli con una palla pesante.",
+          "question": "In this sport, players try to knock down 10 pins with a heavy ball.",
           "answer": "Bowling"
         },
         {
-          "question": "In questo sport viene assegnata la Stanley Cup.",
+          "question": "The Stanley Cup is awarded in this sport.",
           "answer": "Ice Hockey"
         },
         {
-          "question": "Questo evento su pista è lungo esattamente 22 miglia.",
+          "question": "This track event is exactly 26.2 miles long.",
           "answer": "Marathon"
         },
         {
-          "question": "Questo stile di nuoto è spesso considerato il più veloce e viene utilizzato negli eventi di stile libero.",
+          "question": "This swimming stroke is often considered the fastest and is used in freestyle events.",
           "answer": "Freestyle"
         },
         {
-          "question": "Nella boxe, un KO significa questo.",
+          "question": "In boxing, a KO stands for this.",
           "answer": "Knockout"
         },
         {
-          "question": "Hai bisogno di una tavola, onde e un buon equilibrio per questo sport acquatico.",
+          "question": "You need a board, waves, and good balance for this water sport.",
           "answer": "Surfing"
         },
         {
-          "question": "Questo sport si gioca su un campo a forma di diamante.",
+          "question": "This sport is played on a diamond-shaped field.",
           "answer": "Baseball"
         },
         {
-          "question": "In questo sport colpisci un volano sopra una rete.",
+          "question": "In this sport, you hit a shuttlecock over a net.",
           "answer": "Badminton"
         },
         {
-          "question": "Il Tour de France è una gara famosa in questo sport.",
+          "question": "The Tour de France is a famous race in this sport.",
           "answer": "Cycling"
         },
         {
-          "question": "Nel football americano, questa posizione solitamente lancia la palla.",
+          "question": "In American football, this position usually throws the ball.",
           "answer": "Quarterback"
         },
         {
-          "question": "Questo sport utilizza una palla di ferro pesante attaccata a un filo, lanciata a distanza.",
+          "question": "This sport uses a heavy iron ball attached to a wire, thrown for distance.",
           "answer": "Hammer throw"
         },
         {
-          "question": "Un \"hole-in-one\" è un risultato ambito in questo sport.",
+          "question": "A 'hole-in-one' is a coveted achievement in this sport.",
           "answer": "Golf"
         },
         {
-          "question": "In questo sport, una pietra pesante viene fatta scivolare sul ghiaccio verso un'area bersaglio.",
+          "question": "In this sport, a heavy stone is slid across the ice toward a target area.",
           "answer": "Curling"
         },
         {
-          "question": "In quale sport eseguiresti una schiacciata?",
+          "question": "In what sport would you perform a slam dunk?",
           "answer": "Basketball"
         },
         {
-          "question": "Qual è il numero massimo di mazze che un golfista può portare nella borsa durante un giro?",
+          "question": "What is the maximum number of clubs a golfer is allowed to carry in their bag during a round?",
           "answer": "14"
         },
         {
-          "question": "Nel bowling, come si dice quando si abbattono tutti i birilli al primo lancio?",
+          "question": "In bowling, what is it called when you knock down all the pins on your first roll?",
           "answer": "Strike"
         },
         {
-          "question": "Quale sport si gioca su un campo con una mazza e una piccola palla dura e prevede la presenza di un lanciatore e di un wicketkeeper?",
+          "question": "Which sport is played on a pitch with a bat and a small hard ball, and features a bowler and a wicketkeeper?",
           "answer": "Cricket"
         },
         {
-          "question": "In quale sport sono presenti i termini \"amore\", \"deuce\" e \"vantaggio\"?",
+          "question": "What sport features the terms 'love', 'deuce', and 'advantage'?",
           "answer": "Tennis"
         },
         {
-          "question": "Nel football americano, quanti punti vale un touchdown?",
+          "question": "In American football, how many points is a touchdown worth?",
           "answer": "6"
         },
         {
-          "question": "Come si chiama l'oggetto usato al posto della palla nell'hockey su ghiaccio?",
+          "question": "What is the name of the object used instead of a ball in ice hockey?",
           "answer": "Puck"
         },
         {
-          "question": "Quale pezzo è spesso considerato il più potente in una partita a scacchi?",
+          "question": "Which piece is often considered the most powerful in a game of chess?",
           "answer": "Queen"
         },
         {
-          "question": "Di che colore è l'anello centrale in un bersaglio di tiro con l'arco tradizionale?",
+          "question": "What color is the center ring in a traditional archery target?",
           "answer": "Yellow (or Gold)"
         },
         {
-          "question": "Nel calcio, quale parte del corpo non può toccare intenzionalmente la palla per i giocatori in campo?",
+          "question": "In soccer, what part of the body cannot intentionally touch the ball for outfield players?",
           "answer": "Hands (or Arms)"
         },
         {
-          "question": "Quante basi ci sono su un diamante da baseball, esclusa casa base?",
+          "question": "How many bases are there on a baseball diamond, excluding home plate?",
           "answer": "3"
         },
         {
-          "question": "Quale arte marziale si traduce con \"modo gentile\" ed enfatizza le proiezioni e le prese?",
+          "question": "Which martial art translates to 'gentle way' and emphasizes throws and grappling?",
           "answer": "Judo"
         },
         {
-          "question": "Qual è il principale organo di governo delle associazioni calcistiche internazionali?",
+          "question": "What is the primary governing body for international association football?",
           "answer": "FIFA"
         },
         {
-          "question": "In quale sport le squadre competono per lanciare una pietra sul ghiaccio verso un bersaglio?",
+          "question": "In what sport do teams compete to sweep a stone across the ice towards a target?",
           "answer": "Curling"
         },
         {
-          "question": "Quale attrezzatura viene utilizzata per colpire un volano nel badminton?",
+          "question": "What piece of equipment is used to hit a shuttlecock in badminton?",
           "answer": "Racket"
         },
         {
-          "question": "In quale evento di atletica leggera gli atleti si passano il testimone?",
+          "question": "In what track and field event do athletes pass a baton to each other?",
           "answer": "Relay"
         },
         {
-          "question": "Quale animale viene cavalcato negli sport equestri?",
+          "question": "What animal is ridden in equestrian sports?",
           "answer": "Horse"
         },
         {
-          "question": "Quale stile di nuoto viene eseguito sulla schiena?",
+          "question": "Which swimming stroke is performed on the back?",
           "answer": "Backstroke"
         },
         {
-          "question": "Qual è la lunghezza standard di una maratona in miglia?",
+          "question": "What is the standard length of a marathon in miles?",
           "answer": "26.2 miles"
         },
         {
-          "question": "Nella boxe, come si dice quando un combattente viene abbattuto e non riesce a rialzarsi prima che l'arbitro conti fino a dieci?",
+          "question": "In boxing, what is it called when a fighter is knocked down and cannot stand up before the referee counts to ten?",
           "answer": "Knockout (KO)"
         },
         {
-          "question": "In quale sport i giocatori usano una racchetta per colpire un volano sopra una rete?",
+          "question": "In which sport do players use a racket to hit a shuttlecock over a net?",
           "answer": "Badminton"
         },
         {
-          "question": "Quanti giocatori sono presenti contemporaneamente in campo in una squadra di baseball standard?",
+          "question": "How many players are on a standard baseball team on the field at one time?",
           "answer": "Nine"
         },
         {
-          "question": "Quale sport viene spesso definito a livello globale \"il bellissimo gioco\"?",
+          "question": "Which sport is often referred to globally as 'the beautiful game'?",
           "answer": "Soccer"
         },
         {
-          "question": "Di che colore è l'anello centrale su un bersaglio di tiro con l'arco standard?",
+          "question": "What color is the center ring on a standard archery target?",
           "answer": "Yellow"
         },
         {
-          "question": "Nel football americano, quanti punti vale un touchdown?",
+          "question": "In American football, how many points is a touchdown worth?",
           "answer": "Six"
         },
         {
-          "question": "Nel basket, qual è il termine per far rimbalzare la palla mentre si muove?",
+          "question": "In basketball, what is the term for bouncing the ball while moving?",
           "answer": "Dribbling"
         },
         {
-          "question": "Quale sport si svolge su una pista ovale ripida chiamata velodromo?",
+          "question": "What sport takes place on a steeply banked oval track called a velodrome?",
           "answer": "Cycling"
         },
         {
-          "question": "Quale paese ospita il famoso torneo di tennis di Wimbledon?",
+          "question": "Which country hosts the famous Wimbledon tennis tournament?",
           "answer": "United Kingdom"
         },
         {
-          "question": "Quante buche vengono giocate in un giro completo di golf standard?",
+          "question": "How many holes are played in a standard, full round of golf?",
           "answer": "18"
         },
         {
-          "question": "Come si chiama il disco di gomma dura colpito dai giocatori di hockey su ghiaccio?",
+          "question": "What is the name of the hard rubber disc hit by the players in ice hockey?",
           "answer": "Puck"
         },
         {
-          "question": "Nella boxe, cosa significano le lettere \"KO\"?",
+          "question": "In boxing, what do the letters 'KO' stand for?",
           "answer": "Knockout"
         },
         {
-          "question": "Quale stile di nuoto competitivo prende il nome da un insetto?",
+          "question": "Which competitive swimming stroke is named after an insect?",
           "answer": "Butterfly"
         },
         {
@@ -12087,19 +12072,19 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Basketball"
         },
         {
-          "question": "Quale parola si usa nel tennis per indicare un punteggio pari a zero?",
+          "question": "What word is used in tennis to indicate a score of zero?",
           "answer": "Love"
         },
         {
-          "question": "Quale sport invernale utilizza una scopa e una pesante pietra levigata su una lastra di ghiaccio?",
+          "question": "Which winter sport uses a broom and a heavy polished stone on a sheet of ice?",
           "answer": "Curling"
         },
         {
-          "question": "Nel bowling a dieci birilli, come si dice quando si abbattono tutti i birilli con la prima biglia?",
+          "question": "In ten-pin bowling, what is it called when you knock down all the pins with the first ball?",
           "answer": "Strike"
         },
         {
-          "question": "Qual è il numero massimo di mazze che un golfista può portare nella borsa durante un giro?",
+          "question": "What is the maximum number of clubs a golfer is allowed to carry in their bag during a round?",
           "answer": "14"
         },
         {
@@ -12107,11 +12092,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Rowing"
         },
         {
-          "question": "Quale evento atletico consiste in una gara continua di nuoto, ciclismo e corsa?",
+          "question": "Which athletic event consists of a continuous race of swimming, cycling, and running?",
           "answer": "Triathlon"
         },
         {
-          "question": "Quale nome di arte marziale significa \"la via gentile\" in giapponese?",
+          "question": "What martial art's name translates to 'the gentle way' in Japanese?",
           "answer": "Judo"
         }
       ],
@@ -12141,199 +12126,199 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Love"
         },
         {
-          "question": "Questo paese vinse la prima Coppa del Mondo maschile FIFA nel 1930.",
+          "question": "This country won the first-ever FIFA Men's World Cup in 1930.",
           "answer": "Uruguay"
         },
         {
-          "question": "Michael Phelps detiene il record per il maggior numero di medaglie d'oro olimpiche in questo sport.",
+          "question": "Michael Phelps holds the record for the most Olympic gold medals in this sport.",
           "answer": "Swimming"
         },
         {
-          "question": "Questa leggenda del basket viene spesso chiamata con le sue iniziali, MJ.",
+          "question": "This basketball legend is often referred to by his initials, MJ.",
           "answer": "Michael Jordan"
         },
         {
-          "question": "Nel rugby, una \"meta\" vale così tanti punti.",
+          "question": "In rugby, a 'try' is worth this many points.",
           "answer": "5"
         },
         {
-          "question": "Questo torneo di tennis del Grande Slam si gioca su campi in terra battuta.",
+          "question": "This Grand Slam tennis tournament is played on clay courts.",
           "answer": "French Open"
         },
         {
-          "question": "Questo velocista giamaicano ha stabilito il record mondiale nei 100 e 200 metri ai Campionati del mondo del 2009.",
+          "question": "This Jamaican sprinter set world records in the 100m and 200m at the 2009 World Championships.",
           "answer": "Usain Bolt"
         },
         {
-          "question": "In una partita standard di pallavolo, sono presenti in campo questo numero di giocatori di una squadra alla volta.",
+          "question": "In a standard game of volleyball, this many players from one team are on the court at a time.",
           "answer": "6"
         },
         {
-          "question": "Questo pugile leggendario era conosciuto come \"Il più grande\" e diceva \"Vola come una farfalla, pungi come un'ape\".",
+          "question": "This legendary boxer was known as 'The Greatest' and famously said 'Float like a butterfly, sting like a bee.'",
           "answer": "Muhammad Ali"
         },
         {
-          "question": "Nel golf, completare una buca con un colpo sotto il par si chiama così.",
+          "question": "In golf, completing a hole one stroke under par is called this.",
           "answer": "Birdie"
         },
         {
-          "question": "Questo sport di squadra si gioca a cavallo e consiste nel colpire una palla con una mazza di legno.",
+          "question": "This team sport is played on horseback and involves hitting a ball with a wooden mallet.",
           "answer": "Polo"
         },
         {
-          "question": "Questa squadra della NFL ha una stella sul casco ed è spesso chiamata \"America's Team\".",
+          "question": "This NFL team has a star on its helmet and is often called 'America\\'s Team.'",
           "answer": "Dallas Cowboys"
         },
         {
-          "question": "La Ryder Cup è una competizione biennale in questo sport.",
+          "question": "The Ryder Cup is a biennial competition in this sport.",
           "answer": "Golf"
         },
         {
-          "question": "Questo paese è considerato il luogo di nascita del golf moderno.",
+          "question": "This country is considered the birthplace of modern golf.",
           "answer": "Scotland"
         },
         {
-          "question": "Questa ginnasta ha segnato il primo 10 perfetto alle Olimpiadi del 1976.",
+          "question": "This gymnast scored the first perfect 10 at the 1976 Olympics.",
           "answer": "Nadia Comaneci"
         },
         {
-          "question": "Nel baseball, così tanti strike significano che il battitore è eliminato.",
+          "question": "In baseball, this many strikes mean the batter is out.",
           "answer": "3"
         },
         {
-          "question": "Questo sport è anche conosciuto come ping-pong.",
+          "question": "This sport is also known as ping-pong.",
           "answer": "Table Tennis"
         },
         {
-          "question": "Nell'hockey su ghiaccio, una squadra può giocare sul ghiaccio contemporaneamente, compreso il portiere.",
+          "question": "In ice hockey, a team is allowed this many players on the ice at one time, including the goalie.",
           "answer": "6"
         },
         {
-          "question": "Questa stella del calcio brasiliano è conosciuta semplicemente con un nome e ha vinto tre Coppe del Mondo.",
+          "question": "This Brazilian football star is known simply by one name and won three World Cups.",
           "answer": "Pele"
         },
         {
-          "question": "Nella scherma, questo è il nome dell'arma più leggera e utilizzata.",
+          "question": "In fencing, this is the name of the lightest and most common weapon used.",
           "answer": "Foil"
         },
         {
-          "question": "Quale evento multisportivo internazionale si tiene ogni quattro anni e prevede sia giochi estivi che invernali?",
-          "answer": "Le Olimpiadi"
+          "question": "What international multi-sport event is held every four years and features both Summer and Winter games?",
+          "answer": "The Olympics"
         },
         {
-          "question": "Nel golf, quale termine descrive il punteggio di un colpo sotto il par in una buca?",
+          "question": "In golf, what term describes scoring one stroke under par on a hole?",
           "answer": "Birdie"
         },
         {
-          "question": "A quale paese è attribuita l'invenzione del moderno gioco del ping pong, originariamente chiamato \"Whiff-Whaff\"?",
+          "question": "Which country is credited with inventing the modern game of table tennis, originally calling it 'Whiff-Whaff'?",
           "answer": "England"
         },
         {
-          "question": "Nella pallavolo, quanti giocatori ci sono in campo per una squadra alla volta?",
+          "question": "In volleyball, how many players are on the court for one team at a time?",
           "answer": "6"
         },
         {
-          "question": "Qual è il termine per un punteggio perfetto di 300 in una partita di bowling a dieci birilli?",
+          "question": "What is the term for a perfect score of 300 in a game of ten-pin bowling?",
           "answer": "Perfect Game"
         },
         {
-          "question": "Quale torneo di tennis del Grande Slam si gioca su campi in terra battuta?",
+          "question": "Which Grand Slam tennis tournament is played on clay courts?",
           "answer": "French Open (Roland Garros)"
         },
         {
-          "question": "Nel basket, quanto dista la linea del tiro libero dal canestro?",
+          "question": "In basketball, how far from the hoop is the free-throw line?",
           "answer": "15 feet"
         },
         {
-          "question": "Qual è l'unico paese ad aver giocato in ogni singolo torneo della Coppa del Mondo FIFA?",
+          "question": "What is the only country to have played in every single FIFA World Cup tournament?",
           "answer": "Brazil"
         },
         {
-          "question": "In quale sport potresti \"catturare un granchio\"?",
+          "question": "In what sport might you 'catch a crab'?",
           "answer": "Rowing"
         },
         {
-          "question": "Quale squadra di Formula 1 è famosa per le sue auto rosso vivo e il logo del \"cavallino rampante\"?",
+          "question": "Which Formula 1 team is famous for its bright red cars and 'prancing horse' logo?",
           "answer": "Ferrari"
         },
         {
-          "question": "Qual è il nome della più alta lega di basket professionistica del Nord America?",
+          "question": "What is the name of the highest professional basketball league in North America?",
           "answer": "NBA"
         },
         {
-          "question": "Nel rugby quanti punti vale una meta?",
+          "question": "In rugby union, how many points is a try worth?",
           "answer": "5"
         },
         {
-          "question": "Cosa significano le lettere \"BMX\" nel ciclismo?",
+          "question": "What do the letters 'BMX' stand for in cycling?",
           "answer": "Bicycle Motocross"
         },
         {
-          "question": "Nella scherma, quale delle tre armi ha un'area di tiro valida limitata strettamente al busto?",
+          "question": "In fencing, which of the three weapons has a valid target area limited strictly to the torso?",
           "answer": "Foil"
         },
         {
-          "question": "Qual è la cintura più difficile da guadagnare nel Karate tradizionale prima di ottenere una cintura nera?",
+          "question": "What is the hardest belt to earn in traditional Karate before achieving a black belt?",
           "answer": "Brown belt"
         },
         {
-          "question": "Nelle freccette, qual è il valore del bullseye esterno?",
+          "question": "In darts, what is the value of the outer bullseye?",
           "answer": "25"
         },
         {
-          "question": "Quale sport utilizza una palla pesante specializzata con tre fori per le dita?",
+          "question": "Which sport uses a specialized heavy ball with three finger holes?",
           "answer": "Bowling"
         },
         {
-          "question": "Nella ginnastica, il cavallo con maniglie è tradizionalmente un attrezzo utilizzato solo da quale sesso?",
+          "question": "In gymnastics, the pommel horse is traditionally an apparatus used only by which gender?",
           "answer": "Men"
         },
         {
-          "question": "Qual è il nome della serie di campionati della Major League Baseball?",
+          "question": "What is the name of the championship series in Major League Baseball?",
           "answer": "World Series"
         },
         {
-          "question": "In quale sport i concorrenti percorrono a faccia in giù una piccola slitta lungo una pista ghiacciata?",
+          "question": "In what sport do competitors ride on a small sled down a frozen track face-first?",
           "answer": "Skeleton"
         },
         {
-          "question": "Chi ha vinto più medaglie d'oro olimpiche nella storia del nuoto?",
+          "question": "Who has won the most Olympic gold medals in swimming history?",
           "answer": "Michael Phelps"
         },
         {
-          "question": "In quale città asiatica si sono svolte le Olimpiadi estive del 2008?",
+          "question": "In which Asian city were the 2008 Summer Olympics held?",
           "answer": "Beijing"
         },
         {
-          "question": "Quale sport di contatto pesante è ampiamente considerato lo sport nazionale del Giappone?",
+          "question": "What heavy contact sport is widely considered the national sport of Japan?",
           "answer": "Sumo Wrestling"
         },
         {
-          "question": "Quanti round sono generalmente programmati in un moderno incontro di boxe di un campionato professionistico?",
+          "question": "How many rounds are typically scheduled in a modern professional championship boxing match?",
           "answer": "12"
         },
         {
-          "question": "Qual è il diametro di un canestro da basket standard in pollici?",
+          "question": "What is the diameter of a standard basketball hoop in inches?",
           "answer": "18"
         },
         {
-          "question": "Quale squadra della NFL ha un logo con un'unica stella blu sul casco argentato?",
+          "question": "Which NFL team has a logo featuring a single blue star on their silver helmet?",
           "answer": "Dallas Cowboys"
         },
         {
-          "question": "Qual è il break più alto che un giocatore può ottenere in una partita di snooker standard?",
+          "question": "What is the highest possible break a player can achieve in a standard game of snooker?",
           "answer": "147"
         },
         {
-          "question": "Quale nazione sudamericana vinse la prima Coppa del Mondo FIFA nel 1930?",
+          "question": "Which South American country won the first ever FIFA World Cup in 1930?",
           "answer": "Uruguay"
         },
         {
-          "question": "Nel baseball, quale difensore è posizionato tra la seconda e la terza base?",
+          "question": "In baseball, which defensive player is positioned between second and third base?",
           "answer": "Shortstop"
         },
         {
-          "question": "Di che colore è la maglia tradizionalmente indossata dal leader del tempo assoluto al Tour de France?",
+          "question": "What color jersey is traditionally worn by the overall time leader in the Tour de France?",
           "answer": "Yellow"
         },
         {
@@ -12341,19 +12326,19 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Serena Williams"
         },
         {
-          "question": "Nel golf, qual è il termine per completare una buca in un colpo sotto il par?",
+          "question": "In golf, what is the term for completing a hole in one stroke under par?",
           "answer": "Birdie"
         },
         {
-          "question": "Qual è la distanza in miglia di una maratona standard?",
+          "question": "What distance in miles is a standard marathon race?",
           "answer": "26.2"
         },
         {
-          "question": "Quale sport prevede una ripresa del gioco nota come \"mischia\"?",
+          "question": "Which sport features a restart of play known as a 'scrum'?",
           "answer": "Rugby"
         },
         {
-          "question": "Quale evento di atletica leggera combina 10 diverse discipline in due giorni?",
+          "question": "What track and field event combines 10 different disciplines over two days?",
           "answer": "Decathlon"
         },
         {
@@ -12361,19 +12346,19 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Wilt Chamberlain"
         },
         {
-          "question": "Qual è l'unica nazione ad aver giocato in ogni singolo torneo della Coppa del Mondo maschile FIFA?",
+          "question": "What is the only country to have played in every single FIFA Men's World Cup tournament?",
           "answer": "Brazil"
         },
         {
-          "question": "Nelle gare di Formula 1, cosa significa una bandiera a scacchi sventolata davanti a un pilota?",
-          "answer": "Fine della corsa"
+          "question": "In Formula 1 racing, what does a checkered flag signify when waved at a driver?",
+          "answer": "End of the race"
         },
         {
-          "question": "Quanto misura in metri una piscina olimpionica standard?",
+          "question": "How long is a standard Olympic-size swimming pool in meters?",
           "answer": "50"
         },
         {
-          "question": "La squadra nazionale di rugby di quale paese è famosa per eseguire la danza Haka prima delle partite?",
+          "question": "Which country's national rugby team is famous for performing the Haka dance before matches?",
           "answer": "New Zealand"
         }
       ],
@@ -12399,171 +12384,171 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "300"
         },
         {
-          "question": "Questa città ha ospitato le Olimpiadi estive del 2016.",
+          "question": "This city hosted the 2016 Summer Olympics.",
           "answer": "Rio de Janeiro"
         },
         {
-          "question": "Nel basket, James Naismith li usava come primi cerchi.",
+          "question": "In basketball, James Naismith used these as the first hoops.",
           "answer": "Peach baskets"
         },
         {
-          "question": "Questo pilota di Formula 1 detiene il record per il maggior numero di campionati del mondo, a pari merito con Michael Schumacher a sette.",
+          "question": "This Formula 1 driver holds the record for the most World Championships, tied with Michael Schumacher at seven.",
           "answer": "Lewis Hamilton"
         },
         {
-          "question": "\"Ashes\" è una famosa serie di cricket giocata tra l'Inghilterra e questo paese.",
+          "question": "The 'Ashes' is a famous cricket series played between England and this country.",
           "answer": "Australia"
         },
         {
-          "question": "Questo quarterback della NFL detiene il record per il maggior numero di anelli del Super Bowl vinti da un giocatore.",
+          "question": "This NFL quarterback holds the record for the most Super Bowl rings won by a player.",
           "answer": "Tom Brady"
         },
         {
-          "question": "Nello snooker, questa pallina colorata vale il maggior numero di punti, pari a 7.",
+          "question": "In snooker, this colored ball is worth the most points, at 7.",
           "answer": "Black"
         },
         {
-          "question": "Questa tennista ha vinto 23 titoli del Grande Slam in singolo nell'era Open.",
+          "question": "This female tennis player has won 23 Grand Slam singles titles in the Open Era.",
           "answer": "Serena Williams"
         },
         {
-          "question": "Nel decathlon, gli atleti competono in molti diversi eventi di atletica leggera.",
+          "question": "In the decathlon, athletes compete in this many different track and field events.",
           "answer": "10"
         },
         {
-          "question": "Questo paese ha vinto il maggior numero di medaglie nella storia delle Olimpiadi invernali.",
+          "question": "This country has won the most medals in the history of the Winter Olympics.",
           "answer": "Norway"
         },
         {
-          "question": "La Giacca Verde viene assegnata al vincitore di questo importante torneo di golf.",
-          "answer": "I Maestri"
+          "question": "The Green Jacket is awarded to the winner of this major golf tournament.",
+          "answer": "The Masters"
         },
         {
-          "question": "Nella lotta di sumo, il grado più alto che un lottatore può raggiungere si chiama così.",
+          "question": "In sumo wrestling, the highest rank a wrestler can achieve is called this.",
           "answer": "Yokozuna"
         },
         {
-          "question": "Questo giocatore della NHL è ampiamente conosciuto come \"The Great One\".",
+          "question": "This NHL player is widely known as 'The Great One.'",
           "answer": "Wayne Gretzky"
         },
         {
-          "question": "In una partita a freccette, questo è il punteggio più alto possibile con tre freccette.",
+          "question": "In a game of darts, this is the highest possible score with three darts.",
           "answer": "180"
         },
         {
-          "question": "Al vincitore di questa partita di campionato viene assegnato il Trofeo Vince Lombardi.",
+          "question": "The Vince Lombardi Trophy is awarded to the winner of this championship game.",
           "answer": "Super Bowl"
         },
         {
-          "question": "Questo tipo di gara prevede il nuoto, il ciclismo e la corsa.",
+          "question": "This type of race involves swimming, cycling, and running.",
           "answer": "Triathlon"
         },
         {
-          "question": "Nel judo, una partita viene vinta immediatamente se un concorrente segna questo punto.",
+          "question": "In judo, a match is instantly won if a competitor scores this point.",
           "answer": "Ippon"
         },
         {
-          "question": "Questo paese africano è stato il primo del continente ad ospitare una Coppa del Mondo FIFA nel 2010.",
+          "question": "This African country was the first from the continent to host a FIFA World Cup in 2010.",
           "answer": "South Africa"
         },
         {
-          "question": "Nel football americano, questa è la lunghezza del campo da goal line a goal line, escluse le end zone.",
+          "question": "In American football, this is the length of the field from goal line to goal line, excluding the end zones.",
           "answer": "100 yards"
         },
         {
-          "question": "Questo famoso stadio di Londra è conosciuto come la \"casa del calcio\".",
+          "question": "This famous stadium in London is known as the 'Home of Football.'",
           "answer": "Wembley Stadium"
         },
         {
-          "question": "Nel pattinaggio artistico, questo salto è l'unico che parte da un bordo in avanti.",
+          "question": "In figure skating, this jump is the only one that takes off from a forward edge.",
           "answer": "Axel"
         },
         {
-          "question": "Chi detiene il record per il maggior numero di medaglie d'oro olimpiche vinte da un singolo atleta?",
+          "question": "Who holds the record for the most Olympic gold medals won by a single athlete?",
           "answer": "Michael Phelps"
         },
         {
-          "question": "Nel cricket, come si dice quando un giocatore di bocce prende tre wicket in consegne consecutive?",
+          "question": "In cricket, what is it called when a bowler takes three wickets on consecutive deliveries?",
           "answer": "Hat-trick"
         },
         {
-          "question": "Quale prestigiosa corsa ciclistica si conclude sugli Champs-Élysées di Parigi?",
+          "question": "Which prestigious cycling race concludes on the Champs-Élysées in Paris?",
           "answer": "Tour de France"
         },
         {
-          "question": "Qual è il diametro di un canestro da basket standard in pollici?",
+          "question": "What is the diameter of a standard basketball hoop in inches?",
           "answer": "18 inches"
         },
         {
-          "question": "Nella NFL, quale squadra vinse il primo Super Bowl nel 1967?",
+          "question": "In the NFL, what team won the very first Super Bowl in 1967?",
           "answer": "Green Bay Packers"
         },
         {
-          "question": "Quale major di golf si tiene ogni anno all'Augusta National Golf Club?",
-          "answer": "I Maestri"
+          "question": "Which golf major is held annually at the Augusta National Golf Club?",
+          "answer": "The Masters"
         },
         {
-          "question": "Di che materiale è fatta una mazza da baseball standard della Major League?",
+          "question": "What material is a standard Major League Baseball bat made from?",
           "answer": "Wood (Ash or Maple)"
         },
         {
-          "question": "Nello snooker, quanti punti vale la pallina nera?",
+          "question": "In snooker, how many points is the black ball worth?",
           "answer": "7"
         },
         {
-          "question": "Quale nazione vinse la prima Coppa del mondo di rugby nel 1987?",
+          "question": "Which country won the first ever Rugby World Cup in 1987?",
           "answer": "New Zealand"
         },
         {
-          "question": "Qual è la distanza ufficiale di una nuotata Ironman Triathlon?",
+          "question": "What is the official distance of an Ironman Triathlon swim?",
           "answer": "2.4 miles"
         },
         {
-          "question": "Nell'hockey su ghiaccio, quale trofeo viene assegnato ogni anno al campione dei playoff della National Hockey League?",
+          "question": "In ice hockey, what trophy is awarded annually to the National Hockey League playoff champion?",
           "answer": "Stanley Cup"
         },
         {
-          "question": "Quale sport è conteso per la Ryder Cup?",
+          "question": "Which sport is contested for the Ryder Cup?",
           "answer": "Golf"
         },
         {
-          "question": "Nella pallanuoto, quanti giocatori ci sono in acqua per una squadra durante il gioco regolare?",
+          "question": "In water polo, how many players are in the water for one team during regular play?",
           "answer": "7"
         },
         {
-          "question": "Come si chiama l'area in cui un lanciatore di baseball si riscalda durante una partita?",
+          "question": "What is the name of the area where a baseball pitcher warms up during a game?",
           "answer": "Bullpen"
         },
         {
-          "question": "Quali due squadre si contendono l'annuale regata sul Tamigi?",
-          "answer": "Oxford e Cambridge"
+          "question": "Which two teams contest the annual Boat Race on the River Thames?",
+          "answer": "Oxford and Cambridge"
         },
         {
-          "question": "Di che colore è la maglia indossata dal leader assoluto del Tour de France?",
+          "question": "What color jersey is worn by the overall leader in the Tour de France?",
           "answer": "Yellow"
         },
         {
-          "question": "Nell'atletica leggera, quanti eventi consiste nel decathlon?",
+          "question": "In track and field, the decathlon consists of how many events?",
           "answer": "10"
         },
         {
-          "question": "Quale arte marziale asiatica presenta uno stile di combattimento che utilizza pesantemente i calci e si traduce con \"la via del piede e del pugno\"?",
+          "question": "Which Asian martial art features a fighting style heavily utilizing kicks and translates to 'the way of the foot and fist'?",
           "answer": "Taekwondo"
         },
         {
-          "question": "Qual è stata la prima città ad ospitare due volte i Giochi Olimpici Moderni?",
+          "question": "What was the first city to host the modern Olympic Games twice?",
           "answer": "Paris"
         },
         {
-          "question": "In quale sport i giocatori usano una mazza per colpire una palla di legno o di plastica attraverso i cerchi inseriti in un campo in erba?",
+          "question": "In what sport do players use a mallet to hit a wooden or plastic ball through hoops embedded in a grass court?",
           "answer": "Croquet"
         },
         {
-          "question": "Chi è il miglior marcatore di tutti i tempi nella storia della UEFA Champions League?",
+          "question": "Who is the all-time leading goalscorer in the history of the UEFA Champions League?",
           "answer": "Cristiano Ronaldo"
         },
         {
-          "question": "In che anno si svolsero ad Atene i primi Giochi Olimpici dell'era moderna?",
+          "question": "In what year did the first modern Olympic Games take place in Athens?",
           "answer": "1896"
         },
         {
@@ -12571,71 +12556,71 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Golf"
         },
         {
-          "question": "Quale pugile dei pesi massimi era conosciuto in tutto il mondo come \"The Greatest\" e \"The Louisville Lip\"?",
+          "question": "Which heavyweight boxer was known globally as 'The Greatest' and 'The Louisville Lip'?",
           "answer": "Muhammad Ali"
         },
         {
-          "question": "Qual è il peso in chilogrammi di una palla standard per il lancio del peso maschile?",
+          "question": "What is the weight of a standard men's shot put ball in kilograms?",
           "answer": "7.26"
         },
         {
-          "question": "Quale nazione ha vinto il quarto titolo di Coppa del mondo di rugby maschile nel 2023, più di qualsiasi altra nazione?",
+          "question": "Which country won their fourth Men's Rugby World Cup title in 2023, the most of any nation?",
           "answer": "South Africa"
         },
         {
-          "question": "Chi detiene il record per il maggior numero di fuoricampo realizzati in una singola stagione della Major League Baseball?",
+          "question": "Who holds the record for the most home runs hit in a single Major League Baseball season?",
           "answer": "Barry Bonds"
         },
         {
-          "question": "In che anno si formò ufficialmente la National Hockey League (NHL)?",
+          "question": "In what year did the National Hockey League (NHL) officially form?",
           "answer": "1917"
         },
         {
-          "question": "Quale pilota condivide il record per il maggior numero di Campionati del Mondo di Formula 1 con Michael Schumacher?",
+          "question": "Which driver shares the record for the most Formula 1 World Championships with Michael Schumacher?",
           "answer": "Lewis Hamilton"
         },
         {
-          "question": "Chi è stata la prima ginnasta a segnare un 10 perfetto ai Giochi Olimpici?",
+          "question": "Who was the first gymnast to score a perfect 10 at the Olympic Games?",
           "answer": "Nadia Comaneci"
         },
         {
-          "question": "Quale quarterback della NFL detiene il record di tutti i tempi per il maggior numero di yard di passaggio in carriera?",
+          "question": "Which NFL quarterback holds the all-time record for the most career passing yards?",
           "answer": "Tom Brady"
         },
         {
-          "question": "Nel cricket, quante stecche di legno vengono poste sopra una serie di monconi?",
+          "question": "In cricket, how many wooden bails are placed on top of a set of stumps?",
           "answer": "Two"
         },
         {
-          "question": "Qual è la lunghezza in piedi di un campo da basket professionistico nella NBA?",
+          "question": "What is the length of a professional basketball court in the NBA in feet?",
           "answer": "94"
         },
         {
-          "question": "Quale squadra vinse il primo Super Bowl giocato nel 1967?",
+          "question": "Which team won the first ever Super Bowl played in 1967?",
           "answer": "Green Bay Packers"
         },
         {
-          "question": "Chi è l'unico tennista a vincere il Golden Slam (tutti e quattro i major e l'oro olimpico) in un solo anno solare?",
+          "question": "Who is the only tennis player to win the Golden Slam (all four majors and Olympic gold) in a single calendar year?",
           "answer": "Steffi Graf"
         },
         {
-          "question": "Cos’è ufficialmente riconosciuto come sport invernale nazionale del Canada?",
+          "question": "What is officially recognized as the national winter sport of Canada?",
           "answer": "Ice Hockey"
         },
         {
-          "question": "Quale leggendario cavallo da corsa vinse la Triple Crown statunitense nel 1973 con una vittoria da record al Belmont Stakes?",
+          "question": "Which legendary racehorse won the US Triple Crown in 1973 with a record-breaking Belmont Stakes victory?",
           "answer": "Secretariat"
         },
         {
-          "question": "Quanti punti vale la pallina marrone in una partita di snooker?",
+          "question": "How many points is the brown ball worth in a game of snooker?",
           "answer": "Four"
         },
         {
-          "question": "Quale paese è riconosciuto come il luogo di nascita storico del Taekwondo?",
+          "question": "Which country is recognized as the historical birthplace of Taekwondo?",
           "answer": "South Korea"
         },
         {
-          "question": "Come si chiama il prestigioso trofeo assegnato ogni anno al vincitore dei playoff della NHL?",
+          "question": "What is the name of the prestigious trophy awarded annually to the winner of the NHL playoffs?",
           "answer": "Stanley Cup"
         }
       ],
@@ -12661,63 +12646,63 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Usain Bolt"
         },
         {
-          "question": "Questo paese ha vinto la prima Coppa del mondo di rugby nel 1987.",
+          "question": "This country won the first-ever Rugby World Cup in 1987.",
           "answer": "New Zealand"
         },
         {
-          "question": "Negli scacchi questo è l'unico pezzo che può saltare sopra gli altri pezzi.",
+          "question": "In chess, this is the only piece that can jump over other pieces.",
           "answer": "Knight"
         },
         {
-          "question": "Questo leggendario giocatore di baseball era soprannominato \"Il sultano dello Swat\".",
+          "question": "This legendary baseball player was nicknamed 'The Sultan of Swat.'",
           "answer": "Babe Ruth"
         },
         {
-          "question": "Il termine \"albatros\" nel golf si riferisce al completamento di una buca con questo numero di colpi sotto il par.",
+          "question": "The term 'albatross' in golf refers to completing a hole this many strokes under par.",
           "answer": "3"
         },
         {
-          "question": "Questo calciatore argentino ha segnato il famoso gol della \"Mano di Dio\" ai Mondiali del 1986.",
+          "question": "This Argentine footballer scored the famous 'Hand of God' goal in the 1986 World Cup.",
           "answer": "Diego Maradona"
         },
         {
-          "question": "Nel badminton, la Thomas Cup è il principale campionato internazionale per questo genere.",
+          "question": "In badminton, the Thomas Cup is the premier international championship for this gender.",
           "answer": "Men"
         },
         {
-          "question": "Questa città ospita il famoso torneo di tennis di Wimbledon.",
+          "question": "This city is home to the famous Wimbledon tennis tournament.",
           "answer": "London"
         },
         {
-          "question": "La \"Triple Crown\" nelle corse purosangue è composta dal Kentucky Derby, dal Preakness Stakes e da questa gara.",
+          "question": "The 'Triple Crown' in thoroughbred racing consists of the Kentucky Derby, the Preakness Stakes, and this race.",
           "answer": "Belmont Stakes"
         },
         {
-          "question": "Nella pallanuoto, ci sono così tanti giocatori in una squadra in acqua durante il gioco.",
+          "question": "In water polo, there are this many players on a team in the water during play.",
           "answer": "7"
         },
         {
-          "question": "Questo lanciatore della MLB detiene il record assoluto di strikeout in carriera con 5.714.",
+          "question": "This MLB pitcher holds the all-time record for career strikeouts with 5,714.",
           "answer": "Nolan Ryan"
         },
         {
-          "question": "Lo sport del sepaktakraw è originario di questa regione del mondo.",
+          "question": "The sport of sepaktakraw is native to this region of the world.",
           "answer": "Southeast Asia"
         },
         {
-          "question": "Questa squadra della NHL detiene il record per il maggior numero di campionati Stanley Cup.",
+          "question": "This NHL team holds the record for the most Stanley Cup championships.",
           "answer": "Montreal Canadiens"
         },
         {
-          "question": "Nel cricket, questo termine descrive un giocatore di bocce che prende tre wicket con tre consegne consecutive.",
+          "question": "In cricket, this term describes a bowler taking three wickets with three consecutive deliveries.",
           "answer": "Hat-trick"
         },
         {
-          "question": "Questa donna è stata la prima pilota donna a vincere una gara della IndyCar Series.",
+          "question": "This woman was the first female driver to win an IndyCar Series race.",
           "answer": "Danica Patrick"
         },
         {
-          "question": "Questo sport olimpico combina lo sci di fondo e il tiro con la carabina.",
+          "question": "This Olympic sport combines cross-country skiing and rifle shooting.",
           "answer": "Biathlon"
         },
         {
@@ -12725,179 +12710,179 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Wilt Chamberlain"
         },
         {
-          "question": "Questo paese ha vinto il maggior numero di medaglie nella storia delle Olimpiadi estive.",
+          "question": "This country has won the most medals in the history of the Summer Olympics.",
           "answer": "United States"
         },
         {
-          "question": "Il Trofeo Jules Rimet era il premio originale per aver vinto questa competizione.",
+          "question": "The Jules Rimet Trophy was the original prize for winning this competition.",
           "answer": "FIFA World Cup"
         },
         {
-          "question": "Nel bowling, con questo termine si conoscono tre strike consecutivi.",
+          "question": "In bowling, three consecutive strikes are known by this term.",
           "answer": "Turkey"
         },
         {
-          "question": "Questa arte marziale brasiliana combina elementi di danza, acrobazie e musica.",
+          "question": "This martial art from Brazil combines elements of dance, acrobatics, and music.",
           "answer": "Capoeira"
         },
         {
-          "question": "Qual è il break massimo possibile in una partita di snooker standard senza l'aiuto di una palla libera?",
+          "question": "What is the maximum break possible in a standard game of snooker without the help of a free ball?",
           "answer": "147"
         },
         {
-          "question": "Chi è stata la prima tennista a realizzare un \"Golden Slam\" vincendo tutti e quattro gli major e l'oro olimpico in un anno solare?",
+          "question": "Who was the first female tennis player to achieve a 'Golden Slam' by winning all four majors and Olympic gold in one calendar year?",
           "answer": "Steffi Graf"
         },
         {
-          "question": "Nelle corse dei cavalli, quali tre razze compongono la Triple Crown americana?",
+          "question": "In horse racing, which three races make up the American Triple Crown?",
           "answer": "Kentucky Derby, Preakness Stakes, Belmont Stakes"
         },
         {
-          "question": "Qual è lo sport nazionale del Giappone, in cui grandi lottatori tentano di spingersi a vicenda fuori da un ring circolare?",
+          "question": "What is the national sport of Japan, involving large wrestlers attempting to force each other out of a circular ring?",
           "answer": "Sumo"
         },
         {
-          "question": "Nel gioco del polo, quanti periodi, o \"chukka\", vengono generalmente giocati in una partita standard?",
+          "question": "In the game of polo, how many periods, or 'chukkas', are typically played in a standard match?",
           "answer": "6"
         },
         {
-          "question": "Quale paese è il principale vincitore di medaglie di tutti i tempi alle Olimpiadi invernali?",
+          "question": "Which country is the all-time leading medal winner in the Winter Olympics?",
           "answer": "Norway"
         },
         {
-          "question": "Nel decathlon qual è sempre l'evento finale?",
+          "question": "In the decathlon, what is always the final event?",
           "answer": "1500 meters"
         },
         {
-          "question": "Quale pugile leggendario è nato Cassius Clay prima di cambiare nome?",
+          "question": "Which legendary boxer was born Cassius Clay before changing his name?",
           "answer": "Muhammad Ali"
         },
         {
-          "question": "Qual è l'unico sport in cui ai concorrenti non è consentito oltrepassare la linea centrale dell'area di gioco, ma colpiscono costantemente un proiettile avanti e indietro?",
+          "question": "What is the only sport where the competitors are not allowed to cross the center line of the playing area, yet they constantly hit a projectile back and forth?",
           "answer": "Volleyball"
         },
         {
-          "question": "Chi detiene il record per il maggior numero di gol segnati in una singola stagione di NHL?",
+          "question": "Who holds the record for the most goals scored in a single NHL season?",
           "answer": "Wayne Gretzky"
         },
         {
-          "question": "In Formula 1, quale pilota ha vinto più Campionati del Mondo insieme a Lewis Hamilton?",
+          "question": "In Formula 1, which driver has won the most World Championships alongside Lewis Hamilton?",
           "answer": "Michael Schumacher"
         },
         {
-          "question": "Quale attrezzatura sportiva è stata completamente rivoluzionata dall'introduzione del \"modello fossette\" nel 1905?",
+          "question": "What piece of sporting equipment was completely revolutionized by the introduction of the 'dimple pattern' in 1905?",
           "answer": "Golf ball"
         },
         {
-          "question": "Quale nome insolito viene dato alla persona che guida un bob o una barca a remi?",
+          "question": "What unusual name is given to the person who steers a bobsled or steers a rowing shell?",
           "answer": "Coxswain"
         },
         {
-          "question": "In quale sport viene assegnata la \"Coppa Davis\" alla squadra nazionale maschile vincitrice?",
+          "question": "In which sport is the 'Davis Cup' awarded to the winning men's national team?",
           "answer": "Tennis"
         },
         {
-          "question": "Quale paese ha vinto la prima Coppa del Mondo T20 maschile ICC nel 2007?",
+          "question": "Which country won the inaugural ICC Men's T20 World Cup in 2007?",
           "answer": "India"
         },
         {
-          "question": "Nello sport del biathlon gli atleti abbinano lo sci di fondo con quale altra disciplina?",
+          "question": "In the sport of biathlon, competitors combine cross-country skiing with what other discipline?",
           "answer": "Rifle shooting"
         },
         {
-          "question": "Qual è il termine per un punteggio di golf di tre colpi sotto il par su una singola buca?",
+          "question": "What is the term for a golf score of three strokes under par on a single hole?",
           "answer": "Albatross (or Double Eagle)"
         },
         {
-          "question": "Nel sollevamento pesi, quali sono i due sollevamenti da competizione eseguiti alle Olimpiadi?",
-          "answer": "Snatch, Clean e Jerk"
+          "question": "In weightlifting, what are the two competition lifts performed at the Olympics?",
+          "answer": "Snatch and Clean and Jerk"
         },
         {
-          "question": "Quale squadra detiene il record per il maggior numero di vittorie consecutive nella storia della NBA con 33?",
+          "question": "Which team holds the record for the most consecutive wins in NBA history with 33?",
           "answer": "Los Angeles Lakers"
         },
         {
-          "question": "Come si chiama la tradizionale danza Maori eseguita dalla squadra di rugby neozelandese prima di una partita?",
+          "question": "What is the name of the traditional Maori dance performed by the New Zealand rugby team before a match?",
           "answer": "Haka"
         },
         {
-          "question": "Quale nazione ha vinto il primo torneo di Coppa del Mondo femminile FIFA svoltosi nel 1991?",
+          "question": "Which nation won the first ever FIFA Women's World Cup tournament held in 1991?",
           "answer": "United States"
         },
         {
-          "question": "Qual è il nome dell'iconica mascotte rossa della franchigia NBA dei Chicago Bulls?",
-          "answer": "Benny il toro"
+          "question": "What is the name of the iconic red mascot of the Chicago Bulls NBA franchise?",
+          "answer": "Benny the Bull"
         },
         {
-          "question": "Quale golfista ha trascorso il maggior numero di settimane consecutive al numero uno al mondo nella classifica ufficiale del golf mondiale?",
+          "question": "Which golfer has spent the most consecutive weeks at World Number One in the Official World Golf Ranking?",
           "answer": "Tiger Woods"
         },
         {
-          "question": "Nella scherma, quale delle tre armi ha un'area di mira ristretta e limitata strettamente al busto?",
+          "question": "In fencing, which of the three weapons has a restricted target area limited strictly to the torso?",
           "answer": "Foil"
         },
         {
-          "question": "Chi è stata la prima persona nella storia a correre un miglio in meno di quattro minuti?",
+          "question": "Who was the first person in recorded history to run a mile in under four minutes?",
           "answer": "Roger Bannister"
         },
         {
-          "question": "Quale paese africano è diventato il primo del suo continente a raggiungere le semifinali di una Coppa del Mondo FIFA maschile?",
+          "question": "Which African country became the first from its continent to reach the semi-finals of a Men's FIFA World Cup?",
           "answer": "Morocco"
         },
         {
-          "question": "In quale città degli Stati Uniti si tiene ogni anno il prestigioso torneo di golf \"Masters\"?",
+          "question": "In what US city is the prestigious 'Masters' golf tournament held annually?",
           "answer": "Augusta"
         },
         {
-          "question": "Chi detiene il record mondiale maschile di salto in alto, superando 2,45 metri nel 1993?",
+          "question": "Who holds the men's world record for the high jump, clearing 2.45 meters in 1993?",
           "answer": "Javier Sotomayor"
         },
         {
-          "question": "Quali sono i cinque colori distinti degli anelli sulla bandiera olimpica?",
+          "question": "What are the five distinct colors of the rings on the Olympic flag?",
           "answer": "Blue, yellow, black, green, red"
         },
         {
-          "question": "Quale leggendario giocatore di baseball americano era affettuosamente conosciuto come \"Il sultano dello Swat\"?",
+          "question": "Which legendary American baseball player was affectionately known as 'The Sultan of Swat'?",
           "answer": "Babe Ruth"
         },
         {
-          "question": "In quale sport olimpico di scivolamento i concorrenti usano una piccola slitta e corrono a testa in giù lungo una ripida pista di ghiaccio?",
+          "question": "In which Olympic sliding sport do competitors use a small sled and race head-first down a steep ice track?",
           "answer": "Skeleton"
         },
         {
-          "question": "Chi è l'unico campione di boxe dei pesi massimi a finire la sua carriera professionale completamente imbattuto?",
+          "question": "Who is the only heavyweight boxing champion to finish his professional career entirely undefeated?",
           "answer": "Rocky Marciano"
         },
         {
-          "question": "Qual è il termine specifico usato nel bowling a dieci birilli per descrivere tre strike consecutivi?",
+          "question": "What is the specific term used in ten-pin bowling to describe three consecutive strikes?",
           "answer": "Turkey"
         },
         {
-          "question": "Quale paese del sud-est asiatico domina tradizionalmente lo sport acrobatico del Sepak Takraw?",
+          "question": "Which Southeast Asian country traditionally dominates the acrobatic sport of Sepak Takraw?",
           "answer": "Thailand"
         },
         {
-          "question": "Chi è stata la prima wildcard a vincere il titolo di singolare maschile a Wimbledon, raggiungendo questa impresa nel 2001?",
+          "question": "Who was the first wildcard entry to win the men's singles title at Wimbledon, achieving this feat in 2001?",
           "answer": "Goran Ivanisevic"
         },
         {
-          "question": "Come si chiamava il leone mascotte ufficiale della Coppa del Mondo FIFA 1966 svoltasi in Inghilterra?",
+          "question": "What was the name of the official lion mascot of the 1966 FIFA World Cup held in England?",
           "answer": "World Cup Willie"
         },
         {
-          "question": "Quale franchigia NBA ha stabilito il record per il maggior numero di vittorie nella stagione regolare con 73 nella stagione 2015-16?",
+          "question": "Which NBA franchise set the record for the most regular season wins with 73 in the 2015-16 season?",
           "answer": "Golden State Warriors"
         },
         {
-          "question": "Qual è il peso minimo legale in once di una partita di football ufficiale della NFL?",
+          "question": "What is the minimum legal weight of an official NFL game football in ounces?",
           "answer": "14"
         },
         {
-          "question": "Quale paese ha vinto la medaglia d'oro nell'hockey su ghiaccio maschile alle Olimpiadi \"Miracle on Ice\" del 1980?",
+          "question": "Which country won the gold medal in men's ice hockey at the 1980 'Miracle on Ice' Olympics?",
           "answer": "United States"
         },
         {
-          "question": "Qual è il nome della principale competizione internazionale a squadre di tennis maschile?",
+          "question": "What is the name of the premier international team competition in men's tennis?",
           "answer": "Davis Cup"
         }
       ],
@@ -12923,119 +12908,119 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Golden State Warriors"
         },
         {
-          "question": "Questo atleta di pista vinse notoriamente quattro medaglie d'oro alle Olimpiadi di Berlino del 1936.",
+          "question": "This track athlete famously won four gold medals at the 1936 Berlin Olympics.",
           "answer": "Jesse Owens"
         },
         {
-          "question": "Nel 1954, questo corridore britannico divenne la prima persona a correre un miglio in meno di quattro minuti.",
+          "question": "In 1954, this British runner became the first person to run a mile in under four minutes.",
           "answer": "Roger Bannister"
         },
         {
-          "question": "Questo golfista detiene il record per il maggior numero di settimane consecutive al numero 1 del mondo, con 281 settimane.",
+          "question": "This golfer holds the record for the most consecutive weeks at World Number 1, with 281 weeks.",
           "answer": "Tiger Woods"
         },
         {
-          "question": "Lo sport del Korfball, che prevede squadre di genere misto, ha avuto origine in questo paese europeo.",
+          "question": "The sport of Korfball, which features mixed-gender teams, originated in this European country.",
           "answer": "Netherlands"
         },
         {
-          "question": "Nella Major League Baseball, questo giocatore detiene il record per la serie di vittorie consecutive più lunga con 56 partite.",
+          "question": "In Major League Baseball, this player holds the record for the longest hitting streak at 56 games.",
           "answer": "Joe DiMaggio"
         },
         {
-          "question": "Questo surfista è spesso considerato il \"padre del surf moderno\" e ha reso popolare questo sport a livello globale all'inizio del XX secolo.",
+          "question": "This surfer is often credited as the 'father of modern surfing' and popularized the sport globally in the early 20th century.",
           "answer": "Duke Kahanamoku"
         },
         {
-          "question": "Nel Tour de France, il \"Maillot à Pois Rouges\" viene assegnato al leader di questa classifica.",
+          "question": "In the Tour de France, the 'Maillot à Pois Rouges' is awarded to the leader in this classification.",
           "answer": "Mountains classification"
         },
         {
-          "question": "Questo paese ha vinto la medaglia d'oro nell'hockey su ghiaccio ai giochi olimpici \"Miracle on Ice\" del 1980.",
+          "question": "This country won the gold medal in ice hockey at the 1980 'Miracle on Ice' Olympic game.",
           "answer": "United States"
         },
         {
-          "question": "Questo pilota motociclistico italiano ha vinto nove Gran Premi del Campionato del Mondo, sette dei quali nella classe regina.",
+          "question": "This Italian motorcycle racer has won nine Grand Prix World Championships, seven of which are in the premier class.",
           "answer": "Valentino Rossi"
         },
         {
-          "question": "Nel wrestling professionistico, questo evento annuale pay-per-view della WWE viene spesso definito \"Il palcoscenico più grande di tutti\".",
+          "question": "In professional wrestling, this annual WWE pay-per-view event is often referred to as 'The Grandest Stage of Them All.'",
           "answer": "WrestleMania"
         },
         {
-          "question": "Questa squadra di calcio spagnola ha vinto il maggior numero di titoli della UEFA Champions League.",
+          "question": "This Spanish football club has won the most UEFA Champions League titles.",
           "answer": "Real Madrid"
         },
         {
-          "question": "Nell'atletica, il Fosbury Flop è una tecnica utilizzata in questo evento.",
+          "question": "In athletics, the Fosbury Flop is a technique used in this event.",
           "answer": "High jump"
         },
         {
-          "question": "Questa franchigia NBA ha arruolato Kobe Bryant nel 1996 prima di cederlo ai Lakers.",
+          "question": "This NBA franchise drafted Kobe Bryant in 1996 before trading him to the Lakers.",
           "answer": "Charlotte Hornets"
         },
         {
-          "question": "Nel cricket, Sir Donald Bradman detiene il record per la media di battuta più alta in carriera, un numero impressionante.",
+          "question": "In cricket, Sir Donald Bradman holds the record for the highest career batting average, which is this impressive number.",
           "answer": "99.94"
         },
         {
-          "question": "Questo cavallo è considerato uno dei più grandi cavalli da corsa di tutti i tempi, vincendo la Triple Crown nel 1973.",
+          "question": "This horse is considered one of the greatest racehorses of all time, winning the Triple Crown in 1973.",
           "answer": "Secretariat"
         },
         {
-          "question": "Nello snooker, un \"break massimo\" consiste nell'imbucare tutti e 15 i rossi con i neri, seguiti da tutti i colori, ottenendo così tanti punti.",
+          "question": "In snooker, a 'maximum break' consists of potting all 15 reds with blacks, followed by all the colors, resulting in this many points.",
           "answer": "147"
         },
         {
-          "question": "Questa ginnasta ha vinto quattro medaglie d'oro alle Olimpiadi di Rio 2016 ed è considerata una delle più grandi di tutti i tempi.",
+          "question": "This female gymnast won four gold medals at the 2016 Rio Olympics and is considered one of the greatest of all time.",
           "answer": "Simone Biles"
         },
         {
-          "question": "La Coppa America è un trofeo prestigioso assegnato in questo sport.",
+          "question": "The America's Cup is a prestigious trophy awarded in this sport.",
           "answer": "Sailing"
         },
         {
-          "question": "Questo pugile si è ritirato con un record professionale perfetto di 50-0.",
+          "question": "This boxer retired with a perfect professional record of 50-0.",
           "answer": "Floyd Mayweather Jr."
         },
         {
-          "question": "Nell'Australian Rules Football, questo è il nome della principale lega professionistica.",
+          "question": "In Australian Rules Football, this is the name of the premier professional league.",
           "answer": "AFL"
         },
         {
-          "question": "In che anno avvenne il \"Miracolo sul ghiaccio\", quando la squadra maschile di hockey su ghiaccio degli Stati Uniti sconfisse la favorita squadra sovietica?",
+          "question": "In what year did the 'Miracle on Ice' occur, when the US men's ice hockey team defeated the heavily favored Soviet team?",
           "answer": "1980"
         },
         {
-          "question": "Chi è l'unica persona ad aver giocato sia nel Super Bowl che nelle World Series?",
+          "question": "Who is the only person to have played in both a Super Bowl and a World Series?",
           "answer": "Deion Sanders"
         },
         {
-          "question": "Quale nazione sudamericana vinse la prima Coppa del Mondo FIFA nel 1930?",
+          "question": "Which South American country won the first ever FIFA World Cup in 1930?",
           "answer": "Uruguay"
         },
         {
-          "question": "Qual è il punteggio più alto che un giudice può assegnare ad un subacqueo per una singola immersione prima dei moltiplicatori di difficoltà?",
+          "question": "What is the highest possible score a judge can award a diver for a single dive before difficulty multipliers?",
           "answer": "10"
         },
         {
-          "question": "Nel gioco dello squash, cosa succede se la palla colpisce la \"latta\" in fondo alla parete frontale?",
-          "answer": "È fuori (o è un guasto)"
+          "question": "In the game of squash, what happens if the ball hits the 'tin' at the bottom of the front wall?",
+          "answer": "It is out (or a fault)"
         },
         {
-          "question": "Qual è stato il primo sport praticato sulla Luna?",
+          "question": "What was the first sport to be played on the moon?",
           "answer": "Golf"
         },
         {
-          "question": "Quale paese è la patria tradizionale dell'arte marziale Muay Thai?",
+          "question": "Which country is the traditional home of the martial art Muay Thai?",
           "answer": "Thailand"
         },
         {
-          "question": "Nella scherma, quale zona del bersaglio della spada comprende quali parti del corpo?",
-          "answer": "L'intero corpo"
+          "question": "In fencing, the target area for the épée includes what parts of the body?",
+          "answer": "The entire body"
         },
         {
-          "question": "Chi detiene il record del servizio più veloce mai registrato nel tennis professionistico maschile?",
+          "question": "Who holds the record for the fastest serve ever recorded in professional men's tennis?",
           "answer": "Sam Groth"
         },
         {
@@ -13043,126 +13028,130 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Wilt Chamberlain"
         },
         {
-          "question": "Qual è il nome della competizione internazionale a squadre di golf femminile, analoga alla Ryder Cup maschile?",
+          "question": "What is the name of the international team competition in women's golf, analogous to the men's Ryder Cup?",
           "answer": "Solheim Cup"
         },
         {
-          "question": "Nel pentathlon moderno, quali sono i cinque sport praticati?",
+          "question": "In modern pentathlon, which five sports are contested?",
           "answer": "Fencing, swimming, equestrian show jumping, pistol shooting, cross-country running"
         },
         {
-          "question": "Qual è la più antica competizione sportiva continuata nel Nord America, anteriore al Kentucky Derby di 15 anni?",
-          "answer": "Il piatto della regina"
+          "question": "What is the oldest continuing sporting competition in North America, predating the Kentucky Derby by 15 years?",
+          "answer": "The Queen's Plate"
         },
         {
-          "question": "Quale atleta di atletica leggera è stato privato della sua medaglia d'oro nei 100 metri alle Olimpiadi di Seul del 1988 a causa del doping?",
+          "question": "Which track athlete was stripped of his 100m gold medal at the 1988 Seoul Olympics due to doping?",
           "answer": "Ben Johnson"
         },
         {
-          "question": "Nel baseball, quale rara impresa si ottiene quando un battitore realizza un singolo, doppio, triplo e fuoricampo nella stessa partita?",
-          "answer": "Colpire per il ciclo"
+          "question": "In baseball, what rare feat is accomplished when a batter hits a single, double, triple, and home run in the same game?",
+          "answer": "Hitting for the cycle"
         },
         {
-          "question": "Quale squadra ha vinto più titoli di UEFA Champions League nella storia del calcio?",
+          "question": "Which team has won the most UEFA Champions League titles in football history?",
           "answer": "Real Madrid"
         },
         {
-          "question": "Quale sport antico, che combinava boxe e lotta con pochissime regole, era presente nei Giochi Olimpici greci originali?",
+          "question": "What ancient sport, combining boxing and wrestling with very few rules, was featured in the original Greek Olympic Games?",
           "answer": "Pankration"
         },
         {
-          "question": "Nel curling, come si definisce una pietra che ricopre completamente il bottone al centro della casa?",
+          "question": "In curling, what is the term for a stone that completely covers the button at the center of the house?",
           "answer": "Lid"
         },
         {
-          "question": "Chi è stato il primo giocatore senza testa di serie a vincere il titolo di singolare maschile a Wimbledon?",
+          "question": "Who was the first unseeded player to win the men's singles title at Wimbledon?",
           "answer": "Boris Becker"
         },
         {
-          "question": "Nel football australiano, quanti punti vale un \"dietro\"?",
+          "question": "In Australian Rules Football, how many points is a 'behind' worth?",
           "answer": "1"
         },
         {
-          "question": "Chi è l'unico giocatore ad aver segnato una tripletta in una finale della Coppa del Mondo FIFA maschile ed essere comunque finito nella squadra perdente?",
+          "question": "Who is the only player to have scored a hat-trick in a Men's FIFA World Cup final and still ended up on the losing team?",
           "answer": "Kylian Mbappe"
         },
         {
-          "question": "In che anno è stata introdotta ufficialmente nella NBA la linea di tiro da tre punti?",
+          "question": "In what year was the three-point shooting line officially introduced into the NBA?",
           "answer": "1979"
         },
         {
-          "question": "Quale ciclista vinse il primo Tour de France disputato nel 1903?",
+          "question": "Which cyclist won the first ever Tour de France held in 1903?",
           "answer": "Maurice Garin"
         },
         {
-          "question": "Nel football australiano, quanti punti vale un \"dietro\"?",
+          "question": "In Australian Rules Football, how many points is a 'behind' worth?",
           "answer": "One"
         },
         {
-          "question": "Chi detiene il record per il servizio più veloce mai registrato nel tennis maschile professionistico a 163,7 miglia orarie?",
+          "question": "Who holds the record for the fastest serve ever recorded in professional men's tennis at 163.7 mph?",
           "answer": "Sam Groth"
         },
         {
-          "question": "Quale lanciatore dominante detiene il record della MLB di non battitori in carriera con un totale di sette?",
+          "question": "Which dominant pitcher holds the MLB record for career no-hitters with a total of seven?",
           "answer": "Nolan Ryan"
         },
         {
-          "question": "Qual è il nome specifico per un periodo di gioco in una partita di polo?",
+          "question": "What is the specific name for a period of play in a game of polo?",
           "answer": "Chukka"
         },
         {
-          "question": "Chi è stata la prima donna pilota a segnare punti in una gara del Campionato del Mondo di Formula 1?",
+          "question": "Who was the first female driver to score points in a Formula 1 World Championship race?",
           "answer": "Lella Lombardi"
         },
         {
-          "question": "Qual è la larghezza massima consentita di una mazza da cricket standard in pollici?",
+          "question": "What is the maximum permitted width of a standard cricket bat in inches?",
           "answer": "4.25"
         },
         {
-          "question": "Quale città degli Stati Uniti ha ospitato le famigerate Olimpiadi estive del 1904, note per la sua bizzarra ed estenuante maratona?",
+          "question": "Which US city hosted the infamous 1904 Summer Olympics, known for its bizarre and grueling marathon event?",
           "answer": "St. Louis"
         },
         {
-          "question": "Chi è l'unico giocatore nella storia della NHL ad aver totalizzato oltre 200 punti in una singola stagione regolare?",
+          "question": "Who is the only player in NHL history to total over 200 points in a single regular season?",
           "answer": "Wayne Gretzky"
         },
         {
-          "question": "Nella lotta di sumo, qual è il termine giapponese per indicare l'anello circolare dove si svolgono gli incontri competitivi?",
+          "question": "In sumo wrestling, what is the Japanese term for the circular ring where competitive matches take place?",
           "answer": "Dohyo"
         },
         {
-          "question": "Quale paese ha vinto il maggior numero di medaglie nella storia dei Giochi Olimpici Invernali?",
+          "question": "Which country has won the most total medals in the history of the Winter Olympic Games?",
           "answer": "Norway"
         },
         {
-          "question": "Chi è stata la prima persona ad eseguire con successo una rotazione aerea di 900 gradi su uno skateboard in una competizione?",
+          "question": "Who was the first person to successfully land a 900-degree aerial spin on a skateboard in competition?",
           "answer": "Tony Hawk"
         },
         {
-          "question": "Qual è la più antica maratona annuale al mondo, iniziata nel 1897?",
+          "question": "What is the oldest continuously run annual marathon race in the world, starting in 1897?",
           "answer": "Boston Marathon"
         },
         {
-          "question": "Quale pugile ha inflitto la prima sconfitta professionale a Muhammad Ali nel \"Fight of the Century\" del 1971?",
+          "question": "Which boxer famously inflicted Muhammad Ali's first professional defeat in the 1971 'Fight of the Century'?",
           "answer": "Joe Frazier"
         },
         {
-          "question": "In quale sport frenetico viene assegnata la \"Coppa Corbillon\" alle squadre campione del mondo femminile?",
+          "question": "In what fast-paced sport is the 'Corbillon Cup' awarded to the women's world team champions?",
           "answer": "Table Tennis"
         },
         {
-          "question": "Chi è l'unico atleta a vincere medaglie d'oro in diversi sport sia ai Giochi olimpici estivi che a quelli invernali?",
+          "question": "Who is the only athlete to win gold medals in different sports at both the Summer and Winter Olympic Games?",
           "answer": "Eddie Eagan"
         },
         {
-          "question": "Quale squadra della MLB vinse le prime World Series moderne giocate nel 1903?",
+          "question": "Which MLB team won the very first modern World Series played in 1903?",
           "answer": "Boston Americans"
         },
         {
-          "question": "Qual è il termine tradizionale per l'evento del lancio di un pesante palo di legno negli Scottish Highland Games?",
-          "answer": "Lanciare il caber"
+          "question": "What is the traditional term for the event of throwing a heavy wooden pole in the Scottish Highland Games?",
+          "answer": "Tossing the caber"
         }
       ]
     }
   }
 ];
+;
+    const fs = require('fs');
+    fs.writeFileSync('c:/Users/thatsrux/Desktop/Games/party-hub/jeopardy_data.json', JSON.stringify(data, null, 2));
+  

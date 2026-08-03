@@ -46,7 +46,7 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/20080831-R0012506.JPG/1280px-20080831-R0012506.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["computer"]
+    answers: ["computer", "pc"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/de/Silver_spoon.jpeg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -118,7 +118,7 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/a6/Tesla_tv.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    answers: ["televisore"]
+    answers: ["televisore", "tv", "televisione"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Reisegep%C3%A4ck.JPG/1280px-Reisegep%C3%A4ck.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -126,7 +126,7 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Airbus_A380.jpg/1280px-Airbus_A380.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["aeroplano"]
+    answers: ["aeroplano", "aereo"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ambulanza_CRI_Chieti.JPG/1280px-Ambulanza_CRI_Chieti.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -138,7 +138,7 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/15-07-12-Ciclistas-en-Mexico-RalfR-N3S_8973.jpg/1280px-15-07-12-Ciclistas-en-Mexico-RalfR-N3S_8973.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["bicicletta"]
+    answers: ["bicicletta", "bici"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Bistecca_alla_Fiorentina.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -182,11 +182,11 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Clapham_Common_Tube_Station_Platforms_-_Oct_2007.jpg/1280px-Clapham_Common_Tube_Station_Platforms_-_Oct_2007.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["metropolitana"]
+    answers: ["metropolitana", "metro"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Daimler_First_Motorcycle.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    answers: ["motocicletta"]
+    answers: ["motocicletta", "moto"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lazio_02-06-2006_cagliari_%284%29.jpg/1280px-Lazio_02-06-2006_cagliari_%284%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -210,11 +210,11 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Submarine_M-296_2016_G2.jpg/1280px-Submarine_M-296_2016_G2.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["sottomarino"]
+    answers: ["sottomarino", "sommergibile"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Toothbrush_x3_20050716_002.jpg/1280px-Toothbrush_x3_20050716_002.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["spazzolino"]
+    answers: ["spazzolino", "spazzolino da denti"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Taxi-Tass%C3%AC-Tax%C3%AC_ibrido.jpg/1280px-Taxi-Tass%C3%AC-Tax%C3%AC_ibrido.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -314,7 +314,7 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1280px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["grande muraglia cinese", "grandemuragliacinese", "muraglia cinese"]
+    answers: ["grande muraglia cinese", "grandemuragliacinese", "muraglia cinese", "grande muraglia"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/it/7/74/Sergio_Leone_1987.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
@@ -398,7 +398,7 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/16-hole_chrom_10-hole_diatonic.jpg/1280px-16-hole_chrom_10-hole_diatonic.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["armonica a bocca", "armonicaabocca"]
+    answers: ["armonica a bocca", "armonicaabocca", "armonica"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bodiam-castle-10My8-1197.jpg/1280px-Bodiam-castle-10My8-1197.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -410,7 +410,7 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Laptop_%28Pixi%29.png?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    answers: ["computer portatile", "computerportatile"]
+    answers: ["computer portatile", "computerportatile", "portatile"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Sahara_tunisino.jpg/1280px-Sahara_tunisino.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -510,11 +510,11 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Croissant-Petr_Kratochvil.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    answers: ["croissant"]
+    answers: ["croissant", "cornetto", "brioche"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Glazed-Donut.jpg/1280px-Glazed-Donut.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["donut"]
+    answers: ["donut", "ciambella"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Assorted_macarons_in_a_box%2C_March_2011.jpg/1280px-Assorted_macarons_in_a_box%2C_March_2011.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",

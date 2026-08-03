@@ -1,0 +1,201 @@
+900: Taylor Swift ha scritto una canzone chiamata 'Dear John' per John Mayer. -> vero
+901: Beyoncé e Jay-Z hanno chiamato la loro prima figlia 'Blue Ivy' perché è il colore preferito di Beyoncé. -> falso
+902: Leonardo DiCaprio ha vinto il suo primo Oscar per il film 'Titanic'. -> falso
+903: Kim Kardashian è diventata famosa inizialmente come assistente e stylist di Paris Hilton. -> vero
+904: Harry Styles ha esordito come cantante solista prima di entrare negli One Direction. -> falso
+905: Rihanna è originaria della Giamaica. -> falso
+906: Angelina Jolie e Brad Pitt si sono innamorati sul set del film 'Mr. & Mrs. Smith'. -> vero
+907: Justin Bieber è stato scoperto su YouTube dall'impresario Scooter Braun. -> vero
+908: Britney Spears e Justin Timberlake hanno indossato iconici abiti coordinati di jeans agli AMA del 2001. -> vero
+909: Lady Gaga ha indossato un vestito fatto interamente di vera carne cruda agli MTV Video Music Awards del 2010. -> vero
+910: Katy Perry e Taylor Swift hanno avuto una lunga faida che si è conclusa nel video di 'You Need to Calm Down'. -> vero
+911: Miley Cyrus è la madrina di battesimo di Dolly Parton. -> falso
+912: Tom Cruise non ha mai usato controfigure nei suoi film della saga 'Mission: Impossible'. -> falso
+913: Zendaya ha iniziato la sua carriera televisiva nella serie 'Hannah Montana'. -> falso
+914: Ariana Grande ha iniziato la sua carriera recitando nel musical di Broadway '13'. -> vero
+915: Kanye West ha interrotto il discorso di accettazione di Taylor Swift ai VMA del 2009. -> vero
+916: Shakira è stata indagata e condannata per evasione fiscale in Spagna. -> vero
+917: Il vero nome di Bruno Mars è Peter Gene Hernandez. -> vero
+918: Ryan Gosling e Justin Timberlake erano entrambi nel cast del 'Mickey Mouse Club' da bambini. -> vero
+919: Jennifer Aniston e Courteney Cox sono diventate migliori amiche anche nella vita reale dopo 'Friends'. -> vero
+920: Le Spice Girls, prima di diventare famose, erano originariamente chiamate 'Touch'. -> vero
+921: Eminem ha recitato nel film '8 Mile', la cui trama è parzialmente autobiografica. -> vero
+922: I genitori di Billie Eilish sono entrambi attori di Hollywood vincitori di premi Oscar. -> falso
+923: Ed Sheeran ha un tatuaggio che raffigura una bottiglia di ketchup Heinz. -> vero
+924: Will Smith ha schiaffeggiato il presentatore Chris Rock durante la cerimonia degli Oscar 2022. -> vero
+925: Johnny Depp e Amber Heard hanno acconsentito a trasmettere il loro processo per diffamazione in diretta TV. -> vero
+926: Kylie Jenner ha tenuto nascosta la sua prima gravidanza fino al giorno della nascita della figlia Stormi. -> vero
+927: Il principe Harry e Meghan Markle si sono conosciuti scambiandosi messaggi su un'app di incontri. -> falso
+928: Selena Gomez detiene attualmente il record assoluto per la persona più seguita al mondo su Instagram. -> falso
+929: Madonna ha baciato Britney Spears e Christina Aguilera durante una celebre esibizione agli MTV VMA del 2003. -> vero
+930: La cantante Cher ha vinto un premio Oscar come Migliore Attrice Protagonista. -> vero
+931: Dua Lipa lavorava professionalmente come modella prima di diventare una cantante di successo internazionale. -> vero
+932: La celebre serie TV 'Gossip Girl' è narrata nella versione originale dalla voce di Kristen Bell. -> vero
+933: Justin Timberlake ha lasciato la band degli NSYNC per unirsi ai Backstreet Boys. -> falso
+934: Il documentario 'Framing Britney Spears' ha contribuito in modo significativo alla fine della sua conservatorship. -> vero
+935: Lindsay Lohan ha recitato la parte di entrambe le sorelle gemelle nel celebre film 'Genitori in trappola'. -> vero
+936: Paris Hilton ha ufficialmente inventato e registrato la parola 'selfie'. -> falso
+937: Nonostante l'immenso successo, i Beatles non hanno mai vinto un singolo Grammy Award. -> falso
+938: Zendaya e Tom Holland sono diventati una coppia nella vita reale dopo aver recitato insieme in 'Spider-Man'. -> vero
+939: Il vero nome d'anagrafe del cantante The Weeknd è Abel Tesfaye. -> vero
+940: Megan Fox e Machine Gun Kelly hanno dichiarato pubblicamente di aver bevuto l'una il sangue dell'altro. -> vero
+941: Mariah Carey è la principale co-autrice della sua intramontabile hit natalizia 'All I Want for Christmas Is You'. -> vero
+942: Il rapper Snoop Dogg è un lontano cugino della cantante R&B Brandy. -> vero
+943: La regina Elisabetta II ha girato un vero e proprio cameo comico con James Bond per le Olimpiadi di Londra 2012. -> vero
+944: Gwyneth Paltrow ha fondato un discusso e popolare marchio di benessere chiamato 'Goop'. -> vero
+945: Il cantautore Elton John è il padrino di battesimo di Romeo e Brooklyn, figli di David e Victoria Beckham. -> vero
+946: I famosi attori Joaquin Phoenix e River Phoenix sono fratelli biologici. -> vero
+947: Adele detiene il record per aver vinto tutti e quattro i premi principali ai Grammy nello stesso anno di debutto. -> falso
+948: Il cantante Shawn Mendes ha imparato a suonare la chitarra guardando dei tutorial gratuiti su YouTube. -> vero
+949: La rapper Cardi B lavorava come spogliarellista prima di raggiungere la fama mondiale. -> vero
+950: L'attore Chris Hemsworth ha un fratello minore di nome Liam che recita anche lui a Hollywood. -> vero
+951: Tra le sorelle Kardashian, Kourtney è la sorella minore di Kim. -> falso
+952: Blake Lively e Ryan Reynolds si sono sposati all'interno di un'antica piantagione nel South Carolina. -> vero
+953: La madre di Miley Cyrus, Tish Cyrus, lavora anche come sua manager. -> vero
+954: I BTS sono stati il primo gruppo K-pop in assoluto a ricevere una nomination per un Grammy Award. -> vero
+955: Jennifer Lawrence è caduta rovinosamente sulle scale del palco mentre andava a ritirare il suo primo Oscar. -> vero
+956: Il reality show 'Keeping Up With the Kardashians' è andato in onda originariamente solo per 10 stagioni. -> falso
+957: Il vero nome completo di Lady Gaga è Stefani Joanne Angelina Germanotta. -> vero
+958: Snoop Dogg è diventato noto al grande pubblico inizialmente collaborando nei brani del rapper Dr. Dre. -> vero
+959: Orlando Bloom e Katy Perry si sono conosciuti per la prima volta aspettando il turno in un fast food In-N-Out. -> vero
+960: Nonostante i suoi famosi capelli rossi, Emma Stone è naturalmente bionda. -> vero
+961: L'eccentrico attore Nicolas Cage ha posseduto un castello in Germania e un altro in Inghilterra. -> vero
+962: Marilyn Monroe era in realtà il nome d'arte di Norma Jeane Mortenson. -> vero
+963: Il video di 'Despacito' è stato il primo nella storia di YouTube a raggiungere 5 miliardi di visualizzazioni. -> vero
+964: Harry Styles ha vinto il prestigioso Grammy per l'Album dell'anno con il suo disco 'Fine Line'. -> falso
+965: L'attore Robert Pattinson ha composto e cantato ben due canzoni incluse nella colonna sonora di 'Twilight'. -> vero
+966: La modella Hailey Bieber è la nipote diretta del famoso attore Alec Baldwin. -> vero
+967: Olivia Rodrigo ha scritto la sua celebre hit 'Drivers License' basandosi sulla frustrazione per la sua patente scaduta. -> falso
+968: L'iconico abito indossato da Marilyn Monroe per cantare 'Happy Birthday Mr. President' è stato in seguito indossato da Kim Kardashian al Met Gala. -> vero
+969: La boy band dei Jonas Brothers ha raggiunto il successo planetario lavorando in produzioni per Disney Channel. -> vero
+970: Ryan Gosling ha rifiutato la parte da protagonista di Christian Grey nel film 'Cinquanta sfumature di grigio'. -> vero
+971: Il celebre talent scout Simon Cowell è il principale creatore del franchise televisivo 'The X Factor'. -> vero
+972: La famosissima attrice Nicole Kidman è nata originariamente in Australia. -> falso
+973: Il leggendario gruppo pop svedese degli ABBA si è formato a Londra. -> falso
+974: L'attore Keanu Reeves suona il basso in una rock band chiamata Dogstar. -> vero
+975: L'attore Ashton Kutcher è stato il creatore e presentatore del popolare programma di scherzi VIP 'Punk'd'. -> vero
+976: La famosa canzone 'I Will Always Love You' cantata da Whitney Houston è stata originariamente scritta dalla cantante country Dolly Parton. -> vero
+977: L'attrice Meryl Streep detiene l'impressionante record per il maggior numero di candidature agli Oscar della storia. -> vero
+978: Tom Holland ha svelato accidentalmente e in diretta importanti spoiler dei film Marvel in diverse occasioni. -> vero
+979: Le famose modelle Gigi Hadid e Bella Hadid sono nate nello stesso giorno essendo sorelle gemelle. -> falso
+980: Il vero nome all'anagrafe del cantante rock Marilyn Manson è Brian Hugh Warner. -> vero
+981: La popolarissima sitcom 'Friends' è andata in onda in televisione per un totale di 12 stagioni. -> falso
+982: Il regista Quentin Tarantino è famoso per includere quasi sempre inquadrature dei piedi nudi nei suoi film. -> vero
+983: La celebre serie sci-fi 'Stranger Things' era originariamente intitolata 'Montauk' durante la fase di sviluppo. -> vero
+984: Il rapper Eminem è entrato nel Guinness dei primati per la canzone con più parole in un singolo di successo grazie a 'Rap God'. -> vero
+985: L'attore Johnny Depp ha dichiarato di aver basato la sua interpretazione del Capitano Jack Sparrow sul chitarrista Keith Richards dei Rolling Stones. -> vero
+986: La cantante pop Ariana Grande non si è mai fatta alcun tipo di tatuaggio. -> falso
+987: La mamma di Beyoncé, Tina Knowles, le ha disegnato e cucito a mano molti dei suoi primi iconici abiti di scena. -> vero
+988: Justin Bieber sa suonare in modo competente la batteria, la chitarra, il pianoforte e la tromba. -> vero
+989: Il film blockbuster del 2023 'Barbie' è stato diretto dal regista Christopher Nolan. -> falso
+990: La modella e attrice Cara Delevingne è nota anche per la sua spiccata e inusuale abilità nel beatboxing. -> vero
+991: Ed Sheeran ha scritto la celebre canzone 'Love Yourself' pensando originariamente di farla cantare a Rihanna. -> falso
+992: Brad Pitt possiede una laurea completa in giornalismo ottenuta prima di intraprendere la carriera di attore. -> falso
+993: L'attrice e modella Pamela Anderson è diventata famosa in tutto il mondo grazie al suo iconico ruolo nella serie TV 'Baywatch'. -> vero
+994: Il vero nome completo del famoso rapper Snoop Dogg è Calvin Cordozar Broadus Jr. -> vero
+995: Il leggendario David Bowie aveva un occhio di colore visibilmente diverso dall'altro a causa di una pupilla dilatata in modo permanente dopo un pugno. -> vero
+996: La celebrità Khloé Kardashian e il giocatore NBA Tristan Thompson si sono sposati in segreto con una cerimonia privata a Las Vegas. -> falso
+997: L'attrice Julia Roberts era originariamente considerata e vicinissima a ottenere il ruolo principale nel romantico 'Insonnia d'amore' (Sleepless in Seattle). -> vero
+998: Il pittoresco cast del reality show americano 'Jersey Shore' ha trascorso un'intera stagione girata in Italia. -> vero
+999: Rihanna ha fondato l'acclamato marchio di cosmetici Fenty Beauty. -> vero
+1008: Kim Kardashian ha partecipato alle Olimpiadi. -> falso
+1510: Britney Spears si è rasata i capelli nel 2007. -> vero
+1511: Il vero nome di Lady Gaga è Stefani Joanne Angelina Germanotta. -> vero
+1512: Leonardo DiCaprio ha vinto il suo primo Oscar per il film Titanic. -> falso
+1513: Beyoncé faceva inizialmente parte del gruppo R&B TLC. -> falso
+1514: Kim Kardashian ha pubblicato una canzone pop intitolata 'Jam (Turn It Up)'. -> vero
+1515: Marilyn Monroe aveva sei dita in un piede. -> falso
+1516: Justin Bieber è stato scoperto grazie a dei video caricati su YouTube. -> vero
+1517: La famosa sitcom 'Friends' era inizialmente intitolata 'Insomnia Cafe'. -> vero
+1518: Tom Cruise usa sempre controfigure per le sue acrobazie nei film. -> falso
+1519: Rihanna è originaria delle Bahamas. -> falso
+1520: Michael Jackson è l'inventore originale del passo di danza Moonwalk. -> falso
+1521: Angelina Jolie e Billy Bob Thornton indossavano fiale con il rispettivo sangue al collo. -> vero
+1522: Taylor Swift ha scritto una canzone dedicata a ciascuno dei suoi ex fidanzati. -> falso
+1523: Il celebre vestito di carne indossato da Lady Gaga agli MTV VMA del 2010 era fatto di vera carne cruda. -> vero
+1524: Brad Pitt è stato temporaneamente bandito dalla Cina dopo il film 'Sette anni in Tibet'. -> vero
+1525: Shakira è stata rifiutata dal coro della scuola perché il suo vibrato suonava 'come una capra'. -> vero
+1526: Katy Perry ha un gatto che ha chiamato 'Kitty Purry'. -> vero
+1527: Harry Styles ha quattro capezzoli. -> vero
+1528: Miley Cyrus ha origini per metà italiane. -> falso
+1529: Eminem ha vinto un Oscar per la canzone 'Lose Yourself'. -> vero
+1530: La principessa Diana è tragicamente scomparsa nell'anno 1999. -> falso
+1531: Il personaggio di Jack Dawson nel film Titanic è basato su una persona realmente esistita a bordo. -> falso
+1532: Zendaya ha iniziato la sua carriera recitando per Disney Channel. -> vero
+1533: Ariana Grande ha iniziato la sua carriera cantando nel musical di Broadway '13'. -> vero
+1534: Chris Evans ha inizialmente rifiutato il ruolo di Captain America per paura della fama improvvisa. -> vero
+1535: Il vero nome di Bruno Mars è Peter Gene Hernandez. -> vero
+1536: Jennifer Lawrence ha un tatuaggio sulla mano con la formula chimica dell'acqua 'H2O'. -> vero
+1537: Madonna ha interpretato Evita Perón nel film musicale del 1996. -> vero
+1538: Ryan Gosling faceva parte del programma televisivo 'Mickey Mouse Club' da bambino. -> vero
+1539: Adele detiene il record per aver vinto 15 Grammy in una sola serata. -> falso
+1540: Johnny Depp ha perso la punta di un dito durante un violento litigio con Amber Heard. -> vero
+1541: Kylie Jenner è la sorella maggiore tra le Kardashian-Jenner. -> falso
+1542: Will Smith ha rifiutato il ruolo del protagonista Neo in Matrix per recitare in Wild Wild West. -> vero
+1543: La canzone 'I Will Always Love You' è stata scritta originariamente da Whitney Houston. -> falso
+1544: Selena Gomez è la persona con il maggior numero di follower in assoluto su Instagram. -> falso
+1545: L'attrice Megan Fox ha dichiarato di avere una strana fobia per la carta secca. -> vero
+1546: Il primo tweet della storia è stato inviato dal fondatore di Tesla, Elon Musk. -> falso
+1547: Il nome completo del rapper Drake è Aubrey Drake Graham. -> vero
+1548: Jennifer Aniston è l'unica del cast di Friends ad aver sempre rifiutato una reunion per decenni. -> falso
+1549: Nicolas Cage ha dovuto restituire un cranio di dinosauro che aveva acquistato, poiché era stato rubato in Mongolia. -> vero
+1550: Snoop Dogg e la cantante R&B Brandy sono cugini di primo grado. -> vero
+1551: I Beatles si sono rifiutati di esibirsi in concerti dove il pubblico era segregato per razza. -> vero
+1552: Oprah Winfrey è nata originariamente con il nome 'Orpah', ma è stato scambiato per errore di pronuncia. -> vero
+1553: Gwyneth Paltrow ha fondato un'azienda di lifestyle e benessere chiamata Goop. -> vero
+1554: Il primo lungometraggio animato Disney in cui appare Topolino è Biancaneve e i sette nani. -> falso
+1555: Tom Hanks ha prestato la voce al cowboy Woody nella versione originale di Toy Story. -> vero
+1556: Ed Sheeran ha fatto un cameo nel ruolo di un soldato in un episodio de Il Trono di Spade. -> vero
+1557: Dwayne 'The Rock' Johnson era originariamente un giocatore professionista di basket prima del wrestling. -> falso
+1558: La modella Cara Delevingne ha mostrato in TV di saper suonare la chitarra dietro la schiena. -> vero
+1559: Céline Dion ha cantato al matrimonio di Kim Kardashian e Kanye West in Italia. -> falso
+1560: Il vero nome di battesimo di Elton John è Reginald Kenneth Dwight. -> vero
+1561: L'attore Sean Bean è famoso per sopravvivere fino alla fine in quasi tutti i suoi film. -> falso
+1562: Kanye West si è ufficialmente candidato alle elezioni presidenziali degli Stati Uniti d'America. -> vero
+1563: Emma Stone è una bionda naturale, nonostante sia famosa per i suoi capelli rossi. -> vero
+1564: George Clooney ha regalato una valigetta con 1 milione di dollari a 14 dei suoi migliori amici. -> vero
+1565: Il film di successo 'Avatar' del 2009 è stato diretto da Steven Spielberg. -> falso
+1566: Meryl Streep ha vinto più di 10 premi Oscar nella sua carriera. -> falso
+1567: Keanu Reeves ha donato gran parte dei suoi guadagni di Matrix al team dei costumi e degli effetti speciali. -> vero
+1568: La famosa band Coldplay era originariamente chiamata Pectoralz al momento della formazione. -> vero
+1569: Timothée Chalamet ha frequentato la stessa scuola superiore di Ansel Elgort a New York. -> vero
+1570: Justin Timberlake e Ryan Gosling hanno vissuto insieme quando facevano parte del Mickey Mouse Club. -> vero
+1571: Il vero nome del rapper Snoop Dogg è Calvin Cordozar Broadus Jr. -> vero
+1572: La serie Breaking Bad era originariamente ambientata a Riverside, in California, ma è stata spostata ad Albuquerque. -> vero
+1573: Daniel Radcliffe ha rotto più di 80 bacchette magiche durante le riprese dei film di Harry Potter perché le usava come bacchette da batteria. -> vero
+1574: Billie Eilish è la più giovane artista ad aver vinto tutte e quattro le principali categorie ai Grammy Awards nello stesso anno. -> vero
+1575: Tom Hardy ha vinto un concorso di bellezza televisivo alla fine degli anni '90. -> vero
+1576: La madre di Beyoncé le ha disegnato molti dei costumi di scena durante i primi anni delle Destiny's Child. -> vero
+1577: Jim Carrey, prima di diventare famoso, ha scritto un assegno da 10 milioni di dollari a se stesso sperando di poterlo incassare un giorno. -> vero
+1578: L'abito da sposa indossato da Meghan Markle per il royal wedding è stato disegnato da Givenchy. -> vero
+1579: Paris Hilton e Nicole Richie erano le protagoniste indiscusse del reality show The Simple Life. -> vero
+1580: John Legend è uno dei pochissimi artisti ad aver raggiunto lo status di EGOT (Emmy, Grammy, Oscar, Tony). -> vero
+1581: Liam Hemsworth è il maggiore dei fratelli Hemsworth, più vecchio di Chris e Luke. -> falso
+1582: Joaquin Phoenix ha interpretato il celebre cantante Johnny Cash nel film biografico 'Walk the Line'. -> vero
+1583: La cantante Pink ha ribaltato le tradizioni e ha chiesto lei al marito Carey Hart di sposarla. -> vero
+1584: La canzone 'Smells Like Teen Spirit' dei Nirvana è stata intitolata così a causa di un deodorante per ragazze. -> vero
+1585: Il vero nome della controversa rockstar Marilyn Manson è Brian Hugh Warner. -> vero
+1586: Lo studio cinematografico voleva Matthew McConaughey per il ruolo di Jack Dawson in Titanic prima di scegliere Leonardo DiCaprio. -> vero
+1587: I Jonas Brothers sono apparsi inizialmente in una serie TV musicale intitolata JONAS, trasmessa su Nickelodeon. -> falso
+1588: Il cantante Post Malone ha un tatuaggio del presidente americano John F. Kennedy. -> vero
+1589: Steve Jobs, co-fondatore di Apple, è stato anche uno dei primi investitori e fondatori dello studio di animazione Pixar. -> vero
+1590: Cameron Diaz ha debuttato sul grande schermo recitando al fianco di Jim Carrey nel film The Mask. -> vero
+1591: Tom Holland ha scoperto di aver ottenuto il ruolo di Spider-Man leggendo un post su Instagram. -> vero
+1592: La cantautrice Lorde è nata e cresciuta in Svezia. -> falso
+1593: L'attore Ryan Reynolds è attualmente sposato con l'attrice Scarlett Johansson. -> falso
+1594: Halle Berry è stata la prima donna afroamericana a vincere il premio Oscar come Miglior Attrice Protagonista. -> vero
+1595: Paul McCartney scrisse originariamente la canzone 'Hey Jude' per confortare Julian, il figlio di John Lennon. -> vero
+1596: Il vero nome all'anagrafe della rapper Cardi B è Belcalis Marlenis Almánzar. -> vero
+1597: Orlando Bloom si è rotto una costola cadendo da cavallo durante le riprese del Signore degli Anelli. -> vero
+1598: Robert Downey Jr. non ha mai avuto problemi con la legge e non è mai stato in prigione. -> falso
+1599: Il film 'La La Land' è stato annunciato per errore come Miglior Film agli Oscar 2017 al posto del vero vincitore 'Moonlight'. -> vero
+1600: Zac Efron ha cantato personalmente tutte le sue canzoni nel primo film di 'High School Musical'. -> falso
+1601: La cantante Sia nasconde abitualmente il suo volto con grandi parrucche per proteggere la sua privacy. -> vero
+1602: La serie televisiva 'Game of Thrones' è basata sui famosi romanzi fantasy scritti da J.R.R. Tolkien. -> falso
+1603: David Bowie aveva gli occhi di due colori diversi fin dalla nascita a causa di una genetica rara. -> falso
+1604: La celebre rock band Queen ha tenuto un'iconica esibizione durante il concerto di beneficenza Live Aid nel 1985. -> vero
+1605: Il vero nome di Miley Cyrus alla nascita era Destiny Hope Cyrus. -> vero
+1606: Hugh Jackman ha vinto un Oscar come miglior attore protagonista per la sua interpretazione di Wolverine. -> falso
+1607: L'attrice Margot Robbie, famosa per film come Barbie e Suicide Squad, è di nazionalità australiana. -> vero
+1608: Quentin Tarantino non ha mai vinto un premio Oscar nella categoria Miglior Regista. -> vero
+1609: L'attore Samuel L. Jackson ha una clausola speciale nei suoi contratti che gli garantisce del tempo per giocare a golf durante le riprese. -> vero

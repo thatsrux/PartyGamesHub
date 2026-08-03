@@ -1,20 +1,4 @@
-export interface JeopardyQuestion {
-  question: string;
-  answer: string;
-}
-
-export interface JeopardyCategory {
-  name: string;
-  questions: {
-    100: JeopardyQuestion[];
-    200: JeopardyQuestion[];
-    300: JeopardyQuestion[];
-    400: JeopardyQuestion[];
-    500: JeopardyQuestion[];
-  };
-}
-
-export const jeopardyCategories: JeopardyCategory[] = [
+[
   {
     "name": "Cinema e Serie TV",
     "questions": {
@@ -13165,4 +13149,4 @@ export const jeopardyCategories: JeopardyCategory[] = [
       ]
     }
   }
-];
+]

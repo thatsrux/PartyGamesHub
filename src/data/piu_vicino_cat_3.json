@@ -724,8 +724,8 @@
   {
     "category": "Storia e Mitologia",
     "question": "In che anno a.C. è stata fondata la città di Roma?",
-    "min": 1000,
-    "max": 500,
+    "min": 500,
+    "max": 1000,
     "answer": 753,
     "unit": "a.C."
   },
@@ -796,8 +796,8 @@
   {
     "category": "Storia e Mitologia",
     "question": "In che anno a.C. è stato assassinato Giulio Cesare alle famose Idi di marzo?",
-    "min": 100,
-    "max": 10,
+    "min": 10,
+    "max": 100,
     "answer": 44,
     "unit": "a.C."
   },
