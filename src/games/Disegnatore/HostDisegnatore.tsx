@@ -155,14 +155,14 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
               drawerGotPoints = true;
             }
 
-            updates = { ...updates, correctGuessers: newCorrectGuessers, roundPoints: newRoundPoints };
+            updates = { ...updates, correctGuessers: newCorrectGuessers, roundPoints: newRoundPoints, [`guesses/${id}`]: null };
             
             setLiveGuess({
               id: getServerTime().toString() + Math.random(),
               playerId: id,
               playerName: players[id]?.name || 'Sconosciuto',
               playerPhoto: players[id]?.photo,
-              text: guess,
+              text: "***",
               isCorrect: true
             });
           }
@@ -381,7 +381,11 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
                       <Avatar photo={p.photo} name={p.name} size={48} />
                     </div>
                     <div style={{ background: 'rgba(255,255,255,0.1)', padding: '0.5rem 1rem', borderRadius: '1rem', minWidth: '100px', textAlign: 'center' }}>
-                      {gameState.guesses?.[id] ? (typeof gameState.guesses[id] === 'object' ? gameState.guesses[id].value : gameState.guesses[id]) : p.name}
+                      {gameState.correctGuessers?.[id] ? (
+                        <span style={{ color: 'var(--color-success)', fontWeight: 'bold' }}>Indovinato!</span>
+                      ) : (
+                        gameState.guesses?.[id] ? (typeof gameState.guesses[id] === 'object' ? gameState.guesses[id].value : gameState.guesses[id]) : p.name
+                      )}
                     </div>
                     <LiveGuessPopup guess={liveGuess?.playerId === id ? liveGuess : null} />
                   </div>
