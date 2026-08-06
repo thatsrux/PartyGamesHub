@@ -24,6 +24,7 @@ import { useProfile } from '../hooks/useProfile';
 import Avatar from '../components/shared/Avatar';
 import LoadingScreen from '../components/shared/LoadingScreen';
 import SettingsSlider from '../components/shared/SettingsSlider';
+import CareerModeSetting from '../games/LaCarriera/CareerModeSetting';
 import { gameThemes } from '../utils/theme';
 import type { GameThemeKey } from '../utils/theme';
 import Background from '../components/shared/Background';
@@ -469,6 +470,10 @@ export default function ClientJoin() {
                           min={10} max={120} step={5}
                           onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
                         />
+                      )}
+
+                      {settingsOpen === 'la_carriera' && (
+                        <CareerModeSetting value={tempSettings.careerMode} onChange={(careerMode) => setTempSettings({ ...tempSettings, careerMode })} />
                       )}
 
                       {settingsOpen === 'multigame' && (

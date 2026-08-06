@@ -10,6 +10,7 @@
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "test:careers": "node scripts/validate-career-data.cjs",
     "preview": "vite preview"
   },
   "dependencies": {

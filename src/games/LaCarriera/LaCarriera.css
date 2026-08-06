@@ -1,0 +1,95 @@
+.career-game {
+  --career-lime: #a3e635;
+  --career-emerald: #10b981;
+  --career-ink: #031a15;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  height: 100%;
+}
+
+.career-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 7.5rem;
+}
+
+.career-brand { display: flex; align-items: center; gap: .9rem; }
+.career-brand__ball {
+  width: 3rem; height: 3rem; display: grid; place-items: center;
+  border-radius: 1rem; background: rgba(163,230,53,.16); border: 1px solid rgba(190,242,100,.35);
+  box-shadow: 0 10px 30px rgba(0,0,0,.28); font-size: 1.6rem;
+}
+.career-brand h1 { margin: 0; font-size: clamp(2.1rem, 3vw, 3.35rem); color: #fff; background: none; -webkit-text-fill-color: initial; text-align: left; }
+.career-kicker { color: #bef264; font-size: .78rem; text-transform: uppercase; letter-spacing: .18em; font-weight: 900; }
+.career-round-pill { padding: .65rem 1rem; border-radius: 999px; background: rgba(3,26,21,.58); border: 1px solid rgba(255,255,255,.13); font-weight: 800; color: #d1fae5; white-space: nowrap; }
+
+.career-stage {
+  position: relative; isolation: isolate; overflow: hidden; flex: 1; min-height: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  padding: clamp(1.1rem, 2.2vw, 2.2rem); border-radius: 2rem;
+  background: linear-gradient(145deg, rgba(2,44,34,.82), rgba(3,26,21,.74));
+  border: 1px solid rgba(167,243,208,.18); box-shadow: 0 24px 80px rgba(0,0,0,.32);
+}
+.career-stage::before {
+  content: ''; position: absolute; inset: 0; z-index: -2; opacity: .17;
+  background: linear-gradient(90deg, transparent 49.7%, #fff 50%, transparent 50.3%), radial-gradient(circle at 50% 50%, transparent 0 17%, #fff 17.2% 17.5%, transparent 17.7%);
+}
+.career-stage::after { content: ''; position: absolute; inset: 0; z-index: -1; background: radial-gradient(circle at 50% 10%, rgba(163,230,53,.12), transparent 46%); }
+.career-prompt { margin: 0 0 .35rem; font-size: clamp(1.45rem, 2.2vw, 2.25rem); color: #f0fdf4; text-align: center; }
+.career-subprompt { color: rgba(209,250,229,.68); font-weight: 650; text-align: center; margin-bottom: clamp(1rem, 2.2vw, 2rem); }
+
+.career-timeline { position: relative; display: flex; align-items: center; justify-content: center; gap: clamp(.35rem, 1vw, .8rem); width: 100%; min-height: 210px; }
+.career-timeline__rail { position: absolute; left: 7%; right: 7%; top: 49%; height: 4px; background: linear-gradient(90deg, transparent, rgba(190,242,100,.68) 10% 90%, transparent); box-shadow: 0 0 18px rgba(163,230,53,.45); }
+.career-timeline__stop { position: relative; display: flex; align-items: center; min-width: 0; z-index: 1; }
+.career-timeline__arrow { color: #bef264; font-size: 2.25rem; font-weight: 300; margin-right: clamp(.2rem, .8vw, .65rem); text-shadow: 0 0 18px rgba(163,230,53,.6); }
+.career-team-card { width: clamp(118px, 9.5vw, 158px); min-height: 174px; padding: .9rem .65rem .7rem; display: flex; flex-direction: column; align-items: center; text-align: center; border-radius: 1.4rem; background: linear-gradient(155deg, rgba(255,255,255,.16), rgba(255,255,255,.055)); border: 1px solid rgba(255,255,255,.18); box-shadow: 0 14px 32px rgba(0,0,0,.32); backdrop-filter: blur(12px); }
+.career-team-card__badge-wrap { width: 86px; height: 86px; display: grid; place-items: center; padding: .35rem; border-radius: 1.15rem; background: rgba(255,255,255,.94); box-shadow: 0 9px 24px rgba(0,0,0,.28); }
+.career-team-card__badge { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 3px 3px rgba(0,0,0,.16)); }
+.career-team-card__name { margin-top: .65rem; font-size: .92rem; line-height: 1.08; font-weight: 900; color: white; }
+.career-team-card__years { margin-top: .32rem; color: #bef264; font-size: .78rem; font-weight: 850; letter-spacing: .02em; }
+.career-progress { width: min(900px, 92%); margin-top: .7rem; }
+.career-progress > div { margin-top: 1rem !important; }
+.career-players { display: flex; justify-content: center; flex-wrap: wrap; gap: .6rem; margin-top: .8rem; }
+.career-player-chip { display: flex; align-items: center; gap: .5rem; padding: .42rem .75rem; border: 1px solid rgba(255,255,255,.14); border-radius: 999px; background: rgba(3,26,21,.62); font-weight: 800; transition: .25s ease; }
+.career-player-chip--done { background: rgba(16,185,129,.8); box-shadow: 0 0 22px rgba(16,185,129,.32); }
+
+.career-answer { text-align: center; }
+.career-answer__eyebrow { color: #bef264; text-transform: uppercase; letter-spacing: .16em; font-weight: 900; font-size: .82rem; }
+.career-answer__name { margin: .35rem 0 1rem; font-size: clamp(3rem, 5.4vw, 5.8rem); color: #fff; background: none; -webkit-text-fill-color: initial; text-shadow: 0 12px 36px rgba(0,0,0,.45); }
+
+.career-mobile { gap: 1rem; padding-top: max(1.2rem, env(safe-area-inset-top)); padding-bottom: max(1.2rem, env(safe-area-inset-bottom)); }
+.career-mobile .btn-primary { background: linear-gradient(135deg, #10b981, #65a30d); box-shadow: 0 10px 26px rgba(16,185,129,.25); }
+.career-mobile .btn-primary:hover { background: linear-gradient(135deg, #34d399, #84cc16); }
+.career-mobile__top { display: flex; justify-content: space-between; align-items: center; gap: .75rem; }
+.career-mobile__title { font-size: 1.65rem; margin: 0; color: white; background: none; -webkit-text-fill-color: initial; text-align: left; }
+.career-mobile-card { background: rgba(3,26,21,.72); border: 1px solid rgba(209,250,229,.14); border-radius: 1.6rem; padding: 1.2rem; box-shadow: 0 18px 45px rgba(0,0,0,.27); backdrop-filter: blur(14px); }
+.career-timeline--compact { justify-content: flex-start; overflow-x: auto; min-height: 118px; padding: .15rem .1rem .7rem; }
+.career-timeline--compact .career-timeline__rail { display: none; }
+.career-timeline--compact .career-team-card { width: 88px; min-height: 105px; padding: .55rem .35rem; border-radius: 1rem; flex-shrink: 0; }
+.career-timeline--compact .career-team-card__badge-wrap { width: 54px; height: 54px; border-radius: .8rem; }
+.career-timeline--compact .career-team-card__name { font-size: .68rem; }
+.career-timeline--compact .career-team-card__years { font-size: .62rem; }
+.career-timeline--compact .career-timeline__arrow { font-size: 1.5rem; margin-right: .25rem; }
+.career-input-label { display: block; color: rgba(209,250,229,.72); text-align: center; margin-bottom: .75rem; font-weight: 700; }
+.career-input-wrap { position: relative; display: flex; gap: .6rem; }
+.career-input { min-width: 0; flex: 1; background: rgba(2,20,16,.72); border-color: rgba(190,242,100,.26); border-radius: 1rem; }
+.career-submit { width: 3.65rem; border-radius: 1rem; padding: 0; font-size: 1.35rem; }
+.career-suggestions { position: absolute; top: calc(100% + .45rem); left: 0; right: 4.25rem; z-index: 30; max-height: 235px; overflow-y: auto; border-radius: 1rem; background: #062a20; border: 1px solid rgba(190,242,100,.42); box-shadow: 0 18px 45px rgba(0,0,0,.55); }
+.career-suggestion { width: 100%; padding: .9rem 1rem; display: flex; justify-content: space-between; gap: .75rem; border: 0; border-bottom: 1px solid rgba(255,255,255,.07); background: transparent; color: white; text-align: left; font: inherit; font-weight: 750; cursor: pointer; }
+.career-suggestion:hover, .career-suggestion:focus { background: rgba(163,230,53,.14); outline: none; }
+.career-hint { color: #bef264; font-size: .72rem; }
+.career-feedback { text-align: center; padding: .7rem 1rem; border-radius: 1rem; font-weight: 850; }
+.career-feedback--wrong { color: #fecaca; background: rgba(239,68,68,.16); border: 1px solid rgba(248,113,113,.25); }
+.career-feedback--right { color: #d9f99d; background: rgba(132,204,22,.14); border: 1px solid rgba(190,242,100,.28); }
+.career-waiting { text-align: center; display: grid; place-items: center; flex: 1; }
+.career-waiting__check { width: 5rem; height: 5rem; display: grid; place-items: center; margin: 0 auto 1rem; border-radius: 50%; color: #052e16; background: #bef264; font-size: 2.4rem; box-shadow: 0 0 40px rgba(163,230,53,.42); }
+
+@media (max-width: 1250px) {
+  .career-team-card { width: 106px; min-height: 156px; }
+  .career-team-card__badge-wrap { width: 72px; height: 72px; }
+  .career-team-card__name { font-size: .8rem; }
+}

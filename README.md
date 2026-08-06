@@ -15,7 +15,7 @@ L'esperienza visiva è curata nei minimi dettagli con animazioni fluide tramite 
 ## 🆕 Ultime Novità
 
 - **Multigame:** Aggiunta la nuova modalità Multi-Game con tema cromatico dinamico multi-colore! Permette di selezionare ed includere in una singola sessione i diversi minigiochi del catalogo per una sfida variegata sia dall'Admin che nelle impostazioni profilo.
-- **La Carriera:** Database sfoltito a 604 giocatori selezionati. I club sono ora estratti direttamente dalle tabelle ufficiali di Wikipedia per evitare loghi/nomi "sporchi" di Wikidata (inclusi i ritorni nelle stesse squadre). Supporto migliorato per indovinare nomi con caratteri speciali (es. Ø, æ, ł, ecc.).
+- **La Carriera 2.0:** nuovo catalogo locale revisionato di 152 calciatori riconoscibili, diviso tra modalità *Icone* e *Completo*. Le carriere mostrano una timeline animata con 112 badge di club locali, anni e tappe significative; non servono più download da Firebase o scraping durante la partita. La risposta accetta nomi, cognomi, alias, accenti omessi e piccoli refusi.
 - **Impostore:** Logica per il game over immediato ottimizzata, impedendo loop infiniti.
 
 ---
@@ -54,6 +54,12 @@ La piattaforma ospita attualmente un variegato ecosistema di giochi interattivi:
 - **Backend / Database:** Firebase (Firestore & Realtime Database) strutturato e super ottimizzato per evitare latenza e sovraccarichi (incluso un sistema di batching per i dati del canvas).
 - **Routing:** React Router DOM.
 - **Iconografia:** Lucide React.
+
+### Dati di “La Carriera”
+
+- Il catalogo autorevole è `src/data/footballers.json` (schema v2); i badge sono indicizzati da `src/data/teamBadges.json` e distribuiti da `public/team-badges`.
+- I badge provengono principalmente da [TheSportsDB](https://www.thesportsdb.com/docs_api); tre asset storici non disponibili nel catalogo sono integrati da [football-logos](https://github.com/luukhopman/football-logos) e Wikimedia Commons. Tutti gli asset sono salvati localmente per evitare errori CORS, rate limit o immagini mancanti durante una partita.
+- `npm run test:careers` verifica unicità, schema, numero di tappe e copertura fisica di ogni badge.
 
 ---
 
