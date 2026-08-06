@@ -12,9 +12,16 @@ interface GameLayoutMobileProps {
 
 export default function GameLayoutMobile({ children, themeKey = 'default', className = '', style = {}, customBackground }: GameLayoutMobileProps) {
   const theme = gameThemes[themeKey];
+  const defaultPadding = style.padding === undefined ? {
+    paddingTop: '1.5rem',
+    paddingRight: '1.5rem',
+    paddingBottom: '1.5rem',
+    paddingLeft: '1.5rem'
+  } : {};
 
   return (
     <div 
+      className="game-layout-mobile-shell"
       style={{ 
         background: customBackground || theme.backgroundGradient, 
         minHeight: '100dvh',
@@ -24,11 +31,11 @@ export default function GameLayoutMobile({ children, themeKey = 'default', class
       }}
     >
       <div 
-        className={className}
+        className={`game-layout-mobile ${className}`.trim()}
         style={{
           maxWidth: '500px',
           margin: '0 auto',
-          padding: '1.5rem',
+          ...defaultPadding,
           width: '100%',
           display: 'flex',
           flexDirection: 'column',

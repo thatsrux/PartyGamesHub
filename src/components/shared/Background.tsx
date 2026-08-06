@@ -12,7 +12,7 @@ export default function Background({ theme = 'default', children, customBackgrou
   const currentTheme = gameThemes[theme];
 
   return (
-    <div style={{ 
+    <div className="app-background" style={{
       display: 'flex', 
       flexDirection: 'column', 
       height: '100dvh', /* Fix iOS Safari bouncing */

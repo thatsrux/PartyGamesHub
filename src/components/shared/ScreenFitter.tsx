@@ -11,8 +11,10 @@ export default function ScreenFitter({ children, width = 1920, height = 1080 }: 
 
   useEffect(() => {
     const calculateScale = () => {
-      const scaleX = window.innerWidth / width;
-      const scaleY = window.innerHeight / height;
+      const viewportWidth = window.visualViewport?.width || window.innerWidth;
+      const viewportHeight = window.visualViewport?.height || window.innerHeight;
+      const scaleX = viewportWidth / width;
+      const scaleY = viewportHeight / height;
       const newScale = Math.min(scaleX, scaleY);
       
       setScale(newScale);
@@ -20,11 +22,15 @@ export default function ScreenFitter({ children, width = 1920, height = 1080 }: 
 
     calculateScale();
     window.addEventListener('resize', calculateScale);
-    return () => window.removeEventListener('resize', calculateScale);
+    window.visualViewport?.addEventListener('resize', calculateScale);
+    return () => {
+      window.removeEventListener('resize', calculateScale);
+      window.visualViewport?.removeEventListener('resize', calculateScale);
+    };
   }, [width, height]);
 
   return (
-    <div style={{
+    <div className="screen-fitter" style={{
       width: '100vw',
       height: '100dvh',
       display: 'flex',
@@ -33,7 +39,7 @@ export default function ScreenFitter({ children, width = 1920, height = 1080 }: 
       overflow: 'hidden',
       backgroundColor: 'transparent'
     }}>
-      <div style={{
+      <div className="screen-fitter-stage" style={{
         width: width,
         height: height,
         transform: `scale(${scale})`,

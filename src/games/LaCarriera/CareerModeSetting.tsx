@@ -20,6 +20,7 @@ export default function CareerModeSetting({ value = 'icone', onChange }: CareerM
           return (
             <button
               key={id} type="button" onClick={() => onChange(id)}
+              aria-pressed={active}
               style={{
                 display: 'flex', alignItems: 'center', gap: '.75rem', padding: '1rem', textAlign: 'left',
                 color: 'white', cursor: 'pointer', borderRadius: '1.1rem',

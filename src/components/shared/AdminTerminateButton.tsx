@@ -7,6 +7,7 @@ export default function AdminTerminateButton({ onTerminate }: { onTerminate: () 
   return (
     <>
       <motion.button
+        className="floating-action floating-admin-terminate"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         whileHover={{ scale: 1.05 }}

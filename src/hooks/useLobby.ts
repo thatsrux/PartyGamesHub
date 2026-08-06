@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import { ref, set, onValue, update, remove, onDisconnect } from 'firebase/database';
-import { signInAnonymously } from 'firebase/auth';
-import { db, auth } from '../firebase';
+import { ref, set, onValue, update, remove, onDisconnect, runTransaction } from 'firebase/database';
+import { db } from '../firebase';
+import { ensureAuthenticatedUser } from '../services/authSession';
+import { mergePlayerSession } from '../utils/playerSession';
 
 export interface Player {
   name: string;
@@ -31,15 +32,18 @@ export function useLobby(lobbyCode: string | null) {
 
   // Authenticate anonymously
   useEffect(() => {
-    signInAnonymously(auth)
-      .then((userCredential) => {
-        setUserId(userCredential.user.uid);
-        sessionStorage.setItem('userId', userCredential.user.uid);
+    let active = true;
+    ensureAuthenticatedUser()
+      .then((user) => {
+        if (!active) return;
+        setUserId(user.uid);
+        sessionStorage.setItem('userId', user.uid);
       })
       .catch((err) => {
         console.error("Auth error:", err);
         setError("Errore di connessione");
       });
+    return () => { active = false; };
   }, []);
 
   // Listen to lobby changes
@@ -88,14 +92,16 @@ export function useLobby(lobbyCode: string | null) {
   }, [lobby?.players, userId, lobbyCode]);
 
   // Gestione della presenza della TV
+  const lobbyHostId = lobby?.host_id;
   useEffect(() => {
-    if (!lobbyCode || !userId || !lobby) return;
-    if (lobby.host_id === userId) {
+    if (!lobbyCode || !userId || !lobbyHostId) return;
+    const isHostDevice = sessionStorage.getItem('hostLobbyCode') === lobbyCode;
+    if (lobbyHostId === userId && isHostDevice) {
       const tvPresentRef = ref(db, `lobbies/${lobbyCode}/tv_present`);
       update(ref(db, `lobbies/${lobbyCode}`), { tv_present: true }).catch(console.error);
       onDisconnect(tvPresentRef).remove().catch(console.error);
     }
-  }, [lobbyCode, userId, lobby?.host_id]);
+  }, [lobbyCode, userId, lobbyHostId]);
 
   const createLobby = async (code: string) => {
     if (!userId) return;
@@ -142,7 +148,7 @@ export function useLobby(lobbyCode: string | null) {
     });
   };
 
-  const joinLobby = async (code: string, playerName: string, photo?: string, isAdmin: boolean = false) => {
+  const joinLobby = async (code: string, playerName: string, photo: string | null = null, isAdmin: boolean = false) => {
     if (!userId) return;
     
     // Add player to lobby
@@ -152,19 +158,33 @@ export function useLobby(lobbyCode: string | null) {
     // Verrà rimosso solo se chiama esplicitamente leaveLobby o se il Garbage Collector elimina l'intera lobby.
     // onDisconnect(playerRef).remove().catch(console.error);
 
-    await set(playerRef, {
-      name: playerName,
-      photo: photo || null,
-      score: 0,
-      isReady: true,
-      isAdmin,
-      joinedAt: Date.now()
+    await runTransaction(playerRef, (current: Player | null) =>
+      mergePlayerSession(current, { name: playerName, photo, isAdmin })
+    );
+  };
+
+  const updateCurrentPlayerProfile = async (name: string, photo: string | null) => {
+    if (!lobbyCode || !userId || !lobby?.players?.[userId]) return;
+    await update(ref(db, `lobbies/${lobbyCode}/players/${userId}`), {
+      name: name.trim().slice(0, 15),
+      photo,
     });
   };
 
   const updateGameState = async (newState: any) => {
     if (!lobbyCode) return;
     const stateRef = ref(db, `lobbies/${lobbyCode}/game_state`);
+
+    // More than one TV can be connected to the same room. Initial game setup
+    // contains random questions/sequences, so only the first TV may commit it;
+    // otherwise concurrent hosts can mix a question with another answer set.
+    if (newState?.phase && !lobby?.game_state?.phase) {
+      await runTransaction(stateRef, (currentState) => {
+        if (currentState?.phase) return;
+        return { ...(currentState || {}), ...newState };
+      });
+      return;
+    }
     await update(stateRef, newState);
   };
 
@@ -239,6 +259,7 @@ export function useLobby(lobbyCode: string | null) {
     isLoading,
     createLobby,
     joinLobby,
+    updateCurrentPlayerProfile,
     leaveLobby,
     updateLobbyData,
     updateGameState,

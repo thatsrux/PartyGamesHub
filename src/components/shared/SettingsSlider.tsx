@@ -1,3 +1,5 @@
+import { useId } from 'react';
+
 export default function SettingsSlider({
   label,
   value,
@@ -18,10 +20,11 @@ export default function SettingsSlider({
   icon?: string;
 }) {
   const safeValue = Math.min(max, Math.max(min, value));
+  const inputId = useId();
 
   return (
     <div className="input-group" style={{ margin: 0 }}>
-      <label style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', fontSize: '1.2rem' }}>
+      <label htmlFor={inputId} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', fontSize: '1.2rem' }}>
         <span>{icon} {label}</span>
         <span style={{ 
           fontWeight: 'bold', 
@@ -34,9 +37,11 @@ export default function SettingsSlider({
         </span>
       </label>
       <input 
+        id={inputId}
         type="range" 
         min={min} max={max} step={step}
         value={safeValue} 
+        aria-valuetext={`${safeValue}${suffix}`}
         onChange={e => onChange(parseInt(e.target.value) || min)} 
         style={{ 
           accentColor: 'var(--color-primary)', 

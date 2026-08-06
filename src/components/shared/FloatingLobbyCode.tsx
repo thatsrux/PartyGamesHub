@@ -1,6 +1,6 @@
 export default function FloatingLobbyCode({ code, isClient = false }: { code: string, isClient?: boolean }) {
   return (
-    <div style={{
+    <div className={`floating-lobby-code ${isClient ? 'floating-lobby-code-client' : 'floating-lobby-code-host'}`} style={{
       position: 'fixed',
       ...(isClient 
         ? { bottom: 'max(env(safe-area-inset-bottom, 20px), 3vh)', right: 'max(env(safe-area-inset-right, 20px), 3vw)' }

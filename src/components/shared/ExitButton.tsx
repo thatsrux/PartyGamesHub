@@ -7,6 +7,7 @@ export default function ExitButton({ onExit }: { onExit: () => void }) {
   return (
     <>
       <motion.button
+        className="floating-action floating-exit-button"
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
         onClick={() => setShowConfirm(true)}

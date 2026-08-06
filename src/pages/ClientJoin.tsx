@@ -37,14 +37,15 @@ export default function ClientJoin() {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const location = useLocation();
-  const codeFromUrl = searchParams.get('code') || '';
-  const storedCode = sessionStorage.getItem('lobbyCode') || '';
-  const { profile } = useProfile();
+  const codeFromUrl = (searchParams.get('code') || '').trim().toUpperCase().slice(0, 4);
+  const storedCode = (sessionStorage.getItem('lobbyCode') || '').trim().toUpperCase().slice(0, 4);
+  const { profile, saveProfile, loading: profileLoading } = useProfile();
   const initialIsJoined = sessionStorage.getItem('isJoined') === 'true';
   const [code, setCode] = useState(codeFromUrl || (initialIsJoined ? storedCode : ''));
   const [nickname, setNickname] = useState('');
   const [isJoined, setIsJoined] = useState(initialIsJoined);
   const [error, setError] = useState<string | null>(null);
+  const [isJoining, setIsJoining] = useState(false);
 
   const defaultSettings: Record<string, any> = Object.keys(GAMES_CONFIG).reduce((acc, key) => {
     acc[key] = GAMES_CONFIG[key].defaultSettings;
@@ -62,6 +63,8 @@ export default function ClientJoin() {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const [tempPhoto, setTempPhoto] = useState<string | null>(null);
   const [imageToCrop, setImageToCrop] = useState<string | null>(null);
+  const profileInitializedRef = useRef(false);
+  const reconciledLobbyProfileRef = useRef('');
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -79,10 +82,11 @@ export default function ClientJoin() {
 
   // Pre-fill nickname if profile exists
   useEffect(() => {
-    if (profile?.name && !isJoined) {
-      setNickname(profile.name);
+    if (!isJoined && !profileLoading && !profileInitializedRef.current) {
+      if (profile?.name) setNickname(profile.name);
+      profileInitializedRef.current = true;
     }
-  }, [profile, isJoined]);
+  }, [profile, profileLoading, isJoined]);
 
   // Subscribe to lobby to check if we are already in it (for auto-rejoin)
   const { lobby, joinLobby, leaveLobby, updateGameState, userId, setGameStatus, isLoading: lobbyLoading } = useLobby(code || null);
@@ -98,12 +102,23 @@ export default function ClientJoin() {
       } else if (lobby) {
         if (lobby.players && lobby.players[userId]) {
           // Player is successfully in the lobby
+          if (code) sessionStorage.setItem('lobbyCode', code);
           if (!isJoined) {
             setIsJoined(true);
             sessionStorage.setItem('isJoined', 'true');
           }
           if (lobby.players[userId].name) {
             setNickname(lobby.players[userId].name);
+          }
+
+          const lobbyPlayer = lobby.players[userId];
+          const signature = `${lobbyPlayer.name}\u0000${lobbyPlayer.photo || ''}`;
+          if (
+            reconciledLobbyProfileRef.current !== signature &&
+            (profile?.name !== lobbyPlayer.name || (profile?.photo || null) !== (lobbyPlayer.photo || null))
+          ) {
+            reconciledLobbyProfileRef.current = signature;
+            saveProfile(lobbyPlayer.name, lobbyPlayer.photo || null).catch(console.error);
           }
         } else if (isJoined) {
           // Player thinks they are joined, but Firebase says they are NOT in the players list (e.g. kicked)
@@ -113,7 +128,7 @@ export default function ClientJoin() {
         }
       }
     }
-  }, [isJoined, userId, lobby]);
+  }, [isJoined, userId, lobby, lobbyLoading, profile, saveProfile, code]);
 
   // Controlla se la stanza in memoria è stata eliminata (e pulisce l'input per non far perdere tempo)
   useEffect(() => {
@@ -148,29 +163,39 @@ export default function ClientJoin() {
     
     if (!nickname.trim()) return;
     
-    if (code.length !== 4) {
+    const normalizedCode = code.trim().toUpperCase();
+    if (normalizedCode.length !== 4) {
       setError("Stanza non trovata! Controlla il codice sulla TV.");
       return;
     }
     
-    const { get, ref } = await import('firebase/database');
-    const { db } = await import('../firebase');
-    
-    // Check if lobby exists
-    const lobbySnapshot = await get(ref(db, `lobbies/${code}`));
-    if (!lobbySnapshot.exists()) {
-      setError("Stanza non trovata! Controlla il codice sulla TV.");
-      return;
-    }
+    setIsJoining(true);
+    try {
+      const cleanNickname = nickname.trim().slice(0, 15);
+      const { get, ref } = await import('firebase/database');
+      const { db } = await import('../firebase');
 
-    // Lasciamo che sia useLobby.ts ad auto-promuovere il primo tramite joinedAt in modo sicuro
-    const isAdmin = false;
-    
-    const finalPhoto = tempPhoto === '' ? undefined : (tempPhoto || profile?.photo || undefined);
-    await joinLobby(code, nickname, finalPhoto, isAdmin);
-    sessionStorage.setItem('lobbyCode', code);
-    sessionStorage.setItem('isJoined', 'true');
-    setIsJoined(true);
+      // Check if lobby exists
+      const lobbySnapshot = await get(ref(db, `lobbies/${normalizedCode}`));
+      if (!lobbySnapshot.exists()) {
+        setError("Stanza non trovata! Controlla il codice sulla TV.");
+        return;
+      }
+
+      const finalPhoto = tempPhoto === '' ? null : (tempPhoto || profile?.photo || null);
+      await joinLobby(normalizedCode, cleanNickname, finalPhoto, false);
+      await saveProfile(cleanNickname, finalPhoto);
+      sessionStorage.setItem('lobbyCode', normalizedCode);
+      sessionStorage.setItem('isJoined', 'true');
+      setCode(normalizedCode);
+      setNickname(cleanNickname);
+      setIsJoined(true);
+    } catch (joinError) {
+      console.error(joinError);
+      setError('Non è stato possibile entrare. Controlla la connessione e riprova.');
+    } finally {
+      setIsJoining(false);
+    }
   };
 
   const handleExit = async () => {
@@ -228,6 +253,26 @@ export default function ClientJoin() {
       return (
         <>
           <ExitButton onExit={handleExit} />
+          <button
+            className="btn btn-secondary lobby-profile-button"
+            style={{
+              position: 'fixed',
+              bottom: 'max(env(safe-area-inset-bottom, 20px), 3vh)',
+              left: 'max(env(safe-area-inset-left, 20px), 3vw)',
+              background: 'rgba(0, 0, 0, 0.68)',
+              border: '1px solid rgba(255,255,255,0.14)',
+              borderRadius: '12px',
+              padding: '8px 20px',
+              fontWeight: 'bold',
+              zIndex: 2000,
+              backdropFilter: 'blur(10px)',
+              boxShadow: '0 4px 15px rgba(0,0,0,0.5)',
+              fontSize: '1rem',
+            }}
+            onClick={() => navigate('/profile')}
+          >
+            Profilo 👤
+          </button>
           <FloatingLobbyCode code={code} isClient />
           {myPlayer?.isAdmin && lobby.game_state?.phase !== 'finished' && lobby.game_selected !== 'multigame' && (
             <AdminTerminateButton onTerminate={() => updateGameState({ phase: 'finished', action: 'terminate' })} />
@@ -344,7 +389,7 @@ export default function ClientJoin() {
             <div style={{ width: '100%', margin: '0 auto', padding: '1rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
               <ExitButton onExit={handleExit} />
               <button 
-                className="btn btn-secondary" 
+                className="btn btn-secondary lobby-profile-button"
                 style={{ 
                   position: 'fixed', 
                   bottom: 'max(env(safe-area-inset-bottom, 20px), 3vh)', 
@@ -930,7 +975,7 @@ export default function ClientJoin() {
         <div className="container-mobile" style={{ height: '100%', justifyContent: 'center', textAlign: 'center' }}>
           <ExitButton onExit={handleExit} />
           <button 
-            className="btn btn-secondary" 
+            className="btn btn-secondary lobby-profile-button"
             style={{ 
               position: 'fixed', 
               bottom: 'max(env(safe-area-inset-bottom, 20px), 3vh)', 
@@ -1000,7 +1045,7 @@ export default function ClientJoin() {
           onCancel={() => setImageToCrop(null)} 
         />
       )}
-      <div className="container-mobile" style={{ flex: 1, overflowY: 'visible' }}>
+      <div className="container-mobile join-page" style={{ flex: 1, overflowY: 'visible' }}>
         <header style={{ display: 'flex', justifyContent: 'flex-start', paddingBottom: '1rem', width: '100%' }}>
           <button 
             className="btn btn-secondary" 
@@ -1017,7 +1062,7 @@ export default function ClientJoin() {
             style={{ width: '100%', maxWidth: '450px', margin: '0 auto', paddingBottom: '2rem' }}
           >
           <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-            <h1 style={{ 
+            <h1 className="join-title" style={{
               fontSize: '3.5rem', 
               fontWeight: '900', 
               margin: 0,
@@ -1031,7 +1076,7 @@ export default function ClientJoin() {
             <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '1.2rem', marginTop: '0.5rem' }}>Entra nella stanza con il codice</p>
           </div>
           
-          <form onSubmit={handleJoin} className="panel" style={{ 
+          <form onSubmit={handleJoin} className="panel join-card" style={{
               background: 'rgba(255,255,255,0.03)',
               backdropFilter: 'blur(20px)',
               borderRadius: '2.5rem',
@@ -1148,7 +1193,10 @@ export default function ClientJoin() {
                   type="text" 
                   className="input" 
                   value={nickname}
-                  onChange={(e) => setNickname(e.target.value)}
+                  onChange={(e) => {
+                    profileInitializedRef.current = true;
+                    setNickname(e.target.value);
+                  }}
                   maxLength={15}
                   style={{ 
                     flex: 1, 
@@ -1174,8 +1222,8 @@ export default function ClientJoin() {
               </motion.div>
             )}
 
-            <button type="submit" className="btn btn-primary btn-giant" style={{ width: '100%', fontSize: '1.4rem', padding: '1.2rem', borderRadius: '1.5rem', marginTop: '1rem' }}>
-              Entra nella Stanza
+            <button type="submit" disabled={isJoining} className="btn btn-primary btn-giant" style={{ width: '100%', fontSize: '1.4rem', padding: '1.2rem', borderRadius: '1.5rem', marginTop: '1rem', opacity: isJoining ? 0.65 : 1 }}>
+              {isJoining ? 'Ingresso in corso...' : 'Entra nella Stanza'}
             </button>
           </form>
         </motion.div>

@@ -38,12 +38,13 @@ export default function Home() {
 
   return (
     <Background theme="default">
-      <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1 }}>
+      <div className="container home-page" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', flex: 1 }}>
         <div style={{ margin: 'auto 0', display: 'flex', flexDirection: 'column', alignItems: 'center', width: '100%' }}>
         <motion.div 
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, type: "spring", bounce: 0.5 }}
+          className="home-hero"
           style={{ textAlign: 'center', marginBottom: '4rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
         >
           <motion.div 
@@ -61,7 +62,7 @@ export default function Home() {
           >
             <Gamepad2 size={72} color="var(--color-primary)" />
           </motion.div>
-          <h1 style={{ 
+          <h1 className="home-title" style={{
             fontSize: '4rem', 
             fontWeight: '900', 
             margin: 0,
@@ -78,6 +79,7 @@ export default function Home() {
           initial={{ opacity: 0, scale: 0.9, y: 20 }}
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
+          className="home-panel"
           style={{ 
             display: 'flex', 
             flexDirection: 'column', 

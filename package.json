@@ -11,6 +11,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "test:careers": "node scripts/validate-career-data.cjs",
+    "test:profile": "node --experimental-strip-types --test scripts/profile-session.test.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

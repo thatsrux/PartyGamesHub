@@ -19,7 +19,7 @@ export default function Profile() {
   const navigate = useNavigate();
   const { userId, profile, saveProfile, saveGameSettings, resetAllGameSettings, loading } = useProfile();
   const activeLobbyCode = sessionStorage.getItem('lobbyCode') || sessionStorage.getItem('hostLobbyCode');
-  const { lobby } = useLobby(activeLobbyCode);
+  const { lobby, isLoading: lobbyLoading, updateCurrentPlayerProfile } = useLobby(activeLobbyCode);
   
   const [view, setView] = useState<'profile' | 'catalog' | 'settings'>('profile');
   const [settingsOpen, setSettingsOpen] = useState<string | null>(null);
@@ -37,40 +37,27 @@ export default function Profile() {
   const [photo, setPhoto] = useState<string | null>(null);
   const [imageToCrop, setImageToCrop] = useState<string | null>(null);
   const [isSaving, setIsSaving] = useState(false);
+  const [saveError, setSaveError] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   const initialized = useRef(false);
 
   useEffect(() => {
-    if (!initialized.current && !loading && userId) {
+    if (!initialized.current && !loading && userId && (!activeLobbyCode || !lobbyLoading)) {
       if (activeLobbyCode && lobby?.players && lobby.players[userId]) {
         const lobbyPlayer = lobby.players[userId];
         setName(lobbyPlayer.name || profile?.name || '');
-        setPhoto(lobbyPlayer.photo || profile?.photo || null);
+        setPhoto(lobbyPlayer.photo ?? profile?.photo ?? null);
         initialized.current = true;
       } else if (profile) {
         if (profile.name) setName(profile.name);
-        if (profile.photo) setPhoto(profile.photo);
+        setPhoto(profile.photo || null);
+        initialized.current = true;
+      } else {
         initialized.current = true;
       }
     }
-  }, [profile, activeLobbyCode, lobby, userId, loading]);
-
-  useEffect(() => {
-    if (activeLobbyCode && lobby?.status === 'playing') {
-      const redirectUrl = sessionStorage.getItem('hostLobbyCode') ? '/host' : `/join?code=${activeLobbyCode}`;
-      
-      const doRedirect = () => {
-        window.location.href = redirectUrl;
-      };
-
-      if (name.trim()) {
-        saveProfile(name, photo || undefined).then(doRedirect).catch(doRedirect);
-      } else {
-        doRedirect();
-      }
-    }
-  }, [lobby?.status, activeLobbyCode, name, photo, saveProfile]);
+  }, [profile, activeLobbyCode, lobby, lobbyLoading, userId, loading]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -91,27 +78,26 @@ export default function Profile() {
     if (!name.trim()) return;
 
     setIsSaving(true);
-    await saveProfile(name.trim(), photo || undefined);
-    
-    if (activeLobbyCode && userId && sessionStorage.getItem('isJoined') === 'true') {
-      try {
-        const { update, ref } = await import('firebase/database');
-        const { db } = await import('../firebase');
-        const playerRef = ref(db, `lobbies/${activeLobbyCode}/players/${userId}`);
-        await update(playerRef, { name: name.trim(), photo: photo || null });
-      } catch(e) {
-        console.error(e);
+    setSaveError(null);
+    try {
+      const cleanName = name.trim().slice(0, 15);
+      await saveProfile(cleanName, photo);
+      if (activeLobbyCode && userId && sessionStorage.getItem('isJoined') === 'true') {
+        await updateCurrentPlayerProfile(cleanName, photo);
       }
-    }
-    
-    setIsSaving(false);
-    
-    if (sessionStorage.getItem('isJoined') === 'true') {
-      navigate('/join');
-    } else if (sessionStorage.getItem('hostLobbyCode')) {
-      navigate('/host');
-    } else {
-      navigate('/');
+
+      if (sessionStorage.getItem('isJoined') === 'true') {
+        navigate(`/join?code=${activeLobbyCode || ''}`);
+      } else if (sessionStorage.getItem('hostLobbyCode')) {
+        navigate('/host');
+      } else {
+        navigate('/');
+      }
+    } catch (error) {
+      console.error(error);
+      setSaveError('Salvataggio non completato. Controlla la connessione e riprova.');
+    } finally {
+      setIsSaving(false);
     }
   };
 
@@ -162,9 +148,9 @@ export default function Profile() {
           onCancel={() => setImageToCrop(null)} 
         />
       )}
-      <div className="container" style={{ display: 'flex', flexDirection: 'column', height: '100%', flex: 1 }}>
-        <header style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem', marginTop: '2rem', maxWidth: view === 'profile' ? '600px' : '1200px', margin: '2rem auto 3rem auto', width: '100%' }}>
-          <h2 style={{ 
+      <div className="container profile-page" style={{ display: 'flex', flexDirection: 'column', minHeight: '100%', flex: 1 }}>
+        <header className="profile-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '3rem', marginTop: '2rem', maxWidth: view === 'profile' ? '600px' : '1200px', margin: '2rem auto 3rem auto', width: '100%' }}>
+          <h2 className="profile-title" style={{
             fontSize: '2.5rem', 
             fontWeight: '900', 
             margin: 0,
@@ -201,6 +187,7 @@ export default function Profile() {
 
         {view === 'profile' && (
           <motion.form 
+          className="profile-card"
           onSubmit={handleSave}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -323,6 +310,11 @@ export default function Profile() {
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', width: '100%', marginTop: '1rem' }}>
+            {saveError && (
+              <p role="alert" style={{ color: '#fca5a5', textAlign: 'center', fontWeight: 700, margin: 0 }}>
+                {saveError}
+              </p>
+            )}
             <motion.button 
               type="button" 
               whileHover={{ scale: 1.02, boxShadow: '0 10px 25px -5px rgba(249, 115, 22, 0.4)' }}
@@ -480,7 +472,7 @@ export default function Profile() {
             <motion.div 
               initial={{ opacity: 0, scale: 0.95 }} 
               animate={{ opacity: 1, scale: 1 }} 
-              className="panel"
+              className="panel settings-card"
               style={{ 
                 width: '100%',
                 maxWidth: '500px',

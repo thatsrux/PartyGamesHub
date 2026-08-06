@@ -34,6 +34,7 @@ export default function PhotoCropper({ imageSrc, onCropComplete, onCancel }: Pho
   return (
     <AnimatePresence>
       <motion.div 
+        className="photo-cropper"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
@@ -46,7 +47,7 @@ export default function PhotoCropper({ imageSrc, onCropComplete, onCancel }: Pho
           flexDirection: 'column'
         }}
       >
-        <div style={{ position: 'relative', flex: 1, width: '100%' }}>
+        <div className="photo-cropper-canvas" style={{ position: 'relative', flex: 1, width: '100%' }}>
           <Cropper
             image={imageSrc}
             crop={crop}
@@ -60,7 +61,7 @@ export default function PhotoCropper({ imageSrc, onCropComplete, onCancel }: Pho
           />
         </div>
         
-        <div style={{
+        <div className="photo-cropper-controls" style={{
           padding: '2rem 1.5rem',
           background: '#1e1b4b',
           borderTop: '1px solid rgba(255,255,255,0.1)',
