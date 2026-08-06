@@ -3,6 +3,7 @@ import badgeManifest from '../../data/teamBadges.json';
 export { isCareerAnswerCorrect, searchableNames } from './careerMatching';
 
 export type CareerTier = 'icone' | 'campioni';
+export type CareerMode = CareerTier | 'completo';
 
 export interface CareerTeam {
   name: string;
@@ -33,9 +34,10 @@ export function getTeamBadge(teamId: string): string {
 }
 
 export function getCareerPool(mode: string | undefined): CareerPlayer[] {
+  const selectedTier: CareerTier = mode === 'campioni' ? 'campioni' : 'icone';
   const pool = mode === 'completo'
     ? careerPlayers
-    : careerPlayers.filter((player) => player.tier === 'icone');
+    : careerPlayers.filter((player) => player.tier === selectedTier);
   return pool.filter((player) => player.teams.length >= 2);
 }
 

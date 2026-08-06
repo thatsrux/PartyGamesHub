@@ -1,20 +1,27 @@
-import { Crown, Library } from 'lucide-react';
+import { Crown, Library, Trophy } from 'lucide-react';
+import { careerPlayers } from './data';
+import type { CareerMode } from './data';
 
 interface CareerModeSettingProps {
   value?: string;
-  onChange: (value: 'icone' | 'completo') => void;
+  onChange: (value: CareerMode) => void;
 }
 
+const playableCareers = careerPlayers.filter((player) => player.teams.length >= 2);
+const iconCount = playableCareers.filter((player) => player.tier === 'icone').length;
+const currentChampionCount = playableCareers.filter((player) => player.tier === 'campioni').length;
+
 const options = [
-  { id: 'icone' as const, title: 'Icone', description: '67 nomi immediati', Icon: Crown },
-  { id: 'completo' as const, title: 'Completo', description: 'Tutte le 145 carriere', Icon: Library },
+  { id: 'icone' as const, title: 'Icone', description: `${iconCount} leggende`, Icon: Crown },
+  { id: 'campioni' as const, title: 'Campioni attuali', description: `${currentChampionCount} protagonisti di oggi`, Icon: Trophy },
+  { id: 'completo' as const, title: 'Completo', description: `Tutte le ${playableCareers.length} carriere`, Icon: Library },
 ];
 
 export default function CareerModeSetting({ value = 'icone', onChange }: CareerModeSettingProps) {
   return (
     <div className="input-group" style={{ margin: 0 }}>
       <label style={{ marginBottom: '.65rem', fontSize: '1.1rem' }}>⚽ Difficoltà del catalogo</label>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '.75rem' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 10.5rem), 1fr))', gap: '.75rem' }}>
         {options.map(({ id, title, description, Icon }) => {
           const active = value === id;
           return (
