@@ -7,6 +7,7 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import RoundTracker from '../../components/shared/RoundTracker';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
+import GameTitleTV from '../../components/shared/GameTitleTV';
 import LoadingScreen from '../../components/shared/LoadingScreen';
 
 import { getCategoryColor } from '../../utils/categories';
@@ -125,21 +126,7 @@ export default function HostQuiz4({ lobbyCode }: { lobbyCode: string }) {
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
         
-        <motion.h1
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          style={{ 
-            fontSize: '5rem', 
-            marginBottom: '2rem',
-            fontWeight: 900,
-            background: 'linear-gradient(135deg, #7dd3fc 0%, #0284c7 100%)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            textShadow: '0px 10px 20px rgba(0,0,0,0.3)'
-          }}
-        >
-          Quiz
-        </motion.h1>
+        {gameState.phase !== 'finished' && <GameTitleTV title="Quiz 4 Risposte" icon="⭐" themeKey="quiz4" />}
 
         <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         

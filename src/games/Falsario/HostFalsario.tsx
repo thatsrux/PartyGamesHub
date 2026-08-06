@@ -7,6 +7,7 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 import RoundTracker from '../../components/shared/RoundTracker';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
+import GameTitleTV from '../../components/shared/GameTitleTV';
 
 import { getCategoryColor } from '../../utils/categories';
 import falsarioQuestions from '../../data/falsario.json';
@@ -164,9 +165,7 @@ export default function HostFalsario({ lobbyCode }: { lobbyCode: string }) {
       )}
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
-        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '4rem', marginBottom: '2rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
-          Il Falsario 🤥
-        </motion.h1>
+        {gameState.phase !== 'finished' && <GameTitleTV title="Il Falsario" icon="🤥" themeKey="falsario" />}
 
         <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         

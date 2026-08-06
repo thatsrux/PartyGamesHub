@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import './WordRevealUI.css';
 
 interface WordRevealUIProps {
   word: string;
@@ -19,82 +20,43 @@ export default function WordRevealUI({ word, revealSequence, startTime, duration
     }
 
     const updateRevealed = () => {
-      const now = Date.now();
-      const elapsed = now - startTime;
+      const elapsed = Date.now() - startTime;
       const revealInterval = durationMs / (revealSequence.length + 1);
-      
-      const numRevealed = Math.min(
-        revealSequence.length,
-        Math.max(0, Math.floor(elapsed / revealInterval))
-      );
-
+      const numRevealed = Math.min(revealSequence.length, Math.max(0, Math.floor(elapsed / revealInterval)));
       setRevealedIndices(new Set(revealSequence.slice(0, numRevealed)));
     };
 
     updateRevealed();
-    const interval = setInterval(updateRevealed, 500);
-
-    return () => clearInterval(interval);
+    const interval = window.setInterval(updateRevealed, 500);
+    return () => window.clearInterval(interval);
   }, [word, revealSequence, startTime, durationMs]);
 
   if (!word) return null;
 
-  const words = word.split(' ');
-
-  const tileSize = isTV ? '4rem' : 'min(9vw, 2.2rem)';
-  const fontSize = isTV ? '2.5rem' : 'min(5.5vw, 1.4rem)';
-  const gap = isTV ? '0.8rem' : 'min(1.5vw, 0.3rem)';
-  const wordGap = isTV ? '2rem' : '1rem';
+  const words = word.trim().split(/\s+/).filter(Boolean);
+  const longestWord = Math.max(1, ...words.map(part => Array.from(part).length));
+  const mobileTileVw = Math.min(9, 82 / longestWord);
+  const tvTileRem = Math.min(4, 64 / longestWord);
+  const tileSize = isTV ? `clamp(1.8rem, ${tvTileRem}rem, 4rem)` : `clamp(.72rem, ${mobileTileVw}vw, 2.2rem)`;
 
   let globalIndex = 0;
 
   return (
-    <div style={{ 
-      display: 'flex', 
-      flexWrap: 'wrap', 
-      justifyContent: 'center', 
-      gap: wordGap,
-      marginBottom: isTV ? '1.5rem' : '1rem',
-      padding: '0.5rem',
-      maxWidth: '100%',
-      boxSizing: 'border-box'
-    }}>
-      {words.map((w, wIndex) => (
-        <div key={wIndex} style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: gap }}>
-          {w.split('').map((char, cIndex) => {
+    <div
+      className={`word-reveal${isTV ? ' word-reveal--tv' : ''}`}
+      style={{ '--word-tile-size': tileSize } as React.CSSProperties}
+      aria-label={`${words.length} ${words.length === 1 ? 'parola' : 'parole'}`}
+    >
+      {words.map((part, wordIndex) => (
+        <div className="word-reveal__word" key={`${part}-${wordIndex}`} aria-label={`Parola ${wordIndex + 1}`}>
+          {Array.from(part).map((char, charIndex) => {
             const currentIndex = globalIndex++;
             const isRevealed = revealedIndices.has(currentIndex);
-
             return (
-              <div 
-                key={cIndex} 
-                style={{ 
-                  width: tileSize, 
-                  height: tileSize, 
-                  display: 'flex', 
-                  alignItems: 'center', 
-                  justifyContent: 'center', 
-                  background: isRevealed ? 'var(--color-primary)' : 'rgba(255,255,255,0.05)',
-                  color: isRevealed ? 'white' : 'transparent',
-                  borderRadius: '0.5rem',
-                  fontSize: fontSize,
-                  fontWeight: 'bold',
-                  textTransform: 'uppercase',
-                  border: isRevealed ? '2px solid var(--color-primary)' : '2px dashed rgba(255,255,255,0.2)',
-                  boxShadow: isRevealed ? '0 4px 12px rgba(59, 130, 246, 0.4)' : 'none',
-                  transition: 'all 0.3s ease',
-                  position: 'relative',
-                  overflow: 'hidden'
-                }}
-              >
+              <div className={`word-reveal__tile${isRevealed ? ' word-reveal__tile--revealed' : ''}`} key={`${charIndex}-${char}`}>
                 <AnimatePresence>
                   {isRevealed && (
-                    <motion.span
-                      initial={{ scale: 0.5, opacity: 0, y: 10 }}
-                      animate={{ scale: 1, opacity: 1, y: 0 }}
-                      exit={{ scale: 0.5, opacity: 0, y: -10 }}
-                      transition={{ type: 'spring', stiffness: 400, damping: 25 }}
-                    >
+                    <motion.span initial={{ scale: .5, opacity: 0, y: 8 }} animate={{ scale: 1, opacity: 1, y: 0 }} exit={{ scale: .5, opacity: 0, y: -8 }} transition={{ type: 'spring', stiffness: 400, damping: 25 }}>
                       {char}
                     </motion.span>
                   )}

@@ -13,6 +13,8 @@
     "test:careers": "node scripts/validate-career-data.cjs",
     "test:profile": "node --experimental-strip-types --test scripts/profile-session.test.mjs",
     "test:scoring": "node --experimental-strip-types --test scripts/piu-vicino-scoring.test.mjs",
+    "test:podium": "node --experimental-strip-types --test scripts/podium-ranking.test.mjs",
+    "test:images": "node --experimental-strip-types --test scripts/image-game-data.test.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

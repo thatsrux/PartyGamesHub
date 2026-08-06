@@ -250,6 +250,34 @@ h1 {
   white-space: nowrap;
 }
 
+.floating-admin-players {
+  position: fixed;
+  top: max(env(safe-area-inset-top), 0.8rem);
+  right: max(env(safe-area-inset-right), 0.8rem);
+  z-index: 2100;
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid rgba(147, 197, 253, .35);
+  border-radius: 50%;
+  background: rgba(30, 64, 175, .76);
+  color: white;
+  box-shadow: 0 8px 24px rgba(2, 6, 23, .36), inset 0 1px 0 rgba(255, 255, 255, .16);
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+}
+
+.admin-game-picker-heading {
+  display: grid;
+  align-items: center;
+  min-height: 3rem;
+  margin-bottom: 2rem;
+  padding-inline: 3.25rem;
+  text-align: center;
+}
+
 .home-title,
 .join-title,
 .profile-title {

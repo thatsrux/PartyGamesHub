@@ -1,0 +1,91 @@
+.game-title-tv {
+  --game-title-accent: #6366f1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  gap: 1rem;
+  width: max-content;
+  max-width: min(100%, 980px);
+  min-height: 5.5rem;
+  margin: 0 auto 1.5rem;
+  padding: .75rem 1.5rem .75rem .8rem;
+  border: 1px solid rgba(255, 255, 255, .17);
+  border-radius: 1.5rem;
+  background:
+    linear-gradient(110deg, color-mix(in srgb, var(--game-title-accent) 28%, transparent), transparent 55%),
+    rgba(7, 10, 28, .58);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, .24), inset 0 1px rgba(255, 255, 255, .12);
+  backdrop-filter: blur(18px);
+  isolation: isolate;
+}
+
+.game-title-tv::after {
+  content: '';
+  position: absolute;
+  inset: auto 1.4rem -.15rem 6.8rem;
+  height: .3rem;
+  border-radius: 99px;
+  background: linear-gradient(90deg, var(--game-title-accent), transparent);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--game-title-accent) 55%, transparent);
+}
+
+.game-title-tv__icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid rgba(255, 255, 255, .2);
+  border-radius: 1.1rem;
+  background: linear-gradient(145deg, color-mix(in srgb, var(--game-title-accent) 78%, white), var(--game-title-accent));
+  box-shadow: 0 9px 22px color-mix(in srgb, var(--game-title-accent) 35%, transparent), inset 0 1px rgba(255,255,255,.32);
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.game-title-tv__copy {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.game-title-tv__eyebrow {
+  color: color-mix(in srgb, var(--game-title-accent) 55%, white);
+  font-size: .72rem;
+  font-weight: 900;
+  letter-spacing: .2em;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+
+.game-title-tv__title {
+  color: white;
+  font-size: clamp(2.25rem, 3.35vw, 3.85rem);
+  font-weight: 950;
+  letter-spacing: -.045em;
+  line-height: .98;
+  text-wrap: balance;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, .36);
+}
+
+.game-title-tv--compact {
+  min-height: 4.25rem;
+  margin-bottom: .65rem;
+  padding-block: .5rem;
+}
+
+.game-title-tv--compact .game-title-tv__icon {
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.65rem;
+}
+
+.game-title-tv--compact .game-title-tv__title {
+  font-size: clamp(1.9rem, 2.6vw, 2.8rem);
+}
+
+@media (max-aspect-ratio: 4 / 3) {
+  .game-title-tv { max-width: 92%; }
+  .game-title-tv__title { font-size: clamp(2rem, 4.2vw, 3.3rem); }
+}

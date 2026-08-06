@@ -1,87 +1,64 @@
 import { motion } from 'framer-motion';
 import Avatar from './Avatar';
-
 import type { GameThemeKey } from '../../utils/theme';
 import GameLayoutMobile from './GameLayoutMobile';
 import { computeRanking } from '../../utils/ranking';
+import './Podium.css';
 
-export default function PodiumMobile({ 
-  players, 
-  userId, 
-  isAdmin, 
+export default function PodiumMobile({
+  players,
+  userId,
+  isAdmin,
   onReturnToLobby,
   themeKey = 'default',
   customBackground
-}: { 
-  players: any, 
-  userId: string | null, 
-  isAdmin: boolean, 
-  onReturnToLobby: () => void,
-  themeKey?: GameThemeKey,
-  customBackground?: string
+}: {
+  players: any;
+  userId: string | null;
+  isAdmin: boolean;
+  onReturnToLobby: () => void;
+  themeKey?: GameThemeKey;
+  customBackground?: string;
 }) {
   const rankedPlayers = computeRanking(players);
+  const winner = rankedPlayers[0];
 
   return (
     <GameLayoutMobile themeKey={themeKey} customBackground={customBackground}>
-      <div className="container-mobile" style={{ justifyContent: 'center', textAlign: 'center' }}>
-        <h2 style={{ color: 'var(--color-primary)', fontSize: '2.5rem' }}>Classifica 🏆</h2>
-      
-      <div style={{ marginTop: '1.5rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', width: '100%', overflowY: 'visible', flex: 1, paddingBottom: '2rem' }}>
-        {rankedPlayers.map((p: any, index: number) => {
-            let medal = '';
-            let color = 'var(--color-text)';
-            
-            if (p.rank === 1) { medal = '🥇'; color = '#fbbf24'; }
-            else if (p.rank === 2) { medal = '🥈'; color = '#9ca3af'; }
-            else if (p.rank === 3) { medal = '🥉'; color = '#d97706'; }
-            else { medal = `${p.rank}°`; color = 'var(--color-text-muted)'; }
+      <main className="final-standings-mobile">
+        <header className="final-standings-mobile__header">
+          <span>Partita conclusa</span>
+          <h1>Classifica finale</h1>
+          <p>🏆 Che partita!</p>
+        </header>
 
-            return (
-              <motion.div 
-                key={p.id}
-                initial={{ opacity: 0, x: -10 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: index * 0.1 }}
-                style={{ 
-                  fontSize: '1.2rem', 
-                  fontWeight: p.rank <= 3 ? 'bold' : 'normal',
-                  color: color,
-                  display: 'flex',
-                  alignItems: 'center',
-                  background: p.rank === 1 ? 'rgba(251, 191, 36, 0.1)' : 'rgba(255,255,255,0.05)',
-                  padding: '0.8rem 1rem',
-                  borderRadius: '0.5rem',
-                  justifyContent: 'space-between',
-                }}
-              >
-                <span style={{ display: 'flex', gap: '0.8rem', alignItems: 'center', flex: 1, minWidth: 0, paddingRight: '0.5rem' }}>
-                  <span style={{ width: '30px', textAlign: 'center', fontWeight: 'bold', flexShrink: 0 }}>{medal}</span>
-                  <Avatar photo={p.photo} name={p.name} size={32} />
-                  <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                    {p.name} {userId && p.id === userId ? '(Tu)' : ''}
-                  </span>
-                </span>
-                <span style={{ flexShrink: 0 }}>{p.score} pt</span>
-              </motion.div>
-            )
-          })}
-      </div>
+        {winner && (
+          <motion.section className="mobile-winner-card" initial={{ opacity: 0, y: 24, scale: .94 }} animate={{ opacity: 1, y: 0, scale: 1 }}>
+            <div className="mobile-winner-card__crown">👑</div>
+            <div className="mobile-winner-card__avatar"><Avatar photo={winner.photo} name={winner.name} size={86} /></div>
+            <span>1° posto</span>
+            <strong>{winner.name}{userId === winner.id ? ' · Tu' : ''}</strong>
+            <b>{winner.score} pt</b>
+          </motion.section>
+        )}
 
-      {isAdmin ? (
-        <button 
-          className="btn btn-secondary" 
-          style={{ marginTop: '2rem', width: '100%', padding: '1.5rem', fontSize: '1.2rem' }} 
-          onClick={onReturnToLobby}
-        >
-          Torna alla Lobby (Admin)
-        </button>
-      ) : (
-        <p style={{ marginTop: '2rem', color: 'var(--color-text-muted)' }} className="animate-pulse">
-          In attesa dell'Admin...
-        </p>
-      )}
-      </div>
+        <section className="mobile-final-list" aria-label="Classifica completa">
+          {rankedPlayers.slice(1).map((player, index) => (
+            <motion.article className={`mobile-final-row${userId === player.id ? ' mobile-final-row--me' : ''}`} key={player.id} initial={{ opacity: 0, x: -18 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: .12 + index * .045 }}>
+              <span className="mobile-final-row__rank">{player.rank === 2 ? '🥈' : player.rank === 3 ? '🥉' : `${player.rank}°`}</span>
+              <Avatar photo={player.photo} name={player.name} size={42} />
+              <strong>{player.name}{userId === player.id ? ' · Tu' : ''}</strong>
+              <b>{player.score} <small>pt</small></b>
+            </motion.article>
+          ))}
+        </section>
+
+        {isAdmin ? (
+          <button className="btn btn-primary final-standings-mobile__action" onClick={onReturnToLobby}>Torna alla lobby</button>
+        ) : (
+          <p className="final-standings-mobile__waiting animate-pulse">In attesa dell'Admin...</p>
+        )}
+      </main>
     </GameLayoutMobile>
   );
 }

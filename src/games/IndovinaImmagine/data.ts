@@ -65,10 +65,6 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
     answers: ["forchetta"]
   },
   {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Pizza-oven.jpg/1280px-Pizza-oven.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["forno"]
-  },
-  {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Radiergummies.jpg/1280px-Radiergummies.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     answers: ["gomma"]
   },
@@ -285,10 +281,6 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
     answers: ["peperone"]
   },
   {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/%2214_-_ITALY_-_prosciutto_%28leg_-_ham%29_-_taglio_anatomico_della_carne_di_maiale.jpg/1280px-%2214_-_ITALY_-_prosciutto_%28leg_-_ham%29_-_taglio_anatomico_della_carne_di_maiale.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["prosciutto"]
-  },
-  {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Birthday_cake.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
     answers: ["torta"]
   },
@@ -297,16 +289,8 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
     answers: ["uva"]
   },
   {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Yasuda_yogurt_150ml.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    answers: ["yogurt"]
-  },
-  {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Spinatsuppe-mit-Croutons.jpg/1280px-Spinatsuppe-mit-Croutons.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     answers: ["zuppa"]
-  },
-  {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Roger_Federer_%2818405413060%29.jpg/1280px-Roger_Federer_%2818405413060%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["roger federer", "rogerfederer"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Colosseo_2020.jpg/1280px-Colosseo_2020.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -315,22 +299,6 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/1280px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     answers: ["grande muraglia cinese", "grandemuragliacinese", "muraglia cinese", "grande muraglia"]
-  },
-  {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/it/7/74/Sergio_Leone_1987.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-    answers: ["sergio leone", "sergioleone"]
-  },
-  {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/The_Acropolis_of_Athens_viewed_from_the_Hill_of_the_Muses_%2814220794964%29.jpg/1280px-The_Acropolis_of_Athens_viewed_from_the_Hill_of_the_Muses_%2814220794964%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["acropoli di atene", "acropolidiatene"]
-  },
-  {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Granada_-_View_from_Mirador_de_San_Nicol%C3%A1s_-_02.jpg/1280px-Granada_-_View_from_Mirador_de_San_Nicol%C3%A1s_-_02.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["alhambra"]
-  },
-  {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Angkor-Wat-from-the-air.JPG/1280px-Angkor-Wat-from-the-air.JPG?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["angkor wat", "angkorwat"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Buckingham_Palace_from_gardens%2C_London%2C_UK_-_Diliff.jpg/1280px-Buckingham_Palace_from_gardens%2C_London%2C_UK_-_Diliff.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -345,24 +313,12 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
     answers: ["cascate del niagara", "cascatedelniagara"]
   },
   {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg/1280px-Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_%2815351915006%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["central park", "centralpark"]
-  },
-  {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/El_Castillo_Stitch_2008_Edit_1.jpg/1280px-El_Castillo_Stitch_2008_Edit_1.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["chichén itzá", "chichen itza", "chichénitzá"]
-  },
-  {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Golden_Gate_Bridge_as_seen_from_Battery_East.jpg/1280px-Golden_Gate_Bridge_as_seen_from_Battery_East.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     answers: ["golden gate bridge", "goldengatebridge"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/USA_09828_Grand_Canyon_Luca_Galuzzi_2007.jpg/1280px-USA_09828_Grand_Canyon_Luca_Galuzzi_2007.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     answers: ["grand canyon", "grandcanyon"]
-  },
-  {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Marina_Bay_Sands_%28I%29.jpg/1280px-Marina_Bay_Sands_%28I%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["marina bay sands", "marinabaysands"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Mount_Rushmore_detail_view_%28100MP%29.jpg/1280px-Mount_Rushmore_detail_view_%28100MP%29.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
@@ -391,10 +347,6 @@ export const indovinaImmagineQuestions: IndovinaImmagineQuestion[] = [
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Tower_Bridge_London_2016.jpg/1280px-Tower_Bridge_London_2016.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     answers: ["tower bridge", "towerbridge"]
-  },
-  {
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Uluru%2C_helicopter_view%2C_cropped.jpg/1280px-Uluru%2C_helicopter_view%2C_cropped.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    answers: ["uluṟu", "uluru"]
   },
   {
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/16-hole_chrom_10-hole_diatonic.jpg/1280px-16-hole_chrom_10-hole_diatonic.jpg?utm_source=it.wikipedia.org&utm_campaign=api&utm_content=thumbnail",

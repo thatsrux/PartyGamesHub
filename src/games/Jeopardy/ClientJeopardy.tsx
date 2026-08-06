@@ -6,6 +6,7 @@ import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import Avatar from '../../components/shared/Avatar';
 import type { JeopardyCategory } from './data';
 import { CATEGORY_EMOJIS } from '../../utils/categories';
+import './Jeopardy.css';
 
 export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, updatePlayerScore, returnToLobbyOrNextGame, updateLobbyData } = useLobby(lobbyCode);
@@ -59,14 +60,17 @@ export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: strin
     
     return (
       <GameLayoutMobile themeKey="jeopardy" style={{ justifyContent: 'flex-start', paddingTop: '2rem' }}>
-         <h2 style={{ color: 'white', textAlign: 'center', marginBottom: '1rem' }}>Vota 5 Categorie!</h2>
-         <p style={{ color: 'rgba(255,255,255,0.7)', textAlign: 'center', marginBottom: '2rem' }}>Selezionate: {myVotes.length} / 5</p>
-         <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginBottom: '2rem' }}>
+         <h2 className="jeopardy-mobile-heading">Vota 5 categorie</h2>
+         <p className="jeopardy-mobile-subtitle">Selezionate: {myVotes.length} / 5</p>
+         <div className="jeopardy-mobile-vote-grid">
             {ALL_JEOPARDY_CATEGORIES.map(cat => {
                const isSel = myVotes.includes(cat);
                return (
                  <button
                    key={cat}
+                   type="button"
+                   aria-pressed={isSel}
+                   disabled={myVotes.length >= 5 && !isSel}
                    onClick={() => {
                      let newVotes = myVotes;
                      if (isSel) {
@@ -77,26 +81,10 @@ export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: strin
                      setMyVotes(newVotes);
                      updateGameState({ [`liveVotes/${userId}`]: newVotes });
                    }}
-                   style={{
-                     flex: '1 1 calc(50% - 0.5rem)',
-                     padding: '1.2rem 0.5rem',
-                     borderRadius: '1rem',
-                     border: isSel ? '2px solid white' : '2px solid transparent',
-                     background: isSel ? 'var(--color-primary)' : 'rgba(255,255,255,0.08)',
-                     color: 'white',
-                     fontWeight: 'bold',
-                     transition: 'all 0.2s',
-                     opacity: myVotes.length >= 5 && !isSel ? 0.4 : 1,
-                     display: 'flex',
-                     flexDirection: 'column',
-                     alignItems: 'center',
-                     justifyContent: 'center',
-                     gap: '0.5rem',
-                     boxShadow: isSel ? '0 4px 12px rgba(0,0,0,0.3)' : 'none'
-                   }}
+                   className={`jeopardy-mobile-vote${isSel ? ' jeopardy-mobile-vote--selected' : ''}`}
                  >
-                    <span style={{ fontSize: '2rem' }}>{CATEGORY_EMOJIS[cat] || '❓'}</span>
-                    <span style={{ fontSize: '1rem', textAlign: 'center', lineHeight: '1.2' }}>{cat}</span>
+                    <span className="jeopardy-mobile-vote__emoji">{CATEGORY_EMOJIS[cat] || '❓'}</span>
+                    <span>{cat}</span>
                  </button>
                )
             })}
@@ -159,34 +147,27 @@ export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: strin
 
       return (
           <GameLayoutMobile themeKey="jeopardy" style={{ justifyContent: 'flex-start', paddingTop: '2rem' }}>
-              <div style={{ background: 'rgba(0,0,0,0.5)', padding: '1rem', borderRadius: '1rem', marginBottom: '1rem', textAlign: 'center', border: '1px solid var(--color-primary)' }}>
-                  <h3 style={{ margin: 0, color: 'var(--color-primary)' }}>Pannello Admin</h3>
+              <div className="jeopardy-admin-banner">
+                  <h3>Pannello Admin · Jeopardy</h3>
               </div>
 
               {phase === 'board' && categories && (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem', width: '100%' }}>
+                  <div className="jeopardy-admin-board">
                       <p style={{ textAlign: 'center', color: 'white', fontWeight: 'bold' }}>Seleziona una cella per i giocatori:</p>
                       
                       {categories.map((cat, idx) => (
-                          <div key={idx} style={{ background: 'rgba(255,255,255,0.05)', padding: '1rem', borderRadius: '1rem' }}>
-                              <h4 style={{ color: 'white', textAlign: 'center', margin: '0 0 1rem 0', fontSize: '1.2rem', textTransform: 'uppercase' }}>{cat.name}</h4>
-                              <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', justifyContent: 'center' }}>
+                          <div key={idx} className="jeopardy-admin-category">
+                              <h4>{CATEGORY_EMOJIS[cat.name] || '❓'} {cat.name}</h4>
+                              <div className="jeopardy-admin-values">
                                   {([100, 200, 300, 400, 500] as const).map(val => {
                                       const isCompleted = completedCells.includes(`${cat.name}-${val}`);
                                       return (
                                           <button
                                             key={val}
+                                            type="button"
+                                            disabled={isCompleted}
                                             onClick={() => handleCellClick(cat.name, val, cat.questions[val])}
-                                            style={{
-                                                flex: '1 1 18%',
-                                                padding: '0.8rem 0',
-                                                background: isCompleted ? 'rgba(0,0,0,0.3)' : 'var(--color-primary)',
-                                                color: isCompleted ? 'rgba(255,255,255,0.4)' : 'white',
-                                                border: isCompleted ? '1px solid rgba(255,255,255,0.1)' : 'none',
-                                                borderRadius: '0.5rem',
-                                                fontWeight: 'bold',
-                                                fontSize: '1rem'
-                                            }}
+                                            className="jeopardy-admin-value"
                                           >
                                               {val}
                                           </button>

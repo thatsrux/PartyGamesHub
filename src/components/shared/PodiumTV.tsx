@@ -1,65 +1,66 @@
 import { motion } from 'framer-motion';
 import Avatar from './Avatar';
-import { computeRanking } from '../../utils/ranking';
+import { splitFinalStandings } from '../../utils/ranking';
+import './Podium.css';
 
+const PODIUM_META = [
+  { index: 1, place: 2, medal: '🥈' },
+  { index: 0, place: 1, medal: '🥇' },
+  { index: 2, place: 3, medal: '🥉' }
+];
 
-
-export default function PodiumTV({ players, points }: { players: any, points: Record<string, number> }) {
-  const playersWithScore = Object.fromEntries(
-    Object.entries(players || {}).map(([id, p]: any) => [id, { ...p, score: points?.[id] || 0 }])
-  );
-  const rankedPlayers = computeRanking(playersWithScore);
-  
-  const top1 = rankedPlayers.filter(p => p.rank === 1);
-  const top2 = rankedPlayers.filter(p => p.rank === 2);
-  const top3 = rankedPlayers.filter(p => p.rank === 3);
-
-  const podiumSteps = [
-    { rank: 2, players: top2, height: '25vh', color: '#9ca3af', medal: '🥈', delay: 0.2 },
-    { rank: 1, players: top1, height: '35vh', color: '#fbbf24', medal: '🥇', delay: 0 },
-    { rank: 3, players: top3, height: '15vh', color: '#b45309', medal: '🥉', delay: 0.4 },
-  ];
+export default function PodiumTV({ players, points }: { players: any; points?: Record<string, number> }) {
+  const { podium, others } = splitFinalStandings(players, points);
 
   return (
-    <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} style={{ width: '100%', maxWidth: '1400px', display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100%', overflow: 'hidden', flex: 1, justifyContent: 'center' }}>
-      <h1 style={{ fontSize: 'clamp(3rem, 6vh, 5rem)', color: 'var(--color-primary)', marginBottom: '6vh', marginTop: '0', textShadow: '0 4px 20px rgba(0,0,0,0.5)' }}>Classifica Finale</h1>
-      
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-end', gap: '3vw', flexShrink: 0 }}>
-        {podiumSteps.map(step => {
-          if (step.players.length === 0) return null;
-          return (
-            <motion.div key={`rank-${step.rank}`} initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: step.delay }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', zIndex: 4 - step.rank }}>
-              <div style={{ marginBottom: '2vh', display: 'flex', gap: '2rem', flexWrap: 'wrap', justifyContent: 'center' }}>
-                {step.players.map(p => (
-                  <div key={p.id} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <Avatar photo={p.photo} name={p.name} size={step.rank === 1 ? 130 : 90} />
-                    <div style={{ fontSize: 'clamp(1.5rem, 3vh, 2.5rem)', fontWeight: 'bold', marginTop: '1vh', whiteSpace: 'nowrap', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>{p.name}</div>
-                    <div style={{ fontSize: 'clamp(1.2rem, 2vh, 1.8rem)', color: 'var(--color-text-muted)', fontWeight: 'bold' }}>{p.score} pt</div>
-                  </div>
-                ))}
-              </div>
-              <div style={{ 
-                minWidth: 'clamp(150px, 20vw, 300px)',
-                padding: '0 1.5rem',
-                width: '100%',
-                height: step.height, 
-                backgroundColor: step.color,
-                borderRadius: '2rem 2rem 0 0',
-                display: 'flex',
-                justifyContent: 'center',
-                alignItems: 'center',
-                fontSize: 'clamp(4rem, 10vh, 8rem)',
-                fontWeight: 'bold',
-                color: 'rgba(0,0,0,0.5)',
-                boxShadow: `0 0 40px ${step.color}`
-              }}>
-                {step.medal}
-              </div>
-            </motion.div>
-          );
-        })}
-      </div>
+    <motion.section className={`final-standings-tv${others.length === 0 ? ' final-standings-tv--podium-only' : ''}`} initial={{ opacity: 0, scale: .96 }} animate={{ opacity: 1, scale: 1 }}>
+      <header className="final-standings-tv__header">
+        <span className="final-standings-tv__kicker">Partita conclusa</span>
+        <h1><span>🏆</span> Classifica finale</h1>
+        <p>Applausi per tutti. Ecco com'è andata!</p>
+      </header>
 
-    </motion.div>
+      <div className="final-standings-tv__content">
+        <div className="final-podium" aria-label="Podio dei primi tre giocatori">
+          {PODIUM_META.map(({ index, place, medal }) => {
+            const player = podium[index];
+            if (!player) return <div className={`final-podium__slot final-podium__slot--${place} final-podium__slot--empty`} key={place} />;
+            return (
+              <motion.article
+                className={`final-podium__slot final-podium__slot--${place}`}
+                key={player.id}
+                initial={{ opacity: 0, y: 70 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ type: 'spring', stiffness: 180, damping: 18, delay: place === 1 ? .08 : place * .12 }}
+              >
+                <div className="final-podium__player">
+                  <span className="final-podium__medal">{medal}</span>
+                  <div className="final-podium__avatar"><Avatar photo={player.photo} name={player.name} size={place === 1 ? 112 : 88} /></div>
+                  <strong title={player.name}>{player.name}</strong>
+                  <span>{player.score} pt</span>
+                </div>
+                <div className="final-podium__step"><b>{place}</b><small>posto</small></div>
+              </motion.article>
+            );
+          })}
+        </div>
+
+        {others.length > 0 && (
+          <aside className="final-ranking-list">
+            <div className="final-ranking-list__heading"><span>Classifica completa</span><b>{podium.length + others.length} giocatori</b></div>
+            <div className="final-ranking-list__scroll">
+              {others.map((player, index) => (
+                <motion.div className="final-ranking-row" key={player.id} initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: .35 + index * .05 }}>
+                  <span className="final-ranking-row__rank">{player.rank}°</span>
+                  <Avatar photo={player.photo} name={player.name} size={48} />
+                  <strong title={player.name}>{player.name}</strong>
+                  <b>{player.score} <small>pt</small></b>
+                </motion.div>
+              ))}
+            </div>
+          </aside>
+        )}
+      </div>
+    </motion.section>
   );
 }

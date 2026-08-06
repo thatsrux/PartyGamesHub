@@ -15,6 +15,7 @@ import drawingWords from '../../data/disegnatore_words.json';
 import WordRevealUI from '../../components/shared/WordRevealUI';
 
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
+import GameTitleTV from '../../components/shared/GameTitleTV';
 import LoadingScreen from '../../components/shared/LoadingScreen';
 import { getServerTime } from '../../utils/serverTime';
 
@@ -298,9 +299,7 @@ export default function HostDisegnatore({ lobbyCode }: { lobbyCode: string }) {
       )}
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
-        <motion.h1 initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} style={{ fontSize: '2.5rem', marginBottom: '0.5rem', color: 'white', textShadow: '0 2px 10px rgba(0,0,0,0.5)' }}>
-          Disegnatore 🎨
-        </motion.h1>
+        {gameState.phase !== 'finished' && <GameTitleTV title="Disegnatore" icon="🎨" themeKey="disegnatore" compact />}
 
         <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         

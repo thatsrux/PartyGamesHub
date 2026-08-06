@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumTV from '../../components/shared/PodiumTV';
@@ -7,11 +7,13 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import RoundTracker from '../../components/shared/RoundTracker';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
+import GameTitleTV from '../../components/shared/GameTitleTV';
 import LoadingScreen from '../../components/shared/LoadingScreen';
 import { checkAnswerFuzzy } from '../../utils/fuzzyMatch';
 
 import { indovinaImmagineQuestions } from './data';
 import { getServerTime } from '../../utils/serverTime';
+import ProgressiveBlurImage from './ProgressiveBlurImage';
 
 function PlayerHostAvatar({ id, p, gameState }: { id: string, p: any, gameState: any }) {
   const [feedback, setFeedback] = useState<'wrong' | 'correct' | null>(null);
@@ -80,6 +82,7 @@ export default function HostIndovinaImmagine({ lobbyCode }: { lobbyCode: string 
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
   const gameState = lobby?.game_state || {};
   const players = lobby?.players || {};
+  const scoredRoundRef = useRef<string | null>(null);
   
   useEffect(() => {
     if (lobby && !gameState.phase) {
@@ -104,13 +107,17 @@ export default function HostIndovinaImmagine({ lobbyCode }: { lobbyCode: string 
     }
   }, [lobby]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleRoundEnd = () => {
+  const handleRoundEnd = async () => {
+    const roundKey = `${gameState.questionIndex ?? 0}:${gameState.startTime ?? 'pending'}`;
+    if (gameState.phase !== 'question' || scoredRoundRef.current === roundKey) return;
+    scoredRoundRef.current = roundKey;
+
     const playerIds = Object.keys(players);
     const durationMs = (gameState.settings?.duration || 20) * 1000;
     const startTime = gameState.startTime || getServerTime();
     const correctAnswers = gameState.question.answers;
 
-    playerIds.forEach(id => {
+    await Promise.all(playerIds.map(async id => {
       const pAnswer = gameState.answers?.[id];
       if (pAnswer && typeof pAnswer.answer === 'string') {
         const isCorrect = checkAnswerFuzzy(pAnswer.answer, correctAnswers);
@@ -120,11 +127,11 @@ export default function HostIndovinaImmagine({ lobbyCode }: { lobbyCode: string 
           if (timeTaken < durationMs) {
             speedBonus = Math.floor(100 * (1 - (timeTaken / durationMs)));
           }
-          updatePlayerScore(id, 100 + speedBonus);
+          await updatePlayerScore(id, 100 + speedBonus);
         }
       }
-    });
-    updateGameState({ phase: 'reveal' });
+    }));
+    await updateGameState({ phase: 'reveal' });
   };
 
   useEffect(() => {
@@ -132,7 +139,7 @@ export default function HostIndovinaImmagine({ lobbyCode }: { lobbyCode: string 
       const playerIds = Object.keys(players);
       const allAnswered = playerIds.length > 0 && playerIds.every(id => gameState.answers?.[id]);
       if (allAnswered) {
-        handleRoundEnd();
+        void handleRoundEnd();
       }
     }
   }, [players, gameState.phase, gameState.answers]);
@@ -182,21 +189,7 @@ export default function HostIndovinaImmagine({ lobbyCode }: { lobbyCode: string 
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
         
-        <motion.h1
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          style={{ 
-            fontSize: '5rem', 
-            marginBottom: '2rem',
-            fontWeight: 900,
-            background: 'linear-gradient(135deg, #a7f3d0 0%, #10b981 100%)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            textShadow: '0px 10px 20px rgba(0,0,0,0.3)'
-          }}
-        >
-          Indovina l'Immagine
-        </motion.h1>
+        {gameState.phase !== 'finished' && <GameTitleTV title="Indovina l'Immagine" icon="🖼️" themeKey="indovina_immagine" />}
 
         <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         
@@ -219,19 +212,7 @@ export default function HostIndovinaImmagine({ lobbyCode }: { lobbyCode: string 
                     alignItems: 'center',
                     justifyContent: 'center'
                 }}>
-                    <motion.img 
-                        key={currentQ.imageUrl}
-                        src={currentQ.imageUrl}
-                        alt="Mistery"
-                        initial={{ filter: 'blur(35px) brightness(0.5)', scale: 1.1 }}
-                        animate={{ filter: 'blur(0px) brightness(1)', scale: 1 }}
-                        transition={{ duration: durationMs / 1000, ease: "linear" }}
-                        style={{
-                            width: '100%',
-                            height: '100%',
-                            objectFit: 'cover'
-                        }}
-                    />
+                    <ProgressiveBlurImage key={currentQ.imageUrl} src={currentQ.imageUrl} startTime={gameState.startTime || getServerTime()} durationMs={durationMs} />
                 </div>
 
                 <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>

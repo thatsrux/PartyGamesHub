@@ -32,6 +32,7 @@ import Background from '../components/shared/Background';
 import { ALL_CATEGORIES, getCategoryColor, CATEGORY_COUNTS } from '../utils/categories';
 import { GAMES_CONFIG } from '../config/gamesConfig';
 import ManagePlayersModal from '../components/shared/ManagePlayersModal';
+import AdminPlayersButton from '../components/shared/AdminPlayersButton';
 
 export default function ClientJoin() {
   const [searchParams] = useSearchParams();
@@ -409,27 +410,7 @@ export default function ClientJoin() {
                 Profilo 👤
               </button>
               {myPlayer?.isAdmin && (
-                <button 
-                  className="btn btn-secondary" 
-                  style={{ 
-                    position: 'fixed', 
-                    top: 'max(env(safe-area-inset-top, 20px), 3vh)', 
-                    right: 'max(env(safe-area-inset-right, 20px), 3vw)', 
-                    background: 'rgba(59, 130, 246, 0.8)', 
-                    border: '1px solid rgba(255,255,255,0.1)', 
-                    borderRadius: '12px', 
-                    padding: '8px 20px', 
-                    fontWeight: 'bold',
-                    zIndex: 1000,
-                    backdropFilter: 'blur(10px)',
-                    boxShadow: '0 4px 15px rgba(0,0,0,0.5)',
-                    fontSize: '1rem',
-                    color: 'white'
-                  }} 
-                  onClick={() => setShowManagePlayers(true)}
-                >
-                  Giocatori 👥
-                </button>
+                <AdminPlayersButton onClick={() => setShowManagePlayers(true)} />
               )}
               <FloatingLobbyCode code={code} isClient />
               
@@ -848,9 +829,9 @@ export default function ClientJoin() {
                 </div>
               ) : (
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ flex: 1, paddingBottom: '2rem', display: 'flex', flexDirection: 'column' }}>
-                  <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+                  <div className="admin-game-picker-heading">
                     <h2 style={{ 
-                      fontSize: 'clamp(2.5rem, 5vw, 4rem)', 
+                      fontSize: 'clamp(1.7rem, 8vw, 4rem)',
                       fontWeight: '900', 
                       margin: '0',
                       background: 'linear-gradient(to right, #60a5fa, #c084fc, #f472b6)', 

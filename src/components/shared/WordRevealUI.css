@@ -1,0 +1,13 @@
+.word-reveal { max-width: 100%; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: .85rem 1rem; margin-bottom: 1rem; padding: .5rem .15rem; }
+.word-reveal__word { max-width: 100%; display: flex; flex: 0 0 auto; flex-wrap: nowrap; justify-content: center; gap: clamp(.08rem, .65vw, .22rem); }
+.word-reveal__tile { width: var(--word-tile-size); height: var(--word-tile-size); flex: 0 0 var(--word-tile-size); display: grid; place-items: center; overflow: hidden; border: 2px dashed rgba(255,255,255,.22); border-radius: clamp(.28rem, 1.7vw, .5rem); background: rgba(255,255,255,.055); color: transparent; font-size: calc(var(--word-tile-size) * .6); font-weight: 950; line-height: 1; text-transform: uppercase; transition: .3s ease; }
+.word-reveal__tile--revealed { border-style: solid; border-color: var(--color-primary); background: var(--color-primary); color: white; box-shadow: 0 5px 14px rgba(59,130,246,.34); }
+.word-reveal--tv { gap: 1.2rem 2rem; margin-bottom: 1.5rem; padding: .7rem; }
+.word-reveal--tv .word-reveal__word { gap: .7rem; }
+.word-reveal--tv .word-reveal__tile { border-radius: .65rem; }
+
+@media (max-width: 360px) {
+  .word-reveal { gap: .6rem .75rem; padding-inline: 0; }
+  .word-reveal__word { gap: .08rem; }
+  .word-reveal__tile { border-width: 1.5px; }
+}

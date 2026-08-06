@@ -7,6 +7,7 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import RoundTracker from '../../components/shared/RoundTracker';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
+import GameTitleTV from '../../components/shared/GameTitleTV';
 
 import { getCategoryColor } from '../../utils/categories';
 import allQuestions from '../../data/vero_falso.json';
@@ -117,21 +118,7 @@ export default function HostVeroOFake({ lobbyCode }: { lobbyCode: string }) {
 
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0 }}>
         
-        <motion.h1
-          initial={{ scale: 0.8, opacity: 0 }}
-          animate={{ scale: 1, opacity: 1 }}
-          style={{ 
-            fontSize: '5rem', 
-            marginBottom: '3rem',
-            fontWeight: 900,
-            background: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent',
-            textShadow: '0px 10px 20px rgba(0,0,0,0.3)'
-          }}
-        >
-          Vero o Falso?
-        </motion.h1>
+        {gameState.phase !== 'finished' && <GameTitleTV title="Vero o Falso?" icon="🃏" themeKey="vero_o_fake" />}
 
         <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '1.5rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
         {gameState.phase === 'question' && (

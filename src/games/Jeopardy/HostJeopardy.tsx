@@ -4,6 +4,7 @@ import { useLobby } from '../../hooks/useLobby';
 import PodiumTV from '../../components/shared/PodiumTV';
 import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
+import GameTitleTV from '../../components/shared/GameTitleTV';
 import LoadingScreen from '../../components/shared/LoadingScreen';
 import { getCategoryColor, CATEGORY_EMOJIS } from '../../utils/categories';
 import Avatar from '../../components/shared/Avatar';
@@ -11,6 +12,7 @@ import Avatar from '../../components/shared/Avatar';
 import { jeopardyCategories } from './data';
 import type { JeopardyCategory } from './data';
 import { getServerTime } from '../../utils/serverTime';
+import './Jeopardy.css';
 
 const encodeFirebaseKey = (str: string) => {
   return encodeURIComponent(str).replace(/\./g, '%2E');
@@ -162,13 +164,13 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
     
     return (
       <GameLayoutTV themeKey="jeopardy">
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
-          <h1 style={{ fontSize: '4rem', color: 'white', marginBottom: '0.5rem', textShadow: '0 0 20px rgba(255,255,255,0.5)' }}>Fase di Voto</h1>
-          <p style={{ fontSize: '1.5rem', color: 'rgba(255,255,255,0.8)', marginBottom: '2rem' }}>
+        <div className="jeopardy-screen">
+          <GameTitleTV title="Fase di voto" icon="🗳️" themeKey="jeopardy" className="jeopardy-title" />
+          <p className="jeopardy-vote-subtitle">
             Guardate il telefono e scegliete 5 categorie! ({totalVotes} / {totalPlayers} hanno votato)
           </p>
           
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '1.5rem', width: '100%', maxWidth: '1400px' }}>
+          <div className="jeopardy-category-grid">
             {ALL_JEOPARDY_CATEGORIES.map(cat => {
                const voters = Object.entries(gameState.liveVotes || {})
                  .filter(([_, pVotes]: [string, any]) => pVotes.includes(cat))
@@ -180,43 +182,14 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
                    key={cat}
                    initial={{ opacity: 0, scale: 0.8 }}
                    animate={{ opacity: 1, scale: 1 }}
-                   style={{
-                     position: 'relative',
-                     background: getCategoryColor(cat),
-                     padding: '2.5rem 1.5rem',
-                     borderRadius: '1.5rem',
-                     display: 'flex',
-                     flexDirection: 'column',
-                     alignItems: 'center',
-                     justifyContent: 'center',
-                     boxShadow: '0 10px 20px rgba(0,0,0,0.3)',
-                     border: '2px solid rgba(255,255,255,0.2)',
-                     marginBottom: '2rem'
-                   }}
+                   className="jeopardy-category-card"
+                   style={{ background: getCategoryColor(cat) }}
                  >
-                   <div style={{ textAlign: 'center' }}>
-                     <div style={{ fontSize: '3.5rem', marginBottom: '0.5rem', filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.4))' }}>{CATEGORY_EMOJIS[cat] || '❓'}</div>
-                     <h3 style={{ color: 'white', margin: 0, textAlign: 'center', fontSize: '1.6rem', fontWeight: 900, textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>
-                       {cat}
-                     </h3>
-                   </div>
-                   <div style={{ 
-                       position: 'absolute', 
-                       bottom: '-25px', 
-                       left: 0, 
-                       right: 0, 
-                       display: 'flex', 
-                       justifyContent: 'center',
-                       alignItems: 'center'
-                   }}>
+                   <div className="jeopardy-category-card__emoji">{CATEGORY_EMOJIS[cat] || '❓'}</div>
+                   <h3>{cat}</h3>
+                   <div className="jeopardy-category-card__voters">
                      {voters.map((v, idx) => (
-                       <div key={idx} style={{ 
-                           marginLeft: idx === 0 ? 0 : '-15px', 
-                           zIndex: idx, 
-                           border: '3px solid rgba(255,255,255,0.8)', 
-                           borderRadius: '50%', 
-                           boxShadow: '0 4px 6px rgba(0,0,0,0.5)' 
-                       }}>
+                       <div key={idx} className="jeopardy-voter-avatar" style={{ zIndex: idx }}>
                          <Avatar photo={v.photo} name={v.name} size={45} zoomFactor={1.35} />
                        </div>
                      ))}
@@ -234,11 +207,11 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
     const finalCats = gameState.finalCategories || [];
     return (
       <GameLayoutTV themeKey="jeopardy">
-         <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', padding: '2rem' }}>
-          <h1 style={{ fontSize: '4rem', color: 'white', marginBottom: '0.5rem', textShadow: '0 0 20px rgba(255,255,255,0.5)' }}>Risultati Votazione</h1>
-          <p style={{ fontSize: '1.5rem', color: 'rgba(255,255,255,0.8)', marginBottom: '3rem' }}>Ecco le 5 categorie selezionate per questa partita!</p>
+         <div className="jeopardy-screen">
+          <GameTitleTV title="Categorie scelte" icon="🏆" themeKey="jeopardy" className="jeopardy-title" />
+          <p className="jeopardy-vote-subtitle">Ecco le 5 categorie selezionate per questa partita!</p>
           
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', width: '100%', maxWidth: '800px' }}>
+          <div className="jeopardy-results-list">
             {finalCats.map((cat: string, index: number) => {
                const voters = Object.entries(gameState.votes || {})
                  .filter(([_, pVotes]: [string, any]) => pVotes.includes(cat))
@@ -251,25 +224,16 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
                    initial={{ opacity: 0, x: -50 }}
                    animate={{ opacity: 1, x: 0 }}
                    transition={{ delay: index * 0.2 }}
-                   style={{
-                     background: getCategoryColor(cat),
-                     padding: '1.5rem 2rem',
-                     borderRadius: '1rem',
-                     display: 'flex',
-                     alignItems: 'center',
-                     justifyContent: 'space-between',
-                     boxShadow: '0 10px 20px rgba(0,0,0,0.3)',
-                     border: '2px solid rgba(255,255,255,0.2)',
-                     minHeight: '120px'
-                   }}
+                   className="jeopardy-result-card"
+                   style={{ background: getCategoryColor(cat) }}
                  >
-                   <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
-                     <span style={{ fontSize: '3rem', filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.4))' }}>{CATEGORY_EMOJIS[cat] || '❓'}</span>
-                     <span style={{ fontSize: '2.2rem', color: 'white', fontWeight: 'bold', textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>{cat}</span>
+                   <div className="jeopardy-result-card__label">
+                     <span className="jeopardy-result-card__emoji">{CATEGORY_EMOJIS[cat] || '❓'}</span>
+                     <span>{cat}</span>
                    </div>
                    <div style={{ display: 'flex', alignItems: 'center' }}>
                      {voters.map((v, idx) => (
-                       <div key={idx} style={{ marginLeft: idx === 0 ? 0 : '-10px', zIndex: idx, border: '2px solid rgba(255,255,255,0.8)', borderRadius: '50%', boxShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>
+                       <div key={idx} className="jeopardy-voter-avatar" style={{ zIndex: idx }}>
                          <Avatar photo={v.photo} name={v.name} size={40} zoomFactor={1.35} />
                        </div>
                      ))}
@@ -279,7 +243,7 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
             })}
           </div>
           
-          <div style={{ marginTop: '3rem', color: 'white', fontSize: '1.2rem', opacity: 0.7 }}>
+          <div className="jeopardy-results-note">
             L'Admin può avviare la partita dal telefono.
           </div>
          </div>
@@ -298,68 +262,28 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
       themeKey="jeopardy"
       leaderboard={gameState.phase !== 'finished' ? <MiniLeaderboardTV players={players} animateUpdates={true} /> : undefined}
     >
-      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: 0, padding: '2rem' }}>
+      <div className="jeopardy-screen">
         
         {gameState.phase !== 'finished' && (
-            <motion.h1
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            style={{ 
-                fontSize: '4.5rem', 
-                marginBottom: '2rem',
-                fontWeight: 900,
-                background: 'linear-gradient(135deg, #fde047 0%, #eab308 100%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-                textShadow: '0px 10px 20px rgba(0,0,0,0.3)'
-            }}
-            >
-            JEOPARDY!
-            </motion.h1>
+            <GameTitleTV title="JEOPARDY!" icon="🧠" themeKey="jeopardy" className="jeopardy-title" compact />
         )}
 
-        <div className="panel" style={{ width: '100%', flex: 1, minHeight: 0, display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: gameState.phase === 'board' ? '1rem' : '2rem', background: 'rgba(255,255,255,0.05)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.1)' }}>
+        <div className="panel jeopardy-tv-panel">
         
         {gameState.phase === 'board' && (
-          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} style={{ height: '100%' }}>
             
-            <div style={{ display: 'grid', gridTemplateColumns: `repeat(${categories.length}, 1fr)`, gap: '1rem', width: '100%', height: '100%' }}>
+            <div className="jeopardy-board" style={{ gridTemplateColumns: `repeat(${categories.length}, minmax(0, 1fr))` }}>
                 {categories.map((cat, idx) => (
-                    <div key={idx} style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                        <div style={{ 
-                            background: 'var(--color-primary)', 
-                            color: 'white', 
-                            padding: '1.5rem 1rem', 
-                            borderRadius: '1rem', 
-                            textAlign: 'center', 
-                            fontWeight: 900, 
-                            fontSize: '1.5rem',
-                            textTransform: 'uppercase',
-                            boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            height: '100px'
-                        }}>
+                    <div key={idx} className="jeopardy-board__column">
+                        <div className="jeopardy-board__category">
+                            <span aria-hidden="true">{CATEGORY_EMOJIS[cat.name] || '❓'}</span>
                             {cat.name}
                         </div>
                         {[100, 200, 300, 400, 500].map(val => {
                             const isCompleted = completedCells.includes(`${cat.name}-${val}`);
                             return (
-                                <div key={val} style={{
-                                    flex: 1,
-                                    background: isCompleted ? 'rgba(0,0,0,0.2)' : 'linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%)',
-                                    borderRadius: '1rem',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    fontSize: '3rem',
-                                    fontWeight: 900,
-                                    color: isCompleted ? 'rgba(255,255,255,0.1)' : '#fde047',
-                                    boxShadow: isCompleted ? 'none' : '0 5px 15px rgba(0,0,0,0.4)',
-                                    border: isCompleted ? '1px solid rgba(255,255,255,0.05)' : '2px solid rgba(255,255,255,0.2)',
-                                    transition: 'all 0.3s ease'
-                                }}>
+                                <div key={val} className={`jeopardy-board__cell${isCompleted ? ' jeopardy-board__cell--done' : ''}`}>
                                     {isCompleted ? '' : val}
                                 </div>
                             )
@@ -372,52 +296,23 @@ export default function HostJeopardy({ lobbyCode }: { lobbyCode: string }) {
         )}
 
         {(gameState.phase === 'question' || gameState.phase === 'reveal') && currentCell && (
-          <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', height: '100%', justifyContent: 'center' }}>
+          <motion.div initial={{ opacity: 0, scale: 0.8 }} animate={{ opacity: 1, scale: 1 }} className="jeopardy-clue-stage">
             
-            <div style={{
-                background: 'var(--color-primary)',
-                color: 'white',
-                padding: '1rem 3rem',
-                borderRadius: '2rem',
-                fontSize: '2rem',
-                fontWeight: 900,
-                textTransform: 'uppercase',
-                marginBottom: '1rem'
-            }}>
+            <div className="jeopardy-clue-meta">
                 {currentCell.categoryName} - {currentCell.value}
             </div>
 
-            <h2 style={{ 
-              fontSize: '4rem', 
-              color: 'white', 
-              marginBottom: '3rem',
-              textAlign: 'center',
-              maxWidth: '1200px',
-              fontWeight: 800,
-              textShadow: '0 4px 10px rgba(0,0,0,0.5)',
-              padding: '2rem',
-              background: 'rgba(255,255,255,0.05)',
-              borderRadius: '2rem',
-              border: '1px solid rgba(255,255,255,0.1)'
-            }}>
+            <h2 className="jeopardy-clue">
               "{currentCell.questionObj.question}"
             </h2>
             
             {gameState.phase === 'reveal' && (
-                <motion.div 
+                <motion.div
                     initial={{ y: 50, opacity: 0 }} 
                     animate={{ y: 0, opacity: 1 }}
-                    style={{
-                    background: 'rgba(250, 204, 21, 0.2)',
-                    padding: '2rem 4rem',
-                    borderRadius: '2rem',
-                    marginBottom: '2rem',
-                    boxShadow: '0 0 40px rgba(250, 204, 21, 0.3)',
-                    border: '3px solid #fde047'
-                }}>
-                <h2 style={{ fontSize: '3.5rem', fontWeight: 900, color: '#fde047', margin: 0, textAlign: 'center' }}>
+                    className="jeopardy-answer"
+                >
                     {currentCell.questionObj.answer}
-                </h2>
                 </motion.div>
             )}
 

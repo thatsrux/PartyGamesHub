@@ -9,6 +9,10 @@
   padding: max(.55rem, env(safe-area-inset-top)) max(.55rem, env(safe-area-inset-right)) max(.55rem, env(safe-area-inset-bottom)) max(.55rem, env(safe-area-inset-left)) !important;
 }
 
+.drawer-studio--landscape:not(.drawer-studio--fullscreen) {
+  max-width: min(100%, 980px);
+}
+
 .drawer-prompt {
   position: relative;
   width: 100%;
@@ -105,6 +109,8 @@
   .drawer-studio--landscape .drawer-tool { width: 100%; min-width: 38px; }
   .drawer-studio--landscape .drawer-canvas-area { align-items: center; }
   .drawer-studio--landscape .drawer-canvas-shell { width: auto !important; height: min(100%, calc((100vw - clamp(220px, 30vw, 310px) - 2rem) * .75)) !important; max-height: 100%; }
+  .drawer-studio--fullscreen.drawer-studio--landscape .drawer-sidebar { width: clamp(210px, 27vw, 270px) !important; }
+  .drawer-studio--fullscreen.drawer-studio--landscape .drawer-canvas-shell { height: calc(100dvh - max(1.1rem, env(safe-area-inset-top) + env(safe-area-inset-bottom))) !important; max-height: 100%; }
 }
 
 @media (max-height: 430px) and (orientation: landscape) {

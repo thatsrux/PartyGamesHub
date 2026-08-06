@@ -43,6 +43,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const previewCanvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const workspaceRef = useRef<HTMLDivElement>(null);
 
   const isDrawingRef = useRef(false);
   const batchQueueRef = useRef<any[]>([]);
@@ -231,6 +232,14 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
     setIsPseudoFullscreen(prev => !prev);
   };
 
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => {
+      containerRef.current?.scrollTo({ top: 0, left: 0 });
+      workspaceRef.current?.scrollTo({ top: 0, left: 0 });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [isPseudoFullscreen, isLandscape]);
+
   const handleGuessSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (phase !== 'draw' || isDrawer || !guess.trim()) return;
@@ -342,7 +351,8 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
                     className="btn btn-primary"
                     style={{ padding: '1.5rem', fontSize: '1.2rem', background: 'rgba(255,255,255,0.1)', border: '2px solid rgba(255,255,255,0.2)' }}
                     onClick={() => {
-                      const visibleChars = Array.from(choice).map((char, index) => char !== ' ' ? index : -1).filter(i => i !== -1);
+                      const visibleCharacterCount = Array.from(choice).filter(char => !/\s/.test(char)).length;
+                      const visibleChars = Array.from({ length: visibleCharacterCount }, (_, index) => index);
                       for (let i = visibleChars.length - 1; i > 0; i--) {
                         const j = Math.floor(Math.random() * (i + 1));
                         [visibleChars[i], visibleChars[j]] = [visibleChars[j], visibleChars[i]];
@@ -378,7 +388,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
     );
   }
 
-  const isFullscreenLayout = isPseudoFullscreen || isLandscape;
+  const isFullscreenLayout = isPseudoFullscreen;
 
   if (phase === 'draw' || phase === 'finished' || phase === 'results') {
     if (isDrawer) {
@@ -408,6 +418,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
             </>
           )}
           <motion.div 
+            ref={workspaceRef}
             initial={{ opacity: 0, y: 20 }} 
             animate={{ opacity: 1, y: 0 }} 
             className="drawer-workspace"

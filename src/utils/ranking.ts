@@ -37,3 +37,18 @@ export function computeRanking(players: any): RankedPlayer[] {
     };
   });
 }
+
+export function getFinalStandings(players: any, points?: Record<string, number>): RankedPlayer[] {
+  const playersWithScore = Object.fromEntries(
+    Object.entries(players || {}).map(([id, player]: any) => [id, {
+      ...player,
+      score: points?.[id] ?? player.score ?? 0
+    }])
+  );
+  return computeRanking(playersWithScore);
+}
+
+export function splitFinalStandings(players: any, points?: Record<string, number>) {
+  const ranked = getFinalStandings(players, points);
+  return { podium: ranked.slice(0, 3), others: ranked.slice(3) };
+}
