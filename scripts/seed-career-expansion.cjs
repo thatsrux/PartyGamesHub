@@ -56,9 +56,12 @@ const additions = [
   player('william-saliba', 'William Saliba', ['Saliba'], 'campioni', [team('Saint-Étienne', '2018-2020', 'saint-etienne'), team('Nizza', '2020-2021', 'nizza'), team('Olympique Marsiglia', '2021-2022', 'olympique-marsiglia'), team('Arsenal', '2022-', 'arsenal')]),
   player('ousmane-dembele', 'Ousmane Dembélé', ['Ousmane Dembele', 'Dembélé'], 'campioni', [team('Rennes', '2015-2016', 'rennes'), team('Borussia Dortmund', '2016-2017', 'borussia-dortmund'), team('Barcellona', '2017-2023', 'barcellona'), team('Paris Saint-Germain', '2023-', 'paris-saint-germain')]),
   player('raphinha', 'Raphinha', ['Raphael Dias Belloli'], 'campioni', [team('Avaí', '2015-2016', 'avai'), team('Vitória Guimarães', '2016-2018', 'vitoria-guimaraes'), team('Sporting Lisbona', '2018-2019', 'sporting-lisbona'), team('Rennes', '2019-2020', 'rennes'), team('Leeds Utd', '2020-2022', 'leeds-utd'), team('Barcellona', '2022-', 'barcellona')]),
+  player('marco-verratti', 'Marco Verratti', ['Verratti'], 'campioni', [team('Pescara', '2008-2012', 'pescara'), team('Paris Saint-Germain', '2012-2023', 'paris-saint-germain'), team('Al-Arabi', '2023-', 'al-arabi')]),
+  player('enzo-fernandez', 'Enzo Fernández', ['Enzo Fernandez', 'Enzo'], 'campioni', [team('River Plate', '2019-2020', 'river-plate'), team('Defensa y Justicia', '2020-2021', 'defensa-y-justicia'), team('River Plate', '2021-2022', 'river-plate'), team('Benfica', '2022-2023', 'benfica'), team('Chelsea', '2023-', 'chelsea')]),
+  player('julian-alvarez', 'Julián Álvarez', ['Julian Alvarez', 'Álvarez'], 'campioni', [team('River Plate', '2018-2022', 'river-plate'), team('Manchester City', '2022-2024', 'manchester-city'), team('Atlético Madrid', '2024-', 'atletico-madrid')]),
 ];
 
-if (additions.length !== 50) throw new Error(`Attesi 50 giocatori, trovati ${additions.length}.`);
+if (additions.length < 50) throw new Error(`Attesi almeno 50 giocatori, trovati ${additions.length}.`);
 
 const replacements = {
   'zinedine-zidane': [team('Cannes', '1989-1992', 'cannes'), team('Bordeaux', '1992-1996', 'bordeaux'), team('Juventus', '1996-2001', 'juventus'), team('Real Madrid', '2001-2006', 'real-madrid')],

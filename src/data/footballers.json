@@ -6454,6 +6454,93 @@
           "teamId": "barcellona"
         }
       ]
+    },
+    {
+      "id": "marco-verratti",
+      "name": "Marco Verratti",
+      "aliases": [
+        "Verratti"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Pescara",
+          "years": "2008-2012",
+          "teamId": "pescara"
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "years": "2012-2023",
+          "teamId": "paris-saint-germain"
+        },
+        {
+          "name": "Al-Arabi",
+          "years": "2023-",
+          "teamId": "al-arabi"
+        }
+      ]
+    },
+    {
+      "id": "enzo-fernandez",
+      "name": "Enzo Fernández",
+      "aliases": [
+        "Enzo Fernandez",
+        "Enzo"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "River Plate",
+          "years": "2019-2020",
+          "teamId": "river-plate"
+        },
+        {
+          "name": "Defensa y Justicia",
+          "years": "2020-2021",
+          "teamId": "defensa-y-justicia"
+        },
+        {
+          "name": "River Plate",
+          "years": "2021-2022",
+          "teamId": "river-plate"
+        },
+        {
+          "name": "Benfica",
+          "years": "2022-2023",
+          "teamId": "benfica"
+        },
+        {
+          "name": "Chelsea",
+          "years": "2023-",
+          "teamId": "chelsea"
+        }
+      ]
+    },
+    {
+      "id": "julian-alvarez",
+      "name": "Julián Álvarez",
+      "aliases": [
+        "Julian Alvarez",
+        "Álvarez"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "River Plate",
+          "years": "2018-2022",
+          "teamId": "river-plate"
+        },
+        {
+          "name": "Manchester City",
+          "years": "2022-2024",
+          "teamId": "manchester-city"
+        },
+        {
+          "name": "Atlético Madrid",
+          "years": "2024-",
+          "teamId": "atletico-madrid"
+        }
+      ]
     }
   ],
   "source": {

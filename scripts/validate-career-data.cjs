@@ -12,7 +12,7 @@ const playableSignatures = new Map();
 
 if (database.version !== 3) errors.push('Versione database diversa da 3.');
 if (!database.source?.url || !database.source?.policy) errors.push('Metadati della fonte mancanti.');
-if (!Array.isArray(database.players) || database.players.length < 202) errors.push('Il catalogo deve contenere almeno 202 giocatori curati.');
+if (!Array.isArray(database.players) || database.players.length < 205) errors.push('Il catalogo deve contenere almeno 205 giocatori curati.');
 
 for (const player of database.players || []) {
   if (playerIds.has(player.id)) errors.push(`ID giocatore duplicato: ${player.id}`);

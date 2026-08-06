@@ -36,6 +36,7 @@ const supplementalSources = {
   'nizza': 'https://tmssl.akamaized.net/images/wappen/head/417.png',
   'nottingham-forest': 'https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png',
   'maiorca': 'https://a.espncdn.com/i/teamlogos/soccer/500/84.png',
+  'al-arabi': 'https://tmssl.akamaized.net//images/wappen/head/1230.png?lm=1728989970',
 };
 
 const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
