@@ -12,6 +12,7 @@ export default function RoundTracker({ current, total, isMobile = false }: { cur
   if (isMobile) {
     return (
       <motion.div 
+        className="round-tracker-mobile"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         style={{ 

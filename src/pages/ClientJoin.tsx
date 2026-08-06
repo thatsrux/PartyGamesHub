@@ -252,7 +252,7 @@ export default function ClientJoin() {
       };
 
       return (
-        <>
+        <div className={`client-game-shell${myPlayer?.isAdmin ? ' client-game-shell--admin' : ''}`}>
           <ExitButton onExit={handleExit} />
           <button
             className="btn btn-secondary lobby-profile-button"
@@ -279,7 +279,7 @@ export default function ClientJoin() {
             <AdminTerminateButton onTerminate={() => updateGameState({ phase: 'finished', action: 'terminate' })} />
           )}
           {renderGame()}
-        </>
+        </div>
       );
     }
 

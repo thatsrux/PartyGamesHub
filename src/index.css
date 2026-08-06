@@ -217,6 +217,19 @@ h1 {
   overflow-x: hidden;
 }
 
+.client-game-shell {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.client-game-shell--admin .round-tracker-mobile {
+  top: calc(max(env(safe-area-inset-top), 0.9rem) + 3.6rem) !important;
+}
+
+.client-game-shell--admin .career-mobile__top {
+  padding-top: 3.6rem;
+}
+
 .game-layout-mobile {
   padding-top: max(1.5rem, env(safe-area-inset-top));
   padding-right: max(1.5rem, env(safe-area-inset-right));
