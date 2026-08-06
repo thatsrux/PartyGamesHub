@@ -6,6 +6,7 @@ import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import Avatar from '../../components/shared/Avatar';
 import type { JeopardyCategory } from './data';
 import { CATEGORY_EMOJIS } from '../../utils/categories';
+import { completeJeopardyCell, getJeopardyCellId, openJeopardyCell } from './jeopardyState';
 import './Jeopardy.css';
 
 export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
@@ -125,10 +126,7 @@ export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: strin
   // --- VISTA ADMIN ---
   if (isAdmin) {
       const handleCellClick = (catName: string, value: number, questionObj: any) => {
-          updateGameState({
-              phase: 'question',
-              currentCell: { categoryName: catName, value, questionObj }
-          });
+          updateGameState(openJeopardyCell(completedCells, catName, value, questionObj));
       };
 
       const handleAssignPoints = (playerId: string, points: number) => {
@@ -136,11 +134,9 @@ export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: strin
       };
 
       const handleBackToBoard = () => {
-          const cellId = `${currentCell.categoryName}-${currentCell.value}`;
-          const isAlreadyCompleted = completedCells.includes(cellId);
           updateGameState({
               phase: 'board',
-              completedCells: isAlreadyCompleted ? completedCells : [...completedCells, cellId],
+              completedCells: completeJeopardyCell(completedCells, currentCell),
               currentCell: null
           });
       };
@@ -153,23 +149,26 @@ export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: strin
 
               {phase === 'board' && categories && (
                   <div className="jeopardy-admin-board">
-                      <p style={{ textAlign: 'center', color: 'white', fontWeight: 'bold' }}>Seleziona una cella per i giocatori:</p>
+                      <p className="jeopardy-admin-board__help">
+                        Seleziona una domanda. Quelle già giocate restano disponibili per rileggerle o correggere i punti.
+                      </p>
                       
                       {categories.map((cat, idx) => (
                           <div key={idx} className="jeopardy-admin-category">
                               <h4>{CATEGORY_EMOJIS[cat.name] || '❓'} {cat.name}</h4>
                               <div className="jeopardy-admin-values">
                                   {([100, 200, 300, 400, 500] as const).map(val => {
-                                      const isCompleted = completedCells.includes(`${cat.name}-${val}`);
+                                      const isCompleted = completedCells.includes(getJeopardyCellId(cat.name, val));
                                       return (
                                           <button
                                             key={val}
                                             type="button"
-                                            disabled={isCompleted}
                                             onClick={() => handleCellClick(cat.name, val, cat.questions[val])}
-                                            className="jeopardy-admin-value"
+                                            aria-label={`${isCompleted ? 'Riapri' : 'Apri'} ${cat.name} da ${val} punti`}
+                                            className={`jeopardy-admin-value${isCompleted ? ' jeopardy-admin-value--completed' : ''}`}
                                           >
-                                              {val}
+                                              <span>{val}</span>
+                                              {isCompleted && <span className="jeopardy-admin-value__reopen" aria-hidden="true">↺</span>}
                                           </button>
                                       );
                                   })}
@@ -234,13 +233,22 @@ export default function ClientJeopardy({ lobbyCode, userId }: { lobbyCode: strin
 
               {phase === 'reveal' && currentCell && (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', flex: 1, overflowY: 'auto' }}>
+                      {currentCell.reopened && (
+                        <div className="jeopardy-reopened-badge">↺ Domanda riaperta</div>
+                      )}
+                      <div className="jeopardy-admin-clue-review">
+                          <span>{currentCell.categoryName} · {currentCell.value}</span>
+                          <p>“{currentCell.questionObj.question}”</p>
+                      </div>
                       <div style={{ background: 'rgba(250, 204, 21, 0.2)', padding: '1.5rem', borderRadius: '1rem', border: '1px solid #fde047' }}>
                           <p style={{ color: '#fde047', fontSize: '1.5rem', fontWeight: 900, textAlign: 'center', margin: 0 }}>
                               {currentCell.questionObj.answer}
                           </p>
                       </div>
                       
-                      <p style={{ color: 'white', textAlign: 'center', fontWeight: 'bold', marginTop: '1rem' }}>Assegna Punti ({currentCell.value}):</p>
+                      <p style={{ color: 'white', textAlign: 'center', fontWeight: 'bold', marginTop: '1rem' }}>
+                        Assegna o correggi i punti ({currentCell.value}):
+                      </p>
 
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
                           {Object.entries(players).map(([id, p]: any) => (

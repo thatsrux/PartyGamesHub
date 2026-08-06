@@ -15,6 +15,7 @@
     "test:scoring": "node --experimental-strip-types --test scripts/piu-vicino-scoring.test.mjs",
     "test:podium": "node --experimental-strip-types --test scripts/podium-ranking.test.mjs",
     "test:images": "node --experimental-strip-types --test scripts/image-game-data.test.mjs",
+    "test:jeopardy": "node --experimental-strip-types --test scripts/jeopardy-state.test.mjs scripts/jeopardy-data.test.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

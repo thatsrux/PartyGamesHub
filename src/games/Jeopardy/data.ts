@@ -11875,16 +11875,16 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Quattro"
         },
         {
-          "question": "Questo sport è caratterizzato da una rete, una racchetta e l'amore.",
+          "question": "In questo sport si usano una rete e una racchetta, e il punteggio zero si chiama 'love'.",
           "answer": "Tennis"
         },
         {
           "question": "In questo sport, un 'touchdown' vale 6 punti.",
-          "answer": "American Football"
+          "answer": "Football americano"
         },
         {
           "question": "La NBA è la principale lega professionistica di questo sport.",
-          "answer": "Basketball"
+          "answer": "Pallacanestro"
         },
         {
           "question": "Una partita di calcio standard dura tanti minuti, più il tempo di recupero.",
@@ -11892,11 +11892,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Questo attrezzo viene colpito con una mazza nel golf.",
-          "answer": "Golf ball"
+          "answer": "Pallina da golf"
         },
         {
           "question": "Nel baseball, questo giocatore lancia la palla al battitore.",
-          "answer": "Pitcher"
+          "answer": "Lanciatore"
         },
         {
           "question": "Il nome di questa arte marziale significa \"mano vuota\".",
@@ -11908,15 +11908,15 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "In questo sport viene assegnata la Stanley Cup.",
-          "answer": "Ice Hockey"
+          "answer": "Hockey su ghiaccio"
         },
         {
-          "question": "Questo evento su pista è lungo esattamente 22 miglia.",
-          "answer": "Marathon"
+          "question": "Quale gara podistica misura ufficialmente 42,195 km?",
+          "answer": "Maratona"
         },
         {
           "question": "Questo stile di nuoto è spesso considerato il più veloce e viene utilizzato negli eventi di stile libero.",
-          "answer": "Freestyle"
+          "answer": "Stile libero"
         },
         {
           "question": "Nella boxe, un KO significa questo.",
@@ -11924,7 +11924,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Hai bisogno di una tavola, onde e un buon equilibrio per questo sport acquatico.",
-          "answer": "Surfing"
+          "answer": "Surf"
         },
         {
           "question": "Questo sport si gioca su un campo a forma di diamante.",
@@ -11936,7 +11936,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Il Tour de France è una gara famosa in questo sport.",
-          "answer": "Cycling"
+          "answer": "Ciclismo"
         },
         {
           "question": "Nel football americano, questa posizione solitamente lancia la palla.",
@@ -11944,7 +11944,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Questo sport utilizza una palla di ferro pesante attaccata a un filo, lanciata a distanza.",
-          "answer": "Hammer throw"
+          "answer": "Lancio del martello"
         },
         {
           "question": "Un \"hole-in-one\" è un risultato ambito in questo sport.",
@@ -11956,7 +11956,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "In quale sport eseguiresti una schiacciata?",
-          "answer": "Basketball"
+          "answer": "Pallacanestro"
         },
         {
           "question": "Qual è il numero massimo di mazze che un golfista può portare nella borsa durante un giro?",
@@ -11984,15 +11984,15 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale pezzo è spesso considerato il più potente in una partita a scacchi?",
-          "answer": "Queen"
+          "answer": "Regina"
         },
         {
           "question": "Di che colore è l'anello centrale in un bersaglio di tiro con l'arco tradizionale?",
-          "answer": "Yellow (or Gold)"
+          "answer": "Giallo (o oro)"
         },
         {
           "question": "Nel calcio, quale parte del corpo non può toccare intenzionalmente la palla per i giocatori in campo?",
-          "answer": "Hands (or Arms)"
+          "answer": "Mani (o braccia)"
         },
         {
           "question": "Quante basi ci sono su un diamante da baseball, esclusa casa base?",
@@ -12012,23 +12012,23 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale attrezzatura viene utilizzata per colpire un volano nel badminton?",
-          "answer": "Racket"
+          "answer": "Racchetta"
         },
         {
           "question": "In quale evento di atletica leggera gli atleti si passano il testimone?",
-          "answer": "Relay"
+          "answer": "Staffetta"
         },
         {
           "question": "Quale animale viene cavalcato negli sport equestri?",
-          "answer": "Horse"
+          "answer": "Cavallo"
         },
         {
           "question": "Quale stile di nuoto viene eseguito sulla schiena?",
-          "answer": "Backstroke"
+          "answer": "Dorso"
         },
         {
           "question": "Qual è la lunghezza standard di una maratona in miglia?",
-          "answer": "26.2 miles"
+          "answer": "26,2 miglia"
         },
         {
           "question": "Nella boxe, come si dice quando un combattente viene abbattuto e non riesce a rialzarsi prima che l'arbitro conti fino a dieci?",
@@ -12040,19 +12040,19 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quanti giocatori sono presenti contemporaneamente in campo in una squadra di baseball standard?",
-          "answer": "Nine"
+          "answer": "Nove"
         },
         {
           "question": "Quale sport viene spesso definito a livello globale \"il bellissimo gioco\"?",
-          "answer": "Soccer"
+          "answer": "Calcio"
         },
         {
           "question": "Di che colore è l'anello centrale su un bersaglio di tiro con l'arco standard?",
-          "answer": "Yellow"
+          "answer": "Giallo"
         },
         {
           "question": "Nel football americano, quanti punti vale un touchdown?",
-          "answer": "Six"
+          "answer": "Sei"
         },
         {
           "question": "Nel basket, qual è il termine per far rimbalzare la palla mentre si muove?",
@@ -12060,11 +12060,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale sport si svolge su una pista ovale ripida chiamata velodromo?",
-          "answer": "Cycling"
+          "answer": "Ciclismo"
         },
         {
           "question": "Quale paese ospita il famoso torneo di tennis di Wimbledon?",
-          "answer": "United Kingdom"
+          "answer": "Regno Unito"
         },
         {
           "question": "Quante buche vengono giocate in un giro completo di golf standard?",
@@ -12080,11 +12080,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale stile di nuoto competitivo prende il nome da un insetto?",
-          "answer": "Butterfly"
+          "answer": "Farfalla"
         },
         {
-          "question": "In which sport might a player execute a move known as a 'slam dunk'?",
-          "answer": "Basketball"
+          "question": "In quale sport un giocatore può eseguire una schiacciata?",
+          "answer": "Pallacanestro"
         },
         {
           "question": "Quale parola si usa nel tennis per indicare un punteggio pari a zero?",
@@ -12103,8 +12103,8 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "14"
         },
         {
-          "question": "In which sport do competitors race in a narrow boat called a shell using oars?",
-          "answer": "Rowing"
+          "question": "In quale sport gli atleti gareggiano a remi su una barca stretta chiamata 'shell'?",
+          "answer": "Canottaggio"
         },
         {
           "question": "Quale evento atletico consiste in una gara continua di nuoto, ciclismo e corsa?",
@@ -12137,7 +12137,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Brasile"
         },
         {
-          "question": "In tennis, this score means zero.",
+          "question": "Nel tennis, quale termine indica il punteggio zero?",
           "answer": "Love"
         },
         {
@@ -12146,7 +12146,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Michael Phelps detiene il record per il maggior numero di medaglie d'oro olimpiche in questo sport.",
-          "answer": "Swimming"
+          "answer": "Nuoto"
         },
         {
           "question": "Questa leggenda del basket viene spesso chiamata con le sue iniziali, MJ.",
@@ -12158,7 +12158,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Questo torneo di tennis del Grande Slam si gioca su campi in terra battuta.",
-          "answer": "French Open"
+          "answer": "Roland Garros"
         },
         {
           "question": "Questo velocista giamaicano ha stabilito il record mondiale nei 100 e 200 metri ai Campionati del mondo del 2009.",
@@ -12190,7 +12190,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Questo paese è considerato il luogo di nascita del golf moderno.",
-          "answer": "Scotland"
+          "answer": "Scozia"
         },
         {
           "question": "Questa ginnasta ha segnato il primo 10 perfetto alle Olimpiadi del 1976.",
@@ -12202,10 +12202,10 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Questo sport è anche conosciuto come ping-pong.",
-          "answer": "Table Tennis"
+          "answer": "Tennistavolo"
         },
         {
-          "question": "Nell'hockey su ghiaccio, una squadra può giocare sul ghiaccio contemporaneamente, compreso il portiere.",
+          "question": "Quanti giocatori per squadra sono contemporaneamente sul ghiaccio nell'hockey, portiere compreso?",
           "answer": "6"
         },
         {
@@ -12214,7 +12214,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nella scherma, questo è il nome dell'arma più leggera e utilizzata.",
-          "answer": "Foil"
+          "answer": "Fioretto"
         },
         {
           "question": "Quale evento multisportivo internazionale si tiene ogni quattro anni e prevede sia giochi estivi che invernali?",
@@ -12226,7 +12226,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "A quale paese è attribuita l'invenzione del moderno gioco del ping pong, originariamente chiamato \"Whiff-Whaff\"?",
-          "answer": "England"
+          "answer": "Inghilterra"
         },
         {
           "question": "Nella pallavolo, quanti giocatori ci sono in campo per una squadra alla volta?",
@@ -12234,23 +12234,23 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Qual è il termine per un punteggio perfetto di 300 in una partita di bowling a dieci birilli?",
-          "answer": "Perfect Game"
+          "answer": "Partita perfetta"
         },
         {
           "question": "Quale torneo di tennis del Grande Slam si gioca su campi in terra battuta?",
-          "answer": "French Open (Roland Garros)"
+          "answer": "Open di Francia (Roland Garros)"
         },
         {
           "question": "Nel basket, quanto dista la linea del tiro libero dal canestro?",
-          "answer": "15 feet"
+          "answer": "4,57 metri (15 piedi)"
         },
         {
           "question": "Qual è l'unico paese ad aver giocato in ogni singolo torneo della Coppa del Mondo FIFA?",
-          "answer": "Brazil"
+          "answer": "Brasile"
         },
         {
           "question": "In quale sport potresti \"catturare un granchio\"?",
-          "answer": "Rowing"
+          "answer": "Canottaggio"
         },
         {
           "question": "Quale squadra di Formula 1 è famosa per le sue auto rosso vivo e il logo del \"cavallino rampante\"?",
@@ -12266,15 +12266,15 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Cosa significano le lettere \"BMX\" nel ciclismo?",
-          "answer": "Bicycle Motocross"
+          "answer": "Bicycle Motocross (motocross in bicicletta)"
         },
         {
           "question": "Nella scherma, quale delle tre armi ha un'area di tiro valida limitata strettamente al busto?",
-          "answer": "Foil"
+          "answer": "Fioretto"
         },
         {
           "question": "Qual è la cintura più difficile da guadagnare nel Karate tradizionale prima di ottenere una cintura nera?",
-          "answer": "Brown belt"
+          "answer": "Cintura marrone"
         },
         {
           "question": "Nelle freccette, qual è il valore del bullseye esterno?",
@@ -12285,8 +12285,8 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Bowling"
         },
         {
-          "question": "Nella ginnastica, il cavallo con maniglie è tradizionalmente un attrezzo utilizzato solo da quale sesso?",
-          "answer": "Men"
+          "question": "Nella ginnastica artistica, il cavallo con maniglie appartiene tradizionalmente a quale categoria?",
+          "answer": "Categoria maschile"
         },
         {
           "question": "Qual è il nome della serie di campionati della Major League Baseball?",
@@ -12302,11 +12302,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "In quale città asiatica si sono svolte le Olimpiadi estive del 2008?",
-          "answer": "Beijing"
+          "answer": "Pechino"
         },
         {
           "question": "Quale sport di contatto pesante è ampiamente considerato lo sport nazionale del Giappone?",
-          "answer": "Sumo Wrestling"
+          "answer": "Sumo"
         },
         {
           "question": "Quanti round sono generalmente programmati in un moderno incontro di boxe di un campionato professionistico?",
@@ -12330,14 +12330,14 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nel baseball, quale difensore è posizionato tra la seconda e la terza base?",
-          "answer": "Shortstop"
+          "answer": "Interbase (shortstop)"
         },
         {
           "question": "Di che colore è la maglia tradizionalmente indossata dal leader del tempo assoluto al Tour de France?",
-          "answer": "Yellow"
+          "answer": "Giallo"
         },
         {
-          "question": "Which female tennis player has won 23 Grand Slam women's singles titles?",
+          "question": "Quale tennista ha vinto 23 titoli del Grande Slam nel singolare femminile?",
           "answer": "Serena Williams"
         },
         {
@@ -12346,7 +12346,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Qual è la distanza in miglia di una maratona standard?",
-          "answer": "26.2"
+          "answer": "26,2 miglia"
         },
         {
           "question": "Quale sport prevede una ripresa del gioco nota come \"mischia\"?",
@@ -12357,12 +12357,12 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Decathlon"
         },
         {
-          "question": "Which legendary NBA player scored exactly 100 points in a single game in 1962?",
+          "question": "Quale leggenda NBA segnò esattamente 100 punti in una singola partita nel 1962?",
           "answer": "Wilt Chamberlain"
         },
         {
           "question": "Qual è l'unica nazione ad aver giocato in ogni singolo torneo della Coppa del Mondo maschile FIFA?",
-          "answer": "Brazil"
+          "answer": "Brasile"
         },
         {
           "question": "Nelle gare di Formula 1, cosa significa una bandiera a scacchi sventolata davanti a un pilota?",
@@ -12374,7 +12374,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La squadra nazionale di rugby di quale paese è famosa per eseguire la danza Haka prima delle partite?",
-          "answer": "New Zealand"
+          "answer": "Nuova Zelanda"
         }
       ],
       "300": [
@@ -12404,7 +12404,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nel basket, James Naismith li usava come primi cerchi.",
-          "answer": "Peach baskets"
+          "answer": "Cesti da pesche"
         },
         {
           "question": "Questo pilota di Formula 1 detiene il record per il maggior numero di campionati del mondo, a pari merito con Michael Schumacher a sette.",
@@ -12420,23 +12420,23 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nello snooker, questa pallina colorata vale il maggior numero di punti, pari a 7.",
-          "answer": "Black"
+          "answer": "Nero"
         },
         {
           "question": "Questa tennista ha vinto 23 titoli del Grande Slam in singolo nell'era Open.",
           "answer": "Serena Williams"
         },
         {
-          "question": "Nel decathlon, gli atleti competono in molti diversi eventi di atletica leggera.",
+          "question": "Da quanti eventi è composto il decathlon?",
           "answer": "10"
         },
         {
           "question": "Questo paese ha vinto il maggior numero di medaglie nella storia delle Olimpiadi invernali.",
-          "answer": "Norway"
+          "answer": "Norvegia"
         },
         {
           "question": "La Giacca Verde viene assegnata al vincitore di questo importante torneo di golf.",
-          "answer": "I Maestri"
+          "answer": "Masters di Augusta"
         },
         {
           "question": "Nella lotta di sumo, il grado più alto che un lottatore può raggiungere si chiama così.",
@@ -12464,11 +12464,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Questo paese africano è stato il primo del continente ad ospitare una Coppa del Mondo FIFA nel 2010.",
-          "answer": "South Africa"
+          "answer": "Sudafrica"
         },
         {
           "question": "Nel football americano, questa è la lunghezza del campo da goal line a goal line, escluse le end zone.",
-          "answer": "100 yards"
+          "answer": "100 iarde (91,44 metri)"
         },
         {
           "question": "Questo famoso stadio di Londra è conosciuto come la \"casa del calcio\".",
@@ -12492,7 +12492,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Qual è il diametro di un canestro da basket standard in pollici?",
-          "answer": "18 inches"
+          "answer": "45,72 cm (18 pollici)"
         },
         {
           "question": "Nella NFL, quale squadra vinse il primo Super Bowl nel 1967?",
@@ -12500,11 +12500,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale major di golf si tiene ogni anno all'Augusta National Golf Club?",
-          "answer": "I Maestri"
+          "answer": "Masters di Augusta"
         },
         {
           "question": "Di che materiale è fatta una mazza da baseball standard della Major League?",
-          "answer": "Wood (Ash or Maple)"
+          "answer": "Legno (frassino o acero)"
         },
         {
           "question": "Nello snooker, quanti punti vale la pallina nera?",
@@ -12512,11 +12512,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale nazione vinse la prima Coppa del mondo di rugby nel 1987?",
-          "answer": "New Zealand"
+          "answer": "Nuova Zelanda"
         },
         {
           "question": "Qual è la distanza ufficiale di una nuotata Ironman Triathlon?",
-          "answer": "2.4 miles"
+          "answer": "3,86 km (2,4 miglia)"
         },
         {
           "question": "Nell'hockey su ghiaccio, quale trofeo viene assegnato ogni anno al campione dei playoff della National Hockey League?",
@@ -12540,10 +12540,10 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Di che colore è la maglia indossata dal leader assoluto del Tour de France?",
-          "answer": "Yellow"
+          "answer": "Giallo"
         },
         {
-          "question": "Nell'atletica leggera, quanti eventi consiste nel decathlon?",
+          "question": "Da quanti eventi è composto il decathlon?",
           "answer": "10"
         },
         {
@@ -12552,7 +12552,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Qual è stata la prima città ad ospitare due volte i Giochi Olimpici Moderni?",
-          "answer": "Paris"
+          "answer": "Parigi"
         },
         {
           "question": "In quale sport i giocatori usano una mazza per colpire una palla di legno o di plastica attraverso i cerchi inseriti in un campo in erba?",
@@ -12567,7 +12567,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "1896"
         },
         {
-          "question": "In which sport would you historically use a club called a 'niblick' or a 'mashie'?",
+          "question": "In quale sport si usavano storicamente mazze chiamate 'niblick' e 'mashie'?",
           "answer": "Golf"
         },
         {
@@ -12576,11 +12576,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Qual è il peso in chilogrammi di una palla standard per il lancio del peso maschile?",
-          "answer": "7.26"
+          "answer": "7,26 kg"
         },
         {
           "question": "Quale nazione ha vinto il quarto titolo di Coppa del mondo di rugby maschile nel 2023, più di qualsiasi altra nazione?",
-          "answer": "South Africa"
+          "answer": "Sudafrica"
         },
         {
           "question": "Chi detiene il record per il maggior numero di fuoricampo realizzati in una singola stagione della Major League Baseball?",
@@ -12604,7 +12604,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nel cricket, quante stecche di legno vengono poste sopra una serie di monconi?",
-          "answer": "Two"
+          "answer": "Due"
         },
         {
           "question": "Qual è la lunghezza in piedi di un campo da basket professionistico nella NBA?",
@@ -12620,7 +12620,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Cos’è ufficialmente riconosciuto come sport invernale nazionale del Canada?",
-          "answer": "Ice Hockey"
+          "answer": "Hockey su ghiaccio"
         },
         {
           "question": "Quale leggendario cavallo da corsa vinse la Triple Crown statunitense nel 1973 con una vittoria da record al Belmont Stakes?",
@@ -12628,11 +12628,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quanti punti vale la pallina marrone in una partita di snooker?",
-          "answer": "Four"
+          "answer": "Quattro"
         },
         {
           "question": "Quale paese è riconosciuto come il luogo di nascita storico del Taekwondo?",
-          "answer": "South Korea"
+          "answer": "Corea del Sud"
         },
         {
           "question": "Come si chiama il prestigioso trofeo assegnato ogni anno al vincitore dei playoff della NHL?",
@@ -12662,11 +12662,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Questo paese ha vinto la prima Coppa del mondo di rugby nel 1987.",
-          "answer": "New Zealand"
+          "answer": "Nuova Zelanda"
         },
         {
           "question": "Negli scacchi questo è l'unico pezzo che può saltare sopra gli altri pezzi.",
-          "answer": "Knight"
+          "answer": "Cavallo"
         },
         {
           "question": "Questo leggendario giocatore di baseball era soprannominato \"Il sultano dello Swat\".",
@@ -12681,19 +12681,19 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Diego Maradona"
         },
         {
-          "question": "Nel badminton, la Thomas Cup è il principale campionato internazionale per questo genere.",
-          "answer": "Men"
+          "question": "Nel badminton, la Thomas Cup è il principale campionato internazionale riservato a quale categoria?",
+          "answer": "Categoria maschile"
         },
         {
           "question": "Questa città ospita il famoso torneo di tennis di Wimbledon.",
-          "answer": "London"
+          "answer": "Londra"
         },
         {
           "question": "La \"Triple Crown\" nelle corse purosangue è composta dal Kentucky Derby, dal Preakness Stakes e da questa gara.",
           "answer": "Belmont Stakes"
         },
         {
-          "question": "Nella pallanuoto, ci sono così tanti giocatori in una squadra in acqua durante il gioco.",
+          "question": "Quanti giocatori per squadra sono in acqua durante una partita di pallanuoto?",
           "answer": "7"
         },
         {
@@ -12702,7 +12702,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Lo sport del sepaktakraw è originario di questa regione del mondo.",
-          "answer": "Southeast Asia"
+          "answer": "Sud-est asiatico"
         },
         {
           "question": "Questa squadra della NHL detiene il record per il maggior numero di campionati Stanley Cup.",
@@ -12721,16 +12721,16 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Biathlon"
         },
         {
-          "question": "In basketball, this player scored 100 points in a single NBA game in 1962.",
-          "answer": "Wilt Chamberlain"
+          "question": "Quale nazionale vinse il primo Campionato europeo di calcio nel 1960?",
+          "answer": "Unione Sovietica"
         },
         {
           "question": "Questo paese ha vinto il maggior numero di medaglie nella storia delle Olimpiadi estive.",
-          "answer": "United States"
+          "answer": "Stati Uniti"
         },
         {
           "question": "Il Trofeo Jules Rimet era il premio originale per aver vinto questa competizione.",
-          "answer": "FIFA World Cup"
+          "answer": "Coppa del Mondo FIFA"
         },
         {
           "question": "Nel bowling, con questo termine si conoscono tre strike consecutivi.",
@@ -12762,19 +12762,19 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale paese è il principale vincitore di medaglie di tutti i tempi alle Olimpiadi invernali?",
-          "answer": "Norway"
+          "answer": "Norvegia"
         },
         {
           "question": "Nel decathlon qual è sempre l'evento finale?",
-          "answer": "1500 meters"
+          "answer": "1500 metri"
         },
         {
           "question": "Quale pugile leggendario è nato Cassius Clay prima di cambiare nome?",
           "answer": "Muhammad Ali"
         },
         {
-          "question": "Qual è l'unico sport in cui ai concorrenti non è consentito oltrepassare la linea centrale dell'area di gioco, ma colpiscono costantemente un proiettile avanti e indietro?",
-          "answer": "Volleyball"
+          "question": "Nella pallavolo, quanti tocchi può effettuare una squadra prima di rimandare la palla oltre la rete, escluso il muro?",
+          "answer": "Tre"
         },
         {
           "question": "Chi detiene il record per il maggior numero di gol segnati in una singola stagione di NHL?",
@@ -12786,11 +12786,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale attrezzatura sportiva è stata completamente rivoluzionata dall'introduzione del \"modello fossette\" nel 1905?",
-          "answer": "Golf ball"
+          "answer": "Pallina da golf"
         },
         {
-          "question": "Quale nome insolito viene dato alla persona che guida un bob o una barca a remi?",
-          "answer": "Coxswain"
+          "question": "Nel canottaggio, come si chiama la persona che governa l'imbarcazione e coordina l'equipaggio?",
+          "answer": "Timoniere"
         },
         {
           "question": "In quale sport viene assegnata la \"Coppa Davis\" alla squadra nazionale maschile vincitrice?",
@@ -12802,15 +12802,15 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nello sport del biathlon gli atleti abbinano lo sci di fondo con quale altra disciplina?",
-          "answer": "Rifle shooting"
+          "answer": "Tiro con la carabina"
         },
         {
           "question": "Qual è il termine per un punteggio di golf di tre colpi sotto il par su una singola buca?",
-          "answer": "Albatross (or Double Eagle)"
+          "answer": "Albatros (o doppio eagle)"
         },
         {
           "question": "Nel sollevamento pesi, quali sono i due sollevamenti da competizione eseguiti alle Olimpiadi?",
-          "answer": "Snatch, Clean e Jerk"
+          "answer": "Strappo e slancio"
         },
         {
           "question": "Quale squadra detiene il record per il maggior numero di vittorie consecutive nella storia della NBA con 33?",
@@ -12822,7 +12822,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale nazione ha vinto il primo torneo di Coppa del Mondo femminile FIFA svoltosi nel 1991?",
-          "answer": "United States"
+          "answer": "Stati Uniti"
         },
         {
           "question": "Qual è il nome dell'iconica mascotte rossa della franchigia NBA dei Chicago Bulls?",
@@ -12834,7 +12834,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nella scherma, quale delle tre armi ha un'area di mira ristretta e limitata strettamente al busto?",
-          "answer": "Foil"
+          "answer": "Fioretto"
         },
         {
           "question": "Chi è stata la prima persona nella storia a correre un miglio in meno di quattro minuti?",
@@ -12842,7 +12842,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale paese africano è diventato il primo del suo continente a raggiungere le semifinali di una Coppa del Mondo FIFA maschile?",
-          "answer": "Morocco"
+          "answer": "Marocco"
         },
         {
           "question": "In quale città degli Stati Uniti si tiene ogni anno il prestigioso torneo di golf \"Masters\"?",
@@ -12854,7 +12854,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quali sono i cinque colori distinti degli anelli sulla bandiera olimpica?",
-          "answer": "Blue, yellow, black, green, red"
+          "answer": "Blu, giallo, nero, verde e rosso"
         },
         {
           "question": "Quale leggendario giocatore di baseball americano era affettuosamente conosciuto come \"Il sultano dello Swat\"?",
@@ -12874,7 +12874,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale paese del sud-est asiatico domina tradizionalmente lo sport acrobatico del Sepak Takraw?",
-          "answer": "Thailand"
+          "answer": "Thailandia"
         },
         {
           "question": "Chi è stata la prima wildcard a vincere il titolo di singolare maschile a Wimbledon, raggiungendo questa impresa nel 2001?",
@@ -12894,11 +12894,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale paese ha vinto la medaglia d'oro nell'hockey su ghiaccio maschile alle Olimpiadi \"Miracle on Ice\" del 1980?",
-          "answer": "United States"
+          "answer": "Stati Uniti"
         },
         {
           "question": "Qual è il nome della principale competizione internazionale a squadre di tennis maschile?",
-          "answer": "Davis Cup"
+          "answer": "Coppa Davis"
         }
       ],
       "500": [
@@ -12916,7 +12916,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nel golf, come viene chiamato il punteggio di tre colpi sotto il par in una singola buca?",
-          "answer": "Albatross (o Doppio Eagle)"
+          "answer": "Albatros (o doppio eagle)"
         },
         {
           "question": "Quale squadra di basket NBA ha stabilito il record di 73 vittorie nella stagione regolare nel 2015-2016?",
@@ -12936,7 +12936,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Lo sport del Korfball, che prevede squadre di genere misto, ha avuto origine in questo paese europeo.",
-          "answer": "Netherlands"
+          "answer": "Paesi Bassi"
         },
         {
           "question": "Nella Major League Baseball, questo giocatore detiene il record per la serie di vittorie consecutive più lunga con 56 partite.",
@@ -12948,11 +12948,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nel Tour de France, il \"Maillot à Pois Rouges\" viene assegnato al leader di questa classifica.",
-          "answer": "Mountains classification"
+          "answer": "Classifica scalatori"
         },
         {
           "question": "Questo paese ha vinto la medaglia d'oro nell'hockey su ghiaccio ai giochi olimpici \"Miracle on Ice\" del 1980.",
-          "answer": "United States"
+          "answer": "Stati Uniti"
         },
         {
           "question": "Questo pilota motociclistico italiano ha vinto nove Gran Premi del Campionato del Mondo, sette dei quali nella classe regina.",
@@ -12968,7 +12968,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nell'atletica, il Fosbury Flop è una tecnica utilizzata in questo evento.",
-          "answer": "High jump"
+          "answer": "Salto in alto"
         },
         {
           "question": "Questa franchigia NBA ha arruolato Kobe Bryant nel 1996 prima di cederlo ai Lakers.",
@@ -12976,7 +12976,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nel cricket, Sir Donald Bradman detiene il record per la media di battuta più alta in carriera, un numero impressionante.",
-          "answer": "99.94"
+          "answer": "99,94"
         },
         {
           "question": "Questo cavallo è considerato uno dei più grandi cavalli da corsa di tutti i tempi, vincendo la Triple Crown nel 1973.",
@@ -12992,7 +12992,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "La Coppa America è un trofeo prestigioso assegnato in questo sport.",
-          "answer": "Sailing"
+          "answer": "Vela"
         },
         {
           "question": "Questo pugile si è ritirato con un record professionale perfetto di 50-0.",
@@ -13028,7 +13028,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale paese è la patria tradizionale dell'arte marziale Muay Thai?",
-          "answer": "Thailand"
+          "answer": "Thailandia"
         },
         {
           "question": "Nella scherma, quale zona del bersaglio della spada comprende quali parti del corpo?",
@@ -13039,8 +13039,8 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Sam Groth"
         },
         {
-          "question": "Which NBA player scored exactly 100 points in a single game in 1962?",
-          "answer": "Wilt Chamberlain"
+          "question": "Quale atleta vinse l'oro olimpico nel salto in lungo in quattro edizioni consecutive, dal 1984 al 1996?",
+          "answer": "Carl Lewis"
         },
         {
           "question": "Qual è il nome della competizione internazionale a squadre di golf femminile, analoga alla Ryder Cup maschile?",
@@ -13048,11 +13048,11 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nel pentathlon moderno, quali sono i cinque sport praticati?",
-          "answer": "Fencing, swimming, equestrian show jumping, pistol shooting, cross-country running"
+          "answer": "Scherma, nuoto, salto ostacoli, tiro con pistola e corsa campestre"
         },
         {
-          "question": "Qual è la più antica competizione sportiva continuata nel Nord America, anteriore al Kentucky Derby di 15 anni?",
-          "answer": "Il piatto della regina"
+          "question": "Quale corsa ippica canadese, nata nel 1860 come Queen's Plate, è la più antica del Nord America?",
+          "answer": "King's Plate"
         },
         {
           "question": "Quale atleta di atletica leggera è stato privato della sua medaglia d'oro nei 100 metri alle Olimpiadi di Seul del 1988 a causa del doping?",
@@ -13071,8 +13071,8 @@ export const jeopardyCategories: JeopardyCategory[] = [
           "answer": "Pankration"
         },
         {
-          "question": "Nel curling, come si definisce una pietra che ricopre completamente il bottone al centro della casa?",
-          "answer": "Lid"
+          "question": "Nel curling, come si chiama il piccolo cerchio al centro della 'house'?",
+          "answer": "Button"
         },
         {
           "question": "Chi è stato il primo giocatore senza testa di serie a vincere il titolo di singolare maschile a Wimbledon?",
@@ -13096,7 +13096,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Nel football australiano, quanti punti vale un \"dietro\"?",
-          "answer": "One"
+          "answer": "Uno"
         },
         {
           "question": "Chi detiene il record per il servizio più veloce mai registrato nel tennis maschile professionistico a 163,7 miglia orarie?",
@@ -13116,7 +13116,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Qual è la larghezza massima consentita di una mazza da cricket standard in pollici?",
-          "answer": "4.25"
+          "answer": "4,25 pollici"
         },
         {
           "question": "Quale città degli Stati Uniti ha ospitato le famigerate Olimpiadi estive del 1904, note per la sua bizzarra ed estenuante maratona?",
@@ -13132,7 +13132,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Quale paese ha vinto il maggior numero di medaglie nella storia dei Giochi Olimpici Invernali?",
-          "answer": "Norway"
+          "answer": "Norvegia"
         },
         {
           "question": "Chi è stata la prima persona ad eseguire con successo una rotazione aerea di 900 gradi su uno skateboard in una competizione?",
@@ -13140,7 +13140,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "Qual è la più antica maratona annuale al mondo, iniziata nel 1897?",
-          "answer": "Boston Marathon"
+          "answer": "Maratona di Boston"
         },
         {
           "question": "Quale pugile ha inflitto la prima sconfitta professionale a Muhammad Ali nel \"Fight of the Century\" del 1971?",
@@ -13148,7 +13148,7 @@ export const jeopardyCategories: JeopardyCategory[] = [
         },
         {
           "question": "In quale sport frenetico viene assegnata la \"Coppa Corbillon\" alle squadre campione del mondo femminile?",
-          "answer": "Table Tennis"
+          "answer": "Tennistavolo"
         },
         {
           "question": "Chi è l'unico atleta a vincere medaglie d'oro in diversi sport sia ai Giochi olimpici estivi che a quelli invernali?",

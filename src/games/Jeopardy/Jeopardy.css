@@ -96,11 +96,17 @@
 .jeopardy-admin-banner { width: 100%; margin-bottom: 1rem; padding: .8rem; border: 1px solid rgba(255,207,51,.58); border-radius: .65rem; background: linear-gradient(100deg, rgba(8,20,147,.8), rgba(2,7,55,.76)); color: #ffcf33; text-align: center; }
 .jeopardy-admin-banner h3 { margin: 0; }
 .jeopardy-admin-board { display: flex; flex-direction: column; gap: .8rem; width: 100%; }
+.jeopardy-admin-board__help { margin: 0; color: rgba(255,255,255,.82); font-size: .92rem; font-weight: 700; line-height: 1.4; text-align: center; }
 .jeopardy-admin-category { padding: .8rem; border: 1px solid rgba(75,99,255,.4); border-radius: .65rem; background: rgba(4,10,67,.6); }
 .jeopardy-admin-category h4 { margin: 0 0 .7rem; color: white; font-size: 1rem; text-align: center; text-transform: uppercase; }
 .jeopardy-admin-values { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .35rem; }
-.jeopardy-admin-value { min-width: 0; padding: .7rem .12rem; border: 1px solid rgba(255,255,255,.14); border-radius: .35rem; background: #0a21bd; color: #ffcf33; font: 900 .88rem/1 inherit; }
-.jeopardy-admin-value:disabled { color: rgba(255,255,255,.23); background: rgba(0,0,0,.3); }
+.jeopardy-admin-value { position: relative; min-width: 0; padding: .7rem .12rem; border: 1px solid rgba(255,255,255,.14); border-radius: .35rem; background: #0a21bd; color: #ffcf33; font: 900 .88rem/1 inherit; cursor: pointer; }
+.jeopardy-admin-value--completed { border-color: rgba(148,163,184,.38); background: rgba(15,23,42,.78); color: rgba(255,255,255,.68); }
+.jeopardy-admin-value__reopen { position: absolute; top: .18rem; right: .22rem; color: #67e8f9; font-size: .66rem; }
+.jeopardy-reopened-badge { align-self: center; padding: .45rem .8rem; border: 1px solid rgba(103,232,249,.5); border-radius: 999px; background: rgba(8,145,178,.18); color: #a5f3fc; font-size: .8rem; font-weight: 900; letter-spacing: .03em; text-transform: uppercase; }
+.jeopardy-admin-clue-review { padding: 1rem 1.15rem; border: 1px solid rgba(96,165,250,.4); border-radius: 1rem; background: rgba(30,64,175,.2); }
+.jeopardy-admin-clue-review span { color: #93c5fd; font-size: .78rem; font-weight: 900; letter-spacing: .05em; text-transform: uppercase; }
+.jeopardy-admin-clue-review p { margin: .55rem 0 0; color: white; font-size: clamp(1rem, 4.8vw, 1.25rem); font-weight: 800; line-height: 1.38; }
 
 @media (max-width: 360px) {
   .jeopardy-mobile-vote-grid { gap: .45rem; }
