@@ -1,5 +1,6 @@
 import rawData from '../../data/footballers.json';
 import badgeManifest from '../../data/teamBadges.json';
+export { isCareerAnswerCorrect, searchableNames } from './careerMatching';
 
 export type CareerTier = 'icone' | 'campioni';
 
@@ -45,13 +46,4 @@ export function shuffleCareers<T>(values: T[]): T[] {
     [shuffled[index], shuffled[randomIndex]] = [shuffled[randomIndex], shuffled[index]];
   }
   return shuffled;
-}
-
-export function searchableNames(player: CareerPlayer): string[] {
-  const parts = player.name.trim().split(/\s+/);
-  const lastName = parts.at(-1) || player.name;
-  const particles = new Set(['van', 'von', 'de', 'del', 'di', 'da']);
-  const previous = parts.at(-2)?.toLowerCase();
-  const compoundLastName = previous && particles.has(previous) ? `${parts.at(-2)} ${lastName}` : lastName;
-  return [...new Set([player.name, compoundLastName, lastName, ...player.aliases])];
 }

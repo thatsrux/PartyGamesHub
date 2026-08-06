@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumTV from '../../components/shared/PodiumTV';
@@ -14,12 +14,22 @@ import CareerTimeline from './CareerTimeline';
 import { careerById, getCareerPool, shuffleCareers } from './data';
 import './LaCarriera.css';
 
-function PlayerChip({ player, answered }: { player: any; answered: boolean }) {
+function PlayerChip({ player, answered, feedback }: { player: any; answered: boolean; feedback?: { status?: string; timestamp?: number } }) {
+  const [wrongFlash, setWrongFlash] = useState(false);
+
+  useEffect(() => {
+    if (answered || feedback?.status !== 'wrong' || !feedback.timestamp) return;
+    setWrongFlash(true);
+    const timeout = window.setTimeout(() => setWrongFlash(false), 1800);
+    return () => window.clearTimeout(timeout);
+  }, [answered, feedback?.status, feedback?.timestamp]);
+
   return (
     <motion.div
       layout
-      animate={{ scale: answered ? [1, 1.08, 1] : 1 }}
-      className={`career-player-chip${answered ? ' career-player-chip--done' : ''}`}
+      animate={wrongFlash ? { x: [-9, 9, -7, 7, -4, 4, 0], scale: [1, 1.04, 1] } : { x: 0, scale: answered ? [1, 1.08, 1] : 1 }}
+      transition={{ duration: wrongFlash ? .55 : .35 }}
+      className={`career-player-chip${answered ? ' career-player-chip--done' : ''}${wrongFlash ? ' career-player-chip--wrong' : ''}`}
     >
       <Avatar photo={player.photo} name={player.name} size={30} />
       <span>{player.name}</span>
@@ -147,7 +157,7 @@ export default function HostLaCarriera({ lobbyCode }: { lobbyCode: string }) {
             <p className="career-subprompt">Una nuova tappa apparirà lungo la linea del tempo</p>
             <CareerTimeline teams={currentCareer.teams} visibleCount={(gameState.clueIndex || 0) + 1} />
             <div className="career-players">
-              {Object.entries(players).map(([id, player]: any) => <PlayerChip key={id} player={player} answered={Boolean(gameState.answers?.[id])} />)}
+              {Object.entries(players).map(([id, player]: any) => <PlayerChip key={id} player={player} answered={Boolean(gameState.answers?.[id])} feedback={gameState.guessFeedback?.[id]} />)}
             </div>
             <div className="career-progress">
               <ProgressBar key={`career-${gameState.roundId}`} startTime={gameState.startTime} durationMs={(gameState.settings?.duration || 30) * 1000} onComplete={handleRoundEnd} />

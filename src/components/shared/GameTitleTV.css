@@ -61,7 +61,7 @@
 
 .game-title-tv__title {
   color: white;
-  font-size: clamp(2.25rem, 3.35vw, 3.85rem);
+  font-size: clamp(2.25rem, calc(var(--host-vw, 1vw) * 3.35), 3.85rem);
   font-weight: 950;
   letter-spacing: -.045em;
   line-height: .98;
@@ -82,10 +82,5 @@
 }
 
 .game-title-tv--compact .game-title-tv__title {
-  font-size: clamp(1.9rem, 2.6vw, 2.8rem);
-}
-
-@media (max-aspect-ratio: 4 / 3) {
-  .game-title-tv { max-width: 92%; }
-  .game-title-tv__title { font-size: clamp(2rem, 4.2vw, 3.3rem); }
+  font-size: clamp(1.9rem, calc(var(--host-vw, 1vw) * 2.6), 2.8rem);
 }

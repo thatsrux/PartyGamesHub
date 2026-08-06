@@ -7,9 +7,9 @@ import ProgressBar from '../../components/shared/ProgressBar';
 import RoundLeaderboardMobile from '../../components/shared/RoundLeaderboardMobile';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import { getServerTime } from '../../utils/serverTime';
-import { checkAnswerFuzzy, normalizeStr } from '../../utils/fuzzyMatch';
+import { normalizeStr } from '../../utils/fuzzyMatch';
 import CareerTimeline from './CareerTimeline';
-import { careerById, careerPlayers, searchableNames } from './data';
+import { careerById, careerPlayers, isCareerAnswerCorrect, searchableNames } from './data';
 import './LaCarriera.css';
 
 export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: string; userId: string }) {
@@ -50,10 +50,10 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
       .map((entry) => entry.player);
   }, [guess]);
 
-  const submitGuess = (value: string) => {
+  const submitGuess = (value: string, selectedPlayerId?: string) => {
     const submitted = value.trim();
     if (!submitted || !currentCareer || myAnswer || phase !== 'question') return;
-    const correct = checkAnswerFuzzy(submitted, searchableNames(currentCareer));
+    const correct = isCareerAnswerCorrect(currentCareer, submitted, selectedPlayerId);
     if (!correct) {
       setFeedback('wrong');
       setGuess('');
@@ -155,7 +155,7 @@ export default function ClientLaCarriera({ lobbyCode, userId }: { lobbyCode: str
             {showSuggestions && suggestions.length > 0 && (
               <div className="career-suggestions">
                 {suggestions.map((player) => (
-                  <button type="button" className="career-suggestion" key={player.id} onMouseDown={(event) => event.preventDefault()} onClick={() => { setGuess(player.name); submitGuess(player.name); }}>
+                  <button type="button" className="career-suggestion" key={player.id} onMouseDown={(event) => event.preventDefault()} onClick={() => { setGuess(player.name); submitGuess(player.name, player.id); }}>
                     <span>{player.name}</span><span className="career-hint">INVIA</span>
                   </button>
                 ))}

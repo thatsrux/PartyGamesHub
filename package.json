@@ -10,7 +10,7 @@
     "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "test:careers": "node scripts/validate-career-data.cjs",
+    "test:careers": "node scripts/validate-career-data.cjs && node --experimental-strip-types --test scripts/career-matching.test.mjs",
     "test:profile": "node --experimental-strip-types --test scripts/profile-session.test.mjs",
     "test:scoring": "node --experimental-strip-types --test scripts/piu-vicino-scoring.test.mjs",
     "test:podium": "node --experimental-strip-types --test scripts/podium-ranking.test.mjs",

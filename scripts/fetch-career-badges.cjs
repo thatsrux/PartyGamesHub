@@ -16,13 +16,26 @@ const queries = {
   'olympique-lione': 'Lyon', 'olympique-marsiglia': 'Marseille', 'paris-saint-germain': 'Paris Saint Germain',
   'saint-etienne': 'Saint Etienne', 'salisburgo': 'Red Bull Salzburg', 'san-paolo': 'Sao Paulo', 'siviglia': 'Sevilla',
   'sparta-praga': 'Sparta Prague', 'sporting-lisbona': 'Sporting CP', 'stoccarda': 'VfB Stuttgart',
-  'leeds-utd': 'Leeds United', 'lilla': 'Lille OSC', 'werder-brema': 'Werder Bremen', 'west-ham-utd': 'West Ham United',
+  'leeds-utd': 'Leeds United', 'werder-brema': 'Werder Bremen', 'west-ham-utd': 'West Ham United',
 };
 
 const supplementalSources = {
   'dinamo-mosca': 'https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/Russia%20-%20Premier%20Liga/Dynamo%20Moscow.png',
   'colo-colo': 'https://upload.wikimedia.org/wikipedia/commons/d/d9/600px_Colo_Colo.png',
   'ft-lauderdale-strikers': 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Fort_Lauderdale_Strikers_wordmark_stacked.svg',
+  'al-sadd': 'https://tmssl.akamaized.net/images/wappen/head/656.png',
+  'dinamo-kiev': 'https://tmssl.akamaized.net/images/wappen/head/338.png',
+  'al-rayyan': 'https://tmssl.akamaized.net//images/wappen/head/3229.png?lm=1728899512',
+  'scunthorpe-utd': 'https://a.espncdn.com/i/teamlogos/soccer/500/313.png',
+  'zwolle': 'https://tmssl.akamaized.net/images/wappen/head/1269.png',
+  'al-gharafa': 'https://tmssl.akamaized.net//images/wappen/head/6297.png?lm=1694632253',
+  'norimberga': 'https://tmssl.akamaized.net/images/wappen/head/4.png',
+  'rb-lipsia': 'https://tmssl.akamaized.net//images/wappen/head/23826.png?lm=1619431624',
+  'olimpija-lubiana': 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Olimpija%20Logo%20BrightGreen-White%20RGB-1-1.svg',
+  'beira-mar': 'https://a.espncdn.com/i/teamlogos/soccer/500/12215.png',
+  'nizza': 'https://tmssl.akamaized.net/images/wappen/head/417.png',
+  'nottingham-forest': 'https://raw.githubusercontent.com/luukhopman/football-logos/master/logos/England%20-%20Premier%20League/Nottingham%20Forest.png',
+  'maiorca': 'https://a.espncdn.com/i/teamlogos/soccer/500/84.png',
 };
 
 const delay = (milliseconds) => new Promise((resolve) => setTimeout(resolve, milliseconds));
@@ -69,7 +82,7 @@ async function fetchWithRetry(url, attempts = 4) {
         supplemental += 1;
         completed += 1;
         continue;
-      } catch (error) {
+      } catch {
         // Continua con TheSportsDB e infine con il crest locale.
       }
     }

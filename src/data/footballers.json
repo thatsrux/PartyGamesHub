@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updatedAt": "2026-08-06",
   "players": [
     {
@@ -125,6 +125,11 @@
       "tier": "icone",
       "teams": [
         {
+          "name": "Cannes",
+          "years": "1989-1992",
+          "teamId": "cannes"
+        },
+        {
           "name": "Bordeaux",
           "years": "1992-1996",
           "teamId": "bordeaux"
@@ -149,8 +154,23 @@
       "teams": [
         {
           "name": "Manchester Utd",
-          "years": "1993-1995",
+          "years": "1992-1995",
           "teamId": "manchester-utd"
+        },
+        {
+          "name": "Preston North End",
+          "years": "1995",
+          "teamId": "preston"
+        },
+        {
+          "name": "Manchester Utd",
+          "years": "1995-2003",
+          "teamId": "manchester-utd"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "2003-2007",
+          "teamId": "real-madrid"
         },
         {
           "name": "LA Galaxy",
@@ -174,7 +194,7 @@
         },
         {
           "name": "LA Galaxy",
-          "years": "2010-2013",
+          "years": "2010-2012",
           "teamId": "la-galaxy"
         },
         {
@@ -265,9 +285,24 @@
       "tier": "icone",
       "teams": [
         {
+          "name": "Malmö FF",
+          "years": "1999-2001",
+          "teamId": "malmo-ff"
+        },
+        {
           "name": "Ajax",
           "years": "2001-2004",
           "teamId": "ajax"
+        },
+        {
+          "name": "Juventus",
+          "years": "2004-2006",
+          "teamId": "juventus"
+        },
+        {
+          "name": "Inter",
+          "years": "2006-2009",
+          "teamId": "inter"
         },
         {
           "name": "Barcellona",
@@ -313,12 +348,17 @@
           "teamId": "bayern-monaco"
         },
         {
-          "name": "N.Y. Cosmos",
+          "name": "New York Cosmos",
           "years": "1977-1980",
           "teamId": "n-y-cosmos"
         },
         {
-          "name": "N.Y. Cosmos",
+          "name": "Amburgo",
+          "years": "1980-1982",
+          "teamId": "amburgo"
+        },
+        {
+          "name": "New York Cosmos",
           "years": "1983",
           "teamId": "n-y-cosmos"
         }
@@ -337,6 +377,11 @@
           "name": "Nacional",
           "years": "2005-2006",
           "teamId": "nacional"
+        },
+        {
+          "name": "Groningen",
+          "years": "2006-2007",
+          "teamId": "groningen"
         },
         {
           "name": "Ajax",
@@ -364,6 +409,11 @@
           "teamId": "nacional"
         },
         {
+          "name": "Grêmio",
+          "years": "2023",
+          "teamId": "gremio"
+        },
+        {
           "name": "Inter Miami",
           "years": "2024-",
           "teamId": "inter-miami"
@@ -381,7 +431,27 @@
       "teams": [
         {
           "name": "Dinamo Zagabria",
-          "years": "2005-2008",
+          "years": "2003-2004",
+          "teamId": "dinamo-zagabria"
+        },
+        {
+          "name": "Zrinjski Mostar",
+          "years": "2004-2005",
+          "teamId": "zrinjski-mostar"
+        },
+        {
+          "name": "Dinamo Zagabria",
+          "years": "2005",
+          "teamId": "dinamo-zagabria"
+        },
+        {
+          "name": "Inter Zaprešić",
+          "years": "2005-2006",
+          "teamId": "inter-zapresic"
+        },
+        {
+          "name": "Dinamo Zagabria",
+          "years": "2006-2008",
           "teamId": "dinamo-zagabria"
         },
         {
@@ -480,6 +550,11 @@
           "name": "Vissel Kōbe",
           "years": "2018-2023",
           "teamId": "vissel-kobe"
+        },
+        {
+          "name": "Emirates Club",
+          "years": "2023-2024",
+          "teamId": "emirates-club"
         }
       ]
     },
@@ -489,6 +564,16 @@
       "aliases": [],
       "tier": "icone",
       "teams": [
+        {
+          "name": "Znicz Pruszków",
+          "years": "2006-2008",
+          "teamId": "znicz-pruszkow"
+        },
+        {
+          "name": "Lech Poznań",
+          "years": "2008-2010",
+          "teamId": "lech-poznan"
+        },
         {
           "name": "Borussia Dortmund",
           "years": "2010-2014",
@@ -544,6 +629,11 @@
           "name": "Fenerbahçe",
           "years": "2021-2022",
           "teamId": "fenerbahce"
+        },
+        {
+          "name": "İstanbul Başakşehir",
+          "years": "2022-2023",
+          "teamId": "basaksehir"
         }
       ]
     },
@@ -573,6 +663,16 @@
       "teams": [
         {
           "name": "West Ham Utd",
+          "years": "1995-1996",
+          "teamId": "west-ham-utd"
+        },
+        {
+          "name": "Swansea City",
+          "years": "1995-1996",
+          "teamId": "swansea"
+        },
+        {
+          "name": "West Ham Utd",
           "years": "1996-2001",
           "teamId": "west-ham-utd"
         },
@@ -588,7 +688,7 @@
         },
         {
           "name": "New York City",
-          "years": "2015-2017",
+          "years": "2015-2016",
           "teamId": "new-york-city"
         }
       ]
@@ -643,6 +743,11 @@
       "tier": "icone",
       "teams": [
         {
+          "name": "El Mokawloon",
+          "years": "2010-2012",
+          "teamId": "el-mokawloon"
+        },
+        {
           "name": "Basilea",
           "years": "2012-2014",
           "teamId": "basilea"
@@ -664,7 +769,7 @@
         },
         {
           "name": "Liverpool",
-          "years": "2017-2026",
+          "years": "2017-",
           "teamId": "liverpool"
         }
       ]
@@ -708,6 +813,11 @@
       "aliases": [],
       "tier": "icone",
       "teams": [
+        {
+          "name": "Homburg",
+          "years": "1998-1999",
+          "teamId": "homburg"
+        },
         {
           "name": "Kaiserslautern",
           "years": "1999-2004",
@@ -852,8 +962,18 @@
       "tier": "icone",
       "teams": [
         {
+          "name": "Bryne",
+          "years": "2016-2017",
+          "teamId": "bryne"
+        },
+        {
+          "name": "Molde",
+          "years": "2017-2019",
+          "teamId": "molde"
+        },
+        {
           "name": "Salisburgo",
-          "years": "2019",
+          "years": "2019-2020",
           "teamId": "salisburgo"
         },
         {
@@ -876,13 +996,28 @@
       "teams": [
         {
           "name": "Tottenham",
+          "years": "2009-2011",
+          "teamId": "tottenham"
+        },
+        {
+          "name": "Leyton Orient",
+          "years": "2011",
+          "teamId": "leyton-orient"
+        },
+        {
+          "name": "Tottenham",
           "years": "2011-2012",
           "teamId": "tottenham"
         },
         {
-          "name": "Tottenham",
+          "name": "Millwall",
           "years": "2012",
-          "teamId": "tottenham"
+          "teamId": "millwall"
+        },
+        {
+          "name": "Norwich City",
+          "years": "2012-2013",
+          "teamId": "norwich-city"
         },
         {
           "name": "Leicester City",
@@ -1119,6 +1254,11 @@
           "teamId": "manchester-utd"
         },
         {
+          "name": "Real Zaragoza",
+          "years": "2006-2007",
+          "teamId": "real-zaragoza"
+        },
+        {
           "name": "Manchester Utd",
           "years": "2007-2008",
           "teamId": "manchester-utd"
@@ -1136,6 +1276,16 @@
       "aliases": [],
       "tier": "icone",
       "teams": [
+        {
+          "name": "Genk",
+          "years": "2008-2012",
+          "teamId": "genk"
+        },
+        {
+          "name": "Chelsea",
+          "years": "2012",
+          "teamId": "chelsea"
+        },
         {
           "name": "Werder Brema",
           "years": "2012-2013",
@@ -1171,7 +1321,7 @@
       "teams": [
         {
           "name": "Atlético Madrid",
-          "years": "2000-2007",
+          "years": "2001-2007",
           "teamId": "atletico-madrid"
         },
         {
@@ -1193,6 +1343,11 @@
           "name": "Atlético Madrid",
           "years": "2015-2018",
           "teamId": "atletico-madrid"
+        },
+        {
+          "name": "Sagan Tosu",
+          "years": "2018-2019",
+          "teamId": "sagan-tosu"
         }
       ]
     },
@@ -1221,6 +1376,16 @@
       "tier": "icone",
       "teams": [
         {
+          "name": "Le Mans",
+          "years": "1998-2002",
+          "teamId": "le-mans"
+        },
+        {
+          "name": "Guingamp",
+          "years": "2002-2003",
+          "teamId": "guingamp"
+        },
+        {
           "name": "Olympique Marsiglia",
           "years": "2003-2004",
           "teamId": "olympique-marsiglia"
@@ -1231,6 +1396,11 @@
           "teamId": "chelsea"
         },
         {
+          "name": "Shanghai Shenhua",
+          "years": "2012-2013",
+          "teamId": "shanghai-shenhua"
+        },
+        {
           "name": "Galatasaray",
           "years": "2013-2014",
           "teamId": "galatasaray"
@@ -1239,6 +1409,16 @@
           "name": "Chelsea",
           "years": "2014-2015",
           "teamId": "chelsea"
+        },
+        {
+          "name": "Montréal Impact",
+          "years": "2015-2016",
+          "teamId": "montreal-impact"
+        },
+        {
+          "name": "Phoenix Rising",
+          "years": "2017-2018",
+          "teamId": "phoenix-rising"
         }
       ]
     },
@@ -1290,6 +1470,16 @@
       "tier": "icone",
       "teams": [
         {
+          "name": "Génération Foot",
+          "years": "2011-2012",
+          "teamId": "generation-foot"
+        },
+        {
+          "name": "Metz",
+          "years": "2012",
+          "teamId": "metz"
+        },
+        {
           "name": "Salisburgo",
           "years": "2012-2014",
           "teamId": "salisburgo"
@@ -1326,14 +1516,29 @@
       "tier": "icone",
       "teams": [
         {
+          "name": "Leganés",
+          "years": "1997-1998",
+          "teamId": "leganes"
+        },
+        {
           "name": "Real Madrid",
           "years": "1998-1999",
           "teamId": "real-madrid"
         },
         {
+          "name": "Espanyol",
+          "years": "1999",
+          "teamId": "espanyol"
+        },
+        {
           "name": "Real Madrid",
           "years": "1999-2000",
           "teamId": "real-madrid"
+        },
+        {
+          "name": "Maiorca",
+          "years": "2000-2004",
+          "teamId": "maiorca"
         },
         {
           "name": "Barcellona",
@@ -1344,6 +1549,11 @@
           "name": "Inter",
           "years": "2009-2011",
           "teamId": "inter"
+        },
+        {
+          "name": "Anži",
+          "years": "2011-2013",
+          "teamId": "anzhi"
         },
         {
           "name": "Chelsea",
@@ -1359,6 +1569,11 @@
           "name": "Sampdoria",
           "years": "2015",
           "teamId": "sampdoria"
+        },
+        {
+          "name": "Antalyaspor",
+          "years": "2015-2018",
+          "teamId": "antalyaspor"
         }
       ]
     },
@@ -1372,6 +1587,11 @@
       ],
       "tier": "icone",
       "teams": [
+        {
+          "name": "Independiente",
+          "years": "2003-2006",
+          "teamId": "independiente"
+        },
         {
           "name": "Atlético Madrid",
           "years": "2006-2011",
@@ -1397,8 +1617,13 @@
       "teams": [
         {
           "name": "River Plate",
-          "years": "1944-1945",
+          "years": "1945-1946",
           "teamId": "river-plate"
+        },
+        {
+          "name": "Huracán",
+          "years": "1946-1947",
+          "teamId": "huracan"
         },
         {
           "name": "River Plate",
@@ -1406,9 +1631,19 @@
           "teamId": "river-plate"
         },
         {
+          "name": "Millonarios",
+          "years": "1949-1953",
+          "teamId": "millonarios"
+        },
+        {
           "name": "Real Madrid",
           "years": "1953-1964",
           "teamId": "real-madrid"
+        },
+        {
+          "name": "Espanyol",
+          "years": "1964-1966",
+          "teamId": "espanyol"
         }
       ]
     },
@@ -1738,6 +1973,11 @@
           "teamId": "real-sociedad"
         },
         {
+          "name": "Eibar",
+          "years": "2000-2001",
+          "teamId": "eibar"
+        },
+        {
           "name": "Real Sociedad",
           "years": "2001-2004",
           "teamId": "real-sociedad"
@@ -1820,6 +2060,11 @@
           "name": "Inter",
           "years": "1998-1999",
           "teamId": "inter"
+        },
+        {
+          "name": "Reggina",
+          "years": "1999-2000",
+          "teamId": "reggina"
         },
         {
           "name": "Inter",
@@ -2206,8 +2451,13 @@
       "teams": [
         {
           "name": "Auxerre",
-          "years": "1982-1986",
+          "years": "1983-1985",
           "teamId": "auxerre"
+        },
+        {
+          "name": "Martigues",
+          "years": "1985-1986",
+          "teamId": "martigues"
         },
         {
           "name": "Auxerre",
@@ -2225,9 +2475,19 @@
           "teamId": "bordeaux"
         },
         {
+          "name": "Montpellier",
+          "years": "1989-1990",
+          "teamId": "montpellier"
+        },
+        {
           "name": "Olympique Marsiglia",
           "years": "1990-1991",
           "teamId": "olympique-marsiglia"
+        },
+        {
+          "name": "Nîmes",
+          "years": "1991",
+          "teamId": "nimes"
         },
         {
           "name": "Leeds Utd",
@@ -2279,6 +2539,11 @@
           "name": "Chelsea",
           "years": "1998-2000",
           "teamId": "chelsea"
+        },
+        {
+          "name": "Nottingham Forest",
+          "years": "2000",
+          "teamId": "nottingham-forest"
         },
         {
           "name": "Chelsea",
@@ -2567,6 +2832,11 @@
           "teamId": "boca-juniors"
         },
         {
+          "name": "Corinthians",
+          "years": "2005-2006",
+          "teamId": "corinthians"
+        },
+        {
           "name": "West Ham Utd",
           "years": "2006-2007",
           "teamId": "west-ham-utd"
@@ -2590,6 +2860,11 @@
           "name": "Boca Juniors",
           "years": "2015-2017",
           "teamId": "boca-juniors"
+        },
+        {
+          "name": "Shanghai Shenhua",
+          "years": "2017-2018",
+          "teamId": "shanghai-shenhua"
         },
         {
           "name": "Boca Juniors",
@@ -3206,6 +3481,11 @@
           "teamId": "west-ham-utd"
         },
         {
+          "name": "Bournemouth",
+          "years": "1996",
+          "teamId": "bournemouth"
+        },
+        {
           "name": "West Ham Utd",
           "years": "1996-2000",
           "teamId": "west-ham-utd"
@@ -3219,6 +3499,11 @@
           "name": "Manchester Utd",
           "years": "2002-2014",
           "teamId": "manchester-utd"
+        },
+        {
+          "name": "QPR",
+          "years": "2014-2015",
+          "teamId": "qpr"
         }
       ]
     },
@@ -3475,6 +3760,21 @@
       "tier": "campioni",
       "teams": [
         {
+          "name": "Saprissa",
+          "years": "2005-2010",
+          "teamId": "saprissa"
+        },
+        {
+          "name": "Albacete",
+          "years": "2010-2011",
+          "teamId": "albacete"
+        },
+        {
+          "name": "Levante",
+          "years": "2011-2014",
+          "teamId": "levante"
+        },
+        {
           "name": "Real Madrid",
           "years": "2014-2019",
           "teamId": "real-madrid"
@@ -3485,6 +3785,11 @@
           "teamId": "paris-saint-germain"
         },
         {
+          "name": "Nottingham Forest",
+          "years": "2023",
+          "teamId": "nottingham-forest"
+        },
+        {
           "name": "Paris Saint-Germain",
           "years": "2023-2024",
           "teamId": "paris-saint-germain"
@@ -3493,6 +3798,11 @@
           "name": "Newell's Old Boys",
           "years": "2025",
           "teamId": "newell-s-old-boys"
+        },
+        {
+          "name": "Pumas UNAM",
+          "years": "2025-",
+          "teamId": "pumas-unam"
         }
       ]
     },
@@ -3962,6 +4272,11 @@
           "teamId": "genoa"
         },
         {
+          "name": "Real Zaragoza",
+          "years": "2005-2008",
+          "teamId": "real-zaragoza"
+        },
+        {
           "name": "Genoa",
           "years": "2008-2009",
           "teamId": "genoa"
@@ -4120,6 +4435,21 @@
           "teamId": "napoli"
         },
         {
+          "name": "Cavese",
+          "years": "2010",
+          "teamId": "cavese"
+        },
+        {
+          "name": "Foggia",
+          "years": "2010-2011",
+          "teamId": "foggia"
+        },
+        {
+          "name": "Pescara",
+          "years": "2011-2012",
+          "teamId": "pescara"
+        },
+        {
           "name": "Napoli",
           "years": "2012-2022",
           "teamId": "napoli"
@@ -4128,6 +4458,11 @@
           "name": "Toronto FC",
           "years": "2022-2025",
           "teamId": "toronto-fc"
+        },
+        {
+          "name": "Pescara",
+          "years": "2026",
+          "teamId": "pescara"
         },
         {
           "name": "Sampdoria",
@@ -4405,6 +4740,1725 @@
           "teamId": "inter"
         }
       ]
+    },
+    {
+      "id": "ronaldinho",
+      "name": "Ronaldinho",
+      "aliases": [
+        "Ronaldinho Gaúcho",
+        "Ronaldo de Assis Moreira"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Grêmio",
+          "years": "1998-2001",
+          "teamId": "gremio"
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "years": "2001-2003",
+          "teamId": "paris-saint-germain"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2003-2008",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Milan",
+          "years": "2008-2011",
+          "teamId": "milan"
+        },
+        {
+          "name": "Flamengo",
+          "years": "2011-2012",
+          "teamId": "flamengo"
+        },
+        {
+          "name": "Atlético Mineiro",
+          "years": "2012-2014",
+          "teamId": "atletico-mineiro"
+        },
+        {
+          "name": "Querétaro",
+          "years": "2014-2015",
+          "teamId": "queretaro"
+        },
+        {
+          "name": "Fluminense",
+          "years": "2015",
+          "teamId": "fluminense"
+        }
+      ]
+    },
+    {
+      "id": "neymar",
+      "name": "Neymar",
+      "aliases": [
+        "Neymar Jr",
+        "Neymar da Silva Santos Júnior"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Santos",
+          "years": "2009-2013",
+          "teamId": "santos"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2013-2017",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "years": "2017-2023",
+          "teamId": "paris-saint-germain"
+        },
+        {
+          "name": "Al-Hilal",
+          "years": "2023-2025",
+          "teamId": "al-hilal"
+        },
+        {
+          "name": "Santos",
+          "years": "2025-",
+          "teamId": "santos"
+        }
+      ]
+    },
+    {
+      "id": "ronaldo-nazario",
+      "name": "Ronaldo Nazário",
+      "aliases": [
+        "Ronaldo",
+        "Ronaldo Fenomeno",
+        "R9"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Cruzeiro",
+          "years": "1993-1994",
+          "teamId": "cruzeiro"
+        },
+        {
+          "name": "PSV",
+          "years": "1994-1996",
+          "teamId": "psv"
+        },
+        {
+          "name": "Barcellona",
+          "years": "1996-1997",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Inter",
+          "years": "1997-2002",
+          "teamId": "inter"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "2002-2007",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Milan",
+          "years": "2007-2008",
+          "teamId": "milan"
+        },
+        {
+          "name": "Corinthians",
+          "years": "2009-2011",
+          "teamId": "corinthians"
+        }
+      ]
+    },
+    {
+      "id": "kaka",
+      "name": "Kaká",
+      "aliases": [
+        "Kaka",
+        "Ricardo Kaká"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "San Paolo",
+          "years": "2001-2003",
+          "teamId": "san-paolo"
+        },
+        {
+          "name": "Milan",
+          "years": "2003-2009",
+          "teamId": "milan"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "2009-2013",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Milan",
+          "years": "2013-2014",
+          "teamId": "milan"
+        },
+        {
+          "name": "San Paolo",
+          "years": "2014",
+          "teamId": "san-paolo"
+        },
+        {
+          "name": "Orlando City",
+          "years": "2015-2017",
+          "teamId": "orlando-city"
+        }
+      ]
+    },
+    {
+      "id": "xavi",
+      "name": "Xavi",
+      "aliases": [
+        "Xavi Hernández"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Barcellona",
+          "years": "1998-2015",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Al-Sadd",
+          "years": "2015-2019",
+          "teamId": "al-sadd"
+        }
+      ]
+    },
+    {
+      "id": "carles-puyol",
+      "name": "Carles Puyol",
+      "aliases": [
+        "Puyol"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Barcellona",
+          "years": "1999-2014",
+          "teamId": "barcellona"
+        }
+      ]
+    },
+    {
+      "id": "sergio-busquets",
+      "name": "Sergio Busquets",
+      "aliases": [
+        "Busquets"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Barcellona",
+          "years": "2008-2023",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Inter Miami",
+          "years": "2023-",
+          "teamId": "inter-miami"
+        }
+      ]
+    },
+    {
+      "id": "marcelo",
+      "name": "Marcelo",
+      "aliases": [
+        "Marcelo Vieira"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Fluminense",
+          "years": "2005-2007",
+          "teamId": "fluminense"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "2007-2022",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Olympiacos",
+          "years": "2022-2023",
+          "teamId": "olympiacos"
+        },
+        {
+          "name": "Fluminense",
+          "years": "2023-2024",
+          "teamId": "fluminense"
+        }
+      ]
+    },
+    {
+      "id": "casemiro",
+      "name": "Casemiro",
+      "aliases": [
+        "Carlos Henrique Casimiro"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "San Paolo",
+          "years": "2010-2013",
+          "teamId": "san-paolo"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "2013-2014",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Porto",
+          "years": "2014-2015",
+          "teamId": "porto"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "2015-2022",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Manchester Utd",
+          "years": "2022-",
+          "teamId": "manchester-utd"
+        }
+      ]
+    },
+    {
+      "id": "andriy-shevchenko",
+      "name": "Andriy Shevchenko",
+      "aliases": [
+        "Shevchenko"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Dinamo Kiev",
+          "years": "1994-1999",
+          "teamId": "dinamo-kiev"
+        },
+        {
+          "name": "Milan",
+          "years": "1999-2006",
+          "teamId": "milan"
+        },
+        {
+          "name": "Chelsea",
+          "years": "2006-2008",
+          "teamId": "chelsea"
+        },
+        {
+          "name": "Milan",
+          "years": "2008-2009",
+          "teamId": "milan"
+        },
+        {
+          "name": "Chelsea",
+          "years": "2009",
+          "teamId": "chelsea"
+        },
+        {
+          "name": "Dinamo Kiev",
+          "years": "2009-2012",
+          "teamId": "dinamo-kiev"
+        }
+      ]
+    },
+    {
+      "id": "juan-roman-riquelme",
+      "name": "Juan Román Riquelme",
+      "aliases": [
+        "Riquelme"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Argentinos Juniors",
+          "years": "1995-1996",
+          "teamId": "argentinos-juniors"
+        },
+        {
+          "name": "Boca Juniors",
+          "years": "1996-2002",
+          "teamId": "boca-juniors"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2002-2003",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Villarreal",
+          "years": "2003-2007",
+          "teamId": "villarreal"
+        },
+        {
+          "name": "Boca Juniors",
+          "years": "2007-2014",
+          "teamId": "boca-juniors"
+        },
+        {
+          "name": "Argentinos Juniors",
+          "years": "2014-2015",
+          "teamId": "argentinos-juniors"
+        }
+      ]
+    },
+    {
+      "id": "cafu",
+      "name": "Cafu",
+      "aliases": [
+        "Marcos Cafu"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "San Paolo",
+          "years": "1989-1995",
+          "teamId": "san-paolo"
+        },
+        {
+          "name": "Real Zaragoza",
+          "years": "1995",
+          "teamId": "real-zaragoza"
+        },
+        {
+          "name": "Juventude",
+          "years": "1995",
+          "teamId": "juventude"
+        },
+        {
+          "name": "Palmeiras",
+          "years": "1995-1997",
+          "teamId": "palmeiras"
+        },
+        {
+          "name": "Roma",
+          "years": "1997-2003",
+          "teamId": "roma"
+        },
+        {
+          "name": "Milan",
+          "years": "2003-2008",
+          "teamId": "milan"
+        }
+      ]
+    },
+    {
+      "id": "pepe",
+      "name": "Pepe",
+      "aliases": [
+        "Képler Pepe"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Marítimo",
+          "years": "2002-2004",
+          "teamId": "maritimo"
+        },
+        {
+          "name": "Porto",
+          "years": "2004-2007",
+          "teamId": "porto"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "2007-2017",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Beşiktaş",
+          "years": "2017-2019",
+          "teamId": "besiktas"
+        },
+        {
+          "name": "Porto",
+          "years": "2019-2024",
+          "teamId": "porto"
+        }
+      ]
+    },
+    {
+      "id": "fernando-hierro",
+      "name": "Fernando Hierro",
+      "aliases": [
+        "Hierro"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Real Valladolid",
+          "years": "1987-1989",
+          "teamId": "real-valladolid"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "1989-2003",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Al-Rayyan",
+          "years": "2003-2004",
+          "teamId": "al-rayyan"
+        },
+        {
+          "name": "Bolton",
+          "years": "2004-2005",
+          "teamId": "bolton"
+        }
+      ]
+    },
+    {
+      "id": "ronald-koeman",
+      "name": "Ronald Koeman",
+      "aliases": [
+        "Koeman"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Groningen",
+          "years": "1980-1983",
+          "teamId": "groningen"
+        },
+        {
+          "name": "Ajax",
+          "years": "1983-1986",
+          "teamId": "ajax"
+        },
+        {
+          "name": "PSV",
+          "years": "1986-1989",
+          "teamId": "psv"
+        },
+        {
+          "name": "Barcellona",
+          "years": "1989-1995",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Feyenoord",
+          "years": "1995-1997",
+          "teamId": "feyenoord"
+        }
+      ]
+    },
+    {
+      "id": "hristo-stoichkov",
+      "name": "Hristo Stoichkov",
+      "aliases": [
+        "Stoichkov"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "CSKA Sofia",
+          "years": "1984-1990",
+          "teamId": "cska-sofia"
+        },
+        {
+          "name": "Barcellona",
+          "years": "1990-1995",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Parma",
+          "years": "1995-1996",
+          "teamId": "parma"
+        },
+        {
+          "name": "Barcellona",
+          "years": "1996-1998",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "CSKA Sofia",
+          "years": "1998",
+          "teamId": "cska-sofia"
+        },
+        {
+          "name": "Al-Nassr",
+          "years": "1998",
+          "teamId": "al-nassr"
+        },
+        {
+          "name": "Kashiwa Reysol",
+          "years": "1998-1999",
+          "teamId": "kashiwa-reysol"
+        },
+        {
+          "name": "Chicago Fire",
+          "years": "2000-2002",
+          "teamId": "chicago-fire"
+        },
+        {
+          "name": "D.C. United",
+          "years": "2003",
+          "teamId": "d-c-united"
+        }
+      ]
+    },
+    {
+      "id": "kenny-dalglish",
+      "name": "Kenny Dalglish",
+      "aliases": [
+        "Dalglish"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Celtic",
+          "years": "1969-1977",
+          "teamId": "celtic"
+        },
+        {
+          "name": "Liverpool",
+          "years": "1977-1990",
+          "teamId": "liverpool"
+        }
+      ]
+    },
+    {
+      "id": "ian-rush",
+      "name": "Ian Rush",
+      "aliases": [
+        "Rush"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Chester City",
+          "years": "1979-1980",
+          "teamId": "chester-city"
+        },
+        {
+          "name": "Liverpool",
+          "years": "1980-1986",
+          "teamId": "liverpool"
+        },
+        {
+          "name": "Juventus",
+          "years": "1986-1988",
+          "teamId": "juventus"
+        },
+        {
+          "name": "Liverpool",
+          "years": "1988-1996",
+          "teamId": "liverpool"
+        },
+        {
+          "name": "Leeds Utd",
+          "years": "1996-1997",
+          "teamId": "leeds-utd"
+        },
+        {
+          "name": "Newcastle Utd",
+          "years": "1997-1998",
+          "teamId": "newcastle-utd"
+        },
+        {
+          "name": "Wrexham",
+          "years": "1998-1999",
+          "teamId": "wrexham"
+        },
+        {
+          "name": "Sydney Olympic",
+          "years": "1999-2000",
+          "teamId": "sydney-olympic"
+        }
+      ]
+    },
+    {
+      "id": "kevin-keegan",
+      "name": "Kevin Keegan",
+      "aliases": [
+        "Keegan"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Scunthorpe Utd",
+          "years": "1968-1971",
+          "teamId": "scunthorpe-utd"
+        },
+        {
+          "name": "Liverpool",
+          "years": "1971-1977",
+          "teamId": "liverpool"
+        },
+        {
+          "name": "Amburgo",
+          "years": "1977-1980",
+          "teamId": "amburgo"
+        },
+        {
+          "name": "Southampton",
+          "years": "1980-1982",
+          "teamId": "southampton"
+        },
+        {
+          "name": "Newcastle Utd",
+          "years": "1982-1984",
+          "teamId": "newcastle-utd"
+        }
+      ]
+    },
+    {
+      "id": "denis-law",
+      "name": "Denis Law",
+      "aliases": [
+        "Law"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Huddersfield Town",
+          "years": "1956-1960",
+          "teamId": "huddersfield-town"
+        },
+        {
+          "name": "Manchester City",
+          "years": "1960-1961",
+          "teamId": "manchester-city"
+        },
+        {
+          "name": "Torino",
+          "years": "1961-1962",
+          "teamId": "torino"
+        },
+        {
+          "name": "Manchester Utd",
+          "years": "1962-1973",
+          "teamId": "manchester-utd"
+        },
+        {
+          "name": "Manchester City",
+          "years": "1973-1974",
+          "teamId": "manchester-city"
+        }
+      ]
+    },
+    {
+      "id": "lothar-matthaus",
+      "name": "Lothar Matthäus",
+      "aliases": [
+        "Lothar Matthaus",
+        "Matthäus"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Borussia Mönchengladbach",
+          "years": "1979-1984",
+          "teamId": "borussia-m-gladbach"
+        },
+        {
+          "name": "Bayern Monaco",
+          "years": "1984-1988",
+          "teamId": "bayern-monaco"
+        },
+        {
+          "name": "Inter",
+          "years": "1988-1992",
+          "teamId": "inter"
+        },
+        {
+          "name": "Bayern Monaco",
+          "years": "1992-2000",
+          "teamId": "bayern-monaco"
+        },
+        {
+          "name": "MetroStars",
+          "years": "2000",
+          "teamId": "n-y-red-bulls"
+        }
+      ]
+    },
+    {
+      "id": "rudi-voller",
+      "name": "Rudi Völler",
+      "aliases": [
+        "Rudi Voller",
+        "Völler"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Kickers Offenbach",
+          "years": "1980-1982",
+          "teamId": "kickers-offenbach"
+        },
+        {
+          "name": "Werder Brema",
+          "years": "1982-1987",
+          "teamId": "werder-brema"
+        },
+        {
+          "name": "Roma",
+          "years": "1987-1992",
+          "teamId": "roma"
+        },
+        {
+          "name": "Olympique Marsiglia",
+          "years": "1992-1994",
+          "teamId": "olympique-marsiglia"
+        },
+        {
+          "name": "Bayer Leverkusen",
+          "years": "1994-1996",
+          "teamId": "bayer-leverkusen"
+        }
+      ]
+    },
+    {
+      "id": "oliver-kahn",
+      "name": "Oliver Kahn",
+      "aliases": [
+        "Kahn"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Karlsruhe",
+          "years": "1987-1994",
+          "teamId": "karlsruhe"
+        },
+        {
+          "name": "Bayern Monaco",
+          "years": "1994-2008",
+          "teamId": "bayern-monaco"
+        }
+      ]
+    },
+    {
+      "id": "peter-schmeichel",
+      "name": "Peter Schmeichel",
+      "aliases": [
+        "Schmeichel"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Hvidovre",
+          "years": "1984-1987",
+          "teamId": "hvidovre"
+        },
+        {
+          "name": "Brøndby",
+          "years": "1987-1991",
+          "teamId": "brondby"
+        },
+        {
+          "name": "Manchester Utd",
+          "years": "1991-1999",
+          "teamId": "manchester-utd"
+        },
+        {
+          "name": "Sporting Lisbona",
+          "years": "1999-2001",
+          "teamId": "sporting-lisbona"
+        },
+        {
+          "name": "Aston Villa",
+          "years": "2001-2002",
+          "teamId": "aston-villa"
+        },
+        {
+          "name": "Manchester City",
+          "years": "2002-2003",
+          "teamId": "manchester-city"
+        }
+      ]
+    },
+    {
+      "id": "jaap-stam",
+      "name": "Jaap Stam",
+      "aliases": [
+        "Stam"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Zwolle",
+          "years": "1992-1993",
+          "teamId": "zwolle"
+        },
+        {
+          "name": "Cambuur",
+          "years": "1993-1995",
+          "teamId": "cambuur"
+        },
+        {
+          "name": "Willem II",
+          "years": "1995-1996",
+          "teamId": "willem-ii"
+        },
+        {
+          "name": "PSV",
+          "years": "1996-1998",
+          "teamId": "psv"
+        },
+        {
+          "name": "Manchester Utd",
+          "years": "1998-2001",
+          "teamId": "manchester-utd"
+        },
+        {
+          "name": "Lazio",
+          "years": "2001-2004",
+          "teamId": "lazio"
+        },
+        {
+          "name": "Milan",
+          "years": "2004-2006",
+          "teamId": "milan"
+        },
+        {
+          "name": "Ajax",
+          "years": "2006-2007",
+          "teamId": "ajax"
+        }
+      ]
+    },
+    {
+      "id": "claude-makelele",
+      "name": "Claude Makélélé",
+      "aliases": [
+        "Claude Makelele",
+        "Makélélé"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Nantes",
+          "years": "1991-1997",
+          "teamId": "nantes"
+        },
+        {
+          "name": "Olympique Marsiglia",
+          "years": "1997-1998",
+          "teamId": "olympique-marsiglia"
+        },
+        {
+          "name": "Celta Vigo",
+          "years": "1998-2000",
+          "teamId": "celta-vigo"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "2000-2003",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Chelsea",
+          "years": "2003-2008",
+          "teamId": "chelsea"
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "years": "2008-2011",
+          "teamId": "paris-saint-germain"
+        }
+      ]
+    },
+    {
+      "id": "marcel-desailly",
+      "name": "Marcel Desailly",
+      "aliases": [
+        "Desailly"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Nantes",
+          "years": "1986-1992",
+          "teamId": "nantes"
+        },
+        {
+          "name": "Olympique Marsiglia",
+          "years": "1992-1993",
+          "teamId": "olympique-marsiglia"
+        },
+        {
+          "name": "Milan",
+          "years": "1993-1998",
+          "teamId": "milan"
+        },
+        {
+          "name": "Chelsea",
+          "years": "1998-2004",
+          "teamId": "chelsea"
+        },
+        {
+          "name": "Al-Gharafa",
+          "years": "2004-2005",
+          "teamId": "al-gharafa"
+        },
+        {
+          "name": "Qatar SC",
+          "years": "2005-2006",
+          "teamId": "qatar-sc"
+        }
+      ]
+    },
+    {
+      "id": "laurent-blanc",
+      "name": "Laurent Blanc",
+      "aliases": [
+        "Blanc"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Montpellier",
+          "years": "1983-1991",
+          "teamId": "montpellier"
+        },
+        {
+          "name": "Napoli",
+          "years": "1991-1992",
+          "teamId": "napoli"
+        },
+        {
+          "name": "Nîmes",
+          "years": "1992-1993",
+          "teamId": "nimes"
+        },
+        {
+          "name": "Saint-Étienne",
+          "years": "1993-1995",
+          "teamId": "saint-etienne"
+        },
+        {
+          "name": "Auxerre",
+          "years": "1995-1996",
+          "teamId": "auxerre"
+        },
+        {
+          "name": "Barcellona",
+          "years": "1996-1997",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Olympique Marsiglia",
+          "years": "1997-1999",
+          "teamId": "olympique-marsiglia"
+        },
+        {
+          "name": "Inter",
+          "years": "1999-2001",
+          "teamId": "inter"
+        },
+        {
+          "name": "Manchester Utd",
+          "years": "2001-2003",
+          "teamId": "manchester-utd"
+        }
+      ]
+    },
+    {
+      "id": "emmanuel-petit",
+      "name": "Emmanuel Petit",
+      "aliases": [
+        "Petit"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Monaco",
+          "years": "1988-1997",
+          "teamId": "monaco"
+        },
+        {
+          "name": "Arsenal",
+          "years": "1997-2000",
+          "teamId": "arsenal"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2000-2001",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Chelsea",
+          "years": "2001-2004",
+          "teamId": "chelsea"
+        }
+      ]
+    },
+    {
+      "id": "robert-pires",
+      "name": "Robert Pirès",
+      "aliases": [
+        "Robert Pires",
+        "Pirès"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Metz",
+          "years": "1993-1998",
+          "teamId": "metz"
+        },
+        {
+          "name": "Olympique Marsiglia",
+          "years": "1998-2000",
+          "teamId": "olympique-marsiglia"
+        },
+        {
+          "name": "Arsenal",
+          "years": "2000-2006",
+          "teamId": "arsenal"
+        },
+        {
+          "name": "Villarreal",
+          "years": "2006-2010",
+          "teamId": "villarreal"
+        },
+        {
+          "name": "Aston Villa",
+          "years": "2010-2011",
+          "teamId": "aston-villa"
+        },
+        {
+          "name": "Goa",
+          "years": "2014-2015",
+          "teamId": "goa"
+        }
+      ]
+    },
+    {
+      "id": "patrick-kluivert",
+      "name": "Patrick Kluivert",
+      "aliases": [
+        "Kluivert"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Ajax",
+          "years": "1994-1997",
+          "teamId": "ajax"
+        },
+        {
+          "name": "Milan",
+          "years": "1997-1998",
+          "teamId": "milan"
+        },
+        {
+          "name": "Barcellona",
+          "years": "1998-2004",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Newcastle Utd",
+          "years": "2004-2005",
+          "teamId": "newcastle-utd"
+        },
+        {
+          "name": "Valencia",
+          "years": "2005-2006",
+          "teamId": "valencia"
+        },
+        {
+          "name": "PSV",
+          "years": "2006-2007",
+          "teamId": "psv"
+        },
+        {
+          "name": "Lilla",
+          "years": "2007-2008",
+          "teamId": "lilla"
+        }
+      ]
+    },
+    {
+      "id": "edgar-davids",
+      "name": "Edgar Davids",
+      "aliases": [
+        "Davids"
+      ],
+      "tier": "icone",
+      "teams": [
+        {
+          "name": "Ajax",
+          "years": "1991-1996",
+          "teamId": "ajax"
+        },
+        {
+          "name": "Milan",
+          "years": "1996-1997",
+          "teamId": "milan"
+        },
+        {
+          "name": "Juventus",
+          "years": "1997-2004",
+          "teamId": "juventus"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2004",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Inter",
+          "years": "2004-2005",
+          "teamId": "inter"
+        },
+        {
+          "name": "Tottenham",
+          "years": "2005-2007",
+          "teamId": "tottenham"
+        },
+        {
+          "name": "Ajax",
+          "years": "2007-2008",
+          "teamId": "ajax"
+        },
+        {
+          "name": "Crystal Palace",
+          "years": "2010",
+          "teamId": "crystal-palace"
+        }
+      ]
+    },
+    {
+      "id": "rodri",
+      "name": "Rodri",
+      "aliases": [
+        "Rodrigo Hernández"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Villarreal",
+          "years": "2015-2018",
+          "teamId": "villarreal"
+        },
+        {
+          "name": "Atlético Madrid",
+          "years": "2018-2019",
+          "teamId": "atletico-madrid"
+        },
+        {
+          "name": "Manchester City",
+          "years": "2019-",
+          "teamId": "manchester-city"
+        }
+      ]
+    },
+    {
+      "id": "bruno-fernandes",
+      "name": "Bruno Fernandes",
+      "aliases": [
+        "Bruno"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Novara",
+          "years": "2012-2013",
+          "teamId": "novara"
+        },
+        {
+          "name": "Udinese",
+          "years": "2013-2016",
+          "teamId": "udinese"
+        },
+        {
+          "name": "Sampdoria",
+          "years": "2016-2017",
+          "teamId": "sampdoria"
+        },
+        {
+          "name": "Sporting Lisbona",
+          "years": "2017-2020",
+          "teamId": "sporting-lisbona"
+        },
+        {
+          "name": "Manchester Utd",
+          "years": "2020-",
+          "teamId": "manchester-utd"
+        }
+      ]
+    },
+    {
+      "id": "bernardo-silva",
+      "name": "Bernardo Silva",
+      "aliases": [
+        "Bernardo"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Benfica",
+          "years": "2013-2014",
+          "teamId": "benfica"
+        },
+        {
+          "name": "Monaco",
+          "years": "2014-2017",
+          "teamId": "monaco"
+        },
+        {
+          "name": "Manchester City",
+          "years": "2017-",
+          "teamId": "manchester-city"
+        }
+      ]
+    },
+    {
+      "id": "ilkay-gundogan",
+      "name": "İlkay Gündoğan",
+      "aliases": [
+        "Ilkay Gundogan",
+        "Gündoğan"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Norimberga",
+          "years": "2009-2011",
+          "teamId": "norimberga"
+        },
+        {
+          "name": "Borussia Dortmund",
+          "years": "2011-2016",
+          "teamId": "borussia-dortmund"
+        },
+        {
+          "name": "Manchester City",
+          "years": "2016-2023",
+          "teamId": "manchester-city"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2023-2024",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Manchester City",
+          "years": "2024-",
+          "teamId": "manchester-city"
+        }
+      ]
+    },
+    {
+      "id": "joshua-kimmich",
+      "name": "Joshua Kimmich",
+      "aliases": [
+        "Kimmich"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "RB Lipsia",
+          "years": "2013-2015",
+          "teamId": "rb-lipsia"
+        },
+        {
+          "name": "Bayern Monaco",
+          "years": "2015-",
+          "teamId": "bayern-monaco"
+        }
+      ]
+    },
+    {
+      "id": "jamal-musiala",
+      "name": "Jamal Musiala",
+      "aliases": [
+        "Musiala"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Bayern Monaco",
+          "years": "2020-",
+          "teamId": "bayern-monaco"
+        }
+      ]
+    },
+    {
+      "id": "pedri",
+      "name": "Pedri",
+      "aliases": [
+        "Pedro González López"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Las Palmas",
+          "years": "2019-2020",
+          "teamId": "las-palmas"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2020-",
+          "teamId": "barcellona"
+        }
+      ]
+    },
+    {
+      "id": "joao-cancelo",
+      "name": "João Cancelo",
+      "aliases": [
+        "Joao Cancelo",
+        "Cancelo"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Benfica",
+          "years": "2014-2015",
+          "teamId": "benfica"
+        },
+        {
+          "name": "Valencia",
+          "years": "2014-2018",
+          "teamId": "valencia"
+        },
+        {
+          "name": "Inter",
+          "years": "2017-2018",
+          "teamId": "inter"
+        },
+        {
+          "name": "Juventus",
+          "years": "2018-2019",
+          "teamId": "juventus"
+        },
+        {
+          "name": "Manchester City",
+          "years": "2019-2023",
+          "teamId": "manchester-city"
+        },
+        {
+          "name": "Bayern Monaco",
+          "years": "2023",
+          "teamId": "bayern-monaco"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2023-2024",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Al-Hilal",
+          "years": "2024-",
+          "teamId": "al-hilal"
+        }
+      ]
+    },
+    {
+      "id": "achraf-hakimi",
+      "name": "Achraf Hakimi",
+      "aliases": [
+        "Hakimi"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Real Madrid",
+          "years": "2017-2018",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Borussia Dortmund",
+          "years": "2018-2020",
+          "teamId": "borussia-dortmund"
+        },
+        {
+          "name": "Inter",
+          "years": "2020-2021",
+          "teamId": "inter"
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "years": "2021-",
+          "teamId": "paris-saint-germain"
+        }
+      ]
+    },
+    {
+      "id": "theo-hernandez",
+      "name": "Theo Hernández",
+      "aliases": [
+        "Theo Hernandez",
+        "Theo"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Alavés",
+          "years": "2016-2017",
+          "teamId": "alaves"
+        },
+        {
+          "name": "Real Madrid",
+          "years": "2017-2018",
+          "teamId": "real-madrid"
+        },
+        {
+          "name": "Real Sociedad",
+          "years": "2018-2019",
+          "teamId": "real-sociedad"
+        },
+        {
+          "name": "Milan",
+          "years": "2019-2025",
+          "teamId": "milan"
+        },
+        {
+          "name": "Al-Hilal",
+          "years": "2025-",
+          "teamId": "al-hilal"
+        }
+      ]
+    },
+    {
+      "id": "jan-oblak",
+      "name": "Jan Oblak",
+      "aliases": [
+        "Oblak"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Olimpija Lubiana",
+          "years": "2009-2010",
+          "teamId": "olimpija-lubiana"
+        },
+        {
+          "name": "Benfica",
+          "years": "2010-2011",
+          "teamId": "benfica"
+        },
+        {
+          "name": "Beira-Mar",
+          "years": "2011",
+          "teamId": "beira-mar"
+        },
+        {
+          "name": "Olhanense",
+          "years": "2011",
+          "teamId": "olhanense"
+        },
+        {
+          "name": "União Leiria",
+          "years": "2011-2012",
+          "teamId": "uniao-leiria"
+        },
+        {
+          "name": "Rio Ave",
+          "years": "2012-2013",
+          "teamId": "rio-ave"
+        },
+        {
+          "name": "Benfica",
+          "years": "2013-2014",
+          "teamId": "benfica"
+        },
+        {
+          "name": "Atlético Madrid",
+          "years": "2014-",
+          "teamId": "atletico-madrid"
+        }
+      ]
+    },
+    {
+      "id": "declan-rice",
+      "name": "Declan Rice",
+      "aliases": [
+        "Rice"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "West Ham Utd",
+          "years": "2017-2023",
+          "teamId": "west-ham-utd"
+        },
+        {
+          "name": "Arsenal",
+          "years": "2023-",
+          "teamId": "arsenal"
+        }
+      ]
+    },
+    {
+      "id": "cole-palmer",
+      "name": "Cole Palmer",
+      "aliases": [
+        "Palmer"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Manchester City",
+          "years": "2020-2023",
+          "teamId": "manchester-city"
+        },
+        {
+          "name": "Chelsea",
+          "years": "2023-",
+          "teamId": "chelsea"
+        }
+      ]
+    },
+    {
+      "id": "phil-foden",
+      "name": "Phil Foden",
+      "aliases": [
+        "Foden"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Manchester City",
+          "years": "2017-",
+          "teamId": "manchester-city"
+        }
+      ]
+    },
+    {
+      "id": "ruben-dias",
+      "name": "Rúben Dias",
+      "aliases": [
+        "Ruben Dias",
+        "Dias"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Benfica",
+          "years": "2017-2020",
+          "teamId": "benfica"
+        },
+        {
+          "name": "Manchester City",
+          "years": "2020-",
+          "teamId": "manchester-city"
+        }
+      ]
+    },
+    {
+      "id": "william-saliba",
+      "name": "William Saliba",
+      "aliases": [
+        "Saliba"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Saint-Étienne",
+          "years": "2018-2020",
+          "teamId": "saint-etienne"
+        },
+        {
+          "name": "Nizza",
+          "years": "2020-2021",
+          "teamId": "nizza"
+        },
+        {
+          "name": "Olympique Marsiglia",
+          "years": "2021-2022",
+          "teamId": "olympique-marsiglia"
+        },
+        {
+          "name": "Arsenal",
+          "years": "2022-",
+          "teamId": "arsenal"
+        }
+      ]
+    },
+    {
+      "id": "ousmane-dembele",
+      "name": "Ousmane Dembélé",
+      "aliases": [
+        "Ousmane Dembele",
+        "Dembélé"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Rennes",
+          "years": "2015-2016",
+          "teamId": "rennes"
+        },
+        {
+          "name": "Borussia Dortmund",
+          "years": "2016-2017",
+          "teamId": "borussia-dortmund"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2017-2023",
+          "teamId": "barcellona"
+        },
+        {
+          "name": "Paris Saint-Germain",
+          "years": "2023-",
+          "teamId": "paris-saint-germain"
+        }
+      ]
+    },
+    {
+      "id": "raphinha",
+      "name": "Raphinha",
+      "aliases": [
+        "Raphael Dias Belloli"
+      ],
+      "tier": "campioni",
+      "teams": [
+        {
+          "name": "Avaí",
+          "years": "2015-2016",
+          "teamId": "avai"
+        },
+        {
+          "name": "Vitória Guimarães",
+          "years": "2016-2018",
+          "teamId": "vitoria-guimaraes"
+        },
+        {
+          "name": "Sporting Lisbona",
+          "years": "2018-2019",
+          "teamId": "sporting-lisbona"
+        },
+        {
+          "name": "Rennes",
+          "years": "2019-2020",
+          "teamId": "rennes"
+        },
+        {
+          "name": "Leeds Utd",
+          "years": "2020-2022",
+          "teamId": "leeds-utd"
+        },
+        {
+          "name": "Barcellona",
+          "years": "2022-",
+          "teamId": "barcellona"
+        }
+      ]
     }
-  ]
+  ],
+  "source": {
+    "name": "football-datasets / Transfermarkt snapshot, con revisione editoriale PartyHub",
+    "url": "https://github.com/salimt/football-datasets",
+    "policy": "Solo presenze in prima squadra; prestiti inclusi; nomi e alias verificati automaticamente."
+  }
 }

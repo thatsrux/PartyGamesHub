@@ -40,13 +40,15 @@ export default function ScreenFitter({ children, width = 1920, height = 1080 }: 
       backgroundColor: 'transparent'
     }}>
       <div className="screen-fitter-stage" style={{
+        '--host-vw': `${width / 100}px`,
+        '--host-vh': `${height / 100}px`,
         width: width,
         height: height,
         transform: `scale(${scale})`,
         transformOrigin: 'center center',
         position: 'relative',
         flexShrink: 0
-      }}>
+      } as React.CSSProperties}>
         {children}
       </div>
     </div>

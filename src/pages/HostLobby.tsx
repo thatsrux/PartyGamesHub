@@ -326,7 +326,6 @@ function HostLobbyContent() {
             <div className="host-players-panel">
               <header className="host-section-heading">
                 <div>
-                  <span className="host-section-kicker">La squadra si sta formando</span>
                   <h2>Giocatori <b>{playersList.length}</b></h2>
                 </div>
                 <span className="host-live-pill"><i /> Live</span>
@@ -357,8 +356,7 @@ function HostLobbyContent() {
 
             <section className="host-catalog" aria-label="Catalogo giochi PartyHub">
               <header className="host-catalog__heading">
-                <div><span>Scorrete le idee</span><h2>Che cosa giochiamo?</h2></div>
-                <p>{playersList.length > 0 ? `Parlatene mentre ${playersList.find((p: any) => p.isAdmin)?.name || "l'Admin"} prepara la partita` : 'Scoprite tutti i giochi mentre aspettate gli amici'}</p>
+                <h2>Che cosa giochiamo?</h2>
               </header>
               <div className="host-catalog__viewport">
                 <div className="host-catalog__track">
