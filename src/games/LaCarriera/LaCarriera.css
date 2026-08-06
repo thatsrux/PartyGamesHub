@@ -51,6 +51,12 @@
 .career-team-card__badge { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 3px 3px rgba(0,0,0,.16)); }
 .career-team-card__name { margin-top: .65rem; font-size: .92rem; line-height: 1.08; font-weight: 900; color: white; }
 .career-team-card__years { margin-top: .32rem; color: #bef264; font-size: .78rem; font-weight: 850; letter-spacing: .02em; }
+.career-timeline--carousel { justify-content: flex-start; overflow: hidden; mask-image: linear-gradient(90deg, transparent, #000 3%, #000 97%, transparent); }
+.career-timeline--carousel .career-timeline__track { width: max-content; display: flex; align-items: center; animation: career-result-carousel 34s linear infinite; will-change: transform; }
+.career-timeline--carousel .career-timeline__group { display: flex; align-items: center; gap: clamp(.35rem, var(--host-vw, 1vw), .8rem); padding-right: clamp(2rem, calc(var(--host-vw, 1vw) * 3), 3.5rem); }
+.career-timeline--carousel .career-timeline__stop { min-width: max-content; flex: 0 0 auto; }
+.career-timeline--carousel:hover .career-timeline__track { animation-play-state: paused; }
+@keyframes career-result-carousel { to { transform: translateX(-50%); } }
 .career-progress { width: min(900px, 92%); margin-top: .7rem; }
 .career-progress > div { margin-top: 1rem !important; }
 .career-players { display: flex; justify-content: center; flex-wrap: wrap; gap: .6rem; margin-top: .8rem; }
@@ -89,3 +95,9 @@
 .career-feedback--right { color: #d9f99d; background: rgba(132,204,22,.14); border: 1px solid rgba(190,242,100,.28); }
 .career-waiting { text-align: center; display: grid; place-items: center; flex: 1; }
 .career-waiting__check { width: 5rem; height: 5rem; display: grid; place-items: center; margin: 0 auto 1rem; border-radius: 50%; color: #052e16; background: #bef264; font-size: 2.4rem; box-shadow: 0 0 40px rgba(163,230,53,.42); }
+
+@media (prefers-reduced-motion: reduce) {
+  .career-timeline--carousel { overflow-x: auto; mask-image: none; }
+  .career-timeline--carousel .career-timeline__track { animation: none; }
+  .career-timeline--carousel .career-timeline__group[aria-hidden="true"] { display: none; }
+}
