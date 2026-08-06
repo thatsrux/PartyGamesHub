@@ -9,7 +9,7 @@ import MiniLeaderboardTV from '../../components/shared/MiniLeaderboardTV';
 import GameLayoutTV from '../../components/shared/GameLayoutTV';
 
 import impostoreCategoriesData from '../../data/impostore_categories.json';
-import footballersData from '../../data/footballers.json';
+import { careerPlayers } from '../LaCarriera/data';
 import LoadingScreen from '../../components/shared/LoadingScreen';
 import { getServerTime } from '../../utils/serverTime';
 
@@ -21,7 +21,7 @@ const fallbackWords = [
 
 const getWordsForCategory = (category: string) => {
   if (category === 'Calciatori') {
-    return footballersData.map((f: any) => f.name);
+    return careerPlayers.map((footballer) => footballer.name);
   }
   
   if (category && (impostoreCategoriesData as any)[category]) {

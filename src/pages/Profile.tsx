@@ -10,6 +10,7 @@ import LoadingScreen from '../components/shared/LoadingScreen';
 import { gameThemes } from '../utils/theme';
 import type { GameThemeKey } from '../utils/theme';
 import SettingsSlider from '../components/shared/SettingsSlider';
+import CareerModeSetting from '../games/LaCarriera/CareerModeSetting';
 
 import { ALL_CATEGORIES, getCategoryColor, CATEGORY_COUNTS } from '../utils/categories';
 import { GAMES_CONFIG } from '../config/gamesConfig';
@@ -549,6 +550,10 @@ export default function Profile() {
                     step={5}
                     onChange={(val) => setTempSettings({ ...tempSettings, duration: val })}
                   />
+                )}
+
+                {settingsOpen === 'la_carriera' && (
+                  <CareerModeSetting value={tempSettings.careerMode} onChange={(careerMode) => setTempSettings({ ...tempSettings, careerMode })} />
                 )}
 
                 {settingsOpen === 'multigame' && (

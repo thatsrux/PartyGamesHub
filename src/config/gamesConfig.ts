@@ -36,7 +36,7 @@ export const GAMES_CONFIG: Record<string, GameConfig> = {
   },
   'la_carriera': { 
     id: 'la_carriera', title: 'La Carriera', icon: '⚽', 
-    defaultSettings: { rounds: 10, duration: 30 },
+    defaultSettings: { rounds: 10, duration: 30, careerMode: 'icone' },
     hasRounds: true,
     hasDuration: true,
     hasCategories: false
