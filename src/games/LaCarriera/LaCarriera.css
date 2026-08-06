@@ -46,8 +46,8 @@
 .career-timeline__rail { position: absolute; left: 7%; right: 7%; top: 49%; height: 4px; background: linear-gradient(90deg, transparent, rgba(190,242,100,.68) 10% 90%, transparent); box-shadow: 0 0 18px rgba(163,230,53,.45); }
 .career-timeline__stop { position: relative; display: flex; align-items: center; min-width: 0; z-index: 1; }
 .career-timeline__arrow { color: #bef264; font-size: 2.25rem; font-weight: 300; margin-right: clamp(.2rem, .8vw, .65rem); text-shadow: 0 0 18px rgba(163,230,53,.6); }
-.career-team-card { width: clamp(118px, 9.5vw, 158px); min-height: 174px; padding: .9rem .65rem .7rem; display: flex; flex-direction: column; align-items: center; text-align: center; border-radius: 1.4rem; background: linear-gradient(155deg, rgba(255,255,255,.16), rgba(255,255,255,.055)); border: 1px solid rgba(255,255,255,.18); box-shadow: 0 14px 32px rgba(0,0,0,.32); backdrop-filter: blur(12px); }
-.career-team-card__badge-wrap { width: 86px; height: 86px; display: grid; place-items: center; padding: .35rem; border-radius: 1.15rem; background: rgba(255,255,255,.94); box-shadow: 0 9px 24px rgba(0,0,0,.28); }
+.career-team-card { width: clamp(132px, 10.5vw, 176px); min-height: 190px; padding: 1rem .72rem .8rem; display: flex; flex: 0 0 auto; flex-direction: column; align-items: center; text-align: center; border-radius: 1.5rem; background: linear-gradient(155deg, rgba(255,255,255,.16), rgba(255,255,255,.055)); border: 1px solid rgba(255,255,255,.18); box-shadow: 0 14px 32px rgba(0,0,0,.32); backdrop-filter: blur(12px); }
+.career-team-card__badge-wrap { width: 94px; height: 94px; display: grid; place-items: center; padding: .35rem; border-radius: 1.2rem; background: rgba(255,255,255,.94); box-shadow: 0 9px 24px rgba(0,0,0,.28); }
 .career-team-card__badge { width: 100%; height: 100%; object-fit: contain; filter: drop-shadow(0 3px 3px rgba(0,0,0,.16)); }
 .career-team-card__name { margin-top: .65rem; font-size: .92rem; line-height: 1.08; font-weight: 900; color: white; }
 .career-team-card__years { margin-top: .32rem; color: #bef264; font-size: .78rem; font-weight: 850; letter-spacing: .02em; }
@@ -67,9 +67,10 @@
 .career-mobile__top { display: flex; justify-content: space-between; align-items: center; gap: .75rem; }
 .career-mobile__title { font-size: 1.65rem; margin: 0; color: white; background: none; -webkit-text-fill-color: initial; text-align: left; }
 .career-mobile-card { background: rgba(3,26,21,.72); border: 1px solid rgba(209,250,229,.14); border-radius: 1.6rem; padding: 1.2rem; box-shadow: 0 18px 45px rgba(0,0,0,.27); backdrop-filter: blur(14px); }
-.career-timeline--compact { justify-content: flex-start; overflow-x: auto; min-height: 118px; padding: .15rem .1rem .7rem; }
+.career-timeline--compact { justify-content: flex-start; overflow-x: auto; overflow-y: hidden; min-height: 118px; padding: .15rem .1rem .7rem; gap: .45rem; scroll-snap-type: x proximity; overscroll-behavior-inline: contain; -webkit-overflow-scrolling: touch; }
 .career-timeline--compact .career-timeline__rail { display: none; }
-.career-timeline--compact .career-team-card { width: 88px; min-height: 105px; padding: .55rem .35rem; border-radius: 1rem; flex-shrink: 0; }
+.career-timeline--compact .career-timeline__stop { flex: 0 0 auto; min-width: max-content; scroll-snap-align: start; }
+.career-timeline--compact .career-team-card { width: 88px; min-height: 105px; padding: .55rem .35rem; border-radius: 1rem; flex: 0 0 88px; }
 .career-timeline--compact .career-team-card__badge-wrap { width: 54px; height: 54px; border-radius: .8rem; }
 .career-timeline--compact .career-team-card__name { font-size: .68rem; }
 .career-timeline--compact .career-team-card__years { font-size: .62rem; }
@@ -89,7 +90,7 @@
 .career-waiting__check { width: 5rem; height: 5rem; display: grid; place-items: center; margin: 0 auto 1rem; border-radius: 50%; color: #052e16; background: #bef264; font-size: 2.4rem; box-shadow: 0 0 40px rgba(163,230,53,.42); }
 
 @media (max-width: 1250px) {
-  .career-team-card { width: 106px; min-height: 156px; }
-  .career-team-card__badge-wrap { width: 72px; height: 72px; }
+  .career-timeline:not(.career-timeline--compact) .career-team-card { width: 118px; min-height: 166px; }
+  .career-timeline:not(.career-timeline--compact) .career-team-card__badge-wrap { width: 78px; height: 78px; }
   .career-team-card__name { font-size: .8rem; }
 }

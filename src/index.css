@@ -243,6 +243,13 @@ h1 {
   left: auto !important;
 }
 
+.multigame-terminate-button {
+  bottom: max(env(safe-area-inset-bottom), 0.75rem) !important;
+  left: calc(max(env(safe-area-inset-left), 0.75rem) + 6.6rem) !important;
+  min-height: 44px;
+  white-space: nowrap;
+}
+
 .home-title,
 .join-title,
 .profile-title {
@@ -351,6 +358,11 @@ h1 {
   html { font-size: 14px; }
   .container, .container-mobile { padding-inline: 0.75rem; }
   .profile-header .btn { padding-inline: 0.85rem !important; }
+  .multigame-terminate-label-full { display: none; }
+  .multigame-terminate-button {
+    left: calc(max(env(safe-area-inset-left), 0.75rem) + 6.25rem) !important;
+    padding-inline: 0.8rem !important;
+  }
 }
 
 @media (max-height: 560px) and (orientation: landscape) {

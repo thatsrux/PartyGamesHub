@@ -346,6 +346,8 @@ export default function ClientMultigame({ lobbyCode, userId }: { lobbyCode: stri
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => setShowConfirm(true)}
+            className="multigame-terminate-button"
+            aria-label="Termina la sessione Multi-Game"
             style={{
               position: 'fixed',
               bottom: '20px',
@@ -367,7 +369,7 @@ export default function ClientMultigame({ lobbyCode, userId }: { lobbyCode: stri
             }}
           >
             <XCircle size={18} />
-            <span>Termina Multi-Game</span>
+            <span>Termina<span className="multigame-terminate-label-full"> Multi-Game</span></span>
           </motion.button>
         )}
 

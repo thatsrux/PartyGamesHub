@@ -12,6 +12,7 @@
     "lint": "eslint .",
     "test:careers": "node scripts/validate-career-data.cjs",
     "test:profile": "node --experimental-strip-types --test scripts/profile-session.test.mjs",
+    "test:scoring": "node --experimental-strip-types --test scripts/piu-vicino-scoring.test.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

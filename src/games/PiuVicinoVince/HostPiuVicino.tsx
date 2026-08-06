@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { useLobby } from '../../hooks/useLobby';
 import PodiumTV from '../../components/shared/PodiumTV';
@@ -12,11 +12,13 @@ import LoadingScreen from '../../components/shared/LoadingScreen';
 import { piuVicinoQuestions } from './data';
 import { getServerTime } from '../../utils/serverTime';
 import { getCategoryColor } from '../../utils/categories';
+import { calculatePiuVicinoScore } from './scoring';
 
 export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
   const { lobby, updateGameState, updatePlayerScore } = useLobby(lobbyCode);
   const gameState = lobby?.game_state || {};
   const players = lobby?.players || {};
+  const scoredRoundRef = useRef<string | null>(null);
   
   useEffect(() => {
     if (lobby && !gameState.phase) {
@@ -60,22 +62,27 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
     }
   }, [lobby]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const handleRoundEnd = () => {
-    const playerIds = Object.keys(players);
+  const handleRoundEnd = async () => {
     const q = gameState.question;
-    const maxDiff = q.max - q.min;
+    if (!q) return;
+    const roundKey = `${gameState.questionIndex ?? 0}:${gameState.startTime ?? 0}`;
+    if (scoredRoundRef.current === roundKey) return;
+    scoredRoundRef.current = roundKey;
 
-    playerIds.forEach(id => {
-      const pAnswer = gameState.answers?.[id];
-      if (pAnswer !== undefined) {
-        const diff = Math.abs(pAnswer - q.answer);
-        const normalizedDiff = diff / maxDiff;
-        let points = Math.floor(100 * Math.exp(-25 * Math.pow(normalizedDiff, 2)));
-        if (diff === 0) points += 500;
-        updatePlayerScore(id, points);
-      }
-    });
-    updateGameState({ phase: 'reveal' });
+    const playerIds = Object.keys(players);
+    try {
+      await Promise.all(playerIds.map(async id => {
+        const pAnswer = gameState.answers?.[id];
+        if (pAnswer !== undefined) {
+          const points = calculatePiuVicinoScore(pAnswer, q.answer, q.min, q.max);
+          await updatePlayerScore(id, points);
+        }
+      }));
+      await updateGameState({ phase: 'reveal' });
+    } catch (error) {
+      scoredRoundRef.current = null;
+      throw error;
+    }
   };
 
   useEffect(() => {
@@ -83,7 +90,7 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
       const playerIds = Object.keys(players);
       const allAnswered = playerIds.length > 0 && playerIds.every(id => gameState.answers?.[id] !== undefined);
       if (allAnswered) {
-        handleRoundEnd();
+        void handleRoundEnd();
       }
     }
   }, [players, gameState.phase, gameState.answers]);
@@ -241,7 +248,7 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
             <ProgressBar startTime={gameState.startTime} 
               key={`progress-${gameState.questionIndex}`} 
               durationMs={(gameState.settings?.duration || 20) * 1000} 
-              onComplete={handleRoundEnd} 
+              onComplete={() => void handleRoundEnd()}
             />
           </motion.div>
         )}
@@ -294,13 +301,9 @@ export default function HostPiuVicino({ lobbyCode }: { lobbyCode: string }) {
               <ul style={{ listStyle: 'none', marginTop: '1rem', display: 'flex', flexDirection: 'column', gap: '0.5rem', alignItems: 'center', width: '100%' }}>
                 {sortedPlayers.map(([id, p]: any, index: number) => {
                   const pAnswer = gameState.answers?.[id];
-                  const diff = pAnswer !== undefined ? Math.abs(pAnswer - currentQ.answer) : null;
-                  let points = 0;
-                  if (diff !== null) {
-                      const normalizedDiff = diff / (currentQ.max - currentQ.min);
-                      points = Math.floor(100 * Math.exp(-25 * Math.pow(normalizedDiff, 2)));
-                      if (diff === 0) points += 500;
-                  }
+                  const points = pAnswer !== undefined
+                    ? calculatePiuVicinoScore(pAnswer, currentQ.answer, currentQ.min, currentQ.max)
+                    : 0;
                   
                   return (
                     <li key={id} style={{ 

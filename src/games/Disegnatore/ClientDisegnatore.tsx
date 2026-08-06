@@ -25,6 +25,9 @@ import WordRevealUI from '../../components/shared/WordRevealUI';
 import GameLayoutMobile from '../../components/shared/GameLayoutMobile';
 import LoadingScreen from '../../components/shared/LoadingScreen';
 import { getServerTime } from '../../utils/serverTime';
+import './Disegnatore.css';
+
+const DRAWING_COLORS = ['#111827', '#ffffff', '#ef4444', '#f97316', '#facc15', '#22c55e', '#06b6d4', '#3b82f6', '#8b5cf6', '#ec4899'];
 
 export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: string, userId: string }) {
   const { lobby, updateGameState, returnToLobbyOrNextGame } = useLobby(lobbyCode);
@@ -383,7 +386,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
         <GameLayoutMobile themeKey="disegnatore" style={{ padding: 0 }}>
           <div 
             ref={containerRef}
-          className={isFullscreenLayout ? "" : "container-mobile"} 
+          className={`${isFullscreenLayout ? '' : 'container-mobile'} drawer-studio${isFullscreenLayout ? ' drawer-studio--fullscreen' : ''}${isLandscape ? ' drawer-studio--landscape' : ''}`}
           style={isFullscreenLayout ? { 
             position: 'fixed', 
             top: 0, left: 0, right: 0, bottom: 0, 
@@ -407,6 +410,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
           <motion.div 
             initial={{ opacity: 0, y: 20 }} 
             animate={{ opacity: 1, y: 0 }} 
+            className="drawer-workspace"
             style={{ 
               display: 'flex', 
               flexDirection: isLandscape ? 'row' : 'column', 
@@ -417,7 +421,7 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
               gap: isLandscape ? '1rem' : '0'
             }}
           >
-            <div style={{ 
+            <div className="drawer-sidebar" style={{
               display: 'flex', 
               flexDirection: 'column',
               width: isLandscape ? '320px' : '100%',
@@ -425,11 +429,15 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
               overflowY: isLandscape ? 'auto' : 'visible',
               paddingRight: isLandscape ? '0.5rem' : '0'
             }}>
-              <div style={{ position: 'relative', width: '100%' }}>
-                <h2 style={{ textAlign: 'center', marginBottom: '0.2rem', color: 'var(--color-primary)', fontSize: '1rem' }}>Devi disegnare:</h2>
-                <h1 style={{ textAlign: 'center', marginBottom: '0.8rem', textTransform: 'uppercase', color: 'white', fontSize: '1.5rem', padding: '0 2.5rem' }}>{gameState.word}</h1>
+              <div className="drawer-prompt">
+                <div className="drawer-prompt__copy">
+                  <span>La tua parola</span>
+                  <strong>{gameState.word}</strong>
+                </div>
                 <button 
                   onClick={toggleFullscreen} 
+                  className="drawer-expand-button"
+                  aria-label={isPseudoFullscreen ? 'Riduci la lavagna' : 'Espandi la lavagna'}
                   style={{ 
                     position: 'absolute',
                     right: 0,
@@ -452,134 +460,84 @@ export default function ClientDisegnatore({ lobbyCode, userId }: { lobbyCode: st
                 </button>
               </div>
               
-              {/* Toolbar Panel (Premium UI) */}
-            <div style={{ 
-              display: 'flex', 
-              flexDirection: 'column', 
-              gap: '0.8rem', 
-              padding: '0.8rem', 
-              background: 'rgba(20, 25, 35, 0.7)', 
-              backdropFilter: 'blur(12px)',
-              borderRadius: '1.2rem', 
-              marginBottom: '0.8rem', 
-              border: '1px solid rgba(255,255,255,0.08)',
-              boxShadow: '0 8px 32px rgba(0,0,0,0.4)'
-            }}>
-              
-              {/* Row 1: Tools */}
-              <div style={{ display: 'flex', gap: '0.5rem', justifyContent: 'center', alignItems: 'center' }}>
-                <div style={{ display: 'flex', gap: '0.3rem', background: 'rgba(0,0,0,0.4)', padding: '0.3rem', borderRadius: '0.8rem', flex: 1, justifyContent: 'space-between' }}>
-                  {[
-                    { id: 'brush', icon: <Brush size={20} /> },
-                    { id: 'bucket', icon: <PaintBucket size={20} /> },
-                    { id: 'eraser', icon: <Eraser size={20} /> },
-                    { id: 'line', icon: <Minus size={20} /> },
-                    { id: 'rect', icon: <Square size={20} /> },
-                    { id: 'circle', icon: <Circle size={20} /> }
-                  ].map(tool => (
-                    <button 
-                      key={tool.id}
-                      onClick={() => setActiveTool(tool.id as any)} 
-                      style={{ 
-                        padding: '0.5rem', 
-                        background: activeTool === tool.id ? 'var(--color-primary)' : 'transparent', 
-                        color: activeTool === tool.id ? 'white' : 'rgba(255,255,255,0.6)',
-                        border: 'none',
-                        borderRadius: '0.6rem',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        cursor: 'pointer',
-                        transition: 'all 0.2s ease',
-                        boxShadow: activeTool === tool.id ? '0 4px 12px rgba(59, 130, 246, 0.4)' : 'none',
-                        flex: 1
-                      }}
-                    >
-                      {tool.icon}
+              <div className="drawer-toolbar" aria-label="Strumenti da disegno">
+                <div className="drawer-toolbar__section">
+                  <span className="drawer-toolbar__label">Strumento</span>
+                  <div className="drawer-tools">
+                    {[
+                      { id: 'brush', label: 'Pennello', icon: <Brush size={20} /> },
+                      { id: 'bucket', label: 'Riempi', icon: <PaintBucket size={20} /> },
+                      { id: 'eraser', label: 'Gomma', icon: <Eraser size={20} /> },
+                      { id: 'line', label: 'Linea', icon: <Minus size={20} /> },
+                      { id: 'rect', label: 'Rettangolo', icon: <Square size={20} /> },
+                      { id: 'circle', label: 'Cerchio', icon: <Circle size={20} /> }
+                    ].map(tool => (
+                      <button
+                        type="button"
+                        key={tool.id}
+                        className={`drawer-tool${activeTool === tool.id ? ' drawer-tool--active' : ''}`}
+                        onClick={() => setActiveTool(tool.id as typeof activeTool)}
+                        aria-label={tool.label}
+                        aria-pressed={activeTool === tool.id}
+                        title={tool.label}
+                      >
+                        {tool.icon}
+                      </button>
+                    ))}
+                    <button type="button" onClick={handleClear} className="drawer-tool drawer-tool--danger" aria-label="Pulisci la lavagna" title="Pulisci lavagna">
+                      <Trash2 size={20} />
                     </button>
-                  ))}
+                  </div>
                 </div>
-                <button onClick={handleClear} style={{ padding: '0.6rem', background: 'rgba(239, 68, 68, 0.2)', border: '1px solid var(--color-danger)', color: 'var(--color-danger)', cursor: 'pointer', borderRadius: '0.8rem', display: 'flex', alignItems: 'center', justifyContent: 'center', boxShadow: '0 4px 12px rgba(239, 68, 68, 0.2)' }} title="Pulisci lavagna">
-                  <Trash2 size={22} />
-                </button>
-              </div>
 
-              {/* Row 2: Colors, Sizes, Actions */}
-              <div style={{ display: 'flex', gap: '0.8rem', alignItems: 'center', overflowX: 'auto', paddingBottom: '0.2rem', paddingRight: '0.2rem' }}>
-                
-                {/* Sizes */}
-                <div style={{ display: 'flex', gap: '0.3rem', background: 'rgba(0,0,0,0.4)', padding: '0.3rem', borderRadius: '0.8rem', flexShrink: 0 }}>
-                  {[3, 6, 12].map(size => (
-                    <button 
-                      key={size} 
-                      onClick={() => setActiveSize(size)} 
-                      style={{ 
-                        border: 'none', 
-                        background: activeSize === size ? 'rgba(255,255,255,0.15)' : 'transparent', 
-                        borderRadius: '0.6rem', 
-                        width: '36px', 
-                        height: '36px', 
-                        display: 'flex', 
-                        alignItems: 'center', 
-                        justifyContent: 'center',
-                        transition: 'all 0.2s ease'
-                      }}
-                    >
-                      <div style={{ 
-                        width: `${size + 2}px`, 
-                        height: `${size + 2}px`, 
-                        background: activeSize === size ? 'var(--color-primary)' : 'white', 
-                        borderRadius: '50%',
-                        boxShadow: activeSize === size ? '0 0 8px var(--color-primary)' : 'none'
-                      }}></div>
-                    </button>
-                  ))}
+                <div className="drawer-toolbar__section">
+                  <span className="drawer-toolbar__label">Spessore</span>
+                  <div className="drawer-sizes">
+                    {[3, 6, 12].map(size => (
+                      <button
+                        type="button"
+                        key={size}
+                        className={`drawer-size${activeSize === size ? ' drawer-size--active' : ''}`}
+                        onClick={() => setActiveSize(size)}
+                        aria-label={`Tratto ${size === 3 ? 'sottile' : size === 6 ? 'medio' : 'spesso'}`}
+                        aria-pressed={activeSize === size}
+                      >
+                        <span style={{ width: size + 2, height: size + 2 }} />
+                      </button>
+                    ))}
+                  </div>
                 </div>
-                
-                {/* Colors */}
-                <div style={{ display: 'flex', gap: '0.4rem', flex: 1, padding: '0.3rem', background: 'rgba(0,0,0,0.4)', borderRadius: '0.8rem', flexShrink: 0, alignItems: 'center', justifyContent: 'center' }}>
-                  <div style={{ 
-                    position: 'relative',
-                    width: '40px', 
-                    height: '40px', 
-                    borderRadius: '50%', 
-                    background: activeColor, 
-                    border: '3px solid white', 
-                    flexShrink: 0,
-                    cursor: 'pointer',
-                    transition: 'all 0.2s ease',
-                    boxShadow: `0 0 12px ${activeColor}`,
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center'
-                  }}>
-                    <Palette size={20} color={activeColor === '#ffffff' ? '#000' : '#fff'} style={{ filter: activeColor === '#ffffff' ? 'none' : 'drop-shadow(0px 1px 2px rgba(0,0,0,0.8))', zIndex: 1, pointerEvents: 'none' }} />
-                    <input 
-                      type="color" 
-                      value={activeColor}
-                      onChange={(e) => setActiveColor(e.target.value)}
-                      style={{ 
-                        opacity: 0, 
-                        position: 'absolute', 
-                        inset: 0, 
-                        width: '100%', 
-                        height: '100%', 
-                        cursor: 'pointer',
-                        zIndex: 2
-                      }} 
-                    />
+
+                <div className="drawer-toolbar__section drawer-toolbar__section--colors">
+                  <span className="drawer-toolbar__label">Colore</span>
+                  <div className="drawer-colors no-scrollbar">
+                    <label className="drawer-custom-color" style={{ '--drawing-color': activeColor } as React.CSSProperties}>
+                      <Palette size={18} />
+                      <span>Altro</span>
+                      <input type="color" value={activeColor} onChange={(event) => setActiveColor(event.target.value)} aria-label="Scegli un colore personalizzato" />
+                    </label>
+                    {DRAWING_COLORS.map(color => (
+                      <button
+                        type="button"
+                        key={color}
+                        className={`drawer-color${activeColor.toLowerCase() === color ? ' drawer-color--active' : ''}`}
+                        style={{ '--drawing-color': color } as React.CSSProperties}
+                        onClick={() => setActiveColor(color)}
+                        aria-label={`Scegli il colore ${color}`}
+                        aria-pressed={activeColor.toLowerCase() === color}
+                      />
+                    ))}
                   </div>
                 </div>
               </div>
-              </div>
             </div>
 
-            <div style={
+            <div className="drawer-canvas-area" style={
               isPseudoFullscreen 
               ? { flex: 1, minHeight: 0, minWidth: 0, width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center' }
               : { width: '100%', display: 'flex', justifyContent: 'center' }
             }>
-              <div style={{ 
+              <div className="drawer-canvas-shell" style={{
                 position: 'relative', 
                 height: isPseudoFullscreen ? '100%' : 'auto', 
                 width: isPseudoFullscreen ? 'auto' : '100%',

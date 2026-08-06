@@ -1,0 +1,115 @@
+.drawer-studio {
+  width: 100%;
+  max-width: 760px;
+  min-height: 0;
+}
+
+.drawer-studio--fullscreen {
+  max-width: none;
+  padding: max(.55rem, env(safe-area-inset-top)) max(.55rem, env(safe-area-inset-right)) max(.55rem, env(safe-area-inset-bottom)) max(.55rem, env(safe-area-inset-left)) !important;
+}
+
+.drawer-prompt {
+  position: relative;
+  width: 100%;
+  min-height: 64px;
+  margin-bottom: .65rem;
+  padding: .65rem 3.4rem .65rem 1rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(125, 211, 252, .22);
+  border-radius: 1.15rem;
+  background: linear-gradient(135deg, rgba(14, 165, 233, .17), rgba(37, 99, 235, .08));
+  box-shadow: 0 12px 28px rgba(2, 8, 23, .28);
+}
+
+.drawer-prompt__copy { min-width: 0; display: flex; flex-direction: column; gap: .08rem; }
+.drawer-prompt__copy span { color: #7dd3fc; font-size: .7rem; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; }
+.drawer-prompt__copy strong { overflow: hidden; color: white; font-size: clamp(1.08rem, 5vw, 1.55rem); line-height: 1.08; text-overflow: ellipsis; text-transform: uppercase; white-space: nowrap; }
+.drawer-expand-button { top: 50% !important; right: .65rem !important; width: 42px; height: 42px; padding: 0 !important; border-radius: .85rem !important; }
+
+.drawer-toolbar {
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr);
+  gap: .55rem;
+  margin-bottom: .7rem;
+  padding: .7rem;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 1.25rem;
+  background: rgba(8, 15, 30, .86);
+  box-shadow: 0 14px 34px rgba(2, 8, 23, .42);
+  backdrop-filter: blur(18px);
+}
+
+.drawer-toolbar__section { min-width: 0; display: flex; flex-direction: column; gap: .32rem; }
+.drawer-toolbar__label { padding-left: .15rem; color: rgba(226, 232, 240, .65); font-size: .64rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+.drawer-tools, .drawer-sizes { display: flex; gap: .25rem; padding: .25rem; border-radius: .9rem; background: rgba(0, 0, 0, .3); }
+.drawer-tool, .drawer-size {
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  display: grid;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: .72rem;
+  background: transparent;
+  color: rgba(226, 232, 240, .72);
+  cursor: pointer;
+  transition: transform .18s ease, background .18s ease, border-color .18s ease;
+}
+.drawer-tool:active, .drawer-size:active, .drawer-color:active { transform: scale(.92); }
+.drawer-tool--active { border-color: rgba(125, 211, 252, .45); background: linear-gradient(135deg, #2563eb, #0ea5e9); color: white; box-shadow: 0 6px 18px rgba(14, 165, 233, .32); }
+.drawer-tool--danger { color: #fca5a5; background: rgba(239, 68, 68, .1); border-color: rgba(248, 113, 113, .22); }
+.drawer-size span { display: block; border-radius: 50%; background: #e2e8f0; }
+.drawer-size--active { border-color: rgba(125, 211, 252, .52); background: rgba(14, 165, 233, .18); }
+.drawer-size--active span { background: #38bdf8; box-shadow: 0 0 10px rgba(56, 189, 248, .7); }
+
+.drawer-colors { min-width: 0; display: flex; align-items: center; gap: .38rem; overflow-x: auto; padding: .3rem; border-radius: .9rem; background: rgba(0, 0, 0, .3); }
+.drawer-color { width: 34px; height: 34px; flex: 0 0 34px; border: 2px solid rgba(255, 255, 255, .26); border-radius: 50%; background: var(--drawing-color); box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .12); cursor: pointer; }
+.drawer-color--active { border-color: white; outline: 3px solid #38bdf8; outline-offset: 2px; }
+.drawer-custom-color { position: relative; min-width: 78px; height: 38px; flex: 0 0 auto; display: flex; align-items: center; justify-content: center; gap: .38rem; overflow: hidden; border: 1px solid rgba(255, 255, 255, .22); border-radius: 999px; background: #1e293b; background: linear-gradient(135deg, color-mix(in srgb, var(--drawing-color) 55%, #0f172a), rgba(15, 23, 42, .9)); color: white; font-size: .74rem; font-weight: 850; cursor: pointer; }
+.drawer-custom-color input { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+
+.drawer-canvas-area { min-width: 0; min-height: 0; }
+.drawer-canvas-shell { box-shadow: 0 18px 45px rgba(2, 8, 23, .48), 0 0 0 4px rgba(56, 189, 248, .08); }
+
+@media (max-width: 640px) and (orientation: portrait) {
+  .drawer-studio:not(.drawer-studio--fullscreen) { padding-top: 3.5rem !important; }
+  .drawer-workspace { gap: .1rem !important; }
+  .drawer-toolbar { grid-template-columns: 120px minmax(0, 1fr); }
+  .drawer-toolbar__section:first-child { grid-column: 1 / -1; }
+  .drawer-tools { width: 100%; }
+  .drawer-tool { width: auto; min-width: 38px; flex: 1 1 0; }
+  .drawer-size { width: 34px; height: 38px; flex-basis: 34px; }
+  .drawer-sizes { width: 100%; }
+  .drawer-toolbar__section--colors { min-width: 0; }
+  .drawer-canvas-shell { border-radius: .85rem !important; }
+}
+
+@media (max-width: 360px) and (orientation: portrait) {
+  .drawer-toolbar { padding: .55rem; gap: .42rem; }
+  .drawer-tools { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .drawer-tool { width: 100%; min-width: 34px; height: 38px; }
+  .drawer-size { width: 38px; height: 38px; flex-basis: 38px; }
+  .drawer-prompt { min-height: 58px; }
+  .drawer-canvas-shell { width: calc(100% - 2rem) !important; }
+}
+
+@media (orientation: landscape) {
+  .drawer-studio--landscape .drawer-workspace { gap: .7rem !important; }
+  .drawer-studio--landscape .drawer-sidebar { width: clamp(220px, 30vw, 310px) !important; padding-right: 0 !important; }
+  .drawer-studio--landscape .drawer-toolbar { grid-template-columns: 1fr auto; overflow-y: auto; }
+  .drawer-studio--landscape .drawer-toolbar__section:first-child,
+  .drawer-studio--landscape .drawer-toolbar__section--colors { grid-column: 1 / -1; }
+  .drawer-studio--landscape .drawer-tools { display: grid; grid-template-columns: repeat(4, 1fr); }
+  .drawer-studio--landscape .drawer-tool { width: 100%; min-width: 38px; }
+  .drawer-studio--landscape .drawer-canvas-area { align-items: center; }
+  .drawer-studio--landscape .drawer-canvas-shell { width: auto !important; height: min(100%, calc((100vw - clamp(220px, 30vw, 310px) - 2rem) * .75)) !important; max-height: 100%; }
+}
+
+@media (max-height: 430px) and (orientation: landscape) {
+  .drawer-prompt { min-height: 48px; padding-block: .4rem; margin-bottom: .4rem; }
+  .drawer-toolbar { padding: .45rem; margin-bottom: 0; gap: .35rem; }
+  .drawer-tool, .drawer-size { height: 36px; }
+  .drawer-toolbar__label { display: none; }
+}
