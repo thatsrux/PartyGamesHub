@@ -334,7 +334,8 @@ function HostLobbyContent() {
               <div className={`host-player-grid${playersList.length === 0 ? ' host-player-grid--empty' : ''}`}>
                 {playersList.length === 0 ? (
                   <motion.div className="host-empty-state" animate={{ opacity: [.58, 1, .58] }} transition={{ duration: 2.2, repeat: Infinity }}>
-                    <span>👋</span><strong>Pronti ad accogliere il primo giocatore</strong><small>Il catalogo qui sotto può aiutarvi a scegliere intanto.</small>
+                    <span>👋</span>
+                    <strong>Pronti ad accogliere il primo giocatore</strong>
                   </motion.div>
                 ) : playersList.map((p: any, index) => (
                   <motion.article
