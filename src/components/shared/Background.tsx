@@ -6,9 +6,10 @@ interface BackgroundProps {
   theme?: GameThemeKey;
   children?: React.ReactNode;
   customBackground?: string;
+  contentRef?: React.Ref<HTMLDivElement>;
 }
 
-export default function Background({ theme = 'default', children, customBackground }: BackgroundProps) {
+export default function Background({ theme = 'default', children, customBackground, contentRef }: BackgroundProps) {
   const currentTheme = gameThemes[theme];
 
   return (
@@ -51,7 +52,7 @@ export default function Background({ theme = 'default', children, customBackgrou
       />
       
       {/* Content wrapper */}
-      <div style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', flex: 1, width: '100%', height: '100%', overflowY: 'auto', overflowX: 'hidden' }}>
+      <div ref={contentRef} style={{ position: 'relative', zIndex: 1, display: 'flex', flexDirection: 'column', flex: 1, width: '100%', height: '100%', overflowY: 'auto', overflowX: 'hidden' }}>
         {children}
       </div>
     </div>

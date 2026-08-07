@@ -66,6 +66,26 @@ export default function ClientJoin() {
   const [imageToCrop, setImageToCrop] = useState<string | null>(null);
   const profileInitializedRef = useRef(false);
   const reconciledLobbyProfileRef = useRef('');
+  const adminScrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => {
+      const scrollContainer = adminScrollRef.current;
+      if (scrollContainer) {
+        scrollContainer.scrollTop = 0;
+        scrollContainer.scrollLeft = 0;
+
+        // Mobile browsers may preserve the focused Save button by scrolling the
+        // overflow-hidden Background root while the settings panel unmounts.
+        const background = scrollContainer.parentElement;
+        if (background?.classList.contains('app-background')) {
+          background.scrollTop = 0;
+          background.scrollLeft = 0;
+        }
+      }
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [settingsOpen, multigameSubgameMode]);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -385,7 +405,7 @@ export default function ClientJoin() {
         }
       };
       return (
-        <Background theme="default">
+        <Background theme="default" contentRef={adminScrollRef}>
           <div style={{ flex: 1, overflowY: 'visible', width: '100%', display: 'flex', flexDirection: 'column' }}>
             <div style={{ width: '100%', margin: '0 auto', padding: '1rem', display: 'flex', flexDirection: 'column', flex: 1 }}>
               <ExitButton onExit={handleExit} />
