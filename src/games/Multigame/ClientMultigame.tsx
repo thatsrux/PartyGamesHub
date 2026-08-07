@@ -336,43 +336,23 @@ export default function ClientMultigame({ lobbyCode, userId }: { lobbyCode: stri
                   Hai completato tutti i giochi!
                 </div>
               )}
+
+              <motion.button
+                type="button"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                whileHover={{ scale: 1.03 }}
+                whileTap={{ scale: 0.97 }}
+                onClick={() => setShowConfirm(true)}
+                className="multigame-terminate-button"
+                aria-label="Termina la sessione Multi-Game"
+              >
+                <XCircle size={18} aria-hidden="true" />
+                <span>Termina<span className="multigame-terminate-label-full"> Multi-Game</span></span>
+              </motion.button>
             </div>
           )}
         </motion.div>
-        
-        {isAdmin && (
-           <motion.button
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            onClick={() => setShowConfirm(true)}
-            className="multigame-terminate-button"
-            aria-label="Termina la sessione Multi-Game"
-            style={{
-              position: 'fixed',
-              bottom: '20px',
-              left: '20px',
-              backgroundColor: 'rgba(239, 68, 68, 0.8)',
-              border: '1px solid var(--color-danger)',
-              color: 'white',
-              padding: '0.6rem 1rem',
-              borderRadius: '2rem',
-              fontSize: '0.9rem',
-              fontWeight: 'bold',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '0.5rem',
-              cursor: 'pointer',
-              zIndex: 2000,
-              backdropFilter: 'blur(5px)',
-              boxShadow: '0 4px 6px rgba(0,0,0,0.3)'
-            }}
-          >
-            <XCircle size={18} />
-            <span>Termina<span className="multigame-terminate-label-full"> Multi-Game</span></span>
-          </motion.button>
-        )}
 
         {isAdmin && (
           <AdminPlayersButton onClick={() => setShowManagePlayers(true)} />

@@ -257,10 +257,24 @@ h1 {
 }
 
 .multigame-terminate-button {
-  bottom: max(env(safe-area-inset-bottom), 0.75rem) !important;
-  left: calc(max(env(safe-area-inset-left), 0.75rem) + 6.6rem) !important;
+  align-self: center;
   min-height: 44px;
+  margin-top: 0.25rem;
+  margin-bottom: calc(max(1rem, env(safe-area-inset-bottom)) + 4rem);
+  padding: 0.65rem 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid rgba(248, 113, 113, 0.72);
+  border-radius: 999px;
+  background: rgba(127, 29, 29, 0.34);
+  color: #fecaca;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  font-size: 0.9rem;
+  font-weight: 800;
   white-space: nowrap;
+  cursor: pointer;
 }
 
 .floating-admin-players {
@@ -401,7 +415,6 @@ h1 {
   .profile-header .btn { padding-inline: 0.85rem !important; }
   .multigame-terminate-label-full { display: none; }
   .multigame-terminate-button {
-    left: calc(max(env(safe-area-inset-left), 0.75rem) + 6.25rem) !important;
     padding-inline: 0.8rem !important;
   }
 }
