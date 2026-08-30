@@ -51,6 +51,9 @@ export function useLobby(lobbyCode: string | null) {
     if (!lobbyCode || !userId) return;
 
     const lobbyRef = ref(db, `lobbies/${lobbyCode}`);
+    setLobby(null);
+    setError(null);
+    setIsLoading(true);
     
     const unsubscribe = onValue(lobbyRef, (snapshot) => {
       const data = snapshot.val();
@@ -59,6 +62,11 @@ export function useLobby(lobbyCode: string | null) {
       } else {
         setLobby(null);
       }
+      setIsLoading(false);
+    }, (listenerError) => {
+      console.error('Lobby read error:', listenerError);
+      setLobby(null);
+      setError('Impossibile collegarsi alla stanza. Riprova.');
       setIsLoading(false);
     });
 
@@ -105,30 +113,6 @@ export function useLobby(lobbyCode: string | null) {
 
   const createLobby = async (code: string) => {
     if (!userId) return;
-    
-    // Eseguiamo una Garbage Collection per eliminare le lobby "quittate da tutti"
-    try {
-      const { get } = await import('firebase/database');
-      const snapshot = await get(ref(db, 'lobbies'));
-      if (snapshot.exists()) {
-        const now = Date.now();
-        snapshot.forEach((childSnap) => {
-          const l = childSnap.val();
-          const hasPlayers = l.players && Object.keys(l.players).length > 0;
-          const hasTV = l.tv_present === true;
-          // Se non c'è la TV, non ci sono giocatori, ed è stata creata da più di 1 ora (per sicurezza, fallback),
-          // oppure se semplicemente non c'è nessuno connesso (tv o giocatori).
-          if (!hasTV && !hasPlayers) {
-            remove(childSnap.ref).catch(() => {});
-          } else if (l.createdAt && now - l.createdAt > 24 * 60 * 60 * 1000) {
-            // Elimina comunque lobby vecchie di 24h per sicurezza
-            remove(childSnap.ref).catch(() => {});
-          }
-        });
-      }
-    } catch (e) {
-      console.warn("Garbage collection failed", e);
-    }
 
     const lobbyRef = ref(db, `lobbies/${code}`);
     const tvPresentRef = ref(db, `lobbies/${code}/tv_present`);

@@ -47,13 +47,16 @@ function HostLobbyContent() {
   const [lobbyCode, setLobbyCode] = useState<string | null>(() => sessionStorage.getItem('hostLobbyCode'));
   const [inputCode, setInputCode] = useState('');
   const [isCreated, setIsCreated] = useState(() => !!sessionStorage.getItem('hostLobbyCode'));
+  const [isCreating, setIsCreating] = useState(false);
   const [hasBeenPopulated, setHasBeenPopulated] = useState(false);
   const [error, setError] = useState<string | null>(null);
   
-  const { lobby, createLobby, setGameStatus, returnToLobbyOrNextGame, userId } = useLobby(lobbyCode);
+  const { lobby, createLobby, setGameStatus, returnToLobbyOrNextGame, userId, isLoading, error: lobbyError } = useLobby(lobbyCode);
 
   const handleCreateNew = () => {
     const code = Math.random().toString(36).substring(2, 6).toUpperCase();
+    setError(null);
+    setIsCreated(false);
     sessionStorage.setItem('hostLobbyCode', code);
     setLobbyCode(code);
   };
@@ -77,11 +80,45 @@ function HostLobbyContent() {
 
   // Crea la stanza solo quando siamo autenticati e vogliamo crearla nuova
   useEffect(() => {
-    if (lobbyCode && userId && !isCreated) {
-      createLobby(lobbyCode);
-      setIsCreated(true);
-    }
+    if (!lobbyCode || !userId || isCreated || isCreating) return;
+
+    let active = true;
+    setIsCreating(true);
+    setError(null);
+
+    createLobby(lobbyCode)
+      .then(() => {
+        if (active) setIsCreated(true);
+      })
+      .catch((creationError) => {
+        console.error('Lobby creation error:', creationError);
+        if (!active) return;
+        sessionStorage.removeItem('hostLobbyCode');
+        setLobbyCode(null);
+        setIsCreated(false);
+        setError('Non è stato possibile creare la stanza. Riprova.');
+      })
+      .finally(() => {
+        if (active) setIsCreating(false);
+      });
+
+    return () => { active = false; };
   }, [lobbyCode, userId, isCreated]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Una stanza salvata nella sessione può essere stata eliminata mentre l'host
+  // era chiuso. In quel caso torniamo alla dashboard invece di mostrare un loader infinito.
+  useEffect(() => {
+    if (!lobbyCode || !isCreated || isCreating || isLoading || lobby) return;
+
+    const timeout = window.setTimeout(() => {
+      sessionStorage.removeItem('hostLobbyCode');
+      setLobbyCode(null);
+      setIsCreated(false);
+      setError(lobbyError || 'La stanza precedente non è più disponibile. Creane una nuova.');
+    }, 300);
+
+    return () => window.clearTimeout(timeout);
+  }, [lobbyCode, isCreated, isCreating, isLoading, lobby, lobbyError]);
 
   // Se non ci sono più giocatori durante una partita, interrompi e torna in attesa
   useEffect(() => {
